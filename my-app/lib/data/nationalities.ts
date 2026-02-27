@@ -4085,6 +4085,1191 @@ export const nationalities: Nationality[] = [
       { title: "Irish Heritage in Argentina", url: "/guides/irish-argentina", description: "Historical Irish connections" }
     ],
     image: "/images/nationalities/ireland.webp"
+  },
+  {
+    slug: "argentina",
+    name: "Argentina",
+    demonym: "Argentine",
+    flag: "🇦🇷",
+    title: "Argentine Citizens: Returning Home & Dual Citizenship Guide",
+    subtitle: "Information for Argentine citizens abroad considering return or dual citizenship",
+    description: "Argentine citizens returning home or abroad seeking dual citizenship options will find Argentina welcoming. This guide covers repatriation benefits, citizenship by descent, and pathways for Argentines with foreign-born children.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "Unlimited (citizenship)",
+        notes: "Argentine citizens have unrestricted right of return and residence",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: false,
+        notes: "Not applicable for citizens",
+        incomeRequirement: "N/A"
+      },
+      work: {
+        eligible: true,
+        notes: "Full work rights as citizen",
+        sponsorshipRequired: false
+      },
+      mercosur: {
+        eligible: true,
+        notes: "Argentina is founding member of Mercosur"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: true,
+      type: "Mercosur Full Member",
+      description: "As a founding member of Mercosur, Argentine citizens enjoy freedom of movement across all member countries and visa-free access to associate members.",
+      benefits: [
+        "Freedom of movement in Mercosur",
+        "Visa-free access to 174+ countries",
+        "Right to reside in any Mercosur country",
+        "Consular protection worldwide"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid 10 years (adults), 5 years (minors)",
+      criminalRecord: {
+        required: false,
+        apostille: false,
+        notes: "Not required for citizens"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: false
+      },
+      additionalDocs: [
+        "DNI (Documento Nacional de Identidad)",
+        "Proof of residence abroad (if returning)"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "ARS is local currency. Foreign income advantageous due to exchange rate differentials.",
+      banking: "Full banking access. Dollar accounts available. Argentine citizens can hold foreign currency accounts.",
+      taxTreaty: false,
+      taxTreatyDetails: "Worldwide income taxation applies. Consult accountant for foreign income reporting.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "46+ million citizens",
+      mainLocations: ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "Mar del Plata"],
+      associations: [
+        { name: "Consulados Argentinos Worldwide", url: "https://cancilleria.gob.ar" }
+      ],
+      facebookGroups: [
+        "Argentinos Retornando",
+        "Argentinos en el Exterior"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Birthright citizenship (jus soli) - immediate",
+      timeline: "Immediate for citizens by birth. Naturalization: 2 years legal residency.",
+      steps: [
+        "Verify citizenship status (birth certificate or DNI)",
+        "Obtain/renew Argentine passport",
+        "Update DNI if needed",
+        "Register residence with local authorities",
+        "Access full citizen benefits"
+      ],
+      tips: [
+        "Children born abroad to Argentine parents can claim citizenship",
+        "Renouncing citizenship requires specific legal process",
+        "Military service no longer mandatory",
+        "Voting is mandatory for citizens 18-70"
+      ]
+    },
+    faqs: [
+      {
+        question: "Can I return to Argentina if I have dual citizenship?",
+        answer: "Yes! Argentina allows and recognizes dual citizenship. You can return anytime using your Argentine passport or DNI, with full citizen rights."
+      },
+      {
+        question: "Can my children born abroad get Argentine citizenship?",
+        answer: "Yes. Children born abroad to at least one Argentine parent are entitled to Argentine citizenship by descent. Register them at the nearest consulate."
+      },
+      {
+        question: "Do I need to do military service?",
+        answer: "No. Military service has been voluntary since 1994. There are no obligations for returning citizens."
+      },
+      {
+        question: "Is voting mandatory?",
+        answer: "Yes, for Argentine citizens aged 18-70 residing in Argentina. Voting is mandatory in all elections. Failure to vote can result in fines."
+      },
+      {
+        question: "What documents do I need to return?",
+        answer: "Valid Argentine passport or DNI. If your documents expired abroad, consulates can issue emergency travel documents. Renew DNI upon arrival."
+      }
+    ],
+    relatedResources: [
+      { title: "Citizenship by Descent", url: "/visas/citizenship", description: "Children born abroad to Argentine parents" },
+      { title: "Mercosur Benefits", url: "/visas/temporary", description: "Freedom of movement in South America" }
+    ],
+    image: "/images/nationalities/argentina.webp"
+  },
+  {
+    slug: "belgium",
+    name: "Belgium",
+    demonym: "Belgian",
+    flag: "🇧🇪",
+    title: "Belgian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "EU benefits, chocolate business connections, and quality of life",
+    description: "Belgians find Argentina an attractive destination for its European-style culture, vibrant cities, and business opportunities. Whether you're a chocolate maker, brewer, or tech professional, Argentina offers a welcoming environment with strong EU connections.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Belgians enter visa-free with valid passport. Schengen benefits don't extend to Argentina.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Excellent for EU remote workers. Belgium-based companies common.",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "EU Member Benefits",
+      description: "While no specific bilateral agreement exists, EU citizens enjoy streamlined processing and strong diplomatic support from the Belgian Embassy in Buenos Aires.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available",
+        "EU citizen processing priority",
+        "Consular support in Buenos Aires"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Casier Judiciaire / Uittreksel uit het strafregister with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation in Argentina",
+        "Health insurance coverage",
+        "Proof of income or employment"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "EUR easily exchanged. Major Belgian banks have correspondent relationships.",
+      banking: "Belgian cards work well. ING, BNP Paribas have presence. Wise/Revolut popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Belgium-Argentina tax treaty prevents double taxation. Consult accountant for details.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "1,500-2,500 Belgian nationals",
+      mainLocations: ["Buenos Aires", "Bariloche", "Mendoza"],
+      associations: [
+        { name: "Belgian Chamber of Commerce Argentina", url: "https://belgianchamber.com.ar" }
+      ],
+      facebookGroups: [
+        "Belges en Argentine / Belgen in Argentinië"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa if remote worker",
+        "Submit documents with apostille",
+        "Receive temporary residency (1 year, renewable)",
+        "After 2 years, apply for permanent residency"
+      ],
+      tips: [
+        "Belgian chocolates and beer are popular in Argentina - business opportunities exist",
+        "Learn Spanish before arrival - essential for daily life",
+        "Join expat groups for housing advice",
+        "Consider Bariloche for outdoor lifestyle"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Belgians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency (digital nomad, work, or student visa)."
+      },
+      {
+        question: "Is there a Belgian community in Argentina?",
+        answer: "Yes, approximately 1,500-2,500 Belgians live in Argentina, mostly in Buenos Aires. There's also a Belgian Chamber of Commerce."
+      },
+      {
+        question: "Can Belgians get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency, Belgians can apply for permanent residency, leading to citizenship eligibility after 2 more years."
+      },
+      {
+        question: "Do Belgian cards work in Argentina?",
+        answer: "Yes, Belgian cards work in Argentina. BNP Paribas and ING have correspondent relationships. Many Belgians use Wise or Revolut for transfers."
+      },
+      {
+        question: "Is there a tax treaty between Belgium and Argentina?",
+        answer: "Yes, there is a double taxation treaty. This prevents paying tax on the same income in both countries. Consult an accountant for optimization."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "Guide for remote workers" },
+      { title: "EU Citizens in Argentina", url: "/guides/eu-expats", description: "Resources for European expats" }
+    ],
+    image: "/images/nationalities/belgium.webp"
+  },
+  {
+    slug: "switzerland",
+    name: "Switzerland",
+    demonym: "Swiss",
+    flag: "🇨🇭",
+    title: "Swiss Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Alpine connections, precision industry opportunities, and quality living",
+    description: "Switzerland and Argentina share deep historical ties, with Swiss immigrants helping build Argentina's infrastructure and dairy industry. Today, Swiss professionals, retirees, and entrepreneurs continue to find opportunities in this welcoming South American nation.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Swiss enter visa-free. Switzerland is not EU but has similar Schengen benefits.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Popular among Swiss remote workers and consultants",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or independent permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "EFTA Cooperation",
+      description: "While no specific immigration agreement exists, Switzerland's EFTA status and strong diplomatic presence facilitate visa processing.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Strong Swiss Embassy support",
+        "Digital nomad visa available",
+        "Business-friendly environment"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Führungszeugnis / Casier Judiciaire / Certificato Penale with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of health insurance",
+        "Financial solvency proof",
+        "Swiss residence proof (if applicable)"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "CHF can be exchanged but USD/EUR preferred. Swiss banks have correspondent relationships.",
+      banking: "Swiss cards work internationally. UBS, Credit Suisse clients find banking straightforward.",
+      taxTreaty: true,
+      taxTreatyDetails: "Switzerland-Argentina tax treaty prevents double taxation. Consult Swiss tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "15,000-20,000 (including Swiss descent)",
+      mainLocations: ["Buenos Aires", "Santa Fe (Swiss heritage)", "Córdoba"],
+      associations: [
+        { name: "Swiss-Argentine Chamber of Commerce", url: "https://casuizargentina.com" },
+        { name: "Swiss Club Buenos Aires", url: "https://swissclubba.org" }
+      ],
+      facebookGroups: [
+        "Suizos en Argentina",
+        "Schweizer in Argentinien"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers and consultants",
+      timeline: "Digital nomad: 30-60 days. Retirement visa: 2-3 months.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Choose appropriate visa pathway",
+        "Prepare documents with apostille",
+        "Apply at migraciones",
+        "After 2 years temporary, apply for permanent"
+      ],
+      tips: [
+        "Swiss precision industries (watches, pharma) have opportunities",
+        "Santa Fe province has Swiss heritage towns",
+        "Swiss-German speakers find German communities in Bariloche",
+        "Consider retirement visa if over 60 with pension"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Swiss citizens need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency (digital nomad, work, retirement, or student visa)."
+      },
+      {
+        question: "Is there a Swiss community in Argentina?",
+        answer: "Yes, approximately 15,000-20,000 Swiss nationals and descendants. Strong presence in Buenos Aires and Santa Fe province with Swiss heritage towns."
+      },
+      {
+        question: "Can Swiss get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency, Swiss citizens can apply for permanent residency. Citizenship follows after 2 more years."
+      },
+      {
+        question: "Is there a tax treaty between Switzerland and Argentina?",
+        answer: "Yes, a double taxation treaty exists. Swiss tax advisors familiar with Argentina can help optimize your tax situation."
+      },
+      {
+        question: "Can I use Swiss German in Argentina?",
+        answer: "In daily life, Spanish is essential. However, there's a German-speaking community in Bariloche, and some Swiss clubs maintain German language connections."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
+      { title: "Retirement Visa", url: "/visas/retirement", description: "For pensioners" }
+    ],
+    image: "/images/nationalities/switzerland.webp"
+  },
+  {
+    slug: "sweden",
+    name: "Sweden",
+    demonym: "Swedish",
+    flag: "🇸🇪",
+    title: "Swedish Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Nordic lifestyle, tech opportunities, and sustainable living",
+    description: "Swedes are drawn to Argentina's vibrant culture, outdoor lifestyle, and growing tech scene. With a small but active community in Buenos Aires, Swedish citizens find opportunities in sustainability, design, and remote work while enjoying Argentina's quality of life.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Swedes enter visa-free with valid passport.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Popular among Swedish tech workers and designers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "EU Member Benefits",
+      description: "No specific bilateral agreement, but EU membership facilitates processing and provides consular support through the Swedish Embassy.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available",
+        "EU citizen priority processing",
+        "Swedish consular services"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Belastningsregisterutdrag with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance for stay duration",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "SEK not easily exchanged. Bring USD/EUR or use Wise/Revolut.",
+      banking: "Swedish cards work in Argentina. Many use Wise or Revolut for transfers. SEB and Handelsbanken have correspondent banks.",
+      taxTreaty: true,
+      taxTreatyDetails: "Sweden-Argentina tax treaty prevents double taxation. Skatteverket can provide guidance.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "800-1,200 Swedish nationals",
+      mainLocations: ["Buenos Aires", "Bariloche", "Patagonia"],
+      associations: [
+        { name: "Swedish Club Buenos Aires", url: "https://swedishclub.com.ar" }
+      ],
+      facebookGroups: [
+        "Svenskar i Argentina",
+        "Swedes in Buenos Aires"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate at migraciones.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa if working remotely",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent residency"
+      ],
+      tips: [
+        "Swedish design and sustainability expertise is valued",
+        "Learn Spanish - essential for daily life",
+        "Join Swedish community for support",
+        "Consider Bariloche for outdoor lifestyle similar to Sweden"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Swedes need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      },
+      {
+        question: "Is there a Swedish community in Argentina?",
+        answer: "Yes, approximately 800-1,200 Swedes live in Argentina, mainly in Buenos Aires. There's an active Swedish Club."
+      },
+      {
+        question: "Can Swedes get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency. Citizenship eligibility follows after 2 more years."
+      },
+      {
+        question: "Is there a tax treaty?",
+        answer: "Yes, Sweden and Argentina have a double taxation treaty. Contact Skatteverket for guidance."
+      },
+      {
+        question: "What visa is best for Swedish remote workers?",
+        answer: "The Digital Nomad Visa is ideal for Swedes working remotely for Swedish or international companies."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
+      { title: "Learn Spanish", url: "/learn-spanish", description: "Language courses in Argentina" }
+    ],
+    image: "/images/nationalities/sweden.webp"
+  },
+  {
+    slug: "norway",
+    name: "Norway",
+    demonym: "Norwegian",
+    flag: "🇳🇴",
+    title: "Norwegian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Seafaring heritage, salmon industry connections, and outdoor lifestyle",
+    description: "Norwegians find Argentina's diverse landscapes, from Patagonian fjords to mountain lakes, reminiscent of home. With growing business ties in aquaculture and renewable energy, plus a welcoming community in Buenos Aires, Norway and Argentina continue their century-old friendship.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Norwegians enter visa-free with valid passport.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Excellent for Norwegian remote workers and consultants",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "Schengen Cooperation",
+      description: "No specific bilateral immigration agreement, but Norway's EEA status and strong diplomatic presence facilitate visa processing.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available",
+        "Strong Norwegian Embassy support",
+        "Business-friendly environment"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Politiet registeringsuttalelse with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation in Argentina",
+        "Health insurance coverage",
+        "Proof of financial means"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "NOK not easily exchanged. Use Wise/Revolut or bring USD.",
+      banking: "Norwegian cards work well. DNB and Nordea have correspondent relationships. Wise popular for transfers.",
+      taxTreaty: true,
+      taxTreatyDetails: "Norway-Argentina tax treaty prevents double taxation. Skatteetaten provides guidance.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "600-1,000 Norwegian nationals",
+      mainLocations: ["Buenos Aires", "Patagonia", "Bariloche"],
+      associations: [
+        { name: "Norsk-Argentinsk Handelskammer", url: "https://nahk.com.ar" }
+      ],
+      facebookGroups: [
+        "Nordmenn i Argentina",
+        "Norwegians in Buenos Aires"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa if eligible",
+        "Submit documents with apostille",
+        "Receive temporary residency (1 year)",
+        "After 2 years, apply for permanent residency"
+      ],
+      tips: [
+        "Norwegian aquaculture expertise is in demand",
+        "Patagonia resembles Norwegian landscapes",
+        "Learn Spanish before arrival",
+        "Connect with Norwegian business networks"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Norwegians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      },
+      {
+        question: "Is there a Norwegian community?",
+        answer: "Yes, approximately 600-1,000 Norwegians live in Argentina, concentrated in Buenos Aires and Patagonia areas."
+      },
+      {
+        question: "Can Norwegians get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency, Norwegians can apply for permanent residency."
+      },
+      {
+        question: "Is there a tax treaty?",
+        answer: "Yes, Norway and Argentina have a double taxation treaty. Contact Skatteetaten for tax residency questions."
+      },
+      {
+        question: "What's the best visa for Norwegian remote workers?",
+        answer: "The Digital Nomad Visa is perfect for Norwegians working remotely. Requires proof of income and health insurance."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
+      { title: "Patagonia Guide", url: "/guides/patagonia", description: "Norwegian-like landscapes" }
+    ],
+    image: "/images/nationalities/norway.webp"
+  },
+  {
+    slug: "denmark",
+    name: "Denmark",
+    demonym: "Danish",
+    flag: "🇩🇰",
+    title: "Danish Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Hygge lifestyle, design expertise, and sustainable business opportunities",
+    description: "Danes bring their design sensibility, sustainability focus, and quality of life values to Argentina. Whether you're a designer, tech professional, or retiree, Argentina offers Danish citizens visa-free entry, affordable living, and a growing community in Buenos Aires.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Danes enter visa-free with valid passport.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Popular among Danish designers and tech workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "EU Member Benefits",
+      description: "No specific bilateral immigration agreement, but EU membership and strong diplomatic ties facilitate visa processing.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available",
+        "EU citizen processing priority",
+        "Danish Embassy support in Buenos Aires"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Straffeattest from Rigspolitiet with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Financial means proof"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "DKK not easily exchanged. Bring USD or use Wise/Revolut.",
+      banking: "Danish cards work in Argentina. Danske Bank and Nordea have correspondent relationships. Wise popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Denmark-Argentina tax treaty prevents double taxation. SKAT provides guidance.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "500-800 Danish nationals",
+      mainLocations: ["Buenos Aires", "Mendoza", "Bariloche"],
+      associations: [
+        { name: "Dansk-Argentinsk Selskab", url: "https://danskbuenosaires.com" }
+      ],
+      facebookGroups: [
+        "Danskere i Argentina",
+        "Danes in Buenos Aires"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa if working remotely",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Danish design expertise is valued in Argentina",
+        "Learn Spanish before arrival",
+        "Connect with Danish community for support",
+        "Consider Mendoza for wine country lifestyle"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Danes need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      },
+      {
+        question: "Is there a Danish community?",
+        answer: "Yes, approximately 500-800 Danes live in Argentina, mainly in Buenos Aires. There's a Danish Society."
+      },
+      {
+        question: "Can Danes get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency. Citizenship follows after 2 more years."
+      },
+      {
+        question: "Is there a tax treaty?",
+        answer: "Yes, Denmark and Argentina have a double taxation treaty. Contact SKAT for tax residency guidance."
+      },
+      {
+        question: "What's the best visa for Danish remote workers?",
+        answer: "The Digital Nomad Visa is ideal for Danes working remotely for Danish or international companies."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
+      { title: "Retirement Visa", url: "/visas/retirement", description: "For pensioners" }
+    ],
+    image: "/images/nationalities/denmark.webp"
+  },
+  {
+    slug: "finland",
+    name: "Finland",
+    demonym: "Finnish",
+    flag: "🇫🇮",
+    title: "Finnish Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Sauna culture, tech innovation, and Patagonian adventures",
+    description: "Finns find Argentina's diverse landscapes and welcoming culture a perfect match for their love of nature and quality living. With growing opportunities in tech and education, plus a small but active community in Buenos Aires, Finland and Argentina share increasing connections.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Finns enter visa-free with valid passport.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Excellent for Finnish tech workers and consultants",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "EU Member Benefits",
+      description: "No specific bilateral agreement, but EU membership facilitates processing and Finnish education credentials are recognized.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available",
+        "EU processing priority",
+        "Education credentials recognized"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Ote rikosrekisteristä from Poliisi with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "EUR easily exchanged. USD also widely accepted for exchange.",
+      banking: "Finnish cards work well. Nordea has strong presence. Wise/Revolut popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Finland-Argentina tax treaty prevents double taxation. Vero provides guidance.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "400-600 Finnish nationals",
+      mainLocations: ["Buenos Aires", "Patagonia", "Ushuaia"],
+      associations: [
+        { name: "Finnish-Argentine Association", url: "https://finlandiaargentina.com" }
+      ],
+      facebookGroups: [
+        "Suomalaiset Argentiinassa",
+        "Finns in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa if eligible",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Finnish tech skills are in demand",
+        "Learn Spanish - essential for daily life",
+        "Join Finnish community for support",
+        "Consider Ushuaia for unique southern experience"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Finns need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      },
+      {
+        question: "Is there a Finnish community?",
+        answer: "Yes, approximately 400-600 Finns live in Argentina, mainly in Buenos Aires. There's a Finnish-Argentine Association."
+      },
+      {
+        question: "Can Finns get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency. Citizenship follows after 2 more years."
+      },
+      {
+        question: "Is there a tax treaty?",
+        answer: "Yes, Finland and Argentina have a double taxation treaty. Contact Vero for tax guidance."
+      },
+      {
+        question: "What's the best visa for Finnish remote workers?",
+        answer: "The Digital Nomad Visa is perfect for Finns working remotely. Finnish tech workers are particularly in demand."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
+      { title: "Tech Jobs in Argentina", url: "/remote-work", description: "Tech opportunities" }
+    ],
+    image: "/images/nationalities/finland.webp"
+  },
+  {
+    slug: "poland",
+    name: "Poland",
+    demonym: "Polish",
+    flag: "🇵🇱",
+    title: "Polish Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Growing community, EU benefits, and cultural connections",
+    description: "Poland and Argentina share deep historical ties, with Argentina home to one of the largest Polish communities in South America. Polish citizens today find visa-free entry, EU privileges, and a welcoming established community that dates back generations.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Poles enter visa-free with valid passport.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Popular among Polish tech workers and professionals",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "EU Member Benefits",
+      description: "No specific bilateral agreement, but EU membership and large Polish-Argentine community facilitate integration.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available",
+        "Large Polish community support",
+        "Polish heritage organizations"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Zaświadczenie o niekaralności from Policja with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of financial means"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "PLN not easily exchanged. Bring USD/EUR or use Wise/Revolut.",
+      banking: "Polish cards work in Argentina. mBank and ING popular. Wise used for transfers.",
+      taxTreaty: true,
+      taxTreatyDetails: "Poland-Argentina tax treaty prevents double taxation. Consult Polish tax office.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "500,000+ of Polish descent; 2,000-3,000 Polish nationals",
+      mainLocations: ["Buenos Aires (Retiro, Belgrano)", "Córdoba", "Santa Fe"],
+      associations: [
+        { name: "Polish Association of Buenos Aires", url: "https://poloniaargentina.org" },
+        { name: "Polish Embassy Buenos Aires", url: "https://buenosaires.msz.gov.pl" }
+      ],
+      facebookGroups: [
+        "Polacy w Argentynie",
+        "Polish Community Buenos Aires"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa if eligible",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Large Polish community provides excellent support",
+        "Polish language schools and cultural centers available",
+        "Connect with Polonia organizations",
+        "Learn Spanish for daily life"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Poles need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      },
+      {
+        question: "Is there a Polish community in Argentina?",
+        answer: "Yes! Argentina has one of the largest Polish communities in South America (500,000+ of Polish descent). Strong presence in Buenos Aires, Retiro, and Belgrano neighborhoods."
+      },
+      {
+        question: "Can Poles get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency. Citizenship follows after 2 more years."
+      },
+      {
+        question: "Is there a tax treaty?",
+        answer: "Yes, Poland and Argentina have a double taxation treaty. Contact Polish tax authorities for guidance."
+      },
+      {
+        question: "What's the best visa for Polish remote workers?",
+        answer: "The Digital Nomad Visa is ideal for Poles working remotely. Large Polish community makes integration easier."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
+      { title: "Polish Heritage", url: "/guides/polish-argentina", description: "Polish community history" }
+    ],
+    image: "/images/nationalities/poland.webp"
+  },
+  {
+    slug: "czech-republic",
+    name: "Czech Republic",
+    demonym: "Czech",
+    flag: "🇨🇿",
+    title: "Czech Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "EU opportunities, beer culture connections, and growing community",
+    description: "Czech citizens find Argentina's European-influenced culture, vibrant beer scene, and growing tech sector welcoming. With a small but active community in Buenos Aires and strong EU benefits, Czechs enjoy visa-free entry and straightforward pathways to residency.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Czechs enter visa-free with valid passport.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Popular among Czech tech workers and developers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "EU Member Benefits",
+      description: "No specific bilateral agreement, but EU membership and Czech expertise in manufacturing and IT facilitate opportunities.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available",
+        "EU processing priority",
+        "Tech sector opportunities"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Výpis z evidence rejstříku trestů with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "CZK not easily exchanged. Bring USD/EUR or use Wise/Revolut.",
+      banking: "Czech cards work in Argentina. ČSOB and KB have correspondent relationships. Wise popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Czech Republic-Argentina tax treaty prevents double taxation.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo:    {
+      populationInArgentina: "1,500-2,000 Czech nationals",
+      mainLocations: ["Buenos Aires", "Mendoza", "Bariloche"],
+      associations: [
+        { name: "Czech Centre Buenos Aires", url: "https://buenosaires.czechcentres.cz" }
+      ],
+      facebookGroups: [
+        "Češi v Argentině",
+        "Czechs in Buenos Aires"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa if eligible",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Czech beer culture appreciated in Argentina",
+        "Learn Spanish before arrival",
+        "Connect with Czech community for support",
+        "Consider Mendoza for wine region lifestyle"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Czechs need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      },
+      {
+        question: "Is there a Czech community?",
+        answer: "Yes, approximately 1,500-2,000 Czechs live in Argentina, mainly in Buenos Aires. There's a Czech Centre."
+      },
+      {
+        question: "Can Czechs get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency. Citizenship follows after 2 more years."
+      },
+      {
+        question: "Is there a tax treaty?",
+        answer: "Yes, the Czech Republic and Argentina have a double taxation treaty."
+      },
+      {
+        question: "What's the best visa for Czech remote workers?",
+        answer: "The Digital Nomad Visa is perfect for Czech tech workers and developers working remotely."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
+      { title: "Beer Culture", url: "/food/beer", description: "Argentina's craft beer scene" }
+    ],
+    image: "/images/nationalities/czech-republic.webp"
+  },
+  {
+    slug: "ukraine",
+    name: "Ukraine",
+    demonym: "Ukrainian",
+    flag: "🇺🇦",
+    title: "Ukrainian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Humanitarian pathways, growing community, and new beginnings",
+    description: "Argentina has welcomed Ukrainian refugees and immigrants with open arms, offering humanitarian visas, work authorization, and a supportive community. With simplified processes and strong cultural ties, Ukraine nationals find Argentina a safe and welcoming new home.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (visa required)",
+        notes: "Ukrainians need tourist visa (simplified process currently available).",
+        reciprocityFee: false,
+        feeAmount: "$0 (waived for humanitarian reasons)"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers with simplified processing",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visas available with expedited processing for Ukrainians",
+        sponsorshipRequired: false
+      }
+    },
+    specialAgreements: {
+      hasAgreement: true,
+      type: "Humanitarian Visa Program",
+      description: "Argentina offers expedited humanitarian visas for Ukrainians, including temporary residency, work authorization, and family reunification.",
+      benefits: [
+        "Expedited humanitarian visa processing",
+        "Work authorization included",
+        "Family reunification available",
+        "Path to permanent residency"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: false,
+        apostille: false,
+        notes: "Waived for humanitarian visas. Civil state certificate may substitute."
+      },
+      birthCertificate: {
+        required: true,
+        apostille: false
+      },
+      additionalDocs: [
+        "Ukrainian passport or ID",
+        "Proof of Ukrainian residence (if applicable)",
+        "Family documentation for reunification"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "UAH not easily exchanged. Bring USD/EUR or use crypto/Wise.",
+      banking: "Ukrainian cards have limited function. Open local account upon arrival. Aid organizations can assist.",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult accountant for tax residency planning.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "10,000+ (rapidly growing since 2022)",
+      mainLocations: ["Buenos Aires", "Mar del Plata", "Córdoba"],
+      associations: [
+        { name: "Ukrainian-Argentine Association", url: "https://facebook.com/ukrainianargentina" },
+        { name: "Help for Ukraine Argentina", url: "https://helpukraine.ar" }
+      ],
+      facebookGroups: [
+        "Українці в Аргентині",
+        "Ukrainians in Argentina - Підтримка"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Humanitarian Visa (expedited process)",
+      timeline: "Humanitarian visa: 1-2 weeks. Temporary residency: immediate upon arrival.",
+      steps: [
+        "Contact Argentine consulate or embassy (Warsaw, neighboring countries)",
+        "Apply for humanitarian visa (expedited)",
+        "Travel to Argentina",
+        "Apply for temporary residency at migraciones",
+        "Receive work authorization and DNI"
+      ],
+      tips: [
+        "Humanitarian visas processed quickly",
+        "Ukrainian community very supportive",
+        "Many aid organizations available to help",
+        "Learn Spanish for integration"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Ukrainians need a visa for Argentina?",
+        answer: "Currently, Ukrainians can apply for expedited humanitarian visas at Argentine consulates. The process is streamlined and fee-waived for humanitarian reasons."
+      },
+      {
+        question: "Is there support for Ukrainian refugees?",
+        answer: "Yes, Argentina offers humanitarian visas with work authorization, community support, and aid organizations. The Ukrainian community is very active in helping newcomers."
+      },
+      {
+        question: "How big is the Ukrainian community?",
+        answer: "Approximately 10,000+ Ukrainians live in Argentina, with rapid growth since 2022. Strong community in Buenos Aires with support networks."
+      },
+      {
+        question: "Can Ukrainians work immediately?",
+        answer: "Yes, humanitarian visas include work authorization. You can work immediately upon receiving your DNI (Argentine ID card)."
+      },
+      {
+        question: "How long until permanent residency?",
+        answer: "After 2 years of temporary residency (humanitarian visa converts), Ukrainians can apply for permanent residency. Citizenship follows after 2 more years."
+      }
+    ],
+    relatedResources: [
+      { title: "Humanitarian Visa", url: "/visas/humanitarian", description: "Expedited process for Ukrainians" },
+      { title: "Refugee Support", url: "/guides/refugee-support", description: "Resources and aid organizations" }
+    ],
+    image: "/images/nationalities/ukraine.webp"
   }
 ];
 

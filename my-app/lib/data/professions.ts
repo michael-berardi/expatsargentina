@@ -3843,6 +3843,1735 @@ export const professions: Profession[] = [
       }
     ],
     image: "/images/professions/course-creator.webp"
+  },
+  {
+    slug: "machine-learning-engineer",
+    name: "Machine Learning Engineer",
+    title: "Machine Learning Engineer Guide for Argentina",
+    subtitle: "Build AI and ML systems from Latin America's tech hub",
+    description: "Machine Learning is one of tech's highest-paying fields. Learn how ML engineers can build remote careers serving international companies from Argentina.",
+    icon: "BarChart",
+    category: "tech",
+    overview: "Machine Learning Engineering combines software engineering with data science to build production AI systems. It's one of the highest-paying specializations in tech, with US companies paying $100-200+/hour for experienced ML engineers. Argentina produces strong ML talent through excellent technical universities and a growing AI community. The work is entirely remote-friendly - model development, training, deployment, and monitoring all happen through cloud platforms. ML engineers work on recommendation systems, computer vision, NLP, and predictive analytics. The profession requires strong programming skills (Python), ML frameworks (TensorFlow, PyTorch), and cloud platforms. Buenos Aires has an active ML community with regular meetups and ML-focused events.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For ML engineers working remotely for international AI companies. Most suitable pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Highly Skilled Worker Visa",
+        description: "For senior ML engineers with specialized AI expertise.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For ML engineers hired by multinational tech companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Strong programming skills (Python essential)",
+      "ML framework expertise (TensorFlow, PyTorch, or similar)",
+      "Experience with cloud ML platforms (AWS SageMaker, Google Vertex AI)",
+      "Portfolio of ML projects or published models",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "CS, Math, or related degree preferred"
+    ],
+    incomeRequirements: {
+      description: "ML engineers command top-tier rates due to high demand and skill scarcity",
+      amount: "$3,000 - $10,000+ USD/month",
+      notes: "Senior ML engineers earn $100-200+/hour with US tech companies"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "ML engineering is perfectly suited for remote work. Model development, training on cloud GPUs, deployment, and monitoring all happen through cloud platforms and collaborative tools.",
+      considerations: [
+        "Extremely high global demand for ML engineers",
+        "Talent shortage drives premium compensation",
+        "Cloud platforms enable fully remote ML workflows",
+        "Argentina's strong math/cs education produces good ML talent",
+        "Can contribute to open-source ML projects globally",
+        "Continuous learning required as field evolves rapidly"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $2,000,000-5,500,000/month ($1,600-4,400 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["AI/ML", "Fintech", "E-commerce", "Healthcare", "Enterprise Software"]
+    },
+    professionalAssociations: [
+      {
+        name: "Machine Learning Argentina",
+        description: "Local ML community"
+      },
+      {
+        name: "Python Argentina (PyAr)",
+        description: "Python community with ML focus"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "ML engineering values demonstrated skills, portfolio, and contributions over formal credentials. Degrees in CS, Math, or Statistics help but aren't required.",
+      process: "Portfolio and demonstrated expertise primary factors"
+    },
+    taxConsiderations: [
+      "Remote ML work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo",
+      "Keep records of client contracts and equipment purchases",
+      "Cloud computing costs may be deductible"
+    ],
+    networkingTips: [
+      "Attend ML meetups and conferences",
+      "Contribute to open-source ML projects",
+      "Publish on Medium or personal blog about ML topics",
+      "Engage with ML communities on Twitter/X and LinkedIn",
+      "Participate in Kaggle competitions"
+    ],
+    faqs: [
+      {
+        question: "What's the difference between data scientist and ML engineer?",
+        answer: "Data scientists focus on analysis, experimentation, and insights from data. ML engineers focus on building production systems that deploy and scale ML models. ML engineers typically have stronger software engineering skills and focus on infrastructure, deployment, and system design. Both are in high demand."
+      },
+      {
+        question: "Do I need a PhD to work in ML?",
+        answer: "No, while PhDs are common in research roles, many ML engineers have bachelor's or master's degrees. Strong programming skills, portfolio projects, and demonstrated ability to build production systems matter more than academic credentials for most industry roles."
+      }
+    ],
+    relatedProfessions: ["data-scientist", "software-developer", "data-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote ML work"
+      },
+      {
+        title: "Tech Community Guide",
+        url: "/community/tech",
+        description: "Connect with ML community"
+      }
+    ],
+    image: "/images/professions/machine-learning-engineer.webp"
+  },
+  {
+    slug: "full-stack-developer",
+    name: "Full Stack Developer",
+    title: "Full Stack Developer Guide for Argentina",
+    subtitle: "Build complete web applications from Argentina",
+    description: "Full stack developers are among the most in-demand tech professionals. Learn about opportunities for full stack devs working remotely from Argentina.",
+    icon: "Code",
+    category: "tech",
+    overview: "Full Stack Developers work across both frontend and backend, building complete web applications. They're among the most versatile and in-demand developers. Argentine full stack devs are highly sought after by US companies for their technical skills, English proficiency, and competitive rates ($40-100+/hour). The profession offers excellent remote work opportunities - all development happens on computers, with collaboration through Git, Slack, and video calls. Buenos Aires has a thriving web development community with strong representation in JavaScript, Python, and Ruby ecosystems. Full stack developers can work on everything from startups to enterprise applications.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Perfect for full stack devs working remotely. Most common pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Sponsorship)",
+        description: "For devs hired by Argentine tech companies or multinationals.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      },
+      {
+        name: "Highly Skilled Worker Visa",
+        description: "For senior full stack developers with specialized expertise.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Frontend expertise (React, Vue, or Angular)",
+      "Backend expertise (Node.js, Python, Ruby, or similar)",
+      "Database knowledge (SQL, NoSQL)",
+      "Portfolio of full applications",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Full stack developers command strong rates due to versatility",
+      amount: "$2,000 - $7,000+ USD/month",
+      notes: "Senior full stack devs earn $60-120+/hour with US clients"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Full stack development is ideally suited for remote work. All coding, testing, and deployment happen digitally. Modern tools enable seamless collaboration with distributed teams.",
+      considerations: [
+        "Extremely high demand for full stack developers",
+        "Versatility increases job opportunities",
+        "Can work on diverse projects across industries",
+        "Time zone alignment with US enables collaboration",
+        "Argentina's strong web dev community",
+        "Lower living costs support competitive rates"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-4,000,000/month ($1,200-3,200 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza", "Rosario"],
+      industries: ["Web Development", "Startups", "E-commerce", "SaaS", "Fintech"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Full stack development is portfolio-driven. Working applications and code quality matter more than formal credentials."
+    },
+    taxConsiderations: [
+      "Remote development typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Contribute to open-source projects",
+      "Attend JavaScript and web dev meetups",
+      "Build portfolio with deployed applications"
+    ],
+    faqs: [
+      {
+        question: "What tech stack should I learn for maximum opportunity?",
+        answer: "JavaScript/TypeScript with React on frontend and Node.js on backend is most in-demand. Python/Django or Flask is also strong. The MERN stack (Mongo, Express, React, Node) is popular for startups. Knowing both SQL and NoSQL databases helps. Cloud deployment (AWS, Vercel) skills are increasingly important."
+      }
+    ],
+    relatedProfessions: ["software-developer", "mobile-app-developer", "devops-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote development"
+      }
+    ],
+    image: "/images/professions/full-stack-developer.webp"
+  },
+  {
+    slug: "backend-developer",
+    name: "Backend Developer",
+    title: "Backend Developer Guide for Argentina",
+    subtitle: "Build server-side systems and APIs from Argentina",
+    description: "Backend developers power the systems behind web and mobile apps. Learn about remote opportunities for backend specialists in Argentina.",
+    icon: "Code",
+    category: "tech",
+    overview: "Backend Developers build the server-side logic, databases, and APIs that power applications. They work with databases, server frameworks, and cloud infrastructure. It's a high-demand specialization with US companies paying $50-120+/hour for experienced backend devs. Argentine backend developers are known for strong algorithmic skills and reliability. The work is entirely remote-friendly - all development happens on computers with collaboration through standard dev tools. Backend specialists often command higher rates than frontend developers due to the complexity of systems design and scalability challenges.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For backend devs working remotely for international companies.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Sponsorship)",
+        description: "For devs hired by tech companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Backend language expertise (Java, Python, Node.js, Go, or similar)",
+      "Database design and optimization skills",
+      "API design experience (REST, GraphQL)",
+      "Portfolio demonstrating backend systems",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Backend developers earn strong rates for specialized skills",
+      amount: "$2,000 - $6,000+ USD/month",
+      notes: "Senior backend devs earn $50-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Backend development is entirely remote-friendly. All work happens on development machines with deployment to cloud infrastructure.",
+      considerations: [
+        "High demand for backend specialists",
+        "Systems design skills command premium rates",
+        "Can work on critical infrastructure projects",
+        "Lower living costs support competitive pricing",
+        "Strong algorithmic skills valued"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-3,800,000/month ($1,200-3,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Software Development", "Fintech", "Enterprise", "SaaS"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and demonstrated backend expertise matter most."
+    },
+    taxConsiderations: [
+      "Remote work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Contribute to backend open-source projects",
+      "Write technical blog posts",
+      "Attend backend-focused meetups"
+    ],
+    faqs: [
+      {
+        question: "Which backend language is most in demand?",
+        answer: "Node.js and Python are most popular for startups. Java and C# dominate enterprise. Go is growing for high-performance systems. Python is strong in data/AI companies. Node.js offers versatility for full-stack work."
+      }
+    ],
+    relatedProfessions: ["software-developer", "full-stack-developer", "devops-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote backend work"
+      }
+    ],
+    image: "/images/professions/backend-developer.webp"
+  },
+  {
+    slug: "frontend-developer",
+    name: "Frontend Developer",
+    title: "Frontend Developer Guide for Argentina",
+    subtitle: "Build user interfaces and web experiences from Argentina",
+    description: "Frontend developers create the visual and interactive parts of web applications. Learn about remote opportunities in this high-demand field.",
+    icon: "Code",
+    category: "tech",
+    overview: "Frontend Developers build the user interfaces and experiences that users interact with. They work with HTML, CSS, JavaScript, and modern frameworks like React, Vue, and Angular. It's a creative and technical role with strong demand. US companies pay $40-100+/hour for skilled frontend devs. Argentine frontend developers bring strong design sensibility and technical skills. The work is entirely remote - all development happens in browsers and code editors. Frontend devs often collaborate closely with designers and backend developers. The profession offers good work-life balance and creative satisfaction from building visible user experiences.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For frontend devs working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Sponsorship)",
+        description: "For devs hired by companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Strong JavaScript/TypeScript skills",
+      "Framework expertise (React, Vue, or Angular)",
+      "CSS and responsive design knowledge",
+      "Portfolio of frontend projects",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Frontend developers earn competitive rates",
+      amount: "$2,000 - $6,000+ USD/month",
+      notes: "Senior frontend devs earn $50-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Frontend development is ideally remote-friendly. All work happens in browsers and development environments.",
+      considerations: [
+        "High demand for frontend specialists",
+        "Creative work with visible results",
+        "Strong design community in Buenos Aires",
+        "Can work on diverse projects",
+        "Good work-life balance"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,200,000-3,500,000/month ($1,000-2,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Web Development", "Agencies", "Startups", "E-commerce"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and demonstrated frontend skills matter most."
+    },
+    taxConsiderations: [
+      "Remote work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio with polished UI projects",
+      "Contribute to frontend open source",
+      "Attend JavaScript meetups"
+    ],
+    faqs: [
+      {
+        question: "React, Vue, or Angular?",
+        answer: "React has the most job opportunities and largest ecosystem. Vue is popular for its simplicity and growing rapidly. Angular is strong in enterprise. Many developers know multiple frameworks. React is the safest bet for maximum opportunities."
+      }
+    ],
+    relatedProfessions: ["software-developer", "full-stack-developer", "ux-ui-designer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote frontend work"
+      }
+    ],
+    image: "/images/professions/frontend-developer.webp"
+  },
+  {
+    slug: "qa-engineer",
+    name: "QA Engineer",
+    title: "QA Engineer Guide for Argentina",
+    subtitle: "Ensure software quality remotely from Argentina",
+    description: "Quality Assurance is critical for software teams. Learn how QA engineers build remote careers testing applications from Argentina.",
+    icon: "CheckCircle",
+    category: "tech",
+    overview: "QA Engineers ensure software quality through manual and automated testing. They're essential members of development teams. The profession has strong remote work potential - testing happens through browsers, emulators, and automated tools. US companies pay $35-80+/hour for experienced QA engineers. Argentine QA professionals are known for attention to detail and thoroughness. The role offers good work-life balance and clear career progression to QA Lead or Engineering roles. QA automation skills (Selenium, Cypress, Playwright) are particularly in demand. The profession is accessible to career changers and offers a good entry point into tech.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For QA engineers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Sponsorship)",
+        description: "For QA engineers hired by companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Testing experience (manual or automated)",
+      "Automation tool knowledge (Selenium, Cypress, Playwright, or similar)",
+      "Understanding of software development lifecycle",
+      "Portfolio demonstrating testing work",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "QA engineers earn competitive rates, especially with automation skills",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Senior QA automation engineers earn $40-80+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "QA is highly remote-friendly. Testing happens through browsers, mobile emulators, and cloud testing platforms.",
+      considerations: [
+        "Strong demand for QA automation specialists",
+        "Accessible entry point into tech",
+        "Good work-life balance",
+        "Clear career progression",
+        "Can transition to development"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,000,000-2,800,000/month ($800-2,200 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Software Development", "Testing Services", "Enterprise", "Startups"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "ISTQB certifications help but aren't required. Demonstrated testing skills matter most."
+    },
+    taxConsiderations: [
+      "Remote QA work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio with testing projects",
+      "Learn automation tools",
+      "Join QA communities"
+    ],
+    faqs: [
+      {
+        question: "Manual testing or automation?",
+        answer: "Automation pays significantly more and offers better career prospects. Many QA professionals start with manual testing and learn automation. Knowing programming (JavaScript, Python, Java) enables automation. Both are valuable, but automation is the growth path."
+      }
+    ],
+    relatedProfessions: ["software-developer", "devops-engineer", "product-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote QA work"
+      }
+    ],
+    image: "/images/professions/qa-engineer.webp"
+  },
+  {
+    slug: "operations-manager",
+    name: "Operations Manager",
+    title: "Operations Manager Guide for Argentina",
+    subtitle: "Oversee business operations remotely from Argentina",
+    description: "Operations managers keep businesses running smoothly. Learn how operations professionals can work remotely for international companies from Argentina.",
+    icon: "Briefcase",
+    category: "business",
+    overview: "Operations Managers oversee the day-to-day operations of businesses, ensuring efficiency, managing processes, and optimizing systems. The role has become increasingly remote-friendly as businesses digitize their operations. Argentine operations professionals bring strong organizational skills, analytical thinking, and often excellent English. US companies pay $40-90+/hour for experienced operations managers. The work involves process improvement, vendor management, team coordination, and data analysis - all of which can be done remotely with modern tools. The profession offers good career progression and is suitable for organized, detail-oriented professionals.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For operations managers overseeing remote teams.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For ops managers hired by multinational companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Operations or management experience (3+ years)",
+      "Process improvement and systems thinking skills",
+      "Experience with operations tools and platforms",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Operations managers earn competitive rates for keeping businesses efficient",
+      amount: "$2,500 - $6,000+ USD/month",
+      notes: "Senior ops managers earn $50-90+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Operations management has become highly remote-friendly. Process management, vendor coordination, team oversight, and analysis all happen through digital tools.",
+      considerations: [
+        "Strong demand for efficient operations managers",
+        "Can work across industries",
+        "Process optimization skills valued",
+        "Good career progression opportunities",
+        "Lower living costs support competitive rates"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,200,000-3,000,000/month ($1,000-2,400 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "E-commerce", "Services", "Startups"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Operations management values demonstrated results and experience."
+    },
+    taxConsiderations: [
+      "Remote ops work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join operations communities on LinkedIn",
+      "Connect with COO and operations leaders",
+      "Attend business operations webinars"
+    ],
+    faqs: [
+      {
+        question: "What tools do remote operations managers use?",
+        answer: "Common tools include project management (Asana, Monday, ClickUp), process documentation (Notion, Confluence), data analysis (Excel, Tableau), communication (Slack, Teams), and ERP systems. Familiarity with automation tools (Zapier) increasingly valuable."
+      }
+    ],
+    relatedProfessions: ["project-manager", "business-consultant", "virtual-assistant"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote operations work"
+      }
+    ],
+    image: "/images/professions/operations-manager.webp"
+  },
+  {
+    slug: "recruiter",
+    name: "Recruiter / Talent Acquisition",
+    title: "Recruiter Guide for Argentina",
+    subtitle: "Find and hire talent remotely from Argentina",
+    description: "Recruiting is increasingly remote. Learn how talent acquisition professionals can work for international companies while living in Argentina.",
+    icon: "Users",
+    category: "business",
+    overview: "Recruiters and Talent Acquisition Specialists find, screen, and hire candidates for companies. The profession has become highly remote-friendly with LinkedIn, video interviews, and applicant tracking systems. Argentine recruiters can serve US companies looking to hire globally or LATAM talent specifically. US companies pay $30-70+/hour for experienced recruiters. The role requires strong communication skills, sales ability, and understanding of talent markets. Recruiters often specialize in specific fields (tech, healthcare, finance). The profession offers good income potential through base salary plus commission structures.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For recruiters working remotely for international companies.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For recruiters hired by multinational companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Recruiting or HR experience (2+ years)",
+      "LinkedIn Recruiter or similar platform expertise",
+      "Interviewing and candidate assessment skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Recruiters earn through base plus commission",
+      amount: "$2,000 - $6,000+ USD/month",
+      notes: "Top recruiters earn $40-70+/hour plus placement bonuses"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Recruiting is ideally suited for remote work. Sourcing, screening, interviews, and offers all happen through digital platforms.",
+      considerations: [
+        "High demand for tech recruiters",
+        "Commission potential for high earnings",
+        "Can specialize in niche markets",
+        "LATAM talent expertise valuable",
+        "Performance-based compensation"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Staffing Agencies", "HR Services"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Recruiting certifications (AIRS, LinkedIn) help but aren't required."
+    },
+    taxConsiderations: [
+      "Remote recruiting typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build strong LinkedIn network",
+      "Join recruiting communities",
+      "Specialize in high-demand fields"
+    ],
+    faqs: [
+      {
+        question: "Should I specialize in a specific industry?",
+        answer: "Yes, specialization typically leads to higher earnings. Tech recruiting is highest paying and most in-demand. Healthcare, finance, and executive search are also strong. Generalist recruiting pays less but offers variety."
+      }
+    ],
+    relatedProfessions: ["hr-specialist", "sales-representative", "virtual-assistant"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote recruiting"
+      }
+    ],
+    image: "/images/professions/recruiter.webp"
+  },
+  {
+    slug: "photographer",
+    name: "Photographer",
+    title: "Photographer Guide for Argentina",
+    subtitle: "Capture images and build a photography business from Argentina",
+    description: "Photography offers creative entrepreneurship opportunities. Learn how photographers can work internationally while based in Argentina.",
+    icon: "Palette",
+    category: "creative",
+    overview: "Photographers capture images for various purposes - from commercial work to fine art. While some photography requires physical presence, many photographers build remote income through stock photography, online courses, digital products, and editing services. Argentina offers stunning landscapes, vibrant cities, and lower living costs for photographers building their businesses. US clients pay $50-200+/hour for commercial photography work. The profession combines creative fulfillment with entrepreneurial opportunity. Photographers can specialize in product photography, portraits, travel, events, or stock imagery.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For photographers working remotely on digital projects.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For established photographers with client base.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Photography portfolio demonstrating skills",
+      "Professional camera equipment",
+      "Editing software proficiency (Lightroom, Photoshop)",
+      "Proof of client contracts or platform sales",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Photography income varies by specialty and business model",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Commercial photographers earn $50-200+/hour; stock/building passive income takes time"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "While shooting requires physical presence, editing, client communication, stock submissions, and digital products are remote-friendly.",
+      considerations: [
+        "Argentina offers diverse shooting locations",
+        "Stock photography generates passive income",
+        "Can work with international clients remotely",
+        "Digital products (presets, courses) scalable",
+        "Lower living costs support creative pursuits"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "Variable - project based",
+      keyCities: ["Buenos Aires", "Mendoza", "Bariloche"],
+      industries: ["Commercial", "Events", "Tourism", "Stock"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and demonstrated skills matter most."
+    },
+    taxConsiderations: [
+      "Remote photography work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo",
+      "Equipment purchases may be deductible"
+    ],
+    networkingTips: [
+      "Build portfolio on website and Instagram",
+      "Sell stock photography on Shutterstock, Adobe Stock",
+      "Network with content creators"
+    ],
+    faqs: [
+      {
+        question: "What photography specialties work best remotely?",
+        answer: "Product photography for e-commerce (clients ship products), stock photography (passive income), photo editing services, and digital products (presets, courses) work entirely remotely. Portrait and event photography require local presence."
+      }
+    ],
+    relatedProfessions: ["graphic-designer", "video-editor", "content-creator"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for photographers"
+      }
+    ],
+    image: "/images/professions/photographer.webp"
+  },
+  {
+    slug: "podcast-editor",
+    name: "Podcast Editor / Producer",
+    title: "Podcast Editor Guide for Argentina",
+    subtitle: "Edit and produce podcasts remotely from Argentina",
+    description: "Podcasting is booming. Learn how audio editors can build remote careers serving podcasters worldwide from Argentina.",
+    icon: "Palette",
+    category: "creative",
+    overview: "Podcast Editors and Producers handle the technical production of podcasts - editing audio, removing mistakes, adding music, and mastering episodes. It's a specialized skill in high demand as podcasting explodes globally. The work is 100% remote - audio files are shared digitally, editing happens in software, and finished episodes upload to hosting platforms. Argentine podcast editors can serve podcasters worldwide, with US clients paying $30-100+/hour. The profession requires audio editing skills, attention to detail, and understanding of podcast formats. It's an accessible creative career that can be learned through online courses and practice.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Perfect for podcast editors working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For established podcast editors.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Audio editing experience",
+      "Proficiency in editing software (Audition, ProTools, Hindenburg, or Reaper)",
+      "Portfolio of edited podcast episodes",
+      "Proof of client contracts",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Podcast editors earn per episode or hourly rates",
+      amount: "$1,500 - $4,000+ USD/month",
+      notes: "Editors charge $30-100/hour or $50-200 per episode"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Podcast editing is 100% remote. Audio files transfer digitally, editing is done in software, delivery is through podcast hosting platforms.",
+      considerations: [
+        "Podcasting industry growing rapidly",
+        "High demand for quality editors",
+        "Can work with podcasters globally",
+        "Recurring client relationships common",
+        "Skills transferable to other audio work"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $800,000-2,000,000/month ($650-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Podcasting", "Media", "Content Creation"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Audio editing skills and portfolio matter most."
+    },
+    taxConsiderations: [
+      "Remote podcast editing typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join podcast editor communities",
+      "Build portfolio with sample edits",
+      "Network with podcasters on Twitter/X"
+    ],
+    faqs: [
+      {
+        question: "What software should I learn?",
+        answer: "Adobe Audition and Descript are most popular for podcast editing. ProTools for advanced work. Reaper is powerful and affordable. Hindenburg is designed specifically for podcasters. Start with Audition or Descript."
+      }
+    ],
+    relatedProfessions: ["video-editor", "content-creator", "audio-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for podcast editors"
+      }
+    ],
+    image: "/images/professions/podcast-editor.webp"
+  },
+  {
+    slug: "business-analyst",
+    name: "Business Analyst",
+    title: "Business Analyst Guide for Argentina",
+    subtitle: "Analyze data and improve business processes remotely",
+    description: "Business analysts bridge data and decision-making. Learn how BAs can work remotely for international companies from Argentina.",
+    icon: "BarChart",
+    category: "business",
+    overview: "Business Analysts analyze data, processes, and systems to help companies make better decisions and improve operations. They work with data, document requirements, and bridge technical and business teams. The role is highly remote-friendly - analysis happens in spreadsheets, databases, and documentation tools. US companies pay $40-90+/hour for experienced business analysts. Argentine BAs bring strong analytical skills, business understanding, and often excellent English. The profession requires data analysis skills, communication abilities, and understanding of business processes. It's a good fit for analytical thinkers who enjoy solving business problems.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For BAs working remotely for international companies.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For BAs hired by multinational companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Business analysis experience (2+ years)",
+      "Data analysis skills (Excel, SQL, Tableau)",
+      "Requirements gathering and documentation experience",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Business analysts earn competitive rates for analytical expertise",
+      amount: "$2,500 - $6,000+ USD/month",
+      notes: "Senior BAs earn $50-90+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Business analysis is ideally remote-friendly. Data analysis, documentation, stakeholder interviews (video calls), and reporting all happen digitally.",
+      considerations: [
+        "High demand for data-savvy BAs",
+        "Can work across industries",
+        "Strong analytical skills valued",
+        "Clear career progression to senior roles",
+        "Lower living costs support competitive rates"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,200,000-3,000,000/month ($1,000-2,400 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Consulting", "Finance", "Enterprise"]
+    },
+    professionalAssociations: [
+      {
+        name: "IIBA (International Institute of Business Analysis)",
+        description: "Professional BA certification body"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "CBAP certification helps but isn't required. Demonstrated analytical skills matter most."
+    },
+    taxConsiderations: [
+      "Remote BA work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join BA communities on LinkedIn",
+      "Build portfolio with analysis projects",
+      "Attend business analysis webinars"
+    ],
+    faqs: [
+      {
+        question: "What tools do business analysts use?",
+        answer: "Common tools include Excel, SQL, Tableau or Power BI for data, Jira or Azure DevOps for requirements, Visio or Lucidchart for process mapping, and documentation tools like Confluence or Notion."
+      }
+    ],
+    relatedProfessions: ["data-analyst", "product-manager", "project-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote BA work"
+      }
+    ],
+    image: "/images/professions/business-analyst.webp"
+  },
+  {
+    slug: "marketing-manager",
+    name: "Marketing Manager",
+    title: "Marketing Manager Guide for Argentina",
+    subtitle: "Lead marketing efforts remotely for international companies",
+    description: "Marketing management offers excellent remote opportunities. Learn how marketing professionals can lead teams and campaigns from Argentina.",
+    icon: "Rocket",
+    category: "business",
+    overview: "Marketing Managers develop and execute marketing strategies to drive growth. They oversee campaigns, manage teams, analyze performance, and coordinate across channels. The role has become highly remote-friendly as marketing moves digital. US companies pay $50-100+/hour for experienced marketing managers. Argentine marketing professionals bring creativity, cultural insights, and often strong English skills. The profession offers good career progression and the satisfaction of driving measurable business results. Marketing managers need strategic thinking, analytical skills, and understanding of modern marketing channels.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For marketing managers leading remote teams and campaigns.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For marketing managers hired by multinational companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Marketing experience (3+ years)",
+      "Experience with digital marketing channels",
+      "Analytics and performance measurement skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Marketing managers earn competitive rates for driving growth",
+      amount: "$2,500 - $6,000+ USD/month",
+      notes: "Senior marketing managers earn $50-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Marketing management is highly remote-friendly. Strategy, campaign management, team coordination, and analysis all happen through digital tools.",
+      considerations: [
+        "High demand for growth-focused marketers",
+        "Can work across industries",
+        "Results-driven profession",
+        "Creative and analytical work",
+        "Lower living costs support competitive rates"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-3,500,000/month ($1,200-2,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "E-commerce", "Agencies", "Startups"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Marketing certifications (Google, HubSpot) help but aren't required."
+    },
+    taxConsiderations: [
+      "Remote marketing work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join marketing communities",
+      "Build case studies of successful campaigns",
+      "Attend marketing conferences"
+    ],
+    faqs: [
+      {
+        question: "What marketing skills are most in demand?",
+        answer: "Growth marketing, performance marketing (paid acquisition), marketing automation, and analytics are most in-demand. Understanding of multiple channels (SEO, paid, email, content) makes you more valuable than single-channel specialization."
+      }
+    ],
+    relatedProfessions: ["digital-marketing-manager", "social-media-manager", "content-creator"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote marketing work"
+      }
+    ],
+    image: "/images/professions/marketing-manager.webp"
+  },
+  {
+    slug: "illustrator",
+    name: "Illustrator",
+    title: "Illustrator Guide for Argentina",
+    subtitle: "Create illustrations and visual art from Argentina",
+    description: "Illustration offers creative freedom and remote work opportunities. Learn how illustrators can build international careers from Argentina.",
+    icon: "Palette",
+    category: "creative",
+    overview: "Illustrators create visual art for books, magazines, advertising, digital products, and more. The work is 100% digital and remote-friendly. Argentine illustrators are known for their creativity and unique style. US clients pay $40-100+/hour for quality illustration work. Illustrators can work with publishers, brands, app developers, and content creators worldwide. The profession offers creative fulfillment and the ability to develop a personal artistic brand. Success requires strong artistic skills, professional tools, and ability to work with client feedback.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For illustrators working remotely with international clients.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For established illustrators.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Strong illustration portfolio",
+      "Proficiency in digital tools (Procreate, Photoshop, Illustrator)",
+      "Proof of client work or commissions",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Illustrators earn per project or hourly rates",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Experienced illustrators earn $40-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Illustration is 100% remote. All work is digital, client communication online, delivery through digital files.",
+      considerations: [
+        "Creative and fulfilling work",
+        "Can develop unique artistic brand",
+        "Work with clients globally",
+        "Can sell art prints and products",
+        "Lower living costs support creative pursuits"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $800,000-2,000,000/month ($650-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Publishing", "Advertising", "Gaming", "Digital Products"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and artistic skill matter most."
+    },
+    taxConsiderations: [
+      "Remote illustration work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio on Behance and Dribbble",
+      "Share work on Instagram",
+      "Network with art directors"
+    ],
+    faqs: [
+      {
+        question: "How do I find illustration clients?",
+        answer: "Art directors find illustrators on Behance, Dribbble, and Instagram. Stock illustration (Shutterstock, Adobe Stock) provides passive income. Many illustrators work with agencies. Building a recognizable style helps attract the right clients."
+      }
+    ],
+    relatedProfessions: ["graphic-designer", "animator", "photographer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for illustrators"
+      }
+    ],
+    image: "/images/professions/illustrator.webp"
+  },
+  {
+    slug: "animator",
+    name: "Animator",
+    title: "Animator Guide for Argentina",
+    subtitle: "Create motion graphics and animation from Argentina",
+    description: "Animation offers creative remote work opportunities. Learn how animators can work for studios and clients worldwide from Argentina.",
+    icon: "Palette",
+    category: "creative",
+    overview: "Animators create motion graphics, character animation, explainer videos, and visual effects. The work is digital and can be done remotely with modern tools. Argentine animators can work with studios, agencies, and content creators globally. US clients pay $40-100+/hour for quality animation work. The profession requires technical skills in animation software, artistic sensibility, and attention to timing and movement. Animators work in 2D, 3D, or motion graphics depending on specialization.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For animators working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For established animators.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Animation portfolio",
+      "Proficiency in animation software (After Effects, Blender, Maya, etc.)",
+      "Proof of client work",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Animators earn per project or hourly rates",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Experienced animators earn $40-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Animation is ideally remote-friendly. All work is digital, files transfer online, reviews happen through video calls.",
+      considerations: [
+        "High demand for explainer videos and motion graphics",
+        "Can work with studios globally",
+        "Creative and technical work",
+        "Skills transferable across industries"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $800,000-2,500,000/month ($650-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Animation", "Advertising", "Gaming", "Film"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and demonstrated animation skills matter most."
+    },
+    taxConsiderations: [
+      "Remote animation work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio on Vimeo and Behance",
+      "Network with studios and agencies",
+      "Join animation communities"
+    ],
+    faqs: [
+      {
+        question: "2D or 3D animation?",
+        answer: "2D/motion graphics has more freelance opportunities and faster turnaround. 3D animation pays more but requires more specialized skills and longer projects. Many animators start with motion graphics in After Effects."
+      }
+    ],
+    relatedProfessions: ["video-editor", "illustrator", "graphic-designer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for animators"
+      }
+    ],
+    image: "/images/professions/animator.webp"
+  },
+  {
+    slug: "pr-specialist",
+    name: "PR Specialist",
+    title: "PR Specialist Guide for Argentina",
+    subtitle: "Manage public relations remotely for international clients",
+    description: "Public Relations offers remote work opportunities. Learn how PR professionals can serve clients worldwide from Argentina.",
+    icon: "Rocket",
+    category: "business",
+    overview: "PR Specialists manage communications between organizations and the public. They handle media relations, crisis communications, and brand reputation. The role has become more digital and remote-friendly. PR professionals work with journalists, write press releases, and manage brand messaging. Argentine PR specialists can serve international clients, especially those looking to reach Latin American markets. The profession requires excellent writing skills, media relationships, and strategic thinking.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For PR specialists working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Agency Sponsorship)",
+        description: "For PR specialists hired by agencies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "PR or communications experience (2+ years)",
+      "Media relations experience",
+      "Strong writing and communication skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "PR specialists earn competitive rates",
+      amount: "$2,000 - $5,000+ USD/month",
+      notes: "Senior PR professionals earn $40-80+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "PR work has become remote-friendly. Media outreach, writing, strategy, and client communication happen digitally.",
+      considerations: [
+        "LATAM market expertise valuable",
+        "Can serve international clients",
+        "Writing skills transferable",
+        "Good for bilingual professionals"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["PR Agencies", "Corporate", "Startups"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "PRSA certifications help but aren't required."
+    },
+    taxConsiderations: [
+      "Remote PR work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build media contact lists",
+      "Network with journalists",
+      "Join PR communities"
+    ],
+    faqs: [
+      {
+        question: "Is PR still relevant in the digital age?",
+        answer: "Yes, but it's evolved. Digital PR, influencer relations, and content strategy are now central. Traditional media relations still matters for major announcements."
+      }
+    ],
+    relatedProfessions: ["marketing-manager", "content-writer", "social-media-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for PR work"
+      }
+    ],
+    image: "/images/professions/pr-specialist.webp"
+  },
+  {
+    slug: "event-planner",
+    name: "Event Planner",
+    title: "Event Planner Guide for Argentina",
+    subtitle: "Plan events remotely for international clients",
+    description: "Event planning offers hybrid remote opportunities. Learn how event planners can coordinate events from Argentina.",
+    icon: "Rocket",
+    category: "business",
+    overview: "Event Planners coordinate conferences, meetings, and corporate events. While some aspects require local presence, much of the planning (vendor coordination, logistics, marketing) can be done remotely. Argentine event planners can work with international clients planning events in Latin America, or plan virtual/hybrid events. The profession requires organizational skills, vendor relationships, and attention to detail. Event planners who speak both English and Spanish have an advantage for international events in LATAM.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For event planners coordinating remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Event planning experience (2+ years)",
+      "Vendor and venue relationships",
+      "Organizational and coordination skills",
+      "Proof of client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Event planners earn per event or retainer fees",
+      amount: "$2,000 - $5,000+ USD/month",
+      notes: "Experienced planners earn $3,000-8,000+/month"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Much of event planning is remote-friendly. Vendor research, contracts, marketing, and coordination happen digitally. Some events require on-site presence.",
+      considerations: [
+        "LATAM venue knowledge valuable",
+        "Virtual events entirely remote",
+        "Hybrid work model common",
+        "Bilingual advantage"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Mendoza", "Bariloche"],
+      industries: ["Corporate Events", "Weddings", "Conferences"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "CMP certification helps but isn't required."
+    },
+    taxConsiderations: [
+      "Remote planning work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build vendor relationships",
+      "Network with corporate event managers",
+      "Attend industry conferences"
+    ],
+    faqs: [
+      {
+        question: "Can I plan events entirely remotely?",
+        answer: "Virtual and hybrid events can be planned entirely remotely. In-person events require some on-site presence, but much coordination can happen remotely, especially for destination events where clients aren't local."
+      }
+    ],
+    relatedProfessions: ["operations-manager", "virtual-assistant", "marketing-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for event planners"
+      }
+    ],
+    image: "/images/professions/event-planner.webp"
+  },
+  {
+    slug: "data-engineer",
+    name: "Data Engineer",
+    title: "Data Engineer Guide for Argentina",
+    subtitle: "Build data pipelines and infrastructure remotely",
+    description: "Data engineering is one of tech's fastest-growing fields. Learn how data engineers can build remote careers from Argentina.",
+    icon: "BarChart",
+    category: "tech",
+    overview: "Data Engineers build the infrastructure and pipelines that enable data science and analytics. They work with databases, data warehouses, ETL processes, and cloud data platforms. It's a high-demand, well-paying field with US companies offering $60-130+/hour for experienced data engineers. Argentine data engineers are known for strong technical skills and reliability. The work is entirely remote-friendly - all development happens on computers with cloud infrastructure. Data engineering offers excellent career prospects and the satisfaction of building critical data infrastructure.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For data engineers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Highly Skilled Worker Visa",
+        description: "For senior data engineers.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Data engineering experience (2+ years)",
+      "SQL and database expertise",
+      "Cloud data platform experience (AWS, GCP, Azure)",
+      "ETL/ELT pipeline experience",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Data engineers command strong rates due to high demand",
+      amount: "$2,500 - $7,000+ USD/month",
+      notes: "Senior data engineers earn $60-130+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Data engineering is ideally remote-friendly. All work happens on cloud infrastructure with digital collaboration tools.",
+      considerations: [
+        "Extremely high demand for data engineers",
+        "Critical infrastructure role",
+        "Good career progression",
+        "Skills transferable across industries"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-4,000,000/month ($1,200-3,200 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Fintech", "Enterprise", "Consulting"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Cloud data certifications (AWS, GCP) help but aren't required."
+    },
+    taxConsiderations: [
+      "Remote data engineering typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Contribute to data open-source projects",
+      "Attend data engineering meetups",
+      "Build portfolio with data pipeline projects"
+    ],
+    faqs: [
+      {
+        question: "Data engineer vs data scientist?",
+        answer: "Data engineers build infrastructure and pipelines. Data scientists analyze data and build models. Both are in demand. Data engineering focuses more on software engineering and infrastructure."
+      }
+    ],
+    relatedProfessions: ["data-scientist", "software-developer", "devops-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for data engineers"
+      }
+    ],
+    image: "/images/professions/data-engineer.webp"
+  },
+  {
+    slug: "security-engineer",
+    name: "Security Engineer",
+    title: "Security Engineer Guide for Argentina",
+    subtitle: "Protect systems and data remotely from Argentina",
+    description: "Cybersecurity is critical and well-paying. Learn how security engineers can work remotely for international companies.",
+    icon: "Shield",
+    category: "tech",
+    overview: "Security Engineers protect systems, networks, and data from threats. It's a critical, high-paying field with constant demand. US companies pay $70-150+/hour for experienced security engineers. Argentine security professionals are known for their technical depth. The work is remote-friendly - security assessments, monitoring, and consulting happen through digital tools. The profession requires continuous learning as threats evolve. Security engineers can specialize in application security, network security, cloud security, or compliance.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For security engineers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Highly Skilled Worker Visa",
+        description: "For senior security engineers.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Security engineering experience (3+ years)",
+      "Security certifications (CISSP, CEH, OSCP, or similar)",
+      "Penetration testing or security assessment experience",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Security engineers command premium rates due to critical nature of work",
+      amount: "$3,000 - $8,000+ USD/month",
+      notes: "Senior security engineers earn $70-150+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Security engineering is highly remote-friendly. Assessments, monitoring, consulting, and response all happen digitally.",
+      considerations: [
+        "Critical role with constant demand",
+        "Premium compensation",
+        "Continuous learning required",
+        "Can specialize in various areas"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $2,000,000-5,000,000/month ($1,600-4,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Fintech", "Enterprise", "Consulting"]
+    },
+    professionalAssociations: [
+      {
+        name: "(ISC)²",
+        description: "Security professional organization"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Security certifications (CISSP, CEH) are globally recognized and valued."
+    },
+    taxConsiderations: [
+      "Remote security work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Attend security conferences (Defcon, Black Hat virtually)",
+      "Participate in bug bounty programs",
+      "Contribute to security research"
+    ],
+    faqs: [
+      {
+        question: "What security certifications should I get?",
+        answer: "CISSP is most recognized for senior roles. CEH for penetration testing. OSCP for technical hands-on skills. CompTIA Security+ for entry-level. Cloud security certs (AWS Security, Azure Security) increasingly valuable."
+      }
+    ],
+    relatedProfessions: ["cybersecurity-analyst", "devops-engineer", "software-developer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for security engineers"
+      }
+    ],
+    image: "/images/professions/security-engineer.webp"
+  },
+  {
+    slug: "technical-writer",
+    name: "Technical Writer",
+    title: "Technical Writer Guide for Argentina",
+    subtitle: "Create documentation and technical content remotely",
+    description: "Technical writing offers excellent remote opportunities. Learn how technical writers can work for tech companies from Argentina.",
+    icon: "Languages",
+    category: "creative",
+    overview: "Technical Writers create documentation, API docs, user guides, and technical content for software and products. It's a specialized writing field that pays well and is highly remote-friendly. US tech companies pay $40-90+/hour for experienced technical writers. Argentine technical writers bring strong English skills and technical aptitude. The work involves writing, editing, and collaborating with engineers - all done digitally. The profession offers good work-life balance and the satisfaction of making complex topics understandable.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For technical writers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For writers hired by tech companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Technical writing experience or portfolio",
+      "Ability to understand and explain technical concepts",
+      "Writing samples demonstrating clarity",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Technical writers earn competitive rates for specialized skills",
+      amount: "$2,000 - $5,000+ USD/month",
+      notes: "Experienced technical writers earn $40-90+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Technical writing is 100% remote. Writing, editing, and collaboration with engineering teams all happen digitally.",
+      considerations: [
+        "High demand in tech industry",
+        "Good work-life balance",
+        "Can work across industries",
+        "Skills transferable to product management"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Software", "APIs", "Products"]
+    },
+    professionalAssociations: [
+      {
+        name: "Society for Technical Communication",
+        description: "Technical writing professional organization"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and writing samples matter most."
+    },
+    taxConsiderations: [
+      "Remote technical writing typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio with documentation samples",
+      "Contribute to open source documentation",
+      "Network with tech writers on LinkedIn"
+    ],
+    faqs: [
+      {
+        question: "Do I need to be a programmer to be a technical writer?",
+        answer: "Not necessarily, but understanding code helps significantly for API documentation and developer docs. Many technical writers have some coding knowledge. For user guides and less technical content, programming knowledge is less critical."
+      }
+    ],
+    relatedProfessions: ["content-writer", "copywriter", "software-developer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for technical writers"
+      }
+    ],
+    image: "/images/professions/technical-writer.webp"
+  },
+  {
+    slug: "product-designer",
+    name: "Product Designer",
+    title: "Product Designer Guide for Argentina",
+    subtitle: "Design digital products remotely from Argentina",
+    description: "Product design combines UX, UI, and research. Learn how product designers can work remotely for international companies.",
+    icon: "Palette",
+    category: "creative",
+    overview: "Product Designers create the user experience and interface for digital products. They combine user research, interaction design, and visual design. It's a well-paying, in-demand field with US companies offering $50-120+/hour for experienced product designers. Argentine product designers bring strong design sensibility and technical skills. The work is entirely remote-friendly - design happens in Figma, research through video calls, and collaboration through digital tools. The profession offers creative fulfillment and the satisfaction of shaping products people use.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For product designers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For designers hired by tech companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Product design portfolio",
+      "Proficiency in Figma or similar tools",
+      "User research and testing experience",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Product designers earn competitive rates for specialized design skills",
+      amount: "$2,500 - $6,000+ USD/month",
+      notes: "Senior product designers earn $50-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Product design is ideally remote-friendly. Design in Figma, research through video calls, collaborate through digital tools.",
+      considerations: [
+        "High demand in tech industry",
+        "Creative and strategic work",
+        "Good career progression to senior/lead roles",
+        "Can work across product types"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-3,500,000/month ($1,200-2,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Startups", "Product Companies"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and demonstrated design skills matter most."
+    },
+    taxConsiderations: [
+      "Remote product design typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio on Dribbble and Behance",
+      "Participate in design communities",
+      "Attend UX/UI meetups"
+    ],
+    faqs: [
+      {
+        question: "Product designer vs UX designer?",
+        answer: "Product designers typically have broader scope including strategic decisions and sometimes visual design. UX designers focus more narrowly on user experience. Many companies use the terms interchangeably. Product designers often earn more due to broader responsibilities."
+      }
+    ],
+    relatedProfessions: ["ux-ui-designer", "graphic-designer", "user-researcher"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for product designers"
+      }
+    ],
+    image: "/images/professions/product-designer.webp"
+  },
+  {
+    slug: "scrum-master",
+    name: "Scrum Master",
+    title: "Scrum Master Guide for Argentina",
+    subtitle: "Facilitate agile teams remotely from Argentina",
+    description: "Scrum Masters help agile teams work effectively. Learn how Scrum Masters can facilitate remote teams from Argentina.",
+    icon: "Users",
+    category: "business",
+    overview: "Scrum Masters facilitate agile development teams, helping them follow Scrum practices and improve their processes. It's a specialized role in high demand as more companies adopt agile. US companies pay $50-100+/hour for experienced Scrum Masters. Argentine Scrum Masters bring strong facilitation skills and English proficiency. The work is highly remote-friendly - standups, ceremonies, and coaching happen through video calls. The profession offers good work-life balance and the satisfaction of helping teams improve.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For Scrum Masters facilitating remote teams.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For Scrum Masters hired by tech companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Scrum Master certification (CSM, PSM)",
+      "Agile team facilitation experience (2+ years)",
+      "Understanding of Scrum and agile practices",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Scrum Masters earn competitive rates for facilitation expertise",
+      amount: "$2,500 - $6,000+ USD/month",
+      notes: "Senior Scrum Masters earn $50-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Scrum Master work is ideally remote-friendly. Ceremonies, coaching, and facilitation all happen through video calls and digital tools.",
+      considerations: [
+        "High demand as agile adoption grows",
+        "Good work-life balance",
+        "Can work across industries",
+        "Progression to Agile Coach"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-3,500,000/month ($1,200-2,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Software Development", "Agencies"]
+    },
+    professionalAssociations: [
+      {
+        name: "Scrum Alliance",
+        description: "Scrum certification body"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "CSM or PSM certification highly valued but not strictly required."
+    },
+    taxConsiderations: [
+      "Remote Scrum Master work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join agile communities",
+      "Attend Scrum meetups",
+      "Build network in agile coaching circles"
+    ],
+    faqs: [
+      {
+        question: "CSM or PSM certification?",
+        answer: "PSM (Professional Scrum Master) from Scrum.org is more rigorous and respected. CSM (Certified Scrum Master) from Scrum Alliance is more common. Both are recognized. PSM I is a good starting point."
+      }
+    ],
+    relatedProfessions: ["project-manager", "product-manager", "agile-coach"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for Scrum Masters"
+      }
+    ],
+    image: "/images/professions/scrum-master.webp"
   }
 ];
 
