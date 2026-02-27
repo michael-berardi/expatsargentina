@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "title": "Expats Argentina - Guia Completo para Viver na Argentina 2026",
+    "description": "O guia honesto para expats na Argentina. Custo de vida dobrou, DNI demora 6+ meses, seguro de viagem obrigatório. Informação real 2026."
+  },
+  "navigation": {
+    "home": "Início",
+    "provinces": "Províncias",
+    "cities": "Cidades",
+    "visas": "Vistos",
+    "costOfLiving": "Custo de Vida",
+    "healthcare": "Saúde",
+    "housing": "Moradia",
+    "banking": "Banco",
+    "safety": "Segurança",
+    "neighborhoods": "Bairros",
+    "petImportation": "Importação de Pets",
+    "learnSpanish": "Aprender Espanhol",
+    "contactUs": "Fale Conosco",
+    "remoteWork": "Trabalho Remoto",
+    "transportation": "Transporte",
+    "food": "Comida e Restaurantes"
+  },
+  "homepage": {
+    "hero": {
+      "badge": "Todas as 24 províncias cobertas",
+      "title": "Seu Guia Completo para Viver na Argentina",
+      "subtitle": "Não apenas Buenos Aires. De lagos patagônicos a região vinícola andina, cachoeiras subtropicais a cidades coloniais do Noroeste — guias completos para expats em cada canto da Argentina.",
+      "description": "Vistos, custo de vida, moradia, saúde e conselhos honestos para cada província e cidade importante do país.",
+      "exploreProvinces": "Explorar Províncias",
+      "browseCities": "Ver Guias de Cidades"
+    },
+    "stats": {
+      "provinces": "Províncias",
+      "cityGuides": "Guias de Cidades",
+      "regions": "Regiões",
+      "visaTypes": "Tipos de Visto"
+    },
+    "whyArgentina": {
+      "title": "Por que a Argentina?",
+      "costOfLiving": {
+        "title": "Realidade do Custo de Vida (2026)",
+        "description": "A Argentina não é mais 'barata'—preços dobraram desde 2023. Orçamento $1.500-3.000/mês para um estilo de vida comparável. A inflação se estabilizou em 2-3% mensal sob Milei, mas custos são nível Europa Ocidental."
+      },
+      "culturalRichness": {
+        "title": "Riqueza Cultural",
+        "description": "Do tango em Buenos Aires às tradições gaúchas na Pampas, herança indígena no Noroeste e colônias galesas na Patagônia — cada região tem sua própria identidade distinta."
+      },
+      "naturalBeauty": {
+        "title": "Beleza Natural Extraordinária",
+        "description": "Cataratas do Iguaçu, geleiras patagônicos, picos andinos, florestas subtropicais, salares e vistas do Distrito dos Lagos. Nenhum país oferece mais diversidade geográfica."
+      },
+      "visaOptions": {
+        "title": "Opções de Visto (Com Ressalvas)",
+        "description": "Vistos de Nômade Digital (180 dias apenas), Rentista e Investidor disponíveis. Processamento de DNI agora leva 6+ meses. Cidadania requer 2 anos de residência permanente (4-5 anos total). Pesquise bem antes de escolher."
+      },
+      "foodAndWine": {
+        "title": "Paraíso da Comida e Vinho",
+        "description": "A melhor carne do mundo, regiões de vinho Malbec, empanadas que variam por província, culinária de influência italiana e uma cultura gastronômica onde refeições são eventos sociais para serem saboreados."
+      },
+      "welcoming": {
+        "title": "Comunidades Acolhedoras",
+        "description": "Argentinos são famosamente calorosos e sociais. Comunidades estabelecidas de expats existem por todo o país, de Buenos Aires a Bariloche, Mendoza a Salta."
+      }
+    },
+    "guides": {
+      "title": "Categorias de Guias Completos",
+      "visas": {
+        "title": "Vistos e Residência",
+        "description": "Guias de visto nômade digital, rentista, investidor e aposentadoria com cronogramas reais de aplicação."
+      },
+      "costOfLiving": {
+        "title": "Custo de Vida",
+        "description": "Orçamentos mensais para cada cidade importante, considerando inflação, taxas de câmbio e custos reais."
+      },
+      "healthcare": {
+        "title": "Saúde (Regras 2026)",
+        "description": "Seguro de viagem obrigatório exigido para entrada. Hospitais públicos agora cobram estrangeiros. Sistema prepaga explicado com preços atualizados 2026."
+      },
+      "housing": {
+        "title": "Moradia e Aluguel",
+        "description": "Encontrar apartamentos sem garantia, contratos de aluguel e guias de bairros para cada cidade."
+      },
+      "banking": {
+        "title": "Banco e Dinheiro",
+        "description": "Taxas de câmbio, abertura de contas, envio de dinheiro internacionalmente e navegando a economia peso."
+      },
+      "safety": {
+        "title": "Segurança",
+        "description": "Dados reais de segurança por província e cidade, golpes comuns para evitar e precauções práticas."
+      },
+      "transportation": {
+        "title": "Transporte",
+        "description": "Como se locomover na Argentina—ônibus, voos, metrôs e o sistema de cartão SUBE."
+      },
+      "food": {
+        "title": "Comida e Restaurantes",
+        "description": "Culinária argentina, etiqueta de restaurante, compras de mercado e a cultura gastronômica."
+      },
+      "remoteWork": {
+        "title": "Trabalho Remoto",
+        "description": "Espaços de coworking, velocidades de internet e trabalho remoto na Argentina."
+      },
+      "learnSpanish": {
+        "title": "Aprender Espanhol",
+        "description": "Escolas de idiomas, espanhol rioplatense vs. padrão e estratégias de imersão que funcionam."
+      },
+      "culture": {
+        "title": "Cultura e Costumes",
+        "description": "Rituais de mate, etiqueta de asado e navegando normas sociais argentinas."
+      },
+      "socialLife": {
+        "title": "Vida Social de Expats",
+        "description": "Grupos de encontro, intercâmbios de idioma, clubes esportivos e construindo sua comunidade."
+      }
+    },
+    "newsletter": {
+      "badge": "Newsletter",
+      "title": "Receba as Últimas Atualizações",
+      "description": "Mudanças de visto, atualizações de custo de vida e dicas internas direto no seu email. Sem spam, cancele quando quiser.",
+      "placeholder": "Digite seu email",
+      "subscribe": "Inscrever-se",
+      "joinCount": "Junte-se a 2.000+ expats recebendo atualizações semanais da Argentina."
+    },
+    "cities": {
+      "badge": "Guias de Cidades",
+      "title": "Cidades em Destaque",
+      "subtitle": "Guias detalhados para os destinos mais populares da Argentina para expats.",
+      "viewAll": "Ver Todas as Cidades"
+    },
+    "regions": {
+      "badge": "Explorar por Região",
+      "title": "As 6 Regiões da Argentina",
+      "subtitle": "De selvas subtropicais a geleiras antárticas, a Argentina tem tudo."
+    }
+  },
+  "costOfLiving": {
+    "title": "Custo de Vida na Argentina 2026",
+    "subtitle": "A era da Argentina 'barata' acabou. Preços dobraram desde 2023.",
+    "description": "Orçamentos reais 2026 para Buenos Aires—agora rivalizando com Europa Ocidental.",
+    "realityCheck": {
+      "title": "Realidade 2026: Argentina Não é Mais Barata",
+      "description": "Preços dobraram desde 2023. Buenos Aires agora rivaliza com Lisboa ou Barcelona em preços.",
+      "inflation": "Inflação mensal (estabilizada sob Milei)",
+      "priceIncrease": "Aumento de preços desde 2023",
+      "comparison": "Comparação atual de nível de preços"
+    },
+    "budgetProfiles": {
+      "backpacker": "Mochileiro",
+      "comfortable": "Expat Confortável",
+      "highRoller": "Alto Padrão",
+      "perMonth": "/mês"
+    }
+  },
+  "healthcare": {
+    "title": "Saúde na Argentina 2026",
+    "subtitle": "Guia de saúde atualizado 2026: seguro de viagem obrigatório para entrada, hospitais públicos agora cobram estrangeiros.",
+    "alert": {
+      "title": "Atualização Crítica 2026: Novas Regras de Saúde",
+      "mandatoryInsurance": "Seguro de Viagem Obrigatório: A partir de julho 2025, todos os visitantes devem mostrar comprovante de seguro de saúde na imigração.",
+      "publicHospitals": "Hospitais Públicos Cobram Estrangeiros: A era de 'saúde grátis para todos' acabou.",
+      "higherCosts": "Custos Mais Altos de Seguro: Preços de prepaga aumentaram 50-75% desde 2023."
+    }
+  },
+  "visas": {
+    "title": "Guia de Vistos e Ferramenta de Decisão da Argentina",
+    "subtitle": "Encontre o visto certo, calcule custos, estime cronogramas e aprenda com pessoas que realmente passaram pelo processo.",
+    "alert": {
+      "title": "Realidade de Vistos 2026: Atrasos e Atualizações",
+      "dniDelays": "Atrasos de DNI: Processamento de identidade nacional está levando 6+ meses devido a acúmulo no sistema.",
+      "citizenship": "Regra de Cidadania 2 Anos: Cidadania requer 2 anos de residência permanente (não temporária). Total: 4-5 anos.",
+      "digitalNomad": "Visto Nômade Digital: Apenas 180 dias sem caminho direto para residência."
+    }
+  },
+  "banking": {
+    "title": "Banco e Dinheiro na Argentina",
+    "subtitle": "Navegue pela paisagem financeira única da Argentina. Entendendo o dólar blue, transferindo dinheiro e gerenciando finanças como expat.",
+    "noDni": {
+      "title": "Banco sem DNI (Alternativas 2026)",
+      "description": "Processamento de DNI está levando 6+ meses. Veja como funcionar financeiramente sem ele.",
+      "mercadoPago": "MercadoPago (Recomendado)",
+      "crypto": "Criptomoeda (USDT/BTC)",
+      "westernUnion": "Western Union + Dinheiro"
+    }
+  },
+  "safety": {
+    "title": "Segurança em Buenos Aires (2026)",
+    "subtitle": "A verdade honesta: Palermo, Recoleta e Belgrano são muito seguros. Furto (roubo de celular) é o principal risco—não crime violento.",
+    "reality": "Realidade de Segurança: Palermo, Recoleta e Belgrano São Muito Seguros",
+    "realityDescription": "Apesar do sensacionalismo da mídia, esses bairros têm taxas de crime comparáveis a cidades europeias."
+  },
+  "neighborhoods": {
+    "title": "Melhores Bairros para Expats",
+    "subtitle": "Encontre seu bairro perfeito em Buenos Aires. Preços de aluguel atualizados 2026 (dobraram desde 2023), rankings de segurança e avaliações honestas."
+  },
+  "petImportation": {
+    "title": "Levando seu Pet para a Argentina",
+    "subtitle": "A boa notícia: não há quarentena para gatos e cães da maioria dos países. A papelada é gerenciável.",
+    "noQuarantine": {
+      "title": "Quarentena Não Necessária",
+      "description": "Diferente da Austrália, Japão ou Reino Unido, a Argentina NÃO exige quarentena para gatos e cães da maioria dos países."
+    }
+  },
+  "footer": {
+    "description": "Seu guia honesto e completo para viver na Argentina. Informação real de expats reais.",
+    "quickLinks": "Links Rápidos",
+    "resources": "Recursos",
+    "connect": "Conecte-se",
+    "rights": "Todos os direitos reservados."
+  },
+  "common": {
+    "readMore": "Ler Mais",
+    "learnMore": "Saber Mais",
+    "getStarted": "Começar",
+    "backToHome": "Voltar ao Início",
+    "updated": "Atualizado",
+    "essential": "Essencial",
+    "required": "Obrigatório",
+    "optional": "Opcional",
+    "free": "Grátis",
+    "cost": "Custo",
+    "time": "Tempo",
+    "days": "dias",
+    "weeks": "semanas",
+    "months": "meses",
+    "years": "anos",
+    "language": "Idioma",
+    "english": "English",
+    "spanish": "Español",
+    "portuguese": "Português"
+  }
+}

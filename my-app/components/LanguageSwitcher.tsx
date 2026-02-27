@@ -7,19 +7,26 @@ import { GlobeIcon } from "@/components/ui/icon";
 export function LanguageSwitcher() {
   const { locale, setLocale } = useI18n();
 
-  const toggleLocale = () => {
-    setLocale(locale === "en" ? "es" : "en");
+  const locales = ["en", "es", "pt"] as const;
+  const currentIndex = locales.indexOf(locale as "en" | "es" | "pt");
+  const nextIndex = (currentIndex + 1) % locales.length;
+  const nextLocale = locales[nextIndex];
+
+  const labels: Record<string, string> = {
+    en: "EN",
+    es: "ES",
+    pt: "PT"
   };
 
   return (
     <Button 
       variant="ghost" 
       size="sm" 
-      onClick={toggleLocale}
+      onClick={() => setLocale(nextLocale)}
       className="flex items-center gap-2"
     >
       <GlobeIcon size="sm" />
-      <span className="uppercase">{locale === "en" ? "ES" : "EN"}</span>
+      <span className="uppercase">{labels[nextLocale]}</span>
     </Button>
   );
 }
