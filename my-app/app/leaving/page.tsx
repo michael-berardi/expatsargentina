@@ -284,7 +284,7 @@ export default function LeavingGuidePage() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Hero */}
       <div className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
-        <div className="absolute inset-0 bg-[url('/images/guides/leaving-bg.webp')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('/images/guides/leaving-bg.webp')" }} />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent" />
         
         <div className="relative max-w-5xl mx-auto px-4 py-20 sm:px-6 lg:px-8">
