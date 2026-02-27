@@ -18,11 +18,11 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Argentina Student Visa - Study in Argentina Guide 2025",
+  title: "Argentina Student Visa - Study in Argentina Guide 2026",
   description: "Complete guide to Argentina's student visa. Study at free public universities, application process, requirements, costs, and student life in Argentina.",
   keywords: ["Argentina student visa", "study in Argentina", "free university Argentina", "Argentina student residency", "UBA international students"],
   openGraph: {
-    title: "Argentina Student Visa - Study in Argentina Guide 2025",
+    title: "Argentina Student Visa - Study in Argentina Guide 2026",
     description: "Study at Argentina's world-class universities, many tuition-free for international students. Complete visa application guide.",
   },
 };
@@ -132,6 +132,20 @@ const faqs = [
 export default function StudentVisaPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://expatsargentina.com" },
+              { "@type": "ListItem", position: 2, name: "Visas", item: "https://expatsargentina.com/visas" },
+              { "@type": "ListItem", position: 3, name: "Student Visa", item: "https://expatsargentina.com/visas/student" },
+            ],
+          }),
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
@@ -516,7 +530,7 @@ export default function StudentVisaPage() {
                 Argentine Immigration website
               </Link>{" "}
               or consult with a qualified immigration attorney before making any decisions.
-              Last updated: 2025.
+              Last updated: 2026.
             </p>
           </div>
         </div>

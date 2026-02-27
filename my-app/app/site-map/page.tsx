@@ -58,7 +58,7 @@ const livingGuides = [
   {
     icon: DollarSignIcon,
     title: "Cost of Living",
-    description: "Real 2025 budgets including the unofficial exchange rates and inflation reality.",
+    description: "Real 2026 budgets including the unofficial exchange rates and inflation reality.",
     href: "/cost-of-living",
     badge: "Updated Weekly",
   },

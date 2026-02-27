@@ -24,7 +24,7 @@ import { investmentSectors } from "@/lib/data/investments";
 export const metadata: Metadata = {
   title: "Investment Opportunities in Argentina | Expats Argentina",
   description:
-    "Discover investment opportunities in Argentina: real estate, agriculture, mining, energy, technology, and tourism. Updated 2025 data on Milei reforms, RIGI incentives, and market conditions.",
+    "Discover investment opportunities in Argentina: real estate, agriculture, mining, energy, technology, and tourism. Updated 2026 data on Milei reforms, RIGI incentives, and market conditions.",
   keywords: [
     "invest in Argentina",
     "Argentina investment opportunities",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Investment Opportunities in Argentina",
     description:
-      "Comprehensive guide to investing in Argentina's key sectors: real estate, agriculture, mining, energy, technology, and tourism. Updated for 2025 economic reforms.",
+      "Comprehensive guide to investing in Argentina's key sectors: real estate, agriculture, mining, energy, technology, and tourism. Updated for 2026 economic reforms.",
     images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
   },
   alternates: { canonical: "https://expatsargentina.com/investments" },
@@ -85,7 +85,7 @@ export default function InvestmentsPage() {
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-6">
               <TrendingUpIcon size="sm" className="mr-1" />
-              Updated for 2025
+              Updated for 2026
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
               Investment Opportunities in Argentina

@@ -17,11 +17,11 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Argentina Digital Nomad Visa - Complete 2025 Guide",
-  description: "Everything you need to know about Argentina's Digital Nomad Visa. Requirements, application process, costs, and tips for remote workers in 2025.",
-  keywords: ["Argentina digital nomad visa", "remote work Argentina", "digital nomad Buenos Aires", "Argentina visa 2025"],
+  title: "Argentina Digital Nomad Visa - Complete 2026 Guide",
+  description: "Everything you need to know about Argentina's Digital Nomad Visa. Requirements, application process, costs, and tips for remote workers in 2026.",
+  keywords: ["Argentina digital nomad visa", "remote work Argentina", "digital nomad Buenos Aires", "Argentina visa 2026"],
   openGraph: {
-    title: "Argentina Digital Nomad Visa - Complete 2025 Guide",
+    title: "Argentina Digital Nomad Visa - Complete 2026 Guide",
     description: "Work remotely from Argentina for up to 180 days. Step-by-step application guide.",
   },
 };
@@ -103,6 +103,20 @@ const faqs = [
 export default function DigitalNomadVisaPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://expatsargentina.com" },
+              { "@type": "ListItem", position: 2, name: "Visas", item: "https://expatsargentina.com/visas" },
+              { "@type": "ListItem", position: 3, name: "Digital Nomad Visa", item: "https://expatsargentina.com/visas/digital-nomad" },
+            ],
+          }),
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">

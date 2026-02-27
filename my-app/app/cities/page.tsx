@@ -11,6 +11,7 @@ import {
   GlobeIcon,
 } from "@/components/ui/icon";
 import { cities } from "@/lib/data/argentina";
+import { cityComparisons } from "@/lib/data/comparisons";
 
 export const metadata: Metadata = {
   title: "Best Cities for Expats in Argentina | Expats Argentina",
@@ -159,16 +160,59 @@ export default function CitiesPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* City Comparisons */}
       <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold mb-4">
+                Head-to-Head City Comparisons
+              </h2>
+              <p className="text-muted-foreground text-lg">
+                Not sure which city is right for you? See how they stack up side by side.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {cityComparisons.map((comp) => (
+                <Link key={comp.slug} href={`/cities/compare/${comp.slug}`} className="group">
+                  <Card className="h-full hover:shadow-md transition-shadow">
+                    <CardContent className="pt-6">
+                      <h3 className="font-semibold text-lg group-hover:text-primary transition-colors mb-2">
+                        {comp.title}
+                      </h3>
+                      <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                        {comp.description}
+                      </p>
+                      <div className="flex items-center gap-1 text-sm font-medium text-primary">
+                        <span>Compare now</span>
+                        <ArrowRightIcon size="sm" className="transition-transform group-hover:translate-x-1" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-6">
+              <Button asChild variant="outline">
+                <Link href="/cities/compare">
+                  View All Comparisons
+                  <ArrowRightIcon size="sm" className="ml-2" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">
-              Not Sure Which City Is Right for You?
+              Ready to Pick Your City?
             </h2>
             <p className="text-muted-foreground mb-8">
-              Compare cost of living, safety, internet speeds, and lifestyle
-              across all cities to find your perfect match in Argentina.
+              Explore visa options and cost of living breakdowns to start planning your move.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild>

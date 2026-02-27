@@ -18,11 +18,11 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Argentina Investment Visa - Residency by Investment Guide 2025",
+  title: "Argentina Investment Visa - Residency by Investment Guide 2026",
   description: "Complete guide to Argentina's investment visa. Requirements, investment options, application process, costs, and benefits of obtaining residency through business investment in Argentina.",
   keywords: ["Argentina investment visa", "residency by investment Argentina", "invest in Argentina", "Argentina business visa", "Argentina investor residency"],
   openGraph: {
-    title: "Argentina Investment Visa - Residency by Investment Guide 2025",
+    title: "Argentina Investment Visa - Residency by Investment Guide 2026",
     description: "Obtain Argentine residency through business investment. Complete guide to investment options, requirements, and application process.",
   },
 };
@@ -163,6 +163,20 @@ const faqs = [
 export default function InvestmentVisaPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://expatsargentina.com" },
+              { "@type": "ListItem", position: 2, name: "Visas", item: "https://expatsargentina.com/visas" },
+              { "@type": "ListItem", position: 3, name: "Investment Visa", item: "https://expatsargentina.com/visas/investment" },
+            ],
+          }),
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
@@ -536,7 +550,7 @@ export default function InvestmentVisaPage() {
                 Argentine Immigration website
               </Link>{" "}
               and consult with qualified immigration and business attorneys before making any
-              investment decisions. Last updated: 2025.
+              investment decisions. Last updated: 2026.
             </p>
           </div>
         </div>

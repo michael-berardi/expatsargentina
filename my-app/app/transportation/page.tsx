@@ -28,7 +28,7 @@ import {
 export const metadata: Metadata = {
   title: "Getting Around Buenos Aires | Transportation Guide",
   description:
-    "Complete transportation guide for Buenos Aires. SUBE card, subway, buses, taxis, Uber, biking, and airport transfers. Updated 2025 prices and practical tips.",
+    "Complete transportation guide for Buenos Aires. SUBE card, subway, buses, taxis, Uber, biking, and airport transfers. Updated 2026 prices and practical tips.",
   alternates: { canonical: "https://expatsargentina.com/transportation" },
 };
 
@@ -70,7 +70,7 @@ export default function TransportationPage() {
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <Badge className="mb-4 bg-yellow-500 text-blue-900 hover:bg-yellow-400 font-semibold">
-            Updated February 2025
+            Updated 2026
           </Badge>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Getting Around Buenos Aires
@@ -89,7 +89,7 @@ export default function TransportationPage() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Info className="h-5 w-5 text-yellow-600" />
-              Quick Reference: Current Prices (2025)
+              Quick Reference: Current Prices (2026)
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -1360,7 +1360,7 @@ export default function TransportationPage() {
 
         {/* Last Updated */}
         <div className="text-center text-sm text-muted-foreground pt-8 border-t">
-          <p>Last updated: February 2025</p>
+          <p>Last updated: 2026</p>
           <p className="mt-1">
             Prices and information are subject to change. Always verify current rates with
             official sources.

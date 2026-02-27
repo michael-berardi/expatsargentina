@@ -18,11 +18,11 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Argentina Retirement Visa (Pensionado) - Complete 2025 Guide",
+  title: "Argentina Retirement Visa (Pensionado) - Complete 2026 Guide",
   description: "Complete guide to Argentina's retirement visa for pensioners. Requirements, income thresholds, application process, costs, and benefits of retiring in Argentina.",
   keywords: ["Argentina retirement visa", "pensionado visa Argentina", "retire in Argentina", "Argentina retiree residency", "pension visa Argentina"],
   openGraph: {
-    title: "Argentina Retirement Visa (Pensionado) - Complete 2025 Guide",
+    title: "Argentina Retirement Visa (Pensionado) - Complete 2026 Guide",
     description: "Retire in Argentina with a pension or retirement income. Step-by-step guide to the Pensionado visa.",
   },
 };
@@ -140,6 +140,20 @@ const faqs = [
 export default function RetirementVisaPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://expatsargentina.com" },
+              { "@type": "ListItem", position: 2, name: "Visas", item: "https://expatsargentina.com/visas" },
+              { "@type": "ListItem", position: 3, name: "Retirement Visa", item: "https://expatsargentina.com/visas/retirement" },
+            ],
+          }),
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
@@ -486,7 +500,7 @@ export default function RetirementVisaPage() {
                 Argentine Immigration website
               </Link>{" "}
               or consult with a qualified immigration attorney before making any decisions.
-              Last updated: 2025.
+              Last updated: 2026.
             </p>
           </div>
         </div>

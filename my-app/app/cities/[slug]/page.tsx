@@ -20,6 +20,8 @@ import {
   StarIcon,
 } from "@/components/ui/icon";
 import { cities, getCityBySlug } from "@/lib/data/argentina";
+import { neighborhoods as allNeighborhoods } from "@/lib/data/neighborhoods";
+import { cityComparisons } from "@/lib/data/comparisons";
 
 export function generateStaticParams() {
   return cities.map((city) => ({ slug: city.slug }));
@@ -248,26 +250,55 @@ export default async function CityDetailPage({
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
-            <div className="flex items-center gap-3 mb-8">
-              <HomeIcon size="lg" className="text-teal-600" />
-              <h2 className="text-3xl font-bold">Neighborhoods</h2>
+            <div className="flex items-center justify-between mb-8">
+              <div className="flex items-center gap-3">
+                <HomeIcon size="lg" className="text-teal-600" />
+                <h2 className="text-3xl font-bold">Neighborhoods</h2>
+              </div>
+              {city.slug === "buenos-aires" && (
+                <Button variant="outline" size="sm" asChild>
+                  <Link href="/neighborhoods">
+                    All BA Neighborhoods
+                    <ArrowRightIcon size="sm" className="ml-1" />
+                  </Link>
+                </Button>
+              )}
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {city.neighborhoods.map((hood) => (
-                <Card key={hood.name}>
-                  <CardHeader>
-                    <CardTitle className="text-lg flex items-center gap-2">
-                      <MapPinIcon size="sm" className="text-primary" />
-                      {hood.name}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-base md:text-sm text-muted-foreground">
-                      {hood.vibe}
-                    </p>
-                  </CardContent>
-                </Card>
-              ))}
+              {city.neighborhoods.map((hood) => {
+                const detailPage = allNeighborhoods.find(
+                  (n) => n.name.toLowerCase() === hood.name.toLowerCase() ||
+                         n.altNames?.some((alt: string) => alt.toLowerCase() === hood.name.toLowerCase())
+                );
+                const content = (
+                  <Card className={detailPage ? "hover:shadow-md transition-shadow" : ""}>
+                    <CardHeader>
+                      <CardTitle className="text-lg flex items-center gap-2">
+                        <MapPinIcon size="sm" className="text-primary" />
+                        {hood.name}
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-base md:text-sm text-muted-foreground">
+                        {hood.vibe}
+                      </p>
+                      {detailPage && (
+                        <div className="flex items-center gap-1 text-sm font-medium text-primary mt-3">
+                          <span>Full guide</span>
+                          <ArrowRightIcon size="sm" />
+                        </div>
+                      )}
+                    </CardContent>
+                  </Card>
+                );
+                return detailPage ? (
+                  <Link key={hood.name} href={`/neighborhoods/${detailPage.slug}`}>
+                    {content}
+                  </Link>
+                ) : (
+                  <div key={hood.name}>{content}</div>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -408,6 +439,29 @@ export default async function CityDetailPage({
           </div>
         </div>
       </section>
+
+      {/* Compare This City */}
+      {cityComparisons.filter(c => c.city1Slug === city.slug || c.city2Slug === city.slug).length > 0 && (
+        <section className="py-12 border-t">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto">
+              <h3 className="text-xl font-bold mb-4">Compare {city.name} With Other Cities</h3>
+              <div className="flex flex-wrap gap-3">
+                {cityComparisons
+                  .filter(c => c.city1Slug === city.slug || c.city2Slug === city.slug)
+                  .map((comp) => (
+                    <Button key={comp.slug} variant="outline" size="sm" asChild>
+                      <Link href={`/cities/compare/${comp.slug}`}>
+                        {comp.title}
+                        <ArrowRightIcon size="sm" className="ml-1" />
+                      </Link>
+                    </Button>
+                  ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">

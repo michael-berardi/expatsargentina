@@ -41,7 +41,7 @@ export async function generateMetadata({
 
   return {
     title: `${sector.name} in Argentina | Investment Guide | Expats Argentina`,
-    description: `${sector.description} Updated 2025 analysis of opportunities, risks, legal considerations, and regional breakdowns for ${sector.shortName.toLowerCase()} investment in Argentina.`,
+    description: `${sector.description} Updated 2026 analysis of opportunities, risks, legal considerations, and regional breakdowns for ${sector.shortName.toLowerCase()} investment in Argentina.`,
     keywords: [
       `${sector.shortName.toLowerCase()} investment Argentina`,
       `invest in ${sector.shortName.toLowerCase()} Argentina`,

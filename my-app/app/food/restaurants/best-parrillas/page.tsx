@@ -150,7 +150,7 @@ export default function BestParrillasPage() {
             </div>
             <Badge variant="outline" className="hidden md:inline-flex">
               <Award className="w-3 h-3 mr-1" />
-              Updated 2025
+              Updated 2026
             </Badge>
           </div>
 

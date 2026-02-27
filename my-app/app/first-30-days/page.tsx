@@ -30,7 +30,7 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "First 30 Days in Buenos Aires - Complete Arrival Guide 2025",
+  title: "First 30 Days in Buenos Aires - Complete Arrival Guide 2026",
   description: "Your week-by-week survival guide for the first month in Buenos Aires. Real advice on housing, money, transport, and settling in from someone who's been through it.",
   keywords: ["first month Buenos Aires", "moving to Buenos Aires guide", "Buenos Aires arrival tips", "expat first 30 days Argentina"],
   openGraph: {

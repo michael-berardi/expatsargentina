@@ -19,11 +19,11 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Argentina Work Visa - Employment-Based Residency Guide 2025",
+  title: "Argentina Work Visa - Employment-Based Residency Guide 2026",
   description: "Complete guide to Argentina's work visa and employment-based residency. Requirements, employer sponsorship, application process, costs, and timelines for working legally in Argentina.",
   keywords: ["Argentina work visa", "employment visa Argentina", "work permit Argentina", "employer sponsorship Argentina", "Argentina residency through work"],
   openGraph: {
-    title: "Argentina Work Visa - Employment-Based Residency Guide 2025",
+    title: "Argentina Work Visa - Employment-Based Residency Guide 2026",
     description: "Get a work visa in Argentina through employer sponsorship. Step-by-step guide to requirements, documents, and application process.",
   },
 };
@@ -114,6 +114,20 @@ const faqs = [
 export default function WorkVisaPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://expatsargentina.com" },
+              { "@type": "ListItem", position: 2, name: "Visas", item: "https://expatsargentina.com/visas" },
+              { "@type": "ListItem", position: 3, name: "Work Visa", item: "https://expatsargentina.com/visas/work" },
+            ],
+          }),
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
@@ -438,7 +452,7 @@ export default function WorkVisaPage() {
                 Argentine Immigration website
               </Link>{" "}
               or consult with a qualified immigration attorney before making any decisions.
-              Last updated: 2025.
+              Last updated: 2026.
             </p>
           </div>
         </div>

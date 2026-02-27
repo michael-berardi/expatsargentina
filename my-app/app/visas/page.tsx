@@ -1886,7 +1886,7 @@ export default function VisasPage() {
                     </h3>
                     <p className="text-amber-800 dark:text-amber-200 text-base md:text-sm">
                       Visa requirements, fees, and processing times change frequently. 
-                      This guide reflects information current as of 2025 but should not be 
+                      This guide reflects information current as of 2026 but should not be
                       considered legal advice. Always verify current requirements on the official{" "}
                       <Link href="https://www.migraciones.gov.ar" className="underline" target="_blank" rel="noopener noreferrer">
                         Argentine Immigration website
