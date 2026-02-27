@@ -149,7 +149,7 @@ export default async function RecipePage({
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
             {recipe.name}
           </h1>
-          <p className="text-xl text-orange-100 mb-4 print:text-gray-600">
+          <p className="text-xl text-white/90 mb-4 drop-shadow-sm print:text-gray-600">
             {recipe.spanishName}
           </p>
           <p className="text-lg text-orange-50 max-w-2xl print:text-gray-700">

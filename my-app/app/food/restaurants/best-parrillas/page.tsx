@@ -90,19 +90,19 @@ export default function BestParrillasPage() {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <h4 className="font-semibold text-gray-900">Vacio (Flank Steak)</h4>
-                  <p className="text-sm text-gray-600">Juicy, flavorful, with a distinctive grain. The connoisseur's choice.</p>
+                  <p className="text-base text-gray-600">Juicy, flavorful, with a distinctive grain. The connoisseur's choice.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Bife de Chorizo (Sirloin)</h4>
-                  <p className="text-sm text-gray-600">The classic steak—thick, tender, perfect marbling.</p>
+                  <p className="text-base text-gray-600">The classic steak—thick, tender, perfect marbling.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Entraña (Skirt Steak)</h4>
-                  <p className="text-sm text-gray-600">Intense beef flavor, slightly chewy texture. Favorite among locals.</p>
+                  <p className="text-base text-gray-600">Intense beef flavor, slightly chewy texture. Favorite among locals.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Ojo de Bife (Ribeye)</h4>
-                  <p className="text-sm text-gray-600">Rich, fatty, deeply flavored. The indulgence cut.</p>
+                  <p className="text-base text-gray-600">Rich, fatty, deeply flavored. The indulgence cut.</p>
                 </div>
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function BestParrillasPage() {
                     {/* Ranking */}
                     <div className="bg-gradient-to-br from-orange-500 to-red-600 text-white p-6 flex flex-col items-center justify-center">
                       <div className="text-4xl font-bold">{parrilla.ranking}</div>
-                      <div className="text-sm opacity-80">rank</div>
+                      <div className="text-base opacity-80">rank</div>
                     </div>
 
                     {/* Content */}
@@ -196,7 +196,7 @@ export default function BestParrillasPage() {
                         ))}
                       </div>
 
-                      <div className="grid sm:grid-cols-2 gap-3 text-sm">
+                      <div className="grid sm:grid-cols-2 gap-3 text-base">
                         <div className="flex items-center gap-2 text-gray-600">
                           <MapPin className="w-4 h-4 text-gray-400" />
                           <span>{parrilla.address}</span>
@@ -235,7 +235,7 @@ export default function BestParrillasPage() {
                       {/* Why We Love It */}
                       {parrilla.whyWeLoveIt && (
                         <div className="mt-4 pt-4 border-t">
-                          <p className="text-sm text-gray-600">
+                          <p className="text-base text-gray-600">
                             <span className="font-semibold text-gray-900">Why we love it:</span> {parrilla.whyWeLoveIt}
                           </p>
                         </div>
@@ -247,7 +247,7 @@ export default function BestParrillasPage() {
                       <h4 className="font-semibold text-gray-900 mb-3">Good For</h4>
                       <ul className="space-y-2 mb-4">
                         {parrilla.goodFor?.slice(0, 3).map((item) => (
-                          <li key={item} className="flex items-center gap-2 text-sm text-gray-600">
+                          <li key={item} className="flex items-center gap-2 text-base text-gray-600">
                             <CheckCircle className="w-4 h-4 text-green-500 shrink-0" />
                             <span>{item}</span>
                           </li>
@@ -259,7 +259,7 @@ export default function BestParrillasPage() {
                           <h4 className="font-semibold text-gray-900 mb-3">Features</h4>
                           <div className="flex flex-wrap gap-2">
                             {parrilla.features.slice(0, 4).map((feature) => (
-                              <Badge key={feature} variant="outline" className="text-xs">
+                              <Badge key={feature} variant="outline" className="text-sm">
                                 {feature}
                               </Badge>
                             ))}
@@ -269,9 +269,9 @@ export default function BestParrillasPage() {
 
                       {parrilla.phone && (
                         <div className="mt-4 pt-4 border-t">
-                          <div className="flex items-center gap-2 text-sm text-gray-600">
+                          <div className="flex items-center gap-2 text-base text-gray-600">
                             <Phone className="w-4 h-4" />
-                            <span>{parrilla.phone}</span>
+                            <a href={`tel:${parrilla.phone.replace(/\s/g, '')}`} className="hover:underline">{parrilla.phone}</a>
                           </div>
                         </div>
                       )}
@@ -294,19 +294,19 @@ export default function BestParrillasPage() {
                 <h4 className="font-bold text-gray-900 mb-3">The Process</h4>
                 <ol className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-orange-200 text-orange-700 flex items-center justify-center text-sm font-bold shrink-0">1</span>
+                    <span className="w-6 h-6 rounded-full bg-orange-200 text-orange-700 flex items-center justify-center text-base font-bold shrink-0">1</span>
                     <span className="text-gray-700">Start with provoleta (grilled cheese) and chorizo/morcilla</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-orange-200 text-orange-700 flex items-center justify-center text-sm font-bold shrink-0">2</span>
+                    <span className="w-6 h-6 rounded-full bg-orange-200 text-orange-700 flex items-center justify-center text-base font-bold shrink-0">2</span>
                     <span className="text-gray-700">Order 1-2 main cuts to share—portions are huge</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-orange-200 text-orange-700 flex items-center justify-center text-sm font-bold shrink-0">3</span>
+                    <span className="w-6 h-6 rounded-full bg-orange-200 text-orange-700 flex items-center justify-center text-base font-bold shrink-0">3</span>
                     <span className="text-gray-700">Add a simple salad (not creamy)—it cuts the richness</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-orange-200 text-orange-700 flex items-center justify-center text-sm font-bold shrink-0">4</span>
+                    <span className="w-6 h-6 rounded-full bg-orange-200 text-orange-700 flex items-center justify-center text-base font-bold shrink-0">4</span>
                     <span className="text-gray-700">Order wine by the bottle—it's cheaper than by the glass</span>
                   </li>
                 </ol>
@@ -327,7 +327,7 @@ export default function BestParrillasPage() {
                     <Badge variant="outline" className="border-red-300 text-red-600">Well done (avoid)</Badge>
                   </div>
                 </div>
-                <p className="text-sm text-gray-600 mt-3">
+                <p className="text-base text-gray-600 mt-3">
                   <strong>Pro tip:</strong> Ask for "a punto"—it's how locals eat it. Well-done is considered a waste of good beef.
                 </p>
               </div>
@@ -347,11 +347,11 @@ export default function BestParrillasPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-4">
-                <p className="text-sm text-gray-600 mb-3">$15-25 USD per person</p>
+                <p className="text-base text-gray-600 mb-3">$15-25 USD per person</p>
                 <ul className="space-y-2">
-                  <li className="text-sm font-medium">• Desnivel</li>
-                  <li className="text-sm font-medium">• El Boliche de Dario</li>
-                  <li className="text-sm text-gray-500">Neighborhood gems, huge portions, authentic</li>
+                  <li className="text-base font-medium">• Desnivel</li>
+                  <li className="text-base font-medium">• El Boliche de Dario</li>
+                  <li className="text-base text-gray-500">Neighborhood gems, huge portions, authentic</li>
                 </ul>
               </CardContent>
             </Card>
@@ -363,11 +363,11 @@ export default function BestParrillasPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-4">
-                <p className="text-sm text-gray-600 mb-3">$40-60 USD per person</p>
+                <p className="text-base text-gray-600 mb-3">$40-60 USD per person</p>
                 <ul className="space-y-2">
-                  <li className="text-sm font-medium">• El Pobre Luis</li>
-                  <li className="text-sm font-medium">• Caldén del Soho</li>
-                  <li className="text-sm text-gray-500">Quality meat, good service, neighborhood favorites</li>
+                  <li className="text-base font-medium">• El Pobre Luis</li>
+                  <li className="text-base font-medium">• Caldén del Soho</li>
+                  <li className="text-base text-gray-500">Quality meat, good service, neighborhood favorites</li>
                 </ul>
               </CardContent>
             </Card>
@@ -379,11 +379,11 @@ export default function BestParrillasPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-4">
-                <p className="text-sm text-gray-600 mb-3">$80-150+ USD per person</p>
+                <p className="text-base text-gray-600 mb-3">$80-150+ USD per person</p>
                 <ul className="space-y-2">
-                  <li className="text-sm font-medium">• Don Julio (#1 in world)</li>
-                  <li className="text-sm font-medium">• La Cabrera</li>
-                  <li className="text-sm text-gray-500">Aged beef, wine cellars, world-class experience</li>
+                  <li className="text-base font-medium">• Don Julio (#1 in world)</li>
+                  <li className="text-base font-medium">• La Cabrera</li>
+                  <li className="text-base text-gray-500">Aged beef, wine cellars, world-class experience</li>
                 </ul>
               </CardContent>
             </Card>
@@ -409,7 +409,7 @@ export default function BestParrillasPage() {
           <Card className="bg-gradient-to-br from-orange-600 to-red-600 text-white border-0">
             <CardContent className="p-8">
               <h3 className="text-xl font-bold mb-3">Learn to Cook Asado</h3>
-              <p className="text-orange-100 mb-4">
+              <p className="text-white/90 mb-4 drop-shadow-sm">
                 Can't get a reservation? Learn to make authentic Argentine 
                 asado at home with our step-by-step guide.
               </p>

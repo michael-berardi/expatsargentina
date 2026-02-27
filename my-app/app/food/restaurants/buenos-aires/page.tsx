@@ -66,13 +66,13 @@ export default function BuenosAiresRestaurantsPage() {
               <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
                 <Utensils className="w-8 h-8" />
               </div>
-              <span className="text-orange-100 font-medium">Expats Argentina Dining Guide</span>
+              <span className="text-white/95 font-medium drop-shadow-md">Expats Argentina Dining Guide</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Best Restaurants in<br />
               <span className="text-orange-200">Buenos Aires</span>
             </h1>
-            <p className="text-xl text-orange-100 max-w-2xl mb-8">
+            <p className="text-xl text-white/95 max-w-2xl mb-8 drop-shadow-md">
               From the world's best steakhouse to hidden neighborhood gems. 
               Our curated guide to the top 40 restaurants in Buenos Aires.
             </p>
@@ -99,25 +99,25 @@ export default function BuenosAiresRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-orange-600">40+</div>
-              <div className="text-sm text-gray-600">Curated Restaurants</div>
+              <div className="text-base text-gray-600">Curated Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-orange-600">#1</div>
-              <div className="text-sm text-gray-600">World's Best Steak</div>
+              <div className="text-base text-gray-600">World's Best Steak</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-orange-600">8</div>
-              <div className="text-sm text-gray-600">Neighborhoods</div>
+              <div className="text-base text-gray-600">Neighborhoods</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-orange-600">$</div>
-              <div className="text-sm text-gray-600">All Price Ranges</div>
+              <div className="text-base text-gray-600">All Price Ranges</div>
             </CardContent>
           </Card>
         </div>
@@ -131,7 +131,7 @@ export default function BuenosAiresRestaurantsPage() {
                 <Badge className={`${priceColors[price as keyof typeof priceColors]} text-base px-3 py-1`}>
                   {price}
                 </Badge>
-                <span className="text-sm text-gray-600">{label}</span>
+                <span className="text-base text-gray-600">{label}</span>
               </div>
             ))}
           </div>
@@ -165,7 +165,7 @@ export default function BuenosAiresRestaurantsPage() {
                             <h3 className="text-xl font-bold text-gray-900">
                               {restaurant.name}
                             </h3>
-                            <p className="text-sm text-orange-600">
+                            <p className="text-base text-orange-600">
                               {restaurant.cuisineType} • {restaurant.neighborhood}
                             </p>
                           </div>
@@ -185,7 +185,7 @@ export default function BuenosAiresRestaurantsPage() {
                         ))}
                       </div>
 
-                      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                      <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
                         <div className="flex items-center gap-1">
                           <MapPin className="w-4 h-4" />
                           <span>{restaurant.address}</span>
@@ -198,7 +198,7 @@ export default function BuenosAiresRestaurantsPage() {
                       </div>
 
                       {restaurant.localTip && (
-                        <div className="mt-4 bg-amber-50 rounded-lg p-3 text-sm">
+                        <div className="mt-4 bg-amber-50 rounded-lg p-3 text-base">
                           <span className="font-semibold text-amber-800">Local tip:</span>
                           <span className="text-amber-700"> {restaurant.localTip}</span>
                         </div>
@@ -246,13 +246,13 @@ export default function BuenosAiresRestaurantsPage() {
                     <h3 className="text-lg font-bold text-gray-900">{parrilla.name}</h3>
                     <Badge className={priceColors[parrilla.priceRange]}>{parrilla.priceRange}</Badge>
                   </div>
-                  <p className="text-sm text-gray-600 mb-3 line-clamp-2">{parrilla.description}</p>
-                  <div className="flex items-center gap-2 text-sm text-gray-500">
+                  <p className="text-base text-gray-600 mb-3 line-clamp-2">{parrilla.description}</p>
+                  <div className="flex items-center gap-2 text-base text-gray-500">
                     <MapPin className="w-4 h-4" />
                     <span>{parrilla.neighborhood}</span>
                   </div>
                   {parrilla.whyWeLoveIt && (
-                    <p className="mt-3 text-sm text-orange-700 bg-orange-50 rounded-lg p-2">
+                    <p className="mt-3 text-base text-orange-700 bg-orange-50 rounded-lg p-2">
                       <span className="font-semibold">Why we love it:</span> {parrilla.whyWeLoveIt}
                     </p>
                   )}
@@ -274,8 +274,8 @@ export default function BuenosAiresRestaurantsPage() {
                       <h3 className="font-bold text-gray-900">{pizza.name}</h3>
                       <Badge className={priceColors[pizza.priceRange]}>{pizza.priceRange}</Badge>
                     </div>
-                    <p className="text-sm text-gray-600 mb-2">{pizza.address}</p>
-                    <p className="text-sm text-orange-600">Must try: {pizza.mustTry[0]}</p>
+                    <p className="text-base text-gray-600 mb-2">{pizza.address}</p>
+                    <p className="text-base text-orange-600">Must try: {pizza.mustTry[0]}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -292,8 +292,8 @@ export default function BuenosAiresRestaurantsPage() {
                       <h3 className="font-bold text-gray-900">{empanada.name}</h3>
                       <Badge className={priceColors[empanada.priceRange]}>{empanada.priceRange}</Badge>
                     </div>
-                    <p className="text-sm text-gray-600 mb-2">{empanada.address}</p>
-                    <p className="text-sm text-orange-600">Must try: {empanada.mustTry[0]}</p>
+                    <p className="text-base text-gray-600 mb-2">{empanada.address}</p>
+                    <p className="text-base text-orange-600">Must try: {empanada.mustTry[0]}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -313,8 +313,8 @@ export default function BuenosAiresRestaurantsPage() {
                       <h3 className="font-bold text-gray-900">{veg.name}</h3>
                       <Badge className={priceColors[veg.priceRange]}>{veg.priceRange}</Badge>
                     </div>
-                    <p className="text-sm text-gray-600 mb-2">{veg.neighborhood}</p>
-                    <p className="text-sm text-gray-500">{veg.description.slice(0, 100)}...</p>
+                    <p className="text-base text-gray-600 mb-2">{veg.neighborhood}</p>
+                    <p className="text-base text-gray-500">{veg.description.slice(0, 100)}...</p>
                   </CardContent>
                 </Card>
               ))}
@@ -331,8 +331,8 @@ export default function BuenosAiresRestaurantsPage() {
                       <h3 className="font-bold text-gray-900">{rest.name}</h3>
                       <Badge className={priceColors[rest.priceRange]}>{rest.priceRange}</Badge>
                     </div>
-                    <p className="text-sm text-orange-600 mb-1">{rest.cuisineType}</p>
-                    <p className="text-sm text-gray-600">{rest.neighborhood}</p>
+                    <p className="text-base text-orange-600 mb-1">{rest.cuisineType}</p>
+                    <p className="text-base text-gray-600">{rest.neighborhood}</p>
                   </CardContent>
                 </Card>
               ))}

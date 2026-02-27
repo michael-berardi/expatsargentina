@@ -780,7 +780,7 @@ export default function SafetyPage() {
                 <span className="text-slate-700">Fire department</span>
               </div>
               <div className="flex items-center gap-4">
-                <span className="text-lg font-bold text-red-700 w-32">0800-999-5000</span>
+                <a href="tel:0800-999-5000" className="text-lg font-bold text-red-700 w-32 hover:underline">0800-999-5000</a>
                 <span className="text-slate-700">Tourist police (English spoken)</span>
               </div>
             </div>
@@ -796,13 +796,13 @@ export default function SafetyPage() {
               also have emergency hotlines for after-hours situations.
             </p>
             <p>
-              <strong>US Embassy:</strong> +54-11-5777-4533 (emergency after hours)
+              <strong>US Embassy:</strong> <a href="tel:+54-11-5777-4533" className="hover:underline">+54-11-5777-4533</a> (emergency after hours)
               <br />
-              <strong>UK Embassy:</strong> +54-11-4808-2200
+              <strong>UK Embassy:</strong> <a href="tel:+54-11-4808-2200" className="hover:underline">+54-11-4808-2200</a>
               <br />
-              <strong>Canadian Embassy:</strong> +54-11-4808-1000
+              <strong>Canadian Embassy:</strong> <a href="tel:+54-11-4808-1000" className="hover:underline">+54-11-4808-1000</a>
               <br />
-              <strong>Australian Embassy:</strong> +54-11-4779-4100
+              <strong>Australian Embassy:</strong> <a href="tel:+54-11-4779-4100" className="hover:underline">+54-11-4779-4100</a>
             </p>
 
             <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">

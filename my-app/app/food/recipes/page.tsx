@@ -51,13 +51,13 @@ export default function RecipesPage() {
               <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
                 <ChefHat className="w-8 h-8" />
               </div>
-              <span className="text-orange-100 font-medium">Expats Argentina Kitchen</span>
+              <span className="text-white/95 font-medium drop-shadow-md">Expats Argentina Kitchen</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Authentic Argentine<br />
               <span className="text-orange-200">Recipes</span>
             </h1>
-            <p className="text-xl text-orange-100 max-w-2xl mb-8">
+            <p className="text-xl text-white/95 max-w-2xl mb-8 drop-shadow-md">
               Learn to cook like a local. From empanadas to asado, our tested recipes 
               come with ingredient sourcing tips and cultural context you won't find elsewhere.
             </p>

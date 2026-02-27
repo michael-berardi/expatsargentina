@@ -5,6 +5,9 @@ import { recipes } from "@/lib/data/recipes";
 import { investmentSectors } from "@/lib/data/investments";
 import { cityComparisons } from "@/lib/data/comparisons";
 import { visaComparisons } from "@/lib/data/visa-comparisons";
+import { blogPosts } from "@/lib/data/blog";
+import { professions } from "@/lib/data/professions";
+import { nationalities } from "@/lib/data/nationalities";
 
 export const dynamic = "force-static";
 
@@ -65,6 +68,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Compare pages
     { url: `${BASE_URL}/cities/compare/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/visas/compare/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    // Blog
+    { url: `${BASE_URL}/blog/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    // Professions
+    { url: `${BASE_URL}/profession/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    // Nationalities
+    { url: `${BASE_URL}/nationality/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   // Dynamic PSEO pages - Provinces
@@ -123,6 +132,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // Dynamic PSEO pages - Blog posts
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}/`,
+    lastModified: post.updatedAt || post.publishedAt,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  // Dynamic PSEO pages - Professions
+  const professionPages: MetadataRoute.Sitemap = professions.map((prof) => ({
+    url: `${BASE_URL}/profession/${prof.slug}/`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  // Dynamic PSEO pages - Nationalities
+  const nationalityPages: MetadataRoute.Sitemap = nationalities.map((nat) => ({
+    url: `${BASE_URL}/nationality/${nat.slug}/`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     ...staticPages,
     ...provincePages,
@@ -132,5 +165,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...investmentPages,
     ...comparisonPages,
     ...visaComparisonPages,
+    ...blogPages,
+    ...professionPages,
+    ...nationalityPages,
   ];
 }

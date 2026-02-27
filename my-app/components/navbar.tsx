@@ -122,8 +122,8 @@ export function Navbar() {
                             href={item.href}
                             className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-tight">{item.title}</div>
-                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
+                            <div className="text-base font-medium leading-tight">{item.title}</div>
+                            <p className="line-clamp-2 text-sm leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -145,8 +145,8 @@ export function Navbar() {
                             href={item.href}
                             className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-tight">{item.title}</div>
-                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
+                            <div className="text-base font-medium leading-tight">{item.title}</div>
+                            <p className="line-clamp-2 text-sm leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -168,8 +168,8 @@ export function Navbar() {
                             href={item.href}
                             className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-tight">{item.title}</div>
-                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
+                            <div className="text-base font-medium leading-tight">{item.title}</div>
+                            <p className="line-clamp-2 text-sm leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -191,8 +191,8 @@ export function Navbar() {
                             href={item.href}
                             className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-tight">{item.title as string}</div>
-                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
+                            <div className="text-base font-medium leading-tight">{item.title as string}</div>
+                            <p className="line-clamp-2 text-sm leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -214,8 +214,8 @@ export function Navbar() {
                             href={item.href}
                             className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-tight">{item.title}</div>
-                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
+                            <div className="text-base font-medium leading-tight">{item.title}</div>
+                            <p className="line-clamp-2 text-sm leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -237,8 +237,8 @@ export function Navbar() {
                             href={item.href}
                             className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-tight">{item.title as string}</div>
-                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
+                            <div className="text-base font-medium leading-tight">{item.title as string}</div>
+                            <p className="line-clamp-2 text-sm leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -250,6 +250,22 @@ export function Navbar() {
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
+          
+          {/* Blog Link */}
+          <Link 
+            href="/blog" 
+            className="text-base font-medium text-foreground hover:text-primary transition-colors"
+          >
+            Blog
+          </Link>
+          
+          {/* Profession Link */}
+          <Link 
+            href="/profession" 
+            className="text-base font-medium text-foreground hover:text-primary transition-colors"
+          >
+            Professions
+          </Link>
         </div>
 
         {/* CTA Button & Language Switcher */}
@@ -282,7 +298,7 @@ export function Navbar() {
               </div>
 
               <nav className="flex flex-col gap-4">
-                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider">
+                <div className="text-base md:text-base font-semibold text-muted-foreground uppercase tracking-wider">
                   {provincesLabel}
                 </div>
                 {provinceItems.map((item) => (
@@ -296,7 +312,7 @@ export function Navbar() {
                   </SheetClose>
                 ))}
 
-                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                <div className="text-base md:text-base font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   {citiesLabel}
                 </div>
                 {cityItems.map((item) => (
@@ -310,7 +326,7 @@ export function Navbar() {
                   </SheetClose>
                 ))}
 
-                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                <div className="text-base md:text-base font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   {visasLabel}
                 </div>
                 {visaItems.map((item) => (
@@ -324,7 +340,7 @@ export function Navbar() {
                   </SheetClose>
                 ))}
 
-                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                <div className="text-base md:text-base font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   {guidesLabel}
                 </div>
                 {guideItems.map((item) => (
@@ -338,7 +354,7 @@ export function Navbar() {
                   </SheetClose>
                 ))}
 
-                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                <div className="text-base md:text-base font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   {locale === 'es' ? 'Comida' : 'Food'}
                 </div>
                 {foodItems.map((item) => (
@@ -352,7 +368,7 @@ export function Navbar() {
                   </SheetClose>
                 ))}
 
-                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                <div className="text-base md:text-base font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   {investLabel}
                 </div>
                 {investItems.map((item) => (
@@ -365,6 +381,30 @@ export function Navbar() {
                     </Link>
                   </SheetClose>
                 ))}
+
+                <div className="text-base md:text-base font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                  {locale === 'es' ? 'Blog' : 'Blog'}
+                </div>
+                <SheetClose asChild>
+                  <Link
+                    href="/blog"
+                    className="text-foreground hover:text-primary transition-colors"
+                  >
+                    {locale === 'es' ? 'Artículos y Guías' : 'Articles & Guides'}
+                  </Link>
+                </SheetClose>
+
+                <div className="text-base md:text-base font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                  {locale === 'es' ? 'Profesiones' : 'Professions'}
+                </div>
+                <SheetClose asChild>
+                  <Link
+                    href="/profession"
+                    className="text-foreground hover:text-primary transition-colors"
+                  >
+                    {locale === 'es' ? 'Guías por Profesión' : 'Career Guides'}
+                  </Link>
+                </SheetClose>
               </nav>
 
               <Button asChild className="mt-4">

@@ -103,7 +103,7 @@ export default function RestaurantsIndexPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Restaurant Guides
             </h1>
-            <p className="text-xl text-orange-100 max-w-2xl mx-auto mb-8">
+            <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8 drop-shadow-sm">
               Discover the best places to eat across Argentina—from Buenos Aires' world-class 
               dining to wine country gems and Patagonian specialties.
             </p>
@@ -129,25 +129,25 @@ export default function RestaurantsIndexPage() {
           <Card>
             <CardContent className="p-6 text-center">
               <div className="text-4xl font-bold text-orange-600 mb-1">40+</div>
-              <div className="text-sm text-gray-600">Curated Restaurants</div>
+              <div className="text-base text-gray-600">Curated Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
               <div className="text-4xl font-bold text-orange-600 mb-1">7</div>
-              <div className="text-sm text-gray-600">City Guides</div>
+              <div className="text-base text-gray-600">City Guides</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
               <div className="text-4xl font-bold text-orange-600 mb-1">4</div>
-              <div className="text-sm text-gray-600">Michelin Stars</div>
+              <div className="text-base text-gray-600">Michelin Stars</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
               <div className="text-4xl font-bold text-orange-600 mb-1">#1</div>
-              <div className="text-sm text-gray-600">World Steakhouse</div>
+              <div className="text-base text-gray-600">World Steakhouse</div>
             </CardContent>
           </Card>
         </div>
@@ -176,7 +176,7 @@ export default function RestaurantsIndexPage() {
                     
                     <div className="space-y-2 mb-4">
                       {city.highlights.map((highlight) => (
-                        <div key={highlight} className="flex items-center gap-2 text-sm text-gray-500">
+                        <div key={highlight} className="flex items-center gap-2 text-base text-gray-500">
                           <Star className="w-4 h-4 text-orange-500 fill-orange-500" />
                           <span>{highlight}</span>
                         </div>

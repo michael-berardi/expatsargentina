@@ -91,10 +91,10 @@ export function Footer() {
               </div>
               <span className="font-bold text-xl">Expats Argentina</span>
             </Link>
-            <p className="text-base md:text-sm text-muted-foreground max-w-xs">
+            <p className="text-base text-muted-foreground max-w-xs">
               {description}
             </p>
-            <p className="text-base md:text-sm text-muted-foreground mt-3">
+            <p className="text-base text-muted-foreground mt-3">
               <a href="mailto:hello@expatsargentina.com" className="hover:text-foreground transition-colors">
                 hello@expatsargentina.com
               </a>
@@ -109,7 +109,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
+                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.labelKey === "All Provinces" ? allProvinces : link.labelKey}
                   </Link>
@@ -126,7 +126,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
+                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.labelKey === "All Cities" ? allCities : link.labelKey}
                   </Link>
@@ -143,7 +143,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
+                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {getText(link.labelKey)}
                   </Link>
@@ -160,7 +160,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
+                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.labelKey === "Expat Stories" ? expatStories : 
                       link.labelKey === "Newsletter" ? newsletter :
@@ -179,7 +179,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
+                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.labelKey === "About Us" ? aboutUs :
                      link.labelKey === "Privacy Policy" ? privacyPolicy :
@@ -195,10 +195,10 @@ export function Footer() {
         <Separator className="my-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-base md:text-sm text-muted-foreground">
+          <p className="text-base text-muted-foreground">
             &copy; {currentYear} Expats Argentina. {rights}.
           </p>
-          <p className="text-base md:text-sm text-muted-foreground text-center md:text-right">
+          <p className="text-base text-muted-foreground text-center md:text-right">
             {sponsored}{" "}
             <Link href="https://lucerolegal.com" className="underline hover:text-foreground">
               Lucero Legal

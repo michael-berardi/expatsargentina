@@ -87,25 +87,25 @@ export default function MendozaRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-purple-600">2</div>
-              <div className="text-sm text-gray-600">Featured Restaurants</div>
+              <div className="text-base text-gray-600">Featured Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-purple-600">1500+</div>
-              <div className="text-sm text-gray-600">Wineries</div>
+              <div className="text-base text-gray-600">Wineries</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-purple-600">5M</div>
-              <div className="text-sm text-gray-600">Annual Visitors</div>
+              <div className="text-base text-gray-600">Annual Visitors</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-purple-600">★★★</div>
-              <div className="text-sm text-gray-600">Wine Tourism</div>
+              <div className="text-base text-gray-600">Wine Tourism</div>
             </CardContent>
           </Card>
         </div>
@@ -124,7 +124,7 @@ export default function MendozaRestaurantsPage() {
               Many of the best restaurants are located within wineries (bodegas), offering 
               multi-course meals paired with estate wines and views of the Andes.
             </p>
-            <div className="grid md:grid-cols-2 gap-4 text-sm">
+            <div className="grid md:grid-cols-2 gap-4 text-base">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Wine Regions</h4>
                 <ul className="space-y-1 text-gray-600">
@@ -166,7 +166,7 @@ export default function MendozaRestaurantsPage() {
                           <h3 className="text-xl font-bold text-gray-900">
                             {restaurant.name}
                           </h3>
-                          <p className="text-sm text-purple-600">
+                          <p className="text-base text-purple-600">
                             {restaurant.cuisineType} • {restaurant.subCategory}
                           </p>
                         </div>
@@ -185,7 +185,7 @@ export default function MendozaRestaurantsPage() {
                         ))}
                       </div>
 
-                      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                      <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
                         <div className="flex items-center gap-1">
                           <MapPin className="w-4 h-4" />
                           <span>{restaurant.address}</span>
@@ -193,13 +193,13 @@ export default function MendozaRestaurantsPage() {
                         {restaurant.phone && (
                           <div className="flex items-center gap-1">
                             <Phone className="w-4 h-4" />
-                            <span>{restaurant.phone}</span>
+                            <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="hover:underline">{restaurant.phone}</a>
                           </div>
                         )}
                       </div>
 
                       {restaurant.localTip && (
-                        <div className="mt-4 bg-purple-50 rounded-lg p-3 text-sm">
+                        <div className="mt-4 bg-purple-50 rounded-lg p-3 text-base">
                           <span className="font-semibold text-purple-800">Local tip:</span>
                           <span className="text-purple-700"> {restaurant.localTip}</span>
                         </div>
@@ -238,19 +238,19 @@ export default function MendozaRestaurantsPage() {
             <CardContent className="space-y-4">
               <div>
                 <h4 className="font-semibold text-gray-900">Bodega Catena Zapata</h4>
-                <p className="text-sm text-gray-600">Iconic pyramid winery with tastings and food pairings</p>
+                <p className="text-base text-gray-600">Iconic pyramid winery with tastings and food pairings</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Bodega Salentein</h4>
-                <p className="text-sm text-gray-600">Modern art and wine in Valle de Uco</p>
+                <p className="text-base text-gray-600">Modern art and wine in Valle de Uco</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Bodega Zuccardi</h4>
-                <p className="text-sm text-gray-600">Award-winning architecture and excellent restaurant</p>
+                <p className="text-base text-gray-600">Award-winning architecture and excellent restaurant</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Bodega Ruca Malén</h4>
-                <p className="text-sm text-gray-600">Famous 5-course lunch with wine pairings</p>
+                <p className="text-base text-gray-600">Famous 5-course lunch with wine pairings</p>
               </div>
             </CardContent>
           </Card>
@@ -265,19 +265,19 @@ export default function MendozaRestaurantsPage() {
             <CardContent className="space-y-4">
               <div>
                 <h4 className="font-semibold text-gray-900">Cordero Patagónico</h4>
-                <p className="text-sm text-gray-600">Patagonian lamb, often cooked over open fire</p>
+                <p className="text-base text-gray-600">Patagonian lamb, often cooked over open fire</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Cabrito</h4>
-                <p className="text-sm text-gray-600">Roast goat, a regional specialty</p>
+                <p className="text-base text-gray-600">Roast goat, a regional specialty</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Alfajores Mendocinos</h4>
-                <p className="text-sm text-gray-600">Local variation with walnut and quince</p>
+                <p className="text-base text-gray-600">Local variation with walnut and quince</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Aceite de Oliva</h4>
-                <p className="text-sm text-gray-600">Mendoza also produces excellent olive oil</p>
+                <p className="text-base text-gray-600">Mendoza also produces excellent olive oil</p>
               </div>
             </CardContent>
           </Card>

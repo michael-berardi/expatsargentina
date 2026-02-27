@@ -301,25 +301,25 @@ export default function SaltaRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-700">{saltaRestaurants.length}</div>
-              <div className="text-sm text-gray-600">Curated Restaurants</div>
+              <div className="text-base text-gray-600">Curated Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-700">#1</div>
-              <div className="text-sm text-gray-600">Empanadas in Argentina</div>
+              <div className="text-base text-gray-600">Empanadas in Argentina</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-700">3000m</div>
-              <div className="text-sm text-gray-600">Highest Vineyards</div>
+              <div className="text-base text-gray-600">Highest Vineyards</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-700">1582</div>
-              <div className="text-sm text-gray-600">Founded (Colonial)</div>
+              <div className="text-base text-gray-600">Founded (Colonial)</div>
             </CardContent>
           </Card>
         </div>
@@ -341,7 +341,7 @@ export default function SaltaRestaurantsPage() {
               experience unique to this region. Add world-class high-altitude wines and you have one
               of Argentina's most distinctive food destinations.
             </p>
-            <div className="grid md:grid-cols-2 gap-4 text-sm">
+            <div className="grid md:grid-cols-2 gap-4 text-base">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Must-Try Regional Dishes</h4>
                 <ul className="space-y-1 text-gray-600">
@@ -385,7 +385,7 @@ export default function SaltaRestaurantsPage() {
                                 <h3 className="text-xl font-bold text-gray-900">
                                   {restaurant.name}
                                 </h3>
-                                <p className="text-sm text-amber-700">
+                                <p className="text-base text-amber-700">
                                   {restaurant.cuisine} • {restaurant.neighborhood}
                                 </p>
                               </div>
@@ -404,7 +404,7 @@ export default function SaltaRestaurantsPage() {
                               ))}
                             </div>
 
-                            <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                            <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
                               <div className="flex items-center gap-1">
                                 <MapPin className="w-4 h-4" />
                                 <span>{restaurant.neighborhood}</span>
@@ -412,13 +412,13 @@ export default function SaltaRestaurantsPage() {
                               {restaurant.phone && (
                                 <div className="flex items-center gap-1">
                                   <Phone className="w-4 h-4" />
-                                  <span>{restaurant.phone}</span>
+                                  <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="hover:underline">{restaurant.phone}</a>
                                 </div>
                               )}
                             </div>
 
                             {restaurant.localTip && (
-                              <div className="mt-4 bg-amber-50 rounded-lg p-3 text-sm">
+                              <div className="mt-4 bg-amber-50 rounded-lg p-3 text-base">
                                 <span className="font-semibold text-amber-800">Local tip:</span>
                                 <span className="text-amber-700"> {restaurant.localTip}</span>
                               </div>
@@ -458,24 +458,24 @@ export default function SaltaRestaurantsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-sm text-gray-600">
+              <p className="text-base text-gray-600">
                 Salta province is home to the Calchaquí Valley wine region, centered around Cafayate (3 hours south). A must-do day trip or overnight:
               </p>
               <div>
                 <h4 className="font-semibold text-gray-900">Quebrada de las Flechas</h4>
-                <p className="text-sm text-gray-600">Stunning rock formations en route to Cafayate wine country</p>
+                <p className="text-base text-gray-600">Stunning rock formations en route to Cafayate wine country</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Bodega Colomé</h4>
-                <p className="text-sm text-gray-600">One of the world's highest wineries with a James Turrell museum</p>
+                <p className="text-base text-gray-600">One of the world's highest wineries with a James Turrell museum</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Bodega El Esteco</h4>
-                <p className="text-sm text-gray-600">Historic winery with excellent restaurant and torrontés tastings</p>
+                <p className="text-base text-gray-600">Historic winery with excellent restaurant and torrontés tastings</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Cafayate Plaza</h4>
-                <p className="text-sm text-gray-600">Charming town square ringed with wine bars and restaurants</p>
+                <p className="text-base text-gray-600">Charming town square ringed with wine bars and restaurants</p>
               </div>
             </CardContent>
           </Card>
@@ -490,19 +490,19 @@ export default function SaltaRestaurantsPage() {
             <CardContent className="space-y-4">
               <div>
                 <h4 className="font-semibold text-gray-900">Empanada Etiquette</h4>
-                <p className="text-sm text-gray-600">Eat them by hand, never with a fork. The repulgue (crimp pattern) tells you the filling. Locals eat them with a squeeze of lemon.</p>
+                <p className="text-base text-gray-600">Eat them by hand, never with a fork. The repulgue (crimp pattern) tells you the filling. Locals eat them with a squeeze of lemon.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Peña Timing</h4>
-                <p className="text-sm text-gray-600">Peñas start late (9-10pm) and go until 2-3am. Arrive by 10pm for dinner, stay for the music. Weekends are liveliest.</p>
+                <p className="text-base text-gray-600">Peñas start late (9-10pm) and go until 2-3am. Arrive by 10pm for dinner, stay for the music. Weekends are liveliest.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Festival Season</h4>
-                <p className="text-sm text-gray-600">Visit in July for the Fiesta de la Empanada, or February for Carnival. Food experiences multiply during festivals.</p>
+                <p className="text-base text-gray-600">Visit in July for the Fiesta de la Empanada, or February for Carnival. Food experiences multiply during festivals.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Budget Note</h4>
-                <p className="text-sm text-gray-600">Salta is one of Argentina's most affordable food cities. A dozen empanadas costs less than a single dish in Buenos Aires.</p>
+                <p className="text-base text-gray-600">Salta is one of Argentina's most affordable food cities. A dozen empanadas costs less than a single dish in Buenos Aires.</p>
               </div>
             </CardContent>
           </Card>

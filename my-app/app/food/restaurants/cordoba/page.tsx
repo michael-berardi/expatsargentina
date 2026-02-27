@@ -86,25 +86,25 @@ export default function CordobaRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-600">2</div>
-              <div className="text-sm text-gray-600">Featured Restaurants</div>
+              <div className="text-base text-gray-600">Featured Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-600">200K+</div>
-              <div className="text-sm text-gray-600">University Students</div>
+              <div className="text-base text-gray-600">University Students</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-600">🏛️</div>
-              <div className="text-sm text-gray-600">UNESCO Heritage</div>
+              <div className="text-base text-gray-600">UNESCO Heritage</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-600">☀️</div>
-              <div className="text-sm text-gray-600">300+ Sunny Days</div>
+              <div className="text-base text-gray-600">300+ Sunny Days</div>
             </CardContent>
           </Card>
         </div>
@@ -124,7 +124,7 @@ export default function CordobaRestaurantsPage() {
               The city offers excellent value—prices are generally lower than Buenos Aires—and 
               a mix of traditional Argentine cuisine and innovative contemporary restaurants.
             </p>
-            <div className="grid md:grid-cols-2 gap-4 text-sm">
+            <div className="grid md:grid-cols-2 gap-4 text-base">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Key Neighborhoods</h4>
                 <ul className="space-y-1 text-gray-600">
@@ -167,7 +167,7 @@ export default function CordobaRestaurantsPage() {
                           <h3 className="text-xl font-bold text-gray-900">
                             {restaurant.name}
                           </h3>
-                          <p className="text-sm text-amber-600">
+                          <p className="text-base text-amber-600">
                             {restaurant.cuisineType} • {restaurant.subCategory}
                           </p>
                         </div>
@@ -186,7 +186,7 @@ export default function CordobaRestaurantsPage() {
                         ))}
                       </div>
 
-                      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                      <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
                         <div className="flex items-center gap-1">
                           <MapPin className="w-4 h-4" />
                           <span>{restaurant.address}</span>
@@ -194,13 +194,13 @@ export default function CordobaRestaurantsPage() {
                         {restaurant.phone && (
                           <div className="flex items-center gap-1">
                             <Phone className="w-4 h-4" />
-                            <span>{restaurant.phone}</span>
+                            <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="hover:underline">{restaurant.phone}</a>
                           </div>
                         )}
                       </div>
 
                       {restaurant.localTip && (
-                        <div className="mt-4 bg-amber-50 rounded-lg p-3 text-sm">
+                        <div className="mt-4 bg-amber-50 rounded-lg p-3 text-base">
                           <span className="font-semibold text-amber-800">Local tip:</span>
                           <span className="text-amber-700"> {restaurant.localTip}</span>
                         </div>
@@ -237,24 +237,24 @@ export default function CordobaRestaurantsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-sm text-gray-600">
+              <p className="text-base text-gray-600">
                 Córdoba's massive student population means plenty of affordable, quality options:
               </p>
               <div>
                 <h4 className="font-semibold text-gray-900">Barrio Güemes</h4>
-                <p className="text-sm text-gray-600">Trendy area with diverse restaurants, craft beer bars, and cafes</p>
+                <p className="text-base text-gray-600">Trendy area with diverse restaurants, craft beer bars, and cafes</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Paseo de las Artes</h4>
-                <p className="text-sm text-gray-600">Weekend crafts fair with food stalls and live music</p>
+                <p className="text-base text-gray-600">Weekend crafts fair with food stalls and live music</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Mercado Norte</h4>
-                <p className="text-sm text-gray-600">Historic market with fresh produce and casual eateries</p>
+                <p className="text-base text-gray-600">Historic market with fresh produce and casual eateries</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Nueva Córdoba Cafes</h4>
-                <p className="text-sm text-gray-600">Excellent coffee scene with student-friendly prices</p>
+                <p className="text-base text-gray-600">Excellent coffee scene with student-friendly prices</p>
               </div>
             </CardContent>
           </Card>
@@ -269,19 +269,19 @@ export default function CordobaRestaurantsPage() {
             <CardContent className="space-y-4">
               <div>
                 <h4 className="font-semibold text-gray-900">Alta Gracia</h4>
-                <p className="text-sm text-gray-600">Historic town with traditional restaurants, home to Che Guevara's childhood</p>
+                <p className="text-base text-gray-600">Historic town with traditional restaurants, home to Che Guevara's childhood</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Villa General Belgrano</h4>
-                <p className="text-sm text-gray-600">German-inspired town known for beer, chocolate, and Oktoberfest</p>
+                <p className="text-base text-gray-600">German-inspired town known for beer, chocolate, and Oktoberfest</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">La Cumbrecita</h4>
-                <p className="text-sm text-gray-600">Pedestrian-only alpine village with German bakeries and cafes</p>
+                <p className="text-base text-gray-600">Pedestrian-only alpine village with German bakeries and cafes</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Carlos Paz</h4>
-                <p className="text-sm text-gray-600">Lakeside resort town with waterfront dining</p>
+                <p className="text-base text-gray-600">Lakeside resort town with waterfront dining</p>
               </div>
             </CardContent>
           </Card>

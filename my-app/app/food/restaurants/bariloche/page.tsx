@@ -86,25 +86,25 @@ export default function BarilocheRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-blue-600">2</div>
-              <div className="text-sm text-gray-600">Featured Restaurants</div>
+              <div className="text-base text-gray-600">Featured Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-blue-600">★★★</div>
-              <div className="text-sm text-gray-600">Scenic Dining</div>
+              <div className="text-base text-gray-600">Scenic Dining</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-blue-600">🐑</div>
-              <div className="text-sm text-gray-600">Cordero al Asador</div>
+              <div className="text-base text-gray-600">Cordero al Asador</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-blue-600">🎿</div>
-              <div className="text-sm text-gray-600">Ski Season Hotspot</div>
+              <div className="text-base text-gray-600">Ski Season Hotspot</div>
             </CardContent>
           </Card>
         </div>
@@ -124,7 +124,7 @@ export default function BarilocheRestaurantsPage() {
               featuring local lamb, freshwater trout, and wild mushrooms, often with 
               stunning lake and mountain views.
             </p>
-            <div className="grid md:grid-cols-2 gap-4 text-sm">
+            <div className="grid md:grid-cols-2 gap-4 text-base">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Must-Try Specialties</h4>
                 <ul className="space-y-1 text-gray-600">
@@ -167,7 +167,7 @@ export default function BarilocheRestaurantsPage() {
                           <h3 className="text-xl font-bold text-gray-900">
                             {restaurant.name}
                           </h3>
-                          <p className="text-sm text-blue-600">
+                          <p className="text-base text-blue-600">
                             {restaurant.cuisineType} • {restaurant.subCategory}
                           </p>
                         </div>
@@ -186,7 +186,7 @@ export default function BarilocheRestaurantsPage() {
                         ))}
                       </div>
 
-                      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                      <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
                         <div className="flex items-center gap-1">
                           <MapPin className="w-4 h-4" />
                           <span>{restaurant.address}</span>
@@ -194,13 +194,13 @@ export default function BarilocheRestaurantsPage() {
                         {restaurant.phone && (
                           <div className="flex items-center gap-1">
                             <Phone className="w-4 h-4" />
-                            <span>{restaurant.phone}</span>
+                            <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="hover:underline">{restaurant.phone}</a>
                           </div>
                         )}
                       </div>
 
                       {restaurant.localTip && (
-                        <div className="mt-4 bg-blue-50 rounded-lg p-3 text-sm">
+                        <div className="mt-4 bg-blue-50 rounded-lg p-3 text-base">
                           <span className="font-semibold text-blue-800">Local tip:</span>
                           <span className="text-blue-700"> {restaurant.localTip}</span>
                         </div>
@@ -239,19 +239,19 @@ export default function BarilocheRestaurantsPage() {
             <CardContent className="space-y-4">
               <div>
                 <h4 className="font-semibold text-gray-900">Circuito Chico</h4>
-                <p className="text-sm text-gray-600">Scenic route with lakeside restaurants and stunning views</p>
+                <p className="text-base text-gray-600">Scenic route with lakeside restaurants and stunning views</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Centro (Downtown)</h4>
-                <p className="text-sm text-gray-600">Highest concentration of restaurants, from casual to fine dining</p>
+                <p className="text-base text-gray-600">Highest concentration of restaurants, from casual to fine dining</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Cerro Catedral Base</h4>
-                <p className="text-sm text-gray-600">Mountain restaurants perfect for apres-ski dining</p>
+                <p className="text-base text-gray-600">Mountain restaurants perfect for apres-ski dining</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Colonia Suiza</h4>
-                <p className="text-sm text-gray-600">Swiss heritage area with traditional curanto and craft fair</p>
+                <p className="text-base text-gray-600">Swiss heritage area with traditional curanto and craft fair</p>
               </div>
             </CardContent>
           </Card>
@@ -266,19 +266,19 @@ export default function BarilocheRestaurantsPage() {
             <CardContent className="space-y-4">
               <div>
                 <h4 className="font-semibold text-gray-900">Summer (Dec-Feb)</h4>
-                <p className="text-sm text-gray-600">Peak season—book restaurants well in advance. Lakeside dining at its best.</p>
+                <p className="text-base text-gray-600">Peak season—book restaurants well in advance. Lakeside dining at its best.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Ski Season (Jun-Sep)</h4>
-                <p className="text-sm text-gray-600">Second busy period. Mountain restaurants buzz with skiers.</p>
+                <p className="text-base text-gray-600">Second busy period. Mountain restaurants buzz with skiers.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Shoulder Seasons</h4>
-                <p className="text-sm text-gray-600">Mar-May and Oct-Nov offer quieter dining, better service, and lower prices.</p>
+                <p className="text-base text-gray-600">Mar-May and Oct-Nov offer quieter dining, better service, and lower prices.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Winter Nights</h4>
-                <p className="text-sm text-gray-600">Many restaurants feature fireplaces and hearty comfort food.</p>
+                <p className="text-base text-gray-600">Many restaurants feature fireplaces and hearty comfort food.</p>
               </div>
             </CardContent>
           </Card>

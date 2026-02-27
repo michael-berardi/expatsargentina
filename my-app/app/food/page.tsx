@@ -20,7 +20,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Food Guide Buenos Aires | Expats Argentina",
+  title: "Food Guide Buenos Aires",
   description: "The ultimate food guide to Buenos Aires - from asado culture to the best parrillas, empanadas, and cafe spots. Everything an expat needs to eat like a local.",
   alternates: {
     canonical: "https://expatsargentina.com/food",
@@ -311,15 +311,31 @@ export default function FoodGuidePage() {
             <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
               <Utensils className="w-8 h-8" />
             </div>
-            <span className="text-orange-100 font-medium">Expats Argentina Guide</span>
+            <span className="text-white/95 font-medium drop-shadow-md">Expats Argentina Guide</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             The Complete Food Guide to<br />
             <span className="text-orange-200">Buenos Aires</span>
           </h1>
-          <p className="text-xl text-orange-100 max-w-2xl">
+          <p className="text-xl text-white/95 max-w-2xl drop-shadow-md mb-8">
             From sizzling asados to medialunas at dawn. Everything you need to eat like a local in the Paris of South America.
           </p>
+          <div className="flex flex-wrap gap-4">
+            <a 
+              href="#argentinian-classics" 
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-orange-700 font-semibold rounded-lg hover:bg-orange-50 transition-colors"
+            >
+              <Flame className="w-5 h-5" />
+              Explore Argentine Foods
+            </a>
+            <a 
+              href="/food/restaurants" 
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white/20 text-white font-semibold rounded-lg hover:bg-white/30 transition-colors backdrop-blur-sm"
+            >
+              <MapPin className="w-5 h-5" />
+              Best Restaurants
+            </a>
+          </div>
         </div>
       </div>
 
@@ -329,7 +345,7 @@ export default function FoodGuidePage() {
         <section>
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-orange-100 rounded-lg">
-              <Flame className="w-6 h-6 text-orange-600" />
+              <Flame className="w-6 h-6 text-orange-900" />
             </div>
             <h2 className="text-3xl font-bold text-gray-900">Argentine Food Culture</h2>
           </div>
@@ -337,7 +353,7 @@ export default function FoodGuidePage() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100">
               <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <Flame className="w-5 h-5 text-orange-600" />
+                <Flame className="w-5 h-5 text-orange-900" />
                 The Meat Obsession
               </h3>
               <p className="text-gray-600 mb-4">
@@ -346,7 +362,7 @@ export default function FoodGuidePage() {
                 lasting 4+ hours of slow-cooking over wood coals.
               </p>
               <div className="bg-orange-50 rounded-xl p-4">
-                <p className="text-sm text-orange-800">
+                <p className="text-base text-orange-900">
                   <strong>The cuts:</strong> Vacío (flank steak, juicy), entraña (skirt steak, 
                   flavorful), bife de chorizo (sirloin, the classic), ojo de bife (ribeye), 
                   asado de tira (short ribs). Don't ask for well-done—medium is as far as locals go.
@@ -356,24 +372,24 @@ export default function FoodGuidePage() {
 
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100">
               <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <Clock className="w-5 h-5 text-orange-600" />
+                <Clock className="w-5 h-5 text-orange-900" />
                 Meal Times
               </h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-orange-600 min-w-[80px]">Breakfast</span>
+                  <span className="font-semibold text-orange-900 min-w-[80px]">Breakfast</span>
                   <span>Light—coffee and medialunas (croissants). Most cafes open 8am.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-orange-600 min-w-[80px]">Lunch</span>
+                  <span className="font-semibold text-orange-900 min-w-[80px]">Lunch</span>
                   <span>1-2pm, the main meal. Many restaurants offer menú del día (set lunch).</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-orange-600 min-w-[80px]">Merienda</span>
+                  <span className="font-semibold text-orange-900 min-w-[80px]">Merienda</span>
                   <span>5-7pm afternoon snack. Coffee with facturas (pastries) or toast with dulce de leche.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-orange-600 min-w-[80px]">Dinner</span>
+                  <span className="font-semibold text-orange-900 min-w-[80px]">Dinner</span>
                   <span>9-11pm. Restaurants empty before 9pm. Reservations for 9:30pm are early.</span>
                 </li>
               </ul>
@@ -381,14 +397,14 @@ export default function FoodGuidePage() {
 
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100">
               <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <Coffee className="w-5 h-5 text-orange-600" />
+                <Coffee className="w-5 h-5 text-orange-900" />
                 Coffee Culture
               </h3>
               <p className="text-gray-600 mb-4">
                 Forget drip coffee—it barely exists here. Argentines drink espresso-based drinks, 
                 usually small and strong.
               </p>
-              <div className="grid grid-cols-2 gap-3 text-sm">
+              <div className="grid grid-cols-2 gap-3 text-base">
                 <div className="bg-gray-50 rounded-lg p-3">
                   <span className="font-semibold text-gray-900">Cortado</span>
                   <p className="text-gray-600">Espresso with a splash of milk</p>
@@ -410,7 +426,7 @@ export default function FoodGuidePage() {
 
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100">
               <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <Leaf className="w-5 h-5 text-orange-600" />
+                <Leaf className="w-5 h-5 text-orange-900" />
                 Vegetarian Survival
               </h3>
               <p className="text-gray-600 mb-4">
@@ -419,7 +435,7 @@ export default function FoodGuidePage() {
                 and small towns.
               </p>
               <div className="bg-green-50 rounded-xl p-4">
-                <p className="text-sm text-green-800">
+                <p className="text-base text-green-900">
                   <strong>Survival tips:</strong> Look for "vegetariano" or "vegano" signs. 
                   Empanadas come in cheese/onion and corn (humita) varieties. Most restaurants 
                   now offer at least one vegetarian main. Dietéticas (health food stores) sell 
@@ -434,7 +450,7 @@ export default function FoodGuidePage() {
         <section>
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-orange-100 rounded-lg">
-              <Heart className="w-6 h-6 text-orange-600" />
+              <Heart className="w-6 h-6 text-orange-900" />
             </div>
             <h2 className="text-3xl font-bold text-gray-900">Must-Try Foods</h2>
           </div>
@@ -498,14 +514,14 @@ export default function FoodGuidePage() {
             ].map((food, i) => (
               <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-orange-100 hover:shadow-md transition-shadow">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="p-2 bg-orange-100 rounded-lg text-orange-600">
+                  <div className="p-2 bg-orange-100 rounded-lg text-orange-900">
                     {food.icon}
                   </div>
                   <h3 className="text-lg font-bold text-gray-900">{food.title}</h3>
                 </div>
-                <p className="text-gray-600 text-sm mb-4">{food.description}</p>
+                <p className="text-gray-600 text-base mb-4">{food.description}</p>
                 <div className="bg-orange-50 rounded-lg p-3">
-                  <p className="text-xs text-orange-800">
+                  <p className="text-base text-orange-900">
                     <strong>Pro tip:</strong> {food.proTip}
                   </p>
                 </div>
@@ -529,12 +545,12 @@ export default function FoodGuidePage() {
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-sm text-gray-500 mt-1">
+                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
                   </div>
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+                  <span className={`px-3 py-1 rounded-full text-base font-medium ${
                     spot.price === '$' ? 'bg-green-100 text-green-700' :
                     spot.price === '$$' ? 'bg-yellow-100 text-yellow-700' :
                     'bg-red-100 text-red-700'
@@ -544,11 +560,11 @@ export default function FoodGuidePage() {
                 </div>
                 <p className="text-gray-600 mb-4">{spot.description}</p>
                 <div className="bg-red-50 rounded-lg p-3 mb-3">
-                  <p className="text-sm text-red-800">
+                  <p className="text-base text-red-800">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
-                <p className="text-sm text-gray-500">
+                <p className="text-base text-gray-500">
                   <strong>Tip:</strong> {spot.tip}
                 </p>
               </div>
@@ -571,18 +587,18 @@ export default function FoodGuidePage() {
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-sm text-gray-500 mt-1">
+                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
                   </div>
-                  <span className="px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-700">
+                  <span className="px-3 py-1 rounded-full text-base font-medium bg-green-100 text-green-700">
                     {spot.price}
                   </span>
                 </div>
                 <p className="text-gray-600 mb-4">{spot.description}</p>
                 <div className="bg-green-50 rounded-lg p-3">
-                  <p className="text-sm text-green-800">
+                  <p className="text-base text-green-900">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
@@ -618,12 +634,12 @@ export default function FoodGuidePage() {
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-sm text-gray-500 mt-1">
+                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
                   </div>
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+                  <span className={`px-3 py-1 rounded-full text-base font-medium ${
                     spot.price === '$' ? 'bg-green-100 text-green-700' :
                     spot.price === '$$' ? 'bg-yellow-100 text-yellow-700' :
                     'bg-red-100 text-red-700'
@@ -633,7 +649,7 @@ export default function FoodGuidePage() {
                 </div>
                 <p className="text-gray-600 mb-4">{spot.description}</p>
                 <div className="bg-emerald-50 rounded-lg p-3">
-                  <p className="text-sm text-emerald-800">
+                  <p className="text-base text-emerald-800">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
@@ -657,18 +673,18 @@ export default function FoodGuidePage() {
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-sm text-gray-500 mt-1">
+                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
                   </div>
-                  <span className="px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-700">
+                  <span className="px-3 py-1 rounded-full text-base font-medium bg-blue-100 text-blue-900">
                     {spot.cuisine}
                   </span>
                 </div>
                 <p className="text-gray-600 mb-4">{spot.description}</p>
                 <div className="bg-blue-50 rounded-lg p-3">
-                  <p className="text-sm text-blue-800">
+                  <p className="text-base text-blue-800">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
@@ -692,20 +708,20 @@ export default function FoodGuidePage() {
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-sm text-gray-500 mt-1">
+                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
                   </div>
                   {spot.workFriendly && (
-                    <span className="px-3 py-1 rounded-full text-sm font-medium bg-amber-100 text-amber-700">
+                    <span className="px-3 py-1 rounded-full text-base font-medium bg-amber-100 text-amber-900">
                       💻 Work-friendly
                     </span>
                   )}
                 </div>
                 <p className="text-gray-600 mb-4">{spot.description}</p>
                 <div className="bg-amber-50 rounded-lg p-3">
-                  <p className="text-sm text-amber-800">
+                  <p className="text-base text-amber-900">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
@@ -730,7 +746,7 @@ export default function FoodGuidePage() {
                 The biggest delivery app in Argentina. Restaurants, groceries, pharmacy, 
                 and even cash delivery (yes, really). Essential app for expats.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-base text-gray-600 space-y-2">
                 <li>• Rappi Prime subscription gives free delivery</li>
                 <li>• Cash or card payment options</li>
                 <li>• English interface available</li>
@@ -742,7 +758,7 @@ export default function FoodGuidePage() {
                 The main competitor to Rappi. Sometimes has different restaurant options 
                 and better promotions. Worth having both.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-base text-gray-600 space-y-2">
                 <li>• Often cheaper delivery fees</li>
                 <li>• Good grocery delivery (Disco, Carrefour)</li>
                 <li>• Ya+ subscription for free delivery</li>
@@ -793,8 +809,8 @@ export default function FoodGuidePage() {
                 {ferias.map((feria, i) => (
                   <div key={i}>
                     <h4 className="font-semibold text-gray-900">{feria.name}</h4>
-                    <p className="text-sm text-cyan-600">{feria.location}</p>
-                    <p className="text-sm text-gray-600">{feria.description}</p>
+                    <p className="text-base text-cyan-600">{feria.location}</p>
+                    <p className="text-base text-gray-600">{feria.description}</p>
                   </div>
                 ))}
               </div>
@@ -836,7 +852,7 @@ export default function FoodGuidePage() {
                 will give you the best cuts.
               </p>
               <div className="bg-rose-50 rounded-lg p-4">
-                <p className="text-sm text-rose-800">
+                <p className="text-base text-rose-800">
                   <strong>What to ask for:</strong> "Un kilo de vacío" (flank steak), 
                   "medio kilo de entraña" (skirt steak), "bife de chorizo" (sirloin). 
                   Specify "para la parrilla" (for grilling) or "para la plancha" (for pan).
@@ -852,7 +868,7 @@ export default function FoodGuidePage() {
                 the best way to make Argentine friends.
               </p>
               <div className="bg-rose-50 rounded-lg p-4">
-                <p className="text-sm text-rose-800">
+                <p className="text-base text-rose-800">
                   <strong>Basics:</strong> Carbon (charcoal) from the supermarket, 
                   starter cubes, chimichurri (make your own or buy), coarse salt. 
                   Cook slow over indirect heat. Expect 2-3 hours for the full experience.
@@ -866,21 +882,21 @@ export default function FoodGuidePage() {
             <div className="grid md:grid-cols-3 gap-6">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Chimichurri</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-base text-gray-600">
                   Parsley, oregano, garlic, vinegar, oil, red pepper flakes. 
                   The essential asado sauce. Make a big jar—it keeps for weeks.
                 </p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Tortilla de Papas</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-base text-gray-600">
                   Spanish-style potato omelet. Slice potatoes thin, fry gently, 
                   mix with eggs, cook until set. Perfect any time of day.
                 </p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Milanesa</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-base text-gray-600">
                   Pound meat thin, dip in egg, coat in breadcrumbs, fry until golden. 
                   Serve with lemon. Comfort food at its finest.
                 </p>
@@ -970,7 +986,7 @@ export default function FoodGuidePage() {
                 </div>
                 <h3 className="text-xl font-bold">Learn to Cook</h3>
               </div>
-              <p className="text-orange-100 mb-6">
+              <p className="text-white/90 mb-6 drop-shadow-sm">
                 Master authentic Argentine dishes at home. Our tested recipes include 
                 empanadas, chimichurri, asado, and more—with ingredient sourcing tips 
                 and cultural context.
@@ -1017,7 +1033,7 @@ export default function FoodGuidePage() {
           <h2 className="text-3xl font-bold mb-6">Final Thoughts</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-3 text-orange-100">Personal Favorites</h3>
+              <h3 className="text-xl font-bold mb-3 text-white/95 drop-shadow-sm">Personal Favorites</h3>
               <ul className="space-y-2 text-orange-50">
                 <li>• <strong>Best overall experience:</strong> Don Julio (book ahead!)</li>
                 <li>• <strong>Best value parrilla:</strong> El Boliche de Dario</li>
@@ -1028,7 +1044,7 @@ export default function FoodGuidePage() {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-3 text-orange-100">Honest Warnings</h3>
+              <h3 className="text-xl font-bold mb-3 text-white/95 drop-shadow-sm">Honest Warnings</h3>
               <ul className="space-y-2 text-orange-50">
                 <li>• Not every parrilla is amazing—tourist traps exist</li>
                 <li>• Pizza is different (thick crust, lots of cheese)—embrace it</li>
@@ -1040,7 +1056,7 @@ export default function FoodGuidePage() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-white/20">
-            <p className="text-lg text-orange-100">
+            <p className="text-lg text-white/90 drop-shadow-sm">
               Buenos Aires is a food lover's paradise. The combination of Italian immigration, 
               gaucho traditions, and modern creativity makes for one of the world's most 
               underrated food scenes. Come hungry, eat late, and don't skip the helado.

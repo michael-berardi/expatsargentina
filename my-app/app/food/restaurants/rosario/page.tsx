@@ -301,25 +301,25 @@ export default function RosarioRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-rose-600">{rosarioRestaurants.length}</div>
-              <div className="text-sm text-gray-600">Curated Restaurants</div>
+              <div className="text-base text-gray-600">Curated Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-rose-600">1.2M+</div>
-              <div className="text-sm text-gray-600">City Population</div>
+              <div className="text-base text-gray-600">City Population</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-rose-600">15km</div>
-              <div className="text-sm text-gray-600">Costanera Riverside</div>
+              <div className="text-base text-gray-600">Costanera Riverside</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-rose-600">3rd</div>
-              <div className="text-sm text-gray-600">Largest City in AR</div>
+              <div className="text-base text-gray-600">Largest City in AR</div>
             </CardContent>
           </Card>
         </div>
@@ -340,7 +340,7 @@ export default function RosarioRestaurantsPage() {
               (riverside promenade) offers spectacular dining with river views, and the local river
               fish like surubí and dorado are must-tries.
             </p>
-            <div className="grid md:grid-cols-2 gap-4 text-sm">
+            <div className="grid md:grid-cols-2 gap-4 text-base">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Key Neighborhoods</h4>
                 <ul className="space-y-1 text-gray-600">
@@ -384,7 +384,7 @@ export default function RosarioRestaurantsPage() {
                                 <h3 className="text-xl font-bold text-gray-900">
                                   {restaurant.name}
                                 </h3>
-                                <p className="text-sm text-rose-600">
+                                <p className="text-base text-rose-600">
                                   {restaurant.cuisine} • {restaurant.neighborhood}
                                 </p>
                               </div>
@@ -403,7 +403,7 @@ export default function RosarioRestaurantsPage() {
                               ))}
                             </div>
 
-                            <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                            <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
                               <div className="flex items-center gap-1">
                                 <MapPin className="w-4 h-4" />
                                 <span>{restaurant.neighborhood}</span>
@@ -411,13 +411,13 @@ export default function RosarioRestaurantsPage() {
                               {restaurant.phone && (
                                 <div className="flex items-center gap-1">
                                   <Phone className="w-4 h-4" />
-                                  <span>{restaurant.phone}</span>
+                                  <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="hover:underline">{restaurant.phone}</a>
                                 </div>
                               )}
                             </div>
 
                             {restaurant.localTip && (
-                              <div className="mt-4 bg-rose-50 rounded-lg p-3 text-sm">
+                              <div className="mt-4 bg-rose-50 rounded-lg p-3 text-base">
                                 <span className="font-semibold text-rose-800">Local tip:</span>
                                 <span className="text-rose-700"> {restaurant.localTip}</span>
                               </div>
@@ -457,24 +457,24 @@ export default function RosarioRestaurantsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-sm text-gray-600">
+              <p className="text-base text-gray-600">
                 The Costanera is the heart of Rosario's social and dining life. Stretching along the Paraná, it offers:
               </p>
               <div>
                 <h4 className="font-semibold text-gray-900">Costanera Norte</h4>
-                <p className="text-sm text-gray-600">Premium restaurants and parrillas with the best river views</p>
+                <p className="text-base text-gray-600">Premium restaurants and parrillas with the best river views</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Parque España</h4>
-                <p className="text-sm text-gray-600">Green spaces with food vendors and weekend markets</p>
+                <p className="text-base text-gray-600">Green spaces with food vendors and weekend markets</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Isla de los Inventos</h4>
-                <p className="text-sm text-gray-600">Cultural center near the riverfront with casual dining nearby</p>
+                <p className="text-base text-gray-600">Cultural center near the riverfront with casual dining nearby</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Weekend Island Trips</h4>
-                <p className="text-sm text-gray-600">Take a boat to the river islands for asado on the beach—a quintessential Rosario experience</p>
+                <p className="text-base text-gray-600">Take a boat to the river islands for asado on the beach—a quintessential Rosario experience</p>
               </div>
             </CardContent>
           </Card>
@@ -489,19 +489,19 @@ export default function RosarioRestaurantsPage() {
             <CardContent className="space-y-4">
               <div>
                 <h4 className="font-semibold text-gray-900">Parrilla Etiquette</h4>
-                <p className="text-sm text-gray-600">Rosarinos take their asado seriously. Don't ask for your steak well-done unless you want disapproving looks.</p>
+                <p className="text-base text-gray-600">Rosarinos take their asado seriously. Don't ask for your steak well-done unless you want disapproving looks.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">River Fish Season</h4>
-                <p className="text-sm text-gray-600">Surubí and dorado are best from spring through autumn (September to April). Ask what's fresh.</p>
+                <p className="text-base text-gray-600">Surubí and dorado are best from spring through autumn (September to April). Ask what's fresh.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Lunch Is King</h4>
-                <p className="text-sm text-gray-600">Many of the best restaurants serve their finest menus at lunch. Dinner starts late—9:30pm or later.</p>
+                <p className="text-base text-gray-600">Many of the best restaurants serve their finest menus at lunch. Dinner starts late—9:30pm or later.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900">Budget Tip</h4>
-                <p className="text-sm text-gray-600">Rosario is significantly cheaper than Buenos Aires. A parrilla meal for two with wine runs 30-50% less than the capital.</p>
+                <p className="text-base text-gray-600">Rosario is significantly cheaper than Buenos Aires. A parrilla meal for two with wine runs 30-50% less than the capital.</p>
               </div>
             </CardContent>
           </Card>

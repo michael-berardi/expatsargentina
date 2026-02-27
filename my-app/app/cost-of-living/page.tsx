@@ -31,12 +31,13 @@ import {
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Cost of Living in Argentina 2026 - Prices Doubled, Reality Check",
-  description: "Argentina is NOT cheap anymore. 2026 cost of living guide with doubled prices, Milei economy impact, and Western Europe-level costs. Updated for 2026.",
+  title: "Cost of Living Argentina 2026",
+  description: "Argentina is NOT cheap anymore. 2026 cost of living guide with doubled prices, Milei economy impact, and Western Europe-level costs.",
   keywords: ["cost of living Argentina 2026", "Argentina expensive now", "Buenos Aires prices doubled", "Milei economy cost", "is Argentina still cheap 2026"],
   openGraph: {
     title: "Cost of Living in Argentina 2026 - Prices Doubled",
     description: "Argentina cost of living has doubled. Real 2026 budgets: $1,200-5,000/month for Western Europe-level prices.",
+    images: [{ url: "/images/cost-of-living-og.webp", width: 1200, height: 630 }],
   },
   alternates: {
     canonical: "https://expatsargentina.com/cost-of-living",
@@ -320,7 +321,7 @@ export default function CostOfLivingPage() {
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
-          <nav className="flex gap-2 text-sm text-muted-foreground">
+          <nav className="flex gap-2 text-base text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
             <span className="text-foreground">Cost of Living</span>
@@ -329,31 +330,43 @@ export default function CostOfLivingPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
+      <section className="py-12 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
-              <TrendingUpIcon size="sm" className="mr-1" />
+              <TrendingUpIcon className="mr-1 h-4 w-4" />
               Updated February 2026
             </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-3xl md:text-5xl font-bold mb-6">
               Cost of Living in Argentina 2026
             </h1>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="text-lg md:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto">
               The &quot;cheap Argentina&quot; era is OVER. Prices have doubled since 2023.
               Real 2026 budgets for Buenos Aires—now rivaling Western Europe.
             </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
+              <Button asChild size="lg" className="w-full sm:w-auto">
+                <Link href="#monthly-budgets">
+                  See Monthly Budgets
+                </Link>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
+                <Link href="/contact">
+                  Get Personalized Advice
+                </Link>
+              </Button>
+            </div>
+            <div className="flex flex-wrap justify-center gap-4 text-base">
               <div className="flex items-center gap-2">
-                <DollarSignIcon size="sm" className="text-primary" />
+                <DollarSignIcon className="text-primary h-4 w-4" />
                 <span>USD pricing (2026)</span>
               </div>
               <div className="flex items-center gap-2">
-                <CalculatorIcon size="sm" className="text-primary" />
+                <CalculatorIcon className="text-primary h-4 w-4" />
                 <span>3 budget profiles</span>
               </div>
               <div className="flex items-center gap-2">
-                <AlertCircleIcon size="sm" className="text-primary" />
+                <AlertCircleIcon className="text-primary h-4 w-4" />
                 <span>Prices doubled</span>
               </div>
             </div>
@@ -366,16 +379,16 @@ export default function CostOfLivingPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-start gap-4 mb-6">
-              <AlertCircleIcon size="lg" className="text-amber-600 flex-shrink-0 mt-1" />
+              <AlertCircleIcon className="h-10 w-10 text-amber-600 flex-shrink-0 mt-1" />
               <div>
-                <h2 className="text-2xl font-bold text-amber-900 dark:text-amber-100 mb-2">
+                <h2 className="text-xl md:text-2xl font-bold text-amber-900 dark:text-amber-100 mb-2">
                   2026 Reality: Argentina Is NOT Cheap Anymore
                 </h2>
-                <p className="text-amber-800 dark:text-amber-200 mb-3">
+                <p className="text-amber-900 dark:text-amber-200 mb-3">
                   <strong>Prices have doubled since 2023.</strong> The &quot;bargain Argentina&quot; that attracted 
                   digital nomads with $600 apartments is gone. Buenos Aires now rivals Lisbon or Barcelona in cost.
                 </p>
-                <p className="text-amber-800 dark:text-amber-200 text-sm">
+                <p className="text-amber-900 dark:text-amber-200">
                   Under Milei&apos;s economy, inflation has stabilized at 2-3% monthly (down from 25%), but the 
                   base prices are now permanently higher. Expect Western Europe-level costs for restaurants, 
                   rent, and services.
@@ -384,22 +397,22 @@ export default function CostOfLivingPage() {
             </div>
             
             <div className="grid md:grid-cols-3 gap-4">
-              <Card className="bg-white/80 dark:bg-black/20">
+              <Card className="bg-white/80 dark:bg-black/20 border-2">
                 <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-amber-600 mb-1">2-3%</div>
-                  <p className="text-sm text-muted-foreground">Monthly inflation (stabilized under Milei)</p>
+                  <div className="text-2xl font-bold text-amber-600 mb-2">2-3%</div>
+                  <p className="text-base text-muted-foreground">Monthly inflation (stabilized under Milei)</p>
                 </CardContent>
               </Card>
-              <Card className="bg-white/80 dark:bg-black/20">
+              <Card className="bg-white/80 dark:bg-black/20 border-2">
                 <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-amber-600 mb-1">2x</div>
-                  <p className="text-sm text-muted-foreground">Price increase since 2023</p>
+                  <div className="text-2xl font-bold text-amber-600 mb-2">2x</div>
+                  <p className="text-base text-muted-foreground">Price increase since 2023</p>
                 </CardContent>
               </Card>
-              <Card className="bg-white/80 dark:bg-black/20">
+              <Card className="bg-white/80 dark:bg-black/20 border-2">
                 <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-amber-600 mb-1">Europe</div>
-                  <p className="text-sm text-muted-foreground">Current price level comparison</p>
+                  <div className="text-2xl font-bold text-amber-600 mb-2">Europe</div>
+                  <p className="text-base text-muted-foreground">Current price level comparison</p>
                 </CardContent>
               </Card>
             </div>
@@ -417,77 +430,77 @@ export default function CostOfLivingPage() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-6">
-              <Card className="border-red-200">
+              <Card className="border-red-200 border-2">
                 <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <span className="text-red-500">✗</span> Official Rate (Banco Nación)
+                  <CardTitle className="text-base md:text-lg flex items-center gap-2">
+                    <span className="text-red-500 text-xl">✗</span> Official Rate (Banco Nación)
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-4">
                     The government-set rate. This is what you&apos;ll get if you use your foreign credit card 
                     or withdraw from an ATM. <strong>NEVER use this—you&apos;ll lose ~40%.</strong>
                   </p>
                   <div className="text-2xl font-bold text-red-600">~$1,400 ARS/$1 USD</div>
-                  <p className="text-xs text-muted-foreground mt-1">You lose ~40% of your money</p>
+                  <p className="text-base text-muted-foreground mt-2">You lose ~40% of your money</p>
                 </CardContent>
               </Card>
 
-              <Card className="border-green-200">
+              <Card className="border-green-200 border-2">
                 <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <span className="text-green-500">✓</span> Blue Dollar (Dólar Blue)
+                  <CardTitle className="text-base md:text-lg flex items-center gap-2">
+                    <span className="text-green-500 text-xl">✓</span> Blue Dollar (Dólar Blue)
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-4">
                     The unofficial street rate for physical USD cash. Bring USD bills and exchange at cuevas. 
                     Check <a href="https://dolarhoy.com" target="_blank" rel="noopener" className="text-primary underline">dolarhoy.com</a> daily.
                   </p>
                   <div className="text-2xl font-bold text-green-600">~$1,400 ARS/$1 USD</div>
-                  <p className="text-xs text-muted-foreground mt-1">The rate locals actually use</p>
+                  <p className="text-base text-muted-foreground mt-2">The rate locals actually use</p>
                 </CardContent>
               </Card>
 
-              <Card className="border-blue-200">
+              <Card className="border-blue-200 border-2">
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
                     <span className="text-blue-500">★</span> Western Union / Remittances
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     Send yourself money via Western Union. Most popular option for expats without DNI. 
                     Pick up in pesos at branches with passport only.
                   </p>
                   <div className="text-2xl font-bold text-blue-600">~$1,380 ARS/$1 USD</div>
-                  <p className="text-xs text-muted-foreground mt-1">Best option for most expats</p>
+                  <p className="text-base text-muted-foreground mt-2">Best option for most expats</p>
                 </CardContent>
               </Card>
 
-              <Card className="border-amber-200">
+              <Card className="border-amber-200 border-2">
                 <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <span className="text-amber-500">◆</span> MEP / CCL (Financial)
+                  <CardTitle className="text-base md:text-lg flex items-center gap-2">
+                    <span className="text-amber-500 text-xl">◆</span> MEP / CCL (Financial)
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-4">
                     Financial market rates through local brokers. Requires local bank account and DNI. 
                     Best for large amounts once you have residency.
                   </p>
                   <div className="text-2xl font-bold text-amber-600">~$1,380 ARS/$1 USD</div>
-                  <p className="text-xs text-muted-foreground mt-1">For those with DNI and local banking</p>
+                  <p className="text-base text-muted-foreground mt-2">For those with DNI and local banking</p>
                 </CardContent>
               </Card>
             </div>
 
             <div className="mt-8 p-6 bg-amber-50 dark:bg-amber-950/20 rounded-lg border border-amber-200">
               <h3 className="font-semibold text-amber-900 dark:text-amber-100 mb-2 flex items-center gap-2">
-                <LightbulbIcon size="sm" />
+                <LightbulbIcon className="h-4 w-4" />
                 The Golden Rule
               </h3>
-              <p className="text-amber-800 dark:text-amber-200 text-sm">
+              <p className="text-amber-900 dark:text-amber-200 text-base">
                 <strong>Never use your foreign credit or debit card in Argentina.</strong> You'll get the official rate 
                 and instantly lose 40-50% of your purchasing power. Bring USD cash, use Western Union, or open a 
                 local bank account and use MEP/CCL. The cash economy is king here.
@@ -498,7 +511,7 @@ export default function CostOfLivingPage() {
       </section>
 
       {/* Monthly Budget Calculator */}
-      <section className="py-16 bg-muted/30">
+      <section id="monthly-budgets" className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-4 text-center">Real Monthly Budgets</h2>
@@ -526,8 +539,8 @@ export default function CostOfLivingPage() {
                     </CardHeader>
                     <CardContent>
                       <div className="mb-6 p-4 bg-muted rounded-lg">
-                        <h4 className="font-semibold mb-2">Lifestyle Snapshot</h4>
-                        <ul className="text-sm text-muted-foreground space-y-1">
+                        <h3 className="font-semibold text-base mb-2">Lifestyle Snapshot</h3>
+                        <ul className="text-base text-muted-foreground space-y-2">
                           <li><strong>Housing:</strong> {costs.rentDetails}</li>
                           <li><strong>Food:</strong> {costs.foodDetails}</li>
                           <li><strong>Social:</strong> {costs.lifestyle}</li>
@@ -537,63 +550,63 @@ export default function CostOfLivingPage() {
                       <div className="space-y-3">
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <HomeIcon size="sm" className="text-muted-foreground" />
+                            <HomeIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Rent</span>
                           </div>
                           <span className="font-semibold">${costs.rent}</span>
                         </div>
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <UtensilsIcon size="sm" className="text-muted-foreground" />
+                            <UtensilsIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Food & Dining</span>
                           </div>
                           <span className="font-semibold">${costs.food}</span>
                         </div>
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <BusIcon size="sm" className="text-muted-foreground" />
+                            <BusIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Transportation</span>
                           </div>
                           <span className="font-semibold">${costs.transport}</span>
                         </div>
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <WifiIcon size="sm" className="text-muted-foreground" />
+                            <WifiIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Utilities & Internet</span>
                           </div>
                           <span className="font-semibold">${costs.utilities}</span>
                         </div>
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <HeartIcon size="sm" className="text-muted-foreground" />
+                            <HeartIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Healthcare</span>
                           </div>
                           <span className="font-semibold">${costs.healthcare}</span>
                         </div>
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <FilmIcon size="sm" className="text-muted-foreground" />
+                            <FilmIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Entertainment</span>
                           </div>
                           <span className="font-semibold">${costs.entertainment}</span>
                         </div>
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <BriefcaseIcon size="sm" className="text-muted-foreground" />
+                            <BriefcaseIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Coworking</span>
                           </div>
                           <span className="font-semibold">${costs.coworking}</span>
                         </div>
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <DumbbellIcon size="sm" className="text-muted-foreground" />
+                            <DumbbellIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Gym</span>
                           </div>
                           <span className="font-semibold">${costs.gym}</span>
                         </div>
                         <div className="flex justify-between items-center py-2 border-b">
                           <div className="flex items-center gap-2">
-                            <ReceiptIcon size="sm" className="text-muted-foreground" />
+                            <ReceiptIcon className="h-4 w-4 text-muted-foreground" />
                             <span>Miscellaneous</span>
                           </div>
                           <span className="font-semibold">${costs.misc}</span>
@@ -609,8 +622,8 @@ export default function CostOfLivingPage() {
               ))}
             </Tabs>
 
-            <div className="mt-6 text-center text-sm text-muted-foreground">
-              <p>These are baseline estimates. Add 15-20% buffer for inflation adjustments and unexpected expenses.</p>
+            <div className="mt-6 text-center text-muted-foreground">
+              <p className="text-base">These are baseline estimates. Add 15-20% buffer for inflation adjustments and unexpected expenses.</p>
             </div>
           </div>
         </div>
@@ -670,8 +683,8 @@ export default function CostOfLivingPage() {
 
             <div className="grid md:grid-cols-2 gap-4">
               <div className="p-4 bg-green-50 dark:bg-green-950/20 rounded-lg">
-                <h4 className="font-semibold text-green-800 dark:text-green-200 mb-2">✓ What you CAN do:</h4>
-                <ul className="text-sm text-green-700 dark:text-green-300 space-y-1">
+                <h3 className="font-semibold text-green-900 dark:text-green-200 mb-2">✓ What you CAN do:</h3>
+                <ul className="text-base text-green-700 dark:text-green-300 space-y-2">
                   <li>Live in a decent shared apartment in a good neighborhood</li>
                   <li>Eat out 2-3 times per week at mid-range places</li>
                   <li>Go out on weekends (bars, not clubs every night)</li>
@@ -681,8 +694,8 @@ export default function CostOfLivingPage() {
                 </ul>
               </div>
               <div className="p-4 bg-amber-50 dark:bg-amber-950/20 rounded-lg">
-                <h4 className="font-semibold text-amber-800 dark:text-amber-200 mb-2">✗ What you CAN'T do:</h4>
-                <ul className="text-sm text-amber-700 dark:text-amber-300 space-y-1">
+                <h3 className="font-semibold text-amber-900 dark:text-amber-200 mb-2">✗ What you CAN'T do:</h3>
+                <ul className="text-base text-amber-700 dark:text-amber-300 space-y-2">
                   <li>Live alone in Palermo or Recoleta</li>
                   <li>Dine out every meal</li>
                   <li>Party at upscale clubs every weekend</li>
@@ -708,15 +721,15 @@ export default function CostOfLivingPage() {
               <Card key={category.title} className="h-full">
                 <CardHeader>
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
-                    <category.icon size="md" className="text-primary" />
+                    <category.icon className="h-5 w-5 text-primary" />
                   </div>
                   <CardTitle className="text-lg">{category.title}</CardTitle>
-                  <CardDescription className="text-xs">{category.description}</CardDescription>
+                  <CardDescription className="text-base">{category.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
                     {category.items.map((item, index) => (
-                      <li key={index} className="flex justify-between text-sm">
+                      <li key={index} className="flex justify-between text-base">
                         <span className="text-muted-foreground">{item.name}</span>
                         <span className="font-medium">{item.price}</span>
                       </li>
@@ -734,7 +747,7 @@ export default function CostOfLivingPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-md mx-auto">
             <h2 className="text-2xl font-bold mb-6 text-center">Sample Grocery Run</h2>
-            <p className="text-center text-muted-foreground mb-8 text-sm">
+            <p className="text-center text-muted-foreground mb-8 text-base">
               What $47 gets you at a mid-range supermarket (Coto, Carrefour, Día)
             </p>
 
@@ -742,12 +755,12 @@ export default function CostOfLivingPage() {
               <CardHeader className="border-b border-dashed">
                 <div className="text-center">
                   <div className="font-bold text-lg">SUPERMERCADO</div>
-                  <div className="text-xs text-muted-foreground">Buenos Aires, Argentina</div>
-                  <div className="text-xs text-muted-foreground">February 2025</div>
+                  <div className="text-base text-muted-foreground">Buenos Aires, Argentina</div>
+                  <div className="text-base text-muted-foreground">February 2025</div>
                 </div>
               </CardHeader>
               <CardContent className="pt-4">
-                <div className="space-y-1 text-sm">
+                <div className="space-y-2 text-base">
                   {groceryReceipt.map((item, index) => (
                     <div key={index} className="flex justify-between">
                       <span>{item.item}</span>
@@ -761,13 +774,13 @@ export default function CostOfLivingPage() {
                     <span>{groceryTotal}</span>
                   </div>
                 </div>
-                <div className="text-xs text-muted-foreground mt-4 text-center">
+                <div className="text-base text-muted-foreground mt-4 text-center">
                   * Prices vary by neighborhood and inflation
                 </div>
               </CardContent>
             </Card>
 
-            <div className="mt-6 text-center text-sm text-muted-foreground">
+            <div className="mt-6 text-center text-base text-muted-foreground">
               <p>This covers roughly 4-5 days of meals for one person cooking at home.</p>
             </div>
           </div>
@@ -782,36 +795,74 @@ export default function CostOfLivingPage() {
             <p className="text-center text-muted-foreground mb-8">
               USD rent ranges for a 1-bedroom apartment. Prices vary by building amenities and exact location.
             </p>
-            <Card>
-              <CardContent className="pt-6">
-                <div className="overflow-x-auto">
-                  <table className="w-full">
-                    <thead>
-                      <tr className="border-b">
-                        <th className="text-left py-3 px-2">Neighborhood</th>
-                        <th className="text-left py-3 px-2">1BR Range</th>
-                        <th className="text-left py-3 px-2">Vibe</th>
-                        <th className="text-left py-3 px-2">Transport</th>
+            
+            {/* Desktop: Table View */}
+            <Card className="hidden md:block overflow-hidden">
+              <CardContent className="pt-6 overflow-x-auto">
+                <table className="w-full min-w-[500px]">
+                  <thead>
+                    <tr className="border-b">
+                      <th className="text-left py-3 px-4 font-semibold">Neighborhood</th>
+                      <th className="text-left py-3 px-4 font-semibold">1BR Range</th>
+                      <th className="text-left py-3 px-4 font-semibold">Vibe</th>
+                      <th className="text-left py-3 px-4 font-semibold">Transport</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {neighborhoodComparison.map((hood) => (
+                      <tr key={hood.name} className="border-b last:border-0 hover:bg-muted/50 transition-colors">
+                        <td className="py-4 px-4 font-medium">
+                          <Link href={`/neighborhoods/${hood.name.toLowerCase().replace(/[()]/g, "").replace(/ /g, "-")}`} className="text-primary hover:underline">
+                            {hood.name}
+                          </Link>
+                        </td>
+                        <td className="py-4 px-4 font-mono text-base font-semibold text-green-700">{hood.rentRange}</td>
+                        <td className="py-4 px-4 text-base text-muted-foreground">{hood.vibe}</td>
+                        <td className="py-4 px-4">
+                          <span className={`inline-flex items-center px-3 py-1.5 rounded-full text-base font-medium ${
+                            hood.transport === 'Excellent' ? 'bg-green-100 text-green-900' :
+                            hood.transport === 'Very Good' ? 'bg-blue-100 text-blue-900' :
+                            'bg-amber-100 text-amber-900'
+                          }`}>
+                            {hood.transport}
+                          </span>
+                        </td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      {neighborhoodComparison.map((hood) => (
-                        <tr key={hood.name} className="border-b last:border-0">
-                          <td className="py-3 px-2 font-medium">
-                            <Link href={`/neighborhoods/${hood.name.toLowerCase().replace(/[()]/g, "").replace(/ /g, "-")}`} className="hover:text-primary hover:underline">
-                              {hood.name}
-                            </Link>
-                          </td>
-                          <td className="py-3 px-2 font-mono text-sm">{hood.rentRange}</td>
-                          <td className="py-3 px-2 text-sm text-muted-foreground">{hood.vibe}</td>
-                          <td className="py-3 px-2 text-sm">{hood.transport}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+                    ))}
+                  </tbody>
+                </table>
               </CardContent>
             </Card>
+
+            {/* Mobile: Card View */}
+            <div className="md:hidden space-y-4">
+              {neighborhoodComparison.map((hood) => (
+                <Card key={hood.name} className="overflow-hidden">
+                  <CardContent className="p-5">
+                    <div className="flex items-start justify-between mb-3">
+                      <Link 
+                        href={`/neighborhoods/${hood.name.toLowerCase().replace(/[()]/g, "").replace(/ /g, "-")}`} 
+                        className="text-lg font-semibold text-primary hover:underline"
+                      >
+                        {hood.name}
+                      </Link>
+                      <span className={`inline-flex items-center px-3 py-1.5 rounded-full text-base font-medium ${
+                        hood.transport === 'Excellent' ? 'bg-green-100 text-green-900' :
+                        hood.transport === 'Very Good' ? 'bg-blue-100 text-blue-900' :
+                        'bg-amber-100 text-amber-900'
+                      }`}>
+                        {hood.transport}
+                      </span>
+                    </div>
+                    <div className="flex items-baseline gap-2 mb-3">
+                      <span className="text-base text-muted-foreground">1BR:</span>
+                      <span className="text-xl font-bold text-green-700">{hood.rentRange}</span>
+                    </div>
+                    <p className="text-base text-muted-foreground leading-relaxed">{hood.vibe}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -829,16 +880,16 @@ export default function CostOfLivingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <HomeIcon size="sm" className="text-amber-500" />
+                    <HomeIcon className="h-4 w-4 text-amber-500" />
                     Garantía (Rental Guarantee)
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     Most landlords require a garantía - a property owner who guarantees your rent. 
                     As a foreigner, you likely don't have one. Solutions:
                   </p>
-                  <ul className="text-sm space-y-1">
+                  <ul className="text-base space-y-2">
                     <li>• <strong>Seguro de caución:</strong> Insurance policy (~1-1.5 months rent)</li>
                     <li>• <strong>More deposit:</strong> Offer 3-6 months upfront</li>
                     <li>• <strong>Airbnb/sublet:</strong> Bypass requirement entirely</li>
@@ -849,15 +900,15 @@ export default function CostOfLivingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <ReceiptIcon size="sm" className="text-amber-500" />
+                    <ReceiptIcon className="h-4 w-4 text-amber-500" />
                     Realtor Fees
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     If you use a real estate agent (inmobiliaria), you'll pay:
                   </p>
-                  <ul className="text-sm space-y-1">
+                  <ul className="text-base space-y-2">
                     <li>• <strong>Commission:</strong> 1-1.5 months rent</li>
                     <li>• <strong>Contract fee:</strong> ~$50-100</li>
                     <li>• <strong>Pro tip:</strong> Find apartments on Facebook groups or Airbnb to avoid this</li>
@@ -868,15 +919,15 @@ export default function CostOfLivingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <CreditCardIcon size="sm" className="text-amber-500" />
+                    <CreditCardIcon className="h-4 w-4 text-amber-500" />
                     Visa & Residency Costs
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     If you plan to stay long-term:
                   </p>
-                  <ul className="text-sm space-y-1">
+                  <ul className="text-base space-y-2">
                     <li>• <strong>Digital Nomad Visa:</strong> ~$200-400 total</li>
                     <li>• <strong>Rentista Visa:</strong> ~$1,500-3,000 (with lawyer)</li>
                     <li>• <strong>DNI (ID card):</strong> ~$50-100</li>
@@ -888,15 +939,15 @@ export default function CostOfLivingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <ZapIcon size="sm" className="text-amber-500" />
+                    <ZapIcon className="h-4 w-4 text-amber-500" />
                     Building Expenses (Expensas)
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     Monthly building maintenance fees, often not included in rent:
                   </p>
-                  <ul className="text-sm space-y-1">
+                  <ul className="text-base space-y-2">
                     <li>• <strong>Old building:</strong> $50-100/month</li>
                     <li>• <strong>Modern building:</strong> $100-200/month</li>
                     <li>• <strong>Luxury building:</strong> $200-400/month (includes gym, pool, security)</li>
@@ -921,16 +972,16 @@ export default function CostOfLivingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <WalletIcon size="sm" className="text-green-500" />
+                    <WalletIcon className="h-4 w-4 text-green-500" />
                     The Western Union Hack
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     Send money to yourself via Western Union. You'll often get a better rate than the blue dollar, 
                     and it's safer than carrying large amounts of cash.
                   </p>
-                  <div className="text-sm bg-muted p-3 rounded">
+                  <div className="text-base bg-muted p-3 rounded">
                     <strong>How:</strong> Send from your home bank account to yourself in Argentina. 
                     Pick up pesos at any WU branch (bring passport).
                   </div>
@@ -940,16 +991,16 @@ export default function CostOfLivingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <DollarSignIcon size="sm" className="text-green-500" />
+                    <DollarSignIcon className="h-4 w-4 text-green-500" />
                     Crypto Arbitrage
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     Many expats use USDC/USDT to move money. Buy stablecoins abroad, sell for pesos 
                     at the crypto blue rate (often better than cash blue).
                   </p>
-                  <div className="text-sm bg-muted p-3 rounded">
+                  <div className="text-base bg-muted p-3 rounded">
                     <strong>Platforms:</strong> Lemon Cash, Buenbit, Ripio. Requires local bank account.
                   </div>
                 </CardContent>
@@ -958,16 +1009,16 @@ export default function CostOfLivingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <MapPinIcon size="sm" className="text-green-500" />
+                    <MapPinIcon className="h-4 w-4 text-green-500" />
                     Shop at Ferias
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     Neighborhood ferias (street markets) offer produce at 30-50% less than supermarkets. 
                     Plus, the quality is often better.
                   </p>
-                  <div className="text-sm bg-muted p-3 rounded">
+                  <div className="text-base bg-muted p-3 rounded">
                     <strong>Best ones:</strong> Mercado de San Telmo, your local barrio feria (usually weekends)
                   </div>
                 </CardContent>
@@ -976,15 +1027,15 @@ export default function CostOfLivingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
-                    <PiggyBankIcon size="sm" className="text-green-500" />
+                    <PiggyBankIcon className="h-4 w-4 text-green-500" />
                     Menu del Día
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-base text-muted-foreground mb-3">
                     Weekday lunch specials are incredible value. 2-3 courses with drink for $6-10 at decent places.
                   </p>
-                  <div className="text-sm bg-muted p-3 rounded">
+                  <div className="text-base bg-muted p-3 rounded">
                     <strong>Tip:</strong> Look for "MDQ" or "Menú Ejecutivo" signs. Usually Mon-Fri, 12-4pm.
                   </div>
                 </CardContent>
@@ -993,10 +1044,10 @@ export default function CostOfLivingPage() {
 
             <div className="mt-8 p-6 bg-red-50 dark:bg-red-950/20 rounded-lg border border-red-200">
               <h3 className="font-semibold text-red-900 dark:text-red-100 mb-2 flex items-center gap-2">
-                <AlertCircleIcon size="sm" />
+                <AlertCircleIcon className="h-4 w-4" />
                 What NOT to Do
               </h3>
-              <ul className="text-red-800 dark:text-red-200 text-sm space-y-1">
+              <ul className="text-red-800 dark:text-red-200 text-base space-y-2">
                 <li>• <strong>Never use foreign cards</strong> - you'll get the official rate and lose 40-50%</li>
                 <li>• <strong>Don't exchange at the airport</strong> - terrible rates, use Western Union instead</li>
                 <li>• <strong>Don't carry all your cash</strong> - use safety deposit boxes or split it up</li>
@@ -1016,36 +1067,75 @@ export default function CostOfLivingPage() {
               How Buenos Aires compares to other popular expat destinations (monthly costs, single person).
             </p>
 
-            <Card>
+            {/* Desktop: Table View */}
+            <Card className="hidden md:block">
               <CardContent className="pt-6">
-                <div className="overflow-x-auto">
-                  <table className="w-full">
-                    <thead>
-                      <tr className="border-b">
-                        <th className="text-left py-3 px-2">City</th>
-                        <th className="text-left py-3 px-2">Rent (1BR)</th>
-                        <th className="text-left py-3 px-2">Meal Out</th>
-                        <th className="text-left py-3 px-2">Transport</th>
-                        <th className="text-left py-3 px-2">Total Est.</th>
+                <table className="w-full">
+                  <thead>
+                    <tr className="border-b">
+                      <th className="text-left py-3 px-4 font-semibold">City</th>
+                      <th className="text-left py-3 px-4 font-semibold">Rent (1BR)</th>
+                      <th className="text-left py-3 px-4 font-semibold">Meal Out</th>
+                      <th className="text-left py-3 px-4 font-semibold">Transport</th>
+                      <th className="text-left py-3 px-4 font-semibold">Total Est.</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {cityComparison.map((city) => (
+                      <tr key={city.city} className={`border-b last:border-0 ${city.city === "Buenos Aires" ? "bg-primary/5" : "hover:bg-muted/50"} transition-colors`}>
+                        <td className="py-4 px-4 font-medium">{city.city}</td>
+                        <td className="py-4 px-4">{city.rent}</td>
+                        <td className="py-4 px-4">{city.meal}</td>
+                        <td className="py-4 px-4">{city.transport}</td>
+                        <td className="py-4 px-4 font-bold text-primary">{city.total}</td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      {cityComparison.map((city) => (
-                        <tr key={city.city} className={`border-b last:border-0 ${city.city === "Buenos Aires" ? "bg-primary/5" : ""}`}>
-                          <td className="py-3 px-2 font-medium">{city.city}</td>
-                          <td className="py-3 px-2">{city.rent}</td>
-                          <td className="py-3 px-2">{city.meal}</td>
-                          <td className="py-3 px-2">{city.transport}</td>
-                          <td className="py-3 px-2 font-semibold">{city.total}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+                    ))}
+                  </tbody>
+                </table>
               </CardContent>
             </Card>
 
-            <div className="mt-6 text-center text-sm text-muted-foreground">
+            {/* Mobile: Card View */}
+            <div className="md:hidden space-y-3">
+              {cityComparison.map((city) => (
+                <Card 
+                  key={city.city} 
+                  className={`overflow-hidden ${city.city === "Buenos Aires" ? "border-2 border-primary" : ""}`}
+                >
+                  <CardContent className="p-4">
+                    <div className="flex items-center justify-between mb-3">
+                      <span className={`text-lg font-bold ${city.city === "Buenos Aires" ? "text-primary" : ""}`}>
+                        {city.city}
+                      </span>
+                      <span className="text-xl font-bold text-primary">{city.total}</span>
+                    </div>
+                    <div className="grid grid-cols-3 gap-4 text-base">
+                      <div>
+                        <p className="text-muted-foreground text-base mb-1">Rent</p>
+                        <p className="font-semibold">{city.rent}</p>
+                      </div>
+                      <div>
+                        <p className="text-muted-foreground text-base mb-1">Meal</p>
+                        <p className="font-semibold">{city.meal}</p>
+                      </div>
+                      <div>
+                        <p className="text-muted-foreground text-base mb-1">Transport</p>
+                        <p className="font-semibold">{city.transport}</p>
+                      </div>
+                    </div>
+                    {city.city === "Buenos Aires" && (
+                      <div className="mt-3 pt-3 border-t">
+                        <span className="inline-flex items-center px-3 py-1.5 rounded bg-primary/10 text-primary text-base font-medium">
+                          You are here
+                        </span>
+                      </div>
+                    )}
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+
+            <div className="mt-6 text-center text-base text-muted-foreground">
               <p>Buenos Aires offers European-quality lifestyle at Latin American prices - if you navigate the exchange rates correctly.</p>
             </div>
           </div>
@@ -1069,7 +1159,7 @@ export default function CostOfLivingPage() {
                     <CardTitle className="text-lg">The Price Check Habit</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-base text-muted-foreground">
                       You'll find yourself checking dolarhoy.com daily. Prices at your favorite restaurant 
                       will change between visits. You'll celebrate when the exchange rate moves in your favor.
                     </p>
@@ -1081,7 +1171,7 @@ export default function CostOfLivingPage() {
                     <CardTitle className="text-lg">The Cash Economy</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-base text-muted-foreground">
                       You'll carry more cash than you're used to. You'll learn to count stacks of pesos 
                       quickly. Paying with a card will feel weird and wrong.
                     </p>
@@ -1093,7 +1183,7 @@ export default function CostOfLivingPage() {
                     <CardTitle className="text-lg">The Stockpile Instinct</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-base text-muted-foreground">
                       When you see a good price on something non-perishable, you'll buy extra. 
                       Locals do this constantly - it's rational behavior in an inflationary economy.
                     </p>
@@ -1105,7 +1195,7 @@ export default function CostOfLivingPage() {
                     <CardTitle className="text-lg">The USD Anchor</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-base text-muted-foreground">
                       You'll start thinking in USD for big purchases, even though you're earning/spending pesos. 
                       It's the only way to maintain sanity and compare value.
                     </p>
@@ -1129,7 +1219,7 @@ export default function CostOfLivingPage() {
                   <CardTitle className="text-lg">Spreadsheet Method</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-base text-muted-foreground">
                     Simple Google Sheet with categories. Convert peso expenses to USD daily using that day's rate. 
                     Best for detail-oriented people.
                   </p>
@@ -1141,7 +1231,7 @@ export default function CostOfLivingPage() {
                   <CardTitle className="text-lg">App Method</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-base text-muted-foreground">
                     Apps like Spendee, Splitwise, or even a notes app. Record every purchase, categorize weekly. 
                     Less precise but easier to maintain.
                   </p>
@@ -1153,7 +1243,7 @@ export default function CostOfLivingPage() {
                   <CardTitle className="text-lg">Envelope Method</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-base text-muted-foreground">
                     Withdraw your weekly budget in pesos. When it's gone, it's gone. Forces discipline 
                     and eliminates tracking overhead.
                   </p>
@@ -1165,7 +1255,7 @@ export default function CostOfLivingPage() {
               <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">
                 Recommended Tracking Categories
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-sm text-blue-800 dark:text-blue-200">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-base text-blue-900 dark:text-blue-200">
                 <div>• Rent</div>
                 <div>• Groceries</div>
                 <div>• Dining Out</div>
@@ -1187,12 +1277,12 @@ export default function CostOfLivingPage() {
             <Card className="border-amber-200 bg-amber-50 dark:bg-amber-950/20">
               <CardContent className="pt-6">
                 <div className="flex items-start gap-4">
-                  <AlertCircleIcon size="lg" className="text-amber-600 flex-shrink-0" />
+                  <AlertCircleIcon className="h-10 w-10 text-amber-600 flex-shrink-0" />
                   <div>
-                    <h3 className="font-semibold text-amber-900 dark:text-amber-100 mb-2">
+                    <h2 className="font-semibold text-amber-900 dark:text-amber-100 mb-2">
                       Final Reality Check
-                    </h3>
-                    <p className="text-amber-800 dark:text-amber-200 text-sm">
+                    </h2>
+                    <p className="text-amber-900 dark:text-amber-200 text-base">
                       These numbers are accurate as of February 2025, but Argentina's economy is volatile. 
                       Prices can change rapidly. Always verify current rates on <a href="https://dolarhoy.com" target="_blank" rel="noopener" className="underline">dolarhoy.com</a> or 
                       similar sites. Connect with current expats in Facebook groups or Reddit (r/ArgentinaExpats) 
@@ -1237,7 +1327,7 @@ export default function CostOfLivingPage() {
               <Button asChild size="lg" variant="secondary">
                 <Link href="/neighborhoods">
                   Explore Neighborhoods
-                  <ArrowRightIcon size="sm" className="ml-2" />
+                  <ArrowRightIcon className="h-4 w-4 ml-2" />
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 hover:bg-primary-foreground/10">
