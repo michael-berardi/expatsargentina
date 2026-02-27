@@ -18,6 +18,8 @@ export interface Restaurant {
   phone?: string;
   instagram?: string;
   image?: string;
+  imageCredit?: string;
+  imageSource?: string;
   features?: string[];
   goodFor?: string[];
   notGoodFor?: string[];
