@@ -4,6 +4,7 @@ import { neighborhoods } from "@/lib/data/neighborhoods";
 import { recipes } from "@/lib/data/recipes";
 import { investmentSectors } from "@/lib/data/investments";
 import { cityComparisons } from "@/lib/data/comparisons";
+import { visaComparisons } from "@/lib/data/visa-comparisons";
 
 export const dynamic = "force-static";
 
@@ -56,6 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/investments/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     // Compare pages
     { url: `${BASE_URL}/cities/compare/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/visas/compare/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
   ];
 
   // Dynamic PSEO pages - Provinces
@@ -106,6 +108,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // Dynamic PSEO pages - Visa comparisons
+  const visaComparisonPages: MetadataRoute.Sitemap = visaComparisons.map((c) => ({
+    url: `${BASE_URL}/visas/compare/${c.slug}/`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     ...staticPages,
     ...provincePages,
@@ -114,5 +124,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...recipePages,
     ...investmentPages,
     ...comparisonPages,
+    ...visaComparisonPages,
   ];
 }

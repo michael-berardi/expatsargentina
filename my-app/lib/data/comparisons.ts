@@ -118,6 +118,78 @@ export const cityComparisons: CityComparison[] = [
       city2: ["Digital nomads", "Young professionals", "Students", "Those wanting expat community", "Tech workers"],
     },
   },
+  // Comparison 5: Rosario vs Cordoba
+  {
+    slug: "rosario-vs-cordoba",
+    city1Slug: "rosario",
+    city2Slug: "cordoba",
+    title: "Rosario vs Córdoba",
+    description: "Argentina's second and third cities compared. Industrial port city vs university hub — both affordable, both with strong identities.",
+    seoKeywords: ["Rosario vs Cordoba", "Argentina affordable cities", "Rosario expat life", "Cordoba or Rosario", "cheap cities Argentina"],
+    verdict: "Rosario offers river lifestyle, cultural pride, and a slightly cheaper cost of living. Córdoba counters with university energy, mountain access, and a more established tech and expat scene. Both are excellent affordable alternatives to Buenos Aires.",
+    categories: [
+      { name: "Cost of Living", city1Score: 8, city2Score: 7, city1Detail: "$550-1,400/month. Slightly cheaper than Córdoba across the board. Rent and food prices are very competitive.", city2Detail: "$600-1,500/month. Affordable university-town economics, though growing tech sector is slowly pushing prices up." },
+      { name: "Safety", city1Score: 5, city2Score: 6, city1Detail: "Moderate. Rosario has struggled with drug-related violence in some neighborhoods. Central areas are generally fine.", city2Detail: "Moderate to Good. Safer overall feel than Rosario. University areas are well-lit and active at night." },
+      { name: "Nightlife", city1Score: 7, city2Score: 8, city1Detail: "Strong bar and live music scene along the riverfront. Excellent cumbia and rock nacional venues.", city2Detail: "Wild student nightlife. Fernet con coca culture. Bars and clubs packed Thursday through Sunday." },
+      { name: "Internet", city1Score: 7, city2Score: 7, city1Detail: "30-70 Mbps. Decent infrastructure. Growing number of coworking spaces downtown.", city2Detail: "30-80 Mbps. Strong tech hub infrastructure. Multiple coworking spaces and startup incubators." },
+      { name: "Food", city1Score: 8, city2Score: 7, city1Detail: "Excellent river fish, parrillas, and a proud local food identity. Birthplace of the Argentine flag and the ice cream chain Grido.", city2Detail: "Good local food scene. Famous for fernet con coca. Growing variety of international restaurants." },
+      { name: "Culture", city1Score: 8, city2Score: 7, city1Detail: "Rich cultural identity. Messi's hometown. Street art capital, Monumento a la Bandera, strong theater and music scene.", city2Detail: "Jesuit heritage sites (UNESCO). University culture drives arts and music. More grassroots and alternative feel." },
+      { name: "Outdoor Access", city1Score: 7, city2Score: 8, city1Detail: "Beautiful Paraná River waterfront, islands for kayaking and day trips. Flat terrain limits hiking options.", city2Detail: "Sierras de Córdoba within 30 minutes. Hiking, lakes, rivers, and Carlos Paz resort town nearby." },
+      { name: "Expat Community", city1Score: 5, city2Score: 7, city1Detail: "Small but growing. Fewer expat-specific resources. True immersion with locals.", city2Detail: "Larger and more established. Growing digital nomad scene with meetups and English-friendly services." },
+    ],
+    bestFor: {
+      city1: ["Budget-conscious expats", "River lifestyle lovers", "Football fans", "Those seeking authentic Argentine culture", "Artists and musicians"],
+      city2: ["Digital nomads", "Students", "Tech entrepreneurs", "Outdoor enthusiasts", "Those wanting expat community"],
+    },
+  },
+  // Comparison 6: Ushuaia vs Bariloche
+  {
+    slug: "ushuaia-vs-bariloche",
+    city1Slug: "ushuaia",
+    city2Slug: "bariloche",
+    title: "Ushuaia vs Bariloche",
+    description: "End of the world vs lake district paradise. Compare Argentina's two iconic Patagonian destinations for extreme nature and unique expat experiences.",
+    seoKeywords: ["Ushuaia vs Bariloche", "Patagonia cities comparison", "best Patagonia city expats", "Ushuaia or Bariloche", "living in Patagonia Argentina"],
+    verdict: "Bariloche wins for year-round livability, better infrastructure, and a larger community. Ushuaia wins for sheer uniqueness, tax benefits, and being the ultimate end-of-the-world adventure. Both demand cold tolerance and self-reliance.",
+    categories: [
+      { name: "Cost of Living", city1Score: 4, city2Score: 5, city1Detail: "$1,000-2,500/month. Remote location drives up prices. Imported goods are expensive. Offset by Tierra del Fuego tax-free zone benefits.", city2Detail: "$900-2,200/month. Tourism premium on rent and food. Seasonal price swings but generally more competitive than Ushuaia." },
+      { name: "Natural Beauty", city1Score: 10, city2Score: 10, city1Detail: "Otherworldly. Beagle Channel, snow-capped mountains, Tierra del Fuego National Park. Antarctic gateway. Nothing else like it on Earth.", city2Detail: "Jaw-dropping. Glacial lakes, ancient forests, snow-capped Andes. Nahuel Huapi National Park is vast and pristine." },
+      { name: "Winter Activities", city1Score: 8, city2Score: 9, city1Detail: "Cerro Castor ski resort, cross-country skiing, snowshoeing. Smaller scale but uncrowded. Extreme short winter days.", city2Detail: "Cerro Catedral — South America's largest ski resort. Snowboarding, backcountry skiing, and a lively aprés-ski scene." },
+      { name: "Summer Activities", city1Score: 8, city2Score: 9, city1Detail: "Hiking, sailing the Beagle Channel, penguin colonies, Antarctic cruise departures. Long summer daylight hours (18+ hours).", city2Detail: "Kayaking, trekking, mountain biking, fishing, swimming in lakes. Circuito Chico road cycling. More variety overall." },
+      { name: "Infrastructure", city1Score: 4, city2Score: 6, city1Detail: "Small and isolated. Limited healthcare, fewer flights, basic services. Airport connects mainly to Buenos Aires.", city2Detail: "Better infrastructure for a Patagonian city. Regional hospital, more flight connections, wider range of services." },
+      { name: "Year-Round Livability", city1Score: 4, city2Score: 6, city1Detail: "Harsh winters with very short days (7 hours of light). Isolation can weigh on mental health. Summer is magical but brief.", city2Detail: "Also seasonal but more manageable. Shoulder seasons are quiet. Winter has ski tourism, summer has lake tourism." },
+      { name: "Remote Work", city1Score: 5, city2Score: 6, city1Detail: "15-40 Mbps. Limited coworking options. Isolation can be a plus for focused deep work but hurts networking.", city2Detail: "20-50 Mbps. A few coworking spaces. Small but present digital nomad community during summer months." },
+      { name: "Community Size", city1Score: 3, city2Score: 6, city1Detail: "~80,000 people. Very small expat community. You will know everyone. Tight-knit but limited social options.", city2Detail: "~130,000 people. Larger expat and tourist community. More social options, restaurants, and cultural events year-round." },
+    ],
+    bestFor: {
+      city1: ["Adventure seekers", "Antarctic enthusiasts", "Tax-benefit seekers", "Those wanting ultimate remoteness", "Photographers and filmmakers"],
+      city2: ["Skiers and snowboarders", "Families wanting Patagonia life", "Outdoor athletes", "Chocolate lovers", "Those wanting Patagonia with better infrastructure"],
+    },
+  },
+  // Comparison 7: Mar del Plata vs Buenos Aires
+  {
+    slug: "mar-del-plata-vs-buenos-aires",
+    city1Slug: "mar-del-plata",
+    city2Slug: "buenos-aires",
+    title: "Mar del Plata vs Buenos Aires",
+    description: "Beach city escape vs capital city energy. Compare Argentina's summer capital with its actual capital for year-round expat living.",
+    seoKeywords: ["Mar del Plata vs Buenos Aires", "Argentina beach city expats", "Mar del Plata digital nomads", "Buenos Aires or Mar del Plata", "best city Argentina expats"],
+    verdict: "Buenos Aires wins for career opportunities, nightlife, and a massive expat community. Mar del Plata wins for beach access, lower costs, and a more relaxed pace of life. The key question is whether you prioritize lifestyle or opportunity.",
+    categories: [
+      { name: "Cost of Living", city1Score: 7, city2Score: 4, city1Detail: "$700-1,600/month. Significantly cheaper rent than BA. Food costs lower especially for seafood. Off-season deals are excellent.", city2Detail: "$1,200-3,500/month. Argentina's most expensive city. Palermo and Recoleta rents rival European capitals." },
+      { name: "Beach/Nature Access", city1Score: 9, city2Score: 2, city1Detail: "Kilometers of Atlantic beaches. Surfing, fishing, coastal hiking. Mar del Plata is Argentina's undisputed beach capital.", city2Detail: "No beach. Río de la Plata is brown and not swimmable. Nearest beach is 4+ hours away. Parks are the best you get." },
+      { name: "Nightlife", city1Score: 7, city2Score: 10, city1Detail: "Excellent in summer — beachfront clubs, bars, live music. Significantly quieter off-season but still has a core scene.", city2Detail: "World-class. Tango milongas, underground clubs, live music every night. Bars open until dawn year-round." },
+      { name: "Internet", city1Score: 6, city2Score: 8, city1Detail: "20-60 Mbps. Adequate for remote work. Fewer coworking spaces but growing. Can be spotty in beach areas.", city2Detail: "50-100+ Mbps. Fiber widely available. Coworking spaces everywhere. Best digital infrastructure in the country." },
+      { name: "Food", city1Score: 8, city2Score: 9, city1Detail: "Seafood capital of Argentina. Excellent fish, shellfish, and coastal dining. Alfajores originated here. Less international variety.", city2Detail: "Most diverse food scene in South America. World-class parrillas, international cuisine, vegan options, street food — everything." },
+      { name: "Safety", city1Score: 7, city2Score: 5, city1Detail: "Generally safer than Buenos Aires. Quieter streets, less petty crime. Some seasonal issues when tourist crowds arrive.", city2Detail: "Moderate. Petty theft common in tourist areas. Certain neighborhoods require caution at night. Standard big-city awareness needed." },
+      { name: "Expat Community", city1Score: 5, city2Score: 9, city1Detail: "Small but growing. Seasonal expats in summer, core group year-round. Easier to integrate with locals.", city2Detail: "Massive. Thousands of expats, dozens of weekly meetups, Facebook groups, WhatsApp communities. Easy to find your tribe." },
+      { name: "Year-Round Appeal", city1Score: 6, city2Score: 9, city1Detail: "Summer is peak season and magical. Winters are cold, windy, and quiet — some love the solitude, others find it isolating.", city2Detail: "Vibrant 365 days a year. Seasons change the vibe but never shut the city down. Always something to do." },
+    ],
+    bestFor: {
+      city1: ["Beach lovers", "Surfers", "Seafood enthusiasts", "Budget-conscious expats", "Those seeking slower pace", "Seasonal workers"],
+      city2: ["Career-focused expats", "Nightlife enthusiasts", "Culture lovers", "Digital nomads wanting community", "Food adventurers", "Year-round city energy seekers"],
+    },
+  },
 ];
 
 export function getComparisonBySlug(slug: string): CityComparison | undefined {
