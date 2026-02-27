@@ -226,7 +226,7 @@ export default function FoodGuidePage() {
     <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
       {/* Hero */}
       <div className="relative bg-gradient-to-br from-orange-600 via-red-600 to-orange-700 text-white">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1544025162-d76694265947?w=1920&q=80')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/guides/food-bg.webp')] bg-cover bg-center opacity-20" />
         <div className="relative max-w-6xl mx-auto px-4 py-20">
           <div className="flex items-center gap-3 mb-6">
             <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">

@@ -2,32 +2,43 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 
 const footerLinks = {
-  visas: [
-    { label: "Digital Nomad Visa", href: "/visas/digital-nomad" },
-    { label: "Work Visa", href: "/visas/work" },
-    { label: "Retirement Visa", href: "/visas/retirement" },
-    { label: "Student Visa", href: "/visas/student" },
+  provinces: [
+    { label: "Buenos Aires", href: "/provinces/buenos-aires-city" },
+    { label: "Cordoba", href: "/provinces/cordoba" },
+    { label: "Mendoza", href: "/provinces/mendoza" },
+    { label: "Salta", href: "/provinces/salta" },
+    { label: "Patagonia", href: "/provinces/rio-negro" },
+    { label: "All Provinces", href: "/provinces" },
+  ],
+  cities: [
+    { label: "Buenos Aires", href: "/cities/buenos-aires" },
+    { label: "Mendoza", href: "/cities/mendoza" },
+    { label: "Cordoba", href: "/cities/cordoba" },
+    { label: "Bariloche", href: "/cities/bariloche" },
+    { label: "Salta", href: "/cities/salta" },
+    { label: "All Cities", href: "/cities" },
   ],
   guides: [
+    { label: "Visas", href: "/visas/digital-nomad" },
     { label: "Cost of Living", href: "/cost-of-living" },
-    { label: "Neighborhoods", href: "/neighborhoods" },
+    { label: "Healthcare", href: "/healthcare" },
     { label: "Housing", href: "/housing" },
-    { label: "Food & Dining", href: "/food" },
-    { label: "Transportation", href: "/transportation" },
+    { label: "Banking", href: "/banking" },
     { label: "Safety", href: "/safety" },
   ],
   resources: [
-    { label: "All Guides", href: "/sitemap" },
     { label: "Expat Stories", href: "/stories" },
-    { label: "Resources Directory", href: "/resources" },
     { label: "Remote Work", href: "/remote-work" },
     { label: "Learn Spanish", href: "/learn-spanish" },
+    { label: "Transportation", href: "/transportation" },
+    { label: "Food & Dining", href: "/food" },
+    { label: "Newsletter", href: "/newsletter" },
   ],
   company: [
     { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
-    { label: "Newsletter", href: "/newsletter" },
     { label: "Privacy Policy", href: "/privacy" },
+    { label: "Site Map", href: "/sitemap" },
   ],
 };
 
@@ -35,9 +46,9 @@ export function Footer() {
   return (
     <footer className="border-t bg-muted/50">
       <div className="container mx-auto px-4 py-12 md:py-16">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
           {/* Brand */}
-          <div className="col-span-2 lg:col-span-1">
+          <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
                 EA
@@ -45,16 +56,33 @@ export function Footer() {
               <span className="font-bold text-xl">Expats Argentina</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
-              Your trusted resource for moving to and living in Argentina. 
-              Practical guides, expert advice, and real expat stories.
+              Your comprehensive guide to living anywhere in Argentina.
+              Explore 24 provinces, 15+ city guides, visa information, and practical advice.
             </p>
           </div>
 
-          {/* Visas */}
+          {/* Provinces */}
           <div>
-            <h3 className="font-semibold mb-3">Visas</h3>
+            <h3 className="font-semibold mb-3">Provinces</h3>
             <ul className="space-y-2">
-              {footerLinks.visas.map((link) => (
+              {footerLinks.provinces.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Cities */}
+          <div>
+            <h3 className="font-semibold mb-3">Cities</h3>
+            <ul className="space-y-2">
+              {footerLinks.cities.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

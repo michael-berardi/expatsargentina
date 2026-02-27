@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   },
   trailingSlash: true,
   turbopack: {
-    root: '/Users/libertydesignstudio/dev/overseer/standalone-repos/expatsargentina/my-app',
+    root: '/Users/libertydesignstudio/dev/expatsargentina/my-app',
   },
 };
 

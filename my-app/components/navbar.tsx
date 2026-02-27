@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { MenuIcon, XIcon, ChevronDownIcon } from "@/components/ui/icon";
+import { MenuIcon } from "@/components/ui/icon";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -18,6 +18,26 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+
+const provinceItems = [
+  { title: "All Provinces", href: "/provinces", description: "Explore all 24 provinces" },
+  { title: "Buenos Aires (CABA)", href: "/provinces/buenos-aires-city", description: "The capital and largest city" },
+  { title: "Cordoba", href: "/provinces/cordoba", description: "Argentina's second-largest province" },
+  { title: "Mendoza", href: "/provinces/mendoza", description: "Wine country at the foot of the Andes" },
+  { title: "Salta", href: "/provinces/salta", description: "Colonial charm in the northwest" },
+  { title: "Patagonia (Rio Negro)", href: "/provinces/rio-negro", description: "Lakes, mountains, and adventure" },
+  { title: "Tierra del Fuego", href: "/provinces/tierra-del-fuego", description: "The end of the world" },
+];
+
+const cityItems = [
+  { title: "All City Guides", href: "/cities", description: "15+ city guides for expats" },
+  { title: "Buenos Aires", href: "/cities/buenos-aires", description: "The vibrant capital city" },
+  { title: "Mendoza", href: "/cities/mendoza", description: "Wine, sun, and outdoor living" },
+  { title: "Cordoba", href: "/cities/cordoba", description: "University town with a young vibe" },
+  { title: "Bariloche", href: "/cities/bariloche", description: "Patagonian lakeside paradise" },
+  { title: "Salta", href: "/cities/salta", description: "Affordable living with rich culture" },
+  { title: "Rosario", href: "/cities/rosario", description: "Riverside city with great food" },
+];
 
 const visaItems = [
   { title: "Digital Nomad Visa", href: "/visas/digital-nomad", description: "Work remotely from Argentina for up to 180 days" },
@@ -65,6 +85,52 @@ export function Navbar() {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
+                <NavigationMenuTrigger>Provinces</NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                    {provinceItems.map((item) => (
+                      <li key={item.title}>
+                        <NavigationMenuLink asChild>
+                          <Link
+                            href={item.href}
+                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                          >
+                            <div className="text-sm font-medium leading-none">{item.title}</div>
+                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                              {item.description}
+                            </p>
+                          </Link>
+                        </NavigationMenuLink>
+                      </li>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>Cities</NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                    {cityItems.map((item) => (
+                      <li key={item.title}>
+                        <NavigationMenuLink asChild>
+                          <Link
+                            href={item.href}
+                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                          >
+                            <div className="text-sm font-medium leading-none">{item.title}</div>
+                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                              {item.description}
+                            </p>
+                          </Link>
+                        </NavigationMenuLink>
+                      </li>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
                 <NavigationMenuTrigger>Visas</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
@@ -109,24 +175,6 @@ export function Navbar() {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-
-              <NavigationMenuItem>
-                <Link href="/stories" className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-                  Expat Stories
-                </Link>
-              </NavigationMenuItem>
-
-              <NavigationMenuItem>
-                <Link href="/resources" className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-                  Resources
-                </Link>
-              </NavigationMenuItem>
-
-              <NavigationMenuItem>
-                <Link href="/newsletter" className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
-                  Newsletter
-                </Link>
-              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
         </div>
@@ -157,6 +205,34 @@ export function Navbar() {
 
               <nav className="flex flex-col gap-4">
                 <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
+                  Provinces
+                </div>
+                {provinceItems.map((item) => (
+                  <SheetClose asChild key={item.title}>
+                    <Link
+                      href={item.href}
+                      className="text-foreground hover:text-primary transition-colors"
+                    >
+                      {item.title}
+                    </Link>
+                  </SheetClose>
+                ))}
+
+                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                  Cities
+                </div>
+                {cityItems.map((item) => (
+                  <SheetClose asChild key={item.title}>
+                    <Link
+                      href={item.href}
+                      className="text-foreground hover:text-primary transition-colors"
+                    >
+                      {item.title}
+                    </Link>
+                  </SheetClose>
+                ))}
+
+                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   Visas
                 </div>
                 {visaItems.map((item) => (
@@ -183,29 +259,6 @@ export function Navbar() {
                     </Link>
                   </SheetClose>
                 ))}
-
-                <div className="border-t border-border my-4" />
-
-                <SheetClose asChild>
-                  <Link href="/stories" className="text-foreground hover:text-primary transition-colors">
-                    Expat Stories
-                  </Link>
-                </SheetClose>
-                <SheetClose asChild>
-                  <Link href="/resources" className="text-foreground hover:text-primary transition-colors">
-                    Resources
-                  </Link>
-                </SheetClose>
-                <SheetClose asChild>
-                  <Link href="/newsletter" className="text-foreground hover:text-primary transition-colors">
-                    Newsletter
-                  </Link>
-                </SheetClose>
-                <SheetClose asChild>
-                  <Link href="/about" className="text-foreground hover:text-primary transition-colors">
-                    About
-                  </Link>
-                </SheetClose>
               </nav>
 
               <Button asChild className="mt-4">
