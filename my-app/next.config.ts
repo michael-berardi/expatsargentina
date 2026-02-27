@@ -7,9 +7,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  turbopack: {
-    root: '/Users/libertydesignstudio/dev/expatsargentina/my-app',
-  },
 };
 
 export default nextConfig;
