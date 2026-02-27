@@ -5572,6 +5572,1060 @@ export const professions: Profession[] = [
       }
     ],
     image: "/images/professions/scrum-master.webp"
+  },
+  {
+    slug: "site-reliability-engineer",
+    name: "Site Reliability Engineer",
+    title: "Site Reliability Engineer Guide for Argentina",
+    subtitle: "Ensure systems reliability remotely from Argentina",
+    description: "SRE is one of tech's most in-demand specializations. Learn how SREs can work remotely for top tech companies from Argentina.",
+    icon: "BarChart",
+    category: "tech",
+    overview: "Site Reliability Engineers (SREs) ensure that large-scale systems remain reliable, scalable, and efficient. They combine software engineering with systems engineering and operations. It's a high-paying, critical role with US tech companies offering $80-150+/hour for experienced SREs. Argentine SREs are known for strong technical skills and problem-solving abilities. The work is entirely remote-friendly - monitoring, incident response, automation, and system design all happen through digital tools. SRE is a fast-growing field pioneered by Google and now adopted by most major tech companies.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For SREs working remotely for international tech companies.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Highly Skilled Worker Visa",
+        description: "For senior SREs with specialized expertise.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Software engineering or systems administration experience (4+ years)",
+      "Experience with cloud infrastructure (AWS, GCP, Azure)",
+      "Monitoring and observability tool expertise",
+      "Programming skills (Python, Go, or similar)",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "SREs command premium rates due to critical nature of work",
+      amount: "$3,500 - $9,000+ USD/month",
+      notes: "Senior SREs earn $80-150+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "SRE work is ideally remote-friendly. Monitoring, incident response, automation, and system design all happen digitally.",
+      considerations: [
+        "Extremely high demand for SREs",
+        "Critical infrastructure role",
+        "On-call rotations manageable across time zones",
+        "Strong career progression",
+        "Prestigious role at top tech companies"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $2,000,000-5,000,000/month ($1,600-4,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Cloud", "Enterprise", "Fintech"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Experience and demonstrated skills matter most. Cloud certifications help."
+    },
+    taxConsiderations: [
+      "Remote SRE work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Contribute to reliability engineering discussions",
+      "Attend SREcon and similar conferences",
+      "Build portfolio with infrastructure projects"
+    ],
+    faqs: [
+      {
+        question: "SRE vs DevOps - what's the difference?",
+        answer: "SRE is a specific implementation of DevOps principles with focus on reliability, error budgets, and service level objectives. SREs typically have stronger software engineering backgrounds. DevOps is broader culture/practice. Many use terms interchangeably, but SRE is more specific and typically higher paying."
+      }
+    ],
+    relatedProfessions: ["devops-engineer", "software-developer", "cloud-architect"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for SRE work"
+      }
+    ],
+    image: "/images/professions/site-reliability-engineer.webp"
+  },
+  {
+    slug: "database-administrator",
+    name: "Database Administrator",
+    title: "Database Administrator Guide for Argentina",
+    subtitle: "Manage critical data infrastructure remotely",
+    description: "Database administrators ensure data is available, secure, and performant. Learn how DBAs can work remotely from Argentina.",
+    icon: "BarChart",
+    category: "tech",
+    overview: "Database Administrators (DBAs) manage, secure, and optimize databases that power applications. They ensure data availability, performance, and security. It's a critical, well-paying role with US companies offering $50-110+/hour for experienced DBAs. Argentine DBAs bring strong technical skills and attention to detail. The work is highly remote-friendly - database management, monitoring, optimization, and troubleshooting all happen through digital tools. DBAs can specialize in specific database systems (PostgreSQL, MySQL, Oracle, SQL Server, MongoDB)."
+    ,
+    "visaOptions": [
+      {
+        name: "Digital Nomad Visa",
+        description: "For DBAs working remotely for international companies.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For DBAs hired by multinational companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Database administration experience (3+ years)",
+      "Expertise in specific database systems",
+      "Performance tuning and optimization skills",
+      "Backup and disaster recovery experience",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "DBAs earn competitive rates for critical infrastructure skills",
+      amount: "$2,500 - $6,500+ USD/month",
+      notes: "Senior DBAs earn $50-110+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "DBA work is ideally remote-friendly. Database management, monitoring, optimization all happen through digital tools.",
+      considerations: [
+        "Critical role with steady demand",
+        "Can work across industries",
+        "Specialization increases value",
+        "On-call sometimes required"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,500,000-3,800,000/month ($1,200-3,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Enterprise", "Tech", "Finance", "Healthcare"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Database certifications (Oracle, Microsoft) help but aren't required."
+    },
+    taxConsiderations: [
+      "Remote DBA work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join database communities",
+      "Contribute to database forums",
+      "Specialize in high-demand systems"
+    ],
+    faqs: [
+      {
+        question: "Which database system should I specialize in?",
+        answer: "PostgreSQL is most in-demand for modern applications. MySQL widely used. Cloud databases (AWS RDS, Aurora) increasingly important. NoSQL (MongoDB, Cassandra) for specific use cases. Oracle and SQL Server still strong in enterprise."
+      }
+    ],
+    relatedProfessions: ["data-engineer", "backend-developer", "devops-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for DBAs"
+      }
+    ],
+    image: "/images/professions/database-administrator.webp"
+  },
+  {
+    slug: "network-engineer",
+    name: "Network Engineer",
+    title: "Network Engineer Guide for Argentina",
+    subtitle: "Design and maintain network infrastructure remotely",
+    description: "Network engineering is critical infrastructure work. Learn how network engineers can work remotely from Argentina.",
+    icon: "BarChart",
+    category: "tech",
+    overview: "Network Engineers design, implement, and maintain computer networks. They ensure connectivity, security, and performance of network infrastructure. While traditionally on-site, cloud networking and SD-WAN have made the role more remote-friendly. US companies pay $50-100+/hour for experienced network engineers. Argentine network engineers bring strong technical skills. The profession offers steady demand and the satisfaction of keeping critical infrastructure running. Network engineers can specialize in cloud networking, security, or specific vendor technologies.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For network engineers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For network engineers hired by companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Network engineering experience (3+ years)",
+      "Cisco, Juniper, or cloud networking certifications",
+      "Experience with routing, switching, and security",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Network engineers earn competitive rates",
+      amount: "$2,500 - $6,000+ USD/month",
+      notes: "Senior network engineers earn $50-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Cloud networking and modern tools enable remote network engineering. Some physical equipment work may require coordination.",
+      considerations: [
+        "Steady demand for network skills",
+        "Cloud networking increasingly important",
+        "Certifications valued",
+        "Critical infrastructure role"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,500,000-3,500,000/month ($1,200-2,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Enterprise", "Telecom", "Tech", "Finance"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "CCNA, CCNP, or cloud networking certifications highly valued."
+    },
+    taxConsiderations: [
+      "Remote network engineering typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Maintain current certifications",
+      "Join networking communities",
+      "Build lab environment for practice"
+    ],
+    faqs: [
+      {
+        question: "Traditional networking or cloud networking?",
+        answer: "Cloud networking (AWS VPC, Azure networking) is growing faster and more remote-friendly. Traditional networking still important in enterprise. Hybrid skills most valuable."
+      }
+    ],
+    relatedProfessions: ["security-engineer", "devops-engineer", "systems-administrator"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for network engineers"
+      }
+    ],
+    image: "/images/professions/network-engineer.webp"
+  },
+  {
+    slug: "telehealth-coordinator",
+    name: "Telehealth Coordinator",
+    title: "Telehealth Coordinator Guide for Argentina",
+    subtitle: "Coordinate remote healthcare services from Argentina",
+    description: "Telehealth is transforming healthcare. Learn how telehealth coordinators can work remotely in this growing field.",
+    icon: "GraduationCap",
+    category: "healthcare",
+    overview: "Telehealth Coordinators manage remote healthcare services, connecting patients with providers through digital platforms. They schedule appointments, troubleshoot technology issues, and ensure smooth virtual care delivery. The role has grown explosively since 2020 and offers good remote work opportunities. US healthcare companies pay $18-35+/hour for telehealth coordinators. Argentine coordinators with strong English and Spanish skills can serve both US and LATAM markets. The profession requires organizational skills, empathy, and comfort with healthcare technology.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For telehealth coordinators working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Healthcare administration or coordination experience",
+      "Comfort with telehealth platforms and technology",
+      "Strong communication skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Telehealth coordinators earn steady income in growing field",
+      amount: "$1,500 - $3,500+ USD/month",
+      notes: "Coordinators earn $18-35/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Telehealth coordination is 100% remote. Scheduling, patient communication, and platform management all happen digitally.",
+      considerations: [
+        "Rapidly growing field",
+        "Meaningful healthcare work",
+        "Bilingual skills valuable",
+        "Good entry point to healthcare"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $800,000-2,000,000/month ($650-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Healthcare", "Telemedicine", "Health Tech"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Healthcare administration certifications help but aren't required."
+    },
+    taxConsiderations: [
+      "Remote telehealth work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join telehealth professional groups",
+      "Network with healthcare administrators",
+      "Learn telehealth platforms"
+    ],
+    faqs: [
+      {
+        question: "Do I need a medical background?",
+        answer: "Not necessarily. Administrative and coordination skills matter most. Healthcare experience helps but isn't required. Technology comfort and communication skills are most important."
+      }
+    ],
+    relatedProfessions: ["virtual-assistant", "hr-specialist", "customer-success-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for telehealth coordinators"
+      }
+    ],
+    image: "/images/professions/telehealth-coordinator.webp"
+  },
+  {
+    slug: "wellness-coach",
+    name: "Wellness Coach",
+    title: "Wellness Coach Guide for Argentina",
+    subtitle: "Coach clients to better health remotely from Argentina",
+    description: "Wellness coaching is a growing remote profession. Learn how coaches can build international practices from Argentina.",
+    icon: "GraduationCap",
+    category: "healthcare",
+    overview: "Wellness Coaches help clients improve their health, habits, and wellbeing through coaching sessions. The work is entirely remote - coaching happens through video calls, with support via messaging and apps. Argentine wellness coaches can serve international clients, with US coaches earning $50-150+/hour. The profession requires certification, empathy, and coaching skills. It's a fulfilling career for those passionate about health and helping others. Coaches can specialize in areas like nutrition, fitness, stress management, or holistic wellness.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For wellness coaches serving international clients remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For established coaches with client base.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Wellness coaching certification (NASM, ACE, or similar)",
+      "Coaching experience or relevant background",
+      "Strong communication and motivational skills",
+      "Proof of client contracts or platform registrations",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Wellness coaches earn per session or package rates",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Coaches earn $50-150+/hour depending on specialization"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Wellness coaching is 100% remote. Sessions via video call, support through apps and messaging.",
+      considerations: [
+        "Growing demand for health coaching",
+        "Fulfilling work helping others",
+        "Can specialize in niches",
+        "Flexible schedule"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $600,000-2,000,000/month ($500-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza"],
+      industries: ["Wellness", "Health Coaching", "Fitness"]
+    },
+    professionalAssociations: [
+      {
+        name: "National Board for Health & Wellness Coaching",
+        description: "Coaching certification body"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Certifications help credibility but aren't legally required in most places."
+    },
+    taxConsiderations: [
+      "Remote coaching typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build presence on coaching platforms",
+      "Create content on wellness topics",
+      "Network with other health professionals"
+    ],
+    faqs: [
+      {
+        question: "What wellness certification should I get?",
+        answer: "NASM Certified Wellness Coach, ACE Health Coach, or NBHWC are well-recognized. Specializations (nutrition, fitness) add value. Choose based on your focus area."
+      }
+    ],
+    relatedProfessions: ["online-teacher", "personal-trainer", "nutritionist"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for wellness coaches"
+      }
+    ],
+    image: "/images/professions/wellness-coach.webp"
+  },
+  {
+    slug: "motion-designer",
+    name: "Motion Designer",
+    title: "Motion Designer Guide for Argentina",
+    subtitle: "Create motion graphics and animations remotely",
+    description: "Motion design combines graphic design with animation. Learn how motion designers can work for international clients from Argentina.",
+    icon: "Palette",
+    category: "creative",
+    overview: "Motion Designers create animated graphics, title sequences, explainer videos, and visual effects for video and web. They combine graphic design skills with animation and timing. US companies pay $40-100+/hour for quality motion design. Argentine motion designers bring creativity and technical skill. The work is entirely remote - projects are shared digitally, feedback through video calls, delivery as video files. Motion design is in high demand for social media content, advertising, and video production.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For motion designers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Motion design portfolio",
+      "Proficiency in After Effects, Cinema 4D, or similar",
+      "Understanding of animation principles",
+      "Proof of client work",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Motion designers earn per project or hourly rates",
+      amount: "$2,000 - $5,000+ USD/month",
+      notes: "Experienced motion designers earn $40-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Motion design is 100% remote. All work digital, feedback online, delivery as files.",
+      considerations: [
+        "High demand for video content",
+        "Creative and technical work",
+        "Can work with clients globally"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Video Production", "Advertising", "Digital Media"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and demonstrated skills matter most."
+    },
+    taxConsiderations: [
+      "Remote motion design typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio on Vimeo and Behance",
+      "Share work on Instagram",
+      "Network with video producers"
+    ],
+    faqs: [
+      {
+        question: "After Effects or other software?",
+        answer: "After Effects is industry standard. Cinema 4D for 3D motion. Learn After Effects first, then expand based on interests."
+      }
+    ],
+    relatedProfessions: ["video-editor", "animator", "graphic-designer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for motion designers"
+      }
+    ],
+    image: "/images/professions/motion-designer.webp"
+  },
+  {
+    slug: "game-developer",
+    name: "Game Developer",
+    title: "Game Developer Guide for Argentina",
+    subtitle: "Create games remotely for studios worldwide",
+    description: "Game development offers creative technical work. Learn how game devs can work remotely from Argentina's growing game industry.",
+    icon: "Code",
+    category: "tech",
+    overview: "Game Developers create video games using engines like Unity or Unreal. Argentina has a growing game development scene with several successful studios. Remote work is common in the game industry, with developers collaborating digitally. US and international studios pay $40-90+/hour for experienced game developers. The work combines programming, creativity, and problem-solving. Game developers can work on mobile, PC, or console games across various genres.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For game developers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Studio Sponsorship)",
+        description: "For developers hired by game studios.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Game development experience",
+      "Proficiency in Unity, Unreal, or similar engines",
+      "Programming skills (C#, C++)",
+      "Portfolio of game projects",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Game developers earn competitive rates",
+      amount: "$2,000 - $6,000+ USD/month",
+      notes: "Experienced developers earn $40-90+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Game development is highly remote-friendly. Development, asset integration, and collaboration happen through digital tools.",
+      considerations: [
+        "Growing game industry in Argentina",
+        "Remote work common in industry",
+        "Creative and technical work",
+        "Passionate community"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,200,000-3,000,000/month ($1,000-2,400 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Game Development", "Indie Games", "Mobile Games"]
+    },
+    professionalAssociations: [
+      {
+        name: "ADVA (Asociación de Desarrolladores de Videojuegos Argentinos)",
+        description: "Argentine game developers association"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and released games matter most."
+    },
+    taxConsiderations: [
+      "Remote game development typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Attend game jams and industry events",
+      "Build portfolio with game projects",
+      "Join game developer communities"
+    ],
+    faqs: [
+      {
+        question: "Unity or Unreal Engine?",
+        answer: "Unity is more popular for indie and mobile. Unreal for AAA and high-end graphics. Both have opportunities. Unity has lower barrier to entry."
+      }
+    ],
+    relatedProfessions: ["software-developer", "3d-artist", "animator"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for game developers"
+      }
+    ],
+    image: "/images/professions/game-developer.webp"
+  },
+  {
+    slug: "financial-controller",
+    name: "Financial Controller",
+    title: "Financial Controller Guide for Argentina",
+    subtitle: "Manage company finances remotely from Argentina",
+    description: "Financial controllers oversee accounting and financial operations. Learn how controllers can work remotely for international companies.",
+    icon: "BarChart",
+    category: "business",
+    overview: "Financial Controllers oversee accounting operations, financial reporting, and internal controls for companies. They ensure accurate financial records and compliance. While traditionally office-based, cloud accounting and remote work trends have opened remote opportunities. US companies pay $50-100+/hour for experienced controllers. Argentine financial professionals with strong accounting backgrounds and English skills can serve international clients. The role requires accounting expertise, attention to detail, and understanding of financial systems.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For financial controllers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Accounting or finance degree",
+      "5+ years accounting experience",
+      "CPA or equivalent certification",
+      "Experience with accounting systems (QuickBooks, NetSuite)",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Financial controllers earn competitive rates",
+      amount: "$3,000 - $7,000+ USD/month",
+      notes: "Experienced controllers earn $50-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Cloud accounting enables remote financial control. Reporting, analysis, and oversight happen through digital tools.",
+      considerations: [
+        "High responsibility role",
+        "CPA credential valuable",
+        "Can work across industries",
+        "Complex work = legal leads"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,500,000-4,000,000/month ($1,200-3,200 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Corporate", "Startups", "Consulting"]
+    },
+    professionalAssociations: [
+      {
+        name: "AICPA",
+        description: "American Institute of CPAs"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "CPA or equivalent highly valued. International experience matters."
+    },
+    taxConsiderations: [
+      "Remote financial work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join financial professional networks",
+      "Maintain CPA credentials",
+      "Build relationships with CFOs"
+    ],
+    faqs: [
+      {
+        question: "Controller vs Accountant?",
+        answer: "Controllers oversee accounting operations and reporting. Accountants handle day-to-day transactions. Controllers are senior management with broader responsibility."
+      }
+    ],
+    relatedProfessions: ["accountant-bookkeeper", "financial-advisor", "business-analyst"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for financial controllers"
+      }
+    ],
+    image: "/images/professions/financial-controller.webp"
+  },
+  {
+    slug: "growth-hacker",
+    name: "Growth Hacker",
+    title: "Growth Hacker Guide for Argentina",
+    subtitle: "Drive user growth remotely for startups",
+    description: "Growth hacking combines marketing, product, and data. Learn how growth hackers can work remotely for startups from Argentina.",
+    icon: "Rocket",
+    category: "business",
+    overview: "Growth Hackers focus on rapid experimentation across marketing channels and product development to grow user bases. They combine creativity with data analysis and technical skills. Startups highly value growth hackers who can drive user acquisition efficiently. US startups pay $50-120+/hour for experienced growth hackers. Argentine growth hackers bring analytical skills, creativity, and often technical backgrounds. The work is entirely remote - experiments, analysis, and optimization happen digitally.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For growth hackers working remotely with startups.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Marketing or growth experience (2+ years)",
+      "Data analysis skills",
+      "Experience with growth tools and channels",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Growth hackers earn competitive rates based on performance",
+      amount: "$2,500 - $7,000+ USD/month",
+      notes: "Experienced growth hackers earn $50-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Growth hacking is 100% remote. Experiments, analytics, and optimization all happen through digital tools.",
+      considerations: [
+        "High demand at startups",
+        "Results-driven profession",
+        "Creative and analytical",
+        "Fast-paced environment"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-3,500,000/month ($1,200-2,800 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Startups", "Tech", "SaaS"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Results and demonstrated growth matter most."
+    },
+    taxConsiderations: [
+      "Remote growth work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join startup communities",
+      "Share growth case studies",
+      "Network with founders"
+    ],
+    faqs: [
+      {
+        question: "Growth hacker vs marketer?",
+        answer: "Growth hackers focus specifically on user acquisition with experimental, data-driven approaches. They often have technical skills and work closely with product. Traditional marketers have broader scope including brand and awareness."
+      }
+    ],
+    relatedProfessions: ["digital-marketing-manager", "product-manager", "marketing-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for growth hackers"
+      }
+    ],
+    image: "/images/professions/growth-hacker.webp"
+  },
+  {
+    slug: "community-manager",
+    name: "Community Manager",
+    title: "Community Manager Guide for Argentina",
+    subtitle: "Build and manage online communities remotely",
+    description: "Community management is crucial for brands and products. Learn how community managers can work remotely from Argentina.",
+    icon: "Users",
+    category: "business",
+    overview: "Community Managers build, grow, and engage online communities around brands, products, or causes. They moderate discussions, create content, and foster engagement. The work is entirely remote - communities exist online, engagement through digital platforms. US companies pay $20-50+/hour for community managers. Argentine community managers bring strong communication skills and cultural awareness. The profession requires empathy, communication skills, and understanding of online dynamics. It's a good entry point into tech and marketing.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For community managers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Community management or social media experience",
+      "Strong written communication skills",
+      "Experience with community platforms (Discord, Slack, forums)",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,200+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Community managers earn competitive rates",
+      amount: "$1,200 - $3,500+ USD/month",
+      notes: "Experienced managers earn $20-50+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Community management is 100% remote. All community interaction happens online.",
+      considerations: [
+        "Growing importance for brands",
+        "Entry point to tech/marketing",
+        "Can work across industries",
+        "Flexible schedule often"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $600,000-1,800,000/month ($500-1,400 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Gaming", "Crypto", "Brands"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Experience managing communities matters most."
+    },
+    taxConsiderations: [
+      "Remote community work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join community management groups",
+      "Build personal online presence",
+      "Network with product teams"
+    ],
+    faqs: [
+      {
+        question: "Community manager vs social media manager?",
+        answer: "Community managers focus on engagement and relationships within communities (Discord, forums, Slack). Social media managers focus on content and growth on public platforms (Instagram, Twitter). Some overlap, but community is more focused on existing members."
+      }
+    ],
+    relatedProfessions: ["social-media-manager", "content-creator", "customer-success-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for community managers"
+      }
+    ],
+    image: "/images/professions/community-manager.webp"
+  },
+  {
+    slug: "ux-researcher",
+    name: "UX Researcher",
+    title: "UX Researcher Guide for Argentina",
+    subtitle: "Conduct user research remotely for global companies",
+    description: "UX research helps build better products. Learn how UX researchers can conduct research remotely from Argentina.",
+    icon: "Search",
+    category: "tech",
+    overview: "UX Researchers conduct user research to inform product design and strategy. They use interviews, usability testing, surveys, and data analysis. The work is highly remote-friendly - research can be conducted through video calls, online testing tools, and digital surveys. US companies pay $50-120+/hour for experienced UX researchers. Argentine UX researchers bring analytical skills, empathy, and often multilingual capabilities valuable for international research. Research is critical for product success, making this a high-value role.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For UX researchers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "UX research experience (2+ years)",
+      "Research methods expertise (interviews, usability testing)",
+      "Experience with research tools (UserTesting, Lookback, Dovetail)",
+      "Portfolio of research projects",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "UX researchers earn competitive rates",
+      amount: "$2,500 - $6,500+ USD/month",
+      notes: "Experienced researchers earn $50-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "UX research is highly remote-friendly. Interviews, testing, and analysis happen through digital tools.",
+      considerations: [
+        "Critical for product success",
+        "High demand at tech companies",
+        "Can work across industries",
+        "Meaningful impact on products"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,200,000-3,000,000/month ($1,000-2,400 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Consulting", "Finance"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Research portfolio and demonstrated methodology expertise matter most."
+    },
+    taxConsiderations: [
+      "Remote UX research typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join UX research communities",
+      "Share research insights",
+      "Connect with product teams"
+    ],
+    faqs: [
+      {
+        question: "UX Researcher vs Designer?",
+        answer: "UX Researchers focus on understanding users through research methods. UX Designers focus on designing interfaces based on research insights. Some professionals do both, but large companies separate the roles."
+      }
+    ],
+    relatedProfessions: ["ux-ui-designer", "product-manager", "data-analyst"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for UX researchers"
+      }
+    ],
+    image: "/images/professions/ux-researcher.webp"
+  },
+  {
+    slug: "api-developer",
+    name: "API Developer",
+    title: "API Developer Guide for Argentina",
+    subtitle: "Build APIs and integrations remotely from Argentina",
+    description: "API development is a specialized technical skill. Learn how API developers can work remotely for companies worldwide.",
+    icon: "Database",
+    category: "tech",
+    overview: "API Developers design, build, and maintain application programming interfaces (APIs) that allow systems to communicate. They work with REST, GraphQL, and other protocols. API development is highly specialized and well-compensated. US companies pay $50-120+/hour for experienced API developers. The work is entirely remote - development, testing, and documentation happen through code and digital tools. API developers need strong backend programming skills and understanding of system architecture.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For API developers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Backend development experience (3+ years)",
+      "Proficiency in REST APIs, GraphQL",
+      "Experience with API gateways and documentation",
+      "Strong programming skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "API developers earn competitive rates",
+      amount: "$2,500 - $6,500+ USD/month",
+      notes: "Experienced API developers earn $50-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "API development is 100% remote. All work is code-based, collaboration through Git and documentation.",
+      considerations: [
+        "Specialized, well-compensated skill",
+        "Critical infrastructure work",
+        "Can work with companies globally",
+        "Deep technical focus"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-3,500,000/month ($1,200-2,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "Fintech", "Enterprise Software"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Technical skills and API portfolio matter most."
+    },
+    taxConsiderations: [
+      "Remote API development typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Contribute to open source APIs",
+      "Write API documentation and articles",
+      "Join developer communities"
+    ],
+    faqs: [
+      {
+        question: "REST vs GraphQL?",
+        answer: "REST is most common and well-understood. GraphQL offers more flexibility for clients but is more complex. Both are valuable - many companies use both for different use cases."
+      }
+    ],
+    relatedProfessions: ["backend-developer", "devops-engineer", "software-developer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for API developers"
+      }
+    ],
+    image: "/images/professions/api-developer.webp"
+  },
+  {
+    slug: "account-executive",
+    name: "Account Executive",
+    title: "Account Executive Guide for Argentina",
+    subtitle: "Manage enterprise sales remotely from Argentina",
+    description: "Account executives handle high-value B2B sales. Learn how AEs can work remotely for US companies.",
+    icon: "Briefcase",
+    category: "business",
+    overview: "Account Executives (AEs) manage the full sales cycle for enterprise or mid-market accounts, from prospecting to closing. They handle high-value deals and complex sales processes. US companies pay $50-150+/hour base plus significant commission for experienced AEs. Argentine AEs with enterprise sales experience and strong English skills can serve US markets remotely. The role requires business acumen, negotiation skills, and relationship building.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For AEs working remotely with US companies.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Enterprise sales experience (3+ years)",
+      "Track record of closing high-value deals",
+      "Experience with enterprise sales methodologies",
+      "Strong negotiation and presentation skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "AEs earn competitive base plus high commission",
+      amount: "$3,000 - $10,000+ USD/month",
+      notes: "Commission can significantly exceed base for top performers"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Enterprise sales is now commonly remote. Demos, negotiations, and closing happen through video calls.",
+      considerations: [
+        "High earning potential",
+        "Need excellent internet for video calls",
+        "Time zone alignment critical",
+        "Relationship-focused role"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,200,000-3,500,000/month ($1,000-2,800 USD at blue rate) + commission",
+      keyCities: ["Buenos Aires"],
+      industries: ["SaaS", "Enterprise Software", "Services"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Sales track record and quota achievement matter most."
+    },
+    taxConsiderations: [
+      "Remote sales typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build relationships with decision-makers",
+      "Maintain strong professional network",
+      "Join industry-specific groups"
+    ],
+    faqs: [
+      {
+        question: "AE vs Sales Rep?",
+        answer: "AEs typically handle larger deals and full sales cycle. Sales reps may handle smaller deals or specific parts of the process. AEs are more senior with higher earning potential."
+      }
+    ],
+    relatedProfessions: ["sales-representative", "business-development", "customer-success-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for account executives"
+      }
+    ],
+    image: "/images/professions/account-executive.webp"
   }
 ];
 
