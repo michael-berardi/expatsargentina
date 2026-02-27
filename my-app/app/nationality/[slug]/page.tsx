@@ -34,13 +34,20 @@ export async function generateMetadata({ params }: NationalityPageProps): Promis
   }
 
   return {
-    title: `${nat.title} | Expats Argentina`,
+    title: nat.title,
     description: nat.description,
     keywords: [nat.demonym.toLowerCase(), "argentina visa", `immigration from ${nat.name}`, nat.region],
     openGraph: {
       title: nat.title,
       description: nat.description,
       type: "article",
+      images: [{ url: nat.image, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: nat.title,
+      description: nat.description,
+      images: [nat.image],
     },
     alternates: {
       canonical: `https://expatsargentina.com/nationality/${nat.slug}`,

@@ -264,7 +264,7 @@ export const nationalities: Nationality[] = [
         description: "Banking for Mercosur residents"
       }
     ],
-    image: "/images/nationalities/uruguay.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // CHILE - Full Featured Entry
@@ -415,7 +415,7 @@ export const nationalities: Nationality[] = [
         description: "BA vs Santiago costs"
       }
     ],
-    image: "/images/nationalities/chile.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // PARAGUAY - Full Featured Entry
@@ -551,7 +551,7 @@ export const nationalities: Nationality[] = [
         description: "Budget planning for Paraguayans"
       }
     ],
-    image: "/images/nationalities/paraguay.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // BOLIVIA - Full Featured Entry
@@ -677,7 +677,7 @@ export const nationalities: Nationality[] = [
         description: "Full member process"
       }
     ],
-    image: "/images/nationalities/bolivia.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // PERU - Full Featured Entry (Mercosur Associate)
@@ -835,7 +835,7 @@ export const nationalities: Nationality[] = [
         description: "Career guides for immigrants"
       }
     ],
-    image: "/images/nationalities/peru.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // COLOMBIA - Full Featured Entry (Mercosur Associate)
@@ -978,7 +978,7 @@ export const nationalities: Nationality[] = [
         description: "BA vs Colombia costs"
       }
     ],
-    image: "/images/nationalities/colombia.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // BRAZIL - Full Featured Entry (Mercosur Full Member)
@@ -1125,7 +1125,7 @@ export const nationalities: Nationality[] = [
         description: "BA vs São Paulo/Rio costs"
       }
     ],
-    image: "/images/nationalities/brazil.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // VENEZUELA - Full Featured Entry (Non-Mercosur, Large Diaspora)
@@ -1273,7 +1273,7 @@ export const nationalities: Nationality[] = [
         description: "Budget planning for Venezuelans"
       }
     ],
-    image: "/images/nationalities/venezuela.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // UNITED STATES - Full Featured Entry (Non-Mercosur, Digital Nomad Focus)
@@ -1420,7 +1420,7 @@ export const nationalities: Nationality[] = [
         description: "BA vs US city costs"
       }
     ],
-    image: "/images/nationalities/united-states.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // SPAIN - Full Featured Entry (Special Bilateral Agreements)
@@ -1567,7 +1567,7 @@ export const nationalities: Nationality[] = [
         description: "For Spanish pensioners"
       }
     ],
-    image: "/images/nationalities/spain.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // ITALY - Full Featured Entry (Massive Diaspora, Special Agreements)
@@ -1714,7 +1714,7 @@ export const nationalities: Nationality[] = [
         description: "Find authentic Italian food"
       }
     ],
-    image: "/images/nationalities/italy.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // MEXICO - Full Featured Entry (Growing Latin American Community)
@@ -1859,7 +1859,7 @@ export const nationalities: Nationality[] = [
         description: "For Mexican students"
       }
     ],
-    image: "/images/nationalities/mexico.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // CANADA - Full Featured Entry (English/French Speaking, Similar to US Profile)
@@ -2006,7 +2006,7 @@ export const nationalities: Nationality[] = [
         description: "BA vs Canadian city costs"
       }
     ],
-    image: "/images/nationalities/canada.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // UNITED KINGDOM - Full Featured Entry (Post-Brexit Interest, English-Speaking)
@@ -2153,7 +2153,7 @@ export const nationalities: Nationality[] = [
         description: "BA vs UK city costs"
       }
     ],
-    image: "/images/nationalities/united-kingdom.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // FRANCE - Full Featured Entry (European, Cultural Ties)
@@ -2288,7 +2288,7 @@ export const nationalities: Nationality[] = [
         description: "Cultural center & language courses"
       }
     ],
-    image: "/images/nationalities/france.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // GERMANY - Full Featured Entry (European, Growing Interest)
@@ -2420,7 +2420,7 @@ export const nationalities: Nationality[] = [
         description: "German heritage town"
       }
     ],
-    image: "/images/nationalities/germany.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // AUSTRALIA - Full Featured Entry (English-Speaking, Working Holiday)
@@ -2565,7 +2565,7 @@ export const nationalities: Nationality[] = [
         description: "Outdoor adventure hub"
       }
     ],
-    image: "/images/nationalities/australia.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // NEW ZEALAND - Full Featured Entry (English-Speaking, Similar to Australia)
@@ -2703,7 +2703,7 @@ export const nationalities: Nationality[] = [
         description: "Outdoor activities"
       }
     ],
-    image: "/images/nationalities/new-zealand.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // CHINA - Full Featured Entry (Major Asian Community)
@@ -2850,7 +2850,7 @@ export const nationalities: Nationality[] = [
         description: "Barrio Chino guide"
       }
     ],
-    image: "/images/nationalities/china.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // JAPAN - Full Featured Entry (Growing Professional Community)
@@ -2989,7 +2989,7 @@ export const nationalities: Nationality[] = [
         description: "Cultural center"
       }
     ],
-    image: "/images/nationalities/japan.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // ECUADOR - Full Featured Entry (Mercosur Associate, Andean Community)
@@ -3115,7 +3115,7 @@ export const nationalities: Nationality[] = [
         description: "Associate member details"
       }
     ],
-    image: "/images/nationalities/ecuador.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // PORTUGAL - Full Featured Entry (European, Brazilian Connections)
@@ -3237,7 +3237,7 @@ export const nationalities: Nationality[] = [
         description: "For remote workers"
       }
     ],
-    image: "/images/nationalities/portugal.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // SOUTH KOREA - Full Featured Entry (Growing Asian Community)
@@ -3362,7 +3362,7 @@ export const nationalities: Nationality[] = [
         description: "Employment pathway"
       }
     ],
-    image: "/images/nationalities/south-korea.webp"
+    image: "/images/nationalities/default.webp"
   },
 
   // NETHERLANDS - Full Featured Entry (European, Business Focus)
@@ -3490,7 +3490,7 @@ export const nationalities: Nationality[] = [
         description: "Business pathway"
       }
     ],
-    image: "/images/nationalities/netherlands.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "russia",
@@ -3608,7 +3608,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "Full guide to Argentina's digital nomad visa" },
       { title: "Temporary Residency", url: "/visas/temporary", description: "All temporary residency options" }
     ],
-    image: "/images/nationalities/russia.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "india",
@@ -3726,7 +3726,7 @@ export const nationalities: Nationality[] = [
       { title: "Student Visa Guide", url: "/visas/student", description: "Complete student visa information" },
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "Remote worker visa details" }
     ],
-    image: "/images/nationalities/india.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "south-africa",
@@ -3845,7 +3845,7 @@ export const nationalities: Nationality[] = [
       { title: "Working Holiday Visa", url: "/visas/working-holiday", description: "Complete working holiday information" },
       { title: "Retirement Visa", url: "/visas/retirement", description: "Pensioner and retirement options" }
     ],
-    image: "/images/nationalities/south-africa.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "israel",
@@ -3964,7 +3964,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "Guide for remote workers" },
       { title: "Buenos Aires Jewish Guide", url: "/guides/jewish-buenos-aires", description: "Kosher dining and community info" }
     ],
-    image: "/images/nationalities/israel.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "ireland",
@@ -4084,7 +4084,7 @@ export const nationalities: Nationality[] = [
       { title: "Working Holiday Visa", url: "/visas/working-holiday", description: "Irish working holiday details" },
       { title: "Irish Heritage in Argentina", url: "/guides/irish-argentina", description: "Historical Irish connections" }
     ],
-    image: "/images/nationalities/ireland.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "argentina",
@@ -4205,7 +4205,7 @@ export const nationalities: Nationality[] = [
       { title: "Citizenship by Descent", url: "/visas/citizenship", description: "Children born abroad to Argentine parents" },
       { title: "Mercosur Benefits", url: "/visas/temporary", description: "Freedom of movement in South America" }
     ],
-    image: "/images/nationalities/argentina.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "belgium",
@@ -4322,7 +4322,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "Guide for remote workers" },
       { title: "EU Citizens in Argentina", url: "/guides/eu-expats", description: "Resources for European expats" }
     ],
-    image: "/images/nationalities/belgium.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "switzerland",
@@ -4441,7 +4441,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
       { title: "Retirement Visa", url: "/visas/retirement", description: "For pensioners" }
     ],
-    image: "/images/nationalities/switzerland.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "sweden",
@@ -4559,7 +4559,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
       { title: "Learn Spanish", url: "/learn-spanish", description: "Language courses in Argentina" }
     ],
-    image: "/images/nationalities/sweden.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "norway",
@@ -4677,7 +4677,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
       { title: "Patagonia Guide", url: "/guides/patagonia", description: "Norwegian-like landscapes" }
     ],
-    image: "/images/nationalities/norway.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "denmark",
@@ -4795,7 +4795,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
       { title: "Retirement Visa", url: "/visas/retirement", description: "For pensioners" }
     ],
-    image: "/images/nationalities/denmark.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "finland",
@@ -4913,7 +4913,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
       { title: "Tech Jobs in Argentina", url: "/remote-work", description: "Tech opportunities" }
     ],
-    image: "/images/nationalities/finland.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "poland",
@@ -5032,7 +5032,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
       { title: "Polish Heritage", url: "/guides/polish-argentina", description: "Polish community history" }
     ],
-    image: "/images/nationalities/poland.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "czech-republic",
@@ -5150,7 +5150,7 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" },
       { title: "Beer Culture", url: "/food/beer", description: "Argentina's craft beer scene" }
     ],
-    image: "/images/nationalities/czech-republic.webp"
+    image: "/images/nationalities/default.webp"
   },
   {
     slug: "ukraine",
@@ -5269,7 +5269,5776 @@ export const nationalities: Nationality[] = [
       { title: "Humanitarian Visa", url: "/visas/humanitarian", description: "Expedited process for Ukrainians" },
       { title: "Refugee Support", url: "/guides/refugee-support", description: "Resources and aid organizations" }
     ],
-    image: "/images/nationalities/ukraine.webp"
+    image: "/images/nationalities/default.webp"
+  }
+,
+
+  // CUBA
+  {
+    slug: "cuba",
+    name: "Cuba",
+    demonym: "Cuban",
+    flag: "🇨🇺",
+    title: "Cuban Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Cuban citizens",
+    description: "Complete guide for Cuban citizens looking to live, work, or study in Argentina.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Cubans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Cuban remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Cubans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // DOMINICAN REPUBLIC
+  {
+    slug: "dominican-republic",
+    name: "Dominican Republic",
+    demonym: "Dominican",
+    flag: "🇩🇴",
+    title: "Dominican Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Dominican citizens",
+    description: "Complete guide for Dominican citizens looking to live, work, or study in Argentina.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Dominicans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Dominican remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Dominicans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // GUATEMALA
+  {
+    slug: "guatemala",
+    name: "Guatemala",
+    demonym: "Guatemalan",
+    flag: "🇬🇹",
+    title: "Guatemalan Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Guatemalan citizens",
+    description: "Complete guide for Guatemalan citizens looking to live, work, or study in Argentina.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Guatemalans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Guatemalan remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Guatemalans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // HONDURAS
+  {
+    slug: "honduras",
+    name: "Honduras",
+    demonym: "Honduran",
+    flag: "🇭🇳",
+    title: "Honduran Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Honduran citizens",
+    description: "Complete guide for Honduran citizens looking to live, work, or study in Argentina.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Hondurans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Honduran remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Hondurans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // EL SALVADOR
+  {
+    slug: "el-salvador",
+    name: "El Salvador",
+    demonym: "Salvadoran",
+    flag: "🇸🇻",
+    title: "Salvadoran Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Salvadoran citizens",
+    description: "Complete guide for Salvadoran citizens looking to live, work, or study in Argentina.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Salvadorans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Salvadoran remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Salvadorans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // NICARAGUA
+  {
+    slug: "nicaragua",
+    name: "Nicaragua",
+    demonym: "Nicaraguan",
+    flag: "🇳🇮",
+    title: "Nicaraguan Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Nicaraguan citizens",
+    description: "Complete guide for Nicaraguan citizens looking to live, work, or study in Argentina.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Nicaraguans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Nicaraguan remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Nicaraguans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // HAITI
+  {
+    slug: "haiti",
+    name: "Haiti",
+    demonym: "Haitian",
+    flag: "🇭🇹",
+    title: "Haitian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Haitian citizens",
+    description: "Complete guide for Haitian citizens looking to live, work, or study in Argentina.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Haitians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Haitian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Haitians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // PUERTO RICO
+  {
+    slug: "puerto-rico",
+    name: "Puerto Rico",
+    demonym: "Puerto Rican",
+    flag: "🇵🇷",
+    title: "Puerto Rican Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Puerto Rican citizens",
+    description: "Complete guide for Puerto Rican citizens looking to live, work, or study in Argentina.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Puerto Ricans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Puerto Rican remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Puerto Ricans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // HUNGARY
+  {
+    slug: "hungary",
+    name: "Hungary",
+    demonym: "Hungarian",
+    flag: "🇭🇺",
+    title: "Hungarian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Hungarian citizens",
+    description: "Complete guide for Hungarian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Hungarians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Hungarian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Hungarians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // ROMANIA
+  {
+    slug: "romania",
+    name: "Romania",
+    demonym: "Romanian",
+    flag: "🇷🇴",
+    title: "Romanian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Romanian citizens",
+    description: "Complete guide for Romanian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Romanians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Romanian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Romanians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // BULGARIA
+  {
+    slug: "bulgaria",
+    name: "Bulgaria",
+    demonym: "Bulgarian",
+    flag: "🇧🇬",
+    title: "Bulgarian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Bulgarian citizens",
+    description: "Complete guide for Bulgarian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Bulgarians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Bulgarian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Bulgarians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // CROATIA
+  {
+    slug: "croatia",
+    name: "Croatia",
+    demonym: "Croatian",
+    flag: "🇭🇷",
+    title: "Croatian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Croatian citizens",
+    description: "Complete guide for Croatian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Croatians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Croatian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Croatians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // SERBIA
+  {
+    slug: "serbia",
+    name: "Serbia",
+    demonym: "Serbian",
+    flag: "🇷🇸",
+    title: "Serbian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Serbian citizens",
+    description: "Complete guide for Serbian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Serbians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Serbian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Serbians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // SLOVAKIA
+  {
+    slug: "slovakia",
+    name: "Slovakia",
+    demonym: "Slovak",
+    flag: "🇸🇰",
+    title: "Slovak Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Slovak citizens",
+    description: "Complete guide for Slovak citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Slovaks enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Slovak remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Slovaks need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // SLOVENIA
+  {
+    slug: "slovenia",
+    name: "Slovenia",
+    demonym: "Slovene",
+    flag: "🇸🇮",
+    title: "Slovene Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Slovene citizens",
+    description: "Complete guide for Slovene citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Slovenes enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Slovene remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Slovenes need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // ESTONIA
+  {
+    slug: "estonia",
+    name: "Estonia",
+    demonym: "Estonian",
+    flag: "🇪🇪",
+    title: "Estonian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Estonian citizens",
+    description: "Complete guide for Estonian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Estonians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Estonian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Estonians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // LATVIA
+  {
+    slug: "latvia",
+    name: "Latvia",
+    demonym: "Latvian",
+    flag: "🇱🇻",
+    title: "Latvian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Latvian citizens",
+    description: "Complete guide for Latvian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Latvians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Latvian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Latvians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // LITHUANIA
+  {
+    slug: "lithuania",
+    name: "Lithuania",
+    demonym: "Lithuanian",
+    flag: "🇱🇹",
+    title: "Lithuanian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Lithuanian citizens",
+    description: "Complete guide for Lithuanian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Lithuanians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Lithuanian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Lithuanians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // ALBANIA
+  {
+    slug: "albania",
+    name: "Albania",
+    demonym: "Albanian",
+    flag: "🇦🇱",
+    title: "Albanian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Albanian citizens",
+    description: "Complete guide for Albanian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Albanians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Albanian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Albanians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // BOSNIA
+  {
+    slug: "bosnia",
+    name: "Bosnia",
+    demonym: "Bosnian",
+    flag: "🇧🇦",
+    title: "Bosnian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Bosnian citizens",
+    description: "Complete guide for Bosnian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Bosnians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Bosnian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Bosnians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // NORTH MACEDONIA
+  {
+    slug: "north-macedonia",
+    name: "North Macedonia",
+    demonym: "Macedonian",
+    flag: "🇲🇰",
+    title: "Macedonian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Macedonian citizens",
+    description: "Complete guide for Macedonian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Macedonians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Macedonian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Macedonians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // MOLDOVA
+  {
+    slug: "moldova",
+    name: "Moldova",
+    demonym: "Moldovan",
+    flag: "🇲🇩",
+    title: "Moldovan Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Moldovan citizens",
+    description: "Complete guide for Moldovan citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Moldovans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Moldovan remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Moldovans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // ICELAND
+  {
+    slug: "iceland",
+    name: "Iceland",
+    demonym: "Icelandic",
+    flag: "🇮🇸",
+    title: "Icelandic Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Icelandic citizens",
+    description: "Complete guide for Icelandic citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Icelandics enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Icelandic remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Icelandics need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // PAKISTAN
+  {
+    slug: "pakistan",
+    name: "Pakistan",
+    demonym: "Pakistani",
+    flag: "🇵🇰",
+    title: "Pakistani Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Pakistani citizens",
+    description: "Complete guide for Pakistani citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Pakistanis enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Pakistani remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Pakistanis need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // BANGLADESH
+  {
+    slug: "bangladesh",
+    name: "Bangladesh",
+    demonym: "Bangladeshi",
+    flag: "🇧🇩",
+    title: "Bangladeshi Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Bangladeshi citizens",
+    description: "Complete guide for Bangladeshi citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Bangladeshis enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Bangladeshi remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Bangladeshis need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // INDONESIA
+  {
+    slug: "indonesia",
+    name: "Indonesia",
+    demonym: "Indonesian",
+    flag: "🇮🇩",
+    title: "Indonesian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Indonesian citizens",
+    description: "Complete guide for Indonesian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Indonesians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Indonesian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Indonesians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // MALAYSIA
+  {
+    slug: "malaysia",
+    name: "Malaysia",
+    demonym: "Malaysian",
+    flag: "🇲🇾",
+    title: "Malaysian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Malaysian citizens",
+    description: "Complete guide for Malaysian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Malaysians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Malaysian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Malaysians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // NEPAL
+  {
+    slug: "nepal",
+    name: "Nepal",
+    demonym: "Nepali",
+    flag: "🇳🇵",
+    title: "Nepali Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Nepali citizens",
+    description: "Complete guide for Nepali citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Nepalis enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Nepali remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Nepalis need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // SRI LANKA
+  {
+    slug: "sri-lanka",
+    name: "Sri Lanka",
+    demonym: "Sri Lankan",
+    flag: "🇱🇰",
+    title: "Sri Lankan Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Sri Lankan citizens",
+    description: "Complete guide for Sri Lankan citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Sri Lankans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Sri Lankan remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Sri Lankans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // IRAN
+  {
+    slug: "iran",
+    name: "Iran",
+    demonym: "Iranian",
+    flag: "🇮🇷",
+    title: "Iranian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Iranian citizens",
+    description: "Complete guide for Iranian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Iranians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Iranian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Iranians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // IRAQ
+  {
+    slug: "iraq",
+    name: "Iraq",
+    demonym: "Iraqi",
+    flag: "🇮🇶",
+    title: "Iraqi Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Iraqi citizens",
+    description: "Complete guide for Iraqi citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Iraqis enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Iraqi remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Iraqis need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // JORDAN
+  {
+    slug: "jordan",
+    name: "Jordan",
+    demonym: "Jordanian",
+    flag: "🇯🇴",
+    title: "Jordanian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Jordanian citizens",
+    description: "Complete guide for Jordanian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Jordanians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Jordanian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Jordanians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // LEBANON
+  {
+    slug: "lebanon",
+    name: "Lebanon",
+    demonym: "Lebanese",
+    flag: "🇱🇧",
+    title: "Lebanese Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Lebanese citizens",
+    description: "Complete guide for Lebanese citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Lebaneses enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Lebanese remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Lebaneses need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // ARMENIA
+  {
+    slug: "armenia",
+    name: "Armenia",
+    demonym: "Armenian",
+    flag: "🇦🇲",
+    title: "Armenian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Armenian citizens",
+    description: "Complete guide for Armenian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Armenians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Armenian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Armenians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // GEORGIA
+  {
+    slug: "georgia",
+    name: "Georgia",
+    demonym: "Georgian",
+    flag: "🇬🇪",
+    title: "Georgian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Georgian citizens",
+    description: "Complete guide for Georgian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Georgians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Georgian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Georgians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // MYANMAR
+  {
+    slug: "myanmar",
+    name: "Myanmar",
+    demonym: "Burmese",
+    flag: "🇲🇲",
+    title: "Burmese Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Burmese citizens",
+    description: "Complete guide for Burmese citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Burmeses enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Burmese remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Burmeses need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // CAMBODIA
+  {
+    slug: "cambodia",
+    name: "Cambodia",
+    demonym: "Cambodian",
+    flag: "🇰🇭",
+    title: "Cambodian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Cambodian citizens",
+    description: "Complete guide for Cambodian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Cambodians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Cambodian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Cambodians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // KUWAIT
+  {
+    slug: "kuwait",
+    name: "Kuwait",
+    demonym: "Kuwaiti",
+    flag: "🇰🇼",
+    title: "Kuwaiti Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Kuwaiti citizens",
+    description: "Complete guide for Kuwaiti citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Kuwaitis enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Kuwaiti remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Kuwaitis need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // QATAR
+  {
+    slug: "qatar",
+    name: "Qatar",
+    demonym: "Qatari",
+    flag: "🇶🇦",
+    title: "Qatari Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Qatari citizens",
+    description: "Complete guide for Qatari citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Qataris enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Qatari remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Qataris need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // KAZAKHSTAN
+  {
+    slug: "kazakhstan",
+    name: "Kazakhstan",
+    demonym: "Kazakh",
+    flag: "🇰🇿",
+    title: "Kazakh Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Kazakh citizens",
+    description: "Complete guide for Kazakh citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Kazakhs enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Kazakh remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Kazakhs need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // AZERBAIJAN
+  {
+    slug: "azerbaijan",
+    name: "Azerbaijan",
+    demonym: "Azerbaijani",
+    flag: "🇦🇿",
+    title: "Azerbaijani Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Azerbaijani citizens",
+    description: "Complete guide for Azerbaijani citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Azerbaijanis enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Azerbaijani remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Azerbaijanis need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // UZBEKISTAN
+  {
+    slug: "uzbekistan",
+    name: "Uzbekistan",
+    demonym: "Uzbek",
+    flag: "🇺🇿",
+    title: "Uzbek Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Uzbek citizens",
+    description: "Complete guide for Uzbek citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Uzbeks enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Uzbek remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Uzbeks need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // KYRGYZSTAN
+  {
+    slug: "kyrgyzstan",
+    name: "Kyrgyzstan",
+    demonym: "Kyrgyz",
+    flag: "🇰🇬",
+    title: "Kyrgyz Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Kyrgyz citizens",
+    description: "Complete guide for Kyrgyz citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Kyrgyzs enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Kyrgyz remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Kyrgyzs need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // MONGOLIA
+  {
+    slug: "mongolia",
+    name: "Mongolia",
+    demonym: "Mongolian",
+    flag: "🇲🇳",
+    title: "Mongolian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Mongolian citizens",
+    description: "Complete guide for Mongolian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Mongolians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Mongolian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Mongolians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // BAHAMAS
+  {
+    slug: "bahamas",
+    name: "Bahamas",
+    demonym: "Bahamian",
+    flag: "🇧🇸",
+    title: "Bahamian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Bahamian citizens",
+    description: "Complete guide for Bahamian citizens looking to live, work, or study in Argentina.",
+    region: "north-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Bahamians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Bahamian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Bahamians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // JAMAICA
+  {
+    slug: "jamaica",
+    name: "Jamaica",
+    demonym: "Jamaican",
+    flag: "🇯🇲",
+    title: "Jamaican Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Jamaican citizens",
+    description: "Complete guide for Jamaican citizens looking to live, work, or study in Argentina.",
+    region: "north-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Jamaicans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Jamaican remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Jamaicans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // TRINIDAD AND TOBAGO
+  {
+    slug: "trinidad-and-tobago",
+    name: "Trinidad and Tobago",
+    demonym: "Trinidadian",
+    flag: "🇹🇹",
+    title: "Trinidadian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Trinidadian citizens",
+    description: "Complete guide for Trinidadian citizens looking to live, work, or study in Argentina.",
+    region: "north-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Trinidadians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Trinidadian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Trinidadians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // BARBADOS
+  {
+    slug: "barbados",
+    name: "Barbados",
+    demonym: "Barbadian",
+    flag: "🇧🇧",
+    title: "Barbadian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Barbadian citizens",
+    description: "Complete guide for Barbadian citizens looking to live, work, or study in Argentina.",
+    region: "north-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Barbadians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Barbadian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Barbadians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // FIJI
+  {
+    slug: "fiji",
+    name: "Fiji",
+    demonym: "Fijian",
+    flag: "🇫🇯",
+    title: "Fijian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Fijian citizens",
+    description: "Complete guide for Fijian citizens looking to live, work, or study in Argentina.",
+    region: "oceania",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Fijians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Fijian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Fijians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // PAPUA NEW GUINEA
+  {
+    slug: "papua-new-guinea",
+    name: "Papua New Guinea",
+    demonym: "Papua New Guinean",
+    flag: "🇵🇬",
+    title: "Papua New Guinean Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Papua New Guinean citizens",
+    description: "Complete guide for Papua New Guinean citizens looking to live, work, or study in Argentina.",
+    region: "oceania",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Papua New Guineans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Papua New Guinean remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Papua New Guineans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  }
+,
+
+  // MALTA
+  {
+    slug: "malta",
+    name: "Malta",
+    demonym: "Maltese",
+    flag: "🇲🇹",
+    title: "Maltese Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Maltese citizens",
+    description: "Complete guide for Maltese citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Malteses enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Maltese remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Malteses need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // CYPRUS
+  {
+    slug: "cyprus",
+    name: "Cyprus",
+    demonym: "Cypriot",
+    flag: "🇨🇾",
+    title: "Cypriot Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Cypriot citizens",
+    description: "Complete guide for Cypriot citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Cypriots enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Cypriot remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Cypriots need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // LUXEMBOURG
+  {
+    slug: "luxembourg",
+    name: "Luxembourg",
+    demonym: "Luxembourger",
+    flag: "🇱🇺",
+    title: "Luxembourger Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Luxembourger citizens",
+    description: "Complete guide for Luxembourger citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Luxembourgers enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Luxembourger remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Luxembourgers need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // MONTENEGRO
+  {
+    slug: "montenegro",
+    name: "Montenegro",
+    demonym: "Montenegrin",
+    flag: "🇲🇪",
+    title: "Montenegrin Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Montenegrin citizens",
+    description: "Complete guide for Montenegrin citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Montenegrins enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Montenegrin remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Montenegrins need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // BELARUS
+  {
+    slug: "belarus",
+    name: "Belarus",
+    demonym: "Belarusian",
+    flag: "🇧🇾",
+    title: "Belarusian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Belarusian citizens",
+    description: "Complete guide for Belarusian citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Belarusians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Belarusian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Belarusians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // TAJIKISTAN
+  {
+    slug: "tajikistan",
+    name: "Tajikistan",
+    demonym: "Tajik",
+    flag: "🇹🇯",
+    title: "Tajik Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Tajik citizens",
+    description: "Complete guide for Tajik citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Tajiks enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Tajik remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Tajiks need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // TURKMENISTAN
+  {
+    slug: "turkmenistan",
+    name: "Turkmenistan",
+    demonym: "Turkmen",
+    flag: "🇹🇲",
+    title: "Turkmen Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Turkmen citizens",
+    description: "Complete guide for Turkmen citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Turkmens enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Turkmen remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Turkmens need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // BRUNEI
+  {
+    slug: "brunei",
+    name: "Brunei",
+    demonym: "Bruneian",
+    flag: "🇧🇳",
+    title: "Bruneian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Bruneian citizens",
+    description: "Complete guide for Bruneian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Bruneians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Bruneian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Bruneians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // LAOS
+  {
+    slug: "laos",
+    name: "Laos",
+    demonym: "Lao",
+    flag: "🇱🇦",
+    title: "Lao Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Lao citizens",
+    description: "Complete guide for Lao citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Laos enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Lao remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Laos need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // SAMOA
+  {
+    slug: "samoa",
+    name: "Samoa",
+    demonym: "Samoan",
+    flag: "🇼🇸",
+    title: "Samoan Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Samoan citizens",
+    description: "Complete guide for Samoan citizens looking to live, work, or study in Argentina.",
+    region: "oceania",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Samoans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Samoan remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Samoans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  },
+
+  // MALDIVES
+  {
+    slug: "maldives",
+    name: "Maldives",
+    demonym: "Maldivian",
+    flag: "🇲🇻",
+    title: "Maldivian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Maldivian citizens",
+    description: "Complete guide for Maldivian citizens looking to live, work, or study in Argentina.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Maldivians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Maldivian remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Maldivians need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
+  }
+,
+
+  // ANDORRA
+  {
+    slug: "andorra",
+    name: "Andorra",
+    demonym: "Andorran",
+    flag: "🇦🇩",
+    title: "Andorran Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Immigration pathway for Andorran citizens",
+    description: "Complete guide for Andorran citizens looking to live, work, or study in Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Andorrans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for Andorran remote workers",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "Standard immigration process applies",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Digital nomad visa available"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of accommodation",
+        "Health insurance",
+        "Proof of income"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Local currency easily exchanged",
+      banking: "Open local account upon arrival",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult tax advisor.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "Growing community",
+      mainLocations: ["Buenos Aires"],
+      associations: []
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for remote workers",
+      timeline: "Digital nomad: 30-60 days.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa",
+        "Submit documents with apostille",
+        "Receive temporary residency",
+        "After 2 years, apply for permanent"
+      ],
+      tips: [
+        "Learn Spanish before arrival",
+        "Connect with expat community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Andorrans need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For longer stays, apply for temporary residency."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
+    ],
+    image: "/images/nationalities/default.webp"
   }
 ];
 
