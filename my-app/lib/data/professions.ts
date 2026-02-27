@@ -7938,6 +7938,1307 @@ export const professions: Profession[] = [
       }
     ],
     image: "/images/professions/personal-trainer.webp"
+  },
+  {
+    slug: "yoga-instructor",
+    name: "Yoga Instructor",
+    title: "Yoga Instructor Guide for Argentina",
+    subtitle: "Teach yoga online from Argentina",
+    description: "Online yoga instruction is popular worldwide. Learn how instructors can build remote practices.",
+    icon: "Flower2",
+    category: "healthcare",
+    overview: "Yoga Instructors teach yoga classes via video, guiding students through poses, breathing, and meditation. Online yoga has exploded in popularity. Instructors earn $25-75+/hour for group or private sessions. Argentine instructors can teach in English or Spanish to global students. RYT-200 or RYT-500 certification adds credibility. This is a fulfilling profession combining wellness with flexibility.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For yoga instructors teaching online.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Yoga teacher training certification (RYT-200 minimum)",
+      "Teaching experience (1+ years)",
+      "Knowledge of yoga philosophy and anatomy",
+      "Online teaching setup (camera, space, lighting)",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Yoga instructors earn per class or private session",
+      amount: "$1,000 - $3,500+ USD/month",
+      notes: "Experienced instructors earn $25-75+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Online yoga works well. Live classes via video, recorded content for on-demand, private sessions through video calls.",
+      considerations: [
+        "Growing wellness industry",
+        "Can teach multiple time zones",
+        "Create recorded content library",
+        "Build community"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $400,000-1,200,000/month ($300-1,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Wellness", "Fitness", "Tourism"]
+    },
+    professionalAssociations: [
+      {
+        name: "Yoga Alliance",
+        description: "International yoga teacher registry"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "RYT-200 or RYT-500 certification highly valued."
+    },
+    taxConsiderations: [
+      "Remote yoga instruction typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build Instagram/TikTok presence",
+      "Offer free classes to build audience",
+      "Partner with wellness brands"
+    ],
+    faqs: [
+      {
+        question: "Do I need RYT certification?",
+        answer: "Not legally required, but Yoga Alliance RYT-200 is the standard credential that students expect. Many studios and platforms require it."
+      }
+    ],
+    relatedProfessions: ["personal-trainer", "wellness-coach", "meditation-teacher"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for yoga instructors"
+      }
+    ],
+    image: "/images/professions/yoga-instructor.webp"
+  },
+  {
+    slug: "life-coach",
+    name: "Life Coach",
+    title: "Life Coach Guide for Argentina",
+    subtitle: "Coach clients remotely toward their goals",
+    description: "Life coaching helps people achieve personal and professional goals. Learn how coaches can work remotely.",
+    icon: "Compass",
+    category: "business",
+    overview: "Life Coaches help clients clarify goals, overcome obstacles, and create action plans for personal and professional growth. Coaching happens via video calls, typically weekly sessions. Coaches earn $50-300+/hour depending on niche and experience. Argentine coaches can serve English-speaking clients globally. Certification (ICF, CTI) adds credibility but experience and results matter most. This is a flexible, fulfilling profession.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For life coaches working with clients remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Life coach certification (ICF, CTI preferred)",
+      "Coaching experience or relevant professional background",
+      "Strong communication and listening skills",
+      "Online coaching setup (camera, quiet space)",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Life coaches earn per session or package",
+      amount: "$1,500 - $6,000+ USD/month",
+      notes: "Executive coaches earn $100-300+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Life coaching is ideal for remote. Video sessions, digital worksheets, email support between sessions.",
+      considerations: [
+        "Meaningful, impactful work",
+        "Can specialize (executive, career, wellness)",
+        "Build practice over time",
+        "Flexible schedule"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local coaching market",
+      keyCities: ["Buenos Aires"],
+      industries: ["Coaching", "Consulting", "Corporate"]
+    },
+    professionalAssociations: [
+      {
+        name: "International Coach Federation (ICF)",
+        description: "Leading global coaching organization"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "ICF certification valuable but not required. Results and testimonials matter most."
+    },
+    taxConsiderations: [
+      "Remote coaching typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Get ICF certification",
+      "Build niche expertise",
+      "Collect testimonials and case studies"
+    ],
+    faqs: [
+      {
+        question: "Coach vs Therapist?",
+        answer: "Coaches focus on future goals and action (not licensed). Therapists treat mental health issues (licensed healthcare). Coaching is not a substitute for therapy."
+      }
+    ],
+    relatedProfessions: ["executive-coach", "career-coach", "wellness-coach"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for life coaches"
+      }
+    ],
+    image: "/images/professions/life-coach.webp"
+  },
+  {
+    slug: "executive-coach",
+    name: "Executive Coach",
+    title: "Executive Coach Guide for Argentina",
+    subtitle: "Coach senior leaders remotely from Argentina",
+    description: "Executive coaching serves C-suite and senior leaders. Learn how coaches can work with top executives remotely.",
+    icon: "Crown",
+    category: "business",
+    overview: "Executive Coaches work with C-suite executives, senior leaders, and high-potentials to enhance leadership effectiveness. Coaching engagements are intensive and high-value. Executive coaches earn $200-500+/hour. Argentine coaches with executive experience and strong credentials can serve global clients. This profession has excellent conversion potential for Lucero Legal due to complex business structures and high net worth individuals.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For executive coaches working with global leaders.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Executive coaching certification (ICF PCC or MCC preferred)",
+      "Senior leadership experience (10+ years) or extensive coaching experience",
+      "Track record coaching executives",
+      "Strong references from C-suite clients",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($4,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Executive coaches earn premium rates",
+      amount: "$4,000 - $15,000+ USD/month",
+      notes: "Top executive coaches earn $200-500+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Executive coaching works well remotely. Confidential video sessions, digital assessments, flexible scheduling for busy executives.",
+      considerations: [
+        "Highest coaching rates",
+        "Work with influential leaders",
+        "Complex business structures = legal leads",
+        "Prestigious profession"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local executive coaching market",
+      keyCities: ["Buenos Aires"],
+      industries: ["Executive Coaching", "Corporate"]
+    },
+    professionalAssociations: [
+      {
+        name: "International Coach Federation (ICF)",
+        description: "ICF PCC or MCC credential valued"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "ICF PCC or MCC highly valued. Executive experience and track record matter most."
+    },
+    taxConsiderations: [
+      "Remote coaching typically not taxed locally under Digital Nomad Visa",
+      "HNW clients may need sophisticated structuring"
+    ],
+    networkingTips: [
+      "Obtain ICF PCC or MCC",
+      "Leverage executive network",
+      "Build reputation through results"
+    ],
+    faqs: [
+      {
+        question: "How do I break into executive coaching?",
+        answer: "Typically requires senior executive experience OR extensive coaching experience with strong results. Start with middle managers, build track record, gradually move upmarket. ICF certification essential."
+      }
+    ],
+    relatedProfessions: ["life-coach", "management-consultant", "leadership-trainer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for executive coaches"
+      }
+    ],
+    image: "/images/professions/executive-coach.webp"
+  },
+  {
+    slug: "career-coach",
+    name: "Career Coach",
+    title: "Career Coach Guide for Argentina",
+    subtitle: "Help professionals navigate careers remotely",
+    description: "Career coaching is in demand during transitions. Learn how coaches can work remotely.",
+    icon: "Route",
+    category: "business",
+    overview: "Career Coaches help professionals navigate career transitions, job searches, and professional development. They assist with resumes, interviews, salary negotiation, and career strategy. The work is entirely remote - coaching via video, documents shared digitally. Career coaches earn $50-150+/hour. Argentine coaches can serve global clients, especially those in career transition. This is a practical, high-impact coaching niche.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For career coaches working with clients remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Career coaching certification or HR/recruiting experience",
+      "Experience with career transitions and job search",
+      "Resume writing and interview coaching skills",
+      "Online coaching setup",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Career coaches earn per session or package",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Experienced coaches earn $50-150+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Career coaching is 100% remote. Video sessions, document reviews, email support all work digitally.",
+      considerations: [
+        "High demand during economic shifts",
+        "Tangible, practical outcomes",
+        "Can serve job seekers globally",
+        "Package-based revenue model"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local market",
+      keyCities: ["Buenos Aires"],
+      industries: ["Coaching", "HR", "Career Services"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Career coaching certification helpful. Results (job placements) matter most."
+    },
+    taxConsiderations: [
+      "Remote coaching typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Partner with recruiters",
+      "Build LinkedIn presence",
+      "Collect success stories"
+    ],
+    faqs: [
+      {
+        question: "Career coach vs recruiter?",
+        answer: "Career coaches advise job seekers on strategy and skills (paid by job seeker). Recruiters match candidates with employers (paid by employer). Coaches focus on the candidate's success."
+      }
+    ],
+    relatedProfessions: ["life-coach", "recruiter", "hr-specialist"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for career coaches"
+      }
+    ],
+    image: "/images/professions/career-coach.webp"
+  },
+  {
+    slug: "tax-advisor",
+    name: "Tax Advisor",
+    title: "Tax Advisor Guide for Argentina",
+    subtitle: "Provide tax planning services remotely",
+    description: "Tax advisory is complex and valuable. Learn how tax advisors can work remotely from Argentina.",
+    icon: "Receipt",
+    category: "business",
+    overview: "Tax Advisors help individuals and businesses optimize their tax situations, ensure compliance, and plan for efficiency. They provide strategic tax planning beyond basic preparation. This is a PRIME Lucero Legal profession due to complex international tax situations, cross-border issues, and high net worth clients. US tax advisors earn $75-250+/hour. Argentine advisors with US tax expertise can serve expats and international clients.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For tax advisors serving international clients.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Accounting degree or tax certification (EA, CPA)",
+      "Tax planning experience (3+ years)",
+      "Knowledge of US or international tax systems",
+      "Enrolled Agent (EA) or CPA license preferred",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Tax advisors earn premium rates",
+      amount: "$3,000 - $8,000+ USD/month",
+      notes: "Senior advisors earn $75-250+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Tax advisory works well remotely. Document sharing, video consultations, electronic filing. Peak season is tax season.",
+      considerations: [
+        "PRIME Lucero Legal conversion profession",
+        "Complex cross-border tax issues",
+        "High net worth clients",
+        "Recurring annual engagements"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,000,000-3,000,000/month ($800-2,400 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Accounting", "Tax", "Consulting"]
+    },
+    professionalAssociations: [
+      {
+        name: "National Association of Enrolled Agents",
+        description: "US tax professional organization"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "EA or CPA highly valued for US tax work. Local credentials for Argentine tax."
+    },
+    taxConsiderations: [
+      "Remote tax work typically not taxed locally under Digital Nomad Visa",
+      "Complex situations may need sophisticated structuring"
+    ],
+    networkingTips: [
+      "Obtain EA or CPA credential",
+      "Specialize (expat tax, business tax)",
+      "Build relationships with accountants"
+    ],
+    faqs: [
+      {
+        question: "Tax advisor vs tax preparer?",
+        answer: "Tax advisors do strategic planning and complex situations year-round. Tax preparers focus on filing returns during tax season. Advisors command higher rates and have deeper expertise."
+      }
+    ],
+    relatedProfessions: ["accountant-bookkeeper", "attorney", "financial-advisor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for tax advisors"
+      }
+    ],
+    image: "/images/professions/tax-advisor.webp"
+  },
+  {
+    slug: "wealth-manager",
+    name: "Wealth Manager",
+    title: "Wealth Manager Guide for Argentina",
+    subtitle: "Manage wealth for high net worth clients remotely",
+    description: "Wealth management serves affluent clients. Learn how managers can work remotely.",
+    icon: "Gem",
+    category: "business",
+    overview: "Wealth Managers provide comprehensive financial services to high net worth individuals - investment management, estate planning, tax strategy, and financial planning. This is a PRIME Lucero Legal profession due to complex international structures, tax optimization needs, and sophisticated clients requiring ongoing legal and financial advice. Wealth managers earn through AUM fees, often 1% of assets or more. Top managers serve ultra-high-net-worth clients.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For wealth managers with established client relationships.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "CFP, CFA, or relevant financial certification",
+      "Wealth management experience (5+ years)",
+      "Client book or firm affiliation",
+      "Fiduciary responsibility understanding",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($5,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Wealth managers earn through AUM fees",
+      amount: "$5,000 - $20,000+ USD/month",
+      notes: "Based on assets under management (typically 0.5-1.5% annually)"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Wealth management has shifted to hybrid/remote. Client meetings via video, portfolio management digital, estate planning collaborative.",
+      considerations: [
+        "PRIME Lucero Legal conversion profession",
+        "Ultra-high-net-worth clients",
+        "Complex international structures",
+        "Long-term client relationships"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local wealth management for HNW",
+      keyCities: ["Buenos Aires"],
+      industries: ["Private Banking", "Wealth Management"]
+    },
+    professionalAssociations: [
+      {
+        name: "CFP Board",
+        description: "Certified Financial Planner credential"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "CFP, CFA, or equivalent required. Track record managing wealth essential."
+    },
+    taxConsiderations: [
+      "Remote wealth management typically not taxed locally under Digital Nomad Visa",
+      "International clients create complex tax situations"
+    ],
+    networkingTips: [
+      "Obtain CFP or CFA",
+      "Build referral networks",
+      "Develop niche expertise"
+    ],
+    faqs: [
+      {
+        question: "Wealth manager vs financial advisor?",
+        answer: "Wealth managers typically serve HNW clients ($1M+ investable assets) with comprehensive services. Financial advisors serve broader market with focused services. Wealth management is more holistic and relationship-driven."
+      }
+    ],
+    relatedProfessions: ["investment-advisor", "financial-advisor", "tax-advisor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for wealth managers"
+      }
+    ],
+    image: "/images/professions/wealth-manager.webp"
+  },
+  {
+    slug: "insurance-broker",
+    name: "Insurance Broker",
+    title: "Insurance Broker Guide for Argentina",
+    subtitle: "Sell insurance remotely to international clients",
+    description: "Insurance sales can be done remotely. Learn how brokers can serve clients from Argentina.",
+    icon: "Shield",
+    category: "business",
+    overview: "Insurance Brokers help clients find and purchase insurance - health, life, property, business. They work with multiple carriers to find best coverage. Remote insurance sales have grown significantly. Brokers earn commissions (typically 5-15% of premiums) and renewal income. US-licensed brokers can serve US clients remotely. This profession has good conversion potential for Lucero Legal due to complex international coverage needs and estate planning connections.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For insurance brokers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Insurance license (property/casualty or life/health)",
+      "Insurance sales experience (2+ years)",
+      "Knowledge of insurance products and regulations",
+      "Producer license in relevant state(s)",
+      "Proof of employment or agency contract",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Insurance brokers earn commissions",
+      amount: "$2,000 - $8,000+ USD/month",
+      notes: "Commissions plus renewal income"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Insurance sales works remotely. Client consultations via video, applications digital, policy delivery electronic.",
+      considerations: [
+        "Residual income from renewals",
+        "Can build book of business",
+        "Cross-border coverage needs",
+        "Licensed profession"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $600,000-2,000,000/month ($500-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Insurance", "Brokerage"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: true,
+      description: "State insurance license required to sell in US market."
+    },
+    taxConsiderations: [
+      "Remote insurance sales typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Obtain necessary licenses",
+      "Build referral relationships",
+      "Specialize in expat insurance needs"
+    ],
+    faqs: [
+      {
+        question: "Can I sell US insurance from Argentina?",
+        answer: "Yes, if properly licensed in the state(s) where your clients reside. Many brokers serve clients remotely. Check state regulations and agency policies."
+      }
+    ],
+    relatedProfessions: ["financial-advisor", "wealth-manager", "real-estate-agent"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for insurance brokers"
+      }
+    ],
+    image: "/images/professions/insurance-broker.webp"
+  },
+  {
+    slug: "mortgage-broker",
+    name: "Mortgage Broker",
+    title: "Mortgage Broker Guide for Argentina",
+    subtitle: "Arrange financing remotely for clients",
+    description: "Mortgage brokerage can be done remotely. Learn how brokers can serve clients from Argentina.",
+    icon: "Home",
+    category: "business",
+    overview: "Mortgage Brokers help clients find and secure mortgage financing. They work with multiple lenders to find best rates and terms. While traditionally local, some aspects can be done remotely for investment properties or specific markets. Brokers earn commissions (typically 1-2% of loan amount). Licensed brokers can serve clients in their licensed states. International mortgage brokerage is complex but possible for specific niches.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For mortgage brokers with established referral networks.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Mortgage broker license (NMLS)",
+      "Mortgage industry experience (3+ years)",
+      "Lender relationships",
+      "Understanding of mortgage products",
+      "Proof of employment or broker contract",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Mortgage brokers earn commissions on closed loans",
+      amount: "$2,500 - $8,000+ USD/month",
+      notes: "Commission typically 1-2% of loan amount"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Parts of mortgage brokerage can be remote. Client consultations, application processing, coordination with lenders. Some states allow fully remote origination.",
+      considerations: [
+        "Commission-based income",
+        "Real estate connections important",
+        "Licensed profession",
+        "Market-dependent volume"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local mortgage brokerage",
+      keyCities: ["Buenos Aires"],
+      industries: ["Real Estate", "Finance"]
+    },
+    professionalAssociations: [
+      {
+        name: "National Association of Mortgage Brokers",
+        description: "Industry association"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "NMLS license required to originate mortgages in US."
+    },
+    taxConsiderations: [
+      "Remote mortgage work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build realtor referral network",
+      "Maintain lender relationships",
+      "Focus on niche markets"
+    ],
+    faqs: [
+      {
+        question: "Can I do mortgages from abroad?",
+        answer: "It's complex. Some states allow remote origination if properly licensed. Better for investment property specialists or specific niches. Check state regulations and compliance requirements."
+      }
+    ],
+    relatedProfessions: ["real-estate-agent", "insurance-broker", "financial-advisor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for mortgage brokers"
+      }
+    ],
+    image: "/images/professions/mortgage-broker.webp"
+  },
+  {
+    slug: "3d-artist",
+    name: "3D Artist",
+    title: "3D Artist Guide for Argentina",
+    subtitle: "Create 3D artwork remotely for global clients",
+    description: "3D art is used in games, film, and visualization. Learn how 3D artists can work remotely.",
+    icon: "Box",
+    category: "creative",
+    overview: "3D Artists create three-dimensional models, environments, and characters for games, films, architecture, and product visualization. They use software like Blender, Maya, 3ds Max, and ZBrush. The work is entirely digital and remote-friendly. 3D artists earn $25-75+/hour. Argentine 3D artists are known for strong artistic skills. The profession offers creative fulfillment and global opportunities.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For 3D artists working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Artist Visa",
+        description: "For established artists with notable portfolio.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "3D art training or self-taught portfolio",
+      "Proficiency in 3D software (Blender, Maya, ZBrush)",
+      "Strong portfolio demonstrating skills",
+      "Understanding of 3D pipelines",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "3D artists earn per project or hourly",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Experienced artists earn $25-75+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "3D art is 100% remote. All work is digital, files shared online, feedback through video calls.",
+      considerations: [
+        "Creative, artistic work",
+        "Used across many industries",
+        "Portfolio-driven hiring",
+        "Can specialize (characters, environments, products)"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $600,000-2,000,000/month ($500-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Games", "Film", "Architecture", "Advertising"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and demonstrated 3D skills matter most."
+    },
+    taxConsiderations: [
+      "Remote 3D art typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio on ArtStation",
+      "Join 3D artist communities",
+      "Participate in game jams and contests"
+    ],
+    faqs: [
+      {
+        question: "Which 3D software should I learn?",
+        answer: "Blender is free and increasingly industry-standard. Maya is used in film/VFX. 3ds Max in archviz and games. ZBrush for sculpting. Start with Blender, then specialize."
+      }
+    ],
+    relatedProfessions: ["game-developer", "animator", "graphic-designer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for 3D artists"
+      }
+    ],
+    image: "/images/professions/3d-artist.webp"
+  },
+  {
+    slug: "sound-designer",
+    name: "Sound Designer",
+    title: "Sound Designer Guide for Argentina",
+    subtitle: "Create audio experiences remotely from Argentina",
+    description: "Sound design is essential for media production. Learn how sound designers can work remotely.",
+    icon: "Volume2",
+    category: "creative",
+    overview: "Sound Designers create audio for films, games, and interactive media - sound effects, ambient sound, and audio environments. They use digital audio workstations and sound libraries. The work is entirely digital and remote-friendly. Sound designers earn $25-75+/hour. Argentine sound designers bring creativity and technical skill. Argentina has a strong audio production community.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For sound designers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Audio production or sound design training",
+      "Experience with DAWs (Pro Tools, Logic, Reaper)",
+      "Sound library and recording skills",
+      "Portfolio of sound design work",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Sound designers earn per project or hourly",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Experienced designers earn $25-75+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Sound design is 100% remote. All audio work is digital, files shared online, feedback through video calls.",
+      considerations: [
+        "Creative, immersive work",
+        "Used in games, film, VR",
+        "Portfolio-driven",
+        "Growing demand in interactive media"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $600,000-2,000,000/month ($500-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Games", "Film", "Advertising", "VR/AR"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and demonstrated sound design skills matter most."
+    },
+    taxConsiderations: [
+      "Remote sound design typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio with demo reels",
+      "Join sound design communities",
+      "Network with game developers"
+    ],
+    faqs: [
+      {
+        question: "Sound designer vs audio engineer?",
+        answer: "Sound designers create original sounds and audio environments. Audio engineers record, mix, and master audio. Some professionals do both. Sound design is more creative/artistic."
+      }
+    ],
+    relatedProfessions: ["music-producer", "podcast-producer", "video-editor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for sound designers"
+      }
+    ],
+    image: "/images/professions/sound-designer.webp"
+  },
+  {
+    slug: "voice-actor",
+    name: "Voice Actor",
+    title: "Voice Actor Guide for Argentina",
+    subtitle: "Record voiceovers remotely from Argentina",
+    description: "Voice acting is entirely location-independent. Learn how voice actors can work from Argentina.",
+    icon: "Mic2",
+    category: "creative",
+    overview: "Voice Actors provide voiceovers for commercials, animations, audiobooks, games, and corporate videos. With a home studio, work is entirely remote. Voice actors earn $100-500+ per finished hour or project rates. Native English speakers have strong market advantage. Argentine voice actors can serve Spanish-speaking markets or English if fluent. This is a flexible, creative profession requiring vocal skill and acting ability.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For voice actors working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Artist Visa",
+        description: "For established voice actors with notable credits.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Voice acting training or experience",
+      "Professional home studio setup",
+      "Voice demo reel",
+      "Acting skills and vocal technique",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Voice actors earn per project or hour",
+      amount: "$1,000 - $5,000+ USD/month",
+      notes: "$100-500+ per finished hour for audiobooks"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Voice acting is designed for remote. Home studio recording, files delivered online, direction via Source-Connect or similar.",
+      considerations: [
+        "Creative, flexible work",
+        "Can serve global markets",
+        "Requires professional studio",
+        "Audition frequently"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $400,000-1,500,000/month ($300-1,200 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Media", "Advertising", "Entertainment"]
+    },
+    professionalAssociations: [
+      {
+        name: "SAG-AFTRA",
+        description: "Union for voice actors (US)"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Demo reel and acting ability matter most. Union membership valuable for US work."
+    },
+    taxConsiderations: [
+      "Remote voice acting typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build professional demo reel",
+      "Join voice acting platforms",
+      "Get coaching to improve technique"
+    ],
+    faqs: [
+      {
+        question: "What equipment do I need?",
+        answer: "Quality condenser microphone, audio interface, recording software (Reaper, Adobe Audition), treated recording space. Budget $500-2000+ for professional setup."
+      }
+    ],
+    relatedProfessions: ["podcast-producer", "sound-designer", "actor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for voice actors"
+      }
+    ],
+    image: "/images/professions/voice-actor.webp"
+  },
+  {
+    slug: "ar-vr-developer",
+    name: "AR/VR Developer",
+    title: "AR/VR Developer Guide for Argentina",
+    subtitle: "Build immersive experiences remotely",
+    description: "AR/VR development is cutting-edge tech work. Learn how developers can work remotely from Argentina.",
+    icon: "Glasses",
+    category: "tech",
+    overview: "AR/VR Developers create augmented and virtual reality applications for gaming, training, education, and enterprise. They use Unity, Unreal Engine, and native SDKs. The work is highly remote-friendly - development on computers, testing through headsets. AR/VR is a growing field with increasing adoption. Developers earn $40-100+/hour. Argentine developers can contribute to global AR/VR projects.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For AR/VR developers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Software development background",
+      "AR/VR development experience (2+ years)",
+      "Proficiency in Unity or Unreal Engine",
+      "3D programming and interaction design",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "AR/VR developers earn competitive rates",
+      amount: "$2,500 - $6,500+ USD/month",
+      notes: "Experienced developers earn $40-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "AR/VR development is 100% remote. Code on local machines, test with dev kits, collaborate through version control.",
+      considerations: [
+        "Cutting-edge technology",
+        "Growing industry adoption",
+        "Creative and technical work",
+        "Hardware may need shipping"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local AR/VR market",
+      keyCities: ["Buenos Aires"],
+      industries: ["Tech", "Gaming", "Enterprise"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio of AR/VR projects matters most."
+    },
+    taxConsiderations: [
+      "Remote AR/VR development typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build AR/VR portfolio projects",
+      "Participate in XR hackathons",
+      "Join AR/VR developer communities"
+    ],
+    faqs: [
+      {
+        question: "AR vs VR development?",
+        answer: "AR overlays digital content on real world (phone apps, glasses). VR creates fully immersive digital environments (headsets). Different use cases, some overlap in skills."
+      }
+    ],
+    relatedProfessions: ["game-developer", "unity-developer", "3d-artist"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for AR/VR developers"
+      }
+    ],
+    image: "/images/professions/ar-vr-developer.webp"
+  },
+  {
+    slug: "unity-developer",
+    name: "Unity Developer",
+    title: "Unity Developer Guide for Argentina",
+    subtitle: "Build games and apps with Unity remotely",
+    description: "Unity is the most popular game engine. Learn how Unity developers can work remotely from Argentina.",
+    icon: "Gamepad2",
+    category: "tech",
+    overview: "Unity Developers create games, simulations, and interactive applications using the Unity engine. Unity is the most widely used engine, powering 50%+ of mobile games. The work is entirely remote - development on computers, builds shared digitally. Unity developers earn $35-90+/hour. Argentine Unity developers are in demand globally. Strong community and learning resources make this an accessible career path.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For Unity developers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Software development or game design background",
+      "Unity development experience (2+ years)",
+      "Proficiency in C# and Unity",
+      "Game or app development portfolio",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Unity developers earn competitive rates",
+      amount: "$2,000 - $6,000+ USD/month",
+      notes: "Experienced developers earn $35-90+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Unity development is 100% remote. All work on computers, collaboration through version control and asset sharing.",
+      considerations: [
+        "Most popular game engine",
+        "Used for games, AR/VR, simulations",
+        "Strong job market",
+        "Good learning resources"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Games", "Mobile Apps", "AR/VR"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Unity portfolio and released projects matter most. Unity certification helpful."
+    },
+    taxConsiderations: [
+      "Remote Unity development typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build Unity portfolio",
+      "Participate in game jams",
+      "Join Unity developer communities"
+    ],
+    faqs: [
+      {
+        question: "Unity vs Unreal Engine?",
+        answer: "Unity is easier to learn, better for mobile and indie, uses C#. Unreal is more powerful graphically, used for AAA, uses C++ or Blueprints. Unity has more jobs."
+      }
+    ],
+    relatedProfessions: ["game-developer", "ar-vr-developer", "mobile-app-developer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for Unity developers"
+      }
+    ],
+    image: "/images/professions/unity-developer.webp"
+  },
+  {
+    slug: "unreal-developer",
+    name: "Unreal Engine Developer",
+    title: "Unreal Engine Developer Guide for Argentina",
+    subtitle: "Create high-end games and experiences remotely",
+    description: "Unreal Engine powers AAA games and high-end experiences. Learn how developers can work remotely.",
+    icon: "Crown",
+    category: "tech",
+    overview: "Unreal Engine Developers create high-fidelity games, architectural visualizations, and virtual productions using Unreal Engine. Known for stunning graphics, Unreal is used in AAA games, film, and automotive. Developers earn $40-100+/hour. Unreal development requires strong technical skills. Argentine developers can contribute to global Unreal projects. The engine's growth in non-gaming industries creates diverse opportunities.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For Unreal developers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Software development or game design background",
+      "Unreal Engine development experience (2+ years)",
+      "Proficiency in C++ or Blueprints",
+      "3D programming and graphics knowledge",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Unreal developers earn competitive rates",
+      amount: "$2,500 - $6,500+ USD/month",
+      notes: "Experienced developers earn $40-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Unreal development is 100% remote. Development on workstations, collaboration through version control.",
+      considerations: [
+        "AAA-quality graphics capability",
+        "Growing use in film/archviz",
+        "Higher technical barrier",
+        "Strong visual portfolio needed"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local Unreal work",
+      keyCities: ["Buenos Aires"],
+      industries: ["Games", "Film", "Architecture"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Unreal portfolio and technical skills matter most."
+    },
+    taxConsiderations: [
+      "Remote Unreal development typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build high-quality Unreal portfolio",
+      "Contribute to Unreal forums",
+      "Specialize (games, archviz, film)"
+    ],
+    faqs: [
+      {
+        question: "Should I learn Unreal or Unity?",
+        answer: "Unity for mobile, indie, broader opportunities. Unreal for high-end graphics, AAA, film/VFX. Unity recommended for beginners."
+      }
+    ],
+    relatedProfessions: ["game-developer", "unity-developer", "3d-artist"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for Unreal developers"
+      }
+    ],
+    image: "/images/professions/unreal-developer.webp"
+  },
+  {
+    slug: "robotics-engineer",
+    name: "Robotics Engineer",
+    title: "Robotics Engineer Guide for Argentina",
+    subtitle: "Design robots and automation systems remotely",
+    description: "Robotics engineering combines hardware and software. Learn how engineers can work remotely from Argentina.",
+    icon: "Cog",
+    category: "tech",
+    overview: "Robotics Engineers design, build, and program robots and automated systems. They work on industrial automation, drones, autonomous vehicles, and consumer robots. While hardware requires physical presence, much of the software, simulation, and algorithm development can be done remotely. Robotics engineers earn $50-120+/hour. This specialized field offers cutting-edge work and strong demand.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For robotics engineers working on software/simulation remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Robotics, ME, EE, or CS degree",
+      "Robotics development experience (3+ years)",
+      "Programming (Python, C++, ROS)",
+      "Simulation and algorithm development",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Robotics engineers earn premium rates",
+      amount: "$3,000 - $7,500+ USD/month",
+      notes: "Experienced engineers earn $50-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Software, simulation, planning, and algorithms can be done remotely. Hardware testing may require occasional travel or local support.",
+      considerations: [
+        "Cutting-edge technology",
+        "High specialization value",
+        "Growing automation demand",
+        "Hardware limits full remote"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local robotics industry",
+      keyCities: ["Buenos Aires"],
+      industries: ["Tech", "Manufacturing", "Research"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Technical skills and robotics portfolio matter most."
+    },
+    taxConsiderations: [
+      "Remote robotics work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Contribute to ROS open source",
+      "Build robotics portfolio",
+      "Join robotics research communities"
+    ],
+    faqs: [
+      {
+        question: "Can robotics be done fully remote?",
+        answer: "Software, algorithms, simulation - yes. Hardware testing and integration - typically requires physical presence. Many roles are hybrid."
+      }
+    ],
+    relatedProfessions: ["embedded-systems-engineer", "ai-researcher", "software-developer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for robotics engineers"
+      }
+    ],
+    image: "/images/professions/robotics-engineer.webp"
+  },
+  {
+    slug: "biotech-researcher",
+    name: "Biotech Researcher",
+    title: "Biotech Researcher Guide for Argentina",
+    subtitle: "Conduct biotech research remotely",
+    description: "Biotechnology research offers remote opportunities in computational and analysis work. Learn how researchers can work from Argentina.",
+    icon: "Dna",
+    category: "healthcare",
+    overview: "Biotech Researchers work on biological and medical research - drug discovery, genetic analysis, bioinformatics. While lab work requires physical presence, computational biology, data analysis, and bioinformatics can be done remotely. Biotech researchers earn $50-120+/hour. Argentina has a growing biotech sector. Remote researchers can contribute to global projects through data analysis and computational work.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For biotech researchers doing computational work remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Research Visa",
+        description: "For researchers affiliated with Argentine institutions.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "PhD or Master's in Biology, Biochemistry, or related field",
+      "Biotech or bioinformatics experience (3+ years)",
+      "Programming (Python, R) for computational work",
+      "Research publication record",
+      "Proof of employment or research affiliation",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Biotech researchers earn competitive rates",
+      amount: "$3,000 - $8,000+ USD/month",
+      notes: "Senior researchers earn $50-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Bioinformatics, data analysis, computational biology, and paper writing can be done remotely. Wet lab work requires physical presence.",
+      considerations: [
+        "Meaningful scientific work",
+        "Computational roles growing",
+        "Global collaboration opportunities",
+        "Lab work limits full remote"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited biotech research locally",
+      keyCities: ["Buenos Aires"],
+      industries: ["Biotech", "Pharma", "Research"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Publication record and research skills matter most."
+    },
+    taxConsiderations: [
+      "Remote research typically not taxed locally under Digital Nomad Visa",
+      "Research grants may have specific requirements"
+    ],
+    networkingTips: [
+      "Publish in reputable journals",
+      "Collaborate with global research groups",
+      "Attend virtual conferences"
+    ],
+    faqs: [
+      {
+        question: "Wet lab vs computational biology?",
+        answer: "Wet lab requires physical lab work with samples. Computational uses software and data analysis. Computational work is remote-friendly. Many researchers do both."
+      }
+    ],
+    relatedProfessions: ["data-scientist", "ai-researcher", "telemedicine-doctor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for biotech researchers"
+      }
+    ],
+    image: "/images/professions/biotech-researcher.webp"
   }
 ];
 
