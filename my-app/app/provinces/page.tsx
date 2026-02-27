@@ -33,6 +33,7 @@ export const metadata: Metadata = {
     title: "Explore Argentina's Provinces | Expats Argentina",
     description:
       "Discover all 24 provinces of Argentina. Compare cost of living, climate, safety, and expat appeal across every region.",
+    images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
   },
 };
 
@@ -60,7 +61,7 @@ export default function ProvincesPage() {
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
-          <nav className="flex gap-2 text-sm text-muted-foreground">
+          <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
             </Link>
@@ -136,7 +137,7 @@ export default function ProvincesPage() {
                 <p className="text-muted-foreground text-lg">
                   {region.description}
                 </p>
-                <p className="text-sm text-muted-foreground mt-1">
+                <p className="text-base md:text-sm text-muted-foreground mt-1">
                   {regionProvinces.length}{" "}
                   {regionProvinces.length === 1 ? "province" : "provinces"}
                 </p>
@@ -213,7 +214,7 @@ export default function ProvincesPage() {
                           )}
 
                           {/* View Link */}
-                          <div className="flex items-center gap-1 text-sm font-medium text-primary pt-2">
+                          <div className="flex items-center gap-1 text-base md:text-sm font-medium text-primary pt-2">
                             Explore province
                             <ArrowRightIcon
                               size="sm"

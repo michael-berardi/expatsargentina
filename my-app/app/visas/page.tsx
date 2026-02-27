@@ -245,7 +245,7 @@ function VisaFinderQuiz() {
         </CardHeader>
         <CardContent className="space-y-6">
           <div>
-            <h4 className="font-semibold mb-3">Why this fits you:</h4>
+            <h3 className="font-semibold text-base mb-3">Why this fits you:</h3>
             <ul className="space-y-2">
               {result.reasons.map((reason, i) => (
                 <li key={i} className="flex items-start gap-2">
@@ -257,7 +257,7 @@ function VisaFinderQuiz() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-3">Why other options don&apos;t fit as well:</h4>
+            <h3 className="font-semibold text-base mb-3">Why other options don&apos;t fit as well:</h3>
             <ul className="space-y-2">
               {result.whyNotOthers.map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-muted-foreground">
@@ -292,7 +292,7 @@ function VisaFinderQuiz() {
       <CardHeader>
         <div className="flex items-center justify-between mb-2">
           <Badge variant="secondary">Question {step + 1} of {questions.length}</Badge>
-          <span className="text-sm text-muted-foreground">{Math.round(((step) / questions.length) * 100)}% complete</span>
+          <span className="text-base md:text-sm text-muted-foreground">{Math.round(((step) / questions.length) * 100)}% complete</span>
         </div>
         <div className="w-full bg-muted h-2 rounded-full overflow-hidden">
           <div 
@@ -363,7 +363,7 @@ function CostCalculator() {
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="space-y-3">
-          <label className="text-sm font-medium">Visa Type</label>
+          <label className="text-base md:text-sm font-medium">Visa Type</label>
           <select 
             value={visaType}
             onChange={(e) => setVisaType(e.target.value)}
@@ -378,29 +378,31 @@ function CostCalculator() {
         </div>
 
         <div className="space-y-3">
-          <label className="text-sm font-medium">Additional Family Members (excluding applicant)</label>
+          <label className="text-base md:text-sm font-medium">Additional Family Members (excluding applicant)</label>
           <div className="flex items-center gap-3">
-            <Button 
-              variant="outline" 
-              size="sm"
+            <Button
+              variant="outline"
+              size="default"
+              className="w-11 h-11"
               onClick={() => setFamilyMembers(Math.max(0, familyMembers - 1))}
             >
               -
             </Button>
             <span className="w-8 text-center font-medium">{familyMembers}</span>
-            <Button 
-              variant="outline" 
-              size="sm"
+            <Button
+              variant="outline"
+              size="default"
+              className="w-11 h-11"
               onClick={() => setFamilyMembers(familyMembers + 1)}
             >
               +
             </Button>
-            <span className="text-sm text-muted-foreground">($150 each)</span>
+            <span className="text-base md:text-sm text-muted-foreground">($150 each)</span>
           </div>
         </div>
 
         <div className="space-y-3">
-          <label className="text-sm font-medium">Additional Services</label>
+          <label className="text-base md:text-sm font-medium">Additional Services</label>
           <div className="space-y-2">
             <label className="flex items-center gap-2 cursor-pointer">
               <input 
@@ -435,10 +437,10 @@ function CostCalculator() {
         <div className="border-t pt-4">
           <div className="flex justify-between items-center">
             <span className="text-lg font-semibold">Estimated Total:</span>
-            <span className="text-3xl font-bold text-primary">${calculateTotal()}</span>
+            <span className="text-2xl font-bold text-primary">${calculateTotal()}</span>
           </div>
-          <p className="text-sm text-muted-foreground mt-2">
-            *Includes government fees, estimated service costs, and miscellaneous expenses. 
+          <p className="text-base md:text-sm text-muted-foreground mt-2">
+            *Includes government fees, estimated service costs, and miscellaneous expenses.
             Actual costs may vary.
           </p>
         </div>
@@ -491,7 +493,7 @@ function TimelineCalculator() {
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="space-y-3">
-          <label className="text-sm font-medium">Visa Type</label>
+          <label className="text-base md:text-sm font-medium">Visa Type</label>
           <select 
             value={visaType}
             onChange={(e) => setVisaType(e.target.value)}
@@ -506,8 +508,8 @@ function TimelineCalculator() {
         </div>
 
         <div className="space-y-3">
-          <label className="text-sm font-medium">Document Preparation Status</label>
-          <div className="grid grid-cols-3 gap-2">
+          <label className="text-base md:text-sm font-medium">Document Preparation Status</label>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
             {[
               { value: "none", label: "Starting from scratch", weeks: "+4 weeks" },
               { value: "partial", label: "Some documents ready", weeks: "+2 weeks" },
@@ -516,21 +518,21 @@ function TimelineCalculator() {
               <button
                 key={opt.value}
                 onClick={() => setDocumentStatus(opt.value)}
-                className={`p-3 rounded-lg border text-sm text-center transition-colors ${
-                  documentStatus === opt.value 
-                    ? "border-primary bg-primary/10" 
+                className={`p-3 rounded-lg border text-base md:text-sm text-center transition-colors ${
+                  documentStatus === opt.value
+                    ? "border-primary bg-primary/10"
                     : "hover:border-primary/50"
                 }`}
               >
                 <div className="font-medium">{opt.label}</div>
-                <div className="text-xs text-muted-foreground">{opt.weeks}</div>
+                <div className="text-sm text-muted-foreground">{opt.weeks}</div>
               </button>
             ))}
           </div>
         </div>
 
         <div className="space-y-3">
-          <label className="text-sm font-medium">Application Method</label>
+          <label className="text-base md:text-sm font-medium">Application Method</label>
           <div className="grid grid-cols-2 gap-2">
             {[
               { value: "online", label: "Online (RADEX)", note: "Faster" },
@@ -539,14 +541,14 @@ function TimelineCalculator() {
               <button
                 key={opt.value}
                 onClick={() => setApplicationMethod(opt.value)}
-                className={`p-3 rounded-lg border text-sm text-center transition-colors ${
-                  applicationMethod === opt.value 
-                    ? "border-primary bg-primary/10" 
+                className={`p-3 rounded-lg border text-base md:text-sm text-center transition-colors ${
+                  applicationMethod === opt.value
+                    ? "border-primary bg-primary/10"
                     : "hover:border-primary/50"
                 }`}
               >
                 <div className="font-medium">{opt.label}</div>
-                <div className="text-xs text-muted-foreground">{opt.note}</div>
+                <div className="text-sm text-muted-foreground">{opt.note}</div>
               </button>
             ))}
           </div>
@@ -554,9 +556,9 @@ function TimelineCalculator() {
 
         <div className="border-t pt-4">
           <div className="text-center">
-            <div className="text-sm text-muted-foreground mb-1">Estimated Timeline</div>
-            <div className="text-4xl font-bold text-primary">{timeline.min}-{timeline.max} weeks</div>
-            <p className="text-sm text-muted-foreground mt-2">
+            <div className="text-base md:text-sm text-muted-foreground mb-1">Estimated Timeline</div>
+            <div className="text-3xl font-bold text-primary">{timeline.min}-{timeline.max} weeks</div>
+            <p className="text-base md:text-sm text-muted-foreground mt-2">
               From today to visa approval. Add 2-4 weeks for DNI processing after arrival.
             </p>
           </div>
@@ -648,7 +650,7 @@ function DocumentChecklist() {
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="space-y-3">
-          <label className="text-sm font-medium">Visa Type</label>
+          <label className="text-base md:text-sm font-medium">Visa Type</label>
           <select 
             value={visaType}
             onChange={(e) => {
@@ -679,7 +681,7 @@ function DocumentChecklist() {
         </label>
 
         <div className="space-y-2">
-          <div className="flex justify-between text-sm">
+          <div className="flex justify-between text-base md:text-sm">
             <span>Progress</span>
             <span className="font-medium">{progress}%</span>
           </div>
@@ -713,7 +715,7 @@ function DocumentChecklist() {
                   )}
                 </div>
                 {doc.note && (
-                  <p className="text-sm text-muted-foreground">{doc.note}</p>
+                  <p className="text-base md:text-sm text-muted-foreground">{doc.note}</p>
                 )}
               </div>
             </label>
@@ -1026,7 +1028,7 @@ export default function VisasPage() {
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
-          <nav className="flex gap-2 text-sm text-muted-foreground">
+          <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
             <span className="text-foreground">Visas</span>
@@ -1035,12 +1037,12 @@ export default function VisasPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <Icon name="file-text" size="sm" />
-              Complete Guide 2025
+              Complete Guide 2026
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Argentina Visa Guide & Decision Tool
@@ -1079,22 +1081,22 @@ export default function VisasPage() {
             </div>
 
             <Tabs defaultValue="finder" className="w-full">
-              <TabsList className="grid w-full grid-cols-4">
+              <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 h-auto">
                 <TabsTrigger value="finder">
                   <Icon name="zap" size="sm" />
-                  Visa Finder
+                  <span className="ml-1">Finder</span>
                 </TabsTrigger>
                 <TabsTrigger value="cost">
                   <Icon name="calculator" size="sm" />
-                  Cost Estimator
+                  <span className="ml-1">Cost</span>
                 </TabsTrigger>
                 <TabsTrigger value="timeline">
                   <Icon name="calendar" size="sm" />
-                  Timeline
+                  <span className="ml-1">Timeline</span>
                 </TabsTrigger>
                 <TabsTrigger value="checklist">
                   <Icon name="check-circle" size="sm" />
-                  Checklist
+                  <span className="ml-1">Checklist</span>
                 </TabsTrigger>
               </TabsList>
 
@@ -1167,7 +1169,7 @@ export default function VisasPage() {
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-sm">
+                  <tbody className="text-base md:text-sm">
                     <tr className="border-b">
                       <td className="py-3 px-3 font-medium">Duration</td>
                       <td className="py-3 px-3 text-muted-foreground">180 days</td>
@@ -1252,26 +1254,26 @@ export default function VisasPage() {
             </div>
 
             <Tabs defaultValue="digital-nomad" className="w-full">
-              <TabsList className="grid w-full grid-cols-5">
+              <TabsList className="grid w-full grid-cols-3 sm:grid-cols-5 h-auto">
                 <TabsTrigger value="digital-nomad">
                   <Icon name="wifi" size="sm" />
-                  <span className="hidden sm:inline ml-2">Digital Nomad</span>
+                  <span className="ml-1">Nomad</span>
                 </TabsTrigger>
                 <TabsTrigger value="work">
                   <Icon name="briefcase" size="sm" />
-                  <span className="hidden sm:inline ml-2">Work</span>
+                  <span className="ml-1">Work</span>
                 </TabsTrigger>
                 <TabsTrigger value="retirement">
                   <Icon name="coffee" size="sm" />
-                  <span className="hidden sm:inline ml-2">Retirement</span>
+                  <span className="ml-1">Retire</span>
                 </TabsTrigger>
                 <TabsTrigger value="student">
                   <Icon name="graduation-cap" size="sm" />
-                  <span className="hidden sm:inline ml-2">Student</span>
+                  <span className="ml-1">Study</span>
                 </TabsTrigger>
                 <TabsTrigger value="investment">
                   <Icon name="trending-up" size="sm" />
-                  <span className="hidden sm:inline ml-2">Investment</span>
+                  <span className="ml-1">Invest</span>
                 </TabsTrigger>
               </TabsList>
 
@@ -1301,15 +1303,15 @@ export default function VisasPage() {
                       <CardContent>
                         <div className="grid md:grid-cols-3 gap-4">
                           <div className="p-4 bg-muted rounded-lg">
-                            <div className="text-sm text-muted-foreground mb-1">Duration</div>
+                            <div className="text-base md:text-sm text-muted-foreground mb-1">Duration</div>
                             <div className="font-semibold">{visa.duration}</div>
                           </div>
                           <div className="p-4 bg-muted rounded-lg">
-                            <div className="text-sm text-muted-foreground mb-1">Work Allowed</div>
+                            <div className="text-base md:text-sm text-muted-foreground mb-1">Work Allowed</div>
                             <div className="font-semibold">{visa.workAllowed}</div>
                           </div>
                           <div className="p-4 bg-muted rounded-lg">
-                            <div className="text-sm text-muted-foreground mb-1">Residency Path</div>
+                            <div className="text-base md:text-sm text-muted-foreground mb-1">Residency Path</div>
                             <div className="font-semibold">{visa.residencyPath}</div>
                           </div>
                         </div>
@@ -1356,7 +1358,7 @@ export default function VisasPage() {
                               />
                               <div>
                                 <div className="font-medium">{profile.profile}</div>
-                                <div className="text-sm text-muted-foreground capitalize">{profile.fit} fit</div>
+                                <div className="text-base md:text-sm text-muted-foreground capitalize">{profile.fit} fit</div>
                               </div>
                             </div>
                           ))}
@@ -1397,7 +1399,7 @@ export default function VisasPage() {
                             {visa.rejections.map((rejection, i) => (
                               <div key={i} className="p-3 bg-red-50 border border-red-100 rounded-lg">
                                 <div className="font-medium text-red-900">{rejection.reason}</div>
-                                <div className="text-sm text-red-700 mt-1">
+                                <div className="text-base md:text-sm text-red-700 mt-1">
                                   <strong>Solution:</strong> {rejection.solution}
                                 </div>
                               </div>
@@ -1424,7 +1426,7 @@ export default function VisasPage() {
                               </div>
                               <div className="flex-1 pb-4 border-b last:border-0">
                                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                                  <h4 className="font-semibold">{s.title}</h4>
+                                  <h3 className="font-semibold text-base">{s.title}</h3>
                                   <Badge variant="secondary">{s.time}</Badge>
                                 </div>
                                 <p className="text-muted-foreground mt-1">{s.details}</p>
@@ -1446,7 +1448,7 @@ export default function VisasPage() {
                       <CardContent>
                         <div className="grid md:grid-cols-2 gap-6">
                           <div>
-                            <h4 className="font-semibold mb-3">Official Government Fees</h4>
+                            <h3 className="font-semibold text-base mb-3">Official Government Fees</h3>
                             <ul className="space-y-2">
                               {visa.costs.official.map((item, i) => (
                                 <li key={i} className="flex justify-between">
@@ -1457,7 +1459,7 @@ export default function VisasPage() {
                             </ul>
                           </div>
                           <div>
-                            <h4 className="font-semibold mb-3">Additional/Hidden Costs</h4>
+                            <h3 className="font-semibold text-base mb-3">Additional/Hidden Costs</h3>
                             <ul className="space-y-2">
                               {visa.costs.hidden.map((item, i) => (
                                 <li key={i} className="flex justify-between">
@@ -1488,7 +1490,7 @@ export default function VisasPage() {
                                 <span className="font-semibold">{story.name}</span>
                               </div>
                               <p className="text-muted-foreground mb-3">&ldquo;{story.story}&rdquo;</p>
-                              <div className="flex items-start gap-2 text-sm">
+                              <div className="flex items-start gap-2 text-base md:text-sm">
                                 <Icon name="lightbulb" size="sm" className="text-amber-500 mt-0.5 flex-shrink-0" />
                                 <span className="text-amber-700"><strong>Tip:</strong> {story.tip}</span>
                               </div>
@@ -1527,7 +1529,7 @@ export default function VisasPage() {
                 <AccordionContent className="pb-6">
                   <div className="space-y-6">
                     <div>
-                      <h4 className="font-semibold mb-3">Documents You&apos;ll Need (All Visas)</h4>
+                      <h3 className="font-semibold text-base mb-3">Documents You&apos;ll Need (All Visas)</h3>
                       <ul className="space-y-2">
                         <li className="flex items-start gap-2">
                           <Icon name="check-circle" size="sm" className="text-green-500 mt-0.5" />
@@ -1556,8 +1558,8 @@ export default function VisasPage() {
                       <div className="flex items-start gap-3">
                         <Icon name="alert-triangle" size="md" className="text-amber-600 flex-shrink-0" />
                         <div>
-                          <h4 className="font-semibold text-amber-900">The Apostille Process</h4>
-                          <p className="text-amber-800 text-sm mt-1">
+                          <h3 className="font-semibold text-base text-amber-900">The Apostille Process</h3>
+                          <p className="text-amber-800 text-base md:text-sm mt-1">
                             This is where most people get stuck. Documents from your home country need an apostille 
                             (international certification). In the US, this is done by the Secretary of State in each state. 
                             Processing time: 1-8 weeks depending on the state. Start this FIRST.
@@ -1567,7 +1569,7 @@ export default function VisasPage() {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold mb-3">Certified Translations</h4>
+                      <h3 className="font-semibold text-base mb-3">Certified Translations</h3>
                       <p className="text-muted-foreground">
                         All non-Spanish documents must be translated by a <strong>certified public translator (traductor público)</strong> in Argentina. 
                         Cost is typically $20-50 per page. You can find them through the Colegio de Traductores in your province. 
@@ -1588,7 +1590,7 @@ export default function VisasPage() {
                 <AccordionContent className="pb-6">
                   <div className="space-y-6">
                     <div>
-                      <h4 className="font-semibold mb-3">RADEX Online System (Recommended)</h4>
+                      <h3 className="font-semibold text-base mb-3">RADEX Online System (Recommended)</h3>
                       <p className="text-muted-foreground mb-3">
                         Most applications now go through RADEX, the online immigration system. 
                         Create an account at <Link href="https://www.migraciones.gov.ar" className="text-primary underline">migraciones.gov.ar</Link>.
@@ -1603,7 +1605,7 @@ export default function VisasPage() {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold mb-3">In-Person Application (If Required)</h4>
+                      <h3 className="font-semibold text-base mb-3">In-Person Application (If Required)</h3>
                       <p className="text-muted-foreground mb-3">
                         Some visa types or situations require in-person visits. Main offices:
                       </p>
@@ -1611,24 +1613,24 @@ export default function VisasPage() {
                         <li className="p-3 bg-muted rounded">
                           <strong>Buenos Aires:</strong> Av. Antártida Argentina 1205, Retiro (main office)
                           <br />
-                          <span className="text-sm text-muted-foreground">Open Mon-Fri 8am-2pm. Arrive early - lines form at 7am.</span>
+                          <span className="text-base md:text-sm text-muted-foreground">Open Mon-Fri 8am-2pm. Arrive early - lines form at 7am.</span>
                         </li>
                         <li className="p-3 bg-muted rounded">
                           <strong>Córdoba:</strong> Av. Colón 345
                           <br />
-                          <span className="text-sm text-muted-foreground">Usually less crowded than Buenos Aires.</span>
+                          <span className="text-base md:text-sm text-muted-foreground">Usually less crowded than Buenos Aires.</span>
                         </li>
                         <li className="p-3 bg-muted rounded">
                           <strong>Mendoza:</strong> Patricias Mendocinas 550
                           <br />
-                          <span className="text-sm text-muted-foreground">Good option if you&apos;re in wine country.</span>
+                          <span className="text-base md:text-sm text-muted-foreground">Good option if you&apos;re in wine country.</span>
                         </li>
                       </ul>
                     </div>
 
                     <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
-                      <h4 className="font-semibold text-blue-900 mb-2">What to Expect</h4>
-                      <ul className="space-y-1 text-blue-800 text-sm">
+                      <h3 className="font-semibold text-base text-blue-900 mb-2">What to Expect</h3>
+                      <ul className="space-y-1 text-blue-800 text-base md:text-sm">
                         <li>• Processing times are estimates, not guarantees</li>
                         <li>• You may receive requests for additional documents</li>
                         <li>• Check your email (including spam) regularly</li>
@@ -1649,7 +1651,7 @@ export default function VisasPage() {
                 <AccordionContent className="pb-6">
                   <div className="space-y-6">
                     <div>
-                      <h4 className="font-semibold mb-3">Entering Argentina</h4>
+                      <h3 className="font-semibold text-base mb-3">Entering Argentina</h3>
                       <p className="text-muted-foreground">
                         Once approved, you typically have 90 days to enter Argentina. 
                         Print your approval letter and bring it with your passport. 
@@ -1659,7 +1661,7 @@ export default function VisasPage() {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold mb-3">Getting Your DNI (National ID)</h4>
+                      <h3 className="font-semibold text-base mb-3">Getting Your DNI (National ID)</h3>
                       <p className="text-muted-foreground mb-3">
                         The DNI (Documento Nacional de Identidad) is essential for daily life in Argentina. 
                         You need it for:
@@ -1679,7 +1681,7 @@ export default function VisasPage() {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold mb-3">CUIT/CUIL (Tax ID)</h4>
+                      <h3 className="font-semibold text-base mb-3">CUIT/CUIL (Tax ID)</h3>
                       <p className="text-muted-foreground">
                         If you plan to work, start a business, or buy property, you&apos;ll need a CUIT 
                         (Clave Única de Identificación Tributaria). Apply at AFIP offices or online 
@@ -1700,25 +1702,25 @@ export default function VisasPage() {
                 <AccordionContent className="pb-6">
                   <div className="space-y-6">
                     <div>
-                      <h4 className="font-semibold mb-3">Visa Denied: Your Options</h4>
+                      <h3 className="font-semibold text-base mb-3">Visa Denied: Your Options</h3>
                       <div className="space-y-3">
                         <div className="p-3 border rounded-lg">
                           <div className="font-medium">1. Appeal the Decision (Recurso de Reposición)</div>
-                          <p className="text-sm text-muted-foreground">
+                          <p className="text-base md:text-sm text-muted-foreground">
                             You have 15 working days to file an appeal. Must be done through a lawyer. 
                             Success rate varies but is worth trying if you believe the denial was incorrect.
                           </p>
                         </div>
                         <div className="p-3 border rounded-lg">
                           <div className="font-medium">2. Reapply with Stronger Documentation</div>
-                          <p className="text-sm text-muted-foreground">
+                          <p className="text-base md:text-sm text-muted-foreground">
                             Often faster than appeal. Address the specific reason for denial and submit 
                             a new application with additional supporting documents.
                           </p>
                         </div>
                         <div className="p-3 border rounded-lg">
                           <div className="font-medium">3. Consider a Different Visa Type</div>
-                          <p className="text-sm text-muted-foreground">
+                          <p className="text-base md:text-sm text-muted-foreground">
                             If Digital Nomad was denied due to income, maybe Student visa works better? 
                             Or if Work visa fell through, maybe Investment if you have capital.
                           </p>
@@ -1727,7 +1729,7 @@ export default function VisasPage() {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold mb-3">Visa Expiring Soon?</h4>
+                      <h3 className="font-semibold text-base mb-3">Visa Expiring Soon?</h3>
                       <p className="text-muted-foreground mb-3">
                         Start renewal process 60 days before expiration. Overstaying even one day 
                         can result in fines and future entry bans.
@@ -1737,7 +1739,7 @@ export default function VisasPage() {
                           <Icon name="alert-triangle" size="md" className="text-red-600 flex-shrink-0" />
                           <div>
                             <h5 className="font-semibold text-red-900">Emergency: Already Overstayed?</h5>
-                            <p className="text-red-800 text-sm mt-1">
+                            <p className="text-red-800 text-base md:text-sm mt-1">
                               Go to Migraciones immediately to regularize your situation. 
                               You&apos;ll pay a fine (approximately ARS $150,000-300,000 depending on length) 
                               but it&apos;s much better than getting caught at the border. 
@@ -1749,7 +1751,7 @@ export default function VisasPage() {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold mb-3">Lost or Stolen Documents</h4>
+                      <h3 className="font-semibold text-base mb-3">Lost or Stolen Documents</h3>
                       <p className="text-muted-foreground">
                         If your passport with visa is lost/stolen: File a police report immediately, 
                         contact your embassy for a new passport, then visit Migraciones with the police 
@@ -1856,7 +1858,7 @@ export default function VisasPage() {
                     <h3 className="font-semibold text-amber-900 dark:text-amber-100 mb-2">
                       Important Legal Notice
                     </h3>
-                    <p className="text-amber-800 dark:text-amber-200 text-sm">
+                    <p className="text-amber-800 dark:text-amber-200 text-base md:text-sm">
                       Visa requirements, fees, and processing times change frequently. 
                       This guide reflects information current as of 2025 but should not be 
                       considered legal advice. Always verify current requirements on the official{" "}

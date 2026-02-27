@@ -199,7 +199,7 @@ export default function Home() {
             </div>
 
             {/* Trust Badges */}
-            <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
+            <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-base md:text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <CheckCircleIcon size="sm" className="text-green-500" />
                 <span>24 provinces, 15+ city guides</span>
@@ -224,7 +224,7 @@ export default function Home() {
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary">{stat.value}</div>
-                <div className="text-sm text-muted-foreground mt-1">{stat.label}</div>
+                <div className="text-base md:text-sm text-muted-foreground mt-1">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -259,7 +259,7 @@ export default function Home() {
                         <Badge className={`${region.color} text-white border-0`}>
                           {region.name}
                         </Badge>
-                        <span className="text-sm text-muted-foreground">
+                        <span className="text-base md:text-sm text-muted-foreground">
                           {regionProvinces.length} provinces
                         </span>
                       </div>
@@ -272,18 +272,18 @@ export default function Home() {
                         {regionProvinces.slice(0, 4).map((p) => (
                           <span
                             key={p.slug}
-                            className="text-sm bg-muted px-2.5 py-1 rounded-full text-muted-foreground"
+                            className="text-base md:text-sm bg-muted px-2.5 py-1 rounded-full text-muted-foreground"
                           >
                             {p.name.replace(" (CABA)", "")}
                           </span>
                         ))}
                         {regionProvinces.length > 4 && (
-                          <span className="text-sm bg-muted px-2.5 py-1 rounded-full text-muted-foreground">
+                          <span className="text-base md:text-sm bg-muted px-2.5 py-1 rounded-full text-muted-foreground">
                             +{regionProvinces.length - 4} more
                           </span>
                         )}
                       </div>
-                      <div className="mt-4 inline-flex items-center text-sm font-medium text-primary group-hover:underline">
+                      <div className="mt-4 inline-flex items-center text-base md:text-sm font-medium text-primary group-hover:underline">
                         Explore region
                         <ArrowRightIcon size="sm" className="ml-1" />
                       </div>
@@ -325,17 +325,17 @@ export default function Home() {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                       <div className="absolute bottom-4 left-4 right-4">
                         <h3 className="text-xl font-bold text-white">{city.name}</h3>
-                        <p className="text-white/80 text-sm">{city.province}</p>
+                        <p className="text-white/80 text-base md:text-sm">{city.province}</p>
                       </div>
                     </div>
                     <CardContent className="pt-4">
-                      <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                      <div className="flex items-center gap-2 text-base md:text-sm text-muted-foreground mb-3">
                         <DollarSignIcon size="sm" className="text-primary" />
                         <span>{city.costOfLiving}</span>
                       </div>
                       <div className="flex flex-wrap gap-1.5">
                         {city.bestFor.slice(0, 3).map((tag) => (
-                          <Badge key={tag} variant="secondary" className="text-xs font-normal">
+                          <Badge key={tag} variant="secondary" className="text-sm font-normal">
                             {tag}
                           </Badge>
                         ))}
@@ -370,7 +370,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-2">{reason.title}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <p className="text-muted-foreground text-base md:text-sm leading-relaxed">
                     {reason.description}
                   </p>
                 </div>
@@ -402,16 +402,16 @@ export default function Home() {
                 <Link key={province.slug} href={`/provinces/${province.slug}`} className="group">
                   <Card className="h-full group-hover:shadow-md transition-shadow p-4">
                     <div className="flex items-start justify-between gap-2 mb-2">
-                      <h3 className="font-semibold text-sm leading-tight group-hover:text-primary transition-colors">
+                      <h3 className="font-semibold text-base md:text-sm leading-tight group-hover:text-primary transition-colors">
                         {province.name}
                       </h3>
                       <Badge
-                        className={`${region?.color || "bg-gray-500"} text-white border-0 text-xs px-1.5 py-0.5 flex-shrink-0`}
+                        className={`${region?.color || "bg-gray-500"} text-white border-0 text-sm px-2 py-0.5 flex-shrink-0`}
                       >
                         {province.region}
                       </Badge>
                     </div>
-                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-1 text-base md:text-sm text-muted-foreground">
                       <DollarSignIcon size="sm" className="w-3.5 h-3.5" />
                       <span>{province.costRange}</span>
                     </div>
@@ -444,12 +444,12 @@ export default function Home() {
                     <guide.icon size="md" className="text-primary" />
                   </div>
                   <CardTitle className="text-lg">{guide.title}</CardTitle>
-                  <CardDescription>{guide.description}</CardDescription>
+                  <CardDescription className="text-base md:text-sm">{guide.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <Link
                     href={guide.href}
-                    className="inline-flex items-center text-sm font-medium text-primary hover:underline"
+                    className="inline-flex items-center text-base md:text-sm font-medium text-primary hover:underline"
                   >
                     Read the guide
                     <ArrowRightIcon size="sm" className="ml-1" />
@@ -489,7 +489,7 @@ export default function Home() {
                 <ArrowRightIcon size="sm" />
               </Button>
             </form>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-base md:text-sm text-muted-foreground mt-4">
               Join thousands of expats getting the weekly Argentina update. Unsubscribe anytime.
             </p>
           </div>
@@ -533,7 +533,7 @@ export default function Home() {
       {/* Legal Disclaimer */}
       <section className="py-8 border-t">
         <div className="container mx-auto px-4">
-          <div className="flex items-start gap-3 max-w-3xl mx-auto text-sm text-muted-foreground">
+          <div className="flex items-start gap-3 max-w-3xl mx-auto text-base md:text-sm text-muted-foreground">
             <ShieldIcon size="md" className="flex-shrink-0 mt-0.5" />
             <p>
               <strong>Disclaimer:</strong> The information on this site is for general

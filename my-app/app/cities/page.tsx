@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     title: "Best Cities for Expats in Argentina",
     description:
       "Compare Argentina's top expat cities — cost of living, safety, climate, internet, and lifestyle.",
+    images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
   },
 };
 
@@ -44,7 +45,7 @@ export default function CitiesPage() {
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
-          <nav className="flex gap-2 text-sm text-muted-foreground">
+          <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
             </Link>
@@ -129,20 +130,20 @@ export default function CitiesPage() {
                         <Badge
                           key={tag}
                           variant="secondary"
-                          className="text-xs"
+                          className="text-sm"
                         >
                           {tag}
                         </Badge>
                       ))}
                       {city.bestFor.length > 3 && (
-                        <Badge variant="outline" className="text-xs">
+                        <Badge variant="outline" className="text-sm">
                           +{city.bestFor.length - 3} more
                         </Badge>
                       )}
                     </div>
 
                     {/* CTA */}
-                    <div className="flex items-center gap-1 text-sm font-medium text-primary mt-auto pt-2">
+                    <div className="flex items-center gap-1 text-base md:text-sm font-medium text-primary mt-auto pt-2">
                       <span>Explore {city.name}</span>
                       <ArrowRightIcon
                         size="sm"

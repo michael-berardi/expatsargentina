@@ -72,7 +72,7 @@ export default async function CityDetailPage({
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
-          <nav className="flex gap-2 text-sm text-muted-foreground">
+          <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
             </Link>
@@ -101,7 +101,7 @@ export default async function CityDetailPage({
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 text-white/80 mb-4">
               <MapPinIcon size="sm" />
-              <span className="text-sm font-medium">{city.province}, Argentina</span>
+              <span className="text-base md:text-sm font-medium">{city.province}, Argentina</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
               {city.name}
@@ -131,10 +131,10 @@ export default async function CityDetailPage({
             {city.keyFacts.map((fact) => (
               <Card key={fact.label} className="text-center">
                 <CardContent className="pt-6">
-                  <div className="text-sm text-muted-foreground mb-1">
+                  <div className="text-base md:text-sm text-muted-foreground mb-1">
                     {fact.label}
                   </div>
-                  <div className="font-semibold">{fact.value}</div>
+                  <div className="font-semibold text-base md:text-sm">{fact.value}</div>
                 </CardContent>
               </Card>
             ))}
@@ -232,7 +232,7 @@ export default async function CityDetailPage({
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-base md:text-sm text-muted-foreground">
                       {hood.vibe}
                     </p>
                   </CardContent>
@@ -258,13 +258,13 @@ export default async function CityDetailPage({
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
-                    <div className="text-sm text-muted-foreground mb-1">
+                    <div className="text-base md:text-sm text-muted-foreground mb-1">
                       Climate Type
                     </div>
                     <p className="font-medium">{city.climate}</p>
                   </div>
                   <div>
-                    <div className="text-sm text-muted-foreground mb-1">
+                    <div className="text-base md:text-sm text-muted-foreground mb-1">
                       Average Temperature
                     </div>
                     <p className="font-medium">{city.averageTemp}</p>
@@ -282,7 +282,7 @@ export default async function CityDetailPage({
                 </CardHeader>
                 <CardContent>
                   <div>
-                    <div className="text-sm text-muted-foreground mb-1">
+                    <div className="text-base md:text-sm text-muted-foreground mb-1">
                       Internet Speed
                     </div>
                     <p className="font-medium">{city.internetSpeed}</p>
@@ -300,7 +300,7 @@ export default async function CityDetailPage({
                 </CardHeader>
                 <CardContent>
                   <div>
-                    <div className="text-sm text-muted-foreground mb-1">
+                    <div className="text-base md:text-sm text-muted-foreground mb-1">
                       Safety Rating
                     </div>
                     <p className="font-medium">{city.safetyRating}</p>
@@ -342,7 +342,7 @@ export default async function CityDetailPage({
               {city.highlights.map((highlight) => (
                 <div
                   key={highlight}
-                  className="flex items-start gap-2 text-sm"
+                  className="flex items-start gap-2 text-base md:text-sm"
                 >
                   <CheckCircleIcon
                     size="sm"
@@ -363,7 +363,7 @@ export default async function CityDetailPage({
             <div className="flex items-center gap-3">
               <GlobeIcon size="md" className="text-primary" />
               <div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-base md:text-sm text-muted-foreground">
                   Part of
                 </div>
                 <div className="font-semibold">{city.province} Province</div>

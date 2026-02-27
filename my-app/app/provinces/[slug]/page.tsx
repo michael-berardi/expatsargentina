@@ -107,7 +107,7 @@ export default async function ProvinceDetailPage({
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
-          <nav className="flex gap-2 text-sm text-muted-foreground">
+          <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
             </Link>
@@ -160,10 +160,10 @@ export default async function ProvinceDetailPage({
                 className="text-center bg-muted/30 border-muted"
               >
                 <CardContent className="pt-6 pb-4">
-                  <div className="text-sm text-muted-foreground mb-1">
+                  <div className="text-base md:text-sm text-muted-foreground mb-1">
                     {fact.label}
                   </div>
-                  <div className="font-semibold text-sm">{fact.value}</div>
+                  <div className="font-semibold text-base md:text-sm">{fact.value}</div>
                 </CardContent>
               </Card>
             ))}
@@ -291,7 +291,7 @@ export default async function ProvinceDetailPage({
                         {cityData && (
                           <Link
                             href={`/cities/${cityData.slug}`}
-                            className="text-sm text-primary hover:underline flex items-center gap-1"
+                            className="text-base md:text-sm text-primary hover:underline flex items-center gap-1"
                           >
                             Guide
                             <ArrowRightIcon size="sm" />

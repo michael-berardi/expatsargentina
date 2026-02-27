@@ -55,9 +55,14 @@ export function Footer() {
               </div>
               <span className="font-bold text-xl">Expats Argentina</span>
             </Link>
-            <p className="text-sm text-muted-foreground max-w-xs">
+            <p className="text-base md:text-sm text-muted-foreground max-w-xs">
               Your comprehensive guide to living anywhere in Argentina.
               Explore 24 provinces, 15+ city guides, visa information, and practical advice.
+            </p>
+            <p className="text-base md:text-sm text-muted-foreground mt-3">
+              <a href="mailto:hello@expatsargentina.com" className="hover:text-foreground transition-colors">
+                hello@expatsargentina.com
+              </a>
             </p>
           </div>
 
@@ -69,7 +74,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.label}
                   </Link>
@@ -86,7 +91,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.label}
                   </Link>
@@ -103,7 +108,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.label}
                   </Link>
@@ -120,7 +125,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.label}
                   </Link>
@@ -137,7 +142,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    className="text-base md:text-sm text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.label}
                   </Link>
@@ -150,10 +155,10 @@ export function Footer() {
         <Separator className="my-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Expats Argentina. All rights reserved.
+          <p className="text-base md:text-sm text-muted-foreground">
+            &copy; {new Date().getFullYear()} Expats Argentina. All rights reserved.
           </p>
-          <p className="text-xs text-muted-foreground text-center md:text-right">
+          <p className="text-sm text-muted-foreground text-center md:text-right">
             Sponsored by{" "}
             <Link href="https://lucerolegal.com" className="underline hover:text-foreground">
               Lucero Legal

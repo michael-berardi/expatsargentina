@@ -108,13 +108,42 @@
   }
 
   /* Ensure WCAG 1.4.12 line-height minimum (1.5x) for body text */
-  p, li, dd, blockquote, figcaption {
+  p, li, dd, blockquote, figcaption, td, th, label {
     line-height: 1.6;
+  }
+
+  /* Card titles need accessible line-height (overrides Tailwind text-xl) */
+  [data-slot="card-title"] {
+    line-height: 1.5 !important;
   }
 
   /* Focus styles for keyboard accessibility */
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-ring;
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  /* Minimum touch target size (WCAG 2.5.5) */
+  a, button, [role="button"], input, select, textarea, summary {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Allow inline links to be smaller but keep adequate line-height */
+  p a, li a, td a, span a, .prose a {
+    min-height: auto;
+    min-width: auto;
+  }
+
+  /* Breadcrumb and nav links need adequate padding */
+  nav a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
 
   /* Skip navigation link */
@@ -132,6 +161,18 @@
       scroll-behavior: auto !important;
     }
   }
+}
+
+/* Focus indicators for all interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[role="button"]:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
 }
 
 /* Custom scrollbar */
