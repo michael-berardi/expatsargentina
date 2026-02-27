@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     description: "The ultimate guide to Argentine steakhouses—from Don Julio to hidden local gems.",
     images: [{ url: "/images/restaurants/parrillas.webp", width: 1200, height: 630 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/food/restaurants/best-parrillas" },
 };
 
 const priceColors = {

@@ -37,6 +37,7 @@ export const metadata: Metadata = {
   title: "Leaving Argentina: A Complete Guide | Expats Argentina",
   description: "Everything you need to know about leaving Argentina temporarily or permanently. From practical preparations to emotional readiness.",
   keywords: ["leaving Argentina", "emigrar Argentina", "expat departure", "Argentina exit guide", "reverse culture shock"],
+  alternates: { canonical: "https://expatsargentina.com/leaving" },
 };
 
 const whyPeopleLeave = [

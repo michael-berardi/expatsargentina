@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     description: "Discover the best restaurants in Bariloche, from lakeside fine dining to traditional Patagonian cuisine.",
     images: [{ url: "/images/cities/bariloche.webp", width: 1200, height: 630 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/food/restaurants/bariloche" },
 };
 
 const priceColors = {

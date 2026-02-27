@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "About Expats Argentina - Our Team Across the Country",
   description: "Expats Argentina is run by a team of expats living across Argentina -- from Buenos Aires to Bariloche, Mendoza to Salta. Honest, comprehensive guides for every corner of the country.",
   keywords: ["about Expats Argentina", "expat team Argentina", "living in Argentina", "Argentina expat guide"],
+  alternates: {
+    canonical: "https://expatsargentina.com/about",
+  },
 };
 
 const teamLocations = [

@@ -41,7 +41,7 @@ const footerLinks = {
     { labelKey: "About Us", href: "/about" },
     { labelKey: "navigation.contactUs", href: "/contact" },
     { labelKey: "Privacy Policy", href: "/privacy" },
-    { labelKey: "Site Map", href: "/sitemap" },
+    { labelKey: "Site Map", href: "/site-map" },
   ],
 };
 

@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     description: "Discover the best restaurants in Mendoza, from fine dining wineries to local gems.",
     images: [{ url: "/images/cities/mendoza.webp", width: 1200, height: 630 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/food/restaurants/mendoza" },
 };
 
 const priceColors = {

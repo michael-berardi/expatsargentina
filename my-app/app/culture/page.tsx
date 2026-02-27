@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   title: "Argentine Culture & Social Norms - A Guide for Expats",
   description: "The unwritten rules of Argentine culture. Learn about mate etiquette, social customs, the kiss greeting, time schedules, and how to avoid looking like a tourist.",
   keywords: ["Argentine culture", "Argentina social norms", "mate etiquette", "Buenos Aires customs", "expat guide Argentina"],
+  alternates: { canonical: "https://expatsargentina.com/culture" },
 };
 
 const timeAndSchedules = [

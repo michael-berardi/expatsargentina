@@ -31,6 +31,7 @@ export const metadata: Metadata = {
     "lunfardo slang",
     "ll pronounced sh",
   ],
+  alternates: { canonical: "https://expatsargentina.com/learn-spanish" },
 };
 
 const lunfardoTerms = [

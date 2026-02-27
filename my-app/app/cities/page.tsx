@@ -30,6 +30,7 @@ export const metadata: Metadata = {
       "Compare Argentina's top expat cities — cost of living, safety, climate, internet, and lifestyle.",
     images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/cities" },
 };
 
 // Sort: Buenos Aires first, then alphabetically by name

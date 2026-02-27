@@ -37,6 +37,7 @@ export const metadata: Metadata = {
     title: "First 30 Days in Buenos Aires - The Real Survival Guide",
     description: "Week-by-week guide for your first month. What nobody tells you about arriving in Buenos Aires.",
   },
+  alternates: { canonical: "https://expatsargentina.com/first-30-days" },
 };
 
 const week1Tasks = [

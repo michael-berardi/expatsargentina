@@ -26,6 +26,7 @@ export const metadata: Metadata = {
   title: "Dating & Social Life in Buenos Aires - A Guide for Expats",
   description: "Navigate dating, making friends, and nightlife in Buenos Aires. Real talk on dating apps, Argentine dating culture, meeting people, and surviving the boliche scene.",
   keywords: ["Buenos Aires dating", "Argentina dating culture", "expat friends Buenos Aires", "BA nightlife", "boliche", "language exchange BA"],
+  alternates: { canonical: "https://expatsargentina.com/social-life" },
 };
 
 const datingApps = [

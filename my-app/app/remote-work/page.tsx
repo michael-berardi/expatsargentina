@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Remote Work & Digital Nomad Guide | Buenos Aires",
   description: "The real deal on working remotely from Buenos Aires. Internet speeds, coworking spaces, money management, and community for digital nomads.",
   keywords: "remote work Buenos Aires, digital nomad Argentina, coworking BA, internet speed Palermo, nomad community",
+  alternates: { canonical: "https://expatsargentina.com/remote-work" },
 };
 
 export default function RemoteWorkPage() {

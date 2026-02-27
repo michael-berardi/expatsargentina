@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     description: "The definitive guide to Buenos Aires dining—from world-famous parrillas to hidden local gems.",
     images: [{ url: "/images/restaurants/buenos-aires-dining.webp", width: 1200, height: 630 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/food/restaurants/buenos-aires" },
 };
 
 const priceLabels = {

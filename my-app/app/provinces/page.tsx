@@ -35,6 +35,7 @@ export const metadata: Metadata = {
       "Discover all 24 provinces of Argentina. Compare cost of living, climate, safety, and expat appeal across every region.",
     images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/provinces" },
 };
 
 const regionTextColors: Record<Region, string> = {

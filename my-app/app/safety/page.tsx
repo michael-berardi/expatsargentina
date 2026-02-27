@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "2026 safety reality: Palermo, Recoleta & Belgrano are very safe. Petty theft is the main risk—not violent crime. Practical, honest advice.",
     type: "article",
   },
+  alternates: { canonical: "https://expatsargentina.com/safety" },
 };
 
 export default function SafetyPage() {

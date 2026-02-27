@@ -8,6 +8,7 @@ import { MailIcon, CheckCircleIcon, ArrowRightIcon } from "@/components/ui/icon"
 export const metadata: Metadata = {
   title: "Newsletter - Weekly Updates from Buenos Aires",
   description: "Get weekly emails about life in Buenos Aires. Real updates on prices, events, and expat life from someone who actually lives here.",
+  alternates: { canonical: "https://expatsargentina.com/newsletter" },
 };
 
 const pastNewsletters = [

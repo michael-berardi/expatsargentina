@@ -42,6 +42,7 @@ export const metadata: Metadata = {
       "Comprehensive guide to investing in Argentina's key sectors: real estate, agriculture, mining, energy, technology, and tourism. Updated for 2025 economic reforms.",
     images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/investments" },
 };
 
 const sectorIcons: Record<string, React.ElementType> = {

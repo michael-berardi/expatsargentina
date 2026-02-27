@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Expat Stories - Real Experiences Living in Argentina",
   description: "Real stories from expats living in Argentina. Learn from their experiences, challenges, and advice for moving to Buenos Aires.",
   keywords: ["expat stories Argentina", "living in Buenos Aires experience", "move to Argentina stories"],
+  alternates: { canonical: "https://expatsargentina.com/stories" },
 };
 
 const stories = [

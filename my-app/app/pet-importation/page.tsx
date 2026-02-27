@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Bringing Pets to Argentina 2026 - Complete Import Guide",
   description: "Complete guide to bringing cats and dogs to Argentina. Health certificates, vaccinations, quarantine rules (spoiler: there isn't one), and airline requirements.",
   keywords: ["bring pet to Argentina", "dog import Argentina", "cat import Argentina", "pet quarantine Argentina", "pet travel requirements Argentina"],
+  alternates: {
+    canonical: "https://expatsargentina.com/pet-importation",
+  },
 };
 
 const requirements = [

@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     description: "Discover the best restaurants in Córdoba, from traditional favorites to contemporary dining.",
     images: [{ url: "/images/cities/cordoba.webp", width: 1200, height: 630 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/food/restaurants/cordoba" },
 };
 
 const priceColors = {

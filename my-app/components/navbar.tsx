@@ -53,7 +53,7 @@ export function Navbar() {
     { title: "Cordoba", href: "/cities/cordoba", description: locale === 'es' ? "Ciudad universitaria con ambiente joven" : "University town with a young vibe" },
     { title: "Bariloche", href: "/cities/bariloche", description: locale === 'es' ? "Paraíso patagónico junto al lago" : "Patagonian lakeside paradise" },
     { title: "Salta", href: "/cities/salta", description: locale === 'es' ? "Vida asequible con rica cultura" : "Affordable living with rich culture" },
-    { title: "Rosario", href: "/cities/rosar", description: locale === 'es' ? "Ciudad ribereña con gran comida" : "Riverside city with great food" },
+    { title: "Rosario", href: "/cities/rosario", description: locale === 'es' ? "Ciudad ribereña con gran comida" : "Riverside city with great food" },
   ];
 
   const visaItems = [

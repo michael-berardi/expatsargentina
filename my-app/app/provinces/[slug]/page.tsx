@@ -75,6 +75,9 @@ export async function generateMetadata({
       description: desc,
       images: [{ url: province.image, width: 1200, height: 630 }],
     },
+    alternates: {
+      canonical: `https://expatsargentina.com/provinces/${province.slug}`,
+    },
   };
 }
 
@@ -102,8 +105,19 @@ export default async function ProvinceDetailPage({
 
   const cities = getCitiesByProvince(province.slug);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://expatsargentina.com" },
+      { "@type": "ListItem", position: 2, name: "Provinces", item: "https://expatsargentina.com/provinces" },
+      { "@type": "ListItem", position: 3, name: province.name, item: `https://expatsargentina.com/provinces/${province.slug}` },
+    ],
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">

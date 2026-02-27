@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     description: "Learn to cook authentic Argentine dishes with our step-by-step recipes and local tips.",
     images: [{ url: "/images/recipes/empanadas.webp", width: 1200, height: 630 }],
   },
+  alternates: { canonical: "https://expatsargentina.com/food/recipes" },
 };
 
 const difficultyColors = {

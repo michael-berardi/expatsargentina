@@ -690,6 +690,504 @@ export const recipes: Recipe[] = [
       "If the flip goes wrong, don't panic. Just scrape it back together and press into shape—it will taste the same.",
       "Tortilla is best at room temperature. Making it ahead actually improves the flavor."
     ]
+  },
+  {
+    slug: "choripan",
+    name: "Choripán",
+    spanishName: "Choripán",
+    description: "Argentina's iconic street food — a grilled chorizo sausage split and served in crusty bread with chimichurri. Found at every asado, football match, and street corner. Simple, messy, and absolutely essential.",
+    seoKeywords: ["choripan recipe", "argentine street food", "chorizo sandwich", "choripan chimichurri", "argentine chorizo bread"],
+    category: "main",
+    region: "National (especially Buenos Aires)",
+    difficulty: "easy",
+    prepTime: "5 min",
+    cookTime: "15 min",
+    totalTime: "20 min",
+    servings: 4,
+    image: "/images/recipes/choripan.webp",
+    calories: 450,
+    protein: 22,
+    carbs: 35,
+    fat: 28,
+    history: "Choripán is a portmanteau of 'chorizo' and 'pan' (bread). It originated as gaucho food on the pampas, where ranch workers would grill chorizos over open fires and eat them in bread. Today it's Argentina's most beloved street food, sold at every event from Boca Juniors matches to protests in Plaza de Mayo. The choripán vendor (choripanero) is a cultural institution.",
+    whereToFind: [
+      "Costanera Sur vendors (Buenos Aires) — legendary street carts",
+      "Any asado gathering — always the first thing served",
+      "Football stadium vendors — the authentic experience",
+      "Feria de Mataderos — Sunday market tradition"
+    ],
+    storageInstructions: "Best served immediately. Leftover chorizos can be refrigerated for 2 days and reheated on the grill or in a pan.",
+    winePairing: "Malbec from Mendoza or a cold Quilmes lager",
+    ingredients: [
+      {
+        section: "Main",
+        items: [
+          "4 fresh Argentine chorizos (pork and beef blend)",
+          "4 crusty bread rolls (pan francés) or a baguette cut into portions",
+          "Chimichurri sauce (see our chimichurri recipe)"
+        ]
+      },
+      {
+        section: "Optional toppings",
+        items: [
+          "Salsa criolla (diced tomato, onion, bell pepper in vinegar)",
+          "Mayonnaise",
+          "Mustard"
+        ]
+      }
+    ],
+    instructions: [
+      "Heat your grill to medium-high heat. If using charcoal, wait until coals are ashed over.",
+      "Butterfly each chorizo by slicing lengthwise almost through, keeping one side connected.",
+      "Place chorizos on the grill, cut side down first, for 5-7 minutes.",
+      "Flip and grill another 5-7 minutes until cooked through and nicely charred.",
+      "While chorizos grill, place bread rolls on the cooler side of the grill to toast lightly.",
+      "Place the grilled chorizo in the toasted bread.",
+      "Spoon generous chimichurri over the chorizo.",
+      "Eat immediately, over a plate — it will drip. That's correct."
+    ],
+    tips: [
+      "Never prick the chorizo before grilling — you want to keep all the juices inside.",
+      "Butterflying the chorizo ensures even cooking and creates more surface area for chimichurri.",
+      "The bread should be crusty on the outside, soft inside. Don't over-toast it.",
+      "Make chimichurri at least 30 minutes ahead so flavors develop.",
+      "At an asado, choripán is always served first as an appetizer while the main meats cook."
+    ]
+  },
+  {
+    slug: "dulce-de-leche",
+    name: "Dulce de Leche",
+    spanishName: "Dulce de Leche Casero",
+    description: "Argentina's national confection — slow-cooked caramelized milk that's used in everything from alfajores to ice cream to eating straight from the jar with a spoon. Making it from scratch takes patience but the result is incomparably better than store-bought.",
+    seoKeywords: ["dulce de leche recipe", "homemade dulce de leche", "argentine caramel", "how to make dulce de leche", "dulce de leche from scratch"],
+    category: "dessert",
+    region: "National",
+    difficulty: "easy",
+    prepTime: "5 min",
+    cookTime: "3 hours",
+    totalTime: "3 hours 5 min",
+    servings: 16,
+    image: "/images/recipes/dulce-de-leche.webp",
+    calories: 120,
+    protein: 3,
+    carbs: 20,
+    fat: 3,
+    history: "Dulce de leche's origin is disputed between Argentina and Uruguay, but both countries claim it as their own. The most popular origin story involves a maid who accidentally left a pot of milk and sugar on the fire in 1829 while making lechada for General Rosas. When she returned, the mixture had caramelized into dulce de leche. Argentines consume over 3 kg per person per year — it's in alfajores, pancakes, ice cream, cakes, and eaten by the spoonful.",
+    whereToFind: [
+      "Every supermarket in Argentina — La Serenísima and SanCor are the top brands",
+      "Havanna stores — premium quality, great gift boxes",
+      "Any heladería — dulce de leche is always the #1 ice cream flavor"
+    ],
+    storageInstructions: "Store in sealed glass jars in the refrigerator for up to 3 weeks. Can also be frozen for up to 3 months. Bring to room temperature before using for easier spreading.",
+    ingredients: [
+      {
+        section: "Stovetop method",
+        items: [
+          "1 liter (4 cups) whole milk",
+          "300g (1.5 cups) white sugar",
+          "1 tsp vanilla extract",
+          "1/2 tsp baking soda dissolved in 1 tbsp water",
+          "Pinch of salt"
+        ]
+      }
+    ],
+    instructions: [
+      "Combine milk, sugar, and salt in a large, heavy-bottomed pot over medium heat.",
+      "Stir constantly until the sugar dissolves completely.",
+      "When the mixture begins to simmer, add the baking soda mixture — it will foam up, this is normal.",
+      "Reduce heat to low. The mixture should barely simmer — tiny bubbles, not a rolling boil.",
+      "Stir every 10-15 minutes, scraping the bottom and sides to prevent sticking.",
+      "After about 1.5 hours, the mixture will start to thicken and turn golden. Stir more frequently now.",
+      "Continue cooking for another 1-1.5 hours, stirring constantly in the final 30 minutes.",
+      "The dulce de leche is ready when it's thick, deeply caramel-colored, and coats the back of a spoon.",
+      "Add vanilla extract and stir well.",
+      "Remove from heat and let cool. It will thicken further as it cools.",
+      "Transfer to clean glass jars."
+    ],
+    tips: [
+      "Low and slow is the absolute key. High heat will burn the bottom and give a bitter taste.",
+      "The baking soda helps with color development and prevents the milk proteins from curdling.",
+      "Test doneness by dropping a small amount on a cold plate — it should hold its shape without spreading.",
+      "If you want a shortcut, you can simmer an unopened can of condensed milk in water for 3 hours — but homemade is noticeably better.",
+      "Stir with a wooden spoon — metal can react with the milk acids.",
+      "The color should be deep amber, not dark brown. If it gets too dark, it will be bitter."
+    ]
+  },
+  {
+    slug: "medialunas",
+    name: "Medialunas",
+    spanishName: "Medialunas de Manteca",
+    description: "Argentina's beloved breakfast pastry — a buttery, slightly sweet crescent that's smaller and sweeter than a French croissant. Enjoyed with café con leche at every corner cafe in Buenos Aires.",
+    seoKeywords: ["medialunas recipe", "argentine croissant", "medialunas de manteca", "buenos aires breakfast", "argentine pastry recipe"],
+    category: "dessert",
+    region: "National (especially Buenos Aires)",
+    difficulty: "hard",
+    prepTime: "2 hours",
+    cookTime: "20 min",
+    totalTime: "6 hours (including rising)",
+    servings: 24,
+    image: "/images/recipes/medialunas.webp",
+    calories: 180,
+    protein: 4,
+    carbs: 22,
+    fat: 9,
+    history: "Medialunas (literally 'half moons') arrived in Argentina with Italian and French immigrants in the late 19th century. They evolved into something distinctly Argentine — smaller, sweeter, and glossier than French croissants, with a signature sugar syrup glaze. There are two types: 'de manteca' (butter, the premium version) and 'de grasa' (lard, more traditional). Every corner panadería makes them fresh daily, and no Argentine breakfast is complete without them alongside café con leche.",
+    whereToFind: [
+      "Any panadería (bakery) in Argentina — they're everywhere",
+      "Café Tortoni (Buenos Aires) — classic experience",
+      "Le Pain Quotidien (Buenos Aires) — upscale version",
+      "La Giralda (Buenos Aires) — famous for their chocolate con churros and medialunas"
+    ],
+    storageInstructions: "Best eaten the day they're made. Freeze unbaked medialunas for up to 1 month — thaw overnight and bake fresh. Day-old medialunas can be refreshed in a 350°F oven for 5 minutes.",
+    ingredients: [
+      {
+        section: "Dough",
+        items: [
+          "500g (4 cups) all-purpose flour",
+          "60g (1/4 cup) sugar",
+          "10g (1.5 tsp) salt",
+          "15g (2 packets) active dry yeast",
+          "200ml (3/4 cup + 2 tbsp) warm milk",
+          "2 eggs",
+          "50g (3.5 tbsp) softened butter"
+        ]
+      },
+      {
+        section: "Butter block",
+        items: [
+          "250g (1 cup + 2 tbsp) cold butter, shaped into a flat rectangle"
+        ]
+      },
+      {
+        section: "Syrup glaze",
+        items: [
+          "200g (1 cup) sugar",
+          "100ml (1/3 cup + 1 tbsp) water",
+          "1 tsp vanilla extract"
+        ]
+      }
+    ],
+    instructions: [
+      "Dissolve yeast in warm milk with a pinch of sugar. Let sit 10 minutes until foamy.",
+      "In a large bowl, combine flour, sugar, and salt. Add yeast mixture, eggs, and softened butter.",
+      "Knead for 10 minutes until smooth and elastic. The dough should be slightly tacky.",
+      "Cover and refrigerate for 1 hour.",
+      "Roll the cold dough into a large rectangle. Place the butter block in the center.",
+      "Fold the dough over the butter (like a letter), enclosing it completely.",
+      "Roll out and fold in thirds. Wrap and refrigerate 30 minutes. Repeat this 2 more times.",
+      "After the final fold and rest, roll the dough to 5mm (1/4 inch) thickness.",
+      "Cut into triangles (base about 10cm/4 inches wide).",
+      "Roll each triangle from base to tip, curving the ends into a crescent shape.",
+      "Place on lined baking sheets, cover, and let rise 1-2 hours until doubled.",
+      "Brush with egg wash (1 egg beaten with 1 tbsp milk).",
+      "Bake at 200°C (400°F) for 15-18 minutes until deep golden.",
+      "While baking, make the syrup: boil sugar and water until slightly thickened, add vanilla.",
+      "Brush hot medialunas generously with the sugar syrup immediately after baking.",
+      "Let cool slightly before serving — they're best warm."
+    ],
+    tips: [
+      "Keep the butter cold during lamination — if it softens, put everything back in the fridge.",
+      "The sugar syrup glaze is what makes medialunas different from croissants — don't skip it.",
+      "The dough should be less buttery than French croissant dough — medialunas are a bit more bread-like.",
+      "Real panaderías use a mix of butter and lard ('de grasa') for a more traditional flavor.",
+      "Don't over-proof — they should be puffy but not fragile, or they'll collapse in the oven.",
+      "Eat with café con leche for the authentic Argentine breakfast experience."
+    ]
+  },
+  {
+    slug: "flan-casero",
+    name: "Flan Casero with Dulce de Leche",
+    spanishName: "Flan Casero con Dulce de Leche",
+    description: "Argentina's most popular dessert — a silky, caramel-topped custard served with a generous spoonful of dulce de leche and whipped cream. Found on every restaurant menu in the country.",
+    seoKeywords: ["flan casero recipe", "argentine flan", "flan con dulce de leche", "flan recipe easy", "argentine dessert"],
+    category: "dessert",
+    region: "National",
+    difficulty: "medium",
+    prepTime: "15 min",
+    cookTime: "1 hour",
+    totalTime: "5 hours (including chilling)",
+    servings: 8,
+    image: "/images/recipes/flan-casero.webp",
+    calories: 280,
+    protein: 8,
+    carbs: 38,
+    fat: 11,
+    history: "Flan came to Argentina from Spain, but Argentines elevated it by pairing it with their beloved dulce de leche. In restaurants, you'll always be asked the critical question: '¿Mixto?' — meaning 'do you want it with both dulce de leche AND whipped cream?' The correct answer is always yes. Flan casero (homemade) is a point of pride for Argentine home cooks, and every family claims their recipe is the best.",
+    whereToFind: [
+      "Literally every parrilla and restaurant in Argentina",
+      "El Desnivel (San Telmo) — classic flan after a steak",
+      "El Obrero (La Boca) — legendary old-school restaurant",
+      "Any 'bodegón' (casual neighborhood restaurant)"
+    ],
+    storageInstructions: "Refrigerate for up to 3 days in the mold. Unmold only when ready to serve. Once unmolded, serve within a few hours.",
+    winePairing: "Late harvest Torrontés or a Muscatel from Mendoza",
+    ingredients: [
+      {
+        section: "Caramel",
+        items: [
+          "200g (1 cup) white sugar",
+          "3 tbsp water",
+          "1 tsp lemon juice"
+        ]
+      },
+      {
+        section: "Custard",
+        items: [
+          "6 large eggs",
+          "1 liter (4 cups) whole milk",
+          "200g (1 cup) sugar",
+          "2 tsp vanilla extract",
+          "Zest of 1 lemon (optional)"
+        ]
+      },
+      {
+        section: "Serving",
+        items: [
+          "Dulce de leche (generous amount)",
+          "Whipped cream"
+        ]
+      }
+    ],
+    instructions: [
+      "Make the caramel: Combine sugar, water, and lemon juice in a saucepan over medium heat.",
+      "Swirl the pan (don't stir) until the sugar turns deep amber, about 5-7 minutes.",
+      "Immediately pour the caramel into a flan mold or individual ramekins, tilting to coat the bottom evenly.",
+      "Let caramel harden while you prepare the custard.",
+      "Heat milk in a saucepan until warm (not boiling). Remove from heat.",
+      "In a large bowl, whisk eggs and sugar together until well combined — don't over-whisk or create foam.",
+      "Slowly pour the warm milk into the egg mixture, stirring constantly.",
+      "Add vanilla and lemon zest. Strain through a fine sieve to remove any lumps.",
+      "Pour the custard into the caramel-lined mold.",
+      "Place the mold in a larger baking dish. Fill the outer dish with hot water to reach halfway up the flan mold (baño María).",
+      "Bake at 160°C (325°F) for 50-60 minutes until set but slightly jiggly in the center.",
+      "Remove from water bath, cool to room temperature, then refrigerate at least 4 hours.",
+      "To unmold: Run a knife around the edge, place a plate on top, and flip. The caramel will cascade over the flan.",
+      "Serve with a generous spoon of dulce de leche and a dollop of whipped cream."
+    ],
+    tips: [
+      "Don't stir the caramel — swirl the pan gently. Stirring causes crystallization.",
+      "Strain the custard to catch any bits of egg that didn't fully incorporate — this is key for silky texture.",
+      "The water bath (baño María) is essential — it prevents the edges from overcooking.",
+      "The flan should wobble like jello when done. If it's firm throughout, it's overcooked.",
+      "When ordering in a restaurant, always say 'mixto' — you want dulce de leche AND crema.",
+      "Chill thoroughly before unmolding — at least 4 hours, ideally overnight."
+    ]
+  },
+  {
+    slug: "matambre-arrollado",
+    name: "Matambre Arrollado",
+    spanishName: "Matambre Arrollado",
+    description: "A spectacular Argentine party dish — thin flank steak rolled around a colorful filling of hard-boiled eggs, roasted peppers, olives, and herbs, then braised until tender. Served cold in beautiful pinwheel slices.",
+    seoKeywords: ["matambre arrollado recipe", "argentine rolled flank steak", "matambre recipe", "argentine party food", "cold meat roll argentina"],
+    category: "main",
+    region: "Pampas (Buenos Aires Province)",
+    difficulty: "hard",
+    prepTime: "45 min",
+    cookTime: "2 hours",
+    totalTime: "6 hours (including chilling)",
+    servings: 10,
+    image: "/images/recipes/matambre-arrollado.webp",
+    calories: 320,
+    protein: 28,
+    carbs: 5,
+    fat: 22,
+    history: "Matambre literally means 'mata hambre' — 'hunger killer.' It's the thin cut of meat between the hide and the ribs of the cow. In Argentina, matambre arrollado is a traditional cold appetizer served at celebrations, holidays, and family gatherings. The dish showcases the Argentine tradition of turning simple ingredients into something spectacular through patience and skill. Every family has their own filling combination.",
+    whereToFind: [
+      "Most rotiserías (deli/takeaway shops) sell it ready-made",
+      "Traditional parrillas serve it as a cold appetizer",
+      "Homemade at family celebrations and holidays"
+    ],
+    storageInstructions: "Refrigerate wrapped in plastic for up to 4 days. Slice cold just before serving. Do not freeze — the texture suffers.",
+    winePairing: "Bonarda from San Juan or a light Pinot Noir",
+    ingredients: [
+      {
+        section: "Main",
+        items: [
+          "1 matambre (thin flank steak), about 1.5 kg, pounded to even thickness",
+          "3 hard-boiled eggs, halved lengthwise",
+          "2 roasted red bell peppers, cut into strips",
+          "1 large carrot, blanched and cut into strips",
+          "1/2 cup green olives, pitted",
+          "4 cloves garlic, minced",
+          "1/4 cup fresh parsley, chopped",
+          "1 tbsp dried oregano",
+          "Salt and pepper to taste",
+          "1/4 cup red wine vinegar"
+        ]
+      },
+      {
+        section: "Braising liquid",
+        items: [
+          "1 cup beef broth",
+          "1 cup white wine",
+          "1 onion, quartered",
+          "2 bay leaves",
+          "Salt and peppercorns"
+        ]
+      }
+    ],
+    instructions: [
+      "Lay the matambre flat on a clean surface. Season with salt, pepper, garlic, oregano, and vinegar.",
+      "Let marinate for 30 minutes at room temperature.",
+      "Arrange the filling in rows along the length of the meat: egg halves, pepper strips, carrot strips, olives.",
+      "Sprinkle parsley over the entire surface.",
+      "Roll the matambre tightly from the long side, tucking the filling as you go.",
+      "Tie securely with kitchen twine at 2-inch intervals. Wrap tightly in cheesecloth or muslin.",
+      "Place in a large pot with the braising liquid ingredients. The liquid should cover the roll.",
+      "Bring to a simmer over medium heat. Reduce to low and cook gently for 1.5-2 hours.",
+      "Remove from liquid and let cool for 30 minutes.",
+      "While still warm, place a heavy weight on top (a cutting board with cans works) to compress the roll.",
+      "Refrigerate under the weight for at least 4 hours, ideally overnight.",
+      "Remove twine and cheesecloth. Slice into 1cm rounds to reveal the beautiful pinwheel pattern.",
+      "Arrange on a platter and serve at room temperature with chimichurri on the side."
+    ],
+    tips: [
+      "Ask your butcher for matambre — if they don't have it, flank steak pounded thin works.",
+      "The rolling is the hardest part — don't worry if some filling falls out, just tuck it back in.",
+      "The weight during chilling is essential — it compresses the roll so slices hold together.",
+      "Slice with a very sharp knife for clean, beautiful rounds.",
+      "This is a make-ahead dish — it actually tastes better the next day.",
+      "Serve with chimichurri and crusty bread as a starter."
+    ]
+  },
+  {
+    slug: "carbonada",
+    name: "Carbonada Criolla",
+    spanishName: "Carbonada Criolla",
+    description: "A hearty Argentine stew of beef, corn, squash, potatoes, and dried fruits — traditionally served in a hollowed-out pumpkin. A warming dish from the interior provinces that's perfect for winter.",
+    seoKeywords: ["carbonada recipe", "argentine stew", "carbonada criolla", "beef stew argentina", "pumpkin stew argentine"],
+    category: "stew",
+    region: "Interior (Northwest, Cuyo)",
+    difficulty: "medium",
+    prepTime: "30 min",
+    cookTime: "1.5 hours",
+    totalTime: "2 hours",
+    servings: 6,
+    image: "/images/recipes/carbonada.webp",
+    calories: 420,
+    protein: 25,
+    carbs: 48,
+    fat: 16,
+    history: "Carbonada is a criollo dish that dates back to colonial Argentina, blending Indigenous and Spanish cooking traditions. The combination of savory meat with sweet fruits (peaches, dried apricots) reflects the Moorish influence that came through Spain. It's traditionally served in a hollowed-out zapallo (pumpkin), which acts as both cooking vessel and serving bowl. The pumpkin flesh is scooped out and eaten with the stew.",
+    whereToFind: [
+      "Restaurants in the Northwest provinces (Salta, Tucumán)",
+      "Traditional bodegones in Buenos Aires during winter",
+      "Homemade — this is primarily a home-cooking tradition"
+    ],
+    storageInstructions: "Refrigerate for up to 3 days. The flavor improves the next day. Freeze for up to 2 months.",
+    winePairing: "Malbec from Mendoza or Cabernet Sauvignon from San Juan",
+    ingredients: [
+      {
+        section: "Main",
+        items: [
+          "600g (1.3 lbs) beef chuck, cut into 2cm cubes",
+          "2 tbsp vegetable oil",
+          "1 large onion, diced",
+          "2 cloves garlic, minced",
+          "2 ripe tomatoes, diced",
+          "2 medium potatoes, peeled and cubed",
+          "1 sweet potato, peeled and cubed",
+          "300g butternut squash, cubed",
+          "2 ears corn, cut into rounds",
+          "1/2 cup dried peaches or apricots, halved",
+          "1 cup beef broth",
+          "1 tsp ground cumin",
+          "1 tsp smoked paprika",
+          "1 tsp dried oregano",
+          "Salt and pepper to taste",
+          "Fresh parsley for garnish"
+        ]
+      }
+    ],
+    instructions: [
+      "Heat oil in a large, heavy-bottomed pot over medium-high heat.",
+      "Season beef cubes with salt, pepper, and cumin. Brown in batches, setting aside.",
+      "In the same pot, sauté onion until softened, about 5 minutes. Add garlic and cook 1 minute.",
+      "Add tomatoes and cook until they break down, about 5 minutes.",
+      "Return beef to the pot. Add paprika and oregano, stir to combine.",
+      "Pour in beef broth and bring to a simmer.",
+      "Add potatoes, sweet potato, and squash. Cover and simmer 30 minutes.",
+      "Add corn rounds and dried fruit. Continue simmering uncovered for 30-40 minutes.",
+      "The stew is ready when the beef is tender and the vegetables have partially broken down to thicken the broth.",
+      "Season to taste with salt and pepper. Garnish with fresh parsley.",
+      "For presentation, serve inside a hollowed-out roasted pumpkin if desired."
+    ],
+    tips: [
+      "The dried fruit is not optional — the sweet-savory contrast is what defines carbonada.",
+      "Don't cut the vegetables too small — they should hold their shape and provide texture.",
+      "If you can find a large zapallo (Argentine pumpkin), hollow it out, roast at 180°C for 30 minutes, then pour the stew inside to serve.",
+      "This stew is better the next day — make it ahead for dinner parties.",
+      "You can substitute fresh peaches (in season) for dried — add them in the last 15 minutes."
+    ]
+  },
+  {
+    slug: "milanesa-napolitana",
+    name: "Milanesa a la Napolitana",
+    spanishName: "Milanesa a la Napolitana",
+    description: "Argentina's answer to chicken parm — a breaded cutlet topped with tomato sauce, ham, and melted mozzarella. Despite the name, it has nothing to do with Naples. Pure Argentine comfort food.",
+    seoKeywords: ["milanesa napolitana recipe", "argentine breaded cutlet", "milanesa a la napolitana", "milanesa con queso", "argentine comfort food"],
+    category: "main",
+    region: "National (invented in Buenos Aires)",
+    difficulty: "medium",
+    prepTime: "20 min",
+    cookTime: "25 min",
+    totalTime: "45 min",
+    servings: 4,
+    image: "/images/recipes/milanesa-napolitana.webp",
+    calories: 580,
+    protein: 38,
+    carbs: 35,
+    fat: 32,
+    history: "Despite the Italian-sounding name, milanesa a la napolitana was invented in Buenos Aires in the 1940s by chef José Napoli at the restaurant Nápoli on Avenida Corrientes. He topped a breaded cutlet with ham, cheese, and tomato sauce — and a porteño classic was born. The name honors the restaurant, not the Italian city. It remains one of the most ordered dishes in Argentine restaurants today.",
+    whereToFind: [
+      "El Cuartito (Talcahuano 937, BA) — legendary since 1934",
+      "Every bodegón and parrilla in Buenos Aires",
+      "Any restaurant with 'minutas' on the menu"
+    ],
+    storageInstructions: "Best eaten fresh. Leftover breaded cutlets (without topping) can be frozen for up to 2 months. Reheat in a 200°C oven.",
+    winePairing: "Young Malbec or Bonarda",
+    ingredients: [
+      {
+        section: "Milanesas",
+        items: [
+          "4 thin beef or chicken cutlets (about 200g each), pounded thin",
+          "2 eggs, beaten",
+          "2 cups breadcrumbs",
+          "Salt, pepper, garlic powder to taste",
+          "Oil for frying"
+        ]
+      },
+      {
+        section: "Napolitana topping",
+        items: [
+          "1 cup tomato sauce (salsa de tomate)",
+          "4 slices cooked ham (jamón cocido)",
+          "200g mozzarella cheese, sliced",
+          "1 tsp dried oregano",
+          "Olives and roasted peppers for garnish (optional)"
+        ]
+      }
+    ],
+    instructions: [
+      "Season the cutlets with salt, pepper, and garlic powder.",
+      "Dip each cutlet in beaten egg, then press firmly into breadcrumbs on both sides.",
+      "Heat oil in a large skillet over medium-high heat (about 1cm deep).",
+      "Fry each milanesa for 2-3 minutes per side until golden and crispy. Drain on paper towels.",
+      "Place fried milanesas on a baking sheet.",
+      "Spoon tomato sauce over each milanesa.",
+      "Top with a slice of ham, then mozzarella slices.",
+      "Sprinkle with oregano.",
+      "Broil in the oven at 200°C (400°F) for 5-7 minutes until cheese is melted and bubbly.",
+      "Serve immediately with french fries (papas fritas) — the mandatory accompaniment."
+    ],
+    tips: [
+      "Pound the cutlets thin and even — they should be about 5mm thick.",
+      "Double-dip for extra crunch: egg → breadcrumbs → egg → breadcrumbs.",
+      "Fry first, THEN add toppings and bake. Never skip the frying step.",
+      "The tomato sauce should be simple — not chunky marinara. Argentine salsa de tomate is smooth.",
+      "French fries are non-negotiable. A napolitana without papas fritas is incomplete.",
+      "Some restaurants offer 'a caballo' — topped with a fried egg. Highly recommended."
+    ]
   }
 ];
 

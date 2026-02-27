@@ -47,6 +47,9 @@ export async function generateMetadata({
       description: recipe.description,
       images: [{ url: recipe.image, width: 1200, height: 630 }],
     },
+    alternates: {
+      canonical: `https://expatsargentina.com/food/recipes/${recipe.slug}`,
+    },
   };
 }
 

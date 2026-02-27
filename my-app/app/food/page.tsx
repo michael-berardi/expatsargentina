@@ -21,6 +21,9 @@ import { Card, CardContent } from "@/components/ui/card";
 export const metadata: Metadata = {
   title: "Food Guide Buenos Aires | Expats Argentina",
   description: "The ultimate food guide to Buenos Aires - from asado culture to the best parrillas, empanadas, and cafe spots. Everything an expat needs to eat like a local.",
+  alternates: {
+    canonical: "https://expatsargentina.com/food",
+  },
 };
 
 const parrillas = [

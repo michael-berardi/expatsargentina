@@ -37,6 +37,9 @@ export const metadata: Metadata = {
     title: "Cost of Living in Argentina 2026 - Prices Doubled",
     description: "Argentina cost of living has doubled. Real 2026 budgets: $1,200-5,000/month for Western Europe-level prices.",
   },
+  alternates: {
+    canonical: "https://expatsargentina.com/cost-of-living",
+  },
 };
 
 // Real 2026 budget profiles - prices have DOUBLED since 2023

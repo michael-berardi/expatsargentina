@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: "Restaurant Guides | Buenos Aires & Beyond | Expats Argentina",
   description: "Comprehensive restaurant guides for Buenos Aires, Mendoza, Bariloche, Córdoba and more. From world-famous parrillas to hidden local gems.",
   keywords: ["argentina restaurants", "buenos aires dining", "mendoza restaurants", "bariloche dining", "cordoba restaurants"],
+  alternates: { canonical: "https://expatsargentina.com/food/restaurants" },
 };
 
 const cityGuides = [

@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   title: "Healthcare in Argentina 2026 - Mandatory Insurance, New Rules",
   description: "Updated 2026 healthcare guide: mandatory travel insurance for entry, public hospitals now charge foreigners. Prepaga options, costs, and requirements.",
   keywords: ["healthcare Argentina 2026", "mandatory travel insurance Argentina", "prepaga health insurance", "Argentina public hospital charges foreigners"],
+  alternates: { canonical: "https://expatsargentina.com/healthcare" },
 };
 
 const insuranceProviders = [

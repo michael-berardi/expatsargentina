@@ -29,6 +29,7 @@ export const metadata: Metadata = {
   title: "Getting Around Buenos Aires | Transportation Guide",
   description:
     "Complete transportation guide for Buenos Aires. SUBE card, subway, buses, taxis, Uber, biking, and airport transfers. Updated 2025 prices and practical tips.",
+  alternates: { canonical: "https://expatsargentina.com/transportation" },
 };
 
 const appLinks = {
