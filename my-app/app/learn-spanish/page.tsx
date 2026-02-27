@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
@@ -1176,6 +1177,39 @@ export default function LearnSpanishPage() {
               </AccordionItem>
             ))}
           </Accordion>
+        </div>
+      </section>
+
+      {/* Related Guides */}
+      <section className="py-12">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold mb-6">Continue Exploring</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link href="/culture" className="group">
+              <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                <CardContent className="p-4">
+                  <p className="font-semibold group-hover:text-primary transition-colors">Culture & Customs</p>
+                  <p className="text-sm text-muted-foreground">Understand the unwritten rules of Argentine life</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/social-life" className="group">
+              <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                <CardContent className="p-4">
+                  <p className="font-semibold group-hover:text-primary transition-colors">Social Life & Dating</p>
+                  <p className="text-sm text-muted-foreground">Make friends and navigate the social scene</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/resources" className="group">
+              <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                <CardContent className="p-4">
+                  <p className="font-semibold group-hover:text-primary transition-colors">Expat Resources</p>
+                  <p className="text-sm text-muted-foreground">Essential tools and links for life in Argentina</p>
+                </CardContent>
+              </Card>
+            </Link>
+          </div>
         </div>
       </section>
 

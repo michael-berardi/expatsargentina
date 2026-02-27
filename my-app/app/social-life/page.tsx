@@ -826,6 +826,49 @@ export default function SocialLifePage() {
         </div>
       </section>
 
+      {/* Related Guides */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl font-bold mb-6">Continue Exploring</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <Link href="/culture" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Culture & Customs</p>
+                    <p className="text-sm text-muted-foreground">The unwritten rules of Argentine life</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/food" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Food & Dining</p>
+                    <p className="text-sm text-muted-foreground">Asados, empanadas, and where to eat</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/neighborhoods" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Neighborhoods</p>
+                    <p className="text-sm text-muted-foreground">Find the barrio that fits your lifestyle</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/safety" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Safety Guide</p>
+                    <p className="text-sm text-muted-foreground">Street smarts and staying safe in BA</p>
+                  </CardContent>
+                </Card>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4">

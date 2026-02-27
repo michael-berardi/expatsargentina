@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/social-life/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/stories/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/transportation/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/wine/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     // Visa pages
     { url: `${BASE_URL}/visas/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/visas/digital-nomad/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },

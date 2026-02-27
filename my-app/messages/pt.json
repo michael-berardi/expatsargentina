@@ -116,6 +116,10 @@
       "investments": {
         "title": "Oportunidades de Investimento",
         "description": "Setores de investimento em imóveis, agricultura, mineração, energia, tecnologia e turismo na Argentina."
+      },
+      "wine": {
+        "title": "Guia de Vinhos",
+        "description": "Regiões vinícolas argentinas, variedades de uva, dicas de compra e experiências de degustação de Mendoza a Salta."
       }
     },
     "newsletter": {

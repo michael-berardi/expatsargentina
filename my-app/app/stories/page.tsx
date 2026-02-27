@@ -768,6 +768,49 @@ export default function StoriesPage() {
         </div>
       </section>
 
+      {/* Related Guides */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold mb-6">Continue Exploring</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <Link href="/cost-of-living" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Cost of Living</p>
+                    <p className="text-sm text-muted-foreground">Real budget breakdowns for Buenos Aires</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/housing" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Housing Guide</p>
+                    <p className="text-sm text-muted-foreground">Find your apartment in Argentina</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/visas" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Visa Options</p>
+                    <p className="text-sm text-muted-foreground">Digital nomad, work, and retirement visas</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/first-30-days" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">First 30 Days</p>
+                    <p className="text-sm text-muted-foreground">Week-by-week survival guide for your arrival</p>
+                  </CardContent>
+                </Card>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Share Your Story CTA */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">

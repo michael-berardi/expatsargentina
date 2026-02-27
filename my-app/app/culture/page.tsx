@@ -576,6 +576,41 @@ export default function CulturePage() {
         </div>
       </section>
 
+      {/* Related Guides */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl font-bold mb-6">Continue Exploring</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <Link href="/learn-spanish" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Learn Spanish</p>
+                    <p className="text-sm text-muted-foreground">Master Argentine Spanish and Lunfardo slang</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/food" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Food & Dining</p>
+                    <p className="text-sm text-muted-foreground">From asados to empanadas and everything between</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/social-life" className="group">
+                <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                  <CardContent className="p-4">
+                    <p className="font-semibold group-hover:text-primary transition-colors">Social Life & Dating</p>
+                    <p className="text-sm text-muted-foreground">Make friends and navigate the social scene</p>
+                  </CardContent>
+                </Card>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4">

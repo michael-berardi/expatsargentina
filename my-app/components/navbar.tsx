@@ -80,6 +80,7 @@ export function Navbar() {
     { title: locale === 'es' ? "Recetas" : "Recipes", href: "/food/recipes", description: locale === 'es' ? "Recetas auténticas argentinas" : "Authentic Argentine recipes with local tips" },
     { title: locale === 'es' ? "Restaurantes BA" : "Buenos Aires Restaurants", href: "/food/restaurants/buenos-aires", description: locale === 'es' ? "Top 40 restaurantes" : "Top 40 restaurants by category" },
     { title: locale === 'es' ? "Mejores Parrillas" : "Best Parrillas", href: "/food/restaurants/best-parrillas", description: locale === 'es' ? "Las mejores parrillas" : "Best steakhouses in Buenos Aires" },
+    { title: locale === 'es' ? "Guía de Vinos" : "Wine Guide", href: "/wine", description: locale === 'es' ? "Regiones vinícolas, cepas y degustaciones" : "Wine regions, grape varieties, and tastings" },
   ];
 
   const investLabel = locale === 'es' ? 'Invertir' : 'Invest';

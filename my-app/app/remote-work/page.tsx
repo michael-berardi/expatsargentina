@@ -1,5 +1,7 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { MapPin, Wifi, Zap, Clock, Coffee, Briefcase, DollarSign, Users, Home, Calendar } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
@@ -1114,22 +1116,42 @@ export default function RemoteWorkPage() {
           </div>
         </section>
 
-        {/* Related Links */}
-        <section className="border-t pt-8">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">Related Guides</h3>
-          <div className="flex flex-wrap gap-3">
-            <a href="/visas/digital-nomad" className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors">
-              Digital Nomad Visa
-            </a>
-            <a href="/neighborhoods" className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors">
-              Neighborhood Guide
-            </a>
-            <a href="/cost-of-living" className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors">
-              Cost of Living
-            </a>
-            <a href="/community" className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors">
-              Community
-            </a>
+        {/* Related Guides */}
+        <section className="py-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Continue Exploring</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link href="/visas/digital-nomad" className="group">
+              <Card className="h-full transition-all hover:shadow-md hover:border-blue-400">
+                <CardContent className="p-4">
+                  <p className="font-semibold group-hover:text-blue-700 transition-colors">Digital Nomad Visa</p>
+                  <p className="text-sm text-gray-500">Requirements, process, and how to apply</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/banking" className="group">
+              <Card className="h-full transition-all hover:shadow-md hover:border-blue-400">
+                <CardContent className="p-4">
+                  <p className="font-semibold group-hover:text-blue-700 transition-colors">Banking & Money</p>
+                  <p className="text-sm text-gray-500">Blue dollar, transfers, and managing finances</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/cost-of-living" className="group">
+              <Card className="h-full transition-all hover:shadow-md hover:border-blue-400">
+                <CardContent className="p-4">
+                  <p className="font-semibold group-hover:text-blue-700 transition-colors">Cost of Living</p>
+                  <p className="text-sm text-gray-500">Real budget breakdowns for Buenos Aires</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/housing" className="group">
+              <Card className="h-full transition-all hover:shadow-md hover:border-blue-400">
+                <CardContent className="p-4">
+                  <p className="font-semibold group-hover:text-blue-700 transition-colors">Housing Guide</p>
+                  <p className="text-sm text-gray-500">Find your apartment in Argentina</p>
+                </CardContent>
+              </Card>
+            </Link>
           </div>
         </section>
 
