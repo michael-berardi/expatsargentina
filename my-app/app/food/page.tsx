@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { 
   Utensils, 
   Clock, 
@@ -11,8 +12,11 @@ import {
   AlertCircle,
   Heart,
   Leaf,
-  Smartphone
+  Smartphone,
+  ArrowRight
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata: Metadata = {
   title: "Food Guide Buenos Aires | Expats Argentina",
@@ -864,6 +868,58 @@ export default function FoodGuidePage() {
               </ul>
             </div>
           </div>
+        </section>
+
+        {/* Recipes & Restaurants CTAs */}
+        <section className="grid md:grid-cols-2 gap-6">
+          <Card className="bg-gradient-to-br from-orange-500 to-red-600 text-white border-0 overflow-hidden">
+            <CardContent className="p-8">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="p-2 bg-white/20 rounded-lg">
+                  <ChefHat className="w-6 h-6" />
+                </div>
+                <h3 className="text-xl font-bold">Learn to Cook</h3>
+              </div>
+              <p className="text-orange-100 mb-6">
+                Master authentic Argentine dishes at home. Our tested recipes include 
+                empanadas, chimichurri, asado, and more—with ingredient sourcing tips 
+                and cultural context.
+              </p>
+              <Button asChild variant="secondary" className="gap-2">
+                <Link href="/food/recipes">
+                  Browse Recipes
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </Button>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-gradient-to-br from-gray-800 to-gray-900 text-white border-0 overflow-hidden">
+            <CardContent className="p-8">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="p-2 bg-white/20 rounded-lg">
+                  <Utensils className="w-6 h-6" />
+                </div>
+                <h3 className="text-xl font-bold">Restaurant Guides</h3>
+              </div>
+              <p className="text-gray-300 mb-6">
+                Our curated guides to Buenos Aires dining—from Don Julio (world's #1 steakhouse) 
+                to hidden local gems. Complete with what to order and how to book.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Button asChild variant="secondary" size="sm">
+                  <Link href="/food/restaurants/buenos-aires">
+                    Top 40 Restaurants
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="sm" className="border-gray-600 text-white hover:bg-gray-700">
+                  <Link href="/food/restaurants/best-parrillas">
+                    Best Parrillas
+                  </Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Final Tips */}

@@ -74,6 +74,24 @@ export function Navbar() {
     { title: t("navigation.learnSpanish"), href: "/learn-spanish", description: locale === 'es' ? "Recursos para aprender idioma" : "Language learning resources" },
   ];
 
+  const foodItems = [
+    { title: locale === 'es' ? "Guía de Comida" : "Food Guide", href: "/food", description: locale === 'es' ? "Todo sobre la comida argentina" : "Everything about Argentine food culture" },
+    { title: locale === 'es' ? "Recetas" : "Recipes", href: "/food/recipes", description: locale === 'es' ? "Recetas auténticas argentinas" : "Authentic Argentine recipes with local tips" },
+    { title: locale === 'es' ? "Restaurantes BA" : "Buenos Aires Restaurants", href: "/food/restaurants/buenos-aires", description: locale === 'es' ? "Top 40 restaurantes" : "Top 40 restaurants by category" },
+    { title: locale === 'es' ? "Mejores Parrillas" : "Best Parrillas", href: "/food/restaurants/best-parrillas", description: locale === 'es' ? "Las mejores parrillas" : "Best steakhouses in Buenos Aires" },
+  ];
+
+  const investLabel = locale === 'es' ? 'Invertir' : 'Invest';
+  const investItems = [
+    { title: locale === 'es' ? "Oportunidades de Inversión" : "Investment Overview", href: "/investments", description: locale === 'es' ? "Guía completa de inversión en Argentina" : "Complete guide to investing in Argentina" },
+    { title: locale === 'es' ? "Bienes Raíces" : "Real Estate", href: "/investments/real-estate", description: locale === 'es' ? "Propiedad y desarrollo inmobiliario" : "Property and real estate development" },
+    { title: locale === 'es' ? "Agricultura" : "Agriculture", href: "/investments/agriculture", description: locale === 'es' ? "Tierra agrícola y agtech" : "Farmland and agtech opportunities" },
+    { title: locale === 'es' ? "Minería" : "Mining", href: "/investments/mining", description: locale === 'es' ? "Litio, cobre y minerales críticos" : "Lithium, copper, and critical minerals" },
+    { title: locale === 'es' ? "Energía" : "Energy", href: "/investments/energy", description: locale === 'es' ? "Vaca Muerta y renovables" : "Vaca Muerta and renewable energy" },
+    { title: locale === 'es' ? "Tecnología" : "Technology", href: "/investments/technology", description: locale === 'es' ? "Startups y sector tecnológico" : "Startups and tech sector" },
+    { title: locale === 'es' ? "Turismo" : "Tourism", href: "/investments/tourism", description: locale === 'es' ? "Hotelería y experiencias" : "Hospitality and experiences" },
+  ];
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
@@ -182,6 +200,29 @@ export function Navbar() {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
+
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>{investLabel}</NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                    {investItems.map((item) => (
+                      <li key={item.href}>
+                        <NavigationMenuLink asChild>
+                          <Link
+                            href={item.href}
+                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                          >
+                            <div className="text-sm font-medium leading-none">{item.title}</div>
+                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                              {item.description}
+                            </p>
+                          </Link>
+                        </NavigationMenuLink>
+                      </li>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
         </div>
@@ -268,6 +309,34 @@ export function Navbar() {
                       className="text-foreground hover:text-primary transition-colors"
                     >
                       {item.title as string}
+                    </Link>
+                  </SheetClose>
+                ))}
+
+                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                  {locale === 'es' ? 'Comida' : 'Food'}
+                </div>
+                {foodItems.map((item) => (
+                  <SheetClose asChild key={item.href}>
+                    <Link
+                      href={item.href}
+                      className="text-foreground hover:text-primary transition-colors"
+                    >
+                      {item.title as string}
+                    </Link>
+                  </SheetClose>
+                ))}
+
+                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                  {investLabel}
+                </div>
+                {investItems.map((item) => (
+                  <SheetClose asChild key={item.href}>
+                    <Link
+                      href={item.href}
+                      className="text-foreground hover:text-primary transition-colors"
+                    >
+                      {item.title}
                     </Link>
                   </SheetClose>
                 ))}

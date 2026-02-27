@@ -112,6 +112,10 @@
       "socialLife": {
         "title": "Expat Social Life",
         "description": "Meetup groups, language exchanges, sports clubs, and building your community."
+      },
+      "investments": {
+        "title": "Investment Opportunities",
+        "description": "Real estate, agriculture, mining, energy, technology, and tourism investment sectors in Argentina."
       }
     },
     "newsletter": {

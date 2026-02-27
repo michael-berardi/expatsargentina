@@ -24,6 +24,7 @@ import {
   WalletIcon,
   BusIcon,
   MessageCircleIcon,
+  TrendingUpIcon,
 } from "@/components/ui/icon";
 import { provinces, cities, regions } from "@/lib/data/argentina";
 import { useI18n } from "@/lib/i18n";
@@ -59,6 +60,7 @@ const guideCategoriesConfig = [
   { icon: GraduationCapIcon, href: "/learn-spanish", key: "learnSpanish" },
   { icon: CoffeeIcon, href: "/culture", key: "culture" },
   { icon: MessageCircleIcon, href: "/social-life", key: "socialLife" },
+  { icon: TrendingUpIcon, href: "/investments", key: "investments" },
 ];
 
 export default function Home() {

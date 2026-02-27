@@ -15,7 +15,7 @@ import {
   MapIcon,
   BusIcon,
   CalendarIcon,
-
+  UtensilsIcon,
   ArrowRightIcon,
   SparklesIcon
 } from "@/components/ui/icon";
@@ -97,13 +97,6 @@ const dailyLifeGuides = [
     badge: "New",
   },
   {
-    icon: CoffeeIcon,
-    title: "Food & Dining",
-    description: "Best empanadas, asado culture, delivery apps, and why dinner is at 10pm.",
-    href: "/food",
-    badge: "New",
-  },
-  {
     icon: ShieldIcon,
     title: "Safety",
     description: "Real crime stats, common scams, and the 'no dar papaya' philosophy.",
@@ -129,6 +122,37 @@ const dailyLifeGuides = [
     title: "Social Life & Dating",
     description: "Making friends, dating apps that work, nightlife, and social customs.",
     href: "/social-life",
+    badge: "New",
+  },
+];
+
+const foodGuides = [
+  {
+    icon: CoffeeIcon,
+    title: "Food Guide",
+    description: "Complete guide to Argentine cuisine—asado culture, best restaurants, delivery apps, and dining etiquette.",
+    href: "/food",
+    badge: "Updated",
+  },
+  {
+    icon: UtensilsIcon,
+    title: "Recipes",
+    description: "Authentic Argentine recipes: empanadas, chimichurri, asado, milanesa, and more with local tips.",
+    href: "/food/recipes",
+    badge: "New",
+  },
+  {
+    icon: MapPinIcon,
+    title: "Buenos Aires Restaurants",
+    description: "Top 40 restaurants by category—from Don Julio to hidden local gems. Rankings and what to order.",
+    href: "/food/restaurants/buenos-aires",
+    badge: "New",
+  },
+  {
+    icon: CoffeeIcon,
+    title: "Best Parrillas",
+    description: "The ultimate guide to Argentine steakhouses featuring the world's #1 best steak restaurant.",
+    href: "/food/restaurants/best-parrillas",
     badge: "New",
   },
 ];
@@ -276,8 +300,16 @@ export default function SitemapPage() {
         <div className="border-t" />
 
         <GuideSection 
+          title="Food & Dining"
+          description="Authentic recipes, restaurant guides, and everything you need to eat like a local."
+          guides={foodGuides}
+        />
+
+        <div className="border-t" />
+
+        <GuideSection 
           title="Daily Life"
-          description="Getting around, eating well, staying safe, and making the most of your time here."
+          description="Getting around, staying safe, and making the most of your time here."
           guides={dailyLifeGuides}
         />
 

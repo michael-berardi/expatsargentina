@@ -112,6 +112,10 @@
       "socialLife": {
         "title": "Vida Social de Expatriados",
         "description": "Grupos de meetup, intercambios de idioma, clubes deportivos y construcción de comunidad."
+      },
+      "investments": {
+        "title": "Oportunidades de Inversión",
+        "description": "Sectores de inversión en bienes raíces, agricultura, minería, energía, tecnología y turismo en Argentina."
       }
     },
     "newsletter": {
