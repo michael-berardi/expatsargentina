@@ -3001,6 +3001,412 @@ export const professions: Profession[] = [
       }
     ],
     image: "/images/professions/video-editor.webp"
+  },
+  {
+    slug: "hr-specialist",
+    name: "HR Specialist",
+    title: "HR Specialist Guide for Argentina",
+    subtitle: "Manage human resources remotely for international companies",
+    description: "HR professionals are increasingly working remotely. Learn how Argentine-based HR specialists serve global companies while enjoying Argentina's lifestyle.",
+    icon: "Users",
+    category: "business",
+    overview: "Human Resources is rapidly becoming a remote-friendly profession, with many companies hiring HR specialists who can work from anywhere. Argentine HR professionals bring strong interpersonal skills, cultural awareness, and often excellent English proficiency. The profession covers recruitment, employee relations, benefits administration, and HR operations - all of which can be conducted remotely with modern tools. US companies particularly value Argentine HR specialists for recruiting Latin American talent and managing distributed teams. The Digital Nomad Visa is perfectly suited for HR professionals serving international clients.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For HR specialists serving international companies remotely. Most suitable pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For HR specialists hired by multinational companies with Argentine operations.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent HR consultants serving multiple clients.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "HR experience (2+ years preferred)",
+      "Understanding of employment law (home country or international)",
+      "Proficiency in HRIS systems and tools",
+      "Proof of client contracts or employment",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "HR certification (SHRM, PHR) preferred"
+    ],
+    incomeRequirements: {
+      description: "HR specialists can earn competitive rates serving international companies",
+      amount: "$2,000 - $5,000+ USD/month",
+      notes: "Senior HR professionals and consultants earn $40-80/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "HR work has become highly remote-friendly. Recruiting happens through LinkedIn and job boards, employee relations through video calls and messaging, and HR operations through cloud-based HRIS systems.",
+      considerations: [
+        "Strong demand for bilingual HR professionals",
+        "Time zone alignment with US enables real-time support",
+        "Many companies hiring remote HR for distributed teams",
+        "Argentina's talent pool creates local recruiting opportunities",
+        "Lower living costs make competitive rates sustainable"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,200,000-2,800,000/month ($1,000-2,200 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba", "Rosario"],
+      industries: ["Technology", "Multinationals", "Startups", "Consulting", "BPO"]
+    },
+    professionalAssociations: [
+      {
+        name: "SHRM (Society for Human Resource Management)",
+        url: "https://www.shrm.org",
+        description: "Global HR professional organization"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "HR certifications like SHRM-CP or PHR are valued but not required. Experience and demonstrated competence matter most.",
+      process: "International HR certifications recognized globally"
+    },
+    taxConsiderations: [
+      "Remote HR work for foreign companies typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo",
+      "Keep records of client contracts and payments"
+    ],
+    networkingTips: [
+      "Join HR professional groups on LinkedIn",
+      "Connect with Argentine HR communities",
+      "Attend virtual HR conferences and webinars"
+    ],
+    faqs: [
+      {
+        question: "Can I do HR for US companies from Argentina?",
+        answer: "Yes, many HR functions can be performed remotely including recruiting, onboarding, benefits administration, and employee relations. However, you should focus on advising rather than making legal decisions about US employment law without proper licensing."
+      }
+    ],
+    relatedProfessions: ["recruiter", "business-consultant", "virtual-assistant"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote HR work"
+      }
+    ],
+    image: "/images/professions/hr-specialist.webp"
+  },
+  {
+    slug: "copywriter",
+    name: "Copywriter",
+    title: "Copywriter Guide for Argentina",
+    subtitle: "Write compelling content for global brands from Argentina",
+    description: "Copywriting is a perfect remote profession. Learn how Argentine copywriters serve international clients while enjoying the country's creative atmosphere.",
+    icon: "Languages",
+    category: "creative",
+    overview: "Copywriting is one of the most location-independent creative professions. Argentine copywriters bring strong writing skills, cultural sophistication, and native or near-native English proficiency. The work - crafting website copy, ads, emails, sales pages, and brand messaging - is entirely deliverable digitally. US companies pay $50-150+/hour for quality copywriting, making it possible to earn excellent income from Argentina. Buenos Aires has a vibrant creative community that provides inspiration and networking. The profession requires only a laptop and internet connection.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Perfect for copywriters serving international clients. Ideal pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent copywriters with established portfolios.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Writing portfolio with diverse samples",
+      "Demonstrated copywriting experience",
+      "Strong English writing skills",
+      "Proof of client contracts or employment",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Copywriters with strong portfolios command good rates",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Experienced copywriters earn $50-150/hour or $500-2,000 per project"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Copywriting is 100% remote. All work happens on computers, client communication through email and calls, and deliverables sent digitally.",
+      considerations: [
+        "Extremely high demand for quality copywriting",
+        "Portfolio matters more than location",
+        "Many US companies specifically seek affordable copywriters",
+        "Can work with clients in any time zone (mostly asynchronous)",
+        "Buenos Aires' creative culture provides inspiration"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $800,000-2,000,000/month ($650-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Advertising", "Marketing", "E-commerce", "Tech Startups"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Copywriting is portfolio-driven. Your writing samples and results matter far more than credentials."
+    },
+    taxConsiderations: [
+      "Remote copywriting for foreign clients typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio on Contently or ClearVoice",
+      "Join copywriting communities on Facebook and LinkedIn",
+      "Network with marketing agencies"
+    ],
+    faqs: [
+      {
+        question: "What type of copywriting pays best?",
+        answer: "Direct response copywriting (sales pages, email sequences) typically pays most per project. Website copy and brand messaging offer steady work. Technical copywriting commands premium rates. Many successful copywriters specialize in a niche (SaaS, finance, health) to command higher fees."
+      }
+    ],
+    relatedProfessions: ["content-writer", "content-creator", "seo-specialist"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote copywriting"
+      }
+    ],
+    image: "/images/professions/copywriter.webp"
+  },
+  {
+    slug: "cloud-architect",
+    name: "Cloud Architect",
+    title: "Cloud Architect Guide for Argentina",
+    subtitle: "Design cloud infrastructure from Latin America's tech hub",
+    description: "Cloud architecture is one of the highest-paying tech specializations. Learn about visa pathways for AWS, Azure, and GCP architects working remotely from Argentina.",
+    icon: "BarChart",
+    category: "tech",
+    overview: "Cloud architecture is among the most in-demand and highest-paying specializations in tech. Argentine cloud architects design and manage infrastructure for companies worldwide, earning $80-150+/hour with US clients. The profession requires deep expertise in AWS, Azure, or Google Cloud Platform, plus knowledge of DevOps practices, security, and cost optimization. Argentina's strong tech education and English proficiency produce excellent cloud architects. The work is entirely remote-friendly - architecture diagrams, infrastructure as code, and consultations all happen digitally. Buenos Aires has a growing cloud community with AWS, Azure, and Google Cloud user groups.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Perfect for cloud architects working remotely for international companies. Most common pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Highly Skilled Worker Visa",
+        description: "For senior cloud architects with specialized expertise and high income.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      },
+      {
+        name: "Work Visa (Sponsorship)",
+        description: "For architects hired by multinational tech companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "5+ years experience in cloud infrastructure",
+      "Professional-level cloud certifications (AWS Solutions Architect Professional, Azure Solutions Architect Expert, or GCP Professional Cloud Architect)",
+      "Portfolio of designed cloud architectures",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($4,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "Computer science or engineering degree preferred"
+    ],
+    incomeRequirements: {
+      description: "Cloud architects command premium rates due to high demand and specialized skills",
+      amount: "$4,000 - $10,000+ USD/month",
+      notes: "Senior cloud architects with US clients earn $100-200+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Cloud architecture is perfectly suited for remote work. Architecture design, infrastructure as code, cost analysis, and consultations can all be done remotely. Many cloud architects work entirely from home offices.",
+      considerations: [
+        "Extremely high global demand for cloud architects",
+        "Certifications matter more than location",
+        "Time zone alignment with US enables real-time collaboration",
+        "Argentina's lower costs make rates very competitive",
+        "Many US companies specifically recruit LATAM cloud talent",
+        "Continuous learning required as cloud platforms evolve"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $2,500,000-6,000,000/month ($2,000-4,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza"],
+      industries: ["Cloud Services", "Fintech", "E-commerce", "Enterprise Software", "Consulting"]
+    },
+    professionalAssociations: [
+      {
+        name: "AWS User Group Buenos Aires",
+        description: "Local AWS community"
+      },
+      {
+        name: "Azure Tech Meetup",
+        description: "Azure professionals community"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Cloud certifications (AWS, Azure, GCP) are globally recognized and highly valued. Experience and demonstrated architecture skills matter most.",
+      process: "Cloud provider certifications universally recognized"
+    },
+    taxConsiderations: [
+      "Remote cloud architecture work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo",
+      "Keep records of client contracts and professional development expenses",
+      "Certification costs may be deductible"
+    ],
+    networkingTips: [
+      "Attend cloud meetups and conferences",
+      "Contribute to cloud architecture discussions on LinkedIn",
+      "Build presence on GitHub with infrastructure code",
+      "Network at tech conferences and AWS/Azure events"
+    ],
+    faqs: [
+      {
+        question: "Which cloud platform should I specialize in?",
+        answer: "AWS has the largest market share and job opportunities. Azure is strong in enterprise and Microsoft shops. GCP leads in data/ML workloads. Many architects maintain multi-cloud knowledge but specialize in one. AWS Solutions Architect is the most in-demand certification."
+      },
+      {
+        question: "What's the difference between cloud architect and DevOps engineer?",
+        answer: "Cloud architects focus on high-level design, strategy, and infrastructure planning. DevOps engineers focus on implementation, automation, CI/CD pipelines, and operational support. Many professionals do both. Architects typically have more experience and command higher rates. Both roles are in extremely high demand."
+      }
+    ],
+    relatedProfessions: ["devops-engineer", "software-developer", "solutions-architect"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote cloud architecture work"
+      },
+      {
+        title: "Tech Community Guide",
+        url: "/community/tech",
+        description: "Connect with cloud professionals"
+      }
+    ],
+    image: "/images/professions/cloud-architect.webp"
+  },
+  {
+    slug: "blockchain-developer",
+    name: "Blockchain Developer",
+    title: "Blockchain Developer Guide for Argentina",
+    subtitle: "Build Web3 applications from Argentina's growing crypto hub",
+    description: "Blockchain development is one of tech's fastest-growing fields. Learn about opportunities for crypto developers working remotely from Argentina.",
+    icon: "Code",
+    category: "tech",
+    overview: "Blockchain development represents one of the fastest-growing and highest-paying specializations in tech. Argentine developers are increasingly contributing to Web3 projects, DeFi protocols, and NFT platforms. The profession offers exceptional remote work opportunities, with crypto projects often being fully distributed teams. US crypto companies pay $80-200+/hour for experienced blockchain developers. Argentina has a vibrant crypto community driven by currency instability and tech sophistication. Buenos Aires has regular Ethereum meetups, Bitcoin conferences, and a strong Web3 developer scene. Whether you specialize in Ethereum/Solidity, Rust (Solana, Polkadot), or other chains, the opportunities are substantial.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Ideal for blockchain developers working remotely for international crypto companies.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Highly Skilled Worker Visa",
+        description: "For senior blockchain developers with specialized expertise.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "3+ years blockchain development experience",
+      "Strong proficiency in Solidity, Rust, or other blockchain languages",
+      "Portfolio of deployed smart contracts or dApps",
+      "Understanding of blockchain security best practices",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Blockchain developers command premium rates due to high demand and skill scarcity",
+      amount: "$3,000 - $10,000+ USD/month",
+      notes: "Senior blockchain developers earn $100-250+/hour with US crypto companies"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Blockchain development is almost entirely remote. The crypto industry pioneered distributed teams, with most projects operating globally. Code, smart contract deployment, and collaboration all happen through digital tools.",
+      considerations: [
+        "Extremely high demand, skill shortage in blockchain development",
+        "Crypto industry naturally remote-first",
+        "Argentina's crypto adoption among highest in world",
+        "Strong local Web3 community for networking",
+        "Can receive payment in crypto or stablecoins",
+        "Many opportunities in DeFi, NFTs, and Web3 infrastructure"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $2,000,000-5,000,000/month ($1,600-4,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Cryptocurrency", "DeFi", "NFTs", "Web3", "Fintech"]
+    },
+    professionalAssociations: [
+      {
+        name: "ETH Kipu (Ethereum Argentina)",
+        description: "Ethereum community in Argentina"
+      },
+      {
+        name: "Bitcoin Argentina",
+        description: "Bitcoin and crypto community"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Blockchain development is entirely portfolio-driven. Deployed smart contracts, GitHub contributions, and demonstrated security knowledge matter most. No formal credential validation needed.",
+      process: "Portfolio and demonstrated expertise primary factors"
+    },
+    taxConsiderations: [
+      "Remote blockchain development typically not taxed locally under Digital Nomad Visa",
+      "Crypto payments have specific tax considerations - consult accountant",
+      "Freelancers should register under monotributo",
+      "Keep detailed records of all payments and conversions"
+    ],
+    networkingTips: [
+      "Attend ETH Kipu meetups and events",
+      "Participate in hackathons (ETHGlobal, etc.)",
+      "Contribute to open-source Web3 projects",
+      "Join Discord communities of major protocols",
+      "Build presence on Twitter (crypto community active there)"
+    ],
+    faqs: [
+      {
+        question: "Which blockchain should I learn for maximum opportunity?",
+        answer: "Ethereum (Solidity) has the most opportunities currently. Rust (Solana, Polkadot, Near) is growing rapidly. Layer 2 solutions (Polygon, Arbitrum, Optimism) are in high demand. Bitcoin development is more niche. Most successful developers learn Solidity first, then expand."
+      },
+      {
+        question: "Is Argentina crypto-friendly for developers?",
+        answer: "Yes, Argentina has one of the highest crypto adoption rates globally due to currency instability. The government has been relatively open to crypto innovation. Buenos Aires has a thriving Web3 scene with regular events, and many local developers work in crypto. However, regulations continue to evolve, so staying informed is important."
+      }
+    ],
+    relatedProfessions: ["software-developer", "devops-engineer", "security-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote blockchain development"
+      },
+      {
+        title: "Tech Community Guide",
+        url: "/community/tech",
+        description: "Connect with Web3 community"
+      }
+    ],
+    image: "/images/professions/blockchain-developer.webp"
   }
 ];
 

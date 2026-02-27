@@ -4268,6 +4268,600 @@ export const nationalities: Nationality[] = [
       }
     ],
     image: "/images/nationalities/brazil.webp"
+  },
+  {
+    slug: "russia",
+    name: "Russia",
+    demonym: "Russian",
+    flag: "🇷🇺",
+    title: "Russian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Growing Russian community, streamlined visa pathways, and new opportunities",
+    description: "Argentina has become an increasingly popular destination for Russians seeking new opportunities. With no visa required for tourism, a straightforward temporary residency process, and a welcoming community in Buenos Aires, Russia nationals find Argentina offers stability and quality of life.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Russians enter visa-free with valid passport. Extensions available via migraciones.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Popular option for Russians working remotely. Streamlined process.",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires employer sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "No bilateral immigration agreement, but Argentina welcomes Russian immigrants through standard visa pathways including tourist, work, and digital nomad options.",
+      benefits: [
+        "90-day visa-free entry",
+        "Straightforward visa extensions",
+        "Digital nomad visa available",
+        "Path to permanent residency"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police certificate with apostille required for residency"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of income or employment",
+        "Health insurance (for digital nomad visa)",
+        "Proof of address in Argentina"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "RUB is not easily exchanged in Argentina. Bring USD/EUR or use crypto/Wise for transfers.",
+      banking: "Russian cards don't work in Argentina. Open local account or use international cards/ Wise/ crypto.",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Consult accountant for tax residency planning.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "15,000-20,000 (growing rapidly since 2022)",
+      mainLocations: ["Buenos Aires (Palermo, Belgrano)", "Mar del Plata", "Córdoba"],
+      associations: [
+        { name: "Russian Community Buenos Aires", url: "https://facebook.com/groups/rusosenargentina" }
+      ],
+      facebookGroups: [
+        "Русские в Аргентине / Russians in Argentina",
+        "Русскоязычные в Буэнос-Айресе"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa (transitory residency for remote workers)",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate at migraciones.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Apply for digital nomad visa online or at migraciones",
+        "Submit criminal record, proof of income, health insurance",
+        "Receive temporary residency (1 year, renewable)",
+        "After 2 years, apply for permanent residency"
+      ],
+      tips: [
+        "Apply for residency within first 90 days",
+        "Digital nomad visa is fastest route for remote workers",
+        "Join Russian community groups for support",
+        "Learn basic Spanish for bureaucratic processes"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Russians need a visa for Argentina?",
+        answer: "No! Russians can enter visa-free for up to 90 days, extendable to 180 days at migraciones. For longer stays, apply for temporary residency."
+      },
+      {
+        question: "What is the easiest visa for Russians?",
+        answer: "The Digital Nomad Visa is the most straightforward for remote workers. It grants 1-year temporary residency and can lead to permanent residency."
+      },
+      {
+        question: "How big is the Russian community in Argentina?",
+        answer: "Approximately 15,000-20,000 Russians live in Argentina, with the community growing rapidly since 2022. Most are in Buenos Aires (Palermo, Belgrano)."
+      },
+      {
+        question: "Can Russian bank cards be used in Argentina?",
+        answer: "No, Russian cards don't work in Argentina. You'll need to bring cash (USD/EUR), use Wise/Revolut, or open a local Argentine bank account."
+      },
+      {
+        question: "How long until Russians can get permanent residency?",
+        answer: "After 2 years of temporary residency (digital nomad or other), you can apply for permanent residency, which leads to citizenship eligibility after 2 more years."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "Full guide to Argentina's digital nomad visa" },
+      { title: "Temporary Residency", url: "/visas/temporary", description: "All temporary residency options" }
+    ],
+    image: "/images/nationalities/russia.webp"
+  },
+  {
+    slug: "india",
+    name: "India",
+    demonym: "Indian",
+    flag: "🇮🇳",
+    title: "Indian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Growing business ties, student pathways, and community connections",
+    description: "Argentina and India share growing business and cultural ties. Indian professionals, students, and entrepreneurs find opportunities in Argentina's tech sector, agriculture, and education. The Indian community is small but well-established, particularly in Buenos Aires.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (must obtain visa beforehand)",
+        notes: "Indian citizens need to apply for tourist visa at Argentine consulate. Processing time: 2-4 weeks.",
+        reciprocityFee: false,
+        feeAmount: "$150-200 USD"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available option for remote workers with consistent income",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires pre-arranged employment contract",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "No specific bilateral immigration agreement, but strong diplomatic ties facilitate visa processing.",
+      benefits: [
+        "Student visa pathway available",
+        "Business visa for entrepreneurs",
+        "Digital nomad option for remote workers"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police Clearance Certificate (PCC) with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Passport photos (4x4cm Argentine size)",
+        "Travel itinerary and accommodation proof",
+        "Bank statements (3-6 months)",
+        "Health insurance"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "INR not exchanged in Argentina. Bring USD or use Wise/Remitly for transfers.",
+      banking: "Indian cards may have limited acceptance. Best to open local account or use international cards.",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Plan for tax residency carefully.",
+      dualCitizenshipAllowed: false
+    },
+    communityInfo: {
+      populationInArgentina: "3,000-5,000",
+      mainLocations: ["Buenos Aires", "Córdoba (IT sector)", "Mendoza (agriculture)"],
+      associations: [
+        { name: "Indian Association of Argentina", url: "https://facebook.com/indianassociationargentina" }
+      ],
+      facebookGroups: [
+        "Indians in Argentina",
+        "Indian Community Buenos Aires"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Student Visa (for those pursuing education)",
+      timeline: "Student visa: 1-2 months processing. Digital nomad: 30-60 days.",
+      steps: [
+        "Obtain tourist visa from Argentine consulate in India",
+        "Enter Argentina and explore opportunities",
+        "Apply for student visa (if enrolled) or digital nomad visa",
+        "Complete required documentation with apostille",
+        "After 2 years temporary residency, apply for permanent"
+      ],
+      tips: [
+        "Apply for visas well in advance (2-3 months)",
+        "Student visa is most straightforward path",
+        "Learn Spanish before arriving - essential for daily life",
+        "Connect with Indian community for support"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Indians need a visa for Argentina?",
+        answer: "Yes, Indian citizens must obtain a visa before traveling. Apply at the Argentine consulate in India with required documentation. Processing takes 2-4 weeks."
+      },
+      {
+        question: "What is the best visa option for Indians?",
+        answer: "Student visa if pursuing education (fastest path), or digital nomad visa for remote workers with consistent income."
+      },
+      {
+        question: "Is there an Indian community in Argentina?",
+        answer: "Yes, approximately 3,000-5,000 Indians live in Argentina, mainly in Buenos Aires and Córdoba's tech sector. The Indian Association of Argentina provides community support."
+      },
+      {
+        question: "Can I work on a tourist visa in Argentina?",
+        answer: "No, working on a tourist visa is illegal. You must obtain a work visa or temporary residency with work authorization before starting employment."
+      },
+      {
+        question: "How long does permanent residency take?",
+        answer: "After 2 years of legal temporary residency (student, work, or digital nomad), you can apply for permanent residency. Citizenship eligibility follows after 2 more years."
+      }
+    ],
+    relatedResources: [
+      { title: "Student Visa Guide", url: "/visas/student", description: "Complete student visa information" },
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "Remote worker visa details" }
+    ],
+    image: "/images/nationalities/india.webp"
+  },
+  {
+    slug: "south-africa",
+    name: "South Africa",
+    demonym: "South African",
+    flag: "🇿🇦",
+    title: "South African Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Working holiday agreement, vibrant community, and lifestyle opportunities",
+    description: "South Africa and Argentina enjoy a working holiday agreement that allows young South Africans to live and work in Argentina for up to a year. Combined with Argentina's growing popularity among South African retirees and professionals, there's a vibrant community in Buenos Aires and coastal areas.",
+    region: "africa",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "South Africans enter visa-free. Extensions available at migraciones.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Great option for remote workers from South Africa",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or working holiday visa (ages 18-30)",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: true,
+      type: "Working Holiday Agreement",
+      description: "South Africa and Argentina have a working holiday agreement allowing citizens aged 18-30 to work and travel in Argentina for up to 12 months.",
+      benefits: [
+        "12-month working holiday visa",
+        "Can work for any employer",
+        "Multiple entry allowed",
+        "Open to ages 18-30"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months minimum",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Police clearance certificate (SAPS) with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of funds for working holiday",
+        "Health insurance",
+        "Return flight ticket or funds",
+        "Working holiday application form"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "ZAR can be exchanged at casas de cambio but rates vary. USD is preferred.",
+      banking: "South African cards work in Argentina. Consider opening local account for long-term stays.",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty. Check with SARS about tax residency implications.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "2,000-3,000",
+      mainLocations: ["Buenos Aires", "Mar del Plata", "Bariloche"],
+      associations: [
+        { name: "South Africans in Argentina", url: "https://facebook.com/groups/southafricansargentina" }
+      ],
+      facebookGroups: [
+        "South Africans in Argentina",
+        "Saffas in Buenos Aires"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Working Holiday Visa (ages 18-30)",
+      timeline: "Working holiday: 4-6 weeks processing. Tourist extension: immediate.",
+      steps: [
+        "If 18-30: Apply for working holiday visa at Argentine consulate",
+        "For older applicants: Enter as tourist (90 days)",
+        "Apply for temporary residency (digital nomad or work visa)",
+        "Submit required documentation",
+        "After 2 years, apply for permanent residency"
+      ],
+      tips: [
+        "Working holiday visa is perfect for young South Africans",
+        "Apply early - limited quota each year",
+        "Learn Spanish before arrival",
+        "Connect with Saffa community for housing tips"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do South Africans need a visa for Argentina?",
+        answer: "No for tourism - South Africans get 90 days visa-free. For working holiday (ages 18-30), apply in advance. For work, you'll need a work visa."
+      },
+      {
+        question: "What is the working holiday visa?",
+        answer: "A special agreement allowing South Africans aged 18-30 to work and travel in Argentina for up to 12 months. You can work for any employer and it's renewable in some cases."
+      },
+      {
+        question: "Can South Africans retire in Argentina?",
+        answer: "Yes! Argentina's retirement visa requires proof of stable passive income (pension, investments, rental income). Many South Africans choose coastal areas like Mar del Plata."
+      },
+      {
+        question: "Is there a South African community in Argentina?",
+        answer: "Yes, approximately 2,000-3,000 South Africans live in Argentina, concentrated in Buenos Aires, Mar del Plata, and Bariloche. Facebook groups provide excellent support."
+      },
+      {
+        question: "How long until permanent residency?",
+        answer: "After 2 years of temporary residency (working holiday can convert to temporary), you can apply for permanent residency, leading to citizenship after 2 more years."
+      }
+    ],
+    relatedResources: [
+      { title: "Working Holiday Visa", url: "/visas/working-holiday", description: "Complete working holiday information" },
+      { title: "Retirement Visa", url: "/visas/retirement", description: "Pensioner and retirement options" }
+    ],
+    image: "/images/nationalities/south-africa.webp"
+  },
+  {
+    slug: "israel",
+    name: "Israel",
+    demonym: "Israeli",
+    flag: "🇮🇱",
+    title: "Israeli Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Strong historical ties, vibrant Jewish community, and business opportunities",
+    description: "Argentina is home to the largest Jewish community in Latin America, and Israelis find a welcoming environment with strong cultural connections. From tech startups to agriculture, Israelis contribute significantly to Argentina's economy while enjoying the country's lifestyle.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Israelis enter visa-free. Extensions available at migraciones for ARS 12,000.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Popular among Israeli tech workers and digital entrepreneurs",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through sponsorship or independent work permit",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "No specific bilateral immigration agreement, but strong cultural ties through the large Jewish community facilitate integration.",
+      benefits: [
+        "Visa-free entry (90 days)",
+        "Strong Jewish community support",
+        "Hebrew-speaking services available",
+        "Kosher food widely available in BA"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Teudat Yosher from Israeli Police with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of income or employment",
+        "Health insurance",
+        "Argentine address proof"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "ILS not easily exchanged. Bring USD or use Wise/Revolut.",
+      banking: "Israeli cards work in Argentina. Many Israelis use Leumi Bank or open local accounts.",
+      taxTreaty: true,
+      taxTreatyDetails: "Israel-Argentina tax treaty prevents double taxation. Consult accountant for details.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "200,000+ Jewish community; 3,000-5,000 Israeli nationals",
+      mainLocations: ["Buenos Aires (Once, Belgrano, Palermo)", "Córdoba", "Rosario"],
+      associations: [
+        { name: "AMIA - Jewish Community Center", url: "https://amia.org.ar" },
+        { name: "Israeli Embassy Buenos Aires", url: "https://embassies.gov.il/buenos-aires" }
+      ],
+      facebookGroups: [
+        "Israelis in Argentina",
+        "ישראלים בארגנטינה"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa for tech workers, or Community ties for those with Jewish heritage",
+      timeline: "Digital nomad: 30-60 days. Tourist extension: immediate at migraciones.",
+      steps: [
+        "Enter as tourist (90 days visa-free)",
+        "Explore community connections and opportunities",
+        "Apply for temporary residency (digital nomad or work visa)",
+        "Submit documentation with apostille",
+        "After 2 years, apply for permanent residency"
+      ],
+      tips: [
+        "Connect with AMIA and Jewish community organizations",
+        "Many synagogues offer Hebrew services",
+        "Kosher restaurants concentrated in Once and Belgrano",
+        "Israeli tech scene is growing in Buenos Aires"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Israelis need a visa for Argentina?",
+        answer: "No! Israelis can enter visa-free for 90 days, extendable to 180 days at migraciones. For longer stays, apply for temporary residency."
+      },
+      {
+        question: "Is there a Jewish community in Argentina?",
+        answer: "Yes! Argentina has the largest Jewish community in Latin America (200,000+). Buenos Aires has synagogues, kosher restaurants, Jewish schools, and cultural centers."
+      },
+      {
+        question: "Can I get kosher food in Argentina?",
+        answer: "Absolutely. Buenos Aires has numerous kosher restaurants, supermarkets, and bakeries, especially in the Once and Belgrano neighborhoods."
+      },
+      {
+        question: "Is there an Israeli community in Buenos Aires?",
+        answer: "Yes, approximately 3,000-5,000 Israeli nationals live in Argentina, plus a large Jewish community. Many organizations serve the Israeli community including the embassy and cultural centers."
+      },
+      {
+        question: "How can Israelis get permanent residency?",
+        answer: "After 2 years of temporary residency (digital nomad, work visa, or other), Israelis can apply for permanent residency. Citizenship is possible after 2 more years."
+      }
+    ],
+    relatedResources: [
+      { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "Guide for remote workers" },
+      { title: "Buenos Aires Jewish Guide", url: "/guides/jewish-buenos-aires", description: "Kosher dining and community info" }
+    ],
+    image: "/images/nationalities/israel.webp"
+  },
+  {
+    slug: "ireland",
+    name: "Ireland",
+    demonym: "Irish",
+    flag: "🇮🇪",
+    title: "Irish Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Working holiday agreement, Celtic connections, and entrepreneurial opportunities",
+    description: "Ireland and Argentina share deep historical ties, with Argentina home to the fifth-largest Irish diaspora in the world. Irish citizens enjoy a working holiday agreement, visa-free travel, and a welcoming community that celebrates Celtic heritage throughout the country.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Irish citizens enter visa-free. Extensions available at migraciones.",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Excellent option for Irish remote workers and tech professionals",
+        incomeRequirement: "$1,000-1,500/month"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through sponsorship or working holiday (ages 18-35)",
+        sponsorshipRequired: true
+      }
+    },
+    specialAgreements: {
+      hasAgreement: true,
+      type: "Working Holiday Agreement",
+      description: "Ireland and Argentina have a working holiday agreement allowing Irish citizens aged 18-35 to work and travel in Argentina for up to 12 months, with possible extension.",
+      benefits: [
+        "12-month working holiday visa",
+        "Can work for any employer",
+        "Ages 18-35 eligible",
+        "Possible to extend in certain circumstances"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Irish Police Certificate with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of funds (working holiday)",
+        "Health insurance",
+        "Return flight or proof of onward travel",
+        "Working holiday application"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "EUR easily exchanged at casas de cambio. Good rates for euro.",
+      banking: "Irish cards work well in Argentina. Revolut/ N26 popular for transfers.",
+      taxTreaty: false,
+      taxTreatyDetails: "No tax treaty, but both countries have foreign income exemptions for temporary residents.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "600,000+ of Irish descent; 2,000-3,000 Irish nationals",
+      mainLocations: ["Buenos Aires", "Córdoba", "Lobos (Irish heritage town)"],
+      associations: [
+        { name: "Irish Argentine Society", url: "https://facebook.com/irishargentine" },
+        { name: "Embassy of Ireland Buenos Aires", url: "https://www.dfa.ie/irish-embassy/argentina" }
+      ],
+      facebookGroups: [
+        "Irish in Argentina",
+        "Irish Community Buenos Aires"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Working Holiday Visa (ages 18-35) - fastest path",
+      timeline: "Working holiday: 4-6 weeks. Digital nomad: 30-60 days.",
+      steps: [
+        "If 18-35: Apply for working holiday visa",
+        "Enter Argentina and explore",
+        "Apply for temporary residency before working holiday expires",
+        "Submit required documentation",
+        "After 2 years total temporary residency, apply for permanent"
+      ],
+      tips: [
+        "Working holiday visa is perfect for young Irish",
+        "Irish pubs in Buenos Aires provide community connections",
+        "Visit Lobos - town founded by Irish immigrants",
+        "St. Patrick's Day is celebrated throughout Argentina"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Irish citizens need a visa for Argentina?",
+        answer: "No for tourism - 90 days visa-free. For working holiday (ages 18-35), apply at the Argentine consulate in Dublin. For work, you'll need a work visa."
+      },
+      {
+        question: "Is there an Irish community in Argentina?",
+        answer: "Yes! Argentina has the 5th largest Irish diaspora globally (600,000+ of Irish descent). Buenos Aires has Irish pubs, cultural societies, and even a town (Lobos) founded by Irish immigrants."
+      },
+      {
+        question: "What is the working holiday visa for Irish citizens?",
+        answer: "Allows Irish citizens aged 18-35 to live and work in Argentina for 12 months. You can work for any employer. Apply through the Argentine consulate in Dublin."
+      },
+      {
+        question: "Can Irish citizens get permanent residency?",
+        answer: "Yes, after 2 years of legal temporary residency (working holiday can convert), Irish citizens can apply for permanent residency, leading to citizenship after 2 more years."
+      },
+      {
+        question: "Are there Irish pubs in Buenos Aires?",
+        answer: "Absolutely! Buenos Aires has numerous Irish pubs including The Kilkenny, Buller Pub, and others. They're popular gathering spots for the Irish community and offer authentic Irish atmosphere."
+      }
+    ],
+    relatedResources: [
+      { title: "Working Holiday Visa", url: "/visas/working-holiday", description: "Irish working holiday details" },
+      { title: "Irish Heritage in Argentina", url: "/guides/irish-argentina", description: "Historical Irish connections" }
+    ],
+    image: "/images/nationalities/ireland.webp"
   }
 ];
 

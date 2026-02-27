@@ -124,8 +124,8 @@ export default async function NationalityPage({ params }: NationalityPageProps) 
                   <Badge className="capitalize mb-2">{nationality.region.replace("-", " ")}</Badge>
                   {nationality.visaRequirements.mercosur?.eligible && (
                     <Badge className="bg-green-500 ml-2">
-                      {nationality.slug === "colombia" || nationality.slug === "chile" || nationality.slug === "peru" 
-                        ? "Mercosur Associate" 
+                      {nationality.specialAgreements.type?.toLowerCase().includes("associate")
+                        ? "Mercosur Associate"
                         : "Mercosur Member"}
                     </Badge>
                   )}
