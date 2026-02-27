@@ -100,7 +100,7 @@ export default function CitiesPage() {
                       <h2 className="text-xl font-bold text-white">
                         {city.name}
                       </h2>
-                      <div className="flex items-center gap-1 text-white/80 text-sm">
+                      <div className="flex items-center gap-1 text-white/80 text-base md:text-sm">
                         <MapPinIcon size="sm" />
                         <span>{city.province}</span>
                       </div>

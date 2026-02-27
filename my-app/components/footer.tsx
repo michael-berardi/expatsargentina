@@ -158,7 +158,7 @@ export function Footer() {
           <p className="text-base md:text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} Expats Argentina. All rights reserved.
           </p>
-          <p className="text-sm text-muted-foreground text-center md:text-right">
+          <p className="text-base md:text-sm text-muted-foreground text-center md:text-right">
             Sponsored by{" "}
             <Link href="https://lucerolegal.com" className="underline hover:text-foreground">
               Lucero Legal

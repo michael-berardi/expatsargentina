@@ -5,6 +5,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* WCAG 1.4.12: Override text-sm/text-xl line-heights to meet 1.5x minimum */
+  --text-sm--line-height: 1.3125rem;
+  --text-xl--line-height: 1.875rem;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
@@ -112,10 +115,7 @@
     line-height: 1.6;
   }
 
-  /* Card titles need accessible line-height (overrides Tailwind text-xl) */
-  [data-slot="card-title"] {
-    line-height: 1.5 !important;
-  }
+  /* Card titles line-height handled by .text-xl rule outside @layer */
 
   /* Focus styles for keyboard accessibility */
   :focus-visible {
@@ -161,6 +161,19 @@
       scroll-behavior: auto !important;
     }
   }
+}
+
+/* WCAG 1.4.12: Override Tailwind text-size line-heights that fall below 1.5x */
+h3, h4, h5, h6,
+[data-slot="card-title"] {
+  line-height: 1.5 !important;
+}
+
+/* Body text elements need 1.5x+ line-height regardless of Tailwind text-size utility */
+p, li, dd, span, blockquote, figcaption, td, th, label,
+[data-slot="card-description"],
+.text-muted-foreground {
+  line-height: 1.6 !important;
 }
 
 /* Focus indicators for all interactive elements */

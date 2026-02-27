@@ -204,7 +204,7 @@ export function Navbar() {
               </div>
 
               <nav className="flex flex-col gap-4">
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
+                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider">
                   Provinces
                 </div>
                 {provinceItems.map((item) => (
@@ -218,7 +218,7 @@ export function Navbar() {
                   </SheetClose>
                 ))}
 
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   Cities
                 </div>
                 {cityItems.map((item) => (
@@ -232,7 +232,7 @@ export function Navbar() {
                   </SheetClose>
                 ))}
 
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   Visas
                 </div>
                 {visaItems.map((item) => (
@@ -246,7 +246,7 @@ export function Navbar() {
                   </SheetClose>
                 ))}
 
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
+                <div className="text-base md:text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-4">
                   Guides
                 </div>
                 {guideItems.map((item) => (

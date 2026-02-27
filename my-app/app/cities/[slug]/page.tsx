@@ -87,7 +87,7 @@ export default async function CityDetailPage({
       </div>
 
       {/* Hero */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
+      <section className="relative py-16 md:py-32 overflow-hidden">
         <Image
           src={city.image}
           alt={city.name}

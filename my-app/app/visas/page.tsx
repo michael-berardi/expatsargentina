@@ -1024,7 +1024,7 @@ const visaData = {
 // Main Page Component
 export default function VisasPage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
