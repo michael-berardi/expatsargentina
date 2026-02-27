@@ -1842,6 +1842,1165 @@ export const professions: Profession[] = [
       }
     ],
     image: "/images/professions/data-scientist.webp"
+  },
+  {
+    slug: "executive-assistant",
+    name: "Executive Assistant",
+    title: "Executive Assistant Guide for Argentina",
+    subtitle: "Support C-suite executives remotely while enjoying Argentina's lifestyle",
+    description: "Argentina's pool of bilingual executive assistants attracts international executives and companies seeking high-level administrative support. Learn about visa pathways and building your EA career from Argentina.",
+    icon: "Briefcase",
+    category: "business",
+    overview: "Executive assistance represents a premium tier of administrative support, with Argentine EAs commanding higher rates due to strong English proficiency, cultural alignment with US business practices, and excellent education levels. The role is perfectly suited for remote work, with many EAs supporting CEOs, founders, and executives at startups and established companies. Argentina's time zone overlap with the US and significantly lower cost of living create an ideal environment for building a lucrative remote EA practice. The profession offers strong earning potential ($3,000-$6,000+/month with experienced US clients) and clear pathways to permanent residency through the Digital Nomad Visa.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Ideal for EAs supporting international executives remotely. Most common pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For EAs hired by Argentine companies or multinational corporations.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent EAs with multiple executive clients.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Demonstrated executive support experience (3+ years preferred)",
+      "Professional references from C-suite executives",
+      "Proof of client contracts or employment agreements",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "Business degree or administrative certification (preferred)"
+    ],
+    incomeRequirements: {
+      description: "Executive assistants command premium rates for high-level support",
+      amount: "$2,500 - $6,000+ USD/month",
+      notes: "Experienced EAs with US executives can earn $40-80/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Executive assistance is highly remote-friendly. Calendar management, travel coordination, correspondence, and project support can all be performed virtually with modern tools.",
+      considerations: [
+        "Time zone alignment with US enables real-time executive support",
+        "Many executives prefer Argentine EAs for cultural compatibility",
+        "Lower living costs make competitive rates sustainable",
+        "Growing demand for bilingual executive support",
+        "Tools like Slack, Zoom, Calendly, and Asana enable seamless remote collaboration",
+        "Some executives require coverage during US business hours"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,500,000-3,000,000/month ($1,200-2,400 USD at blue rate) for local roles",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza"],
+      industries: ["Tech Startups", "Finance", "Legal", "Consulting", "Real Estate"]
+    },
+    professionalAssociations: [
+      {
+        name: "International Association of Administrative Professionals",
+        url: "https://www.iaap-hq.org",
+        description: "Professional certification and networking for EAs"
+      },
+      {
+        name: "Executive Assistants Organization",
+        description: "Community for high-level administrative professionals"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Executive assistance values demonstrated competence, references, and experience over formal credentials. However, certifications like CAP (Certified Administrative Professional) can enhance credibility."
+    },
+    taxConsiderations: [
+      "Remote work for foreign executives typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo for local compliance",
+      "Keep detailed records of all client payments and expenses",
+      "Consider hiring an accountant if supporting multiple executives",
+      "Some executives provide equipment or expense reimbursements"
+    ],
+    networkingTips: [
+      "Join 'Executive Assistants Argentina' professional groups",
+      "Create profiles on LinkedIn targeting C-suite executives",
+      "Connect with US-based EA agencies and staffing firms",
+      "Attend Buenos Aires coworking space networking events",
+      "Build relationships with executive coaches and leadership consultants",
+      "Participate in online EA communities and forums"
+    ],
+    faqs: [
+      {
+        question: "What's the difference between a virtual assistant and an executive assistant?",
+        answer: "Executive assistants typically support C-suite executives with higher-level tasks like strategic calendar management, board meeting coordination, investor relations support, and complex travel logistics. EAs command higher rates ($40-80/hour vs $20-40/hour for VAs) and often have more direct access to executive decision-making. The role requires more experience, discretion, and business acumen."
+      },
+      {
+        question: "How do I find executive clients in the US while living in Argentina?",
+        answer: "Many Argentine EAs find clients through LinkedIn outreach, executive assistant agencies (like Boldly, Belay, or Time Etc.), and referrals. Building a strong LinkedIn profile that emphasizes your experience supporting executives is crucial. Networking in executive assistant communities and attending virtual conferences can also generate leads. Many successful EAs start with one executive and grow through referrals."
+      },
+      {
+        question: "Do I need to work US hours as an EA from Argentina?",
+        answer: "It depends on the executive's needs. Many executives require coverage during US business hours (which means 1-2 PM start times in Argentina). However, some arrangements involve morning coverage in Argentina (US afternoon/evening) or flexible asynchronous support. Clarify expectations during the hiring process. The 1-2 hour time difference with the US East Coast makes real-time support very feasible."
+      },
+      {
+        question: "What tools should I master as a remote executive assistant?",
+        answer: "Essential tools include calendar management (Google Calendar, Calendly, Outlook), communication (Slack, Zoom, Microsoft Teams), project management (Asana, Monday.com, Trello), travel booking (Concur, TravelPerk), and document management (Google Workspace, Microsoft 365). Familiarity with CRMs (Salesforce, HubSpot) and expense management tools is also valuable."
+      }
+    ],
+    relatedProfessions: ["virtual-assistant", "business-consultant", "project-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Complete requirements for remote executive assistants"
+      },
+      {
+        title: "Cost of Living Calculator",
+        url: "/cost-of-living",
+        description: "Plan your budget as an EA in Argentina"
+      },
+      {
+        title: "Best Neighborhoods for Remote Workers",
+        url: "/neighborhoods",
+        description: "Where to live in Buenos Aires for professionals"
+      }
+    ],
+    image: "/images/professions/executive-assistant.webp"
+  },
+  {
+    slug: "accountant-bookkeeper",
+    name: "Accountant / Bookkeeper",
+    title: "Accountant & Bookkeeper Guide for Argentina",
+    subtitle: "Manage finances remotely while navigating Argentina's unique economic landscape",
+    description: "Argentina's complex currency controls and tax system create unique opportunities for accountants and bookkeepers serving international clients. Learn about visa pathways and building your practice.",
+    icon: "BarChart",
+    category: "business",
+    overview: "Accounting and bookkeeping professionals find Argentina particularly interesting due to its complex economic environment. The country's multiple exchange rates (official, blue, MEP, CCL), high inflation, and intricate tax regulations create demand for skilled financial professionals. Many Argentine accountants serve US and international clients remotely, while others help expats navigate Argentina's challenging fiscal landscape. The profession offers strong remote work potential, with US clients valuing the cost savings while Argentine clients need local expertise. Understanding both international accounting standards and Argentina's unique systems (monotributo, IVA, ganancias) creates a valuable skill set.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For accountants serving international clients remotely. Most suitable for bookkeepers and those with US clientele.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Professional Visa (Contador Público)",
+        description: "For certified accountants (CPAs) planning to practice in Argentina. Requires degree validation.",
+        difficulty: "Complex",
+        timeline: "2-4 months"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent bookkeepers and accounting consultants.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Valid passport with 6+ months remaining",
+      "Accounting degree or bookkeeping certification",
+      "Proof of client contracts or employment",
+      "Professional liability insurance (recommended)",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "For Argentine practice: degree validation through CONEAU"
+    ],
+    incomeRequirements: {
+      description: "Accountants need stable income to demonstrate financial stability for visa purposes",
+      amount: "$2,000 - $5,000+ USD/month",
+      notes: "US clients typically pay $50-150/hour; Argentine clients pay in pesos at market rates"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Accounting and bookkeeping are highly remote-friendly. Cloud-based accounting software (QuickBooks Online, Xero, FreshBooks) enables serving clients globally. Argentina's lower cost of living makes US client rates very attractive.",
+      considerations: [
+        "Strong demand for bilingual accountants familiar with US tax system",
+        "Time zone overlap with US enables real-time client communication",
+        "Complex Argentine tax system creates niche expertise opportunities",
+        "Many US CPAs outsource bookkeeping to Argentine professionals",
+        "Understanding of international tax treaties valuable for expat clients",
+        "Currency arbitrage makes USD earnings very favorable"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,200,000-3,000,000/month ($1,000-2,400 USD at blue rate) for local positions",
+      keyCities: ["Buenos Aires", "Cordoba", "Rosario", "Mendoza"],
+      industries: ["Professional Services", "Tech Startups", "E-commerce", "Real Estate", "Import/Export"]
+    },
+    professionalAssociations: [
+      {
+        name: "Federación Argentina de Consejos Profesionales de Ciencias Económicas (FACPCE)",
+        description: "National federation of accounting professional councils"
+      },
+      {
+        name: "American Institute of CPAs (AICPA)",
+        url: "https://www.aicpa-cima.com",
+        description: "US professional organization (membership valuable for US clients)"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "To practice as a 'Contador Público' in Argentina, foreign degrees must be validated by CONEAU (National Commission for University Evaluation and Accreditation). Bookkeepers don't require credential recognition but benefit from certifications like QuickBooks ProAdvisor.",
+      process: "Submit degree and transcripts for validation (4-6 months), then register with local professional council (Consejo Profesional de Ciencias Económicas)"
+    },
+    taxConsiderations: [
+      "Remote work for foreign clients typically not taxed locally under Digital Nomad Visa",
+      "Argentine tax residency requires filing annual tax returns (DDJJ)",
+      "Monotributo regime available for small practitioners (simplified tax)",
+      "IVA (VAT) obligations if billing Argentine clients",
+      "Understanding of both US and Argentine tax systems valuable",
+      "Professional accounting support strongly recommended for compliance"
+    ],
+    networkingTips: [
+      "Join 'Contadores en Argentina' professional groups",
+      "Connect with US expat communities (many need tax help)",
+      "Attend FACPCE continuing education events",
+      "Build relationships with Argentine business chambers",
+      "Offer workshops on Argentina's tax system for expats",
+      "Network at coworking spaces popular with entrepreneurs"
+    ],
+    faqs: [
+      {
+        question: "Can I practice as a CPA in Argentina with my US license?",
+        answer: "US CPA licenses are not automatically recognized in Argentina. To use the title 'Contador Público' and sign official financial statements, you need degree validation through CONEAU and registration with the local professional council. However, you can work as an accounting consultant or bookkeeper without full credential recognition. Many US CPAs serve international clients remotely without practicing locally."
+      },
+      {
+        question: "How do Argentina's currency controls affect accounting work?",
+        answer: "Argentina's multiple exchange rates create complexity but also opportunity. Accountants must understand the official rate, blue dollar rate, MEP (Mercado Electrónico de Pagos), and CCL (Contado con Liquidación) rates. Foreign earnings at the blue rate or via crypto/stablecoins are common. This complexity makes skilled accountants valuable for navigating the system legally and efficiently."
+      },
+      {
+        question: "What's the difference between monotributo and the general tax regime?",
+        answer: "Monotributo is a simplified tax regime for small taxpayers with annual revenue under approximately ARS $60 million (varies by category). It combines income tax, VAT, and social security into a single monthly payment. The general regime requires full accounting, monthly VAT filings, and annual income tax returns. Most solo practitioners start with monotributo and transition to the general regime as they grow."
+      },
+      {
+        question: "Should I specialize in serving expats or Argentine businesses?",
+        answer: "Both have advantages. Expats (especially from the US) often pay in USD at premium rates and need help navigating Argentina's system. Argentine businesses pay in pesos but offer volume and local networking. Many successful accountants serve both: expats for USD income stability and Argentine businesses for local market integration. Specializing in a niche (e.g., tech startups, real estate, e-commerce) can also be profitable."
+      }
+    ],
+    relatedProfessions: ["financial-advisor", "business-consultant", "virtual-assistant"],
+    resources: [
+      {
+        title: "AFIP Guide for Expats",
+        url: "/guides/afip",
+        description: "Understanding Argentina's tax authority"
+      },
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote accounting work"
+      },
+      {
+        title: "Banking Guide",
+        url: "/guides/banking",
+        description: "Managing money with currency controls"
+      }
+    ],
+    image: "/images/professions/accountant.webp"
+  },
+  {
+    slug: "project-manager",
+    name: "Project Manager",
+    title: "Project Manager Guide for Argentina",
+    subtitle: "Lead international projects from Latin America's emerging tech hub",
+    description: "Argentina's growing tech sector and international business presence create excellent opportunities for project managers. Learn about visa pathways and building your PM career remotely.",
+    icon: "Briefcase",
+    category: "business",
+    overview: "Project management is a high-demand profession in Argentina's expanding tech and business ecosystem. PMs coordinate complex initiatives for startups, multinational corporations, and international clients. The role is exceptionally well-suited for remote work, with Argentine PMs managing distributed teams across time zones. Strong English proficiency, cultural affinity with US business practices, and competitive rates ($35-80/hour vs $100-200+ in the US) make Argentine project managers attractive hires. The profession offers clear visa pathways through the Digital Nomad Visa and strong earning potential for experienced professionals.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Ideal for PMs leading remote teams or managing projects for international clients. Most common pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For PMs hired by Argentine tech companies or multinationals with local offices.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent PM consultants serving multiple clients.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Demonstrated project management experience (3+ years)",
+      "PM certification (PMP, Scrum Master, or equivalent) preferred",
+      "Portfolio of managed projects with measurable outcomes",
+      "Proof of client contracts or employment agreements",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "Bachelor's degree (business, engineering, or related field)"
+    ],
+    incomeRequirements: {
+      description: "Project managers with international experience command strong rates",
+      amount: "$2,500 - $6,000+ USD/month",
+      notes: "Senior PMs with PMP certification can earn $60-100/hour with US clients"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Project management is inherently remote-friendly. Tools like Jira, Asana, Monday.com, and Slack enable coordinating distributed teams from anywhere. Agile ceremonies, stakeholder updates, and team coordination can all be conducted virtually.",
+      considerations: [
+        "Time zone overlap with US enables real-time team leadership",
+        "Argentina's tech talent pool allows hiring local team members",
+        "Many US companies specifically seek LATAM PMs for cultural fit",
+        "Strong demand for bilingual PMs who can bridge US-LATAM teams",
+        "Lower living costs make competitive rates sustainable",
+        "Growing startup ecosystem creates local opportunities"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,800,000-4,000,000/month ($1,500-3,200 USD at blue rate) for senior roles",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza", "Rosario"],
+      industries: ["Technology", "E-commerce", "Fintech", "Consulting", "Software Development"]
+    },
+    professionalAssociations: [
+      {
+        name: "Project Management Institute (PMI)",
+        url: "https://www.pmi.org",
+        description: "Global PM certification body (PMP, CAPM)"
+      },
+      {
+        name: "Scrum Alliance",
+        url: "https://www.scrumalliance.org",
+        description: "Agile and Scrum certifications"
+      },
+      {
+        name: "Ágiles Argentina",
+        description: "Local agile community with regular meetups"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Project management values certifications (PMP, Scrum Master) and demonstrated experience over degree validation. Argentine employers recognize international certifications.",
+      process: "PMI certifications are globally recognized; no local validation needed"
+    },
+    taxConsiderations: [
+      "Remote PM work for foreign clients typically not taxed locally under Digital Nomad Visa",
+      "Freelance consultants should register under monotributo",
+      "Keep detailed records of client contracts and payments",
+      "Professional liability insurance recommended for independent PMs",
+      "Consider accountant for complex multi-client situations"
+    ],
+    networkingTips: [
+      "Join 'Project Managers Argentina' LinkedIn groups",
+      "Attend Ágiles Argentina meetups and conferences",
+      "Participate in BA Tech Week events",
+      "Connect with local software development companies",
+      "Build relationships with US-based PM communities",
+      "Network at coworking spaces popular with tech teams"
+    ],
+    faqs: [
+      {
+        question: "Is PMP certification worth it for working remotely from Argentina?",
+        answer: "Yes, PMP certification significantly increases earning potential and credibility with US clients. It demonstrates standardized knowledge and commitment to the profession. Many US companies specifically require or prefer PMP-certified PMs. The certification pays for itself through higher rates and better client opportunities."
+      },
+      {
+        question: "What industries hire the most project managers in Argentina?",
+        answer: "Technology and software development are the largest employers, followed by fintech, e-commerce, and consulting. International companies with Argentine operations also hire PMs locally. The startup ecosystem is particularly active in Buenos Aires, creating opportunities across many verticals."
+      },
+      {
+        question: "Can I manage US-based teams from Argentina?",
+        answer: "Absolutely. Many Argentine PMs successfully lead US-based teams. The 1-2 hour time difference with the US East Coast makes real-time collaboration feasible. Agile ceremonies, standups, and meetings can be scheduled during overlapping hours. Many PMs find the time difference actually helps with focused work time in the morning before US teams start."
+      }
+    ],
+    relatedProfessions: ["product-manager", "business-consultant", "scrum-master"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote project management work"
+      },
+      {
+        title: "Tech Community Guide",
+        url: "/community/tech",
+        description: "Connect with Argentina's tech ecosystem"
+      },
+      {
+        title: "Cost of Living Calculator",
+        url: "/cost-of-living",
+        description: "Budget planning for PMs in Argentina"
+      }
+    ],
+    image: "/images/professions/project-manager.webp"
+  },
+  {
+    slug: "legal-consultant",
+    name: "Legal Consultant",
+    title: "Legal Consultant Guide for Argentina",
+    subtitle: "Navigate international legal practice while experiencing Argentina's culture",
+    description: "Foreign attorneys and legal consultants find unique opportunities in Argentina, from serving international clients remotely to advising on cross-border transactions. Learn about visa pathways and regulatory requirements.",
+    icon: "Briefcase",
+    category: "business",
+    overview: "Legal consulting from Argentina offers intriguing possibilities for foreign attorneys. While practicing Argentine law requires local bar admission, many foreign lawyers serve international clients remotely, advise on cross-border transactions, or specialize in areas like immigration law, international business, or tax planning. Argentina's complex regulatory environment actually creates demand for legal expertise. US and European attorneys can serve their home-country clients remotely while enjoying Argentina's lifestyle and cost advantages. For those seeking to practice locally, Argentina offers a pathway through degree validation and bar examination. The Investment Visa is particularly relevant for attorneys establishing local practices.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For attorneys serving international clients remotely. Cannot practice Argentine law without local bar admission.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Investment Visa",
+        description: "For attorneys establishing a legal practice or consultancy in Argentina. Requires significant investment.",
+        difficulty: "Complex",
+        timeline: "3-6 months"
+      },
+      {
+        name: "Work Visa (Firm Sponsorship)",
+        description: "For attorneys hired by international law firms with Argentine offices.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Law degree from accredited university",
+      "Bar admission in home jurisdiction (active license)",
+      "Professional liability insurance",
+      "Clean disciplinary record",
+      "Proof of client base or employment",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "For local practice: degree validation and Argentine bar exam"
+    ],
+    incomeRequirements: {
+      description: "Legal consultants need higher income to demonstrate professional stability",
+      amount: "$3,000 - $8,000+ USD/month",
+      notes: "International legal consulting rates range $150-400/hour depending on specialization"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Many areas of legal practice can be conducted remotely: contract review, legal research, client counseling, document drafting, and advisory services. However, court appearances and certain transactional work may require physical presence.",
+      considerations: [
+        "Cannot represent clients in Argentine courts without local bar admission",
+        "Advising on foreign law (US, EU) for international clients is permissible",
+        "Cross-border transactions and international arbitration well-suited for remote work",
+        "Time zone overlap with US enables real-time client communication",
+        "Confidentiality and data security require careful technology setup",
+        "Professional liability insurance must cover remote/international practice"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $2,000,000-5,000,000/month ($1,600-4,000 USD at blue rate) for local positions",
+      keyCities: ["Buenos Aires", "Cordoba", "Rosario"],
+      industries: ["Law Firms", "Corporations", "Consulting", "International Trade", "Immigration Services"]
+    },
+    professionalAssociations: [
+      {
+        name: "Colegio de Abogados de la Ciudad de Buenos Aires",
+        description: "Buenos Aires Bar Association (for local practice)"
+      },
+      {
+        name: "International Bar Association",
+        url: "https://www.ibanet.org",
+        description: "Global legal professional organization"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "To practice Argentine law (represent clients in court, give Argentine legal advice), foreign law degrees must be validated and the Argentine bar exam passed. This is a 6-12 month process.",
+      process: "1) Degree validation through Ministry of Education (4-6 months), 2) Pass Argentine bar exam (examen de aptitud), 3) Register with local Colegio de Abogados"
+    },
+    taxConsiderations: [
+      "Remote legal consulting for foreign clients typically not taxed locally under Digital Nomad Visa",
+      "Establishing local practice requires full tax compliance and AFIP registration",
+      "Professional services may be subject to specific tax treatments",
+      "International tax treaties may affect liability",
+      "Professional accountant strongly recommended for compliance",
+      "Consider corporate structure (SRL, SA) for local practice"
+    ],
+    networkingTips: [
+      "Connect with expat communities (high need for immigration legal help)",
+      "Build relationships with international law firms",
+      "Attend International Bar Association events",
+      "Network at American Chamber of Commerce (AmCham) events",
+      "Join legal professional groups on LinkedIn",
+      "Offer workshops on legal topics for entrepreneurs"
+    ],
+    faqs: [
+      {
+        question: "Can I practice US law from Argentina?",
+        answer: "Generally yes, provided you maintain active bar admission in a US state and comply with that state's rules on unauthorized practice of law. Most states allow serving clients remotely from abroad. However, you cannot hold yourself out as licensed to practice Argentine law or advise on Argentine legal matters without local bar admission."
+      },
+      {
+        question: "How do I get admitted to the Argentine bar?",
+        answer: "Foreign attorneys must validate their law degree through the Ministry of Education (4-6 months), then pass the Argentine bar exam (examen de aptitud) administered by the Supreme Court. After passing, register with the local Colegio de Abogados (Bar Association). The process typically takes 6-12 months and requires strong Spanish proficiency."
+      },
+      {
+        question: "What legal specializations are most in demand in Argentina?",
+        answer: "Corporate law, international business transactions, tax law, immigration law, and intellectual property are in high demand. For foreign attorneys, immigration law (helping other expats), international tax planning, and cross-border transactions offer the best opportunities without full Argentine bar admission."
+      }
+    ],
+    relatedProfessions: ["business-consultant", "accountant-bookkeeper", "tax-advisor"],
+    resources: [
+      {
+        title: "Investment Visa Guide",
+        url: "/visas/investment",
+        description: "For establishing a legal practice"
+      },
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "For remote legal consulting"
+      },
+      {
+        title: "Business Culture Guide",
+        url: "/guides/business-culture",
+        description: "Understanding Argentine professional norms"
+      }
+    ],
+    image: "/images/professions/legal-consultant.webp"
+  },
+  {
+    slug: "real-estate-agent",
+    name: "Real Estate Agent",
+    title: "Real Estate Agent Guide for Argentina",
+    subtitle: "Build a property business in Argentina's unique market",
+    description: "Argentina's real estate market offers opportunities for foreign agents, from serving international buyers to investing in local property. Learn about visa pathways including the Investment Visa.",
+    icon: "MapPin",
+    category: "business",
+    overview: "Real estate in Argentina operates in a unique economic context. The market historically transacts in USD cash (due to currency instability), creating interesting dynamics for foreign agents. Many expats seek property in Buenos Aires, Bariloche, Mendoza, and coastal areas. Foreign real estate professionals can serve international buyers remotely, partner with local agencies, or pursue the Investment Visa by establishing a real estate business or making qualifying property investments. The profession requires understanding Argentina's property laws, currency restrictions on real estate transactions, and the local market's USD-denominated nature. Success requires strong local partnerships and understanding of the unique fiscal environment.",
+    visaOptions: [
+      {
+        name: "Investment Visa",
+        description: "For agents establishing a real estate business or investing in Argentine property ($150,000+ investment required).",
+        difficulty: "Complex",
+        timeline: "3-6 months"
+      },
+      {
+        name: "Digital Nomad Visa",
+        description: "For agents serving international clients remotely or working with overseas buyers. Limited local activity permitted.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Rentista Visa",
+        description: "For agents with passive rental income from Argentine or international properties.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Real estate license from home country (preferred)",
+      "Proof of real estate experience or relevant background",
+      "For Investment Visa: business plan and proof of funds",
+      "Professional liability insurance",
+      "Clean criminal record",
+      "Minimum income documentation ($2,000+/month or rental income)",
+      "Health insurance valid in Argentina",
+      "Local partnerships with Argentine real estate professionals"
+    ],
+    incomeRequirements: {
+      description: "Real estate agents need demonstrated income or investment capacity",
+      amount: "$2,000 - $10,000+ USD/month",
+      notes: "Commission-based income varies; Investment Visa requires $150,000+ capital"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Much of real estate marketing, client communication, and transaction coordination can be done remotely. However, property showings, inspections, and closings require local presence or trusted partners in Argentina.",
+      considerations: [
+        "Strong international buyer interest in Argentine property",
+        "US and European buyers seek vacation homes and investment properties",
+        "Buenos Aires, Bariloche, Mendoza, and Patagonia popular with foreigners",
+        "Local partnerships essential for property access and closings",
+        "Understanding of Argentina's USD cash market dynamics crucial",
+        "Virtual tours and video marketing increasingly important"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "Commission-based: typically 3-4% of transaction value",
+      keyCities: ["Buenos Aires", "Bariloche", "Mendoza", "Mar del Plata", "Cordoba"],
+      industries: ["Residential Real Estate", "Vacation Properties", "Agricultural Land", "Commercial Property"]
+    },
+    professionalAssociations: [
+      {
+        name: "Cámara Inmobiliaria Argentina",
+        description: "Argentine Real Estate Chamber"
+      },
+      {
+        name: "National Association of Realtors (US members)",
+        url: "https://www.nar.realtor",
+        description: "Global network for international referrals"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Argentina does not require specific licensing for real estate agents (unlike the US), though professional credentials build credibility. Foreign licenses are respected but not formally recognized.",
+      process: "No formal validation required; credentials and experience speak for themselves"
+    },
+    taxConsiderations: [
+      "Real estate commissions subject to local tax if practicing in Argentina",
+      "Investment Visa holders must comply with business tax obligations",
+      "Property transactions involve transfer taxes and notary fees",
+      "Rental income from Argentine properties taxable locally",
+      "Professional accounting support strongly recommended",
+      "Understand currency restrictions on repatriating funds"
+    ],
+    networkingTips: [
+      "Build relationships with Argentine real estate agencies",
+      "Connect with expat communities (many rent or buy property)",
+      "Join American Chamber of Commerce real estate committees",
+      "Network with relocation specialists and immigration lawyers",
+      "Attend property investment seminars and expat events",
+      "Build partnerships with property management companies"
+    ],
+    faqs: [
+      {
+        question: "Can I be a real estate agent in Argentina without speaking Spanish?",
+        answer: "While possible in the expat-focused niche market, Spanish is essential for accessing the broader market, understanding legal documents, and building local partnerships. Many successful foreign agents partner with bilingual Argentine agents or focus exclusively on international buyer representation."
+      },
+      {
+        question: "How does the Investment Visa work for real estate professionals?",
+        answer: "The Investment Visa requires proof of $150,000+ investment in an Argentine business activity. For real estate agents, this could mean: 1) Establishing a real estate agency/office, 2) Purchasing investment properties, 3) Developing real estate projects, or 4) Creating a property management company. The business plan must show job creation or economic benefit to Argentina."
+      },
+      {
+        question: "Is Argentina's real estate market open to foreign buyers?",
+        answer: "Yes, foreigners can buy property in Argentina with few restrictions. The main challenge is currency controls - property transactions typically occur in USD cash, and repatriating funds can be complex. Foreign buyers often use the Real Estate Investment Trust (FCI) structure or hold properties through local entities. Legal guidance is essential for foreign buyers."
+      }
+    ],
+    relatedProfessions: ["business-consultant", "legal-consultant", "financial-advisor"],
+    resources: [
+      {
+        title: "Investment Visa Guide",
+        url: "/visas/investment",
+        description: "Requirements for real estate investment visa"
+      },
+      {
+        title: "Rentista Visa Guide",
+        url: "/visas/retirement",
+        description: "For passive rental income earners"
+      },
+      {
+        title: "Best Neighborhoods",
+        url: "/neighborhoods",
+        description: "Popular areas for expat buyers"
+      }
+    ],
+    image: "/images/professions/real-estate-agent.webp"
+  },
+  {
+    slug: "mobile-app-developer",
+    name: "Mobile App Developer",
+    title: "Mobile App Developer Guide for Argentina",
+    subtitle: "Build apps from Latin America's thriving tech ecosystem",
+    description: "Argentina's mobile development talent is globally recognized, with developers contributing to apps used worldwide. Learn about visa pathways for iOS, Android, and cross-platform developers.",
+    icon: "Code",
+    category: "tech",
+    overview: "Mobile app development is one of Argentina's strongest tech specializations. Argentine developers have contributed to major apps for companies like Google, Apple, and leading startups. The country's excellent technical education, strong English proficiency, and cultural affinity with US business practices make Argentine mobile devs highly sought after. The profession offers excellent remote work opportunities, with US companies paying $50-120/hour for experienced developers. Buenos Aires has a particularly strong mobile dev community, with regular meetups, hackathons, and a thriving startup ecosystem. Whether you specialize in native iOS (Swift), Android (Kotlin), or cross-platform (React Native, Flutter), Argentina provides an ideal base.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Perfect for mobile devs working remotely for international companies. Most popular pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Sponsorship)",
+        description: "For developers hired by Argentine app development companies or multinationals.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      },
+      {
+        name: "Highly Skilled Worker Visa",
+        description: "For senior mobile developers with specialized expertise and high income.",
+        difficulty: "Moderate",
+        timeline: "2-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Demonstrated mobile development experience (2+ years)",
+      "Portfolio of published apps or significant contributions",
+      "Proficiency in Swift, Kotlin, React Native, or Flutter",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "Computer science degree or equivalent experience"
+    ],
+    incomeRequirements: {
+      description: "Mobile developers command strong rates in the remote market",
+      amount: "$2,000 - $7,000+ USD/month",
+      notes: "Senior iOS/Android developers can earn $80-120/hour with US clients"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Mobile development is perfectly suited for remote work. Code can be written anywhere, testing can be done on devices or emulators, and collaboration happens through Git, Slack, and video calls. Many Argentine mobile devs work entirely remotely for US and European companies.",
+      considerations: [
+        "Extremely high demand for mobile developers globally",
+        "Time zone alignment with US enables real-time collaboration",
+        "Argentina's lower cost of living makes rates very competitive",
+        "Strong local mobile dev community for networking",
+        "Many US startups specifically recruit Argentine mobile talent",
+        "Published apps in App Store/Google Play enhance credibility"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,800,000-4,500,000/month ($1,500-3,600 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza", "Rosario"],
+      industries: ["Mobile Apps", "Fintech", "E-commerce", "Gaming", "Health Tech"]
+    },
+    professionalAssociations: [
+      {
+        name: "CocoaHeads Buenos Aires",
+        description: "iOS/macOS developer community"
+      },
+      {
+        name: "Android Buenos Aires",
+        description: "Android developer meetup group"
+      },
+      {
+        name: "React Native BA",
+        description: "Cross-platform mobile development community"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Mobile development is portfolio-driven. Published apps, GitHub contributions, and demonstrated skills matter more than formal credentials. Apple and Google certifications are recognized globally.",
+      process: "No degree validation needed; portfolio and experience primary factors"
+    },
+    taxConsiderations: [
+      "Remote mobile development for foreign clients typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo",
+      "Keep records of app store revenue and client payments",
+      "App store payouts may have specific tax treatments",
+      "Professional accountant recommended for complex situations"
+    ],
+    networkingTips: [
+      "Join mobile dev meetups (CocoaHeads, Android BA, React Native)",
+      "Attend BA Tech Week mobile tracks",
+      "Contribute to open-source mobile projects on GitHub",
+      "Build local network through coworking spaces",
+      "Participate in app hackathons and competitions",
+      "Engage with mobile dev communities on Twitter/X"
+    ],
+    faqs: [
+      {
+        question: "Which mobile platform has the most demand in Argentina?",
+        answer: "Both iOS and Android have strong demand. React Native and Flutter for cross-platform development are increasingly popular, allowing agencies to serve both platforms efficiently. Fintech and e-commerce apps drive significant demand. Senior iOS developers often command the highest rates due to platform-specific expertise."
+      },
+      {
+        question: "Should I focus on native development or cross-platform?",
+        answer: "Native development (Swift for iOS, Kotlin for Android) typically commands higher rates and is preferred for complex, performance-critical apps. Cross-platform (React Native, Flutter) offers efficiency for simpler apps and MVPs. Many successful developers know both approaches and choose based on project requirements. Learning native first provides the strongest foundation."
+      },
+      {
+        question: "How do I find international clients as a mobile developer?",
+        answer: "Top strategies include: 1) Building a strong GitHub portfolio with published apps, 2) Creating profiles on Toptal, Arc, and Gun.io (premium dev networks), 3) Contributing to open-source mobile projects, 4) Networking at international conferences, 5) Working with Argentine dev shops that serve US clients. Many developers start with platforms like Upwork to build reputation, then transition to direct client relationships."
+      }
+    ],
+    relatedProfessions: ["software-developer", "ux-ui-designer", "devops-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote mobile development"
+      },
+      {
+        title: "Tech Community Guide",
+        url: "/community/tech",
+        description: "Connect with mobile dev community"
+      },
+      {
+        title: "Best Neighborhoods for Tech Workers",
+        url: "/neighborhoods",
+        description: "Where to live in Buenos Aires"
+      }
+    ],
+    image: "/images/professions/mobile-developer.webp"
+  },
+  {
+    slug: "graphic-designer",
+    name: "Graphic Designer",
+    title: "Graphic Designer Guide for Argentina",
+    subtitle: "Create visual content from Latin America's creative hub",
+    description: "Argentina has a rich design tradition and strong creative community. Learn about visa pathways for graphic designers serving international clients.",
+    icon: "Palette",
+    category: "creative",
+    overview: "Graphic design is a thriving profession in Argentina, with the country having a strong tradition in visual arts, typography, and branding. Argentine designers are known for their creativity, technical skill, and cultural sophistication. The profession is highly remote-friendly, with designers successfully serving clients worldwide from Buenos Aires and other cities. US clients appreciate the creative excellence and cost advantages (rates typically 40-60% lower than US equivalents). Argentina's design community is active and supportive, with regular meetups, conferences, and collaborative spaces. Whether you specialize in branding, UI/UX, illustration, or marketing design, Argentina offers inspiration and opportunity.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Ideal for designers serving international clients remotely. Most common pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent designers with established client portfolios.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      },
+      {
+        name: "Work Visa (Agency Sponsorship)",
+        description: "For designers hired by Argentine design agencies or marketing firms.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Design portfolio demonstrating professional work",
+      "Proficiency in design software (Adobe Creative Suite, Figma, Sketch)",
+      "Proof of client contracts or employment",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "Design degree or equivalent professional experience"
+    ],
+    incomeRequirements: {
+      description: "Graphic designers can earn well serving international clients",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Experienced designers with US clients earn $40-100/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Graphic design is perfectly suited for remote work. Design work happens on computers, client feedback comes through email and video calls, and files are delivered digitally. Many Argentine designers have worked remotely for years.",
+      considerations: [
+        "Strong international demand for quality design work",
+        "Portfolio and reputation matter more than location",
+        "Time zone differences manageable for most projects",
+        "Argentina's creative culture provides inspiration",
+        "Many US startups prefer Argentine designers for quality/value",
+        "Local design community offers networking and collaboration"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD at blue rate) for local roles",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza"],
+      industries: ["Advertising", "Tech Startups", "Publishing", "Fashion", "Marketing"]
+    },
+    professionalAssociations: [
+      {
+        name: "Asociación de Diseñadores Gráficos de Buenos Aires",
+        description: "Buenos Aires Graphic Designers Association"
+      },
+      {
+        name: "AIGA (US members)",
+        url: "https://www.aiga.org",
+        description: "Professional association for design"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Design is portfolio-driven. Your work samples, client testimonials, and demonstrated skills matter far more than formal credentials. Design degrees are respected but not required.",
+      process: "Portfolio and experience primary factors; no validation needed"
+    },
+    taxConsiderations: [
+      "Remote design work for foreign clients typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo for local compliance",
+      "Keep records of client contracts and payments",
+      "Stock photography and asset purchases may be deductible",
+      "Professional accountant recommended for optimization"
+    ],
+    networkingTips: [
+      "Attend design meetups and CreativeMornings events",
+      "Join 'Diseñadores Argentinos' online communities",
+      "Participate in design competitions and awards",
+      "Build presence on Dribbble and Behance",
+      "Network at coworking spaces popular with creatives",
+      "Collaborate with local agencies on overflow work"
+    ],
+    faqs: [
+      {
+        question: "What design specializations are most in demand?",
+        answer: "Brand identity design, UI/UX design for apps and websites, marketing design (social media, ads), and motion design are all in high demand. UI/UX designers with tech industry experience command the highest rates. Illustration and packaging design also offer opportunities with the right portfolio."
+      },
+      {
+        question: "How do I build a client base as a designer in Argentina?",
+        answer: "Start with a strong portfolio on Dribbble and Behance. Many designers find initial clients through Upwork and 99designs, then transition to direct relationships. Referrals from satisfied clients are the best source. Building relationships with US-based design agencies as a subcontractor is also effective. Attending international design conferences (virtually or in person) helps build connections."
+      },
+      {
+        question: "Should I work with Argentine or international clients?",
+        answer: "Both have merits. International clients (especially US) typically pay in USD at higher rates. Argentine clients pay in pesos but offer easier communication, local networking, and potential for long-term relationships. Many successful designers maintain a mix: international clients for income stability and Argentine clients for local integration and creative variety."
+      }
+    ],
+    relatedProfessions: ["ux-ui-designer", "video-editor", "content-creator"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote design work"
+      },
+      {
+        title: "Creative Community Guide",
+        url: "/community/creative",
+        description: "Connect with Argentina's design scene"
+      },
+      {
+        title: "Cost of Living Calculator",
+        url: "/cost-of-living",
+        description: "Budget planning for designers"
+      }
+    ],
+    image: "/images/professions/graphic-designer.webp"
+  },
+  {
+    slug: "social-media-manager",
+    name: "Social Media Manager",
+    title: "Social Media Manager Guide for Argentina",
+    subtitle: "Manage brands' social presence remotely from Argentina",
+    description: "Social media management is a booming remote profession. Learn how Argentine-based SMMs serve international clients while enjoying the country's lifestyle and cost advantages.",
+    icon: "Rocket",
+    category: "creative",
+    overview: "Social media management has become one of the most location-independent professions, making it ideal for expats in Argentina. US and international companies increasingly hire remote SMMs to manage their social presence, create content calendars, engage with communities, and analyze performance. Argentine SMMs offer the perfect combination of strong English skills, cultural awareness of US markets, and competitive rates. The profession requires only a laptop and internet connection, with all work deliverable digitally. Many Argentine SMMs manage accounts for multiple US clients, earning $2,000-5,000+/month while enjoying Argentina's lower cost of living. The time zone difference (1-2 hours ahead of US East Coast) actually helps with early-morning posting and engagement.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Perfect for SMMs serving international clients remotely. Ideal pathway for this profession.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent SMMs with established client portfolios.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      },
+      {
+        name: "Work Visa (Agency Sponsorship)",
+        description: "For SMMs hired by Argentine marketing agencies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Demonstrated social media management experience (2+ years)",
+      "Portfolio of managed accounts with growth metrics",
+      "Proficiency in social platforms (Instagram, TikTok, LinkedIn, X, Facebook)",
+      "Experience with scheduling tools (Hootsuite, Buffer, Later)",
+      "Proof of client contracts or employment",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "SMMs can earn well managing multiple client accounts",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Experienced SMMs with US clients charge $1,500-3,000/month per client"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Social media management is 100% remote-friendly. Content creation, scheduling, community management, and analytics all happen through web platforms. Many SMMs work entirely from laptops in cafes, coworking spaces, or home offices.",
+      considerations: [
+        "Extremely high demand for skilled SMMs globally",
+        "Time zone 1-2 hours ahead of US enables early-morning posting",
+        "Argentina's creative culture inspires content creation",
+        "Many small US businesses specifically seek affordable SMM services",
+        "Can manage multiple clients simultaneously",
+        "Tools like Canva, CapCut, and AI assistants increase efficiency"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $800,000-2,000,000/month ($650-1,600 USD at blue rate) for local roles",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza"],
+      industries: ["Marketing Agencies", "E-commerce", "Restaurants", "Tourism", "Startups"]
+    },
+    professionalAssociations: [
+      {
+        name: "Social Media Managers Argentina",
+        description: "Professional community for SMMs"
+      },
+      {
+        name: "Marketing Digital Argentina",
+        description: "Digital marketing professional community"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Social media management is results-driven. Your portfolio, growth metrics, and client testimonials matter more than formal credentials. Certifications (Facebook Blueprint, Google Analytics) help but aren't required.",
+      process: "No validation needed; demonstrated results primary factor"
+    },
+    taxConsiderations: [
+      "Remote SMM work for foreign clients typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo",
+      "Keep records of client contracts and platform/tool expenses",
+      "Stock photo subscriptions and design tools may be deductible",
+      "Professional accountant recommended for optimization"
+    ],
+    networkingTips: [
+      "Join social media marketing groups on LinkedIn and Facebook",
+      "Attend digital marketing meetups in Buenos Aires",
+      "Build relationships with US-based marketing agencies",
+      "Network with entrepreneurs at coworking spaces",
+      "Offer workshops on social media for small businesses",
+      "Collaborate with local influencers and content creators"
+    ],
+    faqs: [
+      {
+        question: "What social media platforms should I specialize in?",
+        answer: "Instagram and TikTok are highest demand for B2C brands. LinkedIn is essential for B2B. Facebook remains important for local businesses and older demographics. X (Twitter) is niche but valuable for tech and finance. Many successful SMMs specialize in 2-3 platforms but can work across all. Video content creation skills (Reels, TikTok) significantly increase earning potential."
+      },
+      {
+        question: "How many clients can one social media manager handle?",
+        answer: "Typically 3-6 clients depending on scope. Full-service management (strategy, content creation, community management, analytics) for one major client might be 20-30 hours/week. Lighter management (scheduling and monitoring) for smaller clients might be 5-10 hours each. Many SMMs start with one retainer client while building, then scale to 3-4 for full-time income."
+      },
+      {
+        question: "Do I need to create content or just manage accounts?",
+        answer: "It varies by client. Some SMMs focus purely on management and scheduling (client provides content). Others offer full-service including graphic design, copywriting, and video editing. Full-service commands higher rates ($2,000-4,000/month vs $800-1,500 for management-only). Having content creation skills significantly increases value and client retention."
+      }
+    ],
+    relatedProfessions: ["digital-marketing-manager", "content-creator", "graphic-designer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote social media work"
+      },
+      {
+        title: "Creative Community Guide",
+        url: "/community/creative",
+        description: "Connect with Argentina's marketing scene"
+      },
+      {
+        title: "Best Neighborhoods for Remote Workers",
+        url: "/neighborhoods",
+        description: "Where to live in Buenos Aires"
+      }
+    ],
+    image: "/images/professions/social-media-manager.webp"
+  },
+  {
+    slug: "video-editor",
+    name: "Video Editor",
+    title: "Video Editor Guide for Argentina",
+    subtitle: "Edit professional video content from Argentina's creative scene",
+    description: "Video content is in explosive demand. Learn how video editors can build remote careers serving international clients while living in Argentina.",
+    icon: "Palette",
+    category: "creative",
+    overview: "Video editing has become one of the most in-demand creative professions globally, driven by the explosion of YouTube, TikTok, Instagram Reels, and corporate video content. Argentine video editors are known for their technical skill, creative flair, and cultural sophistication. The profession is perfectly suited for remote work - editors receive footage digitally, edit on powerful laptops or home workstations, and deliver finished videos through cloud storage. US clients pay $30-100+/hour for quality editing, making it possible to earn $3,000-8,000+/month serving international clients from Argentina. Buenos Aires has a thriving film and video production community, providing networking opportunities and creative inspiration.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Ideal for video editors serving international clients remotely. Most suitable pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent editors with established client portfolios.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      },
+      {
+        name: "Work Visa (Production Company)",
+        description: "For editors hired by Argentine production companies or agencies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Demonstrated video editing experience (2+ years)",
+      "Portfolio showing range of editing styles",
+      "Proficiency in editing software (Adobe Premiere, DaVinci Resolve, Final Cut)",
+      "Understanding of color grading and audio mixing",
+      "Proof of client contracts or employment",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "Computer capable of professional video editing"
+    ],
+    incomeRequirements: {
+      description: "Video editors with strong portfolios command good rates",
+      amount: "$2,000 - $6,000+ USD/month",
+      notes: "Experienced editors with US clients earn $40-100/hour or $500-2,000 per project"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Video editing is entirely computer-based and remote-friendly. Footage arrives via cloud storage or hard drives, editing happens on local workstations, and final deliverables upload to the cloud. Many professional editors have worked remotely for years.",
+      considerations: [
+        "Explosive demand for video content across all industries",
+        "Time zone differences manageable (most work is asynchronous)",
+        "Argentina's lower costs make rates very competitive",
+        "Strong local post-production community for networking",
+        "Can work with clients globally regardless of location",
+        "Many US YouTubers and businesses seek affordable quality editing"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,000,000-2,800,000/month ($800-2,200 USD at blue rate) for local positions",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza"],
+      industries: ["Film Production", "Advertising", "YouTube/Creator Economy", "Corporate Video", "Television"]
+    },
+    professionalAssociations: [
+      {
+        name: " Argentine Film Editors Association",
+        description: "Professional community for editors"
+      },
+      {
+        name: "Post-Production Buenos Aires",
+        description: "Post-production community and networking"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Video editing is portfolio-driven. Your reel, editing samples, and demonstrated technical skills matter far more than formal credentials. Film school is respected but not required.",
+      process: "Portfolio and demonstrated skills primary factors"
+    },
+    taxConsiderations: [
+      "Remote video editing for foreign clients typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo",
+      "Keep records of client contracts and equipment purchases",
+      "Software subscriptions and hardware may be deductible",
+      "Professional accountant recommended for optimization"
+    ],
+    networkingTips: [
+      "Join post-production and editing communities online",
+      "Attend film and video meetups in Buenos Aires",
+      "Build presence on Vimeo and YouTube with your work",
+      "Network with production companies for overflow work",
+      "Connect with content creators and YouTubers",
+      "Collaborate with local production houses"
+    ],
+    faqs: [
+      {
+        question: "What type of video editing pays best?",
+        answer: "Commercial and corporate video editing typically pays most reliably ($50-100+/hour). YouTube content editing offers volume opportunities ($300-800 per video). Feature film and TV editing pays well but is harder to get remotely. Social media short-form content (Reels, TikTok) is high demand with fast turnaround. Color grading and motion graphics specializations command premium rates."
+      },
+      {
+        question: "What computer setup do I need for professional video editing?",
+        answer: "Minimum: Modern MacBook Pro (M1/M2/M3) or powerful Windows laptop with dedicated GPU, 32GB+ RAM, fast SSD storage. Many editors use external monitors for color accuracy. Fast internet (50+ Mbps) essential for downloading/uploading large files. Some editors rent shared studio space for color-critical work or client meetings."
+      },
+      {
+        question: "How do I handle large video files with remote clients?",
+        answer: "Cloud storage solutions like Frame.io, Dropbox, and Google Drive handle most workflows. For very large files, services like MASV or Aspera specialize in video transfer. Some clients ship hard drives for major projects. Establishing clear deliverables and file organization standards with clients upfront prevents confusion. Many editors keep local backups of project files."
+      }
+    ],
+    relatedProfessions: ["graphic-designer", "content-creator", "motion-designer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote video editing work"
+      },
+      {
+        title: "Creative Community Guide",
+        url: "/community/creative",
+        description: "Connect with Argentina's film community"
+      },
+      {
+        title: "Cost of Living Calculator",
+        url: "/cost-of-living",
+        description: "Budget planning for video editors"
+      }
+    ],
+    image: "/images/professions/video-editor.webp"
   }
 ];
 

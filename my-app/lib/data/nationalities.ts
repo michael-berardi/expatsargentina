@@ -1570,6 +1570,1929 @@ export const nationalities: Nationality[] = [
     image: "/images/nationalities/spain.webp"
   },
 
+  // ITALY - Full Featured Entry (Massive Diaspora, Special Agreements)
+  {
+    slug: "italy",
+    name: "Italy",
+    demonym: "Italian",
+    flag: "🇮🇹",
+    title: "Italian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Strongest European ties, simplified processes, and the heart of Argentine culture",
+    description: "Argentina has the largest Italian population outside Italy. Italian citizens enjoy simplified immigration processes, cultural familiarity, and a welcoming environment where Italian heritage is celebrated. The Italian-Argentine connection is woven into the fabric of Argentine society.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Italian citizens enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers",
+        incomeRequirement: "$1,000-1,500/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Simplified work authorization, qualifications recognized",
+        sponsorshipRequired: false
+      },
+      mercosur: {
+        eligible: false,
+        notes: "Italy is not a Mercosur member but has special status"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: true,
+      type: "Bilateral Agreements & Cultural Recognition",
+      description: "Italy and Argentina share unique bonds including bilateral agreements on social security, professional qualification recognition, and special provisions acknowledging the massive Italian-Argentine population and ongoing cultural exchange.",
+      benefits: [
+        "Simplified residency process",
+        "Social security/pension reciprocity",
+        "Recognition of Italian professional qualifications",
+        "Italian citizens eligible for Italian-Argentine cultural programs",
+        "Access to Italian consular services throughout Argentina",
+        "Special provisions for jure sanguinis descendants"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Casellario Giudiziale from Italy with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Carta d'Identità (valid for some processes)",
+        "Codice Fiscale (helpful for banking)",
+        "Proof of address in Argentina"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Euros easily exchanged. Italian banks (Intesa Sanpaolo) operate in Argentina. Wise popular for transfers.",
+      banking: "Easy account opening with residency. Many Italians use Italian bank branches or digital banks.",
+      taxTreaty: true,
+      taxTreatyDetails: "Italy-Argentina have comprehensive tax agreements including provisions for pensioners and dual residents. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "40,000-60,000 Italian citizens",
+      mainLocations: [
+        "Buenos Aires (Little Italy, San Telmo, La Boca)",
+        "Rosario (strong Italian heritage)",
+        "Córdoba",
+        "Mar del Plata",
+        "Mendoza (wine connection)"
+      ],
+      associations: [
+        { name: "Società Italiana di Unione e Mutuo Soccorso" },
+        { name: "Dante Alighieri Society Buenos Aires" },
+        { name: "Camera di Commercio Italiana" }
+      ],
+      facebookGroups: [
+        "Italiani a Buenos Aires",
+        "Italiani in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Bilateral Agreement Residency",
+      timeline: "45-60 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina (90 days visa-free)",
+        "Gather documents from Italy (Casellario Giudiziale, birth certificate)",
+        "Apply for residency citing bilateral agreements",
+        "Receive precaria (work authorization during processing)",
+        "Complete biometric data collection",
+        "Receive residency card in 45-60 days",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Argentina has the largest Italian population outside Italy - you'll feel at home",
+        "Italian restaurants, cafes, and businesses are everywhere in Buenos Aires",
+        "Italian language is widely understood and appreciated",
+        "Italian professionals (chefs, designers, engineers) are highly sought after",
+        "The Lunfardo dialect in Buenos Aires has Italian roots",
+        "Consider bringing Italian food products - they sell well to the expat community",
+        "Italian cultural events happen year-round"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Italian citizens need a visa for Argentina?",
+        answer: "No visa required for 90 days. Italian citizens can enter with passport and apply for residency under bilateral agreements."
+      },
+      {
+        question: "How Italian is Argentina really?",
+        answer: "Extremely. Over 60% of Argentines have Italian ancestry. Buenos Aires has a 'Little Italy,' Italian is the second most spoken language in homes, and Italian culture permeates food, language, and customs."
+      },
+      {
+        question: "Will I need to speak Spanish?",
+        answer: "Yes, though you'll find many Italians here and Italian is widely understood. Argentine Spanish has significant Italian influence (Lunfardo), making it easier for Italians to learn."
+      },
+      {
+        question: "Are Italian professional qualifications recognized?",
+        answer: "Generally yes, especially for culinary arts, design, fashion, and engineering. Some professions may require validation depending on regulatory requirements."
+      },
+      {
+        question: "Is there an Italian business community?",
+        answer: "Yes, very active. The Italian Chamber of Commerce, Italian restaurants, importers, and Italian-Argentine businesses create strong networking opportunities."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Italian-Argentine Cultural Guide",
+        url: "/blog/italian-heritage-argentina",
+        description: "Cultural connections"
+      },
+      {
+        title: "Italian Restaurants in BA",
+        url: "/food",
+        description: "Find authentic Italian food"
+      }
+    ],
+    image: "/images/nationalities/italy.webp"
+  },
+
+  // MEXICO - Full Featured Entry (Growing Latin American Community)
+  {
+    slug: "mexico",
+    name: "Mexico",
+    demonym: "Mexican",
+    flag: "🇲🇽",
+    title: "Mexican Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Growing community, cultural exchange, and expanding opportunities",
+    description: "The Mexican community in Argentina has grown significantly in recent years, drawn by educational opportunities, professional mobility, and cultural exchange programs. Mexicans find a welcoming environment with expanding networks in major Argentine cities.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Mexicans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers",
+        incomeRequirement: "$1,000-1,500/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through standard process",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "Mexico is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While Mexico doesn't have a special immigration agreement with Argentina, Mexicans benefit from the standard 90-day tourist entry, and both countries actively promote cultural and educational exchange through university partnerships and professional mobility programs.",
+      benefits: [
+        "90-day visa-free entry (extendable to 180 days)",
+        "Strong academic exchange programs",
+        "Professional mobility initiatives",
+        "Cultural affinity between Latin American nations",
+        "Spanish language commonality",
+        "Growing Mexican business presence"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Carta de No Antecedentes Penales from Mexico with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "CURP (helpful but not required)",
+        "Proof of means of support",
+        "Proof of address in Argentina"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Mexican pesos can be exchanged in BA, though USD often preferred for larger amounts. Wise popular for transfers.",
+      banking: "Open accounts with residency. Mexican banks (BBVA México) have some presence through parent company.",
+      taxTreaty: true,
+      taxTreatyDetails: "Mexico-Argentina have tax agreements. Consult accountant for RFC/CUIT implications.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "15,000-25,000 (growing)",
+      mainLocations: [
+        "Buenos Aires (Palermo, Belgrano)",
+        "Córdoba (university city)",
+        "La Plata",
+        "Mendoza"
+      ],
+      associations: [
+        { name: "Casa de México en Argentina" },
+        { name: "Asociación de Mexicanos en Argentina" }
+      ],
+      facebookGroups: [
+        "Mexicanos en Buenos Aires",
+        "Mexicanos en Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad or Work Visa",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Choose pathway: digital nomad (if remote worker) or work visa",
+        "Gather documents from Mexico (criminal record, birth certificate with apostille)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows stay/work during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "The digital nomad visa is excellent if you work remotely for Mexican/international companies",
+        "Many Mexicans come for university exchanges - consider student visa first",
+        "Mexican cuisine is increasingly popular - opportunities for Mexican chefs",
+        "Your Spanish is immediately understood, though vocabulary differs",
+        "Argentines are curious and welcoming toward Mexicans",
+        "Consider academic/professional exchange programs as entry point",
+        "Mexican professionals in tech, creative industries, and hospitality do well"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Mexicans need a visa for Argentina?",
+        answer: "No visa required for 90 days entry. For longer stays, apply for digital nomad visa (if remote worker) or work visa with sponsorship."
+      },
+      {
+        question: "Is there a big Mexican community?",
+        answer: "Growing rapidly - approximately 15,000-25,000 Mexicans in Argentina, concentrated in Buenos Aires and university cities like Córdoba."
+      },
+      {
+        question: "Will my Mexican Spanish be understood?",
+        answer: "Absolutely. While Argentine Spanish has its own character (voseo, different vocabulary), Mexicans are understood immediately and adapt quickly."
+      },
+      {
+        question: "Are there Mexican restaurants and products?",
+        answer: "Growing presence! While not as ubiquitous as in the US, Mexican restaurants, tortillas, and products are increasingly available in Buenos Aires."
+      },
+      {
+        question: "Can Mexican students study in Argentina?",
+        answer: "Yes, active exchange programs exist between Mexican and Argentine universities. Student visas are straightforward for enrolled students."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "For remote workers"
+      },
+      {
+        title: "Student Visa Information",
+        url: "/visas/student",
+        description: "For Mexican students"
+      }
+    ],
+    image: "/images/nationalities/mexico.webp"
+  },
+
+  // CANADA - Full Featured Entry (English/French Speaking, Similar to US Profile)
+  {
+    slug: "canada",
+    name: "Canada",
+    demonym: "Canadian",
+    flag: "🇨🇦",
+    title: "Canadian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Digital nomad pathway, lower cost of living, and emerging expat community",
+    description: "Argentina has become increasingly popular with Canadians seeking affordable living, vibrant culture, and adventure. The digital nomad visa offers an excellent pathway for Canadian remote workers, while the favorable exchange rate makes Argentina highly attractive for those with CAD income.",
+    region: "north-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Canadians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Perfect for Canadian remote workers",
+        incomeRequirement: "$2,500-3,000/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires local sponsorship or company formation",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "Canada is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While Canada doesn't have a special immigration agreement with Argentina, Canadians benefit from straightforward tourist entry, an excellent digital nomad visa program, strong USD/CAD purchasing power, and a growing community of Canadian remote workers and retirees.",
+      benefits: [
+        "90-day visa-free entry (extendable to 180 days)",
+        "Digital nomad visa available",
+        "Strong CAD/USD purchasing power in Argentina",
+        "Growing Canadian expat community",
+        "English widely understood in business",
+        "Similar profile to US citizens"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months recommended",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "RCMP background check with apostille required for residency"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "For digital nomad: proof of remote employment",
+        "For work visa: employment contract or business plan",
+        "Proof of means of support",
+        "Health insurance (recommended)"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "USD cash is king for blue rate exchanges. CAD can be exchanged but USD preferred. Wise, Western Union, or crypto popular for transfers.",
+      banking: "Open accounts with residency. Many Canadians use Wise, Canadian cards, or open Argentine accounts after establishing residency.",
+      taxTreaty: true,
+      taxTreatyDetails: "Canada-Argentina have tax agreements. Canadians must file Canadian taxes but may claim foreign tax credits. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "8,000-12,000 (growing)",
+      mainLocations: [
+        "Buenos Aires (Palermo, Recoleta)",
+        "Mendoza (wine region)",
+        "Bariloche (ski/outdoor enthusiasts)",
+        "Córdoba"
+      ],
+      associations: [
+        { name: "Canadians in Argentina Facebook Group" },
+        { name: "Maple Leaf Community Buenos Aires" }
+      ],
+      facebookGroups: [
+        "Canadians in Buenos Aires",
+        "Canadians in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Decide on pathway: digital nomad, work visa, or investment",
+        "Gather documents (RCMP check takes 2-4 weeks)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows work/stay during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "The digital nomad visa is perfect for Canadian remote workers",
+        "Bring USD cash for blue rate exchanges - you'll get significantly more",
+        "Get your RCMP background check before traveling (apostille required)",
+        "Canadians are well-regarded and find welcoming reception",
+        "Healthcare is excellent and very affordable compared to Canada",
+        "Consider the 'rentista' visa if you have passive income",
+        "Bariloche is popular with Canadians who love skiing/outdoors",
+        "Wine lovers gravitate to Mendoza"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Canadians need a visa for Argentina?",
+        answer: "No visa required for 90 days entry. The digital nomad visa is excellent for Canadian remote workers wanting to stay longer."
+      },
+      {
+        question: "How's the cost of living compared to Canada?",
+        answer: "Significantly lower. With the blue dollar rate, costs can be 50-60% less than Canadian cities. A $3,500-4,000 CAD monthly income provides a very comfortable lifestyle."
+      },
+      {
+        question: "Can I work remotely for my Canadian company?",
+        answer: "Yes! The digital nomad visa is specifically designed for remote workers. You can work for Canadian companies while legally residing in Argentina."
+      },
+      {
+        question: "Is it safe for Canadians?",
+        answer: "Generally yes with normal precautions. Buenos Aires is comparable to major Canadian cities in terms of safety. Exercise standard awareness in tourist areas."
+      },
+      {
+        question: "What about healthcare?",
+        answer: "Excellent and affordable. Many Canadians pay out-of-pocket for private healthcare which costs a fraction of Canadian prices. Quality is high, especially in Buenos Aires."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Remote worker pathway"
+      },
+      {
+        title: "Cost of Living Guide",
+        url: "/blog/cost-living-buenos-aires-2025",
+        description: "BA vs Canadian city costs"
+      }
+    ],
+    image: "/images/nationalities/canada.webp"
+  },
+
+  // UNITED KINGDOM - Full Featured Entry (Post-Brexit Interest, English-Speaking)
+  {
+    slug: "united-kingdom",
+    name: "United Kingdom",
+    demonym: "British",
+    flag: "🇬🇧",
+    title: "UK Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Post-Brexit opportunities, digital nomad pathway, and historic Anglo-Argentine ties",
+    description: "Post-Brexit, more Britons are exploring Argentina for its affordability, lifestyle, and adventure opportunities. The digital nomad visa provides an excellent pathway for UK remote workers, while historical Anglo-Argentine connections create familiar touchpoints.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "UK citizens enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Ideal for UK remote workers post-Brexit",
+        incomeRequirement: "£2,000-2,500/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires local sponsorship or company formation",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "UK is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While the UK doesn't have a special immigration agreement with Argentina, Britons benefit from straightforward tourist entry, an excellent digital nomad visa, strong GBP purchasing power, historical Anglo-Argentine ties, and a growing post-Brexit expat community.",
+      benefits: [
+        "90-day visa-free entry (extendable to 180 days)",
+        "Digital nomad visa available",
+        "Strong GBP purchasing power in Argentina",
+        "Growing post-Brexit expat community",
+        "English widely understood in business",
+        "Historic Anglo-Argentine connections"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months recommended",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "ACRO police certificate with apostille required for residency"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "For digital nomad: proof of remote employment",
+        "For work visa: employment contract or business plan",
+        "Proof of means of support",
+        "Health insurance (recommended)"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "GBP can be exchanged in BA, though USD often preferred for better rates. Wise, Western Union popular for transfers.",
+      banking: "Open accounts with residency. Many Britons use UK cards initially, then open Argentine accounts after establishing residency.",
+      taxTreaty: true,
+      taxTreatyDetails: "UK-Argentina have tax agreements. UK citizens may need to file UK taxes depending on residency status. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "10,000-15,000",
+      mainLocations: [
+        "Buenos Aires (Recoleta, Palermo, San Telmo)",
+        "Mendoza",
+        "Bariloche",
+        "Córdoba"
+      ],
+      associations: [
+        { name: "British Argentine Society" },
+        { name: "St. Andrew's Society of the River Plate" }
+      ],
+      facebookGroups: [
+        "Brits in Buenos Aires",
+        "UK Expats in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Decide on pathway: digital nomad, work visa, or investment",
+        "Gather documents (ACRO certificate takes 2-3 weeks)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows work/stay during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "The digital nomad visa is excellent for UK remote workers",
+        "Bring USD cash for blue rate exchanges",
+        "Get your ACRO certificate before traveling (apostille required)",
+        "British culture has left marks on Argentina - you'll find familiar elements",
+        "The Anglo-Argentine community has deep historical roots",
+        "Tea culture ( té ) and afternoon snacks (merienda) will feel familiar",
+        "Polo and rugby have strong British influence in Argentina",
+        "Consider the Falklands history - be sensitive in conversations"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do UK citizens need a visa for Argentina?",
+        answer: "No visa required for 90 days entry. Post-Brexit, the digital nomad visa is excellent for UK remote workers wanting to stay longer."
+      },
+      {
+        question: "How's the cost of living compared to the UK?",
+        answer: "Significantly lower. With the blue dollar rate, costs can be 60-70% less than London and 50% less than other UK cities. A £2,000-2,500 monthly income provides a comfortable lifestyle."
+      },
+      {
+        question: "Can I work remotely for my UK company?",
+        answer: "Yes! The digital nomad visa is specifically designed for this. You can work remotely for UK companies while legally residing in Argentina."
+      },
+      {
+        question: "Is there British influence in Argentina?",
+        answer: "Yes, significant. British immigrants built Argentina's railways, introduced football, polo, and tea culture. You'll find historic Anglo-Argentine clubs and communities."
+      },
+      {
+        question: "What about the Falklands issue?",
+        answer: "The Falklands/Malvinas remains a sensitive topic. Most Argentines distinguish between British people and British government policy. Be respectful if the topic arises."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Remote worker pathway"
+      },
+      {
+        title: "Cost of Living Guide",
+        url: "/blog/cost-living-buenos-aires-2025",
+        description: "BA vs UK city costs"
+      }
+    ],
+    image: "/images/nationalities/united-kingdom.webp"
+  },
+
+  // FRANCE - Full Featured Entry (European, Cultural Ties)
+  {
+    slug: "france",
+    name: "France",
+    demonym: "French",
+    flag: "🇫🇷",
+    title: "French Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Cultural exchange, professional opportunities, and quality of life",
+    description: "French citizens are drawn to Argentina for its cultural vibrancy, lower cost of living, and professional opportunities. The French community maintains strong institutional presence through schools, cultural centers, and business networks.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "French citizens enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers",
+        incomeRequirement: "€1,500-2,000/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through standard process",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "France is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While France doesn't have a special immigration agreement with Argentina, French citizens benefit from the standard 90-day tourist entry, digital nomad visa, strong EUR purchasing power, and a well-established French community with schools and cultural institutions.",
+      benefits: [
+        "90-day visa-free entry (extendable to 180 days)",
+        "Digital nomad visa available",
+        "Strong EUR purchasing power",
+        "Established French community",
+ "French international schools available",
+        "Cultural affinity with Argentine arts scene"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Bulletin n°3 from France with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of means of support",
+        "Proof of address in Argentina",
+        "Health insurance (recommended)"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Euros easily exchanged in BA. French banks (BNP Paribas, Société Générale) operate in Argentina. Wise popular for transfers.",
+      banking: "Easy account opening with residency. French bank presence available.",
+      taxTreaty: true,
+      taxTreatyDetails: "France-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "15,000-20,000",
+      mainLocations: [
+        "Buenos Aires (Recoleta, Palermo)",
+        "Mendoza",
+        "Córdoba"
+      ],
+      associations: [
+        { name: "Alliance Française Buenos Aires" },
+        { name: "Chambre de Commerce Franco-Argentine" }
+      ],
+      facebookGroups: [
+        "Français à Buenos Aires",
+        "Français en Argentine"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad or Work Visa",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Choose pathway: digital nomad, work visa, or investment",
+        "Gather documents (Bulletin n°3, birth certificate with apostille)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows stay/work during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "The Alliance Française offers excellent Spanish courses",
+        "French cuisine is highly regarded - opportunities for French chefs",
+        "Wine culture connects France and Argentina strongly",
+        "Your French may help with learning Argentine Spanish",
+        "French professionals in fashion, gastronomy, and arts do well",
+        "Lycée Franco-Argentin offers French curriculum for families"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do French citizens need a visa for Argentina?",
+        answer: "No visa required for 90 days. The digital nomad visa is excellent for French remote workers wanting to stay longer."
+      },
+      {
+        question: "Is there a French school in Buenos Aires?",
+        answer: "Yes, the Lycée Franco-Argentin Jean Mermoz offers French curriculum from kindergarten through high school, recognized by the French Ministry of Education."
+      },
+      {
+        question: "How big is the French community?",
+        answer: "Approximately 15,000-20,000 French citizens in Argentina, with strong presence in Buenos Aires and cultural institutions throughout the country."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "For remote workers"
+      },
+      {
+        title: "Alliance Française BA",
+        url: "/resources",
+        description: "Cultural center & language courses"
+      }
+    ],
+    image: "/images/nationalities/france.webp"
+  },
+
+  // GERMANY - Full Featured Entry (European, Growing Interest)
+  {
+    slug: "germany",
+    name: "Germany",
+    demonym: "German",
+    flag: "🇩🇪",
+    title: "German Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Growing community, professional opportunities, and quality lifestyle",
+    description: "German interest in Argentina has grown significantly, driven by remote work opportunities, lower living costs, and Argentina's European-influenced culture. Germans find a welcoming environment with expanding professional networks.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "German citizens enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Excellent for German remote workers",
+        incomeRequirement: "€1,500-2,000/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through standard process",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "Germany is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While Germany doesn't have a special immigration agreement with Argentina, German citizens benefit from 90-day tourist entry, digital nomad visa, strong EUR purchasing power, and a growing German business and expat community.",
+      benefits: [
+        "90-day visa-free entry (extendable to 180 days)",
+        "Digital nomad visa available",
+        "Strong EUR purchasing power",
+        "Growing German business community",
+        "German-Argentine Chamber of Commerce",
+        "German international schools available"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Führungszeugnis from Germany with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of means of support",
+        "Proof of address in Argentina",
+        "Health insurance (recommended)"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Euros easily exchanged. German banks have some presence. Wise popular for transfers.",
+      banking: "Easy account opening with residency. Digital banks popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Germany-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "12,000-18,000",
+      mainLocations: [
+        "Buenos Aires (Belgrano, Palermo)",
+        "Villa General Belgrano (German heritage town)",
+        "Bariloche",
+        "Córdoba"
+      ],
+      associations: [
+        { name: "Cámara Argentino-Alemana" },
+        { name: "Goethe-Institut Buenos Aires" }
+      ],
+      facebookGroups: [
+        "Deutsche in Buenos Aires",
+        "Deutsche in Argentinien"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad or Work Visa",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Choose pathway: digital nomad, work visa, or investment",
+        "Gather documents (Führungszeugnis, birth certificate with apostille)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows stay/work during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Goethe-Institut offers excellent Spanish courses",
+        "Villa General Belgrano is a German-heritage town with Oktoberfest",
+        "German engineering and technical skills are highly valued",
+        "Punctuality is less strict here - adapt to local timing",
+        "German beer culture has influenced Argentine craft beer scene",
+        "Consider the German School for families"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do German citizens need a visa for Argentina?",
+        answer: "No visa required for 90 days. The digital nomad visa is excellent for German remote workers."
+      },
+      {
+        question: "Is there German cultural presence?",
+        answer: "Yes, including Villa General Belgrano (German town), Goethe-Institut, German School, and strong business connections through the German-Argentine Chamber of Commerce."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "For remote workers"
+      },
+      {
+        title: "Villa General Belgrano",
+        url: "/provinces/cordoba",
+        description: "German heritage town"
+      }
+    ],
+    image: "/images/nationalities/germany.webp"
+  },
+
+  // AUSTRALIA - Full Featured Entry (English-Speaking, Working Holiday)
+  {
+    slug: "australia",
+    name: "Australia",
+    demonym: "Australian",
+    flag: "🇦🇺",
+    title: "Australian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Working holiday agreements, digital nomad pathway, and adventure opportunities",
+    description: "Argentina offers Australians unique opportunities through working holiday agreements, a growing digital nomad community, and adventure tourism connections. The favorable exchange rate makes Argentina highly attractive for those with AUD income.",
+    region: "oceania",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Australians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Excellent for Australian remote workers",
+        incomeRequirement: "$2,000-2,500/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Working Holiday Visa available (18-30 years)",
+        sponsorshipRequired: false
+      },
+      mercosur: {
+        eligible: false,
+        notes: "Australia is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: true,
+      type: "Working Holiday Agreement",
+      description: "Australia and Argentina have a Working Holiday Maker agreement allowing Australians aged 18-30 to work and travel in Argentina for up to 12 months. This provides a unique pathway not available to all nationalities.",
+      benefits: [
+        "Working Holiday Visa (18-30 years)",
+        "12 months validity",
+        "Can work for any employer",
+        "Study up to 3 months",
+        "Digital nomad visa also available",
+        "Adventure tourism connections"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months recommended",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Australian Federal Police check required for residency"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of funds for Working Holiday",
+        "Health insurance",
+        "Return ticket or proof of onward travel"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "AUD can be exchanged but USD preferred for better rates. Wise popular for transfers.",
+      banking: "Open accounts with residency. Many Australians use international banks initially.",
+      taxTreaty: true,
+      taxTreatyDetails: "Australia-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "5,000-8,000",
+      mainLocations: [
+        "Buenos Aires (Palermo, San Telmo)",
+        "Bariloche (ski/outdoor hub)",
+        "Mendoza",
+        "Córdoba"
+      ],
+      associations: [
+        { name: "Aussies in Argentina" },
+        { name: "Australian-New Zealand Club BA" }
+      ],
+      facebookGroups: [
+        "Australians in Buenos Aires",
+        "Aussies in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Working Holiday or Digital Nomad Visa",
+      timeline: "Working Holiday: Immediate. Digital nomad: 30-45 days. Citizenship in 2 years.",
+      steps: [
+        "Apply for Working Holiday Visa (if 18-30) OR enter on tourist visa",
+        "For Working Holiday: apply before arrival, receive visa",
+        "For residency: gather documents (AFP check, birth certificate)",
+        "Apply for digital nomad or work visa",
+        "Receive precaria (allows stay/work during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Working Holiday Visa is a huge advantage - use it if eligible",
+        "Bariloche is popular with Australians - skiing, hiking, outdoor adventure",
+        "Australian English is well understood",
+        "Sports connections: rugby, polo both have Anglo-Argentine ties",
+        "Working Holiday allows work in tourism, hospitality, English teaching",
+        "Consider teaching English as entry point",
+        "Adventure tourism sector connects well with Australian experience"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Australians need a visa for Argentina?",
+        answer: "Tourist entry: 90 days visa-free. For longer stays: Working Holiday Visa (ages 18-30) or digital nomad visa for remote workers."
+      },
+      {
+        question: "What is the Working Holiday Visa?",
+        answer: "Available to Australians aged 18-30, allows 12 months in Argentina with work rights. Can work for any employer, study up to 3 months."
+      },
+      {
+        question: "Is there an Australian community?",
+        answer: "Small but growing - approximately 5,000-8,000 Australians, concentrated in Buenos Aires and outdoor hubs like Bariloche."
+      },
+      {
+        question: "Can I teach English as an Australian?",
+        answer: "Yes, English teaching is a popular option, especially with the Working Holiday Visa. Native English speakers are in demand."
+      },
+      {
+        question: "What's the best area for outdoor enthusiasts?",
+        answer: "Bariloche in Patagonia - skiing, hiking, lakes. Known as the 'Switzerland of Argentina' and popular with adventure seekers."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Working Holiday Information",
+        url: "/visas/temporary",
+        description: "Youth mobility program"
+      },
+      {
+        title: "Bariloche Guide",
+        url: "/cities/bariloche",
+        description: "Outdoor adventure hub"
+      }
+    ],
+    image: "/images/nationalities/australia.webp"
+  },
+
+  // NEW ZEALAND - Full Featured Entry (English-Speaking, Similar to Australia)
+  {
+    slug: "new-zealand",
+    name: "New Zealand",
+    demonym: "New Zealander",
+    flag: "🇳🇿",
+    title: "New Zealand Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Digital nomad pathway, adventure tourism, and growing expat community",
+    description: "New Zealanders find Argentina attractive for its adventure opportunities, lower cost of living, and cultural experiences. While there's no working holiday agreement, the digital nomad visa offers an excellent pathway for remote workers.",
+    region: "oceania",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "New Zealanders enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Excellent for NZ remote workers",
+        incomeRequirement: "$2,000-2,500/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "New Zealand is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While New Zealand doesn't have a special immigration agreement with Argentina, New Zealanders benefit from 90-day tourist entry, digital nomad visa, strong NZD purchasing power, and connections with the broader Anglo-Argentine community.",
+      benefits: [
+        "90-day visa-free entry (extendable to 180 days)",
+        "Digital nomad visa available",
+        "Strong NZD purchasing power",
+        "Adventure tourism connections",
+        "English-speaking community",
+        "Similar profile to Australians"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months recommended",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "NZ Police check required for residency"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of means of support",
+        "Health insurance",
+        "For digital nomad: proof of remote employment"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "NZD can be exchanged but USD preferred. Wise popular for transfers.",
+      banking: "Open accounts with residency. Many use international banks initially.",
+      taxTreaty: true,
+      taxTreatyDetails: "NZ-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "2,000-4,000",
+      mainLocations: [
+        "Buenos Aires",
+        "Bariloche",
+        "Mendoza"
+      ],
+      associations: [
+        { name: "Kiwis in Argentina" }
+      ],
+      facebookGroups: [
+        "New Zealanders in Buenos Aires",
+        "Kiwis in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad Visa",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Choose pathway: digital nomad (if remote worker) or work visa",
+        "Gather documents (NZ Police check, birth certificate)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows stay/work during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Digital nomad visa is excellent for remote workers",
+        "Adventure tourism sector values NZ experience",
+        "Bariloche popular with outdoor enthusiasts",
+        "English teaching opportunities available",
+        "Connect with Australian community as well",
+        "Rugby connections can help with integration"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do New Zealanders need a visa for Argentina?",
+        answer: "90 days visa-free. For longer stays: digital nomad visa for remote workers or work visa with sponsorship."
+      },
+      {
+        question: "Is there a big NZ community?",
+        answer: "Small but growing - approximately 2,000-4,000 New Zealanders in Argentina, often connected with Australian community."
+      },
+      {
+        question: "Can I work remotely from Argentina?",
+        answer: "Yes! The digital nomad visa is perfect for NZ remote workers. You can work for NZ companies while legally residing in Argentina."
+      },
+      {
+        question: "Are there outdoor adventure opportunities?",
+        answer: "Absolutely. Patagonia offers world-class hiking, skiing, climbing. Mendoza for wine and mountains. Bariloche is an outdoor hub."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Remote worker pathway"
+      },
+      {
+        title: "Patagonia Adventure Guide",
+        url: "/guides/patagonia",
+        description: "Outdoor activities"
+      }
+    ],
+    image: "/images/nationalities/new-zealand.webp"
+  },
+
+  // CHINA - Full Featured Entry (Major Asian Community)
+  {
+    slug: "china",
+    name: "China",
+    demonym: "Chinese",
+    flag: "🇨🇳",
+    title: "Chinese Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Growing community, business opportunities, and cultural exchange",
+    description: "The Chinese community in Argentina is one of the most established Asian communities, with deep historical roots and significant economic presence. Chinese citizens find expanding opportunities in trade, gastronomy, and professional sectors.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days",
+        notes: "Chinese citizens require tourist visa before arrival",
+        reciprocityFee: false,
+        feeAmount: "$150-200 USD"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers",
+        incomeRequirement: "$1,000-1,500/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa requires sponsorship or business ownership",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "China is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While China doesn't have a special immigration agreement with Argentina, Chinese citizens benefit from one of the most established Asian communities in Argentina, significant business networks, and growing cultural institutions.",
+      benefits: [
+        "Established Chinese community with deep roots",
+        "Strong business networks in trade and import/export",
+        "Chinese supermarkets and restaurants throughout BA",
+        "Chinese-language media and services",
+        "Growing professional opportunities",
+        "Cultural associations and support"
+      ]
+    },
+    documents: {
+      passportValidity: "6 months beyond stay",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Chinese police certificate with apostille required"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Visa application (required before arrival)",
+        "Proof of means of support",
+        "Proof of address in Argentina",
+        "For business: commercial documentation"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "RMB can be exchanged in BA. Chinese banks (ICBC) operate in Argentina. WeChat Pay/Alipay limited but growing.",
+      banking: "ICBC Argentina (Industrial and Commercial Bank of China) has significant presence. Easy account opening with residency.",
+      taxTreaty: true,
+      taxTreatyDetails: "China-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: false
+    },
+    communityInfo: {
+      populationInArgentina: "120,000-200,000 (largest Asian community)",
+      mainLocations: [
+        "Buenos Aires (Belgrano - Chinatown, Once, Flores)",
+        "La Plata",
+        "Rosario",
+        "Mendoza"
+      ],
+      associations: [
+        { name: "Federación de Asociaciones Chinas" },
+        { name: "Instituto Confucio Buenos Aires" }
+      ],
+      facebookGroups: [
+        "华人阿根廷",
+        "Chinese in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Business/Investment or Work Visa",
+      timeline: "Business visa: 60-90 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Apply for tourist visa at Argentine consulate in China",
+        "Enter Argentina (90 days)",
+        "Establish business or find employment",
+        "Apply for business or work visa",
+        "Gather documents (police certificate, birth certificate)",
+        "Receive precaria (allows stay during processing)",
+        "Pick up residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Apply for tourist visa well in advance",
+        "Belgrano (Barrio Chino) is the heart of Chinese community",
+        "Chinese supermarkets provide familiar products",
+        "Business opportunities strong in import/export",
+        "Learn Spanish - essential for business",
+        "ICBC bank provides Chinese-language services",
+        "Chinese New Year celebrated throughout Buenos Aires"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Chinese citizens need a visa for Argentina?",
+        answer: "Yes, Chinese citizens must obtain a tourist visa before arrival (90 days). Apply at Argentine consulate in China."
+      },
+      {
+        question: "How big is the Chinese community?",
+        answer: "One of the largest Asian communities - approximately 120,000-200,000 Chinese citizens in Argentina, with deep historical roots."
+      },
+      {
+        question: "Is there a Chinatown in Buenos Aires?",
+        answer: "Yes, Belgrano neighborhood has Barrio Chino (Chinatown) with Chinese supermarkets, restaurants, and cultural institutions."
+      },
+      {
+        question: "Can I open a business as a Chinese citizen?",
+        answer: "Yes, many Chinese citizens own businesses in Argentina. The business visa pathway is well-established."
+      },
+      {
+        question: "Are there Chinese banks in Argentina?",
+        answer: "Yes, ICBC (Industrial and Commercial Bank of China) has significant presence and offers Chinese-language services."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Business Visa Guide",
+        url: "/visas/investment",
+        description: "For entrepreneurs"
+      },
+      {
+        title: "Chinatown BA",
+        url: "/neighborhoods/belgrano",
+        description: "Barrio Chino guide"
+      }
+    ],
+    image: "/images/nationalities/china.webp"
+  },
+
+  // JAPAN - Full Featured Entry (Growing Professional Community)
+  {
+    slug: "japan",
+    name: "Japan",
+    demonym: "Japanese",
+    flag: "🇯🇵",
+    title: "Japanese Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Cultural exchange, professional opportunities, and unique bilateral connections",
+    description: "Japan and Argentina maintain strong cultural and economic ties. Japanese citizens find opportunities in technology, automotive, gastronomy, and cultural exchange, with a well-established Japanese community in Buenos Aires.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days",
+        notes: "Japanese citizens enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers",
+        incomeRequirement: "$1,500-2,000/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through sponsorship",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "Japan is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While Japan doesn't have a special immigration agreement with Argentina, Japanese citizens benefit from visa-free entry, strong bilateral business relationships, significant Japanese corporate presence, and an established Japanese cultural community.",
+      benefits: [
+        "90-day visa-free entry",
+        "Strong Japanese corporate presence (automotive, technology)",
+        "Japanese garden and cultural center in BA",
+        "Japanese gastronomy highly regarded",
+        "Cultural exchange programs",
+        "Established Japanese community"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Japanese police certificate (keisatsu shōmeisho) with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of means of support",
+        "Proof of address in Argentina",
+        "For work visa: employment contract"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "JPY can be exchanged in BA. Japanese banks have limited presence. Wise popular for transfers.",
+      banking: "Open accounts with residency. International banks or digital banks popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Japan-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: false
+    },
+    communityInfo: {
+      populationInArgentina: "10,000-15,000",
+      mainLocations: [
+        "Buenos Aires (Belgrano, Palermo)",
+        "Around Japanese companies (automotive plants)"
+      ],
+      associations: [
+        { name: "Asociación Japonesa en Argentina" },
+        { name: "Jardín Japonés Buenos Aires" }
+      ],
+      facebookGroups: [
+        "日本人 アルゼンチン",
+        "Japanese in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Work Visa or Digital Nomad",
+      timeline: "Work visa: 60-90 days. Digital nomad: 30-45 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Choose pathway: work visa with sponsorship or digital nomad",
+        "Gather documents (police certificate, birth certificate)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows stay during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Japanese automotive companies (Toyota, Honda) have plants in Argentina",
+        "Jardín Japonés (Japanese Garden) is a cultural center",
+        "Japanese gastronomy highly valued - opportunities for chefs",
+        "Technology sector welcomes Japanese professionals",
+        "Learn Spanish - essential for daily life",
+        "Japan-Argentina cultural exchange is active",
+        "Judo and martial arts connections strong"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Japanese citizens need a visa for Argentina?",
+        answer: "No visa required for 90 days. For longer stays: work visa with sponsorship or digital nomad visa for remote workers."
+      },
+      {
+        question: "Is there a Japanese community in Buenos Aires?",
+        answer: "Yes, approximately 10,000-15,000 Japanese citizens. The Jardín Japonés is a major cultural center."
+      },
+      {
+        question: "Are there Japanese companies in Argentina?",
+        answer: "Yes, major Japanese automotive companies (Toyota, Honda) have manufacturing plants and operations in Argentina."
+      },
+      {
+        question: "Can I find Japanese food products?",
+        answer: "Yes, Japanese supermarkets and products available in Buenos Aires, especially in Belgrano and Palermo neighborhoods."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Work Visa Information",
+        url: "/visas/work",
+        description: "Employment pathway"
+      },
+      {
+        title: "Japanese Garden BA",
+        url: "/attractions/japanese-garden",
+        description: "Cultural center"
+      }
+    ],
+    image: "/images/nationalities/japan.webp"
+  },
+
+  // ECUADOR - Full Featured Entry (Mercosur Associate, Andean Community)
+  {
+    slug: "ecuador",
+    name: "Ecuador",
+    demonym: "Ecuadorian",
+    flag: "🇪🇨",
+    title: "Ecuadorian Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Mercosur associate benefits, Andean connections, and growing community",
+    description: "As a Mercosur associate member, Ecuadorians enjoy preferential immigration access to Argentina with 2-year renewable residency and work authorization. The growing Ecuadorian community finds opportunities across various sectors.",
+    region: "latin-america",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Ecuadorians enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available but Mercosur associate is better",
+        incomeRequirement: "$1,000-1,500/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work authorization with Mercosur associate residency",
+        sponsorshipRequired: false
+      },
+      mercosur: {
+        eligible: true,
+        notes: "Ecuador is a Mercosur associate member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: true,
+      type: "Mercosur Associate Membership",
+      description: "Ecuador joined Mercosur as an associate member, granting Ecuadorians 2-year renewable residency with work rights in Argentina and a pathway to citizenship in 2 years.",
+      benefits: [
+        "2-year renewable residency",
+        "Full work authorization",
+        "No entry visa required",
+        "Path to citizenship in 2 years",
+        "Can work immediately upon application",
+        "Family reunification available"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Certificado de Antecedentes Penales from Ecuador"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of address in Argentina",
+        "Proof of means of support"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "USD is Ecuador's currency - easily exchanged in Argentina. Wise popular for transfers.",
+      banking: "Open accounts with residency. Many Ecuadorians use digital banks.",
+      taxTreaty: true,
+      taxTreatyDetails: "Ecuador-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "30,000-50,000 (growing)",
+      mainLocations: [
+        "Buenos Aires (Flores, Caballito)",
+        "Córdoba",
+        "Rosario"
+      ],
+      associations: [
+        { name: "Asociación de Ecuatorianos en Argentina" }
+      ],
+      facebookGroups: [
+        "Ecuatorianos en Buenos Aires",
+        "Ecuatorianos en Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Mercosur Associate Residency",
+      timeline: "30-60 days for card. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina (90 days visa-free)",
+        "Gather apostilled documents from Ecuador",
+        "Apply for Mercosur associate residency",
+        "Receive precaria (can work immediately)",
+        "Pick up card in 30-60 days",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Get documents apostilled in Ecuador before traveling",
+        "Ecuadorian accent is understood - similar vocabulary",
+        "Growing community provides support network",
+        "Many work in services, construction, and hospitality",
+        "Andean cultural connections with Argentine northwest"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Ecuadorians need a visa for Argentina?",
+        answer: "No visa needed for 90 days. For longer stays, Mercosur associate residency provides 2 years with work rights."
+      },
+      {
+        question: "How big is the Ecuadorian community?",
+        answer: "Growing rapidly - approximately 30,000-50,000 Ecuadorians in Argentina, concentrated in Buenos Aires."
+      },
+      {
+        question: "Can I work immediately with Mercosur residency?",
+        answer: "Yes! Once you apply, you receive precaria allowing immediate work authorization while your card is processed."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Mercosur Associate Residency",
+        url: "/visas/temporary",
+        description: "Associate member details"
+      }
+    ],
+    image: "/images/nationalities/ecuador.webp"
+  },
+
+  // PORTUGAL - Full Featured Entry (European, Brazilian Connections)
+  {
+    slug: "portugal",
+    name: "Portugal",
+    demonym: "Portuguese",
+    flag: "🇵🇹",
+    title: "Portuguese Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "European pathway, Brazilian connections, and cultural ties",
+    description: "Portuguese citizens find Argentina attractive for its lower cost of living, Brazilian cultural connections, and European-influenced lifestyle. The Portuguese community maintains strong ties through language and shared Latin heritage.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Portuguese citizens enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers",
+        incomeRequirement: "€1,500-2,000/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through standard process",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "Portugal is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While Portugal doesn't have a special immigration agreement with Argentina, Portuguese citizens benefit from 90-day tourist entry, digital nomad visa, and strong cultural connections through Brazil and shared Latin heritage.",
+      benefits: [
+        "90-day visa-free entry (extendable to 180 days)",
+        "Digital nomad visa available",
+        "Portuguese language understood due to Brazilian influence",
+        "European professional qualifications recognized",
+        "Cultural affinity with Argentine lifestyle"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Certificado do Registo Criminal from Portugal"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of means of support",
+        "Proof of address in Argentina"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Euros easily exchanged. Portuguese banks have limited presence. Wise popular for transfers.",
+      banking: "Open accounts with residency. Digital banks popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Portugal-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "8,000-12,000",
+      mainLocations: [
+        "Buenos Aires",
+        "Mendoza",
+        "Mar del Plata"
+      ],
+      associations: [
+        { name: "Centro Portugués de Buenos Aires" }
+      ],
+      facebookGroups: [
+        "Portugueses em Buenos Aires",
+        "Portugueses na Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad or Work Visa",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Choose pathway: digital nomad or work visa",
+        "Gather documents (criminal record, birth certificate)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows stay during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Portuguese is understood due to Brazilian TV and culture",
+        "Brazilian Portuguese and Argentine Spanish similarities help",
+        "Portuguese cuisine connections (pastel de nata popular)",
+        "Consider teaching Portuguese (growing demand)",
+        "Portuguese professionals in design, arts do well"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Portuguese citizens need a visa for Argentina?",
+        answer: "No visa required for 90 days. Digital nomad visa available for remote workers."
+      },
+      {
+        question: "Is Portuguese understood in Argentina?",
+        answer: "Somewhat - Brazilian Portuguese is familiar through media, though Argentine Spanish differs. You'll find many similarities."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "For remote workers"
+      }
+    ],
+    image: "/images/nationalities/portugal.webp"
+  },
+
+  // SOUTH KOREA - Full Featured Entry (Growing Asian Community)
+  {
+    slug: "south-korea",
+    name: "South Korea",
+    demonym: "South Korean",
+    flag: "🇰🇷",
+    title: "South Korean Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "Growing community, business opportunities, and cultural exchange",
+    description: "The South Korean community in Argentina has grown significantly, with strong presence in technology, automotive, and gastronomy sectors. Korean citizens find expanding opportunities and increasing cultural appreciation.",
+    region: "asia",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days",
+        notes: "South Koreans enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers",
+        incomeRequirement: "$1,500-2,000/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through sponsorship",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "South Korea is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While South Korea doesn't have a special immigration agreement with Argentina, Korean citizens benefit from visa-free entry, strong business presence (automotive, electronics), and growing Korean cultural popularity.",
+      benefits: [
+        "90-day visa-free entry",
+        "Strong Korean corporate presence (automotive, technology)",
+        "Growing Korean cultural popularity (K-pop, K-drama)",
+        "Korean gastronomy increasingly popular",
+        "Active Korean community"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Korean police certificate (범죄경력회보서) with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of means of support",
+        "Proof of address in Argentina"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "KRW can be exchanged in BA. Wise popular for transfers.",
+      banking: "Open accounts with residency. Digital banks popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Korea-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: false
+    },
+    communityInfo: {
+      populationInArgentina: "25,000-35,000",
+      mainLocations: [
+        "Buenos Aires (Flores, Belgrano)",
+        "Around Korean company offices"
+      ],
+      associations: [
+        { name: "Asociación Coreana de Argentina" }
+      ],
+      facebookGroups: [
+        "한인 아르헨티나",
+        "Koreans in Argentina"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Work Visa or Business Visa",
+      timeline: "Work visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Find employment or establish business",
+        "Gather documents (police certificate, birth certificate)",
+        "Apply for work or business visa",
+        "Receive precaria (allows stay during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Korean automotive and electronics companies have presence",
+        "Korean cuisine increasingly popular - restaurant opportunities",
+        "Korean language teaching demand growing",
+        "K-pop/K-drama fanbase creates cultural connections",
+        "Study Spanish - essential for daily life"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do South Koreans need a visa for Argentina?",
+        answer: "No visa required for 90 days. For longer stays: work visa with sponsorship or business visa."
+      },
+      {
+        question: "How big is the Korean community?",
+        answer: "Approximately 25,000-35,000 South Koreans in Argentina, with strong business and cultural presence."
+      },
+      {
+        question: "Are there Korean restaurants?",
+        answer: "Yes, growing number of Korean restaurants in Buenos Aires, especially in Flores and Belgrano neighborhoods."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Work Visa Information",
+        url: "/visas/work",
+        description: "Employment pathway"
+      }
+    ],
+    image: "/images/nationalities/south-korea.webp"
+  },
+
+  // NETHERLANDS - Full Featured Entry (European, Business Focus)
+  {
+    slug: "netherlands",
+    name: "Netherlands",
+    demonym: "Dutch",
+    flag: "🇳🇱",
+    title: "Dutch Citizens in Argentina: Complete Immigration Guide",
+    subtitle: "European pathway, agricultural connections, and growing business presence",
+    description: "Dutch citizens are increasingly drawn to Argentina for agricultural business opportunities, lower cost of living, and adventure. The Netherlands maintains strong agricultural and trade relationships with Argentina.",
+    region: "europe",
+    visaRequirements: {
+      tourist: {
+        duration: "90 days (extendable to 180)",
+        notes: "Dutch citizens enter visa-free with valid passport",
+        reciprocityFee: false,
+        feeAmount: "$0"
+      },
+      digitalNomad: {
+        eligible: true,
+        notes: "Available for remote workers",
+        incomeRequirement: "€1,500-2,000/month equivalent"
+      },
+      work: {
+        eligible: true,
+        notes: "Work visa available through sponsorship",
+        sponsorshipRequired: true
+      },
+      mercosur: {
+        eligible: false,
+        notes: "Netherlands is not a Mercosur member"
+      }
+    },
+    specialAgreements: {
+      hasAgreement: false,
+      type: "No Special Agreement",
+      description: "While the Netherlands doesn't have a special immigration agreement with Argentina, Dutch citizens benefit from 90-day tourist entry, digital nomad visa, and strong agricultural and trade business relationships.",
+      benefits: [
+        "90-day visa-free entry (extendable to 180 days)",
+        "Digital nomad visa available",
+        "Strong agricultural business connections",
+        "Dutch agricultural expertise highly valued",
+        "English widely spoken in business"
+      ]
+    },
+    documents: {
+      passportValidity: "Valid at entry",
+      criminalRecord: {
+        required: true,
+        apostille: true,
+        notes: "Dutch police certificate (Verklaring Omtrent Gedrag) with apostille"
+      },
+      birthCertificate: {
+        required: true,
+        apostille: true
+      },
+      additionalDocs: [
+        "Proof of means of support",
+        "Proof of address in Argentina"
+      ]
+    },
+    practicalInfo: {
+      currencyExchange: "Euros easily exchanged. Wise popular for transfers.",
+      banking: "Open accounts with residency. Digital banks popular.",
+      taxTreaty: true,
+      taxTreatyDetails: "Netherlands-Argentina have tax agreements. Consult accountant.",
+      dualCitizenshipAllowed: true
+    },
+    communityInfo: {
+      populationInArgentina: "5,000-8,000",
+      mainLocations: [
+        "Buenos Aires",
+        "Agricultural regions (Pampas)",
+        "Mendoza"
+      ],
+      associations: [
+        { name: "Dutch Business Club Argentina" }
+      ],
+      facebookGroups: [
+        "Dutch in Buenos Aires",
+        "Nederlanders in Argentinië"
+      ]
+    },
+    residencyPath: {
+      easiestRoute: "Digital Nomad or Business Visa",
+      timeline: "Digital nomad: 30-45 days. Business visa: 60-90 days. Citizenship in 2 years.",
+      steps: [
+        "Enter Argentina on 90-day tourist visa",
+        "Choose pathway: digital nomad, work visa, or business/investment",
+        "Gather documents (police certificate, birth certificate)",
+        "Apply for chosen visa type",
+        "Receive precaria (allows stay during processing)",
+        "Pick up visa/residency card",
+        "Apply for citizenship after 2 years"
+      ],
+      tips: [
+        "Dutch agricultural expertise highly valued in Argentina",
+        "Consider agribusiness opportunities",
+        "English widely understood in business settings",
+        "Dutch directness may need softening - Argentine communication is indirect",
+        "Cycling culture minimal - adjust expectations",
+        "Argentine work hours are later than Dutch norms"
+      ]
+    },
+    faqs: [
+      {
+        question: "Do Dutch citizens need a visa for Argentina?",
+        answer: "No visa required for 90 days. Digital nomad visa available for remote workers."
+      },
+      {
+        question: "Are there Dutch business opportunities?",
+        answer: "Yes, particularly in agriculture, agribusiness, and technology sectors where Dutch expertise is highly valued."
+      }
+    ],
+    relatedResources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "For remote workers"
+      },
+      {
+        title: "Investment Visa",
+        url: "/visas/investment",
+        description: "Business pathway"
+      }
+    ],
+    image: "/images/nationalities/netherlands.webp"
+  },
+
   {
     slug: "united-states",
     name: "United States",
