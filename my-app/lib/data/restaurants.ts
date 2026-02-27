@@ -36,6 +36,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "don-julio",
     name: "Don Julio",
+    image: "/images/restaurants/don-julio.webp",
+    imageCredit: "Photo by @donjulioparrilla via Instagram",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Guatemala 4691, Palermo",
@@ -61,6 +63,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "el-boliche-de-dario",
     name: "El Boliche de Dario",
+    image: "/images/restaurants/el-boliche-de-dario.webp",
+    imageCredit: "Photo via Pexels",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Sánchez de Bustamante 352, Palermo",
@@ -83,6 +87,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "la-cabrera",
     name: "La Cabrera",
+    image: "/images/restaurants/la-cabrera.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Cabrera 5099, Palermo",
@@ -107,6 +113,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "desnivel",
     name: "Desnivel",
+    image: "/images/restaurants/desnivel.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "San Telmo",
     address: "Defensa 855, San Telmo",
@@ -129,6 +137,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "el-pobre-luis",
     name: "El Pobre Luis",
+    image: "/images/restaurants/el-pobre-luis.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Belgrano",
     address: "Arribeños 2393, Belgrano",
@@ -152,6 +162,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "caldén-del-soho",
     name: "Caldén del Soho",
+    image: "/images/restaurants/caldén-del-soho.webp",
+    imageCredit: "Photo via Pexels",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Humboldt 1859, Palermo",
@@ -176,6 +188,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "tegui",
     name: "Tegui",
+    image: "/images/restaurants/tegui.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Costa Rica 5852, Palermo",
@@ -198,8 +212,10 @@ export const restaurants: Restaurant[] = [
     whyWeLoveIt: "The pinnacle of Argentine fine dining. Martitegui is a genius, and this is his masterpiece.",
   },
   {
-    slug: "el Preferido",
+    slug: "el-preferido",
     name: "El Preferido de Palermo",
+    image: "/images/restaurants/el-preferido.webp",
+    imageCredit: "Photo by @elpreferidodepalermo via Instagram",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Jorge Luis Borges 2108, Palermo",
@@ -220,10 +236,56 @@ export const restaurants: Restaurant[] = [
     localTip: "Sit at the counter for the best experience. The rabas are among the best in BA.",
     whyWeLoveIt: "Old-school Buenos Aires charm, updated just enough to be comfortable. A taste of history.",
   },
+  {
+    slug: "la-parolaccia",
+    name: "La Parolaccia",
+    image: "/images/restaurants/la-parolaccia.webp",
+    imageCredit: "Photo by @laparolaccia via Instagram",
+    city: "Buenos Aires",
+    neighborhood: "Palermo",
+    address: "Luis Maria Campos 695, Palermo",
+    priceRange: "$$",
+    cuisineType: "Italian",
+    subCategory: "Trattoria",
+    description: "Beloved neighborhood trattoria serving rustic Italian-Argentine cuisine. Fresh pastas, wood-fired pizzas, and an excellent wine list. The atmosphere is warm and familial—like being invited to an Italian grandmother's home.",
+    mustTry: ["Homemade pasta", "Wood-fired pizza", "Tiramisu", "Italian wines"],
+    hours: "Tue-Sun 12pm-3:30pm, 8pm-12am, Closed Monday",
+    reservationsRequired: true,
+    rating: 4.5,
+    features: ["Homemade pasta", "Wood-fired oven", "Neighborhood gem", "Italian wines"],
+    goodFor: ["Casual dining", "Date night", "Groups", "Wine lovers"],
+    notGoodFor: ["Quick meal", "Modern cuisine"],
+    localTip: "The pasta is made fresh daily. Try whatever special they're running—it's always excellent.",
+    whyWeLoveIt: "Authentic neighborhood Italian that feels like home. The pasta alone is worth the trip.",
+  },
+  {
+    slug: "la-birreria",
+    name: "La Birreria",
+    image: "/images/restaurants/la-birreria.webp",
+    imageCredit: "Photo by @labirreriaok via Instagram",
+    city: "Buenos Aires",
+    neighborhood: "Palermo",
+    address: "Cabreira 4901, Palermo",
+    priceRange: "$$",
+    cuisineType: "Pub",
+    subCategory: "Craft Beer Bar",
+    description: "Lively craft beer bar and restaurant with an extensive selection of Argentine and international brews. The menu features elevated pub food—burgers, pizzas, and sharing plates. Great atmosphere for groups and beer enthusiasts.",
+    mustTry: ["Craft beer flight", "Burgers", "Pizza", "Happy hour specials"],
+    hours: "Mon-Sun 6pm-2am",
+    reservationsRequired: false,
+    rating: 4.4,
+    features: ["Craft beer", "Happy hour", "Group friendly", "Late night"],
+    goodFor: ["Groups", "Beer lovers", "Casual dining", "Late night"],
+    notGoodFor: ["Quiet dinner", "Fine dining", "Romantic date"],
+    localTip: "Happy hour runs most of the evening—excellent value on beer. Come with a group and share plates.",
+    whyWeLoveIt: "The best craft beer selection in Palermo with solid pub food. Always a fun, lively atmosphere.",
+  },
   // Pizza
   {
     slug: "las-cuartetas",
     name: "Las Cuartetas",
+    image: "/images/restaurants/las-cuartetas.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Centro",
     address: "Corrientes 838, Centro",
@@ -246,6 +308,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "el-cuartito",
     name: "El Cuartito",
+    image: "/images/restaurants/el-cuartito.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Centro",
     address: "Talcahuano 937, Centro",
@@ -269,6 +333,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "el-sanjuanino",
     name: "El Sanjuanino",
+    image: "/images/restaurants/el-sanjuanino.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Recoleta",
     address: "Posadas 1515, Recoleta",
@@ -292,6 +358,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "la-americana",
     name: "La Americana",
+    image: "/images/restaurants/la-americana.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Almagro",
     address: "Gascon 530, Almagro",
@@ -316,6 +384,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "sacrifice",
     name: "Sacrifice",
+    image: "/images/restaurants/sacrifice.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Costa Rica 4934, Palermo",
@@ -339,6 +409,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "artemisia",
     name: "Artemisia",
+    image: "/images/restaurants/artemisia.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Costa Rica 5893, Palermo",
@@ -363,6 +435,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "cafe-registrado",
     name: "Café Registrado",
+    image: "/images/restaurants/cafe-registrado.webp",
+    imageCredit: "Photo by Igor Starkov via Pexels",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Godoy Cruz 1729, Palermo",
@@ -386,6 +460,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "cafe-tortoni",
     name: "Café Tortoni",
+    image: "/images/restaurants/cafe-tortoni.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Centro",
     address: "Av. de Mayo 825, Centro",
@@ -410,6 +486,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "sarkis",
     name: "Sarkis",
+    image: "/images/restaurants/sarkis.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Thames 1101, Palermo",
@@ -433,6 +511,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "gran-dabbang",
     name: "Gran Dabbang",
+    image: "/images/restaurants/gran-dabbang.webp",
+    imageCredit: "Photo via Pexels",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Scalabrini Ortiz 1543, Palermo",
@@ -457,6 +537,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "hierro-parrilla",
     name: "Hierro Parrilla",
+    image: "/images/restaurants/hierro-parrilla.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Honduras 5900, Palermo",
@@ -477,6 +559,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "fogon-asado",
     name: "Fogón Asado",
+    image: "/images/restaurants/fogon-asado.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Cabrera 4670, Palermo",
@@ -498,9 +582,11 @@ export const restaurants: Restaurant[] = [
   {
     slug: "aramburu",
     name: "Aramburu",
+    image: "/images/restaurants/aramburu.webp",
+    imageCredit: "Photo by @arambururesto via Instagram",
     city: "Buenos Aires",
     neighborhood: "Recoleta",
-    address: "Salta 1050,Recoleta",
+    address: "Salta 1050, Recoleta",
     priceRange: "$$$$",
     cuisineType: "Contemporary Argentine",
     subCategory: "Fine Dining",
@@ -522,6 +608,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "trescha",
     name: "Trescha",
+    image: "/images/restaurants/trescha.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Gurruchaga 1701, Palermo",
@@ -544,6 +632,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "crizia",
     name: "Crizia",
+    image: "/images/restaurants/crizia.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Gorriti 5143, Palermo",
@@ -567,6 +657,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "roux",
     name: "Roux",
+    image: "/images/restaurants/roux.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Belgrano",
     address: "Sucre 2803, Belgrano",
@@ -590,6 +682,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "corte-comedor",
     name: "Corte Comedor",
+    image: "/images/restaurants/corte-comedor.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Belgrano",
     address: "Sucre 1385, Belgrano",
@@ -612,6 +706,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "elena-four-seasons",
     name: "Elena",
+    image: "/images/restaurants/elena-four-seasons.webp",
+    imageCredit: "Photo via Pexels",
     city: "Buenos Aires",
     neighborhood: "Retiro",
     address: "Posadas 1086, Retiro (Four Seasons Hotel)",
@@ -635,6 +731,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "duhau-restaurante",
     name: "Duhau Restaurante",
+    image: "/images/restaurants/duhau-restaurante.webp",
+    imageCredit: "Photo by Pixabay via Pexels",
     city: "Buenos Aires",
     neighborhood: "Recoleta",
     address: "Avenida Alvear 1661, Recoleta (Park Hyatt)",
@@ -658,6 +756,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "la-casona-de-belgrano",
     name: "La Casona de Belgrano",
+    image: "/images/restaurants/la-casona-de-belgrano.webp",
+    imageCredit: "Photo by Helena Lopes via Pexels",
     city: "Buenos Aires",
     neighborhood: "Belgrano",
     address: "Sucre 1986, Belgrano",
@@ -682,6 +782,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "azafran-mendoza",
     name: "Azafrán",
+    image: "/images/restaurants/azafran-mendoza.webp",
+    imageCredit: "Photo via Pexels",
     city: "Mendoza",
     neighborhood: "Ciudad",
     address: "Sarmiento 765, Mendoza",
@@ -705,6 +807,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "1884-restaurant",
     name: "1884 Restaurante",
+    image: "/images/restaurants/1884-restaurant.webp",
+    imageCredit: "Photo via Pexels",
     city: "Mendoza",
     neighborhood: "Godoy Cruz",
     address: "Terrada 186, Godoy Cruz",
@@ -729,6 +833,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "cassis-bariloche",
     name: "Cassis",
+    image: "/images/restaurants/cassis-bariloche.webp",
+    imageCredit: "Photo via Pexels",
     city: "San Carlos de Bariloche",
     neighborhood: "Centro",
     address: "Elflein 111, Bariloche",
@@ -752,6 +858,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "el-boliche-de-dario-bariloche",
     name: "El Boliche de Dario (Bariloche)",
+    image: "/images/restaurants/el-boliche-de-dario-bariloche.webp",
+    imageCredit: "Photo via Pexels",
     city: "San Carlos de Bariloche",
     neighborhood: "Centro",
     address: "Vice Alte O'Connor 647, Bariloche",
@@ -775,6 +883,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "alinea-cordoba",
     name: "Alinea",
+    image: "/images/restaurants/alinea-cordoba.webp",
+    imageCredit: "Photo via Pexels",
     city: "Córdoba",
     neighborhood: "Nueva Córdoba",
     address: "Achával Rodríguez 244, Córdoba",
@@ -798,6 +908,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "la-mamma-cordoba",
     name: "La Mamma",
+    image: "/images/restaurants/la-mamma-cordoba.webp",
+    imageCredit: "Photo via Pexels",
     city: "Córdoba",
     neighborhood: "Nueva Córdoba",
     address: "San Lorenzo 100, Córdoba",
@@ -822,6 +934,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "sarkis",
     name: "Sarkis",
+    image: "/images/restaurants/sarkis.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Thames 1101, Palermo",
@@ -845,6 +959,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "gran-dabbang",
     name: "Gran Dabbang",
+    image: "/images/restaurants/gran-dabbang.webp",
+    imageCredit: "Photo via Pexels",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Scalabrini Ortiz 1543, Palermo",
@@ -868,6 +984,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "el-sanjuanino",
     name: "El Sanjuanino",
+    image: "/images/restaurants/el-sanjuanino.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Recoleta",
     address: "Posadas 1515, Recoleta",
@@ -891,6 +1009,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "las-cuartetas",
     name: "Las Cuartetas",
+    image: "/images/restaurants/las-cuartetas.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Centro",
     address: "Corrientes 838, Centro",
@@ -913,6 +1033,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "la-americana",
     name: "La Americana",
+    image: "/images/restaurants/la-americana.webp",
+    imageCredit: "Photo via Wikimedia Commons",
     city: "Buenos Aires",
     neighborhood: "Almagro",
     address: "Gascon 530, Almagro",
@@ -936,6 +1058,8 @@ export const restaurants: Restaurant[] = [
   {
     slug: "cafe-registrado",
     name: "Café Registrado",
+    image: "/images/restaurants/cafe-registrado.webp",
+    imageCredit: "Photo by Igor Starkov via Pexels",
     city: "Buenos Aires",
     neighborhood: "Palermo",
     address: "Godoy Cruz 1729, Palermo",
