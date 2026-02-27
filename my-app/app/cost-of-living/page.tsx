@@ -266,7 +266,7 @@ export default function CostOfLivingPage() {
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <TrendingUpIcon size="sm" className="mr-1" />
-              Updated February 2025
+              Updated February 2026
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Cost of Living in Argentina 2026
