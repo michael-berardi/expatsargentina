@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     title: "Argentina Retirement Visa (Pensionado) - Complete 2026 Guide",
     description: "Retire in Argentina with a pension or retirement income. Step-by-step guide to the Pensionado visa.",
   },
+  alternates: {
+    canonical: "https://expatsargentina.com/visas/retirement",
+  },
 };
 
 const requirements = [

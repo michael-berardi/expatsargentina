@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     title: "Argentina Student Visa - Study in Argentina Guide 2026",
     description: "Study at Argentina's world-class universities, many tuition-free for international students. Complete visa application guide.",
   },
+  alternates: {
+    canonical: "https://expatsargentina.com/visas/student",
+  },
 };
 
 const requirements = [

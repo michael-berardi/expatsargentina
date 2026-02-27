@@ -19,7 +19,51 @@ import {
   ClockIcon,
   BriefcaseIcon,
 } from "@/components/ui/icon";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { investmentSectors } from "@/lib/data/investments";
+
+const faqs = [
+  {
+    question: "Can foreigners legally own property and businesses in Argentina?",
+    answer:
+      "Yes, foreigners have the same property and business ownership rights as Argentine citizens. The Milei government revoked previous foreign land ownership restrictions in December 2023, making it even easier for international investors to acquire real estate and agricultural land without limits.",
+  },
+  {
+    question: "What are the best investment sectors in Argentina right now?",
+    answer:
+      "The strongest sectors for 2026 are energy (particularly Vaca Muerta shale and lithium mining), real estate in Buenos Aires, technology startups, and agriculture. The RIGI incentive program offers significant tax benefits for large investments in energy, mining, infrastructure, and technology sectors.",
+  },
+  {
+    question: "What is the minimum investment needed to get started in Argentina?",
+    answer:
+      "Entry points vary widely by sector. You can invest in Buenos Aires real estate starting around $50,000-80,000 USD for a small apartment, while the investment visa requires approximately $150,000 USD. Tech startups can be launched with lower capital, and the RIGI program targets large investments over $200 million USD.",
+  },
+  {
+    question: "What are the tax implications for foreign investors in Argentina?",
+    answer:
+      "Argentina's standard corporate tax rate is 35%, but RIGI-eligible investments enjoy a reduced 25% rate for 30 years with tax stability guarantees. Foreign investors should also consider the personal assets tax, income tax on rental earnings, and capital gains tax on property sales. Working with an Argentine tax advisor is essential to optimize your structure.",
+  },
+  {
+    question: "How do I open a business or company in Argentina as a foreigner?",
+    answer:
+      "The most common structure is a Sociedad de Responsabilidad Limitada (SRL), similar to an LLC. You will need a CUIT (tax ID), a registered legal address, and a local representative or partner. The process typically takes 2-4 months and costs $2,000-5,000 USD in legal and registration fees. A local accountant (contador) is essential for ongoing compliance.",
+  },
+  {
+    question: "How does currency volatility affect investments in Argentina?",
+    answer:
+      "Currency risk is one of the biggest considerations for investing in Argentina. The peso has historically depreciated significantly against the dollar, which can benefit dollar-based investors buying assets cheaply but creates uncertainty for peso-denominated returns. Most savvy investors price deals in USD, keep reserves offshore, and use the parallel exchange rate where legally possible.",
+  },
+  {
+    question: "What is the process for buying real estate in Argentina as an expat?",
+    answer:
+      "The process involves obtaining a CDI (tax identification for foreigners), finding a property, negotiating the price (usually in USD), hiring a escribano (notary public) to handle the title transfer, and paying in cash or certified funds. Most transactions are completed in 30-60 days. You do not need residency to buy property, but having a DNI simplifies the process significantly.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Investment Opportunities in Argentina | Expats Argentina",
@@ -345,6 +389,21 @@ export default function InvestmentsPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </section>
+
       {/* Lucero Legal CTA */}
       <section className="py-16 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950/20 dark:to-background">
         <div className="container mx-auto px-4">
@@ -447,6 +506,23 @@ export default function InvestmentsPage() {
           </div>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
     </div>
   );
 }

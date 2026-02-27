@@ -4,6 +4,45 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { QuoteIcon, ArrowRightIcon, MapPinIcon, BriefcaseIcon, DollarSignIcon, CoffeeIcon, AlertTriangleIcon, HeartIcon } from "@/components/ui/icon";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
+const expatFaqs = [
+  {
+    question: "What are the most common challenges expats face when moving to Argentina?",
+    answer:
+      "The biggest challenges include navigating the complex bureaucracy (getting a DNI, opening bank accounts, signing leases with the garantia system), adapting to inflation and the parallel exchange rate system, and adjusting to cultural differences like late dinner times, the 'manana' work pace, and the importance of personal connections over formal processes. Language is also a major barrier for non-Spanish speakers.",
+  },
+  {
+    question: "How long does it typically take to adjust to life in Argentina?",
+    answer:
+      "Most expats report that the initial culture shock lasts about 2-3 months, with full adaptation taking 6-12 months. The first month is usually the hardest as you navigate housing, bureaucracy, and basic daily life. By month three, you start finding your rhythm. By month six, you understand the unwritten rules. After a year, most expats say Buenos Aires feels like home, though the economic unpredictability never fully becomes normal.",
+  },
+  {
+    question: "How much money should I save before moving to Argentina?",
+    answer:
+      "We recommend having at least $5,000-10,000 USD in savings beyond your first month's expenses. You will need 2-3 months of rent upfront for security deposits, plus money for setting up your apartment, immigration fees, and unexpected costs. If you do not have remote income lined up, budget for at least 6 months of living expenses ($5,000-15,000 depending on lifestyle) while you get established.",
+  },
+  {
+    question: "When is the best time of year to move to Argentina?",
+    answer:
+      "March through May (Argentine autumn) is ideal for relocating. The weather is pleasant, summer tourist crowds have cleared, and the rental market has more availability as short-term leases turn over. Avoid arriving in December-January when many offices close for summer holidays and immigration processing slows dramatically. September-October (spring) is also a good window with mild weather and active markets.",
+  },
+  {
+    question: "How do expats make friends and build a social life in Argentina?",
+    answer:
+      "Argentines are genuinely warm and social, and many expats find it easier to build friendships here than in their home countries. The most effective ways are through language exchange meetups (like Mundolingo), coworking spaces, sports clubs, tango classes, and expat Facebook and WhatsApp groups. Sunday asados are the ultimate social bonding experience. That said, deep local friendships take time as Argentine social circles can be tight-knit.",
+  },
+  {
+    question: "Do I need to speak Spanish to live in Argentina?",
+    answer:
+      "You can survive in Palermo and other expat-heavy neighborhoods with English, but your quality of life will be significantly better with at least conversational Spanish. Dealing with landlords, government offices, doctors, and everyday services almost always requires Spanish. Most expats recommend learning to at least an intermediate level before arriving. Porteño Spanish is also distinct from textbook Spanish, with unique slang and pronunciation that takes time to pick up.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Expat Stories - Real Experiences Living in Argentina",
@@ -830,6 +869,21 @@ export default function StoriesPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="w-full">
+            {expatFaqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
@@ -853,6 +907,23 @@ export default function StoriesPage() {
           </div>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: expatFaqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
     </div>
   );
 }

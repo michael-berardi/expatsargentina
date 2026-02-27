@@ -13,7 +13,51 @@ import {
   StarIcon,
   UsersIcon
 } from "@/components/ui/icon";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { neighborhoods, getNeighborhoodsByCity, getNeighborhoodCities } from "@/lib/data/neighborhoods";
+
+const faqs = [
+  {
+    question: "What are the safest neighborhoods in Buenos Aires for expats?",
+    answer:
+      "Recoleta, Palermo, and Belgrano are consistently ranked as the safest neighborhoods in Buenos Aires. Recoleta has the lowest crime rates, well-lit streets, and a strong security presence due to nearby embassies. Palermo and Belgrano also feel very safe, with crime rates comparable to major European cities. The main risk across all three is petty theft like phone snatching, not violent crime.",
+  },
+  {
+    question: "Which neighborhoods are best for families with children?",
+    answer:
+      "Belgrano and Nunez are the top choices for families, offering quiet residential streets, excellent schools (including international options like Lincoln and Northlands), parks, and a family-oriented culture. Palermo Botanico is another great option with green spaces like the Botanical Garden and Japanese Garden. Argentine culture is very family-friendly, and children are welcome everywhere, even at late-night restaurants.",
+  },
+  {
+    question: "What are the most affordable neighborhoods that are still safe for expats?",
+    answer:
+      "Villa Crespo and Almagro offer the best value for expats who want to stay in safe, central areas. Villa Crespo gives you Palermo vibes at roughly 40% lower rent, with great restaurants and nightlife emerging rapidly. Almagro is even more affordable and offers an authentic porteño experience, though it has fewer English-speaking services. Both are well-connected by subway.",
+  },
+  {
+    question: "Which neighborhoods are closest to the city center and business district?",
+    answer:
+      "San Telmo, Monserrat, and Recoleta are the closest residential neighborhoods to the Microcentro business district. San Telmo is a 10-minute taxi ride or short subway trip from the financial center. Recoleta borders the city center and offers easy access to downtown. Palermo is slightly further but extremely well-connected by subway (Lines D and B) and bus routes.",
+  },
+  {
+    question: "Where are the best areas for nightlife and social life?",
+    answer:
+      "Palermo Hollywood and Palermo Soho are the epicenters of Buenos Aires nightlife, packed with bars, clubs, and restaurants that stay open until dawn. San Telmo has a more bohemian, tango-focused nightlife scene. Chacarita is the emerging hotspot with Buenos Aires' fastest-growing restaurant and bar district. For a more local experience, Villa Crespo's craft beer scene and Almagro's underground bars are worth exploring.",
+  },
+  {
+    question: "Which neighborhoods have the largest expat communities?",
+    answer:
+      "Palermo Soho has the highest concentration of expats, particularly digital nomads and younger professionals. Recoleta attracts older expats and retirees who prefer its elegant, European atmosphere. Belgrano is popular with expat families due to its international schools. Nunez has a growing community of remote-working families. Villa Crespo is increasingly popular with budget-conscious expats who want to be near Palermo without the premium prices.",
+  },
+  {
+    question: "How do I find an apartment in Buenos Aires as a foreigner?",
+    answer:
+      "Start by searching on platforms like Zonaprop, Argenprop, and Mercado Libre Inmuebles, or join Facebook groups like 'BA Expats' and 'Buenos Aires Housing.' Many expats initially book a temporary furnished apartment for 1-3 months through Airbnb or furnished rental sites while they explore neighborhoods in person. For long-term leases, you will likely need a garantia (guarantee) or pay several months upfront. A rental agent who works with foreigners can simplify the process significantly.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Best Neighborhoods in Argentina for Expats 2026 — Buenos Aires, Mendoza & Córdoba",
@@ -318,6 +362,21 @@ export default function NeighborhoodsPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
@@ -343,6 +402,23 @@ export default function NeighborhoodsPage() {
           </div>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
     </div>
   );
 }

@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     title: "Argentina Digital Nomad Visa - Complete 2026 Guide",
     description: "Work remotely from Argentina for up to 180 days. Step-by-step application guide.",
   },
+  alternates: {
+    canonical: "https://expatsargentina.com/visas/digital-nomad",
+  },
 };
 
 const requirements = [

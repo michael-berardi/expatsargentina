@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     title: "Argentina Investment Visa - Residency by Investment Guide 2026",
     description: "Obtain Argentine residency through business investment. Complete guide to investment options, requirements, and application process.",
   },
+  alternates: {
+    canonical: "https://expatsargentina.com/visas/investment",
+  },
 };
 
 const requirements = [

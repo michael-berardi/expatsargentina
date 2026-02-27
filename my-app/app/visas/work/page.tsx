@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     title: "Argentina Work Visa - Employment-Based Residency Guide 2026",
     description: "Get a work visa in Argentina through employer sponsorship. Step-by-step guide to requirements, documents, and application process.",
   },
+  alternates: {
+    canonical: "https://expatsargentina.com/visas/work",
+  },
 };
 
 const requirements = [
