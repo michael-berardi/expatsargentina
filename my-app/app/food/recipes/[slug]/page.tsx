@@ -383,10 +383,15 @@ export default async function RecipePage({
         <div className="mt-12 pt-8 border-t print:hidden">
           <h2 className="text-2xl font-bold mb-6">More Argentine Recipes</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {recipes
-              .filter(r => r.slug !== recipe.slug)
-              .slice(0, 4)
-              .map((relatedRecipe) => (
+            {(() => {
+              const sameCategory = recipes
+                .filter(r => r.slug !== recipe.slug && r.category === recipe.category)
+                .slice(0, 2);
+              const others = recipes
+                .filter(r => r.slug !== recipe.slug && r.category !== recipe.category)
+                .slice(0, 4 - sameCategory.length);
+              return [...sameCategory, ...others];
+            })().map((relatedRecipe) => (
                 <Link 
                   key={relatedRecipe.slug}
                   href={`/food/recipes/${relatedRecipe.slug}`}

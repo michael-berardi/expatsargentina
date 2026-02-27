@@ -1,15 +1,13 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { recipes } from "@/lib/data/recipes";
-import { 
-  ChefHat, 
-  Clock, 
-  Users, 
-  Flame, 
+import {
+  ChefHat,
+  Clock,
+  Users,
+  Flame,
   ArrowRight,
-  Filter,
-  Search
+  MapPin
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -101,9 +99,39 @@ export default function RecipesPage() {
               <div className="text-sm text-gray-600">Regions Covered</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-orange-600">∞</div>
-              <div className="text-sm text-gray-600">Dulce de Leche</div>
+              <div className="text-3xl font-bold text-orange-600">
+                {recipes.filter(r => r.difficulty === "medium").length}/{recipes.filter(r => r.difficulty === "hard").length}
+              </div>
+              <div className="text-sm text-gray-600">Medium / Hard</div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* By Region */}
+      <div className="border-b bg-gradient-to-r from-orange-50/50 to-amber-50/50">
+        <div className="max-w-6xl mx-auto px-4 py-4">
+          <div className="flex items-center gap-3 flex-wrap">
+            <span className="text-sm font-semibold text-gray-700 flex items-center gap-1.5">
+              <MapPin className="w-4 h-4 text-orange-500" />
+              By Region:
+            </span>
+            {Object.entries(
+              recipes.reduce<Record<string, number>>((acc, r) => {
+                const region = r.region.split("(")[0].trim().replace(/\s*$/, "");
+                acc[region] = (acc[region] || 0) + 1;
+                return acc;
+              }, {})
+            )
+              .sort((a, b) => b[1] - a[1])
+              .map(([region, count], idx, arr) => (
+                <span key={region} className="text-sm text-gray-600">
+                  <span className="font-medium text-gray-800">{region}</span>
+                  {" "}
+                  <span className="text-orange-600 font-semibold">{count}</span>
+                  {idx < arr.length - 1 && <span className="ml-3 text-gray-300">|</span>}
+                </span>
+              ))}
           </div>
         </div>
       </div>
@@ -111,92 +139,108 @@ export default function RecipesPage() {
       {/* Categories */}
       <div className="max-w-6xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Browse by Category</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
           {[
             { name: "Main Dishes", count: recipes.filter(r => r.category === "main").length, slug: "main" },
             { name: "Appetizers", count: recipes.filter(r => r.category === "appetizer").length, slug: "appetizer" },
             { name: "Sauces", count: recipes.filter(r => r.category === "sauce").length, slug: "sauce" },
             { name: "Desserts", count: recipes.filter(r => r.category === "dessert").length, slug: "dessert" },
+            { name: "Stews", count: recipes.filter(r => r.category === "stew").length, slug: "stew" },
           ].map((cat) => (
-            <Card key={cat.slug} className="hover:shadow-md transition-shadow cursor-pointer group">
-              <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-orange-600 mb-1 group-hover:scale-110 transition-transform">
-                  {cat.count}
-                </div>
-                <div className="text-gray-600 font-medium">{cat.name}</div>
-              </CardContent>
-            </Card>
+            <a key={cat.slug} href={`#category-${cat.slug}`}>
+              <Card className="hover:shadow-md transition-shadow cursor-pointer group">
+                <CardContent className="p-6 text-center">
+                  <div className="text-3xl font-bold text-orange-600 mb-1 group-hover:scale-110 transition-transform">
+                    {cat.count}
+                  </div>
+                  <div className="text-gray-600 font-medium">{cat.name}</div>
+                </CardContent>
+              </Card>
+            </a>
           ))}
         </div>
 
-        {/* Recipe Grid */}
+        {/* Recipe Grid — Grouped by Category */}
         <div id="all-recipes" className="scroll-mt-24">
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="text-2xl font-bold text-gray-900">All Recipes</h2>
-            <div className="flex items-center gap-2 text-sm text-gray-600">
-              <Filter className="w-4 h-4" />
-              <span>Filter coming soon</span>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">All Recipes</h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {recipes.map((recipe) => (
-              <Link 
-                key={recipe.slug} 
-                href={`/food/recipes/${recipe.slug}`}
-                className="group"
-              >
-                <Card className="h-full overflow-hidden hover:shadow-lg transition-all duration-300 border-orange-100">
-                  {/* Image */}
-                  <div className="relative aspect-[4/3] bg-gradient-to-br from-orange-100 to-amber-50 overflow-hidden">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-6xl font-bold text-orange-200/50">
-                        {recipe.name[0]}
-                      </span>
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <div className="flex items-center gap-2">
-                        <Badge className={`${difficultyColors[recipe.difficulty]} capitalize`}>
-                          {recipe.difficulty}
-                        </Badge>
-                        <Badge variant="secondary" className="bg-white/90 text-gray-700">
-                          {categoryIcons[recipe.category]}
-                          <span className="ml-1 capitalize">{recipe.category}</span>
-                        </Badge>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <CardContent className="p-5">
-                    <div className="flex items-start justify-between gap-2 mb-2">
-                      <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors">
-                        {recipe.name}
-                      </h3>
-                    </div>
-                    <p className="text-orange-600 text-sm font-medium mb-3">
-                      {recipe.spanishName}
-                    </p>
-                    <p className="text-gray-600 text-sm line-clamp-2 mb-4">
-                      {recipe.description}
-                    </p>
-                    
-                    {/* Meta */}
-                    <div className="flex items-center gap-4 text-sm text-gray-500 pt-4 border-t border-gray-100">
-                      <div className="flex items-center gap-1">
-                        <Clock className="w-4 h-4" />
-                        <span>{recipe.totalTime}</span>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <Users className="w-4 h-4" />
-                        <span>{recipe.servings} servings</span>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
-            ))}
-          </div>
+          {([
+            { key: "main" as const, label: "Main Dishes", icon: <Flame className="w-5 h-5 text-orange-600" /> },
+            { key: "appetizer" as const, label: "Appetizers & Snacks", icon: <ChefHat className="w-5 h-5 text-orange-600" /> },
+            { key: "sauce" as const, label: "Sauces & Condiments", icon: <ChefHat className="w-5 h-5 text-orange-600" /> },
+            { key: "dessert" as const, label: "Desserts", icon: <ChefHat className="w-5 h-5 text-orange-600" /> },
+            { key: "stew" as const, label: "Stews", icon: <Flame className="w-5 h-5 text-orange-600" /> },
+          ]).map((group) => {
+            const groupRecipes = recipes.filter(r => r.category === group.key);
+            if (groupRecipes.length === 0) return null;
+            return (
+              <div key={group.key} id={`category-${group.key}`} className="mb-12 scroll-mt-24">
+                <div className="flex items-center gap-2 mb-6">
+                  {group.icon}
+                  <h3 className="text-xl font-bold text-gray-900">{group.label}</h3>
+                  <span className="text-sm text-gray-500 ml-1">({groupRecipes.length})</span>
+                </div>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {groupRecipes.map((recipe) => (
+                    <Link
+                      key={recipe.slug}
+                      href={`/food/recipes/${recipe.slug}`}
+                      className="group"
+                    >
+                      <Card className="h-full overflow-hidden hover:shadow-lg transition-all duration-300 border-orange-100">
+                        {/* Image */}
+                        <div className="relative aspect-[4/3] bg-gradient-to-br from-orange-100 to-amber-50 overflow-hidden">
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <span className="text-6xl font-bold text-orange-200/50">
+                              {recipe.name[0]}
+                            </span>
+                          </div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                          <div className="absolute bottom-4 left-4 right-4">
+                            <div className="flex items-center gap-2">
+                              <Badge className={`${difficultyColors[recipe.difficulty]} capitalize`}>
+                                {recipe.difficulty}
+                              </Badge>
+                              <Badge variant="secondary" className="bg-white/90 text-gray-700">
+                                {categoryIcons[recipe.category]}
+                                <span className="ml-1 capitalize">{recipe.category}</span>
+                              </Badge>
+                            </div>
+                          </div>
+                        </div>
+
+                        <CardContent className="p-5">
+                          <div className="flex items-start justify-between gap-2 mb-2">
+                            <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors">
+                              {recipe.name}
+                            </h3>
+                          </div>
+                          <p className="text-orange-600 text-sm font-medium mb-3">
+                            {recipe.spanishName}
+                          </p>
+                          <p className="text-gray-600 text-sm line-clamp-2 mb-4">
+                            {recipe.description}
+                          </p>
+
+                          {/* Meta */}
+                          <div className="flex items-center gap-4 text-sm text-gray-500 pt-4 border-t border-gray-100">
+                            <div className="flex items-center gap-1">
+                              <Clock className="w-4 h-4" />
+                              <span>{recipe.totalTime}</span>
+                            </div>
+                            <div className="flex items-center gap-1">
+                              <Users className="w-4 h-4" />
+                              <span>{recipe.servings} servings</span>
+                            </div>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
         </div>
 
         {/* Tips Section */}

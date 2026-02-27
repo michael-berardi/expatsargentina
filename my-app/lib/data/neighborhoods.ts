@@ -8,7 +8,7 @@ export interface Neighborhood {
   name: string;
   altNames?: string[];
   city: string;
-  zone: "North" | "Central" | "South" | "West" | "East";
+  zone: "North" | "Central" | "South" | "West" | "East" | "Mendoza" | "Córdoba";
   description: string;
   longDescription: string;
   expatScore: number;
@@ -736,6 +736,395 @@ export const neighborhoods: Neighborhood[] = [
       { label: "Subte Access", value: "None" },
     ],
   },
+
+  // ============================================================================
+  // MENDOZA NEIGHBORHOODS
+  // ============================================================================
+  {
+    slug: "mendoza-centro",
+    name: "Centro Mendoza",
+    altNames: ["Centro", "Mendoza Downtown"],
+    city: "Mendoza",
+    zone: "Mendoza",
+    description: "The commercial heart of Argentina's wine capital — a walkable grid of plazas, sidewalk cafes, and affordable living. A compact, sunny city center where everything is within reach on foot.",
+    longDescription: "Centro Mendoza is one of the most pleasant downtown areas in all of Argentina. Rebuilt after a devastating earthquake in 1861, the city was redesigned with wide, tree-lined avenues and a system of five interconnected plazas that provide shade and green space even in the center of town. The result is a compact, walkable grid where daily life is remarkably easy. Plaza Independencia anchors the center — surrounded by cafes, the Hyatt, the modern art museum (MMAMM), and street performers most evenings. The commercial pedestrian street, Sarmiento, buzzes during the day with shops and restaurants. For expats, Centro Mendoza offers a rare combination: genuine affordability, excellent walkability, and a relaxed pace of life that Buenos Aires can't match. Rents are a fraction of Palermo or Recoleta, and the quality of life — sunshine 300+ days a year, mountains visible from every corner, world-class wine a short drive away — is hard to beat. The food scene is centered on regional cuisine: empanadas mendocinas, asado, goat (chivito), and of course wine by the bottle at every restaurant. The main considerations are summer heat (January temperatures often exceed 35°C), limited public transport compared to BA, and a smaller expat community. English is rarely spoken outside tourist-facing businesses, so basic Spanish is essential.",
+    expatScore: 7,
+    rentRange: "$400–$700",
+    rentLevel: "Budget",
+    safety: "Good",
+    transport: "Moderate",
+    subteLines: [],
+    walkability: "Excellent",
+    nightlife: "Good",
+    foodScene: "Very Good",
+    greenSpaces: "Good",
+    bestFor: ["Budget-conscious expats", "Wine lovers", "Spanish learners", "Remote workers seeking sun"],
+    notIdealFor: ["Those wanting large expat community", "Nightlife seekers", "Those who dislike heat"],
+    highlights: [
+      "Walkable city grid with 5 connected plazas",
+      "300+ days of sunshine per year",
+      "Rents 50-60% cheaper than Buenos Aires",
+      "World-class wineries within 30 min drive",
+      "Andes mountain views from the city",
+      "Safe, relaxed pace of life"
+    ],
+    considerations: [
+      "Extreme summer heat (35°C+ in January)",
+      "Limited public transport (no subway)",
+      "Smaller expat community than BA",
+      "Less nightlife variety than Buenos Aires",
+      "Few English speakers outside tourism"
+    ],
+    landmarks: ["Plaza Independencia", "Peatonal Sarmiento", "MMAMM (Museo de Arte Moderno)", "Teatro Independencia"],
+    avgMonthlyBudget: "$800–$1,300",
+    nearbyNeighborhoods: ["godoy-cruz", "guaymallen"],
+    coffeeShops: "15+ cafes around Plaza Independencia and Arístides",
+    coworkingSpaces: "3-4 spaces, growing scene",
+    image: "/images/neighborhoods/mendoza-centro.webp",
+    keyFacts: [
+      { label: "Climate", value: "Semi-arid, 300+ sunny days" },
+      { label: "Average Age", value: "25-45" },
+      { label: "Character", value: "Walkable wine city center" },
+      { label: "Distance to Wineries", value: "20-40 min drive" },
+    ],
+  },
+  {
+    slug: "godoy-cruz",
+    name: "Godoy Cruz",
+    city: "Mendoza",
+    zone: "Mendoza",
+    description: "Mendoza's vibrant adjacent suburb — a favorite among young professionals for its nightlife strip on Arístides Villanueva, craft beer scene, and lower rents just minutes from downtown.",
+    longDescription: "Godoy Cruz is technically its own municipality, but it blends seamlessly into Mendoza's urban fabric — most people don't notice when they cross from one into the other. The neighborhood has become the go-to area for younger expats and professionals drawn to its combination of affordability, energy, and the famous Arístides Villanueva strip. Avenida Arístides Villanueva is Mendoza's answer to Palermo Hollywood — a 15-block stretch of bars, restaurants, craft breweries, and late-night spots that comes alive every Thursday through Saturday. The energy is fun without being overwhelming, and the prices are a fraction of Buenos Aires equivalents. Beyond the strip, Godoy Cruz is a mix of residential blocks, small plazas, and commercial streets. The housing stock is mostly low-rise apartments and houses, with modern developments going up along the main avenues. Rents here are even lower than Centro Mendoza, making it popular with digital nomads and longer-term expats. The Metrotranvía (Mendoza's light rail) connects Godoy Cruz to the center in about 15 minutes, and the cycling infrastructure is better here than most Argentine cities. The neighborhood also borders some of Mendoza's best parks, including Parque General San Martín to the northwest.",
+    expatScore: 7,
+    rentRange: "$350–$600",
+    rentLevel: "Budget",
+    safety: "Good",
+    transport: "Good",
+    subteLines: [],
+    walkability: "Very Good",
+    nightlife: "Vibrant",
+    foodScene: "Very Good",
+    greenSpaces: "Good",
+    bestFor: ["Young professionals", "Nightlife lovers", "Budget expats", "Craft beer fans"],
+    notIdealFor: ["Families seeking quiet", "Those wanting upscale living", "Light sleepers near Arístides"],
+    highlights: [
+      "Arístides Villanueva nightlife and dining strip",
+      "Lowest rents in greater Mendoza",
+      "Metrotranvía connection to Centro",
+      "Growing craft beer and wine bar scene",
+      "Close to Parque San Martín",
+      "Young, social atmosphere"
+    ],
+    considerations: [
+      "Noise on and near Arístides on weekends",
+      "Less polished than Centro",
+      "Some blocks feel more suburban",
+      "Limited English spoken",
+      "Fewer coworking options"
+    ],
+    landmarks: ["Avenida Arístides Villanueva", "Parque General San Martín (nearby)", "Metrotranvía stops", "Plaza Godoy Cruz"],
+    avgMonthlyBudget: "$700–$1,100",
+    nearbyNeighborhoods: ["mendoza-centro", "chacras-de-coria"],
+    coffeeShops: "10+ along Arístides and side streets",
+    coworkingSpaces: "2-3 spaces",
+    image: "/images/neighborhoods/godoy-cruz.webp",
+    keyFacts: [
+      { label: "Key Street", value: "Av. Arístides Villanueva" },
+      { label: "Average Age", value: "22-35" },
+      { label: "Character", value: "Young / nightlife hub" },
+      { label: "Transit", value: "Metrotranvía light rail" },
+    ],
+  },
+  {
+    slug: "chacras-de-coria",
+    name: "Chacras de Coria",
+    altNames: ["Chacras"],
+    city: "Mendoza",
+    zone: "Mendoza",
+    description: "A charming wine country village 20 minutes from downtown Mendoza — tree-lined streets, bodegas within walking distance, and the largest concentration of expats in the region. The 'Palermo' of Mendoza.",
+    longDescription: "Chacras de Coria is where Mendoza's expat community has quietly built something special. This small village in Luján de Cuyo, about 20 minutes south of downtown Mendoza, sits right in the heart of wine country. Bodegas like Vistalba, Ruca Malén, and Achaval Ferrer are literally within cycling or walking distance. The village center is built around a leafy main square with a church, a handful of excellent restaurants, and a Saturday artisan market that draws visitors from across the region. The streets are lined with mature trees, the houses have gardens (a luxury in Argentine cities), and the pace of life is decidedly rural despite being minutes from a major city. For expats, Chacras offers something unique in Argentina: a tight-knit international community in a beautiful setting. Several dozen expat families have settled here, creating a social network that includes wine tastings, barbecues, hiking groups, and informal language exchanges. The restaurant scene punches well above its weight — some of Mendoza's best dining is here, often in converted wine estates with mountain views. The main trade-off is isolation: you need a car (or at least a bicycle and Uber account) to access Mendoza's city services. Public transport to Chacras exists but is infrequent. The village is quiet — very quiet — which is either paradise or boring depending on your temperament.",
+    expatScore: 8,
+    rentRange: "$500–$900",
+    rentLevel: "Mid-Range",
+    safety: "Very Good",
+    transport: "Limited",
+    subteLines: [],
+    walkability: "Moderate",
+    nightlife: "Quiet",
+    foodScene: "Excellent",
+    greenSpaces: "Abundant",
+    bestFor: ["Wine enthusiasts", "Couples", "Retirees", "Nature lovers", "Expat community seekers"],
+    notIdealFor: ["Those without transport", "Nightlife seekers", "Young singles", "City lovers"],
+    highlights: [
+      "Bodegas and vineyards within walking/cycling distance",
+      "Established expat community",
+      "Saturday artisan market in the village center",
+      "Excellent restaurants in wine estate settings",
+      "Houses with gardens and mountain views",
+      "Quiet, safe village atmosphere"
+    ],
+    considerations: [
+      "Car or bicycle strongly recommended",
+      "Limited public transport to Mendoza city",
+      "Very quiet — not for those wanting city energy",
+      "Fewer daily services than city center",
+      "Higher rents than Mendoza Centro"
+    ],
+    landmarks: ["Plaza de Chacras de Coria", "Bodega Vistalba", "Bodega Ruca Malén", "Mercado artesanal (Saturday)"],
+    avgMonthlyBudget: "$1,000–$1,600",
+    nearbyNeighborhoods: ["godoy-cruz", "mendoza-centro"],
+    coffeeShops: "5-6 boutique cafes in the village center",
+    coworkingSpaces: "1-2 small spaces, most expats work from home",
+    image: "/images/neighborhoods/chacras-de-coria.webp",
+    keyFacts: [
+      { label: "Distance to Mendoza", value: "20 min by car" },
+      { label: "Character", value: "Wine country village" },
+      { label: "Expat Density", value: "Highest in Mendoza" },
+      { label: "Wineries Nearby", value: "20+ within 10 km" },
+    ],
+  },
+  {
+    slug: "guaymallen",
+    name: "Guaymallén",
+    city: "Mendoza",
+    zone: "Mendoza",
+    description: "Mendoza's most affordable residential zone — a sprawling suburb east of downtown with growing commercial areas, good value apartments, and a genuine local feel far from the tourist trail.",
+    longDescription: "Guaymallén is Greater Mendoza's most populated municipality and its most affordable living option. Stretching east from the city center, it's a vast, mostly residential area that ranges from dense urban blocks near the border with Centro to quieter suburban streets further out. For expats, Guaymallén's appeal is straightforward: value. You can rent a modern two-bedroom apartment here for what a studio costs in Chacras or a room costs in Buenos Aires. The areas closest to Mendoza Centro — particularly around Avenida de Acceso Este and the Metrotranvía line — offer good connectivity and a growing number of restaurants, gyms, and services. The Palmares Open Mall and surrounding commercial district have brought modern shopping and entertainment options to the area. The food scene is authentic and affordable: local rotiserías, empanada shops, and neighborhood parrillas where a full meal costs a fraction of tourist-area prices. The trade-off is aesthetics and convenience — Guaymallén is not a pretty neighborhood, and the further east you go, the more suburban and car-dependent it becomes. But for budget-conscious expats who don't need to be in the center of things, it offers genuine savings and a window into how most mendocinos actually live.",
+    expatScore: 5,
+    rentRange: "$250–$450",
+    rentLevel: "Budget",
+    safety: "Moderate",
+    transport: "Moderate",
+    subteLines: [],
+    walkability: "Moderate",
+    nightlife: "Quiet",
+    foodScene: "Good",
+    greenSpaces: "Some",
+    bestFor: ["Ultra-budget expats", "Long-term residents", "Spanish immersion", "Families seeking affordable space"],
+    notIdealFor: ["Short-term visitors", "Those wanting walkable lifestyle", "Safety-anxious newcomers", "Nightlife seekers"],
+    highlights: [
+      "Most affordable rents in Greater Mendoza",
+      "Metrotranvía connection to Centro",
+      "Palmares Open Mall for shopping",
+      "Authentic local neighborhood experience",
+      "Spacious apartments for the price",
+      "Growing commercial and restaurant scene"
+    ],
+    considerations: [
+      "Less visually appealing than central areas",
+      "Car recommended for outer areas",
+      "Safety varies by block — research carefully",
+      "Very few expats or English speakers",
+      "Limited nightlife and cultural options"
+    ],
+    landmarks: ["Palmares Open Mall", "Metrotranvía stops", "Parque Benegas", "Avenida de Acceso Este"],
+    avgMonthlyBudget: "$600–$900",
+    nearbyNeighborhoods: ["mendoza-centro", "godoy-cruz"],
+    coffeeShops: "Mostly traditional cafes and bakeries",
+    coworkingSpaces: "1-2 spaces near Palmares",
+    image: "/images/neighborhoods/guaymallen.webp",
+    keyFacts: [
+      { label: "Population", value: "Largest municipality in Greater Mendoza" },
+      { label: "Average Age", value: "28-50" },
+      { label: "Character", value: "Affordable residential" },
+      { label: "Rent vs BA", value: "70-80% cheaper" },
+    ],
+  },
+
+  // ============================================================================
+  // CÓRDOBA NEIGHBORHOODS
+  // ============================================================================
+  {
+    slug: "nueva-cordoba",
+    name: "Nueva Córdoba",
+    city: "Córdoba",
+    zone: "Córdoba",
+    description: "Argentina's ultimate student quarter — a dense, walkable neighborhood packed with bars, cafes, and young energy. The most vibrant barrio outside Buenos Aires, with nightlife that rivals the capital.",
+    longDescription: "Nueva Córdoba is the beating heart of Argentina's second city, and it runs on the energy of 100,000+ university students. The neighborhood is wedged between the city center and Parque Sarmiento, creating a compact, ultra-walkable grid where everything you need is within a 10-minute stroll. The main arteries — Hipólito Yrigoyen, Chacabuco, and Obispo Trejo — are lined with bars, restaurants, cafes, clothing shops, and service businesses that cater to the student population. The nightlife here is legendary by Argentine standards. The 'Abasto' zone on the neighborhood's northern edge has one of the densest concentrations of bars and clubs in the country, and Thursday through Saturday nights the streets are packed until dawn. During the day, the neighborhood has a different character — students fill the cafes with laptops, the tree-lined streets are pleasant for walking, and Parque Sarmiento offers green space for jogging. For expats, Nueva Córdoba offers BA-level walkability and social life at a fraction of the cost. Rents are remarkably affordable, the food scene is growing rapidly, and the general energy is infectious. The main considerations are noise (it's loud, especially on weekends), the very young demographic (average age is early 20s), and the fact that Córdoba's economy is smaller than BA's — fewer professional networking opportunities. But for remote workers, students, or anyone who thrives on youthful energy, Nueva Córdoba is one of Argentina's best-kept secrets.",
+    expatScore: 7,
+    rentRange: "$350–$650",
+    rentLevel: "Budget",
+    safety: "Good",
+    transport: "Good",
+    subteLines: [],
+    walkability: "Excellent",
+    nightlife: "Legendary",
+    foodScene: "Very Good",
+    greenSpaces: "Good",
+    bestFor: ["Young expats", "Students", "Night owls", "Budget travelers", "Social butterflies"],
+    notIdealFor: ["Families", "Light sleepers", "Retirees", "Those seeking quiet"],
+    highlights: [
+      "Most vibrant nightlife outside Buenos Aires",
+      "Ultra-walkable dense grid",
+      "Rents 60-70% cheaper than Palermo",
+      "Parque Sarmiento green space",
+      "Huge student population = social energy",
+      "Growing cafe and restaurant scene"
+    ],
+    considerations: [
+      "Very loud on weekends (Thu-Sun)",
+      "Extremely young demographic (avg age early 20s)",
+      "Some petty theft — watch belongings",
+      "Fewer professional networking opportunities than BA",
+      "Apartment quality varies widely"
+    ],
+    landmarks: ["Parque Sarmiento", "Abasto nightlife zone", "Paseo del Buen Pastor", "Museo Caraffa"],
+    avgMonthlyBudget: "$650–$1,000",
+    nearbyNeighborhoods: ["guemes", "cordoba-centro"],
+    coffeeShops: "30+ cafes, many student-friendly with Wi-Fi",
+    coworkingSpaces: "4-5 spaces, affordable rates",
+    image: "/images/neighborhoods/nueva-cordoba.webp",
+    keyFacts: [
+      { label: "University Students", value: "100,000+" },
+      { label: "Average Age", value: "18-28" },
+      { label: "Character", value: "Student quarter / nightlife" },
+      { label: "Rent vs Buenos Aires", value: "60-70% cheaper" },
+    ],
+  },
+  {
+    slug: "guemes",
+    name: "Güemes",
+    city: "Córdoba",
+    zone: "Córdoba",
+    description: "Córdoba's hipster barrio — craft markets, vintage shops, design studios, and a young creative crowd. The Palermo Soho of the interior, with its own distinct character and far lower prices.",
+    longDescription: "Güemes is what happens when a working-class neighborhood gets discovered by artists, designers, and young creatives — and it's glorious. Located just south of Nueva Córdoba, this compact barrio has transformed over the past decade into Córdoba's most culturally interesting neighborhood. The Feria de Güemes, held every weekend along Calle Belgrano, is one of the most vibrant street markets in Argentina — dozens of blocks of craft stalls, vintage clothing, handmade jewelry, street food, and live music that draws thousands every Saturday and Sunday afternoon. Beyond the market, the neighborhood's streets are lined with independent design shops, vintage stores, tattoo parlors, art galleries, and some of Córdoba's most interesting restaurants and bars. The architecture is a charming mix of old colonial houses and renovated industrial spaces, many now housing creative businesses. For expats, Güemes offers Palermo Soho vibes at interior-city prices. You can rent a characterful apartment in a renovated old house for what a closet-sized studio costs in BA. The creative community is welcoming, the food scene emphasizes local and artisanal, and the general atmosphere is laid-back and unpretentious. The main considerations are infrastructure (some streets are rough, buildings are old) and the weekend market crowds, which can overwhelm the small streets. Safety is generally good but standard precautions apply at the crowded markets.",
+    expatScore: 7,
+    rentRange: "$300–$550",
+    rentLevel: "Budget",
+    safety: "Good",
+    transport: "Good",
+    subteLines: [],
+    walkability: "Very Good",
+    nightlife: "Vibrant",
+    foodScene: "Excellent",
+    greenSpaces: "Limited",
+    bestFor: ["Creatives", "Design lovers", "Market enthusiasts", "Budget-conscious foodies", "Young expats"],
+    notIdealFor: ["Those wanting modern infrastructure", "Families", "Quiet seekers on weekends", "Car owners (limited parking)"],
+    highlights: [
+      "Feria de Güemes weekend market — one of Argentina's best",
+      "Independent design shops and galleries",
+      "Characterful renovated houses and apartments",
+      "Excellent artisanal food scene",
+      "Creative community atmosphere",
+      "Rents among the lowest for a trendy neighborhood in Argentina"
+    ],
+    considerations: [
+      "Weekend market crowds can be overwhelming",
+      "Older infrastructure — plumbing and electrical can be unreliable",
+      "Some blocks feel rough around the edges",
+      "Limited parking for car owners",
+      "Less quiet than other Córdoba neighborhoods"
+    ],
+    landmarks: ["Feria de Güemes (weekend market)", "Calle Belgrano", "Paseo de las Artes", "Plaza Güemes"],
+    avgMonthlyBudget: "$600–$900",
+    nearbyNeighborhoods: ["nueva-cordoba", "cordoba-centro"],
+    coffeeShops: "15+ artisanal cafes and roasters",
+    coworkingSpaces: "3-4 creative-focused spaces",
+    image: "/images/neighborhoods/guemes.webp",
+    keyFacts: [
+      { label: "Weekend Market", value: "Sat-Sun, 50+ blocks" },
+      { label: "Average Age", value: "22-35" },
+      { label: "Character", value: "Hipster / creative" },
+      { label: "Best For", value: "Art, design, vintage" },
+    ],
+  },
+  {
+    slug: "cordoba-centro",
+    name: "Centro Córdoba",
+    altNames: ["Centro", "Casco Histórico"],
+    city: "Córdoba",
+    zone: "Córdoba",
+    description: "The historic core of Argentina's second-largest city — home to the Jesuit Block (UNESCO), the cathedral, and a dense commercial center. Affordable, well-connected, and steeped in 400 years of history.",
+    longDescription: "Centro Córdoba is one of the oldest continuously inhabited areas in Argentina, and walking its streets is a lesson in the country's history. The Manzana Jesuítica (Jesuit Block), a UNESCO World Heritage Site, anchors the neighborhood with its 17th-century church, university, and colegio — reminders that Córdoba was Argentina's intellectual capital long before Buenos Aires rose to prominence. The Cathedral, facing Plaza San Martín, is another architectural landmark, and the surrounding blocks are a fascinating mix of colonial, republican, and modern architecture. For daily life, Centro is Córdoba's most convenient neighborhood. The pedestrian streets (Peatonal Córdoba) are the city's main shopping area, banks and government offices are concentrated here, and all bus lines converge on the center. The area is busy and commercial during the day — this is where cordobeses come to shop, work, and handle errands. After business hours, it quiets down considerably, especially on weekends when most commercial activity ceases. Rents are affordable and you get the best transport connectivity in the city. The main downsides are the commercial character (it's not particularly charming for evening walks), the daytime crowds and noise, and the fact that many buildings are office-oriented rather than residential. Expats who choose Centro do so for convenience and budget — everything is accessible, and the savings compared to Buenos Aires are dramatic.",
+    expatScore: 6,
+    rentRange: "$300–$500",
+    rentLevel: "Budget",
+    safety: "Moderate",
+    transport: "Excellent",
+    subteLines: [],
+    walkability: "Excellent",
+    nightlife: "Moderate",
+    foodScene: "Good",
+    greenSpaces: "Limited",
+    bestFor: ["Budget expats", "History buffs", "Those wanting central convenience", "Short-term visitors"],
+    notIdealFor: ["Families", "Those wanting quiet residential streets", "Weekend social life seekers", "Park lovers"],
+    highlights: [
+      "UNESCO Jesuit Block — 400 years of history",
+      "Best transport connectivity in Córdoba",
+      "Most affordable central rents",
+      "Walking distance to everything",
+      "Historic architecture and cathedral",
+      "Dense commercial services"
+    ],
+    considerations: [
+      "Noisy and crowded during business hours",
+      "Quiet to the point of emptiness on weekends",
+      "Some safety concerns at night on quiet streets",
+      "Commercial character — not residential feeling",
+      "Limited green spaces"
+    ],
+    landmarks: ["Manzana Jesuítica (UNESCO)", "Catedral de Córdoba", "Plaza San Martín", "Peatonal Córdoba"],
+    avgMonthlyBudget: "$550–$850",
+    nearbyNeighborhoods: ["nueva-cordoba", "guemes"],
+    coffeeShops: "Many traditional cafes and chains, fewer specialty spots",
+    coworkingSpaces: "3-4 spaces in converted office buildings",
+    image: "/images/neighborhoods/cordoba-centro.webp",
+    keyFacts: [
+      { label: "Founded", value: "1573 (one of Argentina's oldest)" },
+      { label: "UNESCO Sites", value: "Manzana Jesuítica" },
+      { label: "Character", value: "Historic commercial center" },
+      { label: "Weekend Activity", value: "Very quiet" },
+    ],
+  },
+  {
+    slug: "cerro-de-las-rosas",
+    name: "Cerro de las Rosas",
+    altNames: ["Cerro"],
+    city: "Córdoba",
+    zone: "Córdoba",
+    description: "Córdoba's upscale residential neighborhood — tree-lined streets, excellent restaurants, and a quiet, family-friendly atmosphere. The Recoleta of the interior, with a fraction of the price tag.",
+    longDescription: "Cerro de las Rosas is Córdoba's most prestigious residential neighborhood, and it earns that reputation with quiet, tree-lined streets, well-maintained houses, and a restaurant strip that rivals anything outside Buenos Aires. The neighborhood sits on gently rising terrain northwest of the city center, and its elevated position gives some properties views of the surrounding sierras. The main commercial spine — Avenida Rafael Núñez — is lined with Córdoba's best restaurants, upscale cafes, and boutique shops. On weekend evenings, the avenue comes alive with families and couples dining out, creating a pleasant social atmosphere without the chaos of Nueva Córdoba. The residential streets are genuinely beautiful — low-rise houses with gardens, mature trees providing shade, and a sense of space and tranquility that's rare in Argentine cities. For expats, Cerro offers the best quality of life in Córdoba. It's safe, quiet, and well-maintained, with access to good private schools, medical facilities, and everyday services. The trade-off is location: you're a 20-minute drive from the city center, and public transport options are more limited than downtown. Having a car (or being comfortable with regular taxi/Uber use) is recommended. Rents are higher than other Córdoba neighborhoods but still dramatically cheaper than equivalent neighborhoods in Buenos Aires.",
+    expatScore: 7,
+    rentRange: "$450–$800",
+    rentLevel: "Mid-Range",
+    safety: "Very Good",
+    transport: "Moderate",
+    subteLines: [],
+    walkability: "Good",
+    nightlife: "Moderate",
+    foodScene: "Excellent",
+    greenSpaces: "Good",
+    bestFor: ["Families", "Retirees", "Safety-conscious expats", "Restaurant lovers", "Long-term residents"],
+    notIdealFor: ["Budget travelers", "Those without transport", "Nightlife seekers", "Young singles"],
+    highlights: [
+      "Safest neighborhood in Córdoba",
+      "Excellent restaurant strip on Rafael Núñez",
+      "Quiet tree-lined residential streets",
+      "Houses with gardens — rare in Argentine cities",
+      "Good private schools nearby",
+      "Sierra views from elevated streets"
+    ],
+    considerations: [
+      "20 min drive to city center",
+      "Car or taxi recommended",
+      "Higher rents than other Córdoba areas",
+      "Limited public transport",
+      "Can feel suburban and isolated",
+      "Quiet nightlife — mostly restaurants"
+    ],
+    landmarks: ["Avenida Rafael Núñez restaurant strip", "Parque de las Naciones (nearby)", "Centro comercial Dinosaurio Mall", "Iglesia Cerro de las Rosas"],
+    avgMonthlyBudget: "$800–$1,300",
+    nearbyNeighborhoods: ["cordoba-centro", "nueva-cordoba"],
+    coffeeShops: "10+ upscale cafes along Rafael Núñez",
+    coworkingSpaces: "2-3 spaces",
+    image: "/images/neighborhoods/cerro-de-las-rosas.webp",
+    keyFacts: [
+      { label: "Safety", value: "Highest in Córdoba" },
+      { label: "Average Age", value: "35-55" },
+      { label: "Character", value: "Upscale residential" },
+      { label: "Key Avenue", value: "Rafael Núñez" },
+    ],
+  },
 ];
 
 // Helper functions
@@ -749,6 +1138,14 @@ export function getAllNeighborhoodSlugs(): string[] {
 
 export function getNeighborhoodsByZone(zone: Neighborhood["zone"]): Neighborhood[] {
   return neighborhoods.filter((n) => n.zone === zone);
+}
+
+export function getNeighborhoodsByCity(city: string): Neighborhood[] {
+  return neighborhoods.filter((n) => n.city === city);
+}
+
+export function getNeighborhoodCities(): string[] {
+  return [...new Set(neighborhoods.map((n) => n.city))];
 }
 
 export function getNeighborhoodsBySafety(minSafety: Neighborhood["safety"]): Neighborhood[] {
