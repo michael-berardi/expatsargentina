@@ -15,12 +15,12 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Best Neighborhoods in Buenos Aires for Expats 2025",
-  description: "Complete guide to Buenos Aires neighborhoods for expats. Compare Palermo, Recoleta, Belgrano, San Telmo and more. Safety, rent prices, and lifestyle factors.",
-  keywords: ["Buenos Aires neighborhoods", "best areas expats Buenos Aires", "Palermo Recoleta Belgrano", "where to live Buenos Aires"],
+  title: "Best Neighborhoods in Buenos Aires for Expats 2026",
+  description: "Updated 2026 guide to Buenos Aires neighborhoods. Rent prices have doubled—now $900-2,400+ for desirable areas. Safety rankings, transport, and lifestyle factors.",
+  keywords: ["Buenos Aires neighborhoods 2026", "best areas expats Buenos Aires", "Palermo Recoleta rent prices", "where to live Buenos Aires"],
   openGraph: {
-    title: "Best Neighborhoods in Buenos Aires for Expats",
-    description: "Find your perfect neighborhood in Buenos Aires. Detailed guides to Palermo, Recoleta, Belgrano, and more.",
+    title: "Best Neighborhoods in Buenos Aires for Expats 2026",
+    description: "Updated 2026 neighborhood guide. Rent prices have doubled. Compare Palermo, Recoleta, Belgrano with current prices.",
   },
 };
 
@@ -29,74 +29,74 @@ const neighborhoods = [
     name: "Palermo",
     subareas: ["Soho", "Hollywood", "Botánico"],
     rentLevel: "High",
-    rentPrice: "$700-1,500",
+    rentPrice: "$1,400-2,400",
     safety: "Very Good",
     transport: "Excellent",
     expatScore: 10,
     bestFor: ["Young professionals", "Digital nomads", "Nightlife lovers"],
-    description: "The most popular neighborhood for expats. Divided into trendy Palermo Soho with boutique shops and cafes, Palermo Hollywood with nightlife, and peaceful Palermo Botánico near the parks.",
-    highlights: ["Best restaurants and cafes", "Vibrant nightlife", "Large parks", "Expat community"],
-    considerations: ["Higher rent prices", "Can be noisy", "Touristy in some areas"],
+    description: "The most popular neighborhood for expats. Divided into trendy Palermo Soho with boutique shops and cafes, Palermo Hollywood with nightlife, and peaceful Palermo Botánico near the parks. Most expats land here first.",
+    highlights: ["Best restaurants and cafes", "Vibrant nightlife", "Large parks", "Strong expat community", "Walkable to everything"],
+    considerations: ["Higher rent prices (doubled since 2023)", "Can be noisy", "Touristy in some areas"],
   },
   {
     name: "Recoleta",
     rentLevel: "High",
-    rentPrice: "$800-1,600",
+    rentPrice: "$1,200-2,200",
     safety: "Excellent",
     transport: "Excellent",
     expatScore: 9,
     bestFor: ["Families", "Retirees", "Upscale living"],
-    description: "Elegant and historic, Recoleta is Buenos Aires' most upscale neighborhood. Beautiful French architecture, the famous cemetery, and high-end shopping on Avenida Alvear.",
-    highlights: ["Safest neighborhood", "Beautiful architecture", "Cultural attractions", "Parks and green spaces"],
-    considerations: ["Most expensive rents", "Less nightlife", "Can feel stuffy"],
+    description: "Elegant and historic, Recoleta is Buenos Aires' most upscale neighborhood. Beautiful French architecture, the famous cemetery, and high-end shopping on Avenida Alvear. The safest area in the city.",
+    highlights: ["Safest neighborhood in BA", "Beautiful architecture", "Cultural attractions", "Parks and green spaces", "Embassy district"],
+    considerations: ["Most expensive rents", "Less nightlife", "Can feel stuffy", "Many tourists"],
   },
   {
     name: "Belgrano",
     rentLevel: "Medium-High",
-    rentPrice: "$600-1,200",
+    rentPrice: "$900-1,500",
     safety: "Very Good",
     transport: "Very Good",
     expatScore: 8,
     bestFor: ["Families", "Long-term residents", "Quiet living"],
-    description: "A peaceful, residential neighborhood with a strong community feel. Belgrano R and Coghlan are particularly popular with families and older expats seeking a quieter lifestyle.",
-    highlights: ["Family-friendly", "Good schools", "Quiet streets", "Authentic Argentine feel"],
+    description: "A peaceful, residential neighborhood with a strong community feel. Belgrano R and Coghlan are particularly popular with families and older expats seeking a quieter lifestyle. Great Chinese food on Arribeños.",
+    highlights: ["Family-friendly", "Good schools", "Quiet streets", "Authentic Argentine feel", "Great Chinese food district"],
     considerations: ["Less central", "Fewer tourists", "Limited nightlife"],
   },
   {
     name: "San Telmo",
     rentLevel: "Medium",
-    rentPrice: "$500-900",
+    rentPrice: "$700-1,100",
     safety: "Moderate",
     transport: "Good",
     expatScore: 7,
     bestFor: ["Artists", "Budget-conscious", "History buffs"],
-    description: "Buenos Aires' oldest neighborhood with cobblestone streets, antique shops, and tango culture. The Sunday feria on Defensa street is world-famous.",
-    highlights: ["Historic charm", "Tango culture", "Sunday market", "Art scene"],
-    considerations: ["Can be noisy", "Some areas less safe at night", "Older buildings"],
+    description: "Buenos Aires' oldest neighborhood with cobblestone streets, antique shops, and tango culture. The Sunday feria on Defensa street is world-famous. Stick to main streets (Defensa, Estados Unidos) at night.",
+    highlights: ["Historic charm", "Tango culture", "Sunday market", "Art scene", "More affordable rents"],
+    considerations: ["Can be noisy", "Side streets less safe at night", "Older buildings", "Tourist-targeted scams common"],
   },
   {
     name: "Villa Crespo",
     rentLevel: "Medium",
-    rentPrice: "$500-900",
+    rentPrice: "$600-1,000",
     safety: "Good",
     transport: "Good",
     expatScore: 7,
     bestFor: ["Young expats", "Foodies", "Value seekers"],
-    description: "An up-and-coming neighborhood next to Palermo with lower rents but similar vibes. Known for outlet shopping on Avenida Córdoba and great food scene.",
-    highlights: ["More affordable", "Trendy cafes", "Good location", "Authentic feel"],
-    considerations: ["Less polished than Palermo", "Fewer parks", "Developing area"],
+    description: "An up-and-coming neighborhood next to Palermo with lower rents but similar vibes. Known for outlet shopping on Avenida Córdoba and great food scene. The 'next Palermo' for budget-conscious expats.",
+    highlights: ["More affordable than Palermo", "Trendy cafes", "Good location", "Authentic feel", "Outlet shopping"],
+    considerations: ["Less polished than Palermo", "Fewer parks", "Developing area", "Further from Subte lines"],
   },
   {
     name: "Puerto Madero",
     rentLevel: "Very High",
-    rentPrice: "$1,000-2,500",
+    rentPrice: "$2,500-4,500",
     safety: "Excellent",
     transport: "Moderate",
     expatScore: 6,
     bestFor: ["High-income expats", "Business travelers", "Modern amenities"],
-    description: "The newest neighborhood with modern skyscrapers, luxury apartments, and waterfront dining. Very safe but can feel sterile and disconnected from the rest of the city.",
-    highlights: ["Modern buildings", "Waterfront views", "Very safe", "High-end dining"],
-    considerations: ["Expensive", "Less character", "Limited public transport", "Dead on weekends"],
+    description: "The newest neighborhood with modern skyscrapers, luxury apartments, and waterfront dining. Very safe but can feel sterile and disconnected from the rest of the city. Popular with corporate expats.",
+    highlights: ["Modern buildings", "Waterfront views", "Very safe", "High-end dining", "Gym/pool amenities"],
+    considerations: ["Most expensive rents (doubled since 2023)", "Less character", "Limited public transport", "Dead on weekends", "Feels like a bubble"],
   },
 ];
 
@@ -129,14 +129,30 @@ export default function NeighborhoodsPage() {
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <MapPinIcon size="sm" className="mr-1" />
-              Buenos Aires Guide
+              Buenos Aires Guide 2026
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Best Neighborhoods for Expats
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Find your perfect barrio in Buenos Aires. Compare safety, rent prices, 
-              transport, and lifestyle across the city's top expat areas.
+              Find your perfect barrio in Buenos Aires. Updated 2026 rent prices (doubled since 2023), 
+              safety rankings, and honest assessments from expats who live here.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Safety Reality Banner */}
+      <section className="py-8 bg-green-50 dark:bg-green-950/20 border-y border-green-200 dark:border-green-800">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-xl font-bold text-green-900 dark:text-green-100 mb-2">
+              Safety Reality: Palermo, Recoleta & Belgrano Are Very Safe
+            </h2>
+            <p className="text-green-800 dark:text-green-200 text-sm">
+              Despite media sensationalism, these three neighborhoods have crime rates comparable to European cities. 
+              The main risks are petty theft (phone snatching), not violent crime. Most expats never experience any issues 
+              in these areas. Use common sense and you'll be fine.
             </p>
           </div>
         </div>

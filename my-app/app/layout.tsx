@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { I18nProvider } from "@/lib/i18n";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -63,31 +64,33 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} font-sans antialiased`}>
-        <a href="#main-content" className="skip-nav">
-          Skip to main content
-        </a>
-        <Navbar />
-        <main id="main-content">{children}</main>
-        <Footer />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "Expats Argentina",
-              url: "https://expatsargentina.com",
-              description:
-                "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina.",
-              publisher: {
-                "@type": "Organization",
+        <I18nProvider>
+          <a href="#main-content" className="skip-nav">
+            Skip to main content
+          </a>
+          <Navbar />
+          <main id="main-content">{children}</main>
+          <Footer />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "WebSite",
                 name: "Expats Argentina",
                 url: "https://expatsargentina.com",
-              },
-            }),
-          }}
-        />
-        <Analytics />
+                description:
+                  "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina.",
+                publisher: {
+                  "@type": "Organization",
+                  name: "Expats Argentina",
+                  url: "https://expatsargentina.com",
+                },
+              }),
+            }}
+          />
+          <Analytics />
+        </I18nProvider>
       </body>
     </html>
   );

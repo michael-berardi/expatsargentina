@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Expats Argentina - Guía Completa para Vivir en Argentina 2026",
+    "description": "La guía honesta para expatriados en Argentina. Costo de vida duplicado, demoras en DNI de 6+ meses, seguro de viaje obligatorio. Información real 2026."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "provinces": "Provincias",
+    "cities": "Ciudades",
+    "visas": "Visas",
+    "costOfLiving": "Costo de Vida",
+    "healthcare": "Salud",
+    "housing": "Vivienda",
+    "banking": "Banca",
+    "safety": "Seguridad",
+    "neighborhoods": "Barrios",
+    "petImportation": "Importación de Mascotas",
+    "learnSpanish": "Aprender Español",
+    "contactUs": "Contáctanos",
+    "remoteWork": "Trabajo Remoto",
+    "transportation": "Transporte",
+    "food": "Comida y Restaurantes"
+  },
+  "homepage": {
+    "hero": {
+      "badge": "Las 24 provincias cubiertas",
+      "title": "Tu Guía Completa para Vivir en Argentina",
+      "subtitle": "No solo Buenos Aires. Desde lagos patagónicos hasta la región vinícola andina, cascadas subtropicales hasta pueblos coloniales del Noroeste — guías para expatriados de cada rincón del país.",
+      "description": "Visas, costo de vida, vivienda, salud y consejos honestos para cada provincia y ciudad principal del país.",
+      "exploreProvinces": "Explorar Provincias",
+      "browseCities": "Ver Guías de Ciudades"
+    },
+    "stats": {
+      "provinces": "Provincias",
+      "cityGuides": "Guías de Ciudad",
+      "regions": "Regiones",
+      "visaTypes": "Tipos de Visa"
+    },
+    "whyArgentina": {
+      "title": "¿Por qué Argentina?",
+      "costOfLiving": {
+        "title": "Realidad del Costo de Vida (2026)",
+        "description": "Argentina ya no es 'barata'—los precios se han duplicado desde 2023. Presupuesta $1,500-3,000/mes para un estilo de vida comparable. La inflación se ha estabilizado al 2-3% mensual bajo Milei, pero los costos son ahora nivel Europa Occidental."
+      },
+      "culturalRichness": {
+        "title": "Riqueza Cultural",
+        "description": "Desde el tango en Buenos Aires hasta las tradiciones gauchas en la Pampa, la herencia indígena en el Noroeste y las colonias galesas en la Patagonia — cada región tiene su propia identidad distintiva."
+      },
+      "naturalBeauty": {
+        "title": "Belleza Natural Extraordinaria",
+        "description": "Cataratas del Iguazú, glaciares patagónicos, picos andinos, bosques subtropicales, salares y vistas del Distrito de los Lagos. Ningún país ofrece más diversidad geográfica."
+      },
+      "visaOptions": {
+        "title": "Opciones de Visa (Con Advertencias)",
+        "description": "Visas de Nómada Digital (solo 180 días), Rentista e Inversión disponibles. El procesamiento de DNI ahora toma 6+ meses. La ciudadanía requiere 2 años de residencia permanente (4-5 años total). Investiga cuidadosamente antes de elegir."
+      },
+      "foodAndWine": {
+        "title": "Paraíso de Comida y Vino",
+        "description": "La mejor carne del mundo, regiones vitivinícolas de Malbec, empanadas que varían por provincia, cocina de influencia italiana y una cultura gastronómica donde las comidas son eventos sociales para saborear."
+      },
+      "welcoming": {
+        "title": "Comunidades Acogedoras",
+        "description": "Los argentinos son famosamente cálidos y sociales. Existen comunidades establecidas de expatriados en todo el país, desde Buenos Aires hasta Bariloche, Mendoza hasta Salta."
+      }
+    },
+    "guides": {
+      "title": "Categorías de Guías Completas",
+      "visas": {
+        "title": "Visas y Residencia",
+        "description": "Guías de visa nómada digital, rentista, inversor y jubilación con plazos reales de aplicación."
+      },
+      "costOfLiving": {
+        "title": "Costo de Vida",
+        "description": "Presupuestos mensuales para cada ciudad principal, considerando inflación, tipos de cambio y los costos reales."
+      },
+      "healthcare": {
+        "title": "Salud (Reglas 2026)",
+        "description": "Seguro de viaje obligatorio requerido para ingresar. Hospitales públicos ahora cobran a extranjeros. Sistema prepaga explicado con precios 2026."
+      },
+      "housing": {
+        "title": "Vivienda y Alquileres",
+        "description": "Encontrar apartamentos sin garantía, contratos de alquiler y guías de barrios para cada ciudad."
+      },
+      "banking": {
+        "title": "Banca y Dinero",
+        "description": "Tipos de cambio, apertura de cuentas, envío de dinero internacionalmente y navegación de la economía en pesos."
+      },
+      "safety": {
+        "title": "Seguridad",
+        "description": "Datos reales de seguridad por provincia y ciudad, estafas comunes a evitar y precauciones prácticas."
+      },
+      "transportation": {
+        "title": "Transporte",
+        "description": "Moverse por Argentina—buses, vuelos, subtes y el sistema SUBE."
+      },
+      "food": {
+        "title": "Comida y Restaurantes",
+        "description": "Cocina argentina, etiqueta en restaurantes, compras de supermercado y la cultura gastronómica."
+      },
+      "remoteWork": {
+        "title": "Trabajo Remoto",
+        "description": "Espacios de coworking, velocidades de internet y trabajar remotamente desde Argentina."
+      },
+      "learnSpanish": {
+        "title": "Aprender Español",
+        "description": "Escuelas de idiomas, español rioplatense vs. estándar, y estrategias de inmersión que funcionan."
+      },
+      "culture": {
+        "title": "Cultura y Costumbres",
+        "description": "Rituales del mate, etiqueta del asado y navegación de normas sociales argentinas."
+      },
+      "socialLife": {
+        "title": "Vida Social de Expatriados",
+        "description": "Grupos de meetup, intercambios de idioma, clubes deportivos y construcción de comunidad."
+      }
+    },
+    "newsletter": {
+      "badge": "Boletín",
+      "title": "Recibe las Últimas Actualizaciones",
+      "description": "Cambios de visa, actualizaciones de costo de vida y consejos de expertos en tu bandeja de entrada. Sin spam, cancela cuando quieras.",
+      "placeholder": "Ingresa tu correo",
+      "subscribe": "Suscribirse",
+      "joinCount": "Únete a 2,000+ expatriados que reciben actualizaciones semanales de Argentina."
+    },
+    "cities": {
+      "badge": "Guías de Ciudad",
+      "title": "Ciudades Destacadas",
+      "subtitle": "Guías detalladas de los destinos más populares de Argentina para expatriados.",
+      "viewAll": "Ver Todas las Ciudades"
+    },
+    "regions": {
+      "badge": "Explorar por Región",
+      "title": "Las 6 Regiones de Argentina",
+      "subtitle": "Desde selvas subtropicales hasta glaciares antárticos, Argentina lo tiene todo."
+    }
+  },
+  "costOfLiving": {
+    "title": "Costo de Vida en Argentina 2026",
+    "subtitle": "La era de la 'Argentina barata' se ha ACABADO. Los precios se han duplicado desde 2023.",
+    "description": "Presupuestos reales 2026 para Buenos Aires—ahora rivalizando con Europa Occidental.",
+    "realityCheck": {
+      "title": "Realidad 2026: Argentina ya NO es Barata",
+      "description": "Los precios se han duplicado desde 2023. Buenos Aires ahora rivaliza con Lisboa o Barcelona en precios.",
+      "inflation": "Inflación mensual (estabilizada bajo Milei)",
+      "priceIncrease": "Aumento de precios desde 2023",
+      "comparison": "Comparación de nivel de precios actual"
+    },
+    "budgetProfiles": {
+      "backpacker": "Mochilero",
+      "comfortable": "Expatriado Cómodo",
+      "highRoller": "Alto Estándar",
+      "perMonth": "/mes"
+    }
+  },
+  "healthcare": {
+    "title": "Salud en Argentina 2026",
+    "subtitle": "Guía de salud actualizada 2026: seguro de viaje obligatorio para ingresar, hospitales públicos ahora cobran a extranjeros.",
+    "alert": {
+      "title": "Actualización Crítica 2026: Nuevas Reglas de Salud",
+      "mandatoryInsurance": "Seguro de Viaje Obligatorio: Desde julio 2025, todos los visitantes deben mostrar prueba de seguro de salud en inmigración.",
+      "publicHospitals": "Hospitales Públicos Cobran a Extranjeros: La era de 'salud gratuita para todos' ha terminado.",
+      "higherCosts": "Costos Más Altos: Los precios de prepaga han aumentado 50-75% desde 2023."
+    }
+  },
+  "visas": {
+    "title": "Guía de Visas y Herramienta de Decisión",
+    "subtitle": "Encuentra la visa correcta, calcula costos, estima plazos y aprende de personas que realmente han pasado por el proceso.",
+    "alert": {
+      "title": "Realidad de Visas 2026: Demoras y Actualizaciones",
+      "dniDelays": "Demoras en DNI: El procesamiento de DNI está tomando 6+ meses debido a acumulación de solicitudes.",
+      "citizenship": "Regla de Ciudadanía 2 Años: La ciudadanía requiere 2 años de residencia permanente (no temporal). Total: 4-5 años.",
+      "digitalNomad": "Visa Nómada Digital: Solo 180 días sin camino directo a residencia."
+    }
+  },
+  "banking": {
+    "title": "Banca y Dinero en Argentina",
+    "subtitle": "Navega el único panorama financiero de Argentina. Entendiendo el dólar blue, transferencias y manejo de finanzas como expatriado.",
+    "noDni": {
+      "title": "Banca Sin DNI (Soluciones 2026)",
+      "description": "El procesamiento de DNI está tomando 6+ meses. Así es como funcionar financieramente sin él.",
+      "mercadoPago": "MercadoPago (Recomendado)",
+      "crypto": "Criptomonedas (USDT/BTC)",
+      "westernUnion": "Western Union + Efectivo"
+    }
+  },
+  "safety": {
+    "title": "Seguridad en Buenos Aires (2026)",
+    "subtitle": "La verdad honesta: Palermo, Recoleta y Belgrano son muy seguros. El robo menor (snatching de teléfonos) es el riesgo principal—no crimen violento.",
+    "reality": "Realidad de Seguridad: Palermo, Recoleta y Belgrano Son Muy Seguros",
+    "realityDescription": "A pesar del sensacionalismo mediático, estos barrios tienen tasas de criminalidad comparables a ciudades europeas."
+  },
+  "neighborhoods": {
+    "title": "Mejores Barrios para Expatriados",
+    "subtitle": "Encuentra tu barrio perfecto en Buenos Aires. Precios de alquiler 2026 actualizados (duplicados desde 2023), rankings de seguridad y evaluaciones honestas."
+  },
+  "petImportation": {
+    "title": "Traer Tu Mascota a Argentina",
+    "subtitle": "Las buenas noticias: no hay cuarentena para gatos y perros de la mayoría de países. El papeleo es manejable.",
+    "noQuarantine": {
+      "title": "No se Requiere Cuarentena",
+      "description": "A diferencia de Australia, Japón o Reino Unido, Argentina NO requiere cuarentena para gatos y perros de la mayoría de países."
+    }
+  },
+  "footer": {
+    "description": "Tu guía honesta y completa para vivir en Argentina. Información real de expatriados reales.",
+    "quickLinks": "Enlaces Rápidos",
+    "resources": "Recursos",
+    "connect": "Conectar",
+    "rights": "Todos los derechos reservados."
+  },
+  "common": {
+    "readMore": "Leer Más",
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar",
+    "backToHome": "Volver al Inicio",
+    "updated": "Actualizado",
+    "essential": "Esencial",
+    "required": "Requerido",
+    "optional": "Opcional",
+    "free": "Gratis",
+    "cost": "Costo",
+    "time": "Tiempo",
+    "days": "días",
+    "weeks": "semanas",
+    "months": "meses",
+    "years": "años",
+    "language": "Idioma",
+    "english": "English",
+    "spanish": "Español"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Expats Argentina - Complete Guide to Living in Argentina 2026",
+    "description": "The honest expat guide to Argentina. Cost of living doubled, DNI delays 6+ months, mandatory travel insurance. Real 2026 information."
+  },
+  "navigation": {
+    "home": "Home",
+    "provinces": "Provinces",
+    "cities": "Cities",
+    "visas": "Visas",
+    "costOfLiving": "Cost of Living",
+    "healthcare": "Healthcare",
+    "housing": "Housing",
+    "banking": "Banking",
+    "safety": "Safety",
+    "neighborhoods": "Neighborhoods",
+    "petImportation": "Pet Importation",
+    "learnSpanish": "Learn Spanish",
+    "contactUs": "Contact Us",
+    "remoteWork": "Remote Work",
+    "transportation": "Transportation",
+    "food": "Food & Dining"
+  },
+  "homepage": {
+    "hero": {
+      "badge": "All 24 provinces covered",
+      "title": "Your Complete Guide to Living in Argentina",
+      "subtitle": "Not just Buenos Aires. From Patagonian lakes to Andean wine country, subtropical waterfalls to colonial Northwest towns — comprehensive expat guides for every corner of Argentina.",
+      "description": "Visas, cost of living, housing, healthcare, and honest advice for every province and major city in the country.",
+      "exploreProvinces": "Explore Provinces",
+      "browseCities": "Browse City Guides"
+    },
+    "stats": {
+      "provinces": "Provinces",
+      "cityGuides": "City Guides",
+      "regions": "Regions",
+      "visaTypes": "Visa Types"
+    },
+    "whyArgentina": {
+      "title": "Why Argentina?",
+      "costOfLiving": {
+        "title": "Cost of Living Reality (2026)",
+        "description": "Argentina is no longer 'cheap'—prices have doubled since 2023. Budget $1,500-3,000/month for a comparable lifestyle. Inflation has stabilized at 2-3% monthly under Milei, but costs are now Western Europe level."
+      },
+      "culturalRichness": {
+        "title": "Cultural Richness",
+        "description": "From tango in Buenos Aires to gaucho traditions on the Pampas, indigenous heritage in the Northwest, and Welsh colonies in Patagonia — every region has its own distinct identity."
+      },
+      "naturalBeauty": {
+        "title": "Extraordinary Natural Beauty",
+        "description": "Iguazu Falls, Patagonian glaciers, Andean peaks, subtropical forests, salt flats, and Lake District vistas. No country on Earth offers more geographic diversity."
+      },
+      "visaOptions": {
+        "title": "Visa Options (With Caveats)",
+        "description": "Digital Nomad (180 days only), Rentista, and Investment visas available. DNI processing now takes 6+ months. Citizenship requires 2 years of permanent residency (4-5 years total). Research carefully before choosing."
+      },
+      "foodAndWine": {
+        "title": "Food and Wine Paradise",
+        "description": "The world's best beef, Malbec wine regions, empanadas that vary by province, Italian-influenced cuisine, and a dining culture where meals are social events to be savored."
+      },
+      "welcoming": {
+        "title": "Welcoming Communities",
+        "description": "Argentines are famously warm and social. Established expat communities exist across the country, from Buenos Aires to Bariloche, Mendoza to Salta."
+      }
+    },
+    "guides": {
+      "title": "Complete Guide Categories",
+      "visas": {
+        "title": "Visas & Residency",
+        "description": "Digital nomad, rentista, investor, and retirement visa guides with real application timelines."
+      },
+      "costOfLiving": {
+        "title": "Cost of Living",
+        "description": "Monthly budgets for every major city, factoring in inflation, exchange rates, and the real costs."
+      },
+      "healthcare": {
+        "title": "Healthcare (2026 Rules)",
+        "description": "Mandatory travel insurance required for entry. Public hospitals now charge foreigners. Prepaga system explained with updated 2026 pricing."
+      },
+      "housing": {
+        "title": "Housing & Rentals",
+        "description": "Finding apartments without a garantia, rental contracts, and neighborhood guides for every city."
+      },
+      "banking": {
+        "title": "Banking & Money",
+        "description": "Exchange rates, opening accounts, sending money internationally, and navigating the peso economy."
+      },
+      "safety": {
+        "title": "Safety",
+        "description": "Real safety data by province and city, common scams to avoid, and practical precautions."
+      },
+      "transportation": {
+        "title": "Transportation",
+        "description": "Getting around Argentina—buses, flights, subways, and the SUBE card system."
+      },
+      "food": {
+        "title": "Food & Dining",
+        "description": "Argentine cuisine, restaurant etiquette, grocery shopping, and the dining culture."
+      },
+      "remoteWork": {
+        "title": "Remote Work",
+        "description": "Coworking spaces, internet speeds, and working remotely from Argentina."
+      },
+      "learnSpanish": {
+        "title": "Learn Spanish",
+        "description": "Language schools, Rioplatense vs. standard Spanish, and immersion strategies that work."
+      },
+      "culture": {
+        "title": "Culture & Customs",
+        "description": "Mate rituals, asado etiquette, and navigating Argentine social norms."
+      },
+      "socialLife": {
+        "title": "Expat Social Life",
+        "description": "Meetup groups, language exchanges, sports clubs, and building your community."
+      }
+    },
+    "newsletter": {
+      "badge": "Newsletter",
+      "title": "Get the Latest Updates",
+      "description": "Visa changes, cost of living updates, and insider tips delivered to your inbox. No spam, unsubscribe anytime.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe",
+      "joinCount": "Join 2,000+ expats getting weekly Argentina updates."
+    },
+    "cities": {
+      "badge": "City Guides",
+      "title": "Featured Cities",
+      "subtitle": "Detailed guides for Argentina's most popular destinations for expats.",
+      "viewAll": "View All Cities"
+    },
+    "regions": {
+      "badge": "Explore by Region",
+      "title": "Argentina's 6 Regions",
+      "subtitle": "From subtropical jungles to Antarctic glaciers, Argentina has it all."
+    }
+  },
+  "costOfLiving": {
+    "title": "Cost of Living in Argentina 2026",
+    "subtitle": "The 'cheap Argentina' era is OVER. Prices have doubled since 2023.",
+    "description": "Real 2026 budgets for Buenos Aires—now rivaling Western Europe.",
+    "realityCheck": {
+      "title": "2026 Reality Check: Argentina Is NOT Cheap Anymore",
+      "description": "Prices have doubled since 2023. Buenos Aires now rivals Lisbon or Barcelona in prices.",
+      "inflation": "Monthly inflation (stabilized under Milei)",
+      "priceIncrease": "Price increase since 2023",
+      "comparison": "Current price level comparison"
+    },
+    "budgetProfiles": {
+      "backpacker": "Backpacker",
+      "comfortable": "Comfortable Expat",
+      "highRoller": "High Roller",
+      "perMonth": "/month"
+    }
+  },
+  "healthcare": {
+    "title": "Healthcare in Argentina 2026",
+    "subtitle": "Updated 2026 healthcare guide: mandatory travel insurance for entry, public hospitals now charge foreigners.",
+    "alert": {
+      "title": "2026 Critical Update: New Healthcare Rules",
+      "mandatoryInsurance": "Mandatory Travel Insurance: Effective July 2025, all visitors must show proof of health insurance at immigration.",
+      "publicHospitals": "Public Hospitals Charge Foreigners: The 'free healthcare for all' era has ended.",
+      "higherCosts": "Higher Insurance Costs: Prepaga prices have increased 50-75% since 2023."
+    }
+  },
+  "visas": {
+    "title": "Argentina Visa Guide & Decision Tool",
+    "subtitle": "Find the right visa, calculate costs, estimate timelines, and learn from people who've actually gone through the process.",
+    "alert": {
+      "title": "2026 Visa Reality: Delays & Processing Updates",
+      "dniDelays": "DNI Delays: National ID processing is taking 6+ months due to system backlogs.",
+      "citizenship": "2-Year Citizenship Rule: Citizenship requires 2 years of permanent residency (not temporary). Total: 4-5 years.",
+      "digitalNomad": "Digital Nomad Visa: Only 180 days with no direct residency path."
+    }
+  },
+  "banking": {
+    "title": "Banking & Money in Argentina",
+    "subtitle": "Navigate Argentina's unique financial landscape. Understanding the blue dollar, transferring money, and managing finances as an expat.",
+    "noDni": {
+      "title": "Banking Without DNI (2026 Workarounds)",
+      "description": "DNI processing is taking 6+ months. Here's how to function financially without it.",
+      "mercadoPago": "MercadoPago (Recommended)",
+      "crypto": "Cryptocurrency (USDT/BTC)",
+      "westernUnion": "Western Union + Cash"
+    }
+  },
+  "safety": {
+    "title": "Safety in Buenos Aires (2026)",
+    "subtitle": "The honest truth: Palermo, Recoleta & Belgrano are very safe. Petty theft (phone snatching) is the main risk—not violent crime.",
+    "reality": "Safety Reality: Palermo, Recoleta & Belgrano Are Very Safe",
+    "realityDescription": "Despite media sensationalism, these neighborhoods have crime rates comparable to European cities."
+  },
+  "neighborhoods": {
+    "title": "Best Neighborhoods for Expats",
+    "subtitle": "Find your perfect barrio in Buenos Aires. Updated 2026 rent prices (doubled since 2023), safety rankings, and honest assessments."
+  },
+  "petImportation": {
+    "title": "Bringing Your Pet to Argentina",
+    "subtitle": "The good news: there is no quarantine for cats and dogs from most countries. The paperwork is manageable.",
+    "noQuarantine": {
+      "title": "No Quarantine Required",
+      "description": "Unlike Australia, Japan, or the UK, Argentina does NOT require quarantine for cats and dogs from most countries."
+    }
+  },
+  "footer": {
+    "description": "Your honest, comprehensive guide to living in Argentina. Real information from real expats.",
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "connect": "Connect",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "backToHome": "Back to Home",
+    "updated": "Updated",
+    "essential": "Essential",
+    "required": "Required",
+    "optional": "Optional",
+    "free": "Free",
+    "cost": "Cost",
+    "time": "Time",
+    "days": "days",
+    "weeks": "weeks",
+    "months": "months",
+    "years": "years",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Español"
+  }
+}

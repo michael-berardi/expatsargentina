@@ -19,17 +19,17 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Learning Spanish in Buenos Aires | Complete Guide",
+  title: "Learning Spanish in Buenos Aires 2026 | Complete Guide",
   description:
-    "A practical guide to learning Argentine Spanish in Buenos Aires. Language schools, immersion tips, slang dictionary, and survival phrases for expats.",
+    "Rioplatense Spanish guide: 'll' and 'y' sound like 'sh', voseo verb forms (vos sos, vos tenés), Lunfardo slang, and language schools. Updated 2026.",
   keywords: [
     "learn Spanish Buenos Aires",
-    "Argentine Spanish",
-    "language schools Buenos Aires",
+    "Rioplatense Spanish",
+    "yeismo rehilado",
     "vos vs tu",
+    "voseo conjugation",
     "lunfardo slang",
-    "Spanish immersion",
-    "expat guide",
+    "ll pronounced sh",
   ],
 };
 
@@ -284,6 +284,47 @@ export default function LearnSpanishPage() {
                 Don't expect to understand group conversations for at least 3-6 months. 
                 One-on-one is much easier.
               </p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>Rioplatense Pronunciation Guide</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <p>
+                Rioplatense Spanish (spoken in Buenos Aires and Montevideo) has unique pronunciation 
+                that confuses even fluent Spanish speakers from other countries.
+              </p>
+              <div className="bg-muted p-4 rounded-lg space-y-2 text-sm">
+                <div className="flex justify-between">
+                  <span><strong>Aquí</strong> (here)</span>
+                  <span className="text-muted-foreground">→ "a-SHEE" (not "a-KEE")</span>
+                </div>
+                <div className="flex justify-between">
+                  <span><strong>Llama</strong> (flame/call)</span>
+                  <span className="text-muted-foreground">→ "SHA-ma" (not "YA-ma")</span>
+                </div>
+                <div className="flex justify-between">
+                  <span><strong>Lluvia</strong> (rain)</span>
+                  <span className="text-muted-foreground">→ "SHU-via" (not "YU-via")</span>
+                </div>
+                <div className="flex justify-between">
+                  <span><strong>Yo</strong> (I)</span>
+                  <span className="text-muted-foreground">→ "SHO" (not "YO")</span>
+                </div>
+                <div className="flex justify-between">
+                  <span><strong>Playa</strong> (beach)</span>
+                  <span className="text-muted-foreground">→ "PLA-sha" (not "PLA-ya")</span>
+                </div>
+              </div>
+              <Alert className="bg-blue-50 dark:bg-blue-950/20 border-blue-200">
+                <AlertTitle className="text-blue-800 dark:text-blue-200">The &quot;SH&quot; Rule</AlertTitle>
+                <AlertDescription className="text-sm text-blue-700 dark:text-blue-300">
+                  In Argentina, &quot;ll&quot; and &quot;y&quot; are pronounced like &quot;sh&quot; in &quot;sheep.&quot; 
+                  This is called &quot;yeísmo rehilado.&quot; Using the standard &quot;y&quot; sound marks you as a foreigner immediately.
+                </AlertDescription>
+              </Alert>
             </CardContent>
           </Card>
 

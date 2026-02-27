@@ -30,61 +30,61 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Cost of Living in Argentina 2025 - Real Numbers & Inflation Reality",
-  description: "Authentic 2025 cost of living guide for Buenos Aires with real prices, inflation warnings, blue dollar explained, and 3 detailed budget profiles. Updated February 2025.",
-  keywords: ["cost of living Argentina", "Buenos Aires living costs", "Argentina prices 2025", "expat budget Argentina", "dolar blue", "Argentina inflation"],
+  title: "Cost of Living in Argentina 2026 - Prices Doubled, Reality Check",
+  description: "Argentina is NOT cheap anymore. 2026 cost of living guide with doubled prices, Milei economy impact, and Western Europe-level costs. Updated for 2026.",
+  keywords: ["cost of living Argentina 2026", "Argentina expensive now", "Buenos Aires prices doubled", "Milei economy cost", "is Argentina still cheap 2026"],
   openGraph: {
-    title: "Cost of Living in Argentina 2025 - Real Numbers",
-    description: "Real budget breakdowns, inflation reality, and money hacks for living in Buenos Aires.",
+    title: "Cost of Living in Argentina 2026 - Prices Doubled",
+    description: "Argentina cost of living has doubled. Real 2026 budgets: $1,200-5,000/month for Western Europe-level prices.",
   },
 };
 
-// Real 2025 budget profiles with specific, non-round numbers
+// Real 2026 budget profiles - prices have DOUBLED since 2023
 const monthlyCosts = {
   backpacker: {
-    rent: 285,
-    food: 165,
-    transport: 22,
-    utilities: 35,
-    healthcare: 45,
-    entertainment: 65,
+    rent: 550,
+    food: 320,
+    transport: 35,
+    utilities: 75,
+    healthcare: 85,
+    entertainment: 100,
     coworking: 0,
     gym: 0,
-    misc: 45,
-    total: 662,
+    misc: 85,
+    total: 1250,
     description: "Shared apartment in Villa Crespo or Caballito, cooking most meals, SUBE card, no frills",
     rentDetails: "Room in shared apartment (3-4 people)",
     foodDetails: "Mostly groceries, occasional empanadas",
     lifestyle: "Local bars, free events, parks"
   },
   comfortable: {
-    rent: 675,
-    food: 385,
-    transport: 55,
-    utilities: 95,
-    healthcare: 145,
-    entertainment: 185,
-    coworking: 95,
-    gym: 35,
-    misc: 95,
-    total: 1765,
+    rent: 1200,
+    food: 650,
+    transport: 120,
+    utilities: 180,
+    healthcare: 250,
+    entertainment: 350,
+    coworking: 150,
+    gym: 55,
+    misc: 200,
+    total: 3155,
     description: "Own 1-bedroom in Palermo or Belgrano, mix of cooking and dining out, gym membership",
     rentDetails: "1-bedroom apartment, mid-range building",
     foodDetails: "Groceries + 3-4 restaurant meals/week",
     lifestyle: "Coworking space, weekend trips, decent nightlife"
   },
   highroller: {
-    rent: 1450,
-    food: 725,
-    transport: 145,
-    utilities: 165,
-    healthcare: 285,
-    entertainment: 485,
-    coworking: 165,
-    gym: 75,
-    misc: 225,
-    total: 3720,
-    description: "Nice 2-bedroom in Palermo Hollywood, dining out frequently, premium everything",
+    rent: 2800,
+    food: 1200,
+    transport: 300,
+    utilities: 350,
+    healthcare: 450,
+    entertainment: 800,
+    coworking: 250,
+    gym: 120,
+    misc: 450,
+    total: 6720,
+    description: "Nice 2-bedroom in Palermo Hollywood or Puerto Madero, dining out frequently, premium everything",
     rentDetails: "Modern 2-bedroom with amenities (gym, pool, security)",
     foodDetails: "Frequent dining out, delivery, quality groceries",
     lifestyle: "Premium coworking, regular travel, upscale nightlife"
@@ -96,30 +96,30 @@ const expenseCategories = [
   {
     icon: HomeIcon,
     title: "Rent (USD Prices)",
-    description: "Rent is typically quoted in USD and paid in cash or via wire. Prices vary dramatically by neighborhood.",
+    description: "Rent is typically quoted in USD and paid in cash or via wire. Prices have doubled since 2023.",
     items: [
-      { name: "Room in shared apt (Villa Crespo/Caballito)", price: "$250-320" },
-      { name: "Room in shared apt (Palermo)", price: "$350-450" },
-      { name: "Studio apartment (budget areas)", price: "$400-550" },
-      { name: "1-bedroom (Belgrano/Almagro)", price: "$550-750" },
-      { name: "1-bedroom (Palermo/Recoleta)", price: "$650-950" },
-      { name: "2-bedroom nice building (Palermo)", price: "$1,200-1,600" },
-      { name: "2-bedroom luxury (Puerto Madero)", price: "$1,800-2,500" },
+      { name: "Room in shared apt (Villa Crespo/Caballito)", price: "$450-600" },
+      { name: "Room in shared apt (Palermo)", price: "$600-800" },
+      { name: "Studio apartment (budget areas)", price: "$700-950" },
+      { name: "1-bedroom (Belgrano/Almagro)", price: "$900-1,200" },
+      { name: "1-bedroom (Palermo/Recoleta)", price: "$1,100-1,600" },
+      { name: "2-bedroom nice building (Palermo)", price: "$1,800-2,400" },
+      { name: "2-bedroom luxury (Puerto Madero)", price: "$2,500-4,000" },
     ],
   },
   {
     icon: UtensilsIcon,
     title: "Food & Dining",
-    description: "Groceries have seen massive inflation. Eating out can be cheap or expensive depending on where you go.",
+    description: "Restaurant prices now rival Western Europe. The 'cheap Argentina' of 2020-2023 is gone.",
     items: [
-      { name: "Empanada (takeaway)", price: "$0.80-1.20" },
-      { name: "Menu del día (weekday lunch)", price: "$6-10" },
-      { name: "Pizza + beer (casual place)", price: "$12-18" },
-      { name: "Dinner for 2 (mid-range restaurant)", price: "$45-75" },
-      { name: "Dinner for 2 (nice restaurant)", price: "$90-140" },
-      { name: "Coffee at café", price: "$2.50-4" },
-      { name: "Craft beer (pint)", price: "$4-7" },
-      { name: "Bottle of wine (mid-range)", price: "$6-12" },
+      { name: "Empanada (takeaway)", price: "$1.50-2.50" },
+      { name: "Menu del día (weekday lunch)", price: "$12-18" },
+      { name: "Pizza + beer (casual place)", price: "$22-32" },
+      { name: "Dinner for 2 (mid-range restaurant)", price: "$80-120" },
+      { name: "Dinner for 2 (nice restaurant)", price: "$150-220" },
+      { name: "Coffee at café", price: "$4-6" },
+      { name: "Craft beer (pint)", price: "$7-12" },
+      { name: "Bottle of wine (mid-range)", price: "$12-20" },
     ],
   },
   {
@@ -205,45 +205,45 @@ const expenseCategories = [
   },
 ];
 
-// Neighborhood rent comparison with actual price ranges
+// Neighborhood rent comparison - updated for 2026 reality
 const neighborhoodComparison = [
-  { name: "Puerto Madero", rent: "$$$$", rentRange: "$1,500-2,800", vibe: "Ultra-modern, waterfront, expat enclave", transport: "Good" },
-  { name: "Palermo (Hollywood/Soho)", rent: "$$$", rentRange: "$850-1,600", vibe: "Trendy, nightlife, restaurants, young", transport: "Excellent" },
-  { name: "Recoleta", rent: "$$$", rentRange: "$750-1,400", vibe: "Upscale, historic, museums, families", transport: "Excellent" },
-  { name: "Belgrano", rent: "$$", rentRange: "$550-950", vibe: "Residential, quiet, parks, families", transport: "Very Good" },
-  { name: "San Telmo", rent: "$$", rentRange: "$450-750", vibe: "Bohemian, touristy, tango, artsy", transport: "Good" },
-  { name: "Villa Crespo", rent: "$", rentRange: "$350-650", vibe: "Up-and-coming, authentic, outlets", transport: "Good" },
-  { name: "Caballito", rent: "$", rentRange: "$320-600", vibe: "Traditional, residential, very local", transport: "Very Good" },
-  { name: "Almagro", rent: "$", rentRange: "$380-650", vibe: "Student area, cafes, affordable", transport: "Good" },
+  { name: "Puerto Madero", rent: "$$$$", rentRange: "$2,500-4,500", vibe: "Ultra-modern, waterfront, expat enclave", transport: "Good" },
+  { name: "Palermo (Hollywood/Soho)", rent: "$$$", rentRange: "$1,400-2,400", vibe: "Trendy, nightlife, restaurants, young", transport: "Excellent" },
+  { name: "Recoleta", rent: "$$$", rentRange: "$1,200-2,200", vibe: "Upscale, historic, museums, families", transport: "Excellent" },
+  { name: "Belgrano", rent: "$$", rentRange: "$900-1,500", vibe: "Residential, quiet, parks, families", transport: "Very Good" },
+  { name: "San Telmo", rent: "$$", rentRange: "$700-1,100", vibe: "Bohemian, touristy, tango, artsy", transport: "Good" },
+  { name: "Villa Crespo", rent: "$", rentRange: "$600-1,000", vibe: "Up-and-coming, authentic, outlets", transport: "Good" },
+  { name: "Caballito", rent: "$", rentRange: "$550-950", vibe: "Traditional, residential, very local", transport: "Very Good" },
+  { name: "Almagro", rent: "$", rentRange: "$650-1,100", vibe: "Student area, cafes, affordable-ish", transport: "Good" },
 ];
 
-// Sample grocery receipt
+// Sample grocery receipt - 2026 prices (doubled from 2023)
 const groceryReceipt = [
-  { item: "1L milk", price: "$1.20" },
-  { item: "Dozen eggs", price: "$2.40" },
-  { item: "1kg chicken breast", price: "$4.80" },
-  { item: "1kg rice", price: "$1.60" },
-  { item: "1kg pasta", price: "$1.40" },
-  { item: "Bread (baguette)", price: "$1.20" },
-  { item: "Butter (200g)", price: "$2.20" },
-  { item: "Cheese (500g)", price: "$4.20" },
-  { item: "Yogurt (1kg)", price: "$2.80" },
-  { item: "Coffee (250g)", price: "$3.80" },
-  { item: "Wine (decent bottle)", price: "$5.50" },
-  { item: "6-pack beer", price: "$4.50" },
-  { item: "Fresh vegetables (assorted)", price: "$6.50" },
-  { item: "Fruit (assorted)", price: "$4.80" },
+  { item: "1L milk", price: "$2.40" },
+  { item: "Dozen eggs", price: "$4.80" },
+  { item: "1kg chicken breast", price: "$9.50" },
+  { item: "1kg rice", price: "$3.20" },
+  { item: "1kg pasta", price: "$2.80" },
+  { item: "Bread (baguette)", price: "$2.40" },
+  { item: "Butter (200g)", price: "$4.40" },
+  { item: "Cheese (500g)", price: "$8.40" },
+  { item: "Yogurt (1kg)", price: "$5.60" },
+  { item: "Coffee (250g)", price: "$7.60" },
+  { item: "Wine (decent bottle)", price: "$11" },
+  { item: "6-pack beer", price: "$9" },
+  { item: "Fresh vegetables (assorted)", price: "$13" },
+  { item: "Fruit (assorted)", price: "$9.50" },
 ];
 
-const groceryTotal = "$46.90";
+const groceryTotal = "$93.60";
 
-// City comparison data
+// City comparison data - 2026 reality
 const cityComparison = [
-  { city: "Buenos Aires", rent: "$650", meal: "$12", transport: "$25", total: "$1,400" },
-  { city: "Mexico City", rent: "$850", meal: "$18", transport: "$18", total: "$1,800" },
-  { city: "Lisbon", rent: "$1,200", meal: "$22", transport: "$45", total: "$2,400" },
-  { city: "Barcelona", rent: "$1,400", meal: "$28", transport: "$55", total: "$2,800" },
-  { city: "Austin, TX", rent: "$1,600", meal: "$35", transport: "$65", total: "$3,200" },
+  { city: "Buenos Aires", rent: "$1,100", meal: "$22", transport: "$50", total: "$2,500" },
+  { city: "Mexico City", rent: "$900", meal: "$18", transport: "$20", total: "$1,800" },
+  { city: "Lisbon", rent: "$1,300", meal: "$24", transport: "$50", total: "$2,600" },
+  { city: "Barcelona", rent: "$1,500", meal: "$30", transport: "$60", total: "$3,000" },
+  { city: "Austin, TX", rent: "$1,700", meal: "$40", transport: "$70", total: "$3,400" },
 ];
 
 export default function CostOfLivingPage() {
@@ -266,19 +266,19 @@ export default function CostOfLivingPage() {
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <TrendingUpIcon size="sm" className="mr-1" />
-              Updated February 2025
+              Updated March 2026
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              The Real Cost of Living in Argentina
+              Cost of Living in Argentina 2026
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Authentic 2025 numbers from someone who actually lives here. 
-              No round figures, no BS - just the inflation reality you need to know.
+              The &quot;cheap Argentina&quot; era is OVER. Prices have doubled since 2023.
+              Real 2026 budgets for Buenos Aires—now rivaling Western Europe.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <div className="flex items-center gap-2">
                 <DollarSignIcon size="sm" className="text-primary" />
-                <span>USD pricing</span>
+                <span>USD pricing (2026)</span>
               </div>
               <div className="flex items-center gap-2">
                 <CalculatorIcon size="sm" className="text-primary" />
@@ -286,27 +286,31 @@ export default function CostOfLivingPage() {
               </div>
               <div className="flex items-center gap-2">
                 <AlertCircleIcon size="sm" className="text-primary" />
-                <span>Inflation warnings</span>
+                <span>Prices doubled</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Critical Inflation Warning */}
-      <section className="py-12 bg-red-50 dark:bg-red-950/20 border-y border-red-200 dark:border-red-800">
+      {/* 2026 Economic Reality Banner */}
+      <section className="py-12 bg-amber-50 dark:bg-amber-950/20 border-y border-amber-200 dark:border-amber-800">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-start gap-4 mb-6">
-              <AlertCircleIcon size="lg" className="text-red-600 flex-shrink-0 mt-1" />
+              <AlertCircleIcon size="lg" className="text-amber-600 flex-shrink-0 mt-1" />
               <div>
-                <h2 className="text-2xl font-bold text-red-900 dark:text-red-100 mb-2">
-                  ⚠️ The Inflation Reality Check
+                <h2 className="text-2xl font-bold text-amber-900 dark:text-amber-100 mb-2">
+                  2026 Reality: Argentina Is NOT Cheap Anymore
                 </h2>
-                <p className="text-red-800 dark:text-red-200">
-                  Argentina's inflation is real and relentless. These numbers are accurate as of February 2025, 
-                  but peso-denominated prices can increase 5-15% monthly. USD prices for rent are more stable 
-                  but still creep up quarterly. Always verify current rates before making decisions.
+                <p className="text-amber-800 dark:text-amber-200 mb-3">
+                  <strong>Prices have doubled since 2023.</strong> The &quot;bargain Argentina&quot; that attracted 
+                  digital nomads with $600 apartments is gone. Buenos Aires now rivals Lisbon or Barcelona in cost.
+                </p>
+                <p className="text-amber-800 dark:text-amber-200 text-sm">
+                  Under Milei&apos;s economy, inflation has stabilized at 2-3% monthly (down from 25%), but the 
+                  base prices are now permanently higher. Expect Western Europe-level costs for restaurants, 
+                  rent, and services.
                 </p>
               </div>
             </div>
@@ -314,20 +318,20 @@ export default function CostOfLivingPage() {
             <div className="grid md:grid-cols-3 gap-4">
               <Card className="bg-white/80 dark:bg-black/20">
                 <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-red-600 mb-1">~100%</div>
-                  <p className="text-sm text-muted-foreground">Annual inflation (2024)</p>
+                  <div className="text-2xl font-bold text-amber-600 mb-1">2-3%</div>
+                  <p className="text-sm text-muted-foreground">Monthly inflation (stabilized under Milei)</p>
                 </CardContent>
               </Card>
               <Card className="bg-white/80 dark:bg-black/20">
                 <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-red-600 mb-1">5-15%</div>
-                  <p className="text-sm text-muted-foreground">Monthly price increases</p>
+                  <div className="text-2xl font-bold text-amber-600 mb-1">2x</div>
+                  <p className="text-sm text-muted-foreground">Price increase since 2023</p>
                 </CardContent>
               </Card>
               <Card className="bg-white/80 dark:bg-black/20">
                 <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-red-600 mb-1">Weekly</div>
-                  <p className="text-sm text-muted-foreground">How often to check rates</p>
+                  <div className="text-2xl font-bold text-amber-600 mb-1">Europe</div>
+                  <p className="text-sm text-muted-foreground">Current price level comparison</p>
                 </CardContent>
               </Card>
             </div>
@@ -353,11 +357,11 @@ export default function CostOfLivingPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-3">
-                    The government-set rate. This is what you'll get if you use your foreign credit card 
-                    or withdraw from an ATM. <strong>Never use this.</strong>
+                    The government-set rate. This is what you&apos;ll get if you use your foreign credit card 
+                    or withdraw from an ATM. <strong>NEVER use this—you&apos;ll lose ~40%.</strong>
                   </p>
-                  <div className="text-2xl font-bold text-red-600">~$1,050 ARS/$1 USD</div>
-                  <p className="text-xs text-muted-foreground mt-1">You lose ~45% of your money</p>
+                  <div className="text-2xl font-bold text-red-600">~$1,400 ARS/$1 USD</div>
+                  <p className="text-xs text-muted-foreground mt-1">You lose ~40% of your money</p>
                 </CardContent>
               </Card>
 
@@ -369,10 +373,10 @@ export default function CostOfLivingPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-3">
-                    The unofficial street rate for physical USD cash. Best for tourists with cash. 
+                    The unofficial street rate for physical USD cash. Bring USD bills and exchange at cuevas. 
                     Check <a href="https://dolarhoy.com" target="_blank" rel="noopener" className="text-primary underline">dolarhoy.com</a> daily.
                   </p>
-                  <div className="text-2xl font-bold text-green-600">~$1,220 ARS/$1 USD</div>
+                  <div className="text-2xl font-bold text-green-600">~$1,400 ARS/$1 USD</div>
                   <p className="text-xs text-muted-foreground mt-1">The rate locals actually use</p>
                 </CardContent>
               </Card>
@@ -385,10 +389,10 @@ export default function CostOfLivingPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Send yourself money via Western Union or similar services. Often the best rate 
-                    for expats and digital nomads. Pick up in pesos at branches.
+                    Send yourself money via Western Union. Most popular option for expats without DNI. 
+                    Pick up in pesos at branches with passport only.
                   </p>
-                  <div className="text-2xl font-bold text-blue-600">~$1,200-1,250 ARS/$1 USD</div>
+                  <div className="text-2xl font-bold text-blue-600">~$1,380 ARS/$1 USD</div>
                   <p className="text-xs text-muted-foreground mt-1">Best option for most expats</p>
                 </CardContent>
               </Card>
@@ -401,11 +405,11 @@ export default function CostOfLivingPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Financial market rates for moving money through banks/brokers. MEP is for local, 
-                    CCL is for sending money abroad. Requires local bank account.
+                    Financial market rates through local brokers. Requires local bank account and DNI. 
+                    Best for large amounts once you have residency.
                   </p>
-                  <div className="text-2xl font-bold text-amber-600">~$1,180-1,220 ARS/$1 USD</div>
-                  <p className="text-xs text-muted-foreground mt-1">For those with local banking</p>
+                  <div className="text-2xl font-bold text-amber-600">~$1,380 ARS/$1 USD</div>
+                  <p className="text-xs text-muted-foreground mt-1">For those with DNI and local banking</p>
                 </CardContent>
               </Card>
             </div>

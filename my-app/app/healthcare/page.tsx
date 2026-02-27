@@ -16,17 +16,17 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Healthcare in Argentina for Expats - Complete 2025 Guide",
-  description: "Complete guide to healthcare in Argentina for expats. Health insurance options (prepaga), finding doctors, hospital recommendations, and costs.",
-  keywords: ["healthcare Argentina expats", "prepaga health insurance", "Argentina hospitals", "medical care Buenos Aires"],
+  title: "Healthcare in Argentina 2026 - Mandatory Insurance, New Rules",
+  description: "Updated 2026 healthcare guide: mandatory travel insurance for entry, public hospitals now charge foreigners. Prepaga options, costs, and requirements.",
+  keywords: ["healthcare Argentina 2026", "mandatory travel insurance Argentina", "prepaga health insurance", "Argentina public hospital charges foreigners"],
 };
 
 const insuranceProviders = [
-  { name: "OSDE", type: "Premium", monthlyCost: "$200-500", notes: "Widest network, best hospitals" },
-  { name: "Swiss Medical", type: "Premium", monthlyCost: "$180-450", notes: "Excellent service, English-speaking staff" },
-  { name: "Galeno", type: "Mid-range", monthlyCost: "$100-250", notes: "Good coverage, reasonable prices" },
-  { name: "Medicus", type: "Mid-range", monthlyCost: "$80-200", notes: "Solid coverage, widely accepted" },
-  { name: "Sancor Salud", type: "Budget", monthlyCost: "$60-150", notes: "Basic coverage, good for young/healthy" },
+  { name: "OSDE", type: "Premium", monthlyCost: "$350-800", notes: "Widest network, best hospitals, English-speaking" },
+  { name: "Swiss Medical", type: "Premium", monthlyCost: "$300-700", notes: "Excellent service, English-speaking staff" },
+  { name: "Galeno", type: "Mid-range", monthlyCost: "$180-400", notes: "Good coverage, reasonable prices" },
+  { name: "Medicus", type: "Mid-range", monthlyCost: "$140-320", notes: "Solid coverage, widely accepted" },
+  { name: "Sancor Salud", type: "Budget", monthlyCost: "$100-250", notes: "Basic coverage, good for young/healthy" },
 ];
 
 const topHospitals = [
@@ -38,24 +38,28 @@ const topHospitals = [
 
 const faqs = [
   {
-    question: "Do I need health insurance in Argentina?",
-    answer: "While not always legally required depending on your visa, private health insurance (prepaga) is strongly recommended. Public hospitals can be overcrowded and may charge non-residents. Private insurance ensures faster access, better facilities, and English-speaking doctors.",
+    question: "Is health insurance mandatory for Argentina?",
+    answer: "YES - As of July 2025, all tourists and temporary residents must show proof of travel health insurance to enter Argentina. This is now checked at immigration. For long-term residents, private prepaga insurance is strongly recommended as public hospitals now charge non-residents.",
+  },
+  {
+    question: "Do public hospitals charge foreigners now?",
+    answer: "Yes - This changed in 2025. Public hospitals (hospitales públicos) now charge foreigners for non-emergency care. Emergency care is still provided, but you'll receive a bill. The 'free healthcare for everyone' era has ended. This makes private prepaga insurance even more essential for expats.",
   },
   {
     question: "How much does health insurance cost?",
-    answer: "Basic prepaga plans start around $60-80 USD per month for young, healthy individuals. Comprehensive plans for older adults or families can range from $200-500 USD monthly. Many providers offer tiered plans so you can choose your level of coverage.",
+    answer: "Basic prepaga plans now start around $100-150 USD per month for young, healthy individuals (up from $60-80 in 2024). Comprehensive plans for older adults or families range from $350-800 USD monthly. Prices have increased with inflation and demand from expats.",
   },
   {
     question: "Can I use my home country's insurance?",
-    answer: "Some international health insurance plans cover Argentina, but many expats find it more convenient and cost-effective to get local prepaga coverage. Check with your international provider about coverage in Argentina and whether they have direct billing arrangements with local hospitals.",
+    answer: "Some international health insurance plans cover Argentina and satisfy the entry requirement. However, many expats find local prepaga more convenient for day-to-day care. If using international insurance, ensure it explicitly covers Argentina and bring proof of coverage to show immigration.",
   },
   {
     question: "Are doctors English-speaking?",
-    answer: "In major private hospitals and clinics, especially in Buenos Aires, many doctors speak English. However, it's not guaranteed. Hospital Alemán, Hospital Italiano, and Hospital Británico are known for having English-speaking staff. For other providers, you may need to request an English-speaking doctor when booking.",
+    answer: "In major private hospitals and clinics, especially in Buenos Aires, many doctors speak English. Hospital Alemán, Hospital Italiano, and Hospital Británico are known for having English-speaking staff. For other providers, request an English-speaking doctor when booking.",
   },
   {
     question: "What's the quality of healthcare?",
-    answer: "Private healthcare in Buenos Aires is generally excellent and comparable to Western standards. Top private hospitals have modern equipment and highly trained specialists. Public healthcare varies more in quality and can have long wait times, but it's free for residents and emergencies.",
+    answer: "Private healthcare in Buenos Aires remains excellent and comparable to Western standards. Top private hospitals have modern equipment and highly trained specialists. Public healthcare quality varies and now comes with costs for foreigners, making private insurance essential.",
   },
 ];
 
@@ -79,15 +83,36 @@ export default function HealthcarePage() {
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <HeartIcon size="sm" className="mr-1" />
-              Healthcare Guide
+              Healthcare Guide 2026
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Healthcare in Argentina
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Everything you need to know about health insurance (prepaga), 
-              finding doctors, and accessing quality medical care in Argentina.
+              New 2026 rules: mandatory travel insurance for entry, public hospitals 
+              now charge foreigners. Complete guide to prepaga insurance and medical care.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 2026 Healthcare Alert */}
+      <section className="py-8 bg-red-50 dark:bg-red-950/20 border-y border-red-200 dark:border-red-800">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-start gap-4">
+              <AlertCircleIcon size="lg" className="text-red-600 flex-shrink-0 mt-1" />
+              <div>
+                <h2 className="text-xl font-bold text-red-900 dark:text-red-100 mb-2">
+                  2026 Critical Update: New Healthcare Rules
+                </h2>
+                <ul className="text-red-800 dark:text-red-200 space-y-2">
+                  <li><strong>Mandatory Travel Insurance:</strong> Effective July 2025, all visitors must show proof of health insurance at immigration.</li>
+                  <li><strong>Public Hospitals Charge Foreigners:</strong> The "free healthcare for all" era has ended. Non-residents now receive bills for non-emergency care.</li>
+                  <li><strong>Higher Insurance Costs:</strong> Prepaga prices have increased 50-75% since 2023 due to inflation and expat demand.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -144,18 +169,18 @@ export default function HealthcarePage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <ShieldIcon size="md" className="text-primary" />
-                    Public Healthcare
+                    Public Healthcare (2026 Changes)
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
-                      <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
-                      <span>Free for residents</span>
+                      <AlertCircleIcon size="sm" className="text-red-500 flex-shrink-0 mt-0.5" />
+                      <span><strong>Now charges foreigners</strong> (2025 policy change)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
-                      <span>Good for emergencies</span>
+                      <span>Emergencies still treated</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <AlertCircleIcon size="sm" className="text-amber-500 flex-shrink-0 mt-0.5" />

@@ -1069,6 +1069,27 @@ export default function VisasPage() {
         </div>
       </section>
 
+      {/* 2026 Visa Reality Alert */}
+      <section className="py-8 bg-amber-50 dark:bg-amber-950/20 border-y border-amber-200 dark:border-amber-800">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-start gap-4">
+              <Icon name="alert-circle" size="lg" className="text-amber-600 flex-shrink-0 mt-1" />
+              <div>
+                <h2 className="text-xl font-bold text-amber-900 dark:text-amber-100 mb-2">
+                  2026 Visa Reality: Delays & Processing Updates
+                </h2>
+                <ul className="text-amber-800 dark:text-amber-200 space-y-2 text-sm">
+                  <li><strong>DNI Delays:</strong> National ID processing is taking 6+ months due to system backlogs. Without DNI, banking and renting are extremely difficult.</li>
+                  <li><strong>2-Year Citizenship Rule:</strong> Citizenship requires 2 years of <em>permanent</em> residency (not temporary). Total timeline: 4-5 years minimum.</li>
+                  <li><strong>Digital Nomad Visa:</strong> Only 180 days with no direct residency path. Many regret choosing this over other visa types.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Interactive Tools Section */}
       <section id="quiz" className="py-16">
         <div className="container mx-auto px-4">
@@ -1661,22 +1682,28 @@ export default function VisasPage() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold text-base mb-3">Getting Your DNI (National ID)</h3>
+                      <h3 className="font-semibold text-base mb-3">Getting Your DNI (National ID) — 2026 Delays</h3>
+                      <div className="p-4 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 rounded-lg mb-4">
+                        <p className="text-amber-800 dark:text-amber-200 text-sm">
+                          <strong>⚠️ 2026 Reality:</strong> DNI processing is taking 6+ months in many cases due to 
+                          system backlogs. Plan accordingly—banking, renting, and many services are difficult without DNI.
+                        </p>
+                      </div>
                       <p className="text-muted-foreground mb-3">
                         The DNI (Documento Nacional de Identidad) is essential for daily life in Argentina. 
                         You need it for:
                       </p>
                       <ul className="space-y-1 text-muted-foreground list-disc list-inside">
-                        <li>Opening bank accounts</li>
-                        <li>Signing rental contracts</li>
+                        <li>Opening bank accounts (without DNI, you're limited to MercadoPago)</li>
+                        <li>Signing rental contracts (most landlords require it)</li>
                         <li>Getting a local phone plan</li>
                         <li>Utilities in your name</li>
                         <li>Local travel discounts</li>
                       </ul>
                       <p className="text-muted-foreground mt-3">
                         Apply at RENAPER offices (separate from Migraciones). Bring your passport, 
-                        visa approval, proof of address, and birth certificate. Processing takes 2-4 weeks. 
-                        You&apos;ll get a temporary paper DNI immediately, then the card later.
+                        visa approval, proof of address, and birth certificate. <strong>Processing now takes 4-8 weeks minimum, often 6+ months.</strong> 
+                        You may get a temporary paper DNI, but the physical card is taking much longer in 2026.
                       </p>
                     </div>
 

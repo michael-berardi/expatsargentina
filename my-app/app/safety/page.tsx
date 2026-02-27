@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Safety Guide for Buenos Aires | Honest, Practical Advice",
+  title: "Safety Guide for Buenos Aires 2026 | Honest, Practical Advice",
   description:
-    "The real safety situation in Buenos Aires - no fear-mongering. Common scams, neighborhood safety, practical tips, and what to actually do if something goes wrong.",
+    "2026 safety reality: Palermo, Recoleta & Belgrano are very safe. Petty theft (phone snatching) is the main risk—not violent crime. No fear-mongering, just practical advice.",
   keywords: [
-    "Buenos Aires safety",
+    "Buenos Aires safety 2026",
     "is Buenos Aires safe",
+    "Palermo Recoleta safety",
     "Argentina scams",
     "BA safety tips",
-    "travel safety Argentina",
   ],
   openGraph: {
-    title: "Safety Guide for Buenos Aires | Honest, Practical Advice",
+    title: "Safety Guide for Buenos Aires 2026 | Honest, Practical Advice",
     description:
-      "The real safety situation in Buenos Aires - no fear-mongering. Common scams, neighborhood safety, practical tips, and what to actually do if something goes wrong.",
+      "2026 safety reality: Palermo, Recoleta & Belgrano are very safe. Petty theft is the main risk—not violent crime. Practical, honest advice.",
     type: "article",
   },
 };
@@ -34,11 +34,11 @@ export default function SafetyPage() {
             <span>Safety</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Safety in Buenos Aires
+            Safety in Buenos Aires (2026)
           </h1>
           <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
-            The honest truth about safety in BA. No fear-mongering, no sugar-coating. 
-            Just practical advice from someone who&apos;s lived here for years.
+            The honest truth: Palermo, Recoleta & Belgrano are very safe. Petty theft (phone snatching) 
+            is the main risk—not violent crime. No fear-mongering, just practical advice.
           </p>
         </div>
       </section>

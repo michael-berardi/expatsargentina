@@ -245,8 +245,104 @@ export default function BankingPage() {
         </div>
       </section>
 
-      {/* Essential Tips */}
+      {/* Banking Without DNI */}
       <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold mb-4 text-center">Banking Without DNI (2026 Workarounds)</h2>
+            <p className="text-center text-muted-foreground mb-8">
+              DNI processing is taking 6+ months. Here&apos;s how to function financially without it.
+            </p>
+            
+            <div className="space-y-6">
+              <Card className="border-green-200">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <span className="text-green-600">★</span>
+                    MercadoPago (Recommended)
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    MercadoPago is Argentina&apos;s largest digital wallet and works without DNI. You can:
+                  </p>
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
+                      <span>Send/receive money locally</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
+                      <span>Pay at most stores and restaurants (QR code)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
+                      <span>Pay utilities and services</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
+                      <span>Order a prepaid debit card (with passport)</span>
+                    </li>
+                  </ul>
+                  <p className="text-sm text-muted-foreground mt-3">
+                    Download the app and verify with your passport. Top up via Western Union transfers 
+                    or cash at Rapipago/PagoFacil locations.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Cryptocurrency (USDT/BTC)</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Crypto is widely used in Argentina to bypass banking restrictions. Local exchanges like 
+                    Buenbit, Lemon Cash, and Ripio allow you to:
+                  </p>
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
+                      <span>Buy USDT (stablecoin pegged to USD) with cash or transfer</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
+                      <span>Pay bills and services via crypto-to-peso conversion</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
+                      <span>Get a prepaid card linked to your crypto balance</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Western Union + Cash</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Many expats simply rely on Western Union transfers to themselves and operate 
+                    primarily in cash. This works surprisingly well in Argentina&apos;s cash-based economy. 
+                    Keep cash safe in a money belt or secure location at home.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <div className="p-4 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 rounded-lg">
+                <p className="text-sm text-amber-800 dark:text-amber-200">
+                  <strong>Note:</strong> Traditional banks require DNI. Until you get yours (6+ months), 
+                  these alternatives are essential for daily life in Argentina.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Essential Tips */}
+      <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Essential Money Tips</h2>
