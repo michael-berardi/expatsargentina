@@ -6626,6 +6626,1318 @@ export const professions: Profession[] = [
       }
     ],
     image: "/images/professions/account-executive.webp"
+  },
+  {
+    slug: "telemedicine-doctor",
+    name: "Telemedicine Doctor",
+    title: "Telemedicine Doctor Guide for Argentina",
+    subtitle: "Provide remote medical care from Argentina",
+    description: "Telemedicine allows doctors to consult patients remotely. Learn how physicians can practice telemedicine from Argentina.",
+    icon: "Stethoscope",
+    category: "healthcare",
+    overview: "Telemedicine Doctors provide remote medical consultations via video calls, diagnosing conditions, prescribing medications, and offering medical advice. While licensing requirements vary, some telemedicine platforms allow internationally-licensed physicians to serve global patients. US telemedicine platforms pay $100-250+/hour for experienced doctors. Argentine physicians with US or international licenses can serve patients remotely. This is a high-conversion profession for visa services due to complex licensing and legal requirements.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For telemedicine doctors serving international patients remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Mercosur Visa",
+        description: "For doctors from Mercosur countries practicing locally.",
+        difficulty: "Moderate",
+        timeline: "30-60 days"
+      }
+    ],
+    workPermitRequirements: [
+      "Medical degree from accredited institution",
+      "Valid medical license (US or international)",
+      "Board certification in relevant specialty",
+      "Telemedicine platform registration",
+      "Malpractice insurance",
+      "Minimum income documentation ($5,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Telemedicine doctors earn premium rates",
+      amount: "$5,000 - $15,000+ USD/month",
+      notes: "Specialists earn $150-300+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Telemedicine is designed for remote delivery. Video consultations, digital prescriptions, and remote monitoring are standard.",
+      considerations: [
+        "High earning potential",
+        "Complex licensing landscape = legal leads",
+        "Flexible schedule possible",
+        "Serve patients globally"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $2,000,000-6,000,000/month ($1,600-4,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Healthcare", "Telemedicine", "Hospitals"]
+    },
+    professionalAssociations: [
+      {
+        name: "Argentine Medical Association",
+        description: "Professional body for physicians in Argentina"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "Medical license recognition is complex. US licenses valued for telemedicine platforms. Local practice requires Argentine licensure.",
+      process: "Contact Colegio de Médicos for local licensing requirements"
+    },
+    taxConsiderations: [
+      "Remote telemedicine typically not taxed locally under Digital Nomad Visa",
+      "Local practice requires full tax registration",
+      "Consult tax professional for structure"
+    ],
+    networkingTips: [
+      "Join telemedicine platforms (Teladoc, Amwell)",
+      "Connect with international physician communities",
+      "Maintain continuing medical education"
+    ],
+    faqs: [
+      {
+        question: "Can I practice telemedicine in the US from Argentina?",
+        answer: "Yes, if you hold a valid US medical license. Many telemedicine platforms hire US-licensed physicians to serve US patients remotely from anywhere in the world."
+      }
+    ],
+    relatedProfessions: ["wellness-coach", "mental-health-therapist", "nutritionist"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for telemedicine doctors"
+      }
+    ],
+    image: "/images/professions/telemedicine-doctor.webp"
+  },
+  {
+    slug: "mental-health-therapist",
+    name: "Mental Health Therapist",
+    title: "Mental Health Therapist Guide for Argentina",
+    subtitle: "Provide therapy remotely from Argentina",
+    description: "Online therapy is in high demand globally. Learn how therapists can practice remotely from Argentina.",
+    icon: "Heart",
+    category: "healthcare",
+    overview: "Mental Health Therapists (Psychologists, Counselors, LCSWs) provide therapy and counseling services via video sessions. The demand for online therapy has surged dramatically. US platforms pay $50-150+/hour for licensed therapists. Argentine therapists with US or international licenses can serve English-speaking clients globally. This profession has strong visa conversion potential due to licensing complexity and the need for ongoing legal compliance.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For therapists serving international clients remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Master's or Doctorate in Psychology/Counseling",
+      "Valid therapy license (US state or international)",
+      "Clinical experience (2+ years)",
+      "Online therapy platform registration",
+      "Professional liability insurance",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Therapists earn competitive hourly rates",
+      amount: "$2,500 - $8,000+ USD/month",
+      notes: "Experienced therapists earn $50-150+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Online therapy is 100% remote. Video sessions, digital notes, and secure platforms enable full remote practice.",
+      considerations: [
+        "Growing demand for mental health services",
+        "Meaningful, impactful work",
+        "Flexible scheduling possible",
+        "Licensing complexity = legal leads"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $800,000-2,500,000/month ($650-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Healthcare", "Mental Health", "Private Practice"]
+    },
+    professionalAssociations: [
+      {
+        name: "Federación Argentina de Psicólogos",
+        description: "Argentine Psychology Federation"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "US or international license required for serving those markets. Argentine licensure separate.",
+      process: "Maintain home country licensure; check platform requirements"
+    },
+    taxConsiderations: [
+      "Remote therapy typically not taxed locally under Digital Nomad Visa",
+      "Local practice requires tax registration"
+    ],
+    networkingTips: [
+      "Join online therapy platforms (BetterHelp, Talkspace)",
+      "Build private practice website",
+      "Connect with therapist communities"
+    ],
+    faqs: [
+      {
+        question: "What licenses are accepted for online therapy?",
+        answer: "Most platforms require US state licenses to serve US clients. Some accept international licenses for global clients. Check specific platform requirements."
+      }
+    ],
+    relatedProfessions: ["telemedicine-doctor", "wellness-coach", "life-coach"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for therapists"
+      }
+    ],
+    image: "/images/professions/mental-health-therapist.webp"
+  },
+  {
+    slug: "nutritionist",
+    name: "Nutritionist",
+    title: "Nutritionist Guide for Argentina",
+    subtitle: "Provide nutrition coaching remotely from Argentina",
+    description: "Online nutrition coaching is growing. Learn how nutritionists can work remotely with clients worldwide.",
+    icon: "Apple",
+    category: "healthcare",
+    overview: "Nutritionists provide dietary guidance, meal planning, and nutritional counseling to help clients achieve health goals. Online coaching via video calls and apps has expanded opportunities. US clients pay $50-150+/hour for registered dietitians. Argentine nutritionists with credentials can serve English-speaking clients globally. Less regulated than medicine, making it more accessible for remote work.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For nutritionists coaching clients remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Degree in Nutrition or Dietetics",
+      "Registered Dietitian Nutritionist (RDN) credential preferred",
+      "Experience with nutrition counseling",
+      "Online coaching platform or private practice",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Nutritionists earn per session or package rates",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Registered dietitians earn $50-150+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Nutrition coaching works well remotely. Video consultations, meal plans delivered digitally, progress tracking through apps.",
+      considerations: [
+        "Growing health awareness",
+        "Can serve clients globally",
+        "Create digital products (meal plans)",
+        "Flexible schedule"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $600,000-1,800,000/month ($500-1,400 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Healthcare", "Wellness", "Fitness"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "RDN credential valuable but not always required. Experience and results matter."
+    },
+    taxConsiderations: [
+      "Remote nutrition coaching typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build online presence (Instagram, blog)",
+      "Offer free resources to attract clients",
+      "Partner with fitness professionals"
+    ],
+    faqs: [
+      {
+        question: "Nutritionist vs Dietitian?",
+        answer: "Registered Dietitians (RD/RDN) have specific education, training, and licensure. Nutritionist is less regulated. RDs typically command higher rates and more credibility."
+      }
+    ],
+    relatedProfessions: ["wellness-coach", "personal-trainer", "mental-health-therapist"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for nutritionists"
+      }
+    ],
+    image: "/images/professions/nutritionist.webp"
+  },
+  {
+    slug: "attorney",
+    name: "Attorney / Lawyer",
+    title: "Attorney Guide for Argentina",
+    subtitle: "Practice law remotely or establish local practice",
+    description: "Legal professionals have unique opportunities in Argentina. Learn how attorneys can work remotely or establish practice.",
+    icon: "Scale",
+    category: "business",
+    overview: "Attorneys can work remotely on international matters, consult for foreign companies, or establish practice in Argentina. US-qualified lawyers can advise on US law remotely. Some work with Argentine law firms on international matters. US law firms pay $75-300+/hour for experienced attorneys. This is a PRIME Lucero Legal lead profession due to complex cross-border legal needs, visa questions, and eventual permanent residency requirements.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For attorneys working remotely on international matters.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Local Firm)",
+        description: "For attorneys employed by Argentine law firms.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      },
+      {
+        name: "Mercosur Visa",
+        description: "For attorneys from Mercosur countries.",
+        difficulty: "Moderate",
+        timeline: "30-60 days"
+      }
+    ],
+    workPermitRequirements: [
+      "Law degree from accredited institution",
+      "Bar admission (US state or country of qualification)",
+      "Legal practice experience (3+ years)",
+      "Specialization in international/corporate law preferred",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Attorneys earn premium rates",
+      amount: "$3,000 - $12,000+ USD/month",
+      notes: "Senior attorneys and partners earn $75-300+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "International legal work can be done remotely. Research, document review, client calls, and advisory work don't require physical presence.",
+      considerations: [
+        "PRIME Lucero Legal conversion profession",
+        "Complex cross-border questions",
+        "High earning potential",
+        "Prestigious profession"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,500,000-5,000,000/month ($1,200-4,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Law Firms", "Corporate", "International Business"]
+    },
+    professionalAssociations: [
+      {
+        name: "Colegio de Abogados de la Ciudad de Buenos Aires",
+        description: "Buenos Aires Bar Association"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "Foreign attorneys cannot practice Argentine law without local qualification. Can advise on home country law and international matters.",
+      process: "For local practice, must validate degree and pass Argentine bar exam"
+    },
+    taxConsiderations: [
+      "Remote legal work typically not taxed locally under Digital Nomad Visa",
+      "Local practice requires full tax compliance",
+      "Complex structures may need professional advice"
+    ],
+    networkingTips: [
+      "Join international bar associations",
+      "Network with multinational companies",
+      "Build referral relationships"
+    ],
+    faqs: [
+      {
+        question: "Can I practice US law from Argentina?",
+        answer: "Yes, you can advise on US law remotely if you're licensed in a US state. Many attorneys serve US clients from abroad. You cannot practice Argentine law without local qualification."
+      }
+    ],
+    relatedProfessions: ["legal-consultant", "business-consultant", "tax-advisor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for attorneys"
+      }
+    ],
+    image: "/images/professions/attorney.webp"
+  },
+  {
+    slug: "financial-analyst",
+    name: "Financial Analyst",
+    title: "Financial Analyst Guide for Argentina",
+    subtitle: "Analyze markets and investments remotely",
+    description: "Financial analysis is highly remote-friendly. Learn how financial analysts can work from Argentina.",
+    icon: "TrendingUp",
+    category: "business",
+    overview: "Financial Analysts analyze financial data, create forecasts, evaluate investments, and support business decisions. They work in FP&A, investment analysis, and corporate finance. The work is entirely digital - spreadsheets, financial models, and reports. US companies pay $40-100+/hour for experienced analysts. Argentine financial analysts with strong Excel/modeling skills and English proficiency are competitive. Good conversion potential due to complex financial structuring needs.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For financial analysts working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Degree in Finance, Economics, or related field",
+      "Financial modeling and analysis experience (2+ years)",
+      "Advanced Excel and financial software skills",
+      "CFA or progress toward CFA preferred",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Financial analysts earn competitive rates",
+      amount: "$2,500 - $6,500+ USD/month",
+      notes: "Senior analysts earn $40-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Financial analysis is 100% remote. Models, reports, and presentations are all digital.",
+      considerations: [
+        "Strong demand across industries",
+        "Clear deliverables",
+        "Can work with companies globally",
+        "Good path to FP&A or investment roles"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,000,000-2,800,000/month ($800-2,200 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Finance", "Corporate", "Consulting"]
+    },
+    professionalAssociations: [
+      {
+        name: "CFA Institute",
+        description: "Chartered Financial Analyst credential"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "CFA credential highly valued. Excel and modeling skills matter most."
+    },
+    taxConsiderations: [
+      "Remote financial analysis typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Pursue CFA credential",
+      "Build financial models portfolio",
+      "Join finance professional networks"
+    ],
+    faqs: [
+      {
+        question: "FP&A vs Investment Analysis?",
+        answer: "FP&A (Financial Planning & Analysis) focuses on company budgeting and forecasting. Investment analysis focuses on evaluating investments and securities. Both use similar skills but serve different functions."
+      }
+    ],
+    relatedProfessions: ["financial-advisor", "investment-advisor", "business-analyst"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for financial analysts"
+      }
+    ],
+    image: "/images/professions/financial-analyst.webp"
+  },
+  {
+    slug: "investment-advisor",
+    name: "Investment Advisor",
+    title: "Investment Advisor Guide for Argentina",
+    subtitle: "Manage portfolios and advise clients remotely",
+    description: "Investment advisory can be done remotely. Learn how advisors can serve clients from Argentina.",
+    icon: "DollarSign",
+    category: "business",
+    overview: "Investment Advisors manage client portfolios, provide investment recommendations, and help with wealth planning. While licensing is complex (Series 65/66 in US), some advisory roles are accessible remotely. US firms pay $50-150+/hour or AUM-based fees. This is a PRIME Lucero Legal profession due to complex regulatory requirements, tax implications, and high net worth clients needing sophisticated structuring.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For investment advisors with established client relationships.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Series 65 or equivalent investment advisor license",
+      "Investment management experience (3+ years)",
+      "Client book or employment with RIA",
+      "Compliance with regulations",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Investment advisors earn through fees and commissions",
+      amount: "$3,000 - $10,000+ USD/month",
+      notes: "Top advisors earn based on AUM fees"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Portfolio management and client advisory work well remotely. Research, analysis, and client calls are location-independent.",
+      considerations: [
+        "PRIME Lucero Legal conversion profession",
+        "Regulatory complexity",
+        "High earning potential",
+        "Prestigious clients"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local opportunities",
+      keyCities: ["Buenos Aires"],
+      industries: ["Private Banking", "Wealth Management"]
+    },
+    professionalAssociations: [
+      {
+        name: "CFA Institute",
+        description: "Investment management credential"
+      }
+    ],
+    credentialRecognition: {
+      required: true,
+      description: "US licensing (Series 65) typically required to advise US clients."
+    },
+    taxConsiderations: [
+      "Remote advisory typically not taxed locally under Digital Nomad Visa",
+      "Complex cross-border tax situations = legal leads",
+      "Consult tax professional"
+    ],
+    networkingTips: [
+      "Obtain necessary licenses",
+      "Build client relationships",
+      "Specialize in niche markets"
+    ],
+    faqs: [
+      {
+        question: "Can I advise US clients from Argentina?",
+        answer: "Yes, if properly licensed (Series 65) and compliant with regulations. Many RIAs allow remote advisors. Check with your compliance department."
+      }
+    ],
+    relatedProfessions: ["financial-advisor", "financial-analyst", "wealth-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for investment advisors"
+      }
+    ],
+    image: "/images/professions/investment-advisor.webp"
+  },
+  {
+    slug: "music-producer",
+    name: "Music Producer",
+    title: "Music Producer Guide for Argentina",
+    subtitle: "Produce music remotely for artists worldwide",
+    description: "Music production can be done entirely remotely. Learn how producers can work from Argentina.",
+    icon: "Music",
+    category: "creative",
+    overview: "Music Producers create, arrange, and mix music for artists, films, games, and media. Modern production is entirely digital - DAWs, virtual instruments, and online collaboration. Producers earn $30-100+/hour or per-project fees. Argentine music producers bring creativity and technical skills. Argentina has a vibrant music scene and talented producers. Work can be done entirely remotely with file sharing and video calls.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For music producers working remotely with clients.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Artist Visa",
+        description: "For established producers with notable work.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Music production experience (2+ years)",
+      "Proficiency in DAWs (Logic, Pro Tools, Ableton)",
+      "Portfolio of produced tracks",
+      "Audio engineering knowledge",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Music producers earn per project or hourly",
+      amount: "$1,500 - $5,000+ USD/month",
+      notes: "Established producers earn $30-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Music production is 100% remote. Files shared digitally, feedback via calls, delivery as stems/masters.",
+      considerations: [
+        "Creative, fulfilling work",
+        "Can work with artists globally",
+        "Build portfolio and reputation",
+        "Argentina has strong music culture"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $600,000-2,000,000/month ($500-1,600 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Music", "Entertainment", "Film"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio and produced tracks matter most."
+    },
+    taxConsiderations: [
+      "Remote music production typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio on SoundCloud/Spotify",
+      "Network with artists and labels",
+      "Join music production communities"
+    ],
+    faqs: [
+      {
+        question: "What DAW should I use?",
+        answer: "Logic Pro and Ableton are most popular for production. Pro Tools is industry standard for recording/mixing. Choose based on your workflow and client needs."
+      }
+    ],
+    relatedProfessions: ["podcast-producer", "video-editor", "sound-designer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for music producers"
+      }
+    ],
+    image: "/images/professions/music-producer.webp"
+  },
+  {
+    slug: "podcast-producer",
+    name: "Podcast Producer",
+    title: "Podcast Producer Guide for Argentina",
+    subtitle: "Produce podcasts remotely from Argentina",
+    description: "Podcast production is a growing field. Learn how producers can serve clients remotely.",
+    icon: "Mic",
+    category: "creative",
+    overview: "Podcast Producers manage recording, editing, sound design, and publishing for podcasts. They ensure audio quality, add music/effects, and deliver final episodes. The work is entirely digital - audio files shared online, editing in DAWs. Podcast producers earn $25-75+/hour or monthly retainer fees. Argentine producers can serve English and Spanish-speaking podcasters globally. Remote collaboration is standard in podcasting.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For podcast producers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Audio editing experience (1+ years)",
+      "Proficiency in audio editing software (Audition, Pro Tools, Reaper)",
+      "Understanding of podcast formats and standards",
+      "Portfolio of edited episodes",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,200+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Podcast producers earn per episode or retainer",
+      amount: "$1,200 - $4,000+ USD/month",
+      notes: "Experienced producers earn $25-75+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Podcast production is 100% remote. Hosts record locally, files shared for editing, delivery as final episodes.",
+      considerations: [
+        "Growing podcast industry",
+        "Can serve multiple shows",
+        "Recurring retainer work",
+        "Entry-level friendly"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $500,000-1,500,000/month ($400-1,200 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Media", "Podcasting", "Content Creation"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Portfolio of edited podcasts matters most."
+    },
+    taxConsiderations: [
+      "Remote podcast production typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio with sample episodes",
+      "Join podcast producer communities",
+      "Offer trial edits to potential clients"
+    ],
+    faqs: [
+      {
+        question: "What software do I need?",
+        answer: "Adobe Audition, Pro Tools, Reaper, or Logic Pro for editing. Hindenburg is designed specifically for podcasts. Many start with Audacity (free) and upgrade."
+      }
+    ],
+    relatedProfessions: ["podcast-editor", "audio-engineer", "content-creator"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for podcast producers"
+      }
+    ],
+    image: "/images/professions/podcast-producer.webp"
+  },
+  {
+    slug: "education-consultant",
+    name: "Education Consultant",
+    title: "Education Consultant Guide for Argentina",
+    subtitle: "Advise students and institutions remotely",
+    description: "Education consulting helps students navigate admissions. Learn how consultants can work from Argentina.",
+    icon: "GraduationCap",
+    category: "education",
+    overview: "Education Consultants guide students through school/college admissions, test prep, and academic planning. They work with families, schools, or directly with students. Consulting happens via video calls, email, and shared documents. US consultants earn $50-150+/hour. Argentine consultants with US/international education experience can serve global clients. Strong demand for college admissions consulting in particular.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For education consultants working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Bachelor's degree (Master's preferred)",
+      "Education or admissions experience (3+ years)",
+      "Knowledge of admissions processes (US/international)",
+      "Strong communication and counseling skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Education consultants earn per hour or package fees",
+      amount: "$2,000 - $6,000+ USD/month",
+      notes: "College admissions consultants earn $50-150+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Education consulting is 100% remote. Video sessions, document sharing, and email work perfectly for advising students.",
+      considerations: [
+        "Meaningful impact on students' futures",
+        "Peak season during admissions cycle",
+        "Can serve international students",
+        "Combine with test prep services"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local market",
+      keyCities: ["Buenos Aires"],
+      industries: ["Education", "Consulting"]
+    },
+    professionalAssociations: [
+      {
+        name: "IECA (Independent Educational Consultants Association)",
+        description: "Professional association for education consultants"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Experience and results matter most. IECA membership valuable."
+    },
+    taxConsiderations: [
+      "Remote consulting typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join IECA or similar associations",
+      "Build relationships with schools",
+      "Get referrals from satisfied families"
+    ],
+    faqs: [
+      {
+        question: "Do I need to visit campuses?",
+        answer: "Ideally yes, but much can be done virtually now. Virtual campus tours are common. Some consultants specialize in specific regions they know well."
+      }
+    ],
+    relatedProfessions: ["online-teacher", "tutor", "career-coach"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for education consultants"
+      }
+    ],
+    image: "/images/professions/education-consultant.webp"
+  },
+  {
+    slug: "language-tutor",
+    name: "Language Tutor",
+    title: "Language Tutor Guide for Argentina",
+    subtitle: "Teach languages online from Argentina",
+    description: "Online language tutoring is in high demand. Learn how tutors can build remote businesses from Argentina.",
+    icon: "Languages",
+    category: "education",
+    overview: "Language Tutors teach English, Spanish, or other languages to students via video calls. Platforms like iTalki, Preply, and Verbling connect tutors with global students. Tutors earn $15-50+/hour depending on language and experience. Native English speakers are in high demand for teaching English to international students. Argentine Spanish tutors can teach Spanish to global learners. Flexible schedule, location-independent work.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For language tutors working online.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Native or near-native language proficiency",
+      "Teaching or tutoring experience preferred",
+      "TEFL/TESOL certification for English teaching",
+      "Online teaching setup (good camera, microphone, lighting)",
+      "Proof of employment or platform registration",
+      "Minimum income documentation ($1,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Language tutors earn per lesson",
+      amount: "$1,000 - $3,500+ USD/month",
+      notes: "Experienced tutors earn $20-50+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Language tutoring is designed for remote delivery. Video lessons, shared screens, digital whiteboards enable effective teaching.",
+      considerations: [
+        "High demand for English teachers",
+        "Flexible schedule",
+        "Can teach multiple languages",
+        "Entry-level friendly"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $400,000-1,200,000/month ($300-1,000 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Education", "Language Schools"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "TEFL/TESOL helpful for English teaching. Native fluency and teaching ability matter most."
+    },
+    taxConsiderations: [
+      "Remote tutoring typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join tutoring platforms (iTalki, Preply)",
+      "Get student reviews to build reputation",
+      "Specialize (business English, test prep)"
+    ],
+    faqs: [
+      {
+        question: "Which platform should I use?",
+        answer: "iTalki and Preply are largest with most students. Verbling is good too. Try multiple platforms to find the best fit for your language and schedule."
+      }
+    ],
+    relatedProfessions: ["english-teacher", "online-teacher", "translator"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for language tutors"
+      }
+    ],
+    image: "/images/professions/language-tutor.webp"
+  },
+  {
+    slug: "embedded-systems-engineer",
+    name: "Embedded Systems Engineer",
+    title: "Embedded Systems Engineer Guide for Argentina",
+    subtitle: "Develop firmware and embedded systems remotely",
+    description: "Embedded systems programming is specialized and well-paid. Learn how engineers can work remotely from Argentina.",
+    icon: "Cpu",
+    category: "tech",
+    overview: "Embedded Systems Engineers develop software for hardware devices - microcontrollers, IoT devices, automotive systems, consumer electronics. They program in C/C++, work with real-time operating systems, and interface with hardware. The work is highly remote-friendly - development on computers, testing through emulators and remote hardware. US companies pay $50-120+/hour for experienced embedded engineers. This specialized skill commands premium rates.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For embedded engineers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Computer Engineering or related degree",
+      "Embedded systems experience (3+ years)",
+      "Proficiency in C/C++ and embedded systems",
+      "Hardware debugging skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Embedded engineers earn premium rates",
+      amount: "$3,000 - $7,000+ USD/month",
+      notes: "Senior embedded engineers earn $50-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Embedded development is highly remote-friendly. Code on local machines, test through emulators, CI/CD for hardware-in-loop testing.",
+      considerations: [
+        "Specialized, well-paid skill",
+        "Strong demand in IoT and automotive",
+        "Hardware may need occasional shipping",
+        "Deep technical work"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,500,000-3,500,000/month ($1,200-2,800 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Tech", "IoT", "Automotive", "Electronics"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Technical skills and project portfolio matter most."
+    },
+    taxConsiderations: [
+      "Remote embedded work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build portfolio with embedded projects",
+      "Contribute to open source firmware",
+      "Join embedded systems communities"
+    ],
+    faqs: [
+      {
+        question: "Embedded vs regular software development?",
+        answer: "Embedded works directly with hardware, constrained resources, real-time requirements. Requires understanding of hardware, memory management, and timing. More specialized than general software."
+      }
+    ],
+    relatedProfessions: ["iot-developer", "firmware-engineer", "hardware-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for embedded engineers"
+      }
+    ],
+    image: "/images/professions/embedded-systems-engineer.webp"
+  },
+  {
+    slug: "iot-developer",
+    name: "IoT Developer",
+    title: "IoT Developer Guide for Argentina",
+    subtitle: "Build Internet of Things solutions remotely",
+    description: "IoT development combines hardware and software. Learn how IoT developers can work remotely.",
+    icon: "Wifi",
+    category: "tech",
+    overview: "IoT Developers create connected devices and systems - smart home products, industrial sensors, wearable technology. They work with embedded systems, cloud connectivity, and data processing. The work is highly remote-friendly - development on computers, cloud deployment, remote device management. US companies pay $45-110+/hour for experienced IoT developers. IoT is a growing field with applications across industries.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For IoT developers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Software or hardware engineering background",
+      "IoT development experience (2+ years)",
+      "Proficiency in embedded systems and cloud platforms",
+      "Experience with IoT protocols (MQTT, CoAP)",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,500+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "IoT developers earn competitive rates",
+      amount: "$2,500 - $6,500+ USD/month",
+      notes: "Experienced IoT developers earn $45-110+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "IoT development is highly remote-friendly. Cloud development, simulation, and remote device management enable distributed teams.",
+      considerations: [
+        "Growing field with many applications",
+        "Combines hardware and software",
+        "Can work across industries",
+        "Innovation opportunities"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $1,200,000-3,000,000/month ($1,000-2,400 USD at blue rate)",
+      keyCities: ["Buenos Aires"],
+      industries: ["Tech", "Manufacturing", "Agriculture", "Smart Cities"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Technical skills and IoT project portfolio matter most."
+    },
+    taxConsiderations: [
+      "Remote IoT development typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build IoT portfolio projects",
+      "Contribute to IoT open source",
+      "Join IoT developer communities"
+    ],
+    faqs: [
+      {
+        question: "What skills do IoT developers need?",
+        answer: "Embedded programming (C/C++, Python), hardware basics, cloud platforms (AWS IoT, Azure IoT), networking protocols, and data processing. Full-stack IoT knowledge is valuable."
+      }
+    ],
+    relatedProfessions: ["embedded-systems-engineer", "cloud-architect", "data-engineer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for IoT developers"
+      }
+    ],
+    image: "/images/professions/iot-developer.webp"
+  },
+  {
+    slug: "ai-researcher",
+    name: "AI Researcher",
+    title: "AI Researcher Guide for Argentina",
+    subtitle: "Conduct AI research remotely for institutions",
+    description: "AI research is cutting-edge work. Learn how researchers can work remotely from Argentina.",
+    icon: "Brain",
+    category: "tech",
+    overview: "AI Researchers advance artificial intelligence through research, paper publication, and algorithm development. They work at universities, research labs, and AI companies. Research is inherently location-independent - compute in cloud, collaboration through papers and conferences. US institutions pay $60-150+/hour or competitive salaries. Argentine AI researchers with strong academic backgrounds can contribute globally. Argentina has growing AI research community.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For AI researchers working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Research Visa",
+        description: "For researchers affiliated with Argentine institutions.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "PhD or Master's in Computer Science, AI, or related field",
+      "Research experience and publications",
+      "Strong mathematics and programming skills",
+      "Experience with ML frameworks (PyTorch, TensorFlow)",
+      "Proof of employment or research affiliation",
+      "Minimum income documentation ($3,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "AI researchers earn competitive rates",
+      amount: "$3,000 - $8,000+ USD/month",
+      notes: "Senior researchers earn $60-150+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "AI research is 100% remote. Cloud compute, paper writing, and collaboration tools enable distributed research teams.",
+      considerations: [
+        "Cutting-edge, intellectually stimulating work",
+        "High impact potential",
+        "Access to global research community",
+        "GPU compute via cloud services"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited pure research roles locally",
+      keyCities: ["Buenos Aires"],
+      industries: ["Universities", "Research Labs", "Tech"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Publication record and research quality matter most."
+    },
+    taxConsiderations: [
+      "Remote research typically not taxed locally under Digital Nomad Visa",
+      "Academic grants may have specific tax treatments"
+    ],
+    networkingTips: [
+      "Publish at top conferences (NeurIPS, ICML)",
+      "Collaborate with research groups",
+      "Contribute to open source ML projects"
+    ],
+    faqs: [
+      {
+        question: "Do I need a PhD for AI research?",
+        answer: "For pure research roles at top labs, typically yes. However, applied research and industry R&D roles may accept strong Master's graduates with relevant experience and publications."
+      }
+    ],
+    relatedProfessions: ["machine-learning-engineer", "data-scientist", "software-developer"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for AI researchers"
+      }
+    ],
+    image: "/images/professions/ai-researcher.webp"
+  },
+  {
+    slug: "management-consultant",
+    name: "Management Consultant",
+    title: "Management Consultant Guide for Argentina",
+    subtitle: "Advise organizations on strategy and operations",
+    description: "Management consulting offers high-level advisory work. Learn how consultants can work remotely.",
+    icon: "Target",
+    category: "business",
+    overview: "Management Consultants advise organizations on strategy, operations, and organizational challenges. They analyze problems, develop recommendations, and support implementation. While traditionally travel-heavy, remote consulting has grown significantly. Top firms and independent consultants now deliver much work remotely. US consultants earn $100-300+/hour. Argentine consultants with top-tier experience and strong analytical skills can serve global clients.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For management consultants working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "MBA or advanced degree from top institution",
+      "Management consulting experience (3+ years)",
+      "Strong analytical and problem-solving skills",
+      "Experience with top consulting firms preferred",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($4,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Management consultants earn premium rates",
+      amount: "$4,000 - $12,000+ USD/month",
+      notes: "Experienced consultants earn $100-300+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Remote consulting is now standard. Analysis, presentations, and client calls work well via video. Some travel may remain for key meetings.",
+      considerations: [
+        "Prestigious, high-impact work",
+        "High earning potential",
+        "Intellectually challenging",
+        "Strong network effects"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local management consulting market",
+      keyCities: ["Buenos Aires"],
+      industries: ["Consulting", "Corporate"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Firm pedigree (McKinsey, BCG, Bain) and track record matter most."
+    },
+    taxConsiderations: [
+      "Remote consulting typically not taxed locally under Digital Nomad Visa",
+      "Complex fee structures may need professional advice"
+    ],
+    networkingTips: [
+      "Leverage alumni networks",
+      "Build case study portfolio",
+      "Maintain relationships with former clients"
+    ],
+    faqs: [
+      {
+        question: "Independent or firm consultant?",
+        answer: "Independent offers more flexibility and potentially higher rates but requires building your own client base. Firm provides structure, training, and clients but less autonomy. Many start at firms then go independent."
+      }
+    ],
+    relatedProfessions: ["business-consultant", "strategy-consultant", "financial-advisor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for management consultants"
+      }
+    ],
+    image: "/images/professions/management-consultant.webp"
+  },
+  {
+    slug: "strategy-consultant",
+    name: "Strategy Consultant",
+    title: "Strategy Consultant Guide for Argentina",
+    subtitle: "Help companies define strategic direction remotely",
+    description: "Strategy consulting focuses on high-level business decisions. Learn how consultants can work from Argentina.",
+    icon: "Chess",
+    category: "business",
+    overview: "Strategy Consultants help companies make high-stakes decisions about direction, growth, competition, and transformation. They work with C-suite executives on the most critical business questions. Like management consulting, strategy consulting has shifted to hybrid/remote models. US strategy consultants earn $100-300+/hour. The work requires analytical rigor, business acumen, and strong communication skills. Argentine consultants with top-tier experience can serve global markets.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For strategy consultants working remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "MBA or advanced degree from top business school",
+      "Strategy consulting experience (3+ years)",
+      "Experience with top-tier strategy firms (MBB)",
+      "Exceptional analytical and communication skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($4,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Strategy consultants earn premium rates",
+      amount: "$4,000 - $12,000+ USD/month",
+      notes: "Senior consultants earn $100-300+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Strategy work is increasingly remote. Research, analysis, and presentations translate well to video. Client relationships maintained virtually.",
+      considerations: [
+        "C-suite level engagement",
+        "Highest consulting rates",
+        "Intellectually demanding",
+        "Prestige and impact"
+      ]
+    },
+    localJobMarket: {
+      demand: "Low",
+      averageSalary: "Limited local strategy consulting",
+      keyCities: ["Buenos Aires"],
+      industries: ["Consulting", "Corporate Strategy"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Firm pedigree (McKinsey, BCG, Bain) and case success matter most."
+    },
+    taxConsiderations: [
+      "Remote consulting typically not taxed locally under Digital Nomad Visa",
+      "High-value contracts may need tax structuring"
+    ],
+    networkingTips: [
+      "Maintain C-suite relationships",
+      "Develop thought leadership",
+      "Specialize in high-value niches"
+    ],
+    faqs: [
+      {
+        question: "Strategy vs Management Consulting?",
+        answer: "Strategy is a subset of management consulting focused on high-level direction (M&A, growth, transformation). Management consulting includes implementation and operations. Strategy is more senior and higher-paid."
+      }
+    ],
+    relatedProfessions: ["management-consultant", "business-consultant", "investment-banker"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for strategy consultants"
+      }
+    ],
+    image: "/images/professions/strategy-consultant.webp"
+  },
+  {
+    slug: "personal-trainer",
+    name: "Personal Trainer",
+    title: "Personal Trainer Guide for Argentina",
+    subtitle: "Train clients online from Argentina",
+    description: "Online personal training is growing. Learn how trainers can build remote businesses.",
+    icon: "Dumbbell",
+    category: "healthcare",
+    overview: "Personal Trainers provide fitness coaching, workout plans, and motivation to help clients achieve health goals. Online training via video calls and custom programs has expanded opportunities. Trainers earn $30-100+/hour for remote sessions. Argentine trainers can serve English-speaking clients globally. Certification (NASM, ACE, ISSA) adds credibility. This is a flexible profession with low barriers to entry.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For personal trainers working online.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      }
+    ],
+    workPermitRequirements: [
+      "Personal training certification (NASM, ACE, ISSA preferred)",
+      "Fitness training experience (1+ years)",
+      "Knowledge of exercise science and programming",
+      "Online training setup (camera, space)",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($1,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Personal trainers earn per session or package",
+      amount: "$1,000 - $4,000+ USD/month",
+      notes: "Experienced trainers earn $30-100+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Online training works well. Video sessions, custom programs, form checks via video, progress tracking apps.",
+      considerations: [
+        "Flexible schedule",
+        "Can serve multiple time zones",
+        "Create digital products (programs)",
+        "Build community"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "ARS $400,000-1,200,000/month ($300-1,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Fitness", "Wellness", "Sports"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "NASM, ACE, or ISSA certification adds credibility but not required."
+    },
+    taxConsiderations: [
+      "Remote training typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Build social media presence",
+      "Share fitness content and tips",
+      "Get client transformation stories"
+    ],
+    faqs: [
+      {
+        question: "Online vs in-person training?",
+        answer: "Online offers flexibility and scale (more clients, no travel). In-person allows hands-on form correction. Many trainers offer hybrid models. Online is location-independent."
+      }
+    ],
+    relatedProfessions: ["nutritionist", "wellness-coach", "yoga-instructor"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for personal trainers"
+      }
+    ],
+    image: "/images/professions/personal-trainer.webp"
   }
 ];
 
