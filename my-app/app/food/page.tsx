@@ -231,6 +231,29 @@ const ferias = [
 export default function FoodGuidePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Food & Dining",
+                "item": "https://expatsargentina.com/food"
+              }
+            ]
+          })
+        }}
+      />
       {/* Hero */}
       <div className="relative bg-gradient-to-br from-orange-600 via-red-600 to-orange-700 text-white">
         <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/guides/food-bg.webp')" }} />

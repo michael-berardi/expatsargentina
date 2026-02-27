@@ -39,34 +39,75 @@ const topHospitals = [
 
 const faqs = [
   {
-    question: "Is health insurance mandatory for Argentina?",
-    answer: "YES - As of July 2025, all tourists and temporary residents must show proof of travel health insurance to enter Argentina. This is now checked at immigration. For long-term residents, private prepaga insurance is strongly recommended as public hospitals now charge non-residents.",
+    question: "How does healthcare work in Argentina for foreigners?",
+    answer: "Argentina has a mixed system of public and private healthcare. As of 2025, foreigners must show proof of health insurance to enter the country. Public hospitals now charge non-residents for non-emergency care, so private 'prepaga' insurance is essential for expats. Prepaga plans give you access to private hospitals, specialists, and clinics with minimal wait times and modern facilities.",
   },
   {
-    question: "Do public hospitals charge foreigners now?",
-    answer: "Yes - This changed in 2025. Public hospitals (hospitales públicos) now charge foreigners for non-emergency care. Emergency care is still provided, but you'll receive a bill. The 'free healthcare for everyone' era has ended. This makes private prepaga insurance even more essential for expats.",
+    question: "What is a 'prepaga' (private health plan)?",
+    answer: "A prepaga is Argentina's version of private health insurance. You pay a monthly fee and get access to a network of private hospitals, clinics, and specialists. Major providers include OSDE, Swiss Medical, Galeno, Medicus, and Sancor Salud. Plans cover consultations, lab work, imaging, hospitalization, and prescriptions with small copays. Most expats consider prepaga essential for quality healthcare in Argentina.",
   },
   {
-    question: "How much does health insurance cost?",
-    answer: "Basic prepaga plans now start around $100-150 USD per month for young, healthy individuals (up from $60-80 in 2024). Comprehensive plans for older adults or families range from $350-800 USD monthly. Prices have increased with inflation and demand from expats.",
+    question: "Can I use public hospitals as a foreigner?",
+    answer: "Emergency care at public hospitals is still provided to everyone regardless of nationality. However, as of 2025, public hospitals now charge foreigners for non-emergency care. The 'free healthcare for everyone' era has ended. Public hospital quality varies significantly—some like Hospital de Clínicas are excellent, while others are overcrowded. For reliable, consistent care, private prepaga is strongly recommended.",
   },
   {
-    question: "Can I use my home country's insurance?",
-    answer: "Some international health insurance plans cover Argentina and satisfy the entry requirement. However, many expats find local prepaga more convenient for day-to-day care. If using international insurance, ensure it explicitly covers Argentina and bring proof of coverage to show immigration.",
+    question: "How much does private health insurance cost?",
+    answer: "Basic prepaga plans start around $100-150 USD/month for healthy individuals under 35. Mid-range plans (Galeno, Medicus) cost $140-400/month, while premium plans (OSDE, Swiss Medical) range from $300-800/month depending on age and coverage level. Prices have increased 50-75% since 2023 due to inflation. Costs rise significantly with age—expect to pay 2-3x more if you're over 50.",
   },
   {
-    question: "Are doctors English-speaking?",
-    answer: "In major private hospitals and clinics, especially in Buenos Aires, many doctors speak English. Hospital Alemán, Hospital Italiano, and Hospital Británico are known for having English-speaking staff. For other providers, request an English-speaking doctor when booking.",
+    question: "Do I need health insurance to enter Argentina?",
+    answer: "Yes, as of July 2025, all tourists and temporary residents must show proof of travel health insurance at immigration. This is actively checked. Your policy must cover medical expenses in Argentina. International travel insurance (like World Nomads or SafetyWing) satisfies this requirement. For long-term stays, transition to a local prepaga plan for better day-to-day coverage.",
   },
   {
-    question: "What's the quality of healthcare?",
-    answer: "Private healthcare in Buenos Aires remains excellent and comparable to Western standards. Top private hospitals have modern equipment and highly trained specialists. Public healthcare quality varies and now comes with costs for foreigners, making private insurance essential.",
+    question: "Are prescriptions expensive in Argentina?",
+    answer: "Prescription medications are generally affordable in Argentina compared to the US. Many common medications are available over the counter at pharmacies (farmacias) without a prescription. With prepaga insurance, prescriptions come with significant discounts (40-70% off). Farmacias are everywhere and pharmacists are knowledgeable—they can often recommend treatments for minor ailments directly.",
+  },
+  {
+    question: "Can I see an English-speaking doctor?",
+    answer: "Yes, especially in Buenos Aires. Hospital Alemán, Hospital Británico, and Hospital Italiano are known for having English-speaking staff. Swiss Medical and OSDE also have English-speaking doctors in their networks. When booking appointments, request an English-speaking doctor specifically. Many specialists in Palermo and Recoleta speak English fluently.",
   },
 ];
 
 export default function HealthcarePage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Healthcare",
+                "item": "https://expatsargentina.com/healthcare"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(f => ({
+              "@type": "Question",
+              "name": f.question,
+              "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+            }))
+          })
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
@@ -295,16 +336,18 @@ export default function HealthcarePage() {
         </div>
       </section>
 
-      {/* FAQs */}
+      {/* FAQ */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">
+              Frequently Asked Questions
+            </h2>
             <Accordion type="single" collapsible className="w-full">
-              {faqs.map((faq, index) => (
-                <AccordionItem key={index} value={`item-${index}`}>
-                  <AccordionTrigger>{faq.question}</AccordionTrigger>
-                  <AccordionContent>{faq.answer}</AccordionContent>
+              {faqs.map((faq, i) => (
+                <AccordionItem key={i} value={`faq-${i}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
                 </AccordionItem>
               ))}
             </Accordion>

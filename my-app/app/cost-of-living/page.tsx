@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { 
-  DollarSignIcon, 
-  HomeIcon, 
-  UtensilsIcon, 
-  BusIcon, 
-  HeartIcon, 
-  WifiIcon, 
+import {
+  DollarSignIcon,
+  HomeIcon,
+  UtensilsIcon,
+  BusIcon,
+  HeartIcon,
+  WifiIcon,
   FilmIcon,
   AlertCircleIcon,
   TrendingUpIcon,
@@ -28,6 +28,7 @@ import {
   ShieldIcon,
   LightbulbIcon
 } from "@/components/ui/icon";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
   title: "Cost of Living in Argentina 2026 - Prices Doubled, Reality Check",
@@ -240,6 +241,33 @@ const groceryReceipt = [
 
 const groceryTotal = "$93.60";
 
+const faqs = [
+  {
+    question: "How much does it cost to live in Buenos Aires per month?",
+    answer: "In 2026, expect to spend $1,250/month on a tight budget (shared apartment, cooking at home), $3,000-3,200/month for a comfortable lifestyle (own 1-bedroom, dining out regularly), or $5,000-7,000/month for a premium lifestyle (nice 2-bedroom, frequent dining out, premium services). Prices have roughly doubled since 2023.",
+  },
+  {
+    question: "Should I budget in USD or Argentine pesos?",
+    answer: "Budget in USD. Rent is quoted in USD, and the peso fluctuates too much for reliable planning. Convert to pesos at the blue dollar rate for daily expenses. Track spending in USD to maintain a clear picture of your monthly burn rate regardless of exchange rate movements.",
+  },
+  {
+    question: "Is Argentina cheap for foreigners?",
+    answer: "Not anymore. The 'cheap Argentina' era of 2020-2023 is over. Prices have doubled and Buenos Aires now rivals Lisbon or Barcelona in cost. However, certain things remain affordable: public transport ($0.25-0.35/ride), basic groceries, entertainment, and healthcare. The key is using the blue dollar rate, not the official rate, which makes a massive difference.",
+  },
+  {
+    question: "How much is rent in Buenos Aires?",
+    answer: "Rent varies widely by neighborhood and is quoted in USD. A room in a shared apartment costs $450-800, a studio $700-950, a 1-bedroom in Palermo or Recoleta $1,100-1,600, and a 2-bedroom in a nice building $1,800-2,400. Budget neighborhoods like Caballito and Villa Crespo are 30-40% cheaper than Palermo.",
+  },
+  {
+    question: "Are groceries expensive in Argentina?",
+    answer: "Groceries are moderate. A weekly shop for one person at a mid-range supermarket costs $45-55 USD. Meat (especially beef) is still good value. Shop at neighborhood ferias (street markets) for produce at 30-50% less than supermarkets. Imported goods and specialty items are expensive. Dining out at restaurants now rivals Western European prices.",
+  },
+  {
+    question: "How does Buenos Aires compare to other Latin American countries?",
+    answer: "Buenos Aires is now one of the more expensive cities in Latin America, comparable to Lisbon or Barcelona. Mexico City is about 25-30% cheaper overall, while cities like Medellin or Lima are 40-50% cheaper. However, Buenos Aires offers a uniquely European lifestyle, world-class culture, excellent healthcare, and strong infrastructure that justify the higher cost for many expats.",
+  },
+];
+
 // City comparison data - 2026 reality
 const cityComparison = [
   { city: "Buenos Aires", rent: "$1,100", meal: "$22", transport: "$50", total: "$2,500" },
@@ -252,6 +280,43 @@ const cityComparison = [
 export default function CostOfLivingPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Cost of Living",
+                "item": "https://expatsargentina.com/cost-of-living"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(f => ({
+              "@type": "Question",
+              "name": f.question,
+              "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+            }))
+          })
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
@@ -1137,6 +1202,25 @@ export default function CostOfLivingPage() {
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-8">
+              Frequently Asked Questions
+            </h2>
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, i) => (
+                <AccordionItem key={i} value={`faq-${i}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>

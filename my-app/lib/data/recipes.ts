@@ -1188,6 +1188,793 @@ export const recipes: Recipe[] = [
       "French fries are non-negotiable. A napolitana without papas fritas is incomplete.",
       "Some restaurants offer 'a caballo' — topped with a fried egg. Highly recommended."
     ]
+  },
+  {
+    slug: "fugazzeta",
+    name: "Fugazzeta",
+    spanishName: "Fugazzeta",
+    description: "A thick double-crust Argentine pizza stuffed with oozing mozzarella cheese and topped with sweet caramelized onions. Born in the pizzerías of Buenos Aires, fugazzeta is the ultimate expression of Italian-Argentine pizza culture.",
+    seoKeywords: ["fugazzeta recipe", "argentine pizza", "stuffed onion pizza", "fugazzeta argentina", "buenos aires pizza"],
+    category: "main",
+    region: "Buenos Aires",
+    difficulty: "medium",
+    prepTime: "30 min",
+    cookTime: "25 min",
+    totalTime: "2 hrs (including rising)",
+    servings: 6,
+    image: "/images/recipes/fugazzeta.webp",
+    calories: 480,
+    protein: 22,
+    carbs: 52,
+    fat: 22,
+    history: "Fugazzeta evolved from the Italian fugazza (focaccia with onions), brought to Buenos Aires by Genovese immigrants in the late 1800s. Porteño pizzerias added a second layer of dough and stuffed it with mozzarella, creating something entirely new. The iconic Pizzería Güerrín on Corrientes Avenue has served fugazzeta since 1932 and remains one of the best places to try it.",
+    whereToFind: [
+      "Pizzería Güerrín (Av. Corrientes 1368, BA) — legendary since 1932",
+      "El Cuartito (Talcahuano 937, BA) — classic porteño pizzería",
+      "Banchero (Av. Corrientes 1300, BA) — claims to have invented fugazzeta"
+    ],
+    storageInstructions: "Refrigerate leftover slices for up to 2 days. Reheat in a 400°F (200°C) oven for 8-10 minutes until cheese is melted again. Do not microwave — the crust will go soggy.",
+    winePairing: "Young Bonarda or a cold Quilmes lager",
+    ingredients: [
+      {
+        section: "For the dough",
+        items: [
+          "500g (4 cups) bread flour",
+          "325ml (1⅓ cups) warm water",
+          "10g (1 packet) active dry yeast",
+          "2 tbsp olive oil",
+          "1 tsp sugar",
+          "1½ tsp salt"
+        ]
+      },
+      {
+        section: "For the filling and topping",
+        items: [
+          "400g (14 oz) low-moisture mozzarella, shredded",
+          "4 large white onions, thinly sliced into rings",
+          "3 tbsp olive oil (for caramelizing onions)",
+          "1 tsp dried oregano",
+          "Coarse salt for finishing"
+        ]
+      }
+    ],
+    instructions: [
+      "Dissolve yeast and sugar in warm water. Let stand 10 minutes until foamy. Add olive oil.",
+      "Combine flour and salt in a large bowl. Add the yeast mixture and stir until a shaggy dough forms. Knead on a floured surface for 10 minutes until smooth and elastic.",
+      "Place dough in an oiled bowl, cover with a damp towel, and let rise in a warm spot for 1 hour until doubled.",
+      "While dough rises, caramelize the onions: heat olive oil in a large skillet over medium-low heat. Add sliced onions with a pinch of salt and cook slowly for 25-30 minutes, stirring occasionally, until deep golden and sweet. Set aside.",
+      "Punch down the dough and divide into two pieces — one slightly larger than the other. Roll the larger piece into a circle and press into an oiled 14-inch round baking pan, pushing dough up the sides.",
+      "Spread all the shredded mozzarella evenly over the bottom crust.",
+      "Roll out the second piece of dough and lay it over the cheese. Press the edges together firmly to seal, crimping all around.",
+      "Spread the caramelized onions generously over the top crust. Drizzle with olive oil and sprinkle with oregano and coarse salt.",
+      "Bake at 450°F (230°C) on the lowest oven rack for 20-25 minutes until the crust is golden and the cheese is visibly melted and bubbling at the edges.",
+      "Let rest 5 minutes before slicing into squares (porteño style, not triangles)."
+    ],
+    tips: [
+      "The dough should be wetter and softer than Italian pizza dough — this gives it the characteristic thick, bready texture of Buenos Aires pizza.",
+      "Caramelizing the onions properly is non-negotiable. Low heat and patience turn them from harsh to sweet and jammy.",
+      "Seal the edges well or the melted cheese will escape during baking."
+    ]
+  },
+  {
+    slug: "faina",
+    name: "Fainá",
+    spanishName: "Fainá",
+    description: "A thin, crispy chickpea flour flatbread that's the classic companion to Buenos Aires pizza. Served as a slab placed directly on top of a pizza slice — a combination that every porteño knows and loves.",
+    seoKeywords: ["faina recipe", "argentine faina", "chickpea flatbread", "faina buenos aires", "faina pizza"],
+    category: "appetizer",
+    region: "Buenos Aires",
+    difficulty: "easy",
+    prepTime: "10 min",
+    cookTime: "20 min",
+    totalTime: "1 hr 30 min (including resting)",
+    servings: 6,
+    image: "/images/recipes/faina.webp",
+    calories: 190,
+    protein: 7,
+    carbs: 22,
+    fat: 9,
+    history: "Fainá comes from the Genovese farinata, a chickpea flatbread that Italian immigrants brought to Argentina in the late 1800s. In Genoa it was poor people's food; in Buenos Aires it became a beloved companion to pizza. The tradition of placing a slice of fainá on top of a slice of pizza is uniquely Argentine — you'll see it in every pizzería in the city. It's always ordered by the slice, standing at the counter.",
+    whereToFind: [
+      "Every pizzería in Buenos Aires sells fainá by the slice",
+      "Pizzería Güerrín (Av. Corrientes 1368) — eat standing at the counter",
+      "El Cuartito (Talcahuano 937) — classic pairing with muzzarella pizza"
+    ],
+    storageInstructions: "Best eaten fresh and hot. Leftovers can be reheated in a very hot oven for 5 minutes but will lose some crispness. Does not freeze well.",
+    winePairing: "Cold beer or house wine (vino de la casa)",
+    ingredients: [
+      {
+        items: [
+          "2 cups (200g) chickpea flour (harina de garbanzos)",
+          "2 cups (475ml) water",
+          "3 tbsp olive oil (plus more for the pan)",
+          "1 tsp salt",
+          "1/2 tsp black pepper"
+        ]
+      }
+    ],
+    instructions: [
+      "Whisk chickpea flour and water together in a bowl until completely smooth with no lumps. Stir in olive oil, salt, and pepper.",
+      "Cover the batter and let it rest at room temperature for at least 1 hour. This hydrates the chickpea flour and improves texture. Skim off any foam that forms on top.",
+      "Preheat oven to 475°F (245°C). Place a 14-inch round baking pan or cast-iron skillet in the oven to heat for 10 minutes.",
+      "Carefully remove the hot pan and coat generously with olive oil.",
+      "Pour the batter into the hot, oiled pan — it should sizzle. The batter should be about 1/4 inch thick.",
+      "Bake on the top rack for 15-20 minutes until the surface is golden and slightly crackled, with darker spots around the edges.",
+      "Remove and let cool for 2 minutes. Cut into slices and serve immediately.",
+      "To eat like a true porteño, place a slice of fainá directly on top of a slice of muzzarella pizza."
+    ],
+    tips: [
+      "The resting time is essential — skipping it results in a gritty texture. One hour minimum, two hours is even better.",
+      "The pan must be screaming hot when you pour in the batter — this is what creates the crispy bottom.",
+      "Fainá should be thin (under 1/4 inch). If it's thick, it becomes cakey instead of crispy."
+    ]
+  },
+  {
+    slug: "chocotorta",
+    name: "Chocotorta",
+    spanishName: "Chocotorta",
+    description: "Argentina's most popular no-bake cake — layers of chocolate cookies soaked in coffee and sandwiched with a rich dulce de leche and cream cheese filling. Every Argentine has made this at least once, and it requires zero baking skills.",
+    seoKeywords: ["chocotorta recipe", "argentine chocolate cake", "no bake cake argentina", "chocotorta argentina", "chocolinas cake"],
+    category: "dessert",
+    region: "Buenos Aires",
+    difficulty: "easy",
+    prepTime: "20 min",
+    cookTime: "0 min",
+    totalTime: "4 hrs 20 min (including chilling)",
+    servings: 8,
+    image: "/images/recipes/chocotorta.webp",
+    calories: 420,
+    protein: 8,
+    carbs: 52,
+    fat: 22,
+    history: "Chocotorta was invented in the 1982 by a creative team at an Argentine ad agency as a recipe to promote Chocolinas brand cookies. The recipe appeared on the back of the Chocolinas box and spread like wildfire through Argentine households. It became so iconic that Chocolinas cookies are now sold primarily for making chocotorta. It's the default birthday cake for anyone who can't (or won't) bake.",
+    whereToFind: [
+      "Homemade at every Argentine birthday party and gathering",
+      "Some bakeries sell individual portions",
+      "Rapanui chocolate shops offer premium versions"
+    ],
+    storageInstructions: "Refrigerate for up to 5 days. The cake actually improves after a day as the cookies fully soften. Can be frozen for up to 1 month — thaw in the fridge overnight.",
+    winePairing: "Coffee, or a late-harvest Malbec",
+    ingredients: [
+      {
+        items: [
+          "3 packages Chocolinas cookies (or any plain chocolate cookies, about 500g total)",
+          "400g (14 oz) dulce de leche",
+          "300g (10.5 oz) cream cheese, softened",
+          "1 cup (240ml) strong coffee or espresso, cooled",
+          "Cocoa powder or chocolate shavings for topping"
+        ]
+      }
+    ],
+    instructions: [
+      "Brew a cup of strong coffee or espresso and let it cool to room temperature.",
+      "In a large bowl, mix the cream cheese and dulce de leche together until completely smooth and well combined. This is your filling.",
+      "Briefly dip each chocolate cookie into the coffee — just a quick dunk, about 1-2 seconds per side. Don't soak them or they'll fall apart.",
+      "Arrange a layer of coffee-dipped cookies in the bottom of a rectangular dish or springform pan, breaking cookies to fill gaps.",
+      "Spread a generous layer of the dulce de leche and cream cheese filling over the cookies.",
+      "Repeat layers — dipped cookies, then filling — until you have 3-4 layers, ending with a filling layer on top.",
+      "Smooth the top layer and dust generously with cocoa powder or top with chocolate shavings.",
+      "Cover with plastic wrap and refrigerate for at least 4 hours, preferably overnight. The cookies need time to soften and meld with the filling."
+    ],
+    tips: [
+      "The coffee dip is quick — one Mississippi per side. Over-soaked cookies make a mushy cake.",
+      "If you can't find Chocolinas, any plain chocolate cookie or chocolate graham cracker works. Oreos without the filling are a popular substitute outside Argentina.",
+      "Make it the night before — chocotorta always tastes better the next day when everything has melded together."
+    ]
+  },
+  {
+    slug: "budin-de-pan",
+    name: "Budín de Pan",
+    spanishName: "Budín de Pan",
+    description: "Argentina's beloved bread pudding — a custardy, caramel-topped dessert that transforms stale bread into pure comfort. Every Argentine grandmother has her own version, and it's the ultimate waste-nothing recipe.",
+    seoKeywords: ["budin de pan recipe", "argentine bread pudding", "budin de pan argentino", "caramel bread pudding", "dulce de leche bread pudding"],
+    category: "dessert",
+    region: "Nationwide",
+    difficulty: "easy",
+    prepTime: "20 min",
+    cookTime: "50 min",
+    totalTime: "5 hrs (including chilling)",
+    servings: 8,
+    image: "/images/recipes/budin-de-pan.webp",
+    calories: 340,
+    protein: 10,
+    carbs: 48,
+    fat: 13,
+    history: "Budín de pan is the quintessential Argentine thrift dessert, born from the tradition of never wasting food. Every household accumulated stale bread, and resourceful cooks turned it into this rich custard dessert. Italian and Spanish immigrants both had similar traditions, and the Argentine version merged them, adding the ever-present dulce de leche as a topping. It remains a staple of Sunday family lunches and neighborhood bakeries.",
+    whereToFind: [
+      "Every panadería (bakery) and rotisería in Argentina",
+      "Traditional bodegones and neighborhood restaurants",
+      "Homemade — this is classic grandmother cooking"
+    ],
+    storageInstructions: "Refrigerate covered for up to 4 days. Serve cold or at room temperature. Can be frozen for up to 2 months — thaw in the refrigerator overnight.",
+    winePairing: "Late-harvest Torrontés or a glass of sweet Moscatel",
+    ingredients: [
+      {
+        section: "Caramel",
+        items: [
+          "150g (3/4 cup) sugar",
+          "2 tbsp water"
+        ]
+      },
+      {
+        section: "Pudding",
+        items: [
+          "300g (about 6 cups) stale bread, torn into pieces (French bread or white bread)",
+          "750ml (3 cups) whole milk",
+          "4 large eggs",
+          "150g (3/4 cup) sugar",
+          "1 tsp vanilla extract",
+          "Zest of 1 lemon",
+          "3 tbsp dulce de leche (for serving)"
+        ]
+      }
+    ],
+    instructions: [
+      "Tear the stale bread into small pieces and place in a large bowl. Pour warm milk over the bread and let it soak for 30 minutes until completely soft.",
+      "Meanwhile, make the caramel: heat sugar and water in a saucepan over medium heat, swirling (don't stir) until it turns deep amber. Pour into a loaf pan or bundt mold, tilting to coat the bottom and sides. Let harden.",
+      "Preheat oven to 350°F (180°C).",
+      "Mash the soaked bread and milk together with a fork until you have a smooth, porridge-like consistency.",
+      "In a separate bowl, whisk eggs with sugar, vanilla, and lemon zest.",
+      "Combine the egg mixture with the bread mixture, stirring well until fully incorporated.",
+      "Pour into the caramel-lined mold. Place the mold in a larger baking dish and fill the outer dish with hot water halfway up the sides (baño María).",
+      "Bake for 45-50 minutes until set and a knife inserted in the center comes out clean.",
+      "Let cool completely, then refrigerate for at least 4 hours or overnight.",
+      "To unmold, run a knife around the edges and invert onto a plate. The caramel will flow over the pudding.",
+      "Serve slices drizzled with dulce de leche."
+    ],
+    tips: [
+      "The bread must be truly stale — fresh bread has too much moisture and makes a gummy pudding. Leave bread out uncovered for a day or two.",
+      "The water bath (baño María) is essential for even, gentle cooking. Without it, the edges will overcook while the center stays raw.",
+      "Some families add raisins soaked in rum — a delicious addition if you like dried fruit."
+    ]
+  },
+  {
+    slug: "tamales-nortenos",
+    name: "Tamales Norteños",
+    spanishName: "Tamales Norteños",
+    description: "Northern Argentine tamales made with corn dough stuffed with spiced beef, wrapped in dried corn husks and steamed. A labor-intensive dish traditionally made in large batches by the whole family.",
+    seoKeywords: ["tamales nortenos recipe", "argentine tamales", "tamales argentinos", "tamales salteños", "northern argentine tamales"],
+    category: "main",
+    region: "Northwest (Salta, Jujuy)",
+    difficulty: "hard",
+    prepTime: "1 hr 30 min",
+    cookTime: "2 hrs",
+    totalTime: "3.5 hrs",
+    servings: 12,
+    image: "/images/recipes/tamales-nortenos.webp",
+    calories: 380,
+    protein: 18,
+    carbs: 42,
+    fat: 16,
+    history: "Tamales have been made in the Argentine northwest for centuries, predating Spanish colonization. The Diaguita and other indigenous peoples wrapped corn paste around wild game and cooked it in embers. Spanish colonists added beef and pork, and the tamaleada — a communal tamal-making gathering — became a social tradition. In Salta and Jujuy, families still make hundreds of tamales in a single session, with everyone assigned a role: mixing, filling, wrapping, or tying.",
+    whereToFind: [
+      "Markets in Salta and Jujuy — sold by the dozen",
+      "Feria de Mataderos in Buenos Aires (Sundays)",
+      "Northwestern food festivals (especially during Carnival)"
+    ],
+    storageInstructions: "Refrigerate cooked tamales for up to 4 days. Freeze for up to 3 months. Reheat by steaming for 15-20 minutes from frozen.",
+    winePairing: "Torrontés from the Calchaquí Valley",
+    ingredients: [
+      {
+        section: "For the dough (masa)",
+        items: [
+          "500g (3½ cups) fine cornmeal (harina de maíz) or masa harina",
+          "200ml (3/4 cup + 2 tbsp) beef broth, warm",
+          "100g (7 tbsp) beef fat (grasa de pella) or lard, melted",
+          "1 tsp salt",
+          "1 tsp smoked paprika",
+          "1/2 tsp ground cumin"
+        ]
+      },
+      {
+        section: "For the filling",
+        items: [
+          "500g (1 lb) beef chuck, cut into small cubes",
+          "1 large onion, finely diced",
+          "2 green onions (cebolla de verdeo), chopped",
+          "2 tsp ground cumin",
+          "2 tsp sweet paprika",
+          "1 tsp red pepper flakes (ají molido)",
+          "Salt and pepper to taste",
+          "2 tbsp beef fat or oil for cooking"
+        ]
+      },
+      {
+        section: "For wrapping",
+        items: [
+          "24 large dried corn husks, soaked in hot water for 1 hour",
+          "Kitchen twine or strips of corn husk for tying"
+        ]
+      }
+    ],
+    instructions: [
+      "Prepare the filling first: heat beef fat in a skillet over medium heat. Brown the beef cubes in batches, then remove and set aside.",
+      "In the same pan, sauté onion until soft. Add green onions, cumin, paprika, and red pepper flakes. Cook 2 minutes until fragrant.",
+      "Return the beef to the pan, season with salt and pepper, add a splash of water, and simmer covered for 15 minutes. The beef should be tender but not falling apart. Let cool.",
+      "Make the dough: combine cornmeal, salt, paprika, and cumin. Add melted beef fat and warm broth gradually, mixing with your hands until you have a soft, pliable dough that holds together. It should be the consistency of thick hummus.",
+      "Drain the corn husks and pat dry. Lay two husks overlapping to form a wider surface.",
+      "Spread about 3 tablespoons of dough onto the center of the husks, forming a rectangle about 4x3 inches.",
+      "Place 2 tablespoons of the beef filling in the center of the dough.",
+      "Fold one side of the husk over the filling, then the other side. Fold the bottom up and the top down to form a packet. Tie securely with twine or a strip of corn husk.",
+      "Repeat with remaining dough and filling — you should get about 12 tamales.",
+      "Stand the tamales upright in a large steamer pot (open end up). Steam over simmering water for 1.5-2 hours.",
+      "The tamales are done when the dough pulls away cleanly from the husk when you peel one open.",
+      "Let rest 10 minutes before serving. Unwrap at the table."
+    ],
+    tips: [
+      "The fat in the dough is essential — it keeps the masa moist and prevents it from drying out during steaming. Don't reduce it.",
+      "Make tamales as a group activity — it's the traditional way and much more efficient (and fun) with extra hands.",
+      "If the dough feels dry, add more broth a tablespoon at a time. If too wet, add more cornmeal."
+    ]
+  },
+  {
+    slug: "submarino",
+    name: "Submarino",
+    spanishName: "Submarino",
+    description: "Argentina's charming take on hot chocolate — a bar of dark chocolate 'submarined' into a cup of steaming hot milk, where it slowly melts as you stir. A café ritual loved by kids and adults alike.",
+    seoKeywords: ["submarino recipe", "argentine hot chocolate", "submarino argentina", "chocolate con leche", "buenos aires cafe drink"],
+    category: "dessert",
+    region: "Nationwide",
+    difficulty: "easy",
+    prepTime: "2 min",
+    cookTime: "5 min",
+    totalTime: "7 min",
+    servings: 1,
+    image: "/images/recipes/submarino.webp",
+    calories: 320,
+    protein: 10,
+    carbs: 32,
+    fat: 18,
+    history: "The submarino (literally 'submarine') is a beloved Argentine café tradition. Rather than pre-mixing cocoa powder into milk, cafés serve a cup of steaming hot milk with a bar of chocolate on the side. You plunge the chocolate into the milk — like a submarine diving — and stir as it melts. The ritual of watching the chocolate dissolve is half the pleasure. It's a winter staple in every confitería (café) in Argentina, and a rite of childhood.",
+    whereToFind: [
+      "Every confitería and café in Argentina",
+      "Café Tortoni (Buenos Aires) — iconic setting",
+      "Richmond Café (Florida street) — classic porteño experience"
+    ],
+    storageInstructions: "Must be consumed immediately — this is a made-to-order drink.",
+    winePairing: "Pairs with medialunas (croissants) for a classic merienda",
+    ingredients: [
+      {
+        items: [
+          "250ml (1 cup) whole milk",
+          "1 bar (40-50g) dark or milk chocolate (Águila brand is traditional)",
+          "Sugar to taste (optional)"
+        ]
+      }
+    ],
+    instructions: [
+      "Heat the milk in a small saucepan over medium heat until steaming hot but not boiling. Small bubbles should form around the edges.",
+      "Pour the hot milk into a wide cup or mug.",
+      "Place the chocolate bar on a small plate or saucer beside the cup.",
+      "To drink, plunge the chocolate bar into the hot milk — the 'submarine' — and let it sit for 30 seconds.",
+      "Stir gently with a spoon, watching the chocolate melt and swirl into the milk.",
+      "Continue stirring until the chocolate is fully dissolved or enjoy it in stages, alternating between milky sips and chocolatey ones."
+    ],
+    tips: [
+      "The quality of the chocolate bar makes all the difference. In Argentina, Águila chocolate bars are the classic choice. Use any good-quality chocolate with at least 50% cacao.",
+      "Don't boil the milk — it needs to be hot enough to melt the chocolate but not scalded, which changes the taste.",
+      "This is a ritual, not a recipe. The pleasure is in the slow melting and stirring. Don't rush it."
+    ]
+  },
+  {
+    slug: "fernet-con-coca",
+    name: "Fernet con Coca",
+    spanishName: "Fernet con Coca",
+    description: "Argentina's unofficial national cocktail — bitter Fernet Branca mixed with Coca-Cola, served in a large glass and often shared among friends. An acquired taste that becomes an obsession.",
+    seoKeywords: ["fernet con coca recipe", "argentine cocktail", "fernet branca coca cola", "fernet argentina", "cordoba drink"],
+    category: "appetizer",
+    region: "Córdoba (origin), Nationwide",
+    difficulty: "easy",
+    prepTime: "2 min",
+    cookTime: "0 min",
+    totalTime: "2 min",
+    servings: 1,
+    image: "/images/recipes/fernet-con-coca.webp",
+    calories: 210,
+    protein: 0,
+    carbs: 28,
+    fat: 0,
+    history: "Fernet Branca is an Italian herbal bitter, but Argentina consumes more of it than Italy and the rest of the world combined. The tradition of mixing it with Coca-Cola started in Córdoba in the 1980s and spread nationwide. Today, Argentina consumes over 25 million liters of Fernet annually. In Córdoba, it's served in large shared glasses at parties (previas), and the person who mixes it holds a position of social responsibility — the ratio must be perfect.",
+    whereToFind: [
+      "Everywhere in Argentina — bars, clubs, house parties",
+      "Córdoba is the spiritual home of fernet con coca",
+      "Any kiosco sells the ingredients"
+    ],
+    storageInstructions: "Must be consumed immediately. Fernet Branca keeps indefinitely in the bottle.",
+    winePairing: "This IS the drink — serve alongside asado, pizza, or during a previa (pre-party)",
+    ingredients: [
+      {
+        items: [
+          "60ml (2 oz) Fernet Branca",
+          "200ml (7 oz) Coca-Cola (must be very cold, preferably from a glass bottle)",
+          "Ice cubes",
+          "Tall glass (a large cup or tumbler — traditionally shared)"
+        ]
+      }
+    ],
+    instructions: [
+      "Fill a tall glass about one-third full with ice cubes.",
+      "Pour the Fernet Branca over the ice. The traditional ratio is about 30% Fernet to 70% Coca-Cola, but this varies by preference.",
+      "Slowly pour the cold Coca-Cola down the side of the glass to preserve carbonation. Don't dump it in — you'll lose the fizz.",
+      "Stir gently once or twice with a spoon or straw. Don't over-stir.",
+      "Serve immediately. In a social setting, pass the glass around — it's a communal drink.",
+      "Take your first sip. If you're new to Fernet, start with less Fernet and more Coca-Cola."
+    ],
+    tips: [
+      "The Coca-Cola MUST be ice cold and freshly opened — warm or flat Coca-Cola ruins the drink. Glass bottles are preferred over plastic for better carbonation.",
+      "Your first fernet con coca will taste like mouthwash. By your third, you'll be hooked. Give it a chance.",
+      "In Córdoba, the mixer is a position of honor at parties. Getting the ratio right is taken very seriously."
+    ]
+  },
+  {
+    slug: "pizza-argentina",
+    name: "Pizza Argentina",
+    spanishName: "Pizza de Muzzarella",
+    description: "Buenos Aires-style pizza is nothing like its Italian ancestor — thick, bready crust piled high with an obscene amount of mozzarella cheese, with tomato sauce drizzled on top. Eaten standing at the counter with a slice of fainá on top.",
+    seoKeywords: ["pizza argentina recipe", "buenos aires pizza", "argentine pizza", "pizza de muzzarella", "porteño pizza"],
+    category: "main",
+    region: "Buenos Aires",
+    difficulty: "medium",
+    prepTime: "30 min",
+    cookTime: "25 min",
+    totalTime: "2 hrs (including rising)",
+    servings: 6,
+    image: "/images/recipes/pizza-argentina.webp",
+    calories: 520,
+    protein: 24,
+    carbs: 54,
+    fat: 24,
+    history: "Argentine pizza descended from the Neapolitan style brought by Italian immigrants, but evolved into something unrecognizable to Italians. The crust grew thicker and breadier, the cheese was piled on in massive quantities (always muzzarella, the Argentine spelling), and — heresy in Italy — the tomato sauce was often spooned on top of the cheese. The first porteño pizzerias opened in La Boca in the early 1900s, and the style quickly defined Buenos Aires street food culture.",
+    whereToFind: [
+      "Pizzería Güerrín (Av. Corrientes 1368, BA) — the cathedral of porteño pizza",
+      "Banchero (Av. Corrientes 1300, BA) — since 1932",
+      "El Cuartito (Talcahuano 937, BA) — open since 1934, walls covered in sports memorabilia"
+    ],
+    storageInstructions: "Refrigerate leftover slices for up to 2 days. Reheat in a hot oven (425°F/220°C) for 8-10 minutes. Porteño pizza actually reheats well due to its thick crust.",
+    winePairing: "House red wine (vino tinto de la casa) or a cold beer",
+    ingredients: [
+      {
+        section: "For the dough",
+        items: [
+          "500g (4 cups) bread flour",
+          "325ml (1⅓ cups) warm water",
+          "10g (1 packet) active dry yeast",
+          "2 tbsp olive oil",
+          "1 tsp sugar",
+          "1½ tsp salt"
+        ]
+      },
+      {
+        section: "For the topping",
+        items: [
+          "500g (1 lb) low-moisture mozzarella, thickly sliced (not shredded)",
+          "1 cup tomato sauce (smooth, not chunky)",
+          "2 tbsp olive oil",
+          "1 tsp dried oregano",
+          "Green olives, halved (optional but traditional)"
+        ]
+      }
+    ],
+    instructions: [
+      "Dissolve yeast and sugar in warm water. Let stand 10 minutes until foamy.",
+      "Combine flour and salt in a large bowl. Add yeast mixture and olive oil. Mix until a dough forms, then knead for 10 minutes until smooth and elastic.",
+      "Place in an oiled bowl, cover, and let rise 1 hour until doubled.",
+      "Punch down and press the dough into an oiled 14-inch round baking pan, pushing it up the sides slightly. The dough should be about 1/2 inch thick — this is NOT thin crust pizza.",
+      "Let the dough rest in the pan for 20 minutes for a second short rise.",
+      "Layer thick slices of mozzarella over the entire surface, edge to edge. Argentine pizza is defined by its excessive cheese — don't be shy.",
+      "Spoon tomato sauce in stripes or dollops on top of the cheese (yes, sauce goes ON TOP of the cheese — this is the Argentine way).",
+      "Drizzle with olive oil, scatter green olives if using, and sprinkle with oregano.",
+      "Bake at 450°F (230°C) on the lowest rack for 20-25 minutes until the crust is golden and the cheese is bubbling with golden spots.",
+      "Let rest 5 minutes, then cut into squares — not triangles."
+    ],
+    tips: [
+      "Argentine pizza is cut into squares (a la piedra), not triangles. Use kitchen scissors for clean cuts.",
+      "The cheese should be sliced thick, not shredded — this creates the characteristic stretchy, gooey pull.",
+      "Don't skimp on the cheese. If you think you've added enough, add more. This is Buenos Aires pizza, not a diet."
+    ]
+  },
+  {
+    slug: "bondiola",
+    name: "Bondiola al Pan",
+    spanishName: "Bondiola al Pan",
+    description: "A slow-roasted pork shoulder sandwich that's one of Buenos Aires' best street foods. The bondiola is roasted for hours until falling-apart tender, then piled into crusty bread with chimichurri and salsa criolla.",
+    seoKeywords: ["bondiola recipe", "argentine pork sandwich", "bondiola al pan", "street food buenos aires", "slow roast pork shoulder"],
+    category: "main",
+    region: "Buenos Aires",
+    difficulty: "medium",
+    prepTime: "20 min",
+    cookTime: "3 hrs",
+    totalTime: "3 hrs 20 min",
+    servings: 8,
+    image: "/images/recipes/bondiola.webp",
+    calories: 520,
+    protein: 32,
+    carbs: 38,
+    fat: 26,
+    history: "Bondiola (pork shoulder or neck) became a street food star in Buenos Aires in the 2000s, as food truck and market culture grew. Vendors would slow-roast whole bondiolas over charcoal for hours, then carve them to order into crusty rolls. The trend exploded at events like Buenos Aires Market and Masticar food festival. Today, bondiola al pan stands are fixtures at outdoor markets, festivals, and the Costanera Sur waterfront.",
+    whereToFind: [
+      "Street food markets and festivals in Buenos Aires",
+      "Costanera Sur food vendors",
+      "Buenos Aires Market (rotating locations)",
+      "Feria de Mataderos (Sundays)"
+    ],
+    storageInstructions: "Refrigerate cooked bondiola for up to 4 days. Reheat gently in a 300°F (150°C) oven wrapped in foil with a splash of broth. Shred and assemble sandwiches fresh.",
+    winePairing: "Malbec from Mendoza or a cold craft beer",
+    ingredients: [
+      {
+        section: "For the bondiola",
+        items: [
+          "1.5 kg (3.3 lbs) boneless pork shoulder (bondiola/coppa)",
+          "4 cloves garlic, minced",
+          "2 tbsp smoked paprika",
+          "1 tbsp ground cumin",
+          "1 tbsp dried oregano",
+          "2 tbsp olive oil",
+          "1 cup beef or chicken broth",
+          "Salt and black pepper"
+        ]
+      },
+      {
+        section: "For serving",
+        items: [
+          "8 crusty bread rolls (pan francés)",
+          "Chimichurri sauce",
+          "Salsa criolla (diced onion, tomato, bell pepper in vinegar and oil)"
+        ]
+      }
+    ],
+    instructions: [
+      "Score the surface of the pork shoulder in a crosshatch pattern, about 1/2 inch deep.",
+      "Mix garlic, paprika, cumin, oregano, olive oil, salt, and pepper into a paste. Rub thoroughly all over the pork, pressing into the scores.",
+      "Let the pork marinate at room temperature for 30 minutes (or overnight in the fridge for best results).",
+      "Preheat oven to 325°F (160°C). Place the pork in a roasting pan and pour the broth around it.",
+      "Cover tightly with foil and roast for 2 hours.",
+      "Remove the foil, increase heat to 400°F (200°C), and roast another 45-60 minutes until the exterior is deeply caramelized and the internal temperature reaches 190°F (88°C).",
+      "Rest the meat for 15 minutes, then shred or slice thickly against the grain.",
+      "Toast the bread rolls lightly on the grill or in the oven.",
+      "Pile shredded bondiola onto the bread, spoon chimichurri over the meat, and top with salsa criolla."
+    ],
+    tips: [
+      "Low and slow is the key — rushing the cook at high heat will result in tough, dry pork. The long roast at low temperature renders the fat and collagen.",
+      "Scoring the meat allows the spice rub to penetrate deeper and creates more crispy surface area.",
+      "The bread matters — it needs to be crusty enough to hold up to the juicy meat without falling apart."
+    ]
+  },
+  {
+    slug: "matambre-a-la-pizza",
+    name: "Matambre a la Pizza",
+    spanishName: "Matambre a la Pizza",
+    description: "A thin beef flank topped with tomato sauce, melted mozzarella, and olives — essentially pizza made on a steak instead of dough. A uniquely Argentine creation that's a staple of every parrilla.",
+    seoKeywords: ["matambre a la pizza recipe", "argentine pizza steak", "matambre pizza", "grilled beef with cheese", "parrilla recipe"],
+    category: "main",
+    region: "Buenos Aires / Nationwide",
+    difficulty: "medium",
+    prepTime: "10 min",
+    cookTime: "20 min",
+    totalTime: "30 min",
+    servings: 4,
+    image: "/images/recipes/matambre-a-la-pizza.webp",
+    calories: 480,
+    protein: 38,
+    carbs: 8,
+    fat: 34,
+    history: "Matambre a la pizza combines two Argentine obsessions: beef and pizza. The dish likely originated in the parrillas of Buenos Aires in the mid-20th century, where creative grill masters began topping the thin matambre cut with pizza ingredients. The name 'matambre' means 'hunger killer' (mata-hambre), referring to the thin layer of meat between the cow's hide and ribs. Topping it 'a la pizza' turned a simple cut into a restaurant favorite.",
+    whereToFind: [
+      "Every parrilla in Argentina has it on the menu",
+      "Don Julio (Palermo) — premium version",
+      "La Cabrera (Palermo) — another top-tier parrilla"
+    ],
+    storageInstructions: "Best eaten immediately off the grill. Leftovers can be refrigerated for 1-2 days and reheated in a hot oven.",
+    winePairing: "Medium-bodied Malbec",
+    ingredients: [
+      {
+        items: [
+          "1 matambre (thin flank steak), about 800g, pounded to even thickness",
+          "1 cup tomato sauce (smooth)",
+          "250g (9 oz) mozzarella cheese, sliced",
+          "1 tsp dried oregano",
+          "Green olives, halved",
+          "1 roasted red pepper, sliced (optional)",
+          "Salt and pepper",
+          "Olive oil"
+        ]
+      }
+    ],
+    instructions: [
+      "Remove the matambre from the fridge 30 minutes before cooking. Season both sides with salt and pepper.",
+      "Preheat your grill to high heat. If using an oven, preheat to 450°F (230°C).",
+      "Grill the matambre for 4-5 minutes on the first side until nicely charred.",
+      "Flip the steak. Immediately spoon tomato sauce over the cooked side.",
+      "Layer mozzarella slices over the sauce. Add olive halves and roasted pepper if using.",
+      "Sprinkle with oregano and drizzle with a touch of olive oil.",
+      "Close the grill lid (or transfer to the oven) and cook for 5-7 minutes until the cheese is melted and bubbling and the meat is cooked through.",
+      "Transfer to a cutting board. Let rest 3 minutes, then slice into strips and serve."
+    ],
+    tips: [
+      "The matambre should be thin and even — ask your butcher to butterfly and pound it if needed. Uneven thickness means uneven cooking.",
+      "Don't overcook the meat trying to melt the cheese — closing the grill lid or using the oven's broiler will melt the cheese without toughening the beef.",
+      "This works on a home grill, cast-iron skillet (start stovetop, finish under broiler), or directly on a parrilla."
+    ]
+  },
+  {
+    slug: "revuelto-gramajo",
+    name: "Revuelto Gramajo",
+    spanishName: "Revuelto Gramajo",
+    description: "Argentina's classic late-night scramble — thin shoestring fries, diced ham, and peas tossed with scrambled eggs. A beloved bar and restaurant dish that's the Argentine answer to 2 AM hunger.",
+    seoKeywords: ["revuelto gramajo recipe", "argentine egg scramble", "gramajo recipe", "ham and egg dish argentina", "late night argentine food"],
+    category: "main",
+    region: "Buenos Aires",
+    difficulty: "easy",
+    prepTime: "10 min",
+    cookTime: "15 min",
+    totalTime: "25 min",
+    servings: 4,
+    image: "/images/recipes/revuelto-gramajo.webp",
+    calories: 420,
+    protein: 18,
+    carbs: 32,
+    fat: 26,
+    history: "Revuelto Gramajo is named after Colonel Artemio Gramajo, an aide-de-camp to President Julio Roca in the 1880s. Legend says Gramajo invented the dish at a Buenos Aires social club when he asked the kitchen to scramble whatever they had on hand — potatoes, ham, and eggs. Whether the story is true or not, the dish became a fixture of Argentine restaurant culture, particularly as a late-night dish after theater or nightlife.",
+    whereToFind: [
+      "Classic Buenos Aires restaurants and bodegones",
+      "Available on most parrilla menus",
+      "Traditional late-night dining spots along Av. Corrientes"
+    ],
+    storageInstructions: "Best eaten immediately. Does not store or reheat well — the potatoes lose their crispness.",
+    winePairing: "A cold Quilmes lager or crisp white wine",
+    ingredients: [
+      {
+        items: [
+          "4 medium potatoes, peeled and cut into thin shoestring fries (or use frozen shoestring fries)",
+          "200g (7 oz) cooked ham (jamón cocido), diced into small cubes",
+          "6 large eggs",
+          "1/2 cup green peas (fresh or frozen, blanched)",
+          "2 tbsp butter",
+          "Oil for frying potatoes",
+          "Salt and pepper to taste"
+        ]
+      }
+    ],
+    instructions: [
+      "Cut potatoes into thin shoestring strips (about matchstick size). Pat dry thoroughly with paper towels.",
+      "Heat oil in a deep pan to 350°F (175°C). Fry the potato strips in batches until golden and crispy, about 3-4 minutes per batch. Drain on paper towels and season with salt.",
+      "In a large skillet, melt butter over medium heat. Add diced ham and cook for 2 minutes until lightly golden.",
+      "Add the green peas and stir for 1 minute.",
+      "Beat the eggs lightly with salt and pepper. Pour into the skillet with the ham and peas.",
+      "Stir gently with a spatula, cooking the eggs until they're just set but still soft and creamy — about 2 minutes. Do not overcook.",
+      "Add the crispy shoestring fries and toss everything together quickly. The fries should stay mostly crispy.",
+      "Serve immediately on warm plates."
+    ],
+    tips: [
+      "The potatoes must be thin shoestring fries — thick-cut fries are wrong for this dish. They need to be crispy enough to hold up when tossed with the wet eggs.",
+      "The eggs should be barely set — soft and creamy, not rubbery. Remove from heat while they still look slightly underdone; carry-over heat will finish them.",
+      "Frozen shoestring fries (papas pay) are a perfectly acceptable shortcut and what many Argentine restaurants actually use."
+    ]
+  },
+  {
+    slug: "pastelitos",
+    name: "Pastelitos Criollos",
+    spanishName: "Pastelitos",
+    description: "Flaky fried pastries filled with quince paste (membrillo) or sweet potato paste (batata), traditionally eaten on May 25th and other national holidays. Crunchy, sweet, and deeply nostalgic.",
+    seoKeywords: ["pastelitos recipe", "argentine pastries", "pastelitos criollos", "fried pastries argentina", "membrillo pastries"],
+    category: "dessert",
+    region: "Nationwide",
+    difficulty: "medium",
+    prepTime: "30 min",
+    cookTime: "20 min",
+    totalTime: "50 min",
+    servings: 12,
+    image: "/images/recipes/pastelitos.webp",
+    calories: 260,
+    protein: 3,
+    carbs: 34,
+    fat: 13,
+    history: "Pastelitos are one of Argentina's most traditional sweets, dating back to the colonial era. They've been sold in the streets since the May Revolution of 1810 — legend says vendors sold them in the Plaza de Mayo during the revolution itself. Today, eating pastelitos on May 25th (Revolution Day) is as important as eating locro. Vendors fry them fresh on street corners during national holidays, and the smell of hot oil and sugar syrup is synonymous with Argentine patriotism.",
+    whereToFind: [
+      "Street vendors during national holidays (May 25th, July 9th)",
+      "Panaderías and confiterías throughout Argentina",
+      "Feria de Mataderos (Sundays)"
+    ],
+    storageInstructions: "Best eaten within hours of frying. They lose crispness quickly. Store at room temperature in a paper bag for up to 1 day — do not refrigerate or they'll go soggy.",
+    winePairing: "Mate cocido (sweet tea) or café con leche",
+    ingredients: [
+      {
+        section: "For the pastry",
+        items: [
+          "2 sheets puff pastry (store-bought is fine), thawed",
+          "Oil for deep frying (enough for 2 inches in pot)",
+          "1 egg white, lightly beaten (for sealing)"
+        ]
+      },
+      {
+        section: "For the filling",
+        items: [
+          "200g (7 oz) dulce de membrillo (quince paste), cut into small rectangles",
+          "200g (7 oz) dulce de batata (sweet potato paste), cut into small rectangles"
+        ]
+      },
+      {
+        section: "For the syrup glaze",
+        items: [
+          "1 cup sugar",
+          "1/2 cup water",
+          "1 tbsp lemon juice"
+        ]
+      }
+    ],
+    instructions: [
+      "Make the syrup: boil sugar, water, and lemon juice until slightly thickened (about 5 minutes). Keep warm.",
+      "Cut puff pastry sheets into 4-inch squares. You should get about 12 squares.",
+      "Place a small rectangle of membrillo or batata in the center of each square.",
+      "Brush the edges with egg white. Fold the pastry diagonally to form a triangle, pressing edges firmly to seal. Use a fork to crimp the edges.",
+      "For the traditional shape, use a sharp knife to make a small decorative slit or pattern on top.",
+      "Heat oil in a deep pot to 350°F (175°C). The oil should be at least 2 inches deep.",
+      "Fry pastelitos 2-3 at a time, turning once, until puffed and deeply golden — about 2-3 minutes per side.",
+      "Remove with a slotted spoon and immediately dip in the warm sugar syrup, coating all sides.",
+      "Place on a wire rack to drain. Let cool slightly before eating — the filling is molten hot inside."
+    ],
+    tips: [
+      "The oil temperature is critical — too cool and they absorb oil and become greasy, too hot and they brown before the inside cooks. Use a thermometer.",
+      "Seal the edges very well or the filling will leak out during frying. The fork crimp is both decorative and functional.",
+      "Make both membrillo and batata versions — guests will have a strong preference for one or the other. In Argentina, this is a passionate debate."
+    ]
+  },
+  {
+    slug: "tarta-de-jamon-y-queso",
+    name: "Tarta de Jamón y Queso",
+    spanishName: "Tarta de Jamón y Queso",
+    description: "Argentina's go-to savory pie — two layers of flaky pastry filled with ham, cheese, and a creamy egg custard. Found in every bakery, eaten at every picnic, and baked in every home kitchen. The ultimate everyday Argentine food.",
+    seoKeywords: ["tarta de jamon y queso recipe", "argentine ham cheese pie", "tarta argentina", "savory pie argentina", "tarta recipe"],
+    category: "main",
+    region: "Nationwide",
+    difficulty: "easy",
+    prepTime: "15 min",
+    cookTime: "35 min",
+    totalTime: "50 min",
+    servings: 6,
+    image: "/images/recipes/tarta-de-jamon-y-queso.webp",
+    calories: 380,
+    protein: 18,
+    carbs: 28,
+    fat: 24,
+    history: "The tarta (savory pie) is one of Argentina's most practical and beloved everyday foods. It descends from European quiches and savory pies brought by French, Italian, and Spanish immigrants. Argentine home cooks simplified the concept into an easy, forgiving recipe that uses pre-made tapas (pastry rounds) — available in every supermarket. Ham and cheese (jamón y queso) is the most classic filling, but variations with spinach, corn, tuna, or roasted vegetables are equally popular.",
+    whereToFind: [
+      "Every panadería and rotisería in Argentina",
+      "Home kitchens — this is everyday cooking",
+      "Bakeries sell individual portions and whole tartas"
+    ],
+    storageInstructions: "Refrigerate for up to 3 days. Serve cold, at room temperature, or reheated in a 350°F oven for 10 minutes. Freezes well unbaked for up to 2 months.",
+    winePairing: "Light Chardonnay from Mendoza or a young Malbec rosé",
+    ingredients: [
+      {
+        items: [
+          "2 sheets tapa para tarta (savory pie pastry) or shortcrust pastry rolled thin",
+          "200g (7 oz) cooked ham (jamón cocido), diced or sliced",
+          "200g (7 oz) mozzarella cheese, sliced or shredded",
+          "3 large eggs",
+          "200ml (3/4 cup + 2 tbsp) heavy cream or whole milk",
+          "1 tsp dried oregano",
+          "Salt and pepper to taste",
+          "1 tomato, sliced (for topping, optional)"
+        ]
+      }
+    ],
+    instructions: [
+      "Preheat oven to 375°F (190°C).",
+      "Line a 10-inch tart pan or pie dish with one sheet of pastry, pressing into the corners and up the sides. Prick the bottom with a fork in several places.",
+      "Layer the ham evenly over the bottom pastry.",
+      "Distribute the cheese over the ham.",
+      "In a bowl, whisk together eggs, cream, oregano, salt, and pepper until well combined.",
+      "Pour the egg mixture over the ham and cheese.",
+      "If using a top crust, lay the second pastry sheet over the filling. Press and crimp the edges to seal. Cut 3-4 small slits in the top to allow steam to escape. If going open-faced, arrange tomato slices on top instead.",
+      "Bake for 30-35 minutes until the pastry is golden and the filling is set.",
+      "Let cool for 10 minutes before slicing — this allows the filling to set fully."
+    ],
+    tips: [
+      "Pre-made tapas para tarta (pie pastry rounds) are available in every Argentine supermarket and are perfectly acceptable — even preferred by most home cooks.",
+      "Don't overfill with the egg mixture — it puffs up during baking and can overflow. Fill to about 3/4 of the pastry edge.",
+      "For a golden, shiny top crust, brush with beaten egg before baking."
+    ]
   }
 ];
 

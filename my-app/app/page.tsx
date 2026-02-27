@@ -31,9 +31,9 @@ import { useI18n } from "@/lib/i18n";
 
 const stats = [
   { value: "24", labelKey: "homepage.stats.provinces" },
-  { value: "15+", labelKey: "homepage.stats.cityGuides" },
+  { value: "20+", labelKey: "homepage.stats.cityGuides" },
   { value: "6", labelKey: "homepage.stats.regions" },
-  { value: "5", labelKey: "homepage.stats.visaTypes" },
+  { value: "9", labelKey: "homepage.stats.visaTypes" },
 ];
 
 const featuredCitySlugs = ["buenos-aires", "mendoza", "cordoba", "bariloche", "salta", "rosario"];

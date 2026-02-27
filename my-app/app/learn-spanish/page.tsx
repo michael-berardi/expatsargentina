@@ -181,6 +181,29 @@ const falseFriends = [
 export default function LearnSpanishPage() {
   return (
     <div className="container mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Learn Spanish",
+                "item": "https://expatsargentina.com/learn-spanish"
+              }
+            ]
+          })
+        }}
+      />
       {/* Hero */}
       <div className="text-center mb-12">
         <Badge variant="secondary" className="mb-4">

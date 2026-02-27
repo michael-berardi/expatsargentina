@@ -283,6 +283,29 @@ const visitingHome = [
 export default function LeavingGuidePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Leaving Argentina",
+                "item": "https://expatsargentina.com/leaving"
+              }
+            ]
+          })
+        }}
+      />
       {/* Hero */}
       <div className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('/images/guides/leaving-bg.webp')" }} />

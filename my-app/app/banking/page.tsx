@@ -3,16 +3,17 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  DollarSignIcon, 
-  BuildingIcon, 
-  ArrowRightLeftIcon, 
+import {
+  DollarSignIcon,
+  BuildingIcon,
+  ArrowRightLeftIcon,
   CreditCardIcon,
   AlertCircleIcon,
   CheckCircleIcon,
   ArrowRightIcon,
   WalletIcon
 } from "@/components/ui/icon";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
   title: "Banking & Money in Argentina - Expat Guide 2026",
@@ -56,6 +57,33 @@ const moneyTransferMethods = [
   },
 ];
 
+const faqs = [
+  {
+    question: "Can foreigners open bank accounts in Argentina?",
+    answer: "Yes, but it requires a DNI (national identity card), which takes 6+ months to obtain. Without a DNI, you can use digital wallets like MercadoPago (works with just a passport), crypto exchanges like Lemon Cash or Buenbit, and Western Union transfers. Once you have a DNI and CDI (tax ID), most major banks will open an account with proof of income.",
+  },
+  {
+    question: "What's the difference between the official and blue dollar rate?",
+    answer: "Argentina has multiple exchange rates. The official rate is set by the government and is what you get at banks, ATMs, and when using foreign credit cards. The blue dollar (dólar blue) is the unofficial market rate, typically 30-50% higher. Always exchange at the blue rate through Western Union, reputable exchange houses (cuevas), or crypto to get the most value from your money.",
+  },
+  {
+    question: "Which bank is best for expats?",
+    answer: "Banco Galicia and BBVA Argentina are popular choices among expats due to their modern digital platforms and relatively expat-friendly processes. Banco Santander Río is good if you have an international Santander account. However, until you get a DNI, MercadoPago is the most practical option for everyday payments and transfers.",
+  },
+  {
+    question: "Can I use my foreign credit/debit cards in Argentina?",
+    answer: "You can, but it's strongly discouraged. Foreign cards are processed at the official exchange rate, which means you lose 30-50% of your purchasing power compared to the blue dollar rate. Only use foreign cards for emergencies. Instead, bring USD cash and exchange it at the blue rate, or use Western Union to send yourself money.",
+  },
+  {
+    question: "How do I transfer money to Argentina?",
+    answer: "The most popular method is Western Union, which offers near-blue-dollar rates and requires only a passport to collect pesos. Crypto (USDT/Bitcoin) through local exchanges like Lemon Cash or Buenbit often gives the best rates. Wise (TransferWise) is convenient but uses the official rate. Avoid traditional bank wire transfers as they also use the official rate.",
+  },
+  {
+    question: "Is it safe to use ATMs in Argentina?",
+    answer: "ATMs are physically safe in well-lit, busy areas, but using them is financially disadvantageous because you receive the official exchange rate and pay foreign transaction fees. If you must use an ATM, use machines inside banks or shopping malls, cover your PIN, and avoid counting money at the machine. For everyday cash needs, Western Union is a much better option.",
+  },
+];
+
 const bankingTips = [
   "Bring USD cash for initial expenses - you'll get much better rates exchanging cash",
   "Open a local bank account for paying utilities and rent",
@@ -68,6 +96,43 @@ const bankingTips = [
 export default function BankingPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Banking",
+                "item": "https://expatsargentina.com/banking"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(f => ({
+              "@type": "Question",
+              "name": f.question,
+              "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+            }))
+          })
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
@@ -359,6 +424,25 @@ export default function BankingPage() {
                 </ul>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-8">
+              Frequently Asked Questions
+            </h2>
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, i) => (
+                <AccordionItem key={i} value={`faq-${i}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>

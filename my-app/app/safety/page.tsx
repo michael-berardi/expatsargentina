@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
   title: "Safety Guide for Buenos Aires 2026 | Honest, Practical Advice",
@@ -21,9 +22,73 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://expatsargentina.com/safety" },
 };
 
+const faqs = [
+  {
+    question: "Is Buenos Aires safe for expats?",
+    answer: "Yes, Buenos Aires is generally safe for expats, especially in popular neighborhoods like Palermo, Recoleta, and Belgrano. The city is statistically safer than most major US cities for violent crime. The main risk is petty theft, particularly phone snatching by motorcyclists. With basic street awareness and common-sense precautions, most expats live here without incident.",
+  },
+  {
+    question: "Which neighborhoods should I avoid?",
+    answer: "Avoid La Boca beyond the tourist area of Caminito, Retiro near the bus station at night, and the southern edges of Constitución. Villas (informal settlements) should be avoided entirely. During the day, most central neighborhoods are safe. At night, stick to well-lit, busy streets in Palermo, Recoleta, Belgrano, Puerto Madero, and Villa Crespo.",
+  },
+  {
+    question: "How can I protect myself from phone snatching?",
+    answer: "Phone snatching by motorcyclists is the most common crime in BA. Keep your phone in your front pocket, never use it while walking near the street or at traffic lights, and step into a shop doorway when you need to check your phone. Avoid using your phone near open bus windows. Consider using a phone case with a wrist strap for extra security.",
+  },
+  {
+    question: "Is it safe to walk at night?",
+    answer: "In Palermo, Recoleta, Belgrano, and Puerto Madero, walking at night is generally safe—people are out dining and socializing until very late. Stick to busy, well-lit streets. Avoid walking alone on empty side streets, especially in San Telmo, Microcentro, and areas near train stations. When in doubt, take an Uber or Cabify instead of walking.",
+  },
+  {
+    question: "Should I carry cash or use cards?",
+    answer: "Carry a moderate amount of cash (enough for the day) and keep it in a front pocket or money belt. Avoid carrying large amounts. Don't use foreign credit or debit cards due to the terrible exchange rate. For everyday purchases, use a local debit card or MercadoPago digital wallet. If you're mugged, hand over the cash without resistance—your safety is worth more than money.",
+  },
+  {
+    question: "What should I do if I'm robbed?",
+    answer: "Stay calm and don't resist, especially if a weapon is involved. Move to a safe, populated area afterward. Cancel your bank cards immediately. File a police report (denuncia) at the nearest comisaría if you need it for insurance—the tourist police at 0800-999-5000 speak English. Contact your embassy if your passport was stolen. For emergencies call 911.",
+  },
+];
+
 export default function SafetyPage() {
   return (
     <main className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Safety",
+                "item": "https://expatsargentina.com/safety"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(f => ({
+              "@type": "Question",
+              "name": f.question,
+              "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+            }))
+          })
+        }}
+      />
       {/* Hero */}
       <section className="bg-slate-900 text-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -905,6 +970,23 @@ export default function SafetyPage() {
                 </li>
               </ul>
             </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="mb-16">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-slate-900 mb-8">
+              Frequently Asked Questions
+            </h2>
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, i) => (
+                <AccordionItem key={i} value={`faq-${i}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </section>
 

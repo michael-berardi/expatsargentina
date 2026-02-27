@@ -1902,6 +1902,48 @@ export default function VisasPage() {
         </div>
       </section>
 
+      {/* Quick Links to All Visa Guides */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-4 text-center">All Visa & Immigration Guides</h2>
+            <p className="text-muted-foreground text-center mb-8">
+              Detailed guides for every stage of your immigration journey
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { href: "/visas/tourist", title: "Tourist Visa", desc: "90-day entry & extensions" },
+                { href: "/visas/digital-nomad", title: "Digital Nomad Visa", desc: "Remote work for 180 days" },
+                { href: "/visas/work", title: "Work Visa", desc: "Employment with Argentine companies" },
+                { href: "/visas/student", title: "Student Visa", desc: "University & language study" },
+                { href: "/visas/retirement", title: "Retirement Visa", desc: "Pensioners & passive income" },
+                { href: "/visas/investment", title: "Investment Visa", desc: "Business owners & investors" },
+                { href: "/visas/temporary", title: "Temporary Residency", desc: "1-3 year renewable status" },
+                { href: "/visas/permanent", title: "Permanent Residency", desc: "Long-term settlement" },
+                { href: "/visas/citizenship", title: "Citizenship", desc: "Argentine naturalization" },
+              ].map((visa) => (
+                <Link key={visa.href} href={visa.href} className="group">
+                  <Card className="h-full hover:shadow-md transition-shadow hover:border-primary/50">
+                    <CardContent className="pt-5 pb-4">
+                      <h3 className="font-semibold group-hover:text-primary transition-colors">{visa.title}</h3>
+                      <p className="text-sm text-muted-foreground">{visa.desc}</p>
+                    </CardContent>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-6">
+              <Button asChild variant="outline">
+                <Link href="/visas/compare">
+                  Compare Visa Types
+                  <Icon name="arrow-right" size="sm" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">

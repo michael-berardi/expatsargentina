@@ -74,6 +74,7 @@ export function Navbar() {
     { title: t("navigation.learnSpanish"), href: "/learn-spanish", description: locale === 'es' ? "Recursos para aprender idioma" : "Language learning resources" },
   ];
 
+  const foodLabel = locale === 'es' ? 'Comida' : 'Food';
   const foodItems = [
     { title: locale === 'es' ? "Guía de Comida" : "Food Guide", href: "/food", description: locale === 'es' ? "Todo sobre la comida argentina" : "Everything about Argentine food culture" },
     { title: locale === 'es' ? "Recetas" : "Recipes", href: "/food/recipes", description: locale === 'es' ? "Recetas auténticas argentinas" : "Authentic Argentine recipes with local tips" },
@@ -112,16 +113,16 @@ export function Navbar() {
               <NavigationMenuItem>
                 <NavigationMenuTrigger>{provincesLabel}</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                  <ul className="grid w-[360px] gap-1 p-2 md:w-[480px] md:grid-cols-2 text-left">
                     {provinceItems.map((item) => (
                       <li key={item.title}>
                         <NavigationMenuLink asChild>
                           <Link
                             href={item.href}
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-none">{item.title}</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            <div className="text-sm font-medium leading-tight">{item.title}</div>
+                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -135,16 +136,16 @@ export function Navbar() {
               <NavigationMenuItem>
                 <NavigationMenuTrigger>{citiesLabel}</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                  <ul className="grid w-[360px] gap-1 p-2 md:w-[480px] md:grid-cols-2 text-left">
                     {cityItems.map((item) => (
                       <li key={item.title}>
                         <NavigationMenuLink asChild>
                           <Link
                             href={item.href}
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-none">{item.title}</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            <div className="text-sm font-medium leading-tight">{item.title}</div>
+                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -158,16 +159,16 @@ export function Navbar() {
               <NavigationMenuItem>
                 <NavigationMenuTrigger>{visasLabel}</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                  <ul className="grid w-[360px] gap-1 p-2 md:w-[480px] md:grid-cols-2 text-left">
                     {visaItems.map((item) => (
                       <li key={item.title}>
                         <NavigationMenuLink asChild>
                           <Link
                             href={item.href}
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-none">{item.title}</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            <div className="text-sm font-medium leading-tight">{item.title}</div>
+                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -181,16 +182,16 @@ export function Navbar() {
               <NavigationMenuItem>
                 <NavigationMenuTrigger>{guidesLabel}</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                  <ul className="grid w-[360px] gap-1 p-2 md:w-[480px] md:grid-cols-2 text-left">
                     {guideItems.map((item) => (
                       <li key={item.href}>
                         <NavigationMenuLink asChild>
                           <Link
                             href={item.href}
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-none">{item.title as string}</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            <div className="text-sm font-medium leading-tight">{item.title as string}</div>
+                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>
@@ -204,16 +205,39 @@ export function Navbar() {
               <NavigationMenuItem>
                 <NavigationMenuTrigger>{investLabel}</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                  <ul className="grid w-[360px] gap-1 p-2 md:w-[480px] md:grid-cols-2 text-left">
                     {investItems.map((item) => (
                       <li key={item.href}>
                         <NavigationMenuLink asChild>
                           <Link
                             href={item.href}
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
                           >
-                            <div className="text-sm font-medium leading-none">{item.title}</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            <div className="text-sm font-medium leading-tight">{item.title}</div>
+                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
+                              {item.description}
+                            </p>
+                          </Link>
+                        </NavigationMenuLink>
+                      </li>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>{foodLabel}</NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[360px] gap-1 p-2 md:w-[400px] md:grid-cols-1 text-left">
+                    {foodItems.map((item) => (
+                      <li key={item.href}>
+                        <NavigationMenuLink asChild>
+                          <Link
+                            href={item.href}
+                            className="block select-none rounded-md no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-left items-start"
+                          >
+                            <div className="text-sm font-medium leading-tight">{item.title as string}</div>
+                            <p className="line-clamp-2 text-xs leading-relaxed text-muted-foreground text-left">
                               {item.description}
                             </p>
                           </Link>

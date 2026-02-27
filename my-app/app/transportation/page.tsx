@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import {
   Bus,
   Train,
@@ -63,9 +64,73 @@ const appLinks = {
   },
 };
 
+const faqs = [
+  {
+    question: "How do I get a SUBE card?",
+    answer: "You can buy a SUBE card at any subway station ticket counter, kioscos (convenience stores) with the SUBE sticker, or airport tourist desks at EZE and AEP. The card costs approximately $880 ARS. You only need your passport—no DNI required. Important: register your SUBE through the BA Mi Movil app to get 50% off fares. Unregistered cards pay double the fare.",
+  },
+  {
+    question: "Is Uber available in Argentina?",
+    answer: "Yes, Uber operates in Buenos Aires but in a legal gray area. Drivers may ask you to sit in the front seat to avoid conflicts with the taxi union. Cabify is more established and often preferred by locals. DiDi is also available as a backup option. All three are generally safe and reliable, with Cabify being the best option for airport pickups.",
+  },
+  {
+    question: "How much does a taxi cost in Buenos Aires?",
+    answer: "Taxi fares start at approximately $2,304 ARS with a per-kilometer rate of about $1,152 ARS. A short trip (2-3km) costs around $5,500 ARS, while a cross-city ride (8-10km) costs approximately $11,000 ARS. There's a 20% night surcharge from 10 PM to 6 AM. Always insist on the meter being used, and use radio taxis or ride-sharing apps for more predictable pricing.",
+  },
+  {
+    question: "How do I get from EZE airport to the city?",
+    answer: "The best options are: a pre-booked remis (private car) for $40-50 USD with fixed pricing, Manuel Tienda León shuttle bus for $15-20 USD, or Cabify/Uber for $25-35 USD. The cheapest option is Bus 8 for about $600 ARS but it takes 90-120 minutes. Avoid unofficial taxis inside the terminal who quote inflated prices. For Uber/Cabify, meet at the departures level.",
+  },
+  {
+    question: "Is the Buenos Aires subway safe?",
+    answer: "The subway (Subte) is generally safe during the day with normal urban precautions. Watch your pockets on crowded platforms, especially on Line A and Line D during rush hour (7:30-9:30 AM and 6:00-8:30 PM). Service ends around 11 PM and some stations can feel sketchy after dark. Keep bags in front of you and avoid displaying expensive phones. For late-night travel, use taxis or ride-sharing apps instead.",
+  },
+  {
+    question: "Can I drive with a foreign license?",
+    answer: "Tourists can drive with a valid foreign license and an International Driving Permit (IDP) for up to 6 months. However, driving in Buenos Aires is not recommended for newcomers—traffic is chaotic, parking is expensive ($150+/month), and public transport plus ride-sharing apps cover the city well. If you need a car for road trips, rent one for specific trips rather than owning one in the city.",
+  },
+];
+
 export default function TransportationPage() {
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Transportation",
+                "item": "https://expatsargentina.com/transportation"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(f => ({
+              "@type": "Question",
+              "name": f.question,
+              "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+            }))
+          })
+        }}
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
@@ -1355,6 +1420,23 @@ export default function TransportationPage() {
                 </ul>
               </CardContent>
             </Card>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-16 bg-muted/30 -mx-4 px-4 rounded-lg">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-8">
+              Frequently Asked Questions
+            </h2>
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, i) => (
+                <AccordionItem key={i} value={`faq-${i}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </section>
 

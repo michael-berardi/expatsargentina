@@ -3,15 +3,16 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  HomeIcon, 
-  DollarSignIcon, 
-  FileTextIcon, 
+import {
+  HomeIcon,
+  DollarSignIcon,
+  FileTextIcon,
   AlertTriangleIcon,
   CheckCircleIcon,
   ArrowRightIcon,
   MapPinIcon
 } from "@/components/ui/icon";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
   title: "Housing in Argentina - Renting Guide for Expats 2026",
@@ -71,6 +72,37 @@ const commonScams = [
   },
 ];
 
+const faqs = [
+  {
+    question: "Can foreigners rent apartments in Argentina?",
+    answer: "Yes, foreigners can rent apartments in Argentina. You don't need a DNI or residency to rent, though having one makes the process easier. Many landlords are accustomed to renting to foreigners, especially in popular expat neighborhoods like Palermo, Recoleta, and Belgrano. You'll need a valid passport and proof of income.",
+  },
+  {
+    question: "What is a 'garantía' and do I need one?",
+    answer: "A garantía is a property guarantee required by most landlords—essentially a local property owner who co-signs your lease. As a foreigner, you likely won't have one. Alternatives include paying a larger security deposit (3-6 months), using a garantía insurance company (seguro de caución, costing 1-1.5 months rent), or finding landlords who accept foreign income proof in lieu of a guarantee.",
+  },
+  {
+    question: "How can I rent without a DNI?",
+    answer: "Renting without a DNI is common for new expats. Options include: Airbnb for short-term stays while you search, Facebook groups (Expats BA, Buenos Aires Housing) for direct owner listings, expat-friendly real estate agents who specialize in foreign tenants, and offering to pay several months upfront to reassure landlords. Many temporary rental platforms don't require a DNI at all.",
+  },
+  {
+    question: "What's the average rent in Buenos Aires?",
+    answer: "As of 2026, rent is quoted in USD: shared apartment room $450-800, studio $700-950, 1-bedroom in Palermo $1,100-1,600, 1-bedroom in Belgrano $900-1,200, 2-bedroom in a nice building $1,800-2,400. Add $85-175/month for building expenses (expensas) and $60-110/month for utilities. Prices have doubled since 2023.",
+  },
+  {
+    question: "Should I use Airbnb or sign a lease?",
+    answer: "Start with Airbnb for your first 1-2 months to explore neighborhoods before committing. Airbnb is more expensive monthly but offers flexibility, no garantía requirement, and furnished apartments. For stays over 3 months, a lease saves 30-50% compared to Airbnb. Many expats use Airbnb initially then transition to a lease once they find the right neighborhood.",
+  },
+  {
+    question: "What neighborhoods are best for expats?",
+    answer: "Palermo (Hollywood/Soho) is the most popular for young expats—trendy, great nightlife, many English speakers. Recoleta is upscale and European-feeling, ideal for families. Belgrano is quieter and residential with good value. Villa Crespo is the up-and-coming option with lower rents. San Telmo suits those wanting bohemian charm. Each has distinct character and price points.",
+  },
+  {
+    question: "Are utilities included in rent?",
+    answer: "Usually not. Rent and utilities are separate in Argentina. You'll pay for electricity, gas, water, internet, and building expenses (expensas) on top of rent. Expensas ($85-175/month) cover building maintenance and shared amenities. Total utilities for a 1-bedroom run $60-110/month. Always clarify what's included before signing a lease—some furnished temporary rentals include utilities.",
+  },
+];
+
 const contractTips = [
   "Always get a written contract (contrato de alquiler)",
   "Contract should specify rent amount, deposit, and payment terms",
@@ -83,6 +115,43 @@ const contractTips = [
 export default function HousingPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://expatsargentina.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Housing",
+                "item": "https://expatsargentina.com/housing"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(f => ({
+              "@type": "Question",
+              "name": f.question,
+              "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+            }))
+          })
+        }}
+      />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
         <div className="container mx-auto px-4 py-4">
@@ -293,6 +362,25 @@ export default function HousingPage() {
                 show proof of stable foreign income and pay several months upfront.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-8">
+              Frequently Asked Questions
+            </h2>
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, i) => (
+                <AccordionItem key={i} value={`faq-${i}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>

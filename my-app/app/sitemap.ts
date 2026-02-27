@@ -42,6 +42,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/visas/retirement/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/visas/student/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/visas/investment/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/visas/tourist/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/visas/temporary/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/visas/permanent/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/visas/citizenship/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     // Food pages
     { url: `${BASE_URL}/food/`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/food/recipes/`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },

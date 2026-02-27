@@ -2,13 +2,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Argentina Visa Guide 2026 - All Visa Types, Requirements & Process",
-  description: "Complete guide to Argentine visas for expats. Digital nomad visa, work permits, retirement visa, student visa, and investment residency. Updated requirements for 2026.",
+  description: "Complete guide to Argentine visas for expats. Tourist entry, digital nomad visa, work permits, retirement, student, investment, temporary & permanent residency, and citizenship. Updated for 2026.",
   keywords: [
     "Argentina visa 2026",
     "Argentina digital nomad visa",
     "Argentina work permit",
     "Argentina retirement visa",
     "Argentina residency",
+    "Argentina citizenship",
+    "Argentina tourist visa extension",
+    "Argentina permanent residency",
     "moving to Argentina visa requirements",
   ],
   openGraph: {
