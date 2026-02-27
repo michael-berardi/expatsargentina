@@ -15,23 +15,32 @@ export const metadata: Metadata = {
     default: "Expats Argentina | Your Complete Guide to Living in Argentina",
     template: "%s | Expats Argentina",
   },
-  description: "The ultimate resource for expats moving to Argentina. Visa guides, cost of living data, neighborhood reviews, and expert advice for living in Buenos Aires and beyond.",
+  description: "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina. Not just Buenos Aires.",
   keywords: ["expats Argentina", "living in Argentina", "move to Argentina", "Buenos Aires expats", "Argentina visa", "digital nomad Argentina"],
   authors: [{ name: "Expats Argentina" }],
   creator: "Expats Argentina",
   metadataBase: new URL("https://expatsargentina.com"),
+  other: {
+    "theme-color": "#0d9488",
+    "apple-mobile-web-app-status-bar-style": "default",
+  },
+  icons: {
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://expatsargentina.com",
     siteName: "Expats Argentina",
     title: "Expats Argentina | Your Complete Guide to Living in Argentina",
-    description: "The ultimate resource for expats moving to Argentina. Visa guides, cost of living data, neighborhood reviews, and expert advice.",
+    description: "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina.",
+    images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Expats Argentina | Your Complete Guide to Living in Argentina",
-    description: "The ultimate resource for expats moving to Argentina. Visa guides, cost of living data, neighborhood reviews, and expert advice.",
+    description: "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina.",
+    images: ["/images/hero-argentina.webp"],
   },
   robots: {
     index: true,
@@ -54,9 +63,30 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} font-sans antialiased`}>
+        <a href="#main-content" className="skip-nav">
+          Skip to main content
+        </a>
         <Navbar />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <Footer />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Expats Argentina",
+              url: "https://expatsargentina.com",
+              description:
+                "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina.",
+              publisher: {
+                "@type": "Organization",
+                name: "Expats Argentina",
+                url: "https://expatsargentina.com",
+              },
+            }),
+          }}
+        />
         <Analytics />
       </body>
     </html>

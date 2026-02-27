@@ -15,7 +15,7 @@ import { cities } from "@/lib/data/argentina";
 export const metadata: Metadata = {
   title: "Best Cities for Expats in Argentina | Expats Argentina",
   description:
-    "Discover the best cities in Argentina for expats. Compare cost of living, safety, internet, neighborhoods, and lifestyle across Buenos Aires, Mendoza, Cordoba, Bariloche, and more.",
+    "Best cities in Argentina for expats. Compare cost of living, safety, internet, and lifestyle across Buenos Aires, Mendoza, Cordoba, and more.",
   keywords: [
     "best cities Argentina expats",
     "where to live Argentina",
@@ -108,12 +108,12 @@ export default function CitiesPage() {
 
                   <CardContent className="pt-4 pb-5 flex flex-col gap-4">
                     {/* Description (truncated) */}
-                    <p className="text-sm text-muted-foreground line-clamp-3">
+                    <p className="text-base md:text-sm text-muted-foreground line-clamp-3">
                       {city.description}
                     </p>
 
                     {/* Cost of Living */}
-                    <div className="flex items-center gap-2 text-sm">
+                    <div className="flex items-center gap-2 text-base md:text-sm">
                       <DollarSignIcon
                         size="sm"
                         className="text-teal-600 shrink-0"

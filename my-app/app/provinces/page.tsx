@@ -19,7 +19,7 @@ import {
 export const metadata: Metadata = {
   title: "Explore Argentina's Provinces",
   description:
-    "Discover all 24 provinces of Argentina. Compare cost of living, climate, safety, and expat appeal across every region — from Patagonia to the subtropical Northeast.",
+    "Explore all 24 provinces of Argentina. Compare cost of living, climate, safety, and expat appeal — from Patagonia to the Northeast.",
   keywords: [
     "Argentina provinces",
     "living in Argentina",
@@ -177,13 +177,13 @@ export default function ProvincesPage() {
                       </CardHeader>
 
                       <CardContent className="flex-grow flex flex-col">
-                        <p className="text-sm text-muted-foreground mb-4 line-clamp-3">
+                        <p className="text-base md:text-sm text-muted-foreground mb-4 line-clamp-3">
                           {province.description}
                         </p>
 
                         <div className="mt-auto space-y-3">
                           {/* Cost Range */}
-                          <div className="flex items-center gap-2 text-sm">
+                          <div className="flex items-center gap-2 text-base md:text-sm">
                             <DollarSignIcon
                               size="sm"
                               className="text-primary shrink-0"
@@ -195,7 +195,7 @@ export default function ProvincesPage() {
 
                           {/* Major Cities Preview */}
                           {province.majorCities.length > 0 && (
-                            <div className="flex items-start gap-2 text-sm">
+                            <div className="flex items-start gap-2 text-base md:text-sm">
                               <MapPinIcon
                                 size="sm"
                                 className="text-muted-foreground shrink-0 mt-0.5"

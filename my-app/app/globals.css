@@ -59,7 +59,7 @@
   --secondary: #f5f5f4;
   --secondary-foreground: #44403c;
   --muted: #f5f5f4;
-  --muted-foreground: #78716c;
+  --muted-foreground: #57534e;
   --accent: #f59e0b;
   --accent-foreground: #1c1917;
   --destructive: #ef4444;
@@ -104,7 +104,33 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground leading-relaxed;
+  }
+
+  /* Ensure WCAG 1.4.12 line-height minimum (1.5x) for body text */
+  p, li, dd, blockquote, figcaption {
+    line-height: 1.6;
+  }
+
+  /* Focus styles for keyboard accessibility */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ring;
+  }
+
+  /* Skip navigation link */
+  .skip-nav {
+    @apply sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[100]
+      focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md;
+  }
+
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
 

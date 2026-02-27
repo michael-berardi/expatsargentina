@@ -272,13 +272,13 @@ export default function Home() {
                         {regionProvinces.slice(0, 4).map((p) => (
                           <span
                             key={p.slug}
-                            className="text-xs bg-muted px-2 py-0.5 rounded-full text-muted-foreground"
+                            className="text-sm bg-muted px-2.5 py-1 rounded-full text-muted-foreground"
                           >
                             {p.name.replace(" (CABA)", "")}
                           </span>
                         ))}
                         {regionProvinces.length > 4 && (
-                          <span className="text-xs bg-muted px-2 py-0.5 rounded-full text-muted-foreground">
+                          <span className="text-sm bg-muted px-2.5 py-1 rounded-full text-muted-foreground">
                             +{regionProvinces.length - 4} more
                           </span>
                         )}
@@ -406,13 +406,13 @@ export default function Home() {
                         {province.name}
                       </h3>
                       <Badge
-                        className={`${region?.color || "bg-gray-500"} text-white border-0 text-[10px] px-1.5 py-0 flex-shrink-0`}
+                        className={`${region?.color || "bg-gray-500"} text-white border-0 text-xs px-1.5 py-0.5 flex-shrink-0`}
                       >
                         {province.region}
                       </Badge>
                     </div>
-                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                      <DollarSignIcon size="sm" className="w-3 h-3" />
+                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                      <DollarSignIcon size="sm" className="w-3.5 h-3.5" />
                       <span>{province.costRange}</span>
                     </div>
                   </Card>
@@ -472,18 +472,24 @@ export default function Home() {
               adjustments, and practical tips for every region. No spam, no fluff — just
               the information that matters.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+              <label htmlFor="newsletter-email" className="sr-only">
+                Email address
+              </label>
               <Input
+                id="newsletter-email"
                 type="email"
                 placeholder="your@email.com"
-                className="flex-1"
+                autoComplete="email"
+                className="flex-1 h-11"
+                aria-label="Email address for newsletter"
               />
-              <Button className="gap-2">
+              <Button type="submit" className="gap-2 h-11">
                 Subscribe
                 <ArrowRightIcon size="sm" />
               </Button>
-            </div>
-            <p className="text-xs text-muted-foreground mt-4">
+            </form>
+            <p className="text-sm text-muted-foreground mt-4">
               Join thousands of expats getting the weekly Argentina update. Unsubscribe anytime.
             </p>
           </div>

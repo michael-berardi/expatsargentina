@@ -56,9 +56,13 @@ export async function generateMetadata({
     };
   }
 
+  const desc = province.description.length > 155
+    ? province.description.slice(0, 155).replace(/\s+\S*$/, "") + "..."
+    : province.description;
+
   return {
     title: `${province.name} — Living in Argentina`,
-    description: province.description,
+    description: desc,
     keywords: [
       province.name,
       "Argentina",
@@ -68,7 +72,7 @@ export async function generateMetadata({
     ],
     openGraph: {
       title: `${province.name} | Expats Argentina`,
-      description: province.description,
+      description: desc,
       images: [{ url: province.image, width: 1200, height: 630 }],
     },
   };
