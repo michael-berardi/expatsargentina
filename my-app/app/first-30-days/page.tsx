@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { 
   PlaneIcon, 
   HomeIcon, 
@@ -682,6 +683,37 @@ const specificRecommendations = [
   },
 ];
 
+const faqs = [
+  {
+    question: "What's the first thing I should do when I arrive in Buenos Aires?",
+    answer: "Get cash and a local SIM card within your first day. Argentina runs on cash, and you'll need pesos immediately for taxis, food, and basic purchases. Get a prepaid SIM from Personal, Movistar, or Claro at any carrier store with your passport. Download WhatsApp before you arrive—everyone uses it here for everything from business to social life.",
+  },
+  {
+    question: "How do I get a SIM card in Buenos Aires?",
+    answer: "Visit any Personal, Movistar, or Claro store with your passport and ask for a 'chip prepago' (prepaid SIM). Personal has the best coverage and some English support. Plans start around $5-10/month for basic data. You can top up at kiosks or online. Make sure your phone is unlocked before arriving.",
+  },
+  {
+    question: "Can I open a bank account as a tourist in Argentina?",
+    answer: "It's very difficult as a tourist. Most banks require a DNI (Argentine ID) or at minimum a CDI (tax ID). Many expats skip formal banking entirely and use Western Union for transfers, home country credit cards with no foreign transaction fees, and cash for daily expenses. Wait until you have residency or at least a CDI before attempting to open an account.",
+  },
+  {
+    question: "How do I find an apartment in Buenos Aires?",
+    answer: "Book an Airbnb for your first 2-3 weeks, then search in person using ZonaProp, MercadoLibre, Facebook groups like 'Expats in Buenos Aires', and by walking neighborhoods looking for 'Alquila' signs. Never commit to a long-term rental before seeing it in person. You'll typically need proof of income, your passport, and 1-2 months deposit. The garantía (local co-signer) requirement is the biggest challenge for foreigners.",
+  },
+  {
+    question: "How much cash should I bring to Buenos Aires?",
+    answer: "Bring $2,000-3,000 USD in cash as a buffer for your first month. USD bills get significantly better exchange rates than ATM withdrawals or card payments. Use Western Union to send yourself money for the best rates, or exchange physical dollars at cuevas (exchange houses) recommended by your Airbnb host. Always carry smaller denominations—breaking large bills is difficult.",
+  },
+  {
+    question: "What are the most common mistakes new expats make in Buenos Aires?",
+    answer: "The biggest mistakes are: booking a long-term rental before arriving (photos lie), using ATMs for cash (terrible official exchange rate), not learning basic Spanish phrases, staying only in the expat bubble, expecting things to work on a fixed schedule (Argentine time is flexible), and bringing too much stuff from home when most things are available locally.",
+  },
+  {
+    question: "What's the realistic budget for the first month in Buenos Aires?",
+    answer: "Expect to spend $1,780-4,260 USD in your first month. This includes temporary accommodation ($600-1,200), apartment deposit ($500-1,500), food and dining ($300-600), transportation ($50-100), phone and internet ($30-60), and miscellaneous expenses ($200-400). Visa fees can add $100-400 if you're applying for residency.",
+  },
+];
+
 export default function First30DaysPage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -706,6 +738,23 @@ export default function First30DaysPage() {
               }
             ]
           })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map((faq) => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer,
+              },
+            })),
+          }),
         }}
       />
       {/* Breadcrumb */}
@@ -1132,6 +1181,21 @@ export default function First30DaysPage() {
               </Card>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </section>
 

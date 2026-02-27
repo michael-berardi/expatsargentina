@@ -1,22 +1,23 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { 
-  MapPin, 
+import {
   ArrowRight,
   Utensils,
   Star,
   Building2,
   Mountain,
   Grape,
-  GraduationCap
+  GraduationCap,
+  Compass,
+  Landmark
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "Restaurant Guides | Buenos Aires & Beyond | Expats Argentina",
-  description: "Comprehensive restaurant guides for Buenos Aires, Mendoza, Bariloche, Córdoba and more. From world-famous parrillas to hidden local gems.",
-  keywords: ["argentina restaurants", "buenos aires dining", "mendoza restaurants", "bariloche dining", "cordoba restaurants"],
+  title: "Restaurant Guides | Buenos Aires, Mendoza, Salta & More | Expats Argentina",
+  description: "Comprehensive restaurant guides for Buenos Aires, Mendoza, Bariloche, Córdoba, Rosario, Salta and more. From world-famous parrillas to hidden local gems.",
+  keywords: ["argentina restaurants", "buenos aires dining", "mendoza restaurants", "bariloche dining", "cordoba restaurants", "rosario restaurants", "salta restaurants"],
   alternates: { canonical: "https://expatsargentina.com/food/restaurants" },
 };
 
@@ -65,6 +66,24 @@ const cityGuides = [
     icon: GraduationCap,
     color: "from-amber-600 to-orange-600",
     image: "/images/cities/cordoba.webp",
+  },
+  {
+    name: "Rosario",
+    slug: "rosario",
+    description: "Argentina's third city delivers excellent parrillas, river fish, and a vibrant riverside dining scene.",
+    highlights: ["Riverside dining", "Historic parrillas", "Craft beer scene"],
+    icon: Compass,
+    color: "from-teal-600 to-cyan-600",
+    image: "/images/cities/rosario.webp",
+  },
+  {
+    name: "Salta",
+    slug: "salta",
+    description: "The northwest's culinary capital. Empanadas salteñas, peñas with live folk music, and torrontés wine.",
+    highlights: ["Best empanadas in Argentina", "Peñas folk dining", "Torrontés wine"],
+    icon: Landmark,
+    color: "from-rose-600 to-orange-600",
+    image: "/images/cities/salta.webp",
   },
 ];
 
@@ -115,7 +134,7 @@ export default function RestaurantsIndexPage() {
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-1">5</div>
+              <div className="text-4xl font-bold text-orange-600 mb-1">7</div>
               <div className="text-sm text-gray-600">City Guides</div>
             </CardContent>
           </Card>

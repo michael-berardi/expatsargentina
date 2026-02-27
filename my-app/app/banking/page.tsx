@@ -5,7 +5,6 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge";
 import {
   DollarSignIcon,
-  BuildingIcon,
   ArrowRightLeftIcon,
   CreditCardIcon,
   AlertCircleIcon,

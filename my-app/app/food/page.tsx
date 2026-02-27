@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { 
-  Utensils, 
-  Clock, 
-  Coffee, 
-  Flame, 
-  MapPin, 
+import {
+  Utensils,
+  Clock,
+  Coffee,
+  Flame,
+  MapPin,
   DollarSign,
   ShoppingCart,
   ChefHat,
@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
   title: "Food Guide Buenos Aires | Expats Argentina",
@@ -228,6 +229,37 @@ const ferias = [
   }
 ];
 
+const faqs = [
+  {
+    question: "Can I find vegetarian or vegan food in Buenos Aires?",
+    answer: "Yes, especially in Palermo where vegetarian and vegan restaurants have boomed in recent years. Sacrifice offers upscale vegetarian dining, Artemisia has a seasonal garden menu, and Vegan Fox serves comfort food. However, traditional parrillas and smaller restaurants outside Palermo can be challenging. Always specify 'sin carne, sin jamón, sin pollo' as some 'vegetarian' dishes may contain ham 'for flavor.' Dietéticas (health food stores) sell tofu, seitan, and plant-based milks.",
+  },
+  {
+    question: "What are the typical meal times in Buenos Aires?",
+    answer: "Breakfast (8-9am) is light—coffee with medialunas (croissants). Lunch (1-2pm) is the main meal, and many restaurants offer affordable 'menú del día' set lunches. Merienda (5-7pm) is an afternoon snack of coffee with facturas (pastries). Dinner starts at 9-11pm—restaurants are empty before 9pm. Arriving for dinner at 7pm will get you confused looks or a closed kitchen.",
+  },
+  {
+    question: "How much should I tip at restaurants in Buenos Aires?",
+    answer: "Tip 10% at sit-down restaurants—leave it in cash even if paying by card, as waiters receive cash tips directly. Check your bill for 'cubierto' (cover charge, usually $2-5 USD) which is a separate table charge, not a tip. Splitting bills is uncommon; usually one person pays. At cafes, simply round up. Don't double-tip if you see a 'servicio' charge already on the bill.",
+  },
+  {
+    question: "Is street food safe to eat in Buenos Aires?",
+    answer: "Generally yes, Buenos Aires has good food safety standards compared to many Latin American cities. Stick to busy stalls with high turnover—the more customers, the fresher the food. Empanadas from busy shops, choripán (grilled sausage sandwich) from popular street vendors, and food at ferias (markets) are all safe bets. Avoid anything that looks like it's been sitting out for hours or stalls with no customers.",
+  },
+  {
+    question: "Where should I do grocery shopping in Buenos Aires?",
+    answer: "Carrefour has the largest selection at mid-range prices. Coto offers the best prices but a chaotic experience. Día is the budget discount chain. Disco is the premium option with excellent quality. For produce, find your local verdulería (produce shop) for better quality and half the price of supermarkets. For meat, skip supermarkets and go to a neighborhood carnicería (butcher). Ferias (farmers markets) like Feria de San Telmo offer specialty foods and atmosphere.",
+  },
+  {
+    question: "What are the must-try food experiences in Buenos Aires?",
+    answer: "You must try: an authentic asado (Sunday BBQ at a parrilla or a friend's home), empanadas from El Sanjuanino in Recoleta, a fugazzeta pizza from Las Cuartetas, dulce de leche alfajores from Havanna, helado (gelato) from Freddo, a proper cortado at a traditional café, provoleta (grilled cheese) as an asado starter, and facturas (pastries) from a neighborhood panadería for breakfast. For the full experience, visit Feria de Mataderos on a Sunday for traditional food and live folklore.",
+  },
+  {
+    question: "What foods should I bring from home to Buenos Aires?",
+    answer: "Bring specialty spices (curry powder, Asian spices, quality vanilla), hot sauces (Cholula, Sriracha), soy sauce and fish sauce, baking supplies (chocolate chips, brown sugar), peanut butter, and maple syrup. Most things are available in Buenos Aires but imported goods are expensive. Argentine grocery stores are well-stocked for local cuisine but limited for Asian, Mexican, or specialty international ingredients.",
+  },
+];
+
 export default function FoodGuidePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
@@ -252,6 +284,23 @@ export default function FoodGuidePage() {
               }
             ]
           })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map((faq) => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer,
+              },
+            })),
+          }),
         }}
       />
       {/* Hero */}
@@ -893,6 +942,21 @@ export default function FoodGuidePage() {
                 </li>
               </ul>
             </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 md:py-24 bg-gray-50 -mx-4 px-4 rounded-2xl">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, index) => (
+                <AccordionItem key={index} value={`faq-${index}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </section>
 

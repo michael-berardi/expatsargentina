@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { 
-  Plane, 
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
+  Plane,
   Heart, 
   FileText, 
   AlertCircle, 
@@ -280,6 +281,33 @@ const visitingHome = [
   }
 ];
 
+const faqs = [
+  {
+    question: "When is the best time to leave Argentina?",
+    answer: "Avoid December-January as it's peak departure season with expensive flights. February-March or August-September offer better deals and less chaos. Time your departure around your lease cycle (most run 2 years) to avoid early termination penalties of 1-2 months rent. If you have savings in pesos, monitor the blue dollar rate and consider converting gradually. Argentina's tax year is calendar-based, so leaving mid-year can complicate your final tax return.",
+  },
+  {
+    question: "How do I ship my belongings out of Argentina?",
+    answer: "Shipping from Argentina is expensive. Only ship items you can't replace or that have deep personal value. For larger shipments, international moving companies like AGS, Crown Relocations, or local firms handle customs paperwork. Expect 4-8 weeks for sea freight. For smaller shipments, DHL and FedEx work but are pricey. Sell electronics (especially Apple products), furniture, and appliances locally on Facebook Marketplace or MercadoLibre—they sell quickly and at good prices.",
+  },
+  {
+    question: "How do I close my bank accounts and financial services in Argentina?",
+    answer: "Visit your bank branch in person to close accounts—bring your DNI and have zero balance. Cancel Mercado Pago and Ualá after withdrawing all funds. Cancel credit cards after paying balances. If possible, keep one account active for a few months to handle any final transactions. Notify your bank you're leaving to prevent account freezes from foreign logins. Set up online access for any accounts you're keeping open temporarily.",
+  },
+  {
+    question: "What are the tax implications of leaving Argentina?",
+    answer: "Argentina taxes residents on worldwide income. If you keep residency, you may still need to file annual tax returns and report foreign assets above certain thresholds. If you renounce residency, file a final tax return for the year you leave. Bienes Personales (annual wealth tax) may still apply on Argentine assets even for non-residents. Tax law changes frequently, so consult a certified Argentine accountant (contador público) before leaving.",
+  },
+  {
+    question: "Can I keep my Argentine residency if I leave the country?",
+    answer: "Temporary residency has specific absence limits—check your visa conditions. Permanent residents can stay outside Argentina for up to 2 years without losing status, with possible extensions. Citizens have no restrictions on time abroad. To maintain residency, keep a bank account active, maintain your DNI (don't let it expire), pay any ongoing tax obligations, and consider keeping health insurance if you plan to return.",
+  },
+  {
+    question: "What do expats commonly regret about leaving Argentina?",
+    answer: "The most common regrets are: not saying proper goodbyes (Argentine farewell culture involves multiple asados and emotional gatherings), not taking enough photos and videos of favorite places, not learning Spanish better before leaving, not saving more important documents and contacts, leaving during a stressful period instead of planning a graceful exit, and not keeping a local phone number active for staying connected with Argentine friends via WhatsApp.",
+  },
+];
+
 export default function LeavingGuidePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -304,6 +332,23 @@ export default function LeavingGuidePage() {
               }
             ]
           })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map((faq) => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer,
+              },
+            })),
+          }),
         }}
       />
       {/* Hero */}
@@ -1083,6 +1128,21 @@ export default function LeavingGuidePage() {
                 <p className="text-sm text-slate-500 mt-1">Staying legally in Argentina</p>
               </div>
             </Link>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 md:py-24 bg-gray-50 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 mb-20">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, index) => (
+                <AccordionItem key={index} value={`faq-${index}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </section>
 

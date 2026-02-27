@@ -15,7 +15,6 @@ import {
   Clock,
   Smartphone,
   Shield,
-  Wallet,
   Navigation,
   Footprints,
   ExternalLink,

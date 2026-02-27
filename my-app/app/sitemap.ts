@@ -55,6 +55,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/food/restaurants/cordoba/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/food/restaurants/mendoza/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/food/restaurants/bariloche/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/food/restaurants/rosario/`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${BASE_URL}/food/restaurants/salta/`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
     // Index pages
     { url: `${BASE_URL}/provinces/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/cities/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },

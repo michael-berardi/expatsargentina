@@ -5,9 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { 
-  HeartIcon, 
-  ShieldIcon, 
-  DollarSignIcon, 
+  HeartIcon,
+  ShieldIcon,
   BuildingIcon,
   CheckCircleIcon,
   AlertCircleIcon,

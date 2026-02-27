@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
   ClockIcon,
   UsersIcon,
   MessageCircleIcon,
@@ -182,6 +183,33 @@ const foodCulture = [
   },
 ];
 
+const faqs = [
+  {
+    question: "What are the biggest culture shocks for expats in Argentina?",
+    answer: "The biggest shocks are the late schedule (dinner at 10pm, parties starting at midnight), the flexible relationship with time (people are chronically late by 30-60 minutes), the physical closeness during conversations, the kiss-on-the-cheek greeting for everyone, and the siesta hours when businesses close from 1-4pm. The indirect communication style also surprises many—'maybe' usually means 'no' and 'yes' often means 'maybe.'",
+  },
+  {
+    question: "How does tipping work in Argentina?",
+    answer: "Tip 10% at sit-down restaurants—leave it in cash even if paying by card, as waiters receive cash tips directly. Check your bill for 'cubierto' (cover charge) or 'servicio' (service charge), which is separate from the tip. At cafes, round up or leave small change. Delivery drivers get a small tip. Tipping is not expected at bars unless you're at a table with service.",
+  },
+  {
+    question: "What time do Argentines eat dinner?",
+    answer: "Argentines typically eat dinner between 9pm and 11pm. Restaurants don't get busy until 9:30pm, and trying to dine at 7pm will likely mean an empty restaurant or a closed kitchen. The daily eating schedule is: light breakfast (8-9am), main lunch (1-2pm), merienda afternoon snack with coffee and pastries (5-7pm), and then late dinner.",
+  },
+  {
+    question: "What is mate etiquette in Argentina?",
+    answer: "Mate is a shared drink passed in a circle. The cebador (server) prepares and fills it, drinks the first bitter sip, then refills and passes to the next person. Drink the entire gourd, then pass it back to the cebador—not to the next person. Never move or stir the bombilla (metal straw). Say 'gracias' only when you want to stop drinking, as it signals you're done. Refusing mate when offered can be seen as rude.",
+  },
+  {
+    question: "How do Argentines feel about personal space?",
+    answer: "Argentines have a much smaller personal space bubble than North Americans or Northern Europeans. They stand close during conversations, touch your arm or shoulder while talking, and lean in. This is not flirting or aggression—it's cultural warmth. The cheek kiss greeting applies to everyone regardless of gender, and at gatherings you must greet and say goodbye to each person individually.",
+  },
+  {
+    question: "What's the work-life balance like in Argentina?",
+    answer: "Argentines prioritize relationships and leisure over work. Sunday is sacred family time with mandatory asados. Social gatherings go very late because people value connection. Businesses close for siesta. The concept of 'living to work' is foreign here—Argentines work to live. Expect a slower pace, longer lunches, and less urgency around deadlines compared to the US or Northern Europe.",
+  },
+];
+
 export default function CulturePage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -206,6 +234,23 @@ export default function CulturePage() {
               }
             ]
           })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map((faq) => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer,
+              },
+            })),
+          }),
         }}
       />
       {/* Breadcrumb */}
@@ -528,6 +573,21 @@ export default function CulturePage() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </section>
 

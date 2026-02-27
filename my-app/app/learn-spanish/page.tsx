@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import {
   BookOpen,
   GraduationCap,
@@ -178,6 +179,33 @@ const falseFriends = [
   { spanish: "Suceso", means: "Event/incident", not: "Success (éxito)" },
 ];
 
+const faqs = [
+  {
+    question: "How long does it take to learn Spanish in Buenos Aires?",
+    answer: "With daily practice (classes, conversation, immersion), expect to reach survival level in 1 month, functional level in 3 months, conversational fluency in 6 months, and full fluency in about 1 year. These timelines assume consistent effort—studying only 1-2 hours per week will take 3-4 times longer. Living in Buenos Aires gives you a huge advantage through daily immersion.",
+  },
+  {
+    question: "Is Rioplatense Spanish very different from standard Spanish?",
+    answer: "Yes, in several key ways. Argentines use 'vos' instead of 'tú' with different verb conjugations (vos tenés, vos hablás). The 'll' and 'y' sounds are pronounced like 'sh' in English (calle = CA-sheh, yo = SHO). The accent has a strong Italian influence with distinct rhythm and intonation. There's also extensive use of Lunfardo slang that doesn't exist in other Spanish-speaking countries.",
+  },
+  {
+    question: "What are the best apps for learning Argentine Spanish?",
+    answer: "Duolingo is good for basics and is free. Anki flashcards with spaced repetition is essential for vocabulary. SpanishDict is the best dictionary and includes Argentine usage. ConjuGato helps specifically with verb conjugations. HelloTalk and Tandem connect you with native speakers for conversation practice. Skip expensive apps like Babbel or Rosetta Stone—free options are just as effective.",
+  },
+  {
+    question: "What are good Spanish schools in Buenos Aires?",
+    answer: "Vamos Academy in Palermo ($15-25/hour group, $30-45/hour private) is flexible and great for beginners with social activities. Expanish in Recoleta ($20-35/hour group) is more professional and structured, best for serious learners. Ibero has multiple locations ($12-20/hour group) and offers the best value for long-term learners. Private tutors from Superprof, Preply, or university bulletin boards cost $10-25/hour.",
+  },
+  {
+    question: "What is voseo and do I need to learn it?",
+    answer: "Voseo is the use of 'vos' instead of 'tú' for the informal 'you.' In Argentina, everyone uses it in daily life. The conjugations are different: 'vos sos' (you are), 'vos tenés' (you have), 'vos hablás' (you speak). Yes, you need to learn it if you're living in Buenos Aires—using 'tú' marks you as a foreigner immediately. The good news is voseo conjugations are actually more regular than standard tú forms.",
+  },
+  {
+    question: "Do I need to speak Spanish to live in Buenos Aires?",
+    answer: "You can survive without Spanish, especially in Palermo where many people speak English, but your quality of life will be significantly limited. Without Spanish, you'll struggle with bureaucracy, miss out on deeper friendships with locals, overpay for services, and feel isolated. Even basic conversational Spanish dramatically improves your experience. Most expats who stay long-term say learning Spanish was the single best investment they made.",
+  },
+];
+
 export default function LearnSpanishPage() {
   return (
     <div className="container mx-auto px-4 py-12">
@@ -202,6 +230,23 @@ export default function LearnSpanishPage() {
               }
             ]
           })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map((faq) => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer,
+              },
+            })),
+          }),
         }}
       />
       {/* Hero */}
@@ -1117,6 +1162,21 @@ export default function LearnSpanishPage() {
             Consistency beats intensity.
           </AlertDescription>
         </Alert>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-gray-50 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
       </section>
 
       {/* Final Encouragement */}

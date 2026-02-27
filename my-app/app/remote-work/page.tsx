@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { MapPin, Wifi, Zap, Clock, Coffee, Briefcase, DollarSign, Users, Home, Calendar } from "lucide-react";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
   title: "Remote Work & Digital Nomad Guide | Buenos Aires",
@@ -7,6 +8,37 @@ export const metadata: Metadata = {
   keywords: "remote work Buenos Aires, digital nomad Argentina, coworking BA, internet speed Palermo, nomad community",
   alternates: { canonical: "https://expatsargentina.com/remote-work" },
 };
+
+const faqs = [
+  {
+    question: "What is the internet speed like in Buenos Aires for remote work?",
+    answer: "Internet speeds in Buenos Aires vary by neighborhood and building age. Newer buildings in Palermo and Puerto Madero can get 100-500 Mbps with fiber (Fibertel). Older buildings in San Telmo might only get 15-40 Mbps. Always ask for a speed test screenshot before booking an Airbnb, and note that upload speeds are typically 10-20% of download speeds.",
+  },
+  {
+    question: "Are there good coworking spaces in Buenos Aires?",
+    answer: "Yes, Buenos Aires has excellent coworking options. WeWork has locations in Palermo and Puerto Madero ($150-250/month for hot desk). La Maquinita in Colegiales offers a local vibe with community events ($80-150/month). Area Tres in Palermo is popular with startups ($100-180/month). Most spaces offer day passes so you can try before committing.",
+  },
+  {
+    question: "Do I need to pay taxes in Argentina as a remote worker?",
+    answer: "If you're staying as a tourist (6 months or less), you generally have no Argentine tax obligation and should continue paying taxes in your home country. If you stay longer than 12 months, you may become a tax resident, and Argentina taxes worldwide income for residents. The Digital Nomad Visa has specific tax implications. Consult a local accountant (contador) familiar with expat situations for personalized advice.",
+  },
+  {
+    question: "What time zone challenges should I expect working from Buenos Aires?",
+    answer: "Buenos Aires is GMT-3, which is EST+2 hours. This gives you about 4 hours of overlap with US East Coast teams (11am-3pm BA time) but only 1-2 hours with West Coast. Most nomads either work split shifts (morning + evening) or start early at 8-9 AM BA time. For European teams, you get 3-4 hours of morning overlap.",
+  },
+  {
+    question: "Does Argentina have a Digital Nomad Visa?",
+    answer: "Yes, Argentina offers a Digital Nomad Visa (Visa de Nómada Digital) that allows remote workers to stay for up to 6 months, renewable for another 6 months. You need to prove remote employment or freelance income from outside Argentina. The application is done online through migraciones.gov.ar. It does not grant tax residency, which is an advantage for short-term stays.",
+  },
+  {
+    question: "What are the best neighborhoods in Buenos Aires for remote workers?",
+    answer: "Palermo (Hollywood/Soho) is the top choice with the best internet, most coworking spaces, and a walkable lifestyle. Recoleta offers quiet streets, reliable power, and good cafes. Puerto Madero has the most modern infrastructure but is expensive. Belgrano is great for families and less touristy. Avoid San Telmo for reliable internet and power.",
+  },
+  {
+    question: "How much does it cost to live as a digital nomad in Buenos Aires?",
+    answer: "Budget nomads can get by on $800-1,200/month (shared apartment, home cooking, no coworking). A comfortable lifestyle runs $1,500-2,500/month (nice 1-bedroom, mix of cooking and restaurants, coworking membership, weekend trips). Premium living costs $3,000-5,000+ per month. These assume you're using the blue dollar rate for currency exchange.",
+  },
+];
 
 export default function RemoteWorkPage() {
   return (
@@ -32,6 +64,23 @@ export default function RemoteWorkPage() {
               }
             ]
           })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map((faq) => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer,
+              },
+            })),
+          }),
         }}
       />
       {/* Hero */}
@@ -1047,6 +1096,21 @@ export default function RemoteWorkPage() {
                 That's part of the charm.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 md:py-24 bg-gray-50 -mx-4 px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, index) => (
+                <AccordionItem key={index} value={`faq-${index}`}>
+                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </section>
 

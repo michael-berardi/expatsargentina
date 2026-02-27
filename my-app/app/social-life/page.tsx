@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
   HeartIcon,
   UsersIcon,
   MessageCircleIcon,
@@ -209,6 +210,33 @@ const soloExpat = [
   }
 ];
 
+const faqs = [
+  {
+    question: "How do I make friends as an expat in Buenos Aires?",
+    answer: "Start with language exchange meetups like Mate Club (Tuesdays), Mundo Lingo (Wednesdays), and Spanglish. Join expat Facebook groups like 'Expats in Buenos Aires' and post about your interests. Get a coworking membership for daily social interaction. Join sports groups, fitness classes, or hobby-based meetups. Expect it to take 3-6 months to build a real social circle. Say yes to everything at first, even if it's awkward.",
+  },
+  {
+    question: "What is Argentine dating culture like?",
+    answer: "Argentine dating is more intense than casual Western dating. First dates are dinner or drinks at 9-10pm, never coffee. Meeting the family can happen within weeks and is a good sign, not a commitment signal. Exclusivity is assumed by default once you're dating regularly—you don't need 'the talk.' Argentines date with intention, even in casual relationships. Learning Spanish is important for emotional connection.",
+  },
+  {
+    question: "What are the best meetup groups for expats in Buenos Aires?",
+    answer: "Language exchanges are the top social events: Mate Club (various bars, Tuesdays), Mundo Lingo (The Temple Bar, Wednesdays), and Spanglish (various locations). Facebook groups like 'Expats in Buenos Aires' and 'Buenos Aires Digital Nomads' are very active. Sports groups like Palermo Runners (Saturdays, Parque Tres de Febrero) and climbing gyms like Campo Base have strong communities. Coworking spaces like La Maquinita and AreaTres host regular social events.",
+  },
+  {
+    question: "Is Buenos Aires good for older expats or is it just for young people?",
+    answer: "Buenos Aires welcomes all ages. The city has a rich cultural scene with theater, opera, tango, and museums that skews older. Neighborhoods like Recoleta and Belgrano have a more mature vibe. Many retirees choose Buenos Aires for its affordable healthcare, walkable lifestyle, and active social scene. That said, the late-night culture (dinner at 10pm, clubs at 2am) can be challenging if you're not a night owl.",
+  },
+  {
+    question: "What is the nightlife like in Buenos Aires?",
+    answer: "Buenos Aires nightlife runs extremely late. Pre-gaming starts at 11pm, bars fill up at midnight, clubs (boliches) don't open until 2am, and nights end at 6am or later. Palermo Hollywood is trendy and young, Palermo Soho has hipster cocktail bars, San Telmo is alternative with live music. Dress codes at boliches are real—no sneakers or jeans. Pre-game at home because club drink prices are steep.",
+  },
+  {
+    question: "What activities and hobbies can I do in Buenos Aires?",
+    answer: "Buenos Aires offers incredible variety: tango classes (from beginner to milonga), cooking classes, football leagues, running groups, CrossFit, yoga studios, rock climbing, sailing on the Rio de la Plata, language exchange events, wine tasting, art galleries, live music, theater, and polo lessons. The city has one of the highest ratios of cultural venues per capita in the world. Most activities are affordable compared to US or European prices.",
+  },
+];
+
 export default function SocialLifePage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -233,6 +261,23 @@ export default function SocialLifePage() {
               }
             ]
           })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map((faq) => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer,
+              },
+            })),
+          }),
         }}
       />
       {/* Breadcrumb */}
@@ -778,6 +823,21 @@ export default function SocialLifePage() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </section>
 
