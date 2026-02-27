@@ -3407,6 +3407,442 @@ export const professions: Profession[] = [
       }
     ],
     image: "/images/professions/blockchain-developer.webp"
+  },
+  {
+    slug: "customer-success-manager",
+    name: "Customer Success Manager",
+    title: "Customer Success Manager Guide for Argentina",
+    subtitle: "Drive customer retention remotely for SaaS and tech companies",
+    description: "Customer Success is a fast-growing remote profession. Learn how Argentine CSMs serve international tech companies while enjoying the country's lifestyle.",
+    icon: "Users",
+    category: "business",
+    overview: "Customer Success Management has emerged as one of the most remote-friendly professions in tech. CSMs ensure customers achieve their desired outcomes with SaaS products, driving retention and expansion revenue. The role is conducted almost entirely through video calls, email, and customer success platforms. Argentine CSMs bring strong relationship skills, cultural affinity with US customers, and excellent English. US SaaS companies pay $60-120+/hour for experienced CSMs. The time zone difference (1-2 hours ahead of US East Coast) actually enables better coverage for customer issues that arise early in the US day. The profession is growing rapidly as more companies prioritize customer retention over acquisition.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "Perfect for CSMs serving international customers remotely. Most suitable pathway.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For CSMs hired by multinational SaaS companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Customer success or account management experience (2+ years)",
+      "Experience with SaaS products and customer success platforms",
+      "Strong relationship-building and communication skills",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "CSMs can earn competitive salaries serving international companies",
+      amount: "$2,000 - $5,000+ USD/month",
+      notes: "Senior CSMs with US tech companies earn $60-120+/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Customer success is ideally suited for remote work. All customer interactions happen through Zoom, email, and customer success platforms. QBRs, onboarding, and support are all conducted virtually.",
+      considerations: [
+        "Very high demand for skilled CSMs in SaaS",
+        "Time zone 1-2 hours ahead helps with early US customer issues",
+        "Strong communication skills valued over location",
+        "Many SaaS companies specifically hire remote CSMs",
+        "Career progression to leadership roles common",
+        "Lower living costs make competitive salaries sustainable"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,200,000-2,800,000/month ($1,000-2,200 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["SaaS", "Tech", "Fintech", "E-commerce"]
+    },
+    professionalAssociations: [
+      {
+        name: "Customer Success Collective",
+        description: "Global CSM community"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "Customer success values demonstrated results and experience over formal credentials. Certifications like Gainsight or Catalyst help but aren't required."
+    },
+    taxConsiderations: [
+      "Remote CSM work typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join Customer Success communities on LinkedIn",
+      "Attend SaaS and customer success webinars",
+      "Network in SaaS startup communities"
+    ],
+    faqs: [
+      {
+        question: "What's the difference between customer success and customer support?",
+        answer: "Customer success is proactive - focusing on helping customers achieve business outcomes, driving adoption, and preventing churn. Customer support is reactive - handling issues and tickets. CSMs typically earn more and have more strategic roles. Many CSMs start in support and transition."
+      }
+    ],
+    relatedProfessions: ["account-manager", "sales-representative", "virtual-assistant"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote customer success work"
+      }
+    ],
+    image: "/images/professions/customer-success-manager.webp"
+  },
+  {
+    slug: "ecommerce-manager",
+    name: "E-commerce Manager",
+    title: "E-commerce Manager Guide for Argentina",
+    subtitle: "Manage online stores and digital sales from Argentina",
+    description: "E-commerce continues to grow rapidly. Learn how e-commerce managers can build remote careers serving international brands.",
+    icon: "Rocket",
+    category: "business",
+    overview: "E-commerce management has become highly remote-friendly as platforms like Shopify, WooCommerce, and Amazon enable managing stores from anywhere. E-commerce managers oversee online store operations, marketing, inventory, and customer experience. Argentine professionals bring strong digital marketing skills, analytical capabilities, and cultural awareness of consumer behavior. The role offers excellent remote opportunities with US and international brands. E-commerce is growing rapidly in Latin America, creating both remote and local opportunities. The profession requires platform expertise, marketing knowledge, and data analysis skills.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For e-commerce managers running remote operations for international brands.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For managers hired by multinational e-commerce companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "E-commerce or digital marketing experience (2+ years)",
+      "Proficiency in Shopify, WooCommerce, or similar platforms",
+      "Experience with digital marketing and analytics",
+      "Proof of employment or client contracts",
+      "Minimum income documentation ($2,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "E-commerce managers can earn well managing successful stores",
+      amount: "$2,000 - $5,000+ USD/month",
+      notes: "Experienced managers with US brands earn $40-80/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "E-commerce is entirely digital and remote-friendly. Store management, marketing campaigns, analytics, and vendor management all happen through web platforms.",
+      considerations: [
+        "E-commerce growing rapidly globally",
+        "Many DTC brands hire remote e-commerce talent",
+        "Argentina's Mercado Libre experience valued",
+        "Can manage multiple stores or focus on one brand",
+        "Lower living costs support competitive rates"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["E-commerce", "Retail", "DTC Brands", "Marketplaces"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "E-commerce values demonstrated results and platform expertise over formal credentials."
+    },
+    taxConsiderations: [
+      "Remote e-commerce management typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join e-commerce communities on LinkedIn and Facebook",
+      "Attend Shopify and e-commerce events",
+      "Connect with DTC brand founders"
+    ],
+    faqs: [
+      {
+        question: "Which e-commerce platforms should I know?",
+        answer: "Shopify is most in-demand for DTC brands. WooCommerce for WordPress-based stores. Amazon Seller Central for Amazon businesses. Magento/Adobe Commerce for enterprise. Knowing Shopify plus marketing/analytics is the strongest combination for remote work."
+      }
+    ],
+    relatedProfessions: ["digital-marketing-manager", "social-media-manager", "business-consultant"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote e-commerce work"
+      }
+    ],
+    image: "/images/professions/ecommerce-manager.webp"
+  },
+  {
+    slug: "online-teacher",
+    name: "Online Teacher / Tutor",
+    title: "Online Teacher & Tutor Guide for Argentina",
+    subtitle: "Teach students worldwide from Argentina",
+    description: "Online teaching offers flexible remote work. Learn how educators can teach international students while living in Argentina.",
+    icon: "GraduationCap",
+    category: "education",
+    overview: "Online teaching and tutoring has exploded in popularity, creating opportunities for educators to work remotely from anywhere. Argentine teachers can teach English to international students, tutor in academic subjects, or teach specialized skills. Native or near-native English speakers are in high demand for ESL teaching, particularly with Chinese and European students. Subject matter experts can tutor in math, science, coding, music, and more through platforms like Preply, iTalki, and Outschool. The work offers excellent schedule flexibility and can be done from home with minimal equipment. While not the highest-paying profession on this list, it offers accessibility and work-life balance.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For online teachers serving international students remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For independent tutors with established student bases.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Teaching experience or subject matter expertise",
+      "For ESL: Native or near-native English proficiency",
+      "Teaching certification (TESOL, TEFL) preferred for ESL",
+      "Proof of platform registrations or student contracts",
+      "Minimum income documentation ($1,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check",
+      "Reliable internet and teaching setup"
+    ],
+    incomeRequirements: {
+      description: "Online teaching income varies by subject and platform",
+      amount: "$1,000 - $3,000+ USD/month",
+      notes: "ESL teachers earn $15-40/hour; subject tutors $20-80/hour"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Online teaching is 100% remote. Classes happen through Zoom or platform video systems. All materials, scheduling, and communication are digital.",
+      considerations: [
+        "Flexible schedule - teach when convenient",
+        "High demand for English teachers globally",
+        "Can work with students in any time zone",
+        "Lower startup costs than many professions",
+        "Can combine with other remote work",
+        "Great for educators seeking location independence"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $600,000-1,500,000/month ($500-1,200 USD at blue rate)",
+      keyCities: ["Buenos Aires", "Cordoba", "Mendoza"],
+      industries: ["Online Education", "Language Learning", "Test Prep"]
+    },
+    professionalAssociations: [
+      {
+        name: "TESOL International",
+        description: "Professional organization for English teachers"
+      }
+    ],
+    credentialRecognition: {
+      required: false,
+      description: "TEFL/TESOL certifications help for ESL teaching but aren't always required. Subject expertise matters most for academic tutoring."
+    },
+    taxConsiderations: [
+      "Remote online teaching typically not taxed locally under Digital Nomad Visa",
+      "Freelancers should register under monotributo",
+      "Keep records of platform payments"
+    ],
+    networkingTips: [
+      "Build profiles on teaching platforms (Preply, iTalki, Outschool)",
+      "Join online teaching communities",
+      "Get student reviews to build reputation"
+    ],
+    faqs: [
+      {
+        question: "Do I need to be a native English speaker to teach online?",
+        answer: "For highest-paying ESL positions, native speakers are preferred. However, near-native speakers with strong accents can also find work, especially for lower rates. For subject tutoring, native English isn't required - expertise in your subject matters more. Some platforms specifically hire bilingual teachers."
+      }
+    ],
+    relatedProfessions: ["english-teacher", "content-creator", "course-creator"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote teaching"
+      }
+    ],
+    image: "/images/professions/online-teacher.webp"
+  },
+  {
+    slug: "sales-representative",
+    name: "Sales Representative",
+    title: "Sales Representative Guide for Argentina",
+    subtitle: "Sell remotely for international companies from Argentina",
+    description: "Remote sales is a growing field. Learn how sales professionals can build lucrative careers serving international markets while living in Argentina.",
+    icon: "Rocket",
+    category: "business",
+    overview: "Sales has become increasingly remote, with SaaS and tech companies hiring sales development reps (SDRs) and account executives who can work from anywhere. Argentine sales professionals bring strong communication skills, persistence, and often excellent English. The profession offers high earning potential through commissions and bonuses. US SaaS companies frequently hire remote SDRs to prospect and set meetings. The time zone alignment with US markets makes Argentina-based sales reps valuable for reaching East Coast prospects. While sales can be challenging, successful reps earn $3,000-8,000+/month with commissions. The profession is ideal for competitive, goal-oriented professionals who enjoy relationship building.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For sales reps working remotely for international companies.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Work Visa (Company Sponsorship)",
+        description: "For sales reps hired by multinational companies.",
+        difficulty: "Moderate",
+        timeline: "1-3 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Sales experience (1+ years preferred)",
+      "Strong communication and persuasion skills",
+      "Experience with CRM tools (Salesforce, HubSpot)",
+      "Proof of employment or commission agreements",
+      "Minimum income documentation ($1,500+/month base)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Sales offers variable income with base + commission structure",
+      amount: "$1,500 - $8,000+ USD/month",
+      notes: "Top performers earn $5,000-10,000+/month with commissions"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Sales has become highly remote. Prospecting, calls, demos, and closing all happen through phone and video. Modern sales stacks enable full remote workflows.",
+      considerations: [
+        "High demand for SDRs and AEs in SaaS",
+        "Time zone alignment with US enables real-time selling",
+        "Commission potential for high earnings",
+        "Many companies specifically hire remote sales teams",
+        "Performance-based - results matter more than location"
+      ]
+    },
+    localJobMarket: {
+      demand: "High",
+      averageSalary: "ARS $800,000-2,000,000/month ($650-1,600 USD at blue rate) base + commission",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["SaaS", "Tech", "Services", "B2B Sales"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Sales values demonstrated results and skills over formal credentials."
+    },
+    taxConsiderations: [
+      "Remote sales work typically not taxed locally under Digital Nomad Visa",
+      "Commission structures may have specific tax treatments",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join sales communities on LinkedIn",
+      "Connect with SaaS sales professionals",
+      "Attend virtual sales conferences"
+    ],
+    faqs: [
+      {
+        question: "Do I need sales experience to get hired remotely?",
+        answer: "Many companies hire SDRs (Sales Development Reps) as entry-level positions to learn the ropes. Experience helps but isn't always required for junior roles. Strong communication skills, persistence, and willingness to learn are often sufficient to get started."
+      }
+    ],
+    relatedProfessions: ["business-consultant", "customer-success-manager", "digital-marketing-manager"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote sales work"
+      }
+    ],
+    image: "/images/professions/sales-representative.webp"
+  },
+  {
+    slug: "course-creator",
+    name: "Course Creator",
+    title: "Course Creator Guide for Argentina",
+    subtitle: "Build and sell online courses from Argentina",
+    description: "Online education is booming. Learn how course creators can build passive income businesses while living in Argentina.",
+    icon: "GraduationCap",
+    category: "education",
+    overview: "Course creation has become a popular path to location independence. Creators package their expertise into online courses sold on platforms like Udemy, Teachable, or their own sites. While building a successful course business takes time, it can generate significant passive income. Argentine creators benefit from lower living costs while building their businesses. Popular course topics include language learning, professional skills, tech, and creative arts. The business model involves upfront work creating the course, then ongoing marketing and updates. Successful creators earn $2,000-10,000+/month from course sales. This path suits experts who enjoy teaching and can commit to the upfront content creation work.",
+    visaOptions: [
+      {
+        name: "Digital Nomad Visa",
+        description: "For course creators building and selling courses remotely.",
+        difficulty: "Easy",
+        timeline: "2-4 weeks"
+      },
+      {
+        name: "Freelancer Visa",
+        description: "For established course creators with consistent revenue.",
+        difficulty: "Moderate",
+        timeline: "1-2 months"
+      }
+    ],
+    workPermitRequirements: [
+      "Expertise in a marketable subject",
+      "Experience teaching or explaining concepts",
+      "Basic video recording and editing capabilities",
+      "Proof of course platform accounts or website",
+      "Minimum income documentation ($1,000+/month)",
+      "Health insurance valid in Argentina",
+      "Criminal background check"
+    ],
+    incomeRequirements: {
+      description: "Course income varies widely based on topic and marketing",
+      amount: "$1,000 - $10,000+ USD/month",
+      notes: "Successful creators earn $3,000-10,000+/month; building takes 6-12 months"
+    },
+    remoteWork: {
+      feasible: true,
+      description: "Course creation is entirely location-independent. Content creation, marketing, and student support can all be done remotely.",
+      considerations: [
+        "Passive income potential once courses are built",
+        "Lower living costs support bootstrapping phase",
+        "Can combine with other remote work initially",
+        "Requires upfront time investment",
+        "Marketing skills as important as content"
+      ]
+    },
+    localJobMarket: {
+      demand: "Medium",
+      averageSalary: "Variable - business income not salary",
+      keyCities: ["Buenos Aires", "Cordoba"],
+      industries: ["Online Education", "Creator Economy"]
+    },
+    professionalAssociations: [],
+    credentialRecognition: {
+      required: false,
+      description: "Course creation values demonstrated expertise and teaching ability over formal credentials."
+    },
+    taxConsiderations: [
+      "Course revenue typically not taxed locally under Digital Nomad Visa",
+      "Platform payouts (Udemy, Teachable) may have withholding",
+      "Freelancers should register under monotributo"
+    ],
+    networkingTips: [
+      "Join course creator communities",
+      "Build email list from start",
+      "Collaborate with other creators"
+    ],
+    faqs: [
+      {
+        question: "How long does it take to make money from courses?",
+        answer: "Most creators need 6-12 months of consistent work before seeing significant income. Building an audience, creating quality content, and marketing all take time. Many creators start courses as side projects while maintaining other income."
+      }
+    ],
+    relatedProfessions: ["online-teacher", "content-creator", "entrepreneur"],
+    resources: [
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for course creators"
+      }
+    ],
+    image: "/images/professions/course-creator.webp"
   }
 ];
 
