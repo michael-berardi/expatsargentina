@@ -90,7 +90,7 @@ export const investmentSectors: InvestmentSector[] = [
       }
     ],
     relatedSectors: ["tourism", "agriculture", "energy"],
-    image: "/images/provinces/buenos-aires-city.webp"
+    image: "/images/investments/real-estate.webp"
   },
   {
     slug: "agriculture",
@@ -157,7 +157,7 @@ export const investmentSectors: InvestmentSector[] = [
       }
     ],
     relatedSectors: ["real-estate", "energy", "technology"],
-    image: "/images/provinces/mendoza.webp"
+    image: "/images/investments/agriculture.webp"
   },
   {
     slug: "mining",
@@ -224,7 +224,7 @@ export const investmentSectors: InvestmentSector[] = [
       }
     ],
     relatedSectors: ["energy", "technology", "agriculture"],
-    image: "/images/provinces/jujuy.webp"
+    image: "/images/investments/mining.webp"
   },
   {
     slug: "energy",
@@ -293,7 +293,7 @@ export const investmentSectors: InvestmentSector[] = [
       }
     ],
     relatedSectors: ["mining", "technology", "real-estate"],
-    image: "/images/provinces/neuquen.webp"
+    image: "/images/investments/energy.webp"
   },
   {
     slug: "technology",
@@ -360,7 +360,7 @@ export const investmentSectors: InvestmentSector[] = [
       }
     ],
     relatedSectors: ["agriculture", "energy", "tourism"],
-    image: "/images/provinces/cordoba.webp"
+    image: "/images/investments/technology.webp"
   },
   {
     slug: "tourism",
@@ -428,7 +428,7 @@ export const investmentSectors: InvestmentSector[] = [
       }
     ],
     relatedSectors: ["real-estate", "agriculture", "technology"],
-    image: "/images/provinces/misiones.webp"
+    image: "/images/investments/tourism.webp"
   }
 ];
 
