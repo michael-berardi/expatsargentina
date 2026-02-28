@@ -1734,7 +1734,7 @@ export const nationalities: Nationality[] = [
     flag: "🇲🇽",
     title: "Mexican Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, cultural exchange, and expanding opportunities",
-    description: "The Mexican community in Argentina has grown significantly, drawn by educational opportunities and professional mobility. Expanding networks in major Argentine cities provide support for Mexican expats.",
+    description: "The Mexican community has grown significantly, drawn by educational opportunities. Expanding networks in major cities provide support for Mexican expats in Argentina.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1879,7 +1879,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇦",
     title: "Canadian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Digital nomad pathway, lower cost of living, and emerging expat community",
-    description: "Canadians find Argentina attractive for affordable living and adventure. The digital nomad visa offers an excellent pathway for remote workers, with favorable exchange rates for CAD income.",
+    description: "Canadians find Argentina attractive for affordable living and adventure. Digital nomad visa offers a pathway for remote workers with favorable exchange rates for CAD income.",
     region: "north-america",
     visaRequirements: {
       tourist: {
@@ -2026,7 +2026,7 @@ export const nationalities: Nationality[] = [
     flag: "🇬🇧",
     title: "UK Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Post-Brexit opportunities, digital nomad pathway, and historic Anglo-Argentine ties",
-    description: "Britons explore Argentina for affordability and adventure post-Brexit. The digital nomad visa provides a pathway for UK remote workers, with historical Anglo-Argentine connections.",
+    description: "Britons explore Argentina for affordability post-Brexit. Digital nomad visa provides a pathway for UK remote workers with historical Anglo-Argentine connections.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2173,7 +2173,7 @@ export const nationalities: Nationality[] = [
     flag: "🇫🇷",
     title: "French Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Cultural exchange, professional opportunities, and quality of life",
-    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Strong institutional presence through schools, cultural centers, and business networks supports the French community.",
+    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Strong institutional presence through schools and cultural centers supports the community.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2308,7 +2308,7 @@ export const nationalities: Nationality[] = [
     flag: "🇩🇪",
     title: "German Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, professional opportunities, and quality lifestyle",
-    description: "German interest in Argentina has grown significantly, driven by remote work opportunities and lower living costs. Expanding professional networks support Germans in a welcoming environment.",
+    description: "German interest has grown significantly, driven by remote work opportunities and lower living costs. Expanding professional networks support Germans in Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2440,7 +2440,7 @@ export const nationalities: Nationality[] = [
     flag: "🇦🇺",
     title: "Australian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Working holiday agreements, digital nomad pathway, and adventure opportunities",
-    description: "Australians enjoy working holiday agreements and a growing digital nomad community. Favorable exchange rates make Argentina highly attractive for those with AUD income.",
+    description: "Australians enjoy working holiday agreements and a growing digital nomad community. Favorable exchange rates make Argentina attractive for those with AUD income.",
     region: "oceania",
     visaRequirements: {
       tourist: {
@@ -2585,7 +2585,7 @@ export const nationalities: Nationality[] = [
     flag: "🇳🇿",
     title: "New Zealand Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Digital nomad pathway, adventure tourism, and growing expat community",
-    description: "New Zealanders find Argentina attractive for adventure and lower cost of living. The digital nomad visa offers an excellent pathway for remote workers and cultural experiences.",
+    description: "New Zealanders find Argentina attractive for adventure and lower cost of living. Digital nomad visa offers a pathway for remote workers seeking cultural experiences.",
     region: "oceania",
     visaRequirements: {
       tourist: {
@@ -2723,7 +2723,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇳",
     title: "Chinese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, business opportunities, and cultural exchange",
-    description: "The Chinese community is one of Argentina's most established Asian communities with deep historical roots. Expanding opportunities in trade, gastronomy, and professional sectors welcome Chinese expats.",
+    description: "The Chinese community is one of Argentina's most established Asian communities. Expanding opportunities in trade, gastronomy, and professional sectors welcome expats.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -2870,7 +2870,7 @@ export const nationalities: Nationality[] = [
     flag: "🇯🇵",
     title: "Japanese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Cultural exchange, professional opportunities, and unique bilateral connections",
-    description: "Japan and Argentina maintain strong cultural and economic ties. Japanese citizens find opportunities in technology, automotive, and gastronomy, with a well-established community in Buenos Aires.",
+    description: "Japan and Argentina maintain strong cultural and economic ties. Japanese citizens find opportunities in technology and automotive sectors with a community in Buenos Aires.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -3009,7 +3009,7 @@ export const nationalities: Nationality[] = [
     flag: "🇪🇨",
     title: "Ecuadorian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur associate benefits, Andean connections, and growing community",
-    description: "Ecuadorians enjoy preferential immigration access to Argentina as Mercosur associates. 2-year renewable residency with work authorization and opportunities across various sectors.",
+    description: "Ecuadorians enjoy preferential immigration access as Mercosur associates. 2-year renewable residency with work authorization and opportunities across sectors.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -3135,7 +3135,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇹",
     title: "Portuguese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "European pathway, Brazilian connections, and cultural ties",
-    description: "Portuguese citizens find Argentina attractive for lower cost of living and European-influenced lifestyle. Strong cultural ties through language and shared Latin heritage support the community.",
+    description: "Portuguese citizens find Argentina attractive for lower cost of living and European-influenced lifestyle. Strong cultural ties through language and Latin heritage support the community.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -3257,7 +3257,7 @@ export const nationalities: Nationality[] = [
     flag: "🇰🇷",
     title: "South Korean Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, business opportunities, and cultural exchange",
-    description: "The South Korean community has grown significantly with strong presence in technology and automotive sectors. Expanding opportunities and increasing cultural appreciation welcome Korean expats.",
+    description: "The South Korean community has grown with strong presence in technology sectors. Expanding opportunities and cultural appreciation welcome Korean expats to Argentina.",
     region: "asia",
     visaRequirements: {
       tourist: {

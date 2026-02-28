@@ -813,7 +813,6 @@ export const cities: City[] = [
     ],
     gettingThere: "Direct flights from Buenos Aires (1.5 hours) and other major cities. Excellent bus connections. 700km from Buenos Aires by highway.",
     bestFor: ["Digital nomads", "Students", "Tech workers", "Budget-conscious expats", "Weekend hikers"],
-    image: "/images/cities/cordoba.webp",
   },
   {
     slug: "bariloche",
