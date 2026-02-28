@@ -852,7 +852,6 @@ export const cities: City[] = [
     ],
     gettingThere: "Direct flights from Buenos Aires (2.5 hours). Scenic bus route from Mendoza. Ruta de los Siete Lagos scenic drive from San Martín.",
     bestFor: ["Skiers", "Mountain lovers", "Outdoor adventurers", "Chocolate enthusiasts", "Craft beer fans"],
-    image: "/images/cities/bariloche.webp",
   },
   {
     slug: "salta",
