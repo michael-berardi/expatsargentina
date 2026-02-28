@@ -308,3 +308,5 @@ export default function CostOfLivingPage() {
     </main>
   );
 }
+
+// DEPLOY TEST: $(date)
