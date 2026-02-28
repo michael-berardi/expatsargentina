@@ -891,7 +891,6 @@ export const cities: City[] = [
     ],
     gettingThere: "Direct flights from Buenos Aires (2 hours). Bus connections to Jujuy, Tucumán, and Bolivia. Gateway to Northwest Argentina.",
     bestFor: ["Budget expats", "Culture lovers", "Food enthusiasts", "History buffs", "Wine road trippers"],
-    image: "/images/cities/salta.webp",
   },
   {
     slug: "rosario",
@@ -931,7 +930,6 @@ export const cities: City[] = [
     ],
     gettingThere: "Direct flights from Buenos Aires and other cities. Excellent bus service (3 hours from BA). Autopista highway connection.",
     bestFor: ["Budget-conscious BA lovers", "River lifestyle seekers", "Students", "Sports fans", "Young professionals"],
-    image: "/images/cities/rosario.webp",
   },
   {
     slug: "ushuaia",

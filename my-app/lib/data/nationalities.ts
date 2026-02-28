@@ -117,7 +117,7 @@ export const nationalities: Nationality[] = [
     flag: "🇺🇾",
     title: "Uruguayan Citizens in Argentina: The Complete Immigration Guide",
     subtitle: "Mercosur benefits, border living, and everything Uruguayans need to know about moving to Argentina",
-    description: "Uruguayans enjoy the easiest immigration to Argentina as Mercosur members. No visas needed, no fees, and full work rights from day one. Complete guide to residency and cross-border living.",
+    description: "Uruguayans enjoy the easiest immigration as Mercosur members. No visas, no fees, and full work rights from day one. Guide to residency and cross-border living.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -998,7 +998,7 @@ export const nationalities: Nationality[] = [
     flag: "🇧🇷",
     title: "Brazilian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Full Mercosur member benefits, immediate permanent residency, and established community",
-    description: "Brazilians enjoy the easiest immigration path as founding Mercosur members. Immediate permanent residency with no criminal record required and the largest foreign community.",
+    description: "Brazilians enjoy the easiest immigration as founding Mercosur members. Immediate permanent residency with no criminal record required and the largest foreign community.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1587,7 +1587,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇹",
     title: "Italian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Strongest European ties, simplified processes, and the heart of Argentine culture",
-    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity and a welcoming environment celebrate Italian heritage.",
+    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage in a welcoming environment.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -1734,7 +1734,7 @@ export const nationalities: Nationality[] = [
     flag: "🇲🇽",
     title: "Mexican Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, cultural exchange, and expanding opportunities",
-    description: "The Mexican community has grown significantly, drawn by educational opportunities. Expanding networks in major cities provide support for Mexican expats in Argentina.",
+    description: "The Mexican community has grown, drawn by educational opportunities. Expanding networks in major cities provide support for Mexican expats in Argentina.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1879,7 +1879,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇦",
     title: "Canadian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Digital nomad pathway, lower cost of living, and emerging expat community",
-    description: "Canadians find Argentina attractive for affordable living and adventure. Digital nomad visa offers a pathway for remote workers with favorable exchange rates for CAD income.",
+    description: "Canadians find Argentina attractive for affordable living and adventure. Digital nomad visa offers a pathway for remote workers with favorable exchange rates.",
     region: "north-america",
     visaRequirements: {
       tourist: {
@@ -2173,7 +2173,7 @@ export const nationalities: Nationality[] = [
     flag: "🇫🇷",
     title: "French Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Cultural exchange, professional opportunities, and quality of life",
-    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Strong institutional presence through schools and cultural centers supports the community.",
+    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Institutional presence through schools and cultural centers supports the community.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2723,7 +2723,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇳",
     title: "Chinese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, business opportunities, and cultural exchange",
-    description: "The Chinese community is one of Argentina's most established Asian communities. Expanding opportunities in trade, gastronomy, and professional sectors welcome expats.",
+    description: "The Chinese community is one of Argentina's most established Asian communities. Opportunities in trade, gastronomy, and professional sectors welcome expats.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -2870,7 +2870,7 @@ export const nationalities: Nationality[] = [
     flag: "🇯🇵",
     title: "Japanese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Cultural exchange, professional opportunities, and unique bilateral connections",
-    description: "Japan and Argentina maintain strong cultural and economic ties. Japanese citizens find opportunities in technology and automotive sectors with a community in Buenos Aires.",
+    description: "Japan and Argentina maintain strong cultural and economic ties. Japanese citizens find opportunities in technology sectors with a community in Buenos Aires.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -3135,7 +3135,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇹",
     title: "Portuguese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "European pathway, Brazilian connections, and cultural ties",
-    description: "Portuguese citizens find Argentina attractive for lower cost of living and European-influenced lifestyle. Strong cultural ties through language and Latin heritage support the community.",
+    description: "Portuguese citizens find Argentina attractive for lower cost of living and European lifestyle. Cultural ties through language and Latin heritage support the community.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -3257,7 +3257,7 @@ export const nationalities: Nationality[] = [
     flag: "🇰🇷",
     title: "South Korean Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, business opportunities, and cultural exchange",
-    description: "The South Korean community has grown with strong presence in technology sectors. Expanding opportunities and cultural appreciation welcome Korean expats to Argentina.",
+    description: "The South Korean community has grown with presence in technology sectors. Opportunities and cultural appreciation welcome Korean expats to Argentina.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -3382,7 +3382,7 @@ export const nationalities: Nationality[] = [
     flag: "🇳🇱",
     title: "Dutch Citizens in Argentina: Complete Immigration Guide",
     subtitle: "European pathway, agricultural connections, and growing business presence",
-    description: "Dutch citizens are drawn to Argentina for agricultural business and lower cost of living. Strong agricultural and trade relationships between the Netherlands and Argentina.",
+    description: "Dutch citizens are drawn to Argentina for agricultural business and lower cost of living. Agricultural and trade relationships between the Netherlands and Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -3863,7 +3863,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇱",
     title: "Israeli Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Strong historical ties, vibrant Jewish community, and business opportunities",
-    description: "Israelis find a welcoming environment in Argentina, home to the largest Jewish community in Latin America. Opportunities in tech startups with strong cultural connections.",
+    description: "Israelis find a welcoming environment in Argentina, home to the largest Jewish community in Latin America. Opportunities in tech startups with cultural connections.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -4340,7 +4340,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇭",
     title: "Swiss Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Alpine connections, precision industry opportunities, and quality living",
-    description: "Switzerland and Argentina share deep historical ties. Swiss immigrants helped build infrastructure and dairy industry. Professionals and entrepreneurs find opportunities.",
+    description: "Switzerland and Argentina share deep historical ties. Swiss immigrants helped build infrastructure and dairy industry. Professionals find opportunities in Argentina today.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4695,7 +4695,7 @@ export const nationalities: Nationality[] = [
     flag: "🇩🇰",
     title: "Danish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Hygge lifestyle, design expertise, and sustainable business opportunities",
-    description: "Danes bring design sensibility and sustainability focus to Argentina. Visa-free entry and affordable living with a growing community in Buenos Aires for professionals.",
+    description: "Danes bring design sensibility and sustainability focus to Argentina. Visa-free entry and affordable living with a community in Buenos Aires for professionals.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4813,7 +4813,7 @@ export const nationalities: Nationality[] = [
     flag: "🇫🇮",
     title: "Finnish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Sauna culture, tech innovation, and Patagonian adventures",
-    description: "Finns find Argentina's diverse landscapes a perfect match for love of nature. Growing opportunities in tech and education with a small but active community in Buenos Aires.",
+    description: "Finns find Argentina's landscapes a perfect match for love of nature. Opportunities in tech and education with a small community in Buenos Aires.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4931,7 +4931,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇱",
     title: "Polish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, EU benefits, and cultural connections",
-    description: "Poland and Argentina share deep historical ties. Polish citizens find visa-free entry and a welcoming community that dates back generations in one of South America's largest Polish communities.",
+    description: "Poland and Argentina share deep historical ties. Polish citizens find visa-free entry and a welcoming community dating back generations in Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -5050,7 +5050,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇿",
     title: "Czech Citizens in Argentina: Complete Immigration Guide",
     subtitle: "EU opportunities, beer culture connections, and growing community",
-    description: "Czech citizens find Argentina's European-influenced culture and growing tech sector welcoming. Small but active community in Buenos Aires with visa-free entry and EU benefits.",
+    description: "Czech citizens find Argentina's European culture and tech sector welcoming. Active community in Buenos Aires with visa-free entry and EU benefits.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -5168,7 +5168,7 @@ export const nationalities: Nationality[] = [
     flag: "🇺🇦",
     title: "Ukrainian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Humanitarian pathways, growing community, and new beginnings",
-    description: "Argentina has welcomed Ukrainian refugees with open arms, offering humanitarian visas and work authorization. Simplified processes and a supportive community provide a safe new home.",
+    description: "Argentina has welcomed Ukrainian refugees with open arms, offering humanitarian visas. Simplified processes and a supportive community provide a safe new home.",
     region: "europe",
     visaRequirements: {
       tourist: {
