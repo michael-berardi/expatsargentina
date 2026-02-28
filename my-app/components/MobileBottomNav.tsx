@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import { Home, Compass, FileText, MapPin, Menu, Phone } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
@@ -15,6 +16,14 @@ const navItems = [
 
 export function MobileBottomNav() {
   const pathname = usePathname();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Don't render until mounted to avoid hydration mismatch
+  if (!mounted) return null;
 
   // Don't show on homepage (it has its own navigation)
   if (pathname === "/") return null;
