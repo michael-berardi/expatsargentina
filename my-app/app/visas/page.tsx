@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Interactive visa finder, cost calculator, and timeline estimator for all Argentina visa types.",
   },
   alternates: {
-    canonical: "https://expatsargentina.com/visas",
+    canonical: "https://expatsargentina.com/visas/",
   },
 };
 
