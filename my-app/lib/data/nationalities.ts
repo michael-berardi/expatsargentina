@@ -1587,7 +1587,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇹",
     title: "Italian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Strongest European ties, simplified processes, and the heart of Argentine culture",
-    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage across the country.",
+    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage."
     region: "europe",
     visaRequirements: {
       tourist: {
