@@ -284,7 +284,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇱",
     title: "Chilean Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur freedom of movement, cross-Andes living, and everything Chileans need to know",
-    description: "As Mercosur associates, Chileans enjoy simplified immigration to Argentina. With strong cultural ties and similar Spanish variants, Chileans integrate easily while benefiting from Argentina's lower cost of living.",
+    description: "Chileans enjoy simplified immigration to Argentina as Mercosur associates. Strong cultural ties and lower cost of living make integration easy for Chilean expats.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -435,7 +435,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇾",
     title: "Paraguayan Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur full membership, cultural connections, and immigration benefits",
-    description: "As founding Mercosur members, Paraguayans enjoy unrestricted freedom of movement to Argentina. With significant cultural ties and a large established community, Paraguayans find familiar welcome in Argentina.",
+    description: "Paraguayans enjoy unrestricted freedom of movement to Argentina as Mercosur founding members. Strong cultural ties and a large established community welcome Paraguayan expats.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -571,7 +571,7 @@ export const nationalities: Nationality[] = [
     flag: "🇧🇴",
     title: "Bolivian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur membership, cultural ties, and immigration pathways",
-    description: "Bolivia is a full Mercosur member, giving Bolivians unrestricted access to live and work in Argentina. With deep historical connections and a large community, Bolivians find strong support networks in Argentina.",
+    description: "Bolivians enjoy unrestricted access to live and work in Argentina as full Mercosur members. Deep historical connections and a large community provide strong support networks.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -697,7 +697,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇪",
     title: "Peruvian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur associate benefits, vibrant community, and immigration pathways for Peruvians",
-    description: "As Mercosur associates since 2003, Peruvians enjoy streamlined immigration to Argentina. With one of the largest and most vibrant immigrant communities, Peruvians have established strong cultural and economic ties throughout Argentina.",
+    description: "Peruvians enjoy streamlined immigration to Argentina as Mercosur associates since 2003. One of the largest immigrant communities with strong cultural and economic ties throughout the country.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -855,7 +855,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇴",
     title: "Colombian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur associate benefits, growing community, and immigration pathways",
-    description: "Colombia became a Mercosur associate in 2012, giving Colombians preferential immigration access to Argentina. With a rapidly growing community and strong cultural presence, Colombians find increasing opportunities in Argentina.",
+    description: "Colombians enjoy preferential immigration access to Argentina as Mercosur associates since 2012. Rapidly growing community with strong cultural presence and increasing opportunities.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -998,7 +998,7 @@ export const nationalities: Nationality[] = [
     flag: "🇧🇷",
     title: "Brazilian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Full Mercosur member benefits, immediate permanent residency, and established community",
-    description: "As a founding Mercosur member, Brazilians enjoy the easiest immigration path to Argentina with immediate permanent residency, no criminal record requirement, and the largest foreign community in the country.",
+    description: "Brazilians enjoy the easiest immigration path to Argentina as founding Mercosur members. Immediate permanent residency, no criminal record required, and the largest foreign community.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1145,7 +1145,7 @@ export const nationalities: Nationality[] = [
     flag: "🇻🇪",
     title: "Venezuelan Citizens in Argentina: Complete Immigration Guide",
     subtitle: "DNE migratory agreement, special humanitarian provisions, and established community support",
-    description: "Venezuelans represent one of Argentina's largest immigrant communities. Through the DNE agreement and humanitarian provisions, Venezuelans have established pathways to residency, work authorization, and integration support.",
+    description: "Venezuelans have established pathways to residency through the DNE agreement and humanitarian provisions. One of Argentina's largest immigrant communities with work authorization support.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1440,7 +1440,7 @@ export const nationalities: Nationality[] = [
     flag: "🇪🇸",
     title: "Spanish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Bilateral agreements, preferential treatment, and strong cultural ties",
-    description: "Spain and Argentina share deep historical and cultural bonds. Spanish citizens benefit from bilateral agreements that simplify residency, offer special pension arrangements, and honor the unique relationship between these two nations.",
+    description: "Spanish citizens benefit from bilateral agreements that simplify residency and offer special pension arrangements. Deep historical and cultural bonds between Spain and Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -1587,7 +1587,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇹",
     title: "Italian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Strongest European ties, simplified processes, and the heart of Argentine culture",
-    description: "Argentina has the largest Italian population outside Italy. Italian citizens enjoy simplified immigration processes, cultural familiarity, and a welcoming environment where Italian heritage is celebrated. The Italian-Argentine connection is woven into the fabric of Argentine society.",
+    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity and a welcoming environment celebrate Italian heritage throughout the country.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -1734,7 +1734,7 @@ export const nationalities: Nationality[] = [
     flag: "🇲🇽",
     title: "Mexican Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, cultural exchange, and expanding opportunities",
-    description: "The Mexican community in Argentina has grown significantly in recent years, drawn by educational opportunities, professional mobility, and cultural exchange programs. Mexicans find a welcoming environment with expanding networks in major Argentine cities.",
+    description: "The Mexican community in Argentina has grown significantly, drawn by educational opportunities and professional mobility. Expanding networks in major Argentine cities provide support for Mexican expats.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1879,7 +1879,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇦",
     title: "Canadian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Digital nomad pathway, lower cost of living, and emerging expat community",
-    description: "Argentina has become increasingly popular with Canadians seeking affordable living, vibrant culture, and adventure. The digital nomad visa offers an excellent pathway for Canadian remote workers, while the favorable exchange rate makes Argentina highly attractive for those with CAD income.",
+    description: "Canadians find Argentina attractive for affordable living and adventure. The digital nomad visa offers an excellent pathway for remote workers, with favorable exchange rates for CAD income.",
     region: "north-america",
     visaRequirements: {
       tourist: {
@@ -2026,7 +2026,7 @@ export const nationalities: Nationality[] = [
     flag: "🇬🇧",
     title: "UK Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Post-Brexit opportunities, digital nomad pathway, and historic Anglo-Argentine ties",
-    description: "Post-Brexit, more Britons are exploring Argentina for its affordability, lifestyle, and adventure opportunities. The digital nomad visa provides an excellent pathway for UK remote workers, while historical Anglo-Argentine connections create familiar touchpoints.",
+    description: "Britons explore Argentina for affordability and adventure post-Brexit. The digital nomad visa provides a pathway for UK remote workers, with historical Anglo-Argentine connections.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2173,7 +2173,7 @@ export const nationalities: Nationality[] = [
     flag: "🇫🇷",
     title: "French Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Cultural exchange, professional opportunities, and quality of life",
-    description: "French citizens are drawn to Argentina for its cultural vibrancy, lower cost of living, and professional opportunities. The French community maintains strong institutional presence through schools, cultural centers, and business networks.",
+    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Strong institutional presence through schools, cultural centers, and business networks supports the French community.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2308,7 +2308,7 @@ export const nationalities: Nationality[] = [
     flag: "🇩🇪",
     title: "German Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, professional opportunities, and quality lifestyle",
-    description: "German interest in Argentina has grown significantly, driven by remote work opportunities, lower living costs, and Argentina's European-influenced culture. Germans find a welcoming environment with expanding professional networks.",
+    description: "German interest in Argentina has grown significantly, driven by remote work opportunities and lower living costs. Expanding professional networks support Germans in a welcoming environment.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2440,7 +2440,7 @@ export const nationalities: Nationality[] = [
     flag: "🇦🇺",
     title: "Australian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Working holiday agreements, digital nomad pathway, and adventure opportunities",
-    description: "Argentina offers Australians unique opportunities through working holiday agreements, a growing digital nomad community, and adventure tourism connections. The favorable exchange rate makes Argentina highly attractive for those with AUD income.",
+    description: "Australians enjoy working holiday agreements and a growing digital nomad community. Favorable exchange rates make Argentina highly attractive for those with AUD income.",
     region: "oceania",
     visaRequirements: {
       tourist: {
@@ -2585,7 +2585,7 @@ export const nationalities: Nationality[] = [
     flag: "🇳🇿",
     title: "New Zealand Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Digital nomad pathway, adventure tourism, and growing expat community",
-    description: "New Zealanders find Argentina attractive for its adventure opportunities, lower cost of living, and cultural experiences. While there's no working holiday agreement, the digital nomad visa offers an excellent pathway for remote workers.",
+    description: "New Zealanders find Argentina attractive for adventure and lower cost of living. The digital nomad visa offers an excellent pathway for remote workers and cultural experiences.",
     region: "oceania",
     visaRequirements: {
       tourist: {
@@ -2723,7 +2723,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇳",
     title: "Chinese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, business opportunities, and cultural exchange",
-    description: "The Chinese community in Argentina is one of the most established Asian communities, with deep historical roots and significant economic presence. Chinese citizens find expanding opportunities in trade, gastronomy, and professional sectors.",
+    description: "The Chinese community is one of Argentina's most established Asian communities with deep historical roots. Expanding opportunities in trade, gastronomy, and professional sectors welcome Chinese expats.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -2870,7 +2870,7 @@ export const nationalities: Nationality[] = [
     flag: "🇯🇵",
     title: "Japanese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Cultural exchange, professional opportunities, and unique bilateral connections",
-    description: "Japan and Argentina maintain strong cultural and economic ties. Japanese citizens find opportunities in technology, automotive, gastronomy, and cultural exchange, with a well-established Japanese community in Buenos Aires.",
+    description: "Japan and Argentina maintain strong cultural and economic ties. Japanese citizens find opportunities in technology, automotive, and gastronomy, with a well-established community in Buenos Aires.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -3009,7 +3009,7 @@ export const nationalities: Nationality[] = [
     flag: "🇪🇨",
     title: "Ecuadorian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur associate benefits, Andean connections, and growing community",
-    description: "As a Mercosur associate member, Ecuadorians enjoy preferential immigration access to Argentina with 2-year renewable residency and work authorization. The growing Ecuadorian community finds opportunities across various sectors.",
+    description: "Ecuadorians enjoy preferential immigration access to Argentina as Mercosur associates. 2-year renewable residency with work authorization and opportunities across various sectors.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -3135,7 +3135,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇹",
     title: "Portuguese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "European pathway, Brazilian connections, and cultural ties",
-    description: "Portuguese citizens find Argentina attractive for its lower cost of living, Brazilian cultural connections, and European-influenced lifestyle. The Portuguese community maintains strong ties through language and shared Latin heritage.",
+    description: "Portuguese citizens find Argentina attractive for lower cost of living and European-influenced lifestyle. Strong cultural ties through language and shared Latin heritage support the community.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -3257,7 +3257,7 @@ export const nationalities: Nationality[] = [
     flag: "🇰🇷",
     title: "South Korean Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, business opportunities, and cultural exchange",
-    description: "The South Korean community in Argentina has grown significantly, with strong presence in technology, automotive, and gastronomy sectors. Korean citizens find expanding opportunities and increasing cultural appreciation.",
+    description: "The South Korean community has grown significantly with strong presence in technology and automotive sectors. Expanding opportunities and increasing cultural appreciation welcome Korean expats.",
     region: "asia",
     visaRequirements: {
       tourist: {

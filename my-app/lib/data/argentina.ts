@@ -698,6 +698,7 @@ export const cities: City[] = [
   {
     slug: "buenos-aires",
     name: "Buenos Aires",
+    image: "/images/cities/buenos-aires.webp",
     province: "CABA",
     provinceSlug: "buenos-aires-city",
     population: "3.1 million (15M metro)",
@@ -739,6 +740,7 @@ export const cities: City[] = [
   {
     slug: "mendoza",
     name: "Mendoza",
+    image: "/images/cities/mendoza.webp",
     province: "Mendoza",
     provinceSlug: "mendoza",
     population: "1.1 million",
@@ -778,6 +780,7 @@ export const cities: City[] = [
   {
     slug: "cordoba",
     name: "Córdoba",
+    image: "/images/cities/cordoba.webp",
     province: "Córdoba",
     provinceSlug: "cordoba",
     population: "1.5 million",
@@ -817,6 +820,7 @@ export const cities: City[] = [
   {
     slug: "bariloche",
     name: "San Carlos de Bariloche",
+    image: "/images/cities/bariloche.webp",
     province: "Río Negro",
     provinceSlug: "rio-negro",
     population: "135,000",
@@ -856,6 +860,7 @@ export const cities: City[] = [
   {
     slug: "salta",
     name: "Salta",
+    image: "/images/cities/salta.webp",
     province: "Salta",
     provinceSlug: "salta",
     population: "620,000",
@@ -895,6 +900,7 @@ export const cities: City[] = [
   {
     slug: "rosario",
     name: "Rosario",
+    image: "/images/cities/rosario.webp",
     province: "Santa Fe",
     provinceSlug: "santa-fe",
     population: "1.2 million",

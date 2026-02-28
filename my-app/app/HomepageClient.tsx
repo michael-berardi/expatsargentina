@@ -135,7 +135,7 @@ export default function Home() {
       {/* Trust Bar */}
       <section className="py-4 bg-primary/5 border-y">
         <div className="container mx-auto px-5">
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
+          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <CheckCircleIcon size="sm" className="text-primary" />
               <span>Sponsored by Lucero Legal</span>
@@ -247,8 +247,13 @@ export default function Home() {
             {featuredCities.map((city) => city && (
               <Link key={city.slug} href={`/cities/${city.slug}`} className="group">
                 <Card className="h-full overflow-hidden transition-all hover:shadow-lg">
-                  <div className="aspect-video bg-gradient-to-br from-sky-100 to-amber-50 dark:from-sky-900/30 dark:to-amber-900/20 flex items-center justify-center">
-                    <span className="text-4xl font-bold text-primary/20">{city.name[0]}</span>
+                  <div className="aspect-video relative overflow-hidden">
+                    <img
+                      src={city.image}
+                      alt={city.name}
+                      className="w-full h-full object-cover transition-transform group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                   </div>
                   <CardHeader>
                     <CardTitle>{city.name}</CardTitle>

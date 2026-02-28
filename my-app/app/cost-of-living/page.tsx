@@ -4,6 +4,69 @@ import { StickyTOC } from "@/components/StickyTOC";
 import { ResponsiveTable } from "@/components/ResponsiveTable";
 import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
+// JSON-LD structured data
+function CostOfLivingStructuredData() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://expatsargentina.com/cost-of-living/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://expatsargentina.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cost of Living"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://expatsargentina.com/cost-of-living/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does it cost to live in Argentina per month?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Monthly costs range from $650 in smaller cities like Cordoba to $1,200 in Buenos Aires. This includes rent, food, utilities, and transportation. Digital nomads and remote workers find Argentina very affordable compared to US/European cities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Buenos Aires expensive for expats?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Buenos Aires is the most expensive city in Argentina but still affordable compared to major US or European cities. Expect $800-1,200/month for a comfortable lifestyle including a one-bedroom apartment in a good neighborhood."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much is rent in Argentina?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Rent varies by city: Buenos Aires $400-600 for a 1-bedroom, Mendoza $300-450, Cordoba $280-400, Bariloche $350-500. Prices are for furnished apartments in decent neighborhoods."
+            }
+          }
+        ]
+      }
+    ]
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+    />
+  );
+}
+
 export const metadata: Metadata = {
   title: "Cost of Living in Argentina 2025 | Expats Guide",
   description:
@@ -305,6 +368,7 @@ export default function CostOfLivingPage() {
           </div>
         </div>
       </section>
+      <CostOfLivingStructuredData />
     </main>
   );
 }
