@@ -113,7 +113,7 @@ export default function Home() {
             </p>
             <p className="text-sm text-muted-foreground/80 mb-8 max-w-xl mx-auto flex items-center justify-center gap-2">
               <ShieldIcon size="sm" className="text-primary" />
-              {t("homepage.hero.legal") === "homepage.hero.legal" ? "Legal guidance provided by Lucero Legal" : (t("homepage.hero.legal") as string)}
+              Legal guidance provided by Lucero Legal
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="gap-2">
@@ -138,17 +138,17 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <CheckCircleIcon size="sm" className="text-primary" />
-              <span>{t("homepage.trust.legal") === "homepage.trust.legal" ? "Sponsored by Lucero Legal" : (t("homepage.trust.legal") as string)}</span>
+              <span>Sponsored by Lucero Legal</span>
             </div>
             <div className="hidden sm:block w-px h-4 bg-border" />
             <div className="flex items-center gap-2">
               <UsersIcon size="sm" className="text-primary" />
-              <span>{t("homepage.trust.readers") === "homepage.trust.readers" ? "Trusted by 50,000+ readers" : (t("homepage.trust.readers") as string)}</span>
+              <span>Trusted by 50,000+ readers</span>
             </div>
             <div className="hidden sm:block w-px h-4 bg-border" />
             <div className="flex items-center gap-2">
               <GlobeIcon size="sm" className="text-primary" />
-              <span>{t("homepage.trust.updated") === "homepage.trust.updated" ? "Updated February 2026" : (t("homepage.trust.updated") as string)}</span>
+              <span>Updated February 2026</span>
             </div>
           </div>
         </div>
