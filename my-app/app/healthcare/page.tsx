@@ -109,7 +109,7 @@ export default function HealthcarePage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -120,7 +120,7 @@ export default function HealthcarePage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <HeartIcon size="sm" className="mr-1" />
@@ -139,7 +139,7 @@ export default function HealthcarePage() {
 
       {/* 2026 Healthcare Alert */}
       <section className="py-8 bg-red-50 dark:bg-red-950/20 border-y border-red-200 dark:border-red-800">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-start gap-4">
               <AlertCircleIcon size="lg" className="text-red-600 flex-shrink-0 mt-1" />
@@ -160,7 +160,7 @@ export default function HealthcarePage() {
 
       {/* Overview */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Healthcare System Overview</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
@@ -241,7 +241,7 @@ export default function HealthcarePage() {
 
       {/* Insurance Providers */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Major Insurance Providers</h2>
             <Card>
@@ -283,7 +283,7 @@ export default function HealthcarePage() {
 
       {/* Top Hospitals */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Recommended Hospitals</h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -305,7 +305,7 @@ export default function HealthcarePage() {
 
       {/* Costs */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Typical Medical Costs</h2>
             <Card>
@@ -337,7 +337,7 @@ export default function HealthcarePage() {
 
       {/* FAQ */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-8">
               Frequently Asked Questions
@@ -356,7 +356,7 @@ export default function HealthcarePage() {
 
       {/* Emergency Info */}
       <section className="py-16 bg-red-50 dark:bg-red-950/20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <Card className="border-red-200">
               <CardHeader>
@@ -388,7 +388,7 @@ export default function HealthcarePage() {
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Need Help Choosing Insurance?</h2>
             <p className="text-primary-foreground/80 mb-8">

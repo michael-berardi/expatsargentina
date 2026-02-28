@@ -84,7 +84,7 @@ export default function ProvincesPage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
@@ -97,7 +97,7 @@ export default function ProvincesPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <GlobeIcon size="sm" className="mr-1" />
@@ -117,7 +117,7 @@ export default function ProvincesPage() {
 
       {/* Region Filter */}
       <section className="py-8 border-b">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="flex flex-wrap gap-3 justify-center">
             {regions.map((region) => (
               <a
@@ -149,7 +149,7 @@ export default function ProvincesPage() {
             id={`region-${region.name.toLowerCase()}`}
             className="py-16 scroll-mt-20"
           >
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-5">
               {/* Region Header */}
               <div className="mb-10 text-center">
                 <div className="flex items-center justify-center gap-3 mb-3">
@@ -258,7 +258,7 @@ export default function ProvincesPage() {
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">
               Not Sure Where to Start?

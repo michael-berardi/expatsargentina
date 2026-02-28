@@ -44,7 +44,7 @@ export function PhotoGallery({
     const [featured, ...rest] = photos;
     return (
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             {title && <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>}
             
@@ -168,7 +168,7 @@ export function PhotoGallery({
   // Grid variant (default)
   return (
     <section className="py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-5">
         <div className="max-w-4xl mx-auto">
           {title && <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>}
           

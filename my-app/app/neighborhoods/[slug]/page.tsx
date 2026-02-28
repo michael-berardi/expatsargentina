@@ -138,7 +138,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -151,7 +151,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             {/* Author & Date */}
             <div className="flex flex-wrap items-center gap-3 mb-6 text-sm text-muted-foreground">
@@ -236,7 +236,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* Detailed Description */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Living in {hood.name}</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed">
@@ -272,7 +272,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* At a Glance */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">At a Glance</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -384,7 +384,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* Best For / Not Ideal For */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Who Should Live Here?</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -432,7 +432,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* Highlights & Considerations */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -471,7 +471,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* Landmarks */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Notable Landmarks</h2>
             <div className="flex flex-wrap gap-3 justify-center">
@@ -489,7 +489,7 @@ export default async function NeighborhoodDetailPage({
       {/* Nearby Neighborhoods */}
       {nearbyHoods.length > 0 && (
         <section className="py-16 bg-muted/30">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-5">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-8 text-center">Nearby Neighborhoods</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -529,7 +529,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* Related Content */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <RelatedForCity citySlug="buenos-aires" />
@@ -545,7 +545,7 @@ export default async function NeighborhoodDetailPage({
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Move to {hood.name}?</h2>
             <p className="text-primary-foreground/80 mb-8">

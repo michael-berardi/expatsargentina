@@ -340,7 +340,7 @@ export default function WinePage() {
 
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -351,7 +351,7 @@ export default function WinePage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-purple-50 to-white dark:from-purple-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <WineIcon size="sm" className="mr-1" />
@@ -379,7 +379,7 @@ export default function WinePage() {
 
       {/* Quick Stats */}
       <section className="py-12 border-b">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             {quickStats.map((stat, index) => {
               const IconComp = stat.icon;
@@ -399,7 +399,7 @@ export default function WinePage() {
 
       {/* Wine Regions */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center">
@@ -455,7 +455,7 @@ export default function WinePage() {
 
       {/* Essential Grape Varieties */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-rose-100 dark:bg-rose-900/30 flex items-center justify-center">
@@ -510,7 +510,7 @@ export default function WinePage() {
 
       {/* Buying Wine in Argentina */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
@@ -616,7 +616,7 @@ export default function WinePage() {
 
       {/* Wine Tasting Experiences */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
@@ -722,7 +722,7 @@ export default function WinePage() {
 
       {/* Wine Culture for Expats */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-rose-100 dark:bg-rose-900/30 flex items-center justify-center">
@@ -771,7 +771,7 @@ export default function WinePage() {
 
       {/* CTA Section */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Explore More of Argentine Food & Drink</h2>
             <p className="text-primary-foreground/80 mb-8">

@@ -69,7 +69,7 @@ export default function CitiesPage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
@@ -82,7 +82,7 @@ export default function CitiesPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <GlobeIcon size="sm" className="mr-1" />
@@ -102,7 +102,7 @@ export default function CitiesPage() {
 
       {/* Cities Grid */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {sortedCities.map((city) => (
               <Link
@@ -185,7 +185,7 @@ export default function CitiesPage() {
 
       {/* City Comparisons */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold mb-4">
@@ -229,7 +229,7 @@ export default function CitiesPage() {
 
       {/* CTA Section */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Pick Your City?

@@ -704,7 +704,7 @@ export default function ResourcesPage() {
     <div className="flex flex-col min-h-screen">
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -715,7 +715,7 @@ export default function ResourcesPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <BriefcaseIcon size="sm" className="mr-1" />
@@ -746,7 +746,7 @@ export default function ResourcesPage() {
 
       {/* Main Content Tabs */}
       <section className="py-8">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <Tabs defaultValue="providers" className="w-full">
             <TabsList className="w-full flex flex-wrap h-auto justify-start gap-2 mb-8">
               <TabsTrigger value="providers" className="flex items-center gap-1">
@@ -1175,7 +1175,7 @@ export default function ResourcesPage() {
 
       {/* Newsletter CTA */}
       <section className="py-16 bg-primary text-primary-foreground mt-auto">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
             <p className="text-primary-foreground/80 mb-8">

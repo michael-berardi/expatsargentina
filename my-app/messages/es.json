@@ -28,7 +28,13 @@
       "subtitle": "No solo Buenos Aires. Desde lagos patagónicos hasta la región vinícola andina, cascadas subtropicales hasta pueblos coloniales del Noroeste — guías para expatriados de cada rincón del país.",
       "description": "Visas, costo de vida, vivienda, salud y consejos honestos para cada provincia y ciudad principal del país.",
       "exploreProvinces": "Explorar Provincias",
-      "browseCities": "Ver Guías de Ciudades"
+      "browseCities": "Ver Guías de Ciudades",
+      "legal": "Asesoría legal proporcionada por Lucero Legal"
+    },
+    "trust": {
+      "legal": "Patrocinado por Lucero Legal",
+      "readers": "Confiado por más de 50,000 expatriados",
+      "updated": "Actualizado febrero 2026"
     },
     "stats": {
       "provinces": "Provincias",

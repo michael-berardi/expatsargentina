@@ -112,7 +112,7 @@ export default function NeighborhoodsPage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -123,7 +123,7 @@ export default function NeighborhoodsPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <MapPinIcon size="sm" className="mr-1" />
@@ -142,7 +142,7 @@ export default function NeighborhoodsPage() {
 
       {/* Safety Reality Banner */}
       <section className="py-8 bg-green-50 dark:bg-green-950/20 border-y border-green-200 dark:border-green-800">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-xl font-bold text-green-900 dark:text-green-100 mb-2">
               Safety Reality: Palermo, Recoleta & Belgrano Are Very Safe
@@ -157,7 +157,7 @@ export default function NeighborhoodsPage() {
 
       {/* Quick Comparison */}
       <section className="py-12 border-b">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <h2 className="text-2xl font-bold mb-8 text-center">Quick Comparison</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
             {quickComparison.map((item) => (
@@ -185,7 +185,7 @@ export default function NeighborhoodsPage() {
         };
         return (
           <section key={city} className="py-16 border-b last:border-b-0">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-5">
               <div className="max-w-3xl mx-auto text-center mb-12">
                 <Badge className="mb-4" variant="secondary">
                   <MapPinIcon size="sm" className="mr-1" />
@@ -292,7 +292,7 @@ export default function NeighborhoodsPage() {
 
       {/* Tips Section */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Tips for Choosing Your Neighborhood</h2>
             <div className="space-y-6">
@@ -379,7 +379,7 @@ export default function NeighborhoodsPage() {
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Still Deciding?</h2>
             <p className="text-primary-foreground/80 mb-8">

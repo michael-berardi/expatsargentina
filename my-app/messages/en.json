@@ -28,7 +28,13 @@
       "subtitle": "Not just Buenos Aires. From Patagonian lakes to Andean wine country, subtropical waterfalls to colonial Northwest towns — comprehensive expat guides for every corner of Argentina.",
       "description": "Visas, cost of living, housing, healthcare, and honest advice for every province and major city in the country.",
       "exploreProvinces": "Explore Provinces",
-      "browseCities": "Browse City Guides"
+      "browseCities": "Browse City Guides",
+      "legal": "Legal guidance provided by Lucero Legal"
+    },
+    "trust": {
+      "legal": "Sponsored by Lucero Legal",
+      "readers": "Trusted by 50,000+ expats",
+      "updated": "Updated February 2026"
     },
     "stats": {
       "provinces": "Provinces",

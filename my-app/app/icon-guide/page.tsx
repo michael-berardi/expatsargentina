@@ -65,7 +65,7 @@ const sizeExamples = [
 export default function IconGuidePage() {
   return (
     <div className="flex flex-col min-h-screen py-16">
-      <div className="container mx-auto px-4 max-w-6xl">
+      <div className="container mx-auto px-5 max-w-6xl">
         {/* Header */}
         <div className="text-center mb-16">
           <Badge className="mb-4" variant="secondary">

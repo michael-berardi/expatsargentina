@@ -94,14 +94,16 @@ export default function Home() {
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-teal-50/90 via-white/80 to-white dark:from-teal-950/90 dark:via-background/80 dark:to-background" />
-        <div className="container mx-auto px-4 py-24 md:py-36 relative">
+        <div className="container mx-auto px-5 py-24 md:py-36 relative">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-6">
               <MapPinIcon size="sm" className="mr-1" />
               {t("homepage.hero.badge") as string}
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
-              {t("homepage.hero.title") as string}
+              Your Complete Guide to{" "}
+              <br className="md:hidden" />
+              Living in Argentina
             </h1>
             <p className="text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
               {t("homepage.hero.subtitle") as string}
@@ -132,7 +134,7 @@ export default function Home() {
 
       {/* Trust Bar */}
       <section className="py-4 bg-primary/5 border-y">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <CheckCircleIcon size="sm" className="text-primary" />
@@ -154,7 +156,7 @@ export default function Home() {
 
       {/* Stats Section */}
       <section className="py-12 border-y bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto text-center">
             {stats.map((stat) => (
               <div key={stat.labelKey}>
@@ -168,7 +170,7 @@ export default function Home() {
 
       {/* Why Argentina */}
       <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               {t("homepage.whyArgentina.title") as string}
@@ -199,7 +201,7 @@ export default function Home() {
 
       {/* Guide Categories */}
       <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               {t("homepage.guides.title") as string}
@@ -230,7 +232,7 @@ export default function Home() {
 
       {/* Featured Cities */}
       <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="text-center mb-12">
             <Badge variant="secondary" className="mb-4">
               <MapPinIcon size="sm" className="mr-1" />
@@ -272,7 +274,7 @@ export default function Home() {
 
       {/* Regions Explorer */}
       <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="text-center mb-12">
             <Badge variant="secondary" className="mb-4">
               <GlobeIcon size="sm" className="mr-1" />
@@ -308,7 +310,7 @@ export default function Home() {
 
       {/* Newsletter CTA */}
       <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-2xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4">
               <MailIcon size="sm" className="mr-1" />

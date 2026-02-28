@@ -120,7 +120,7 @@ export default async function ProvinceDetailPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
@@ -147,7 +147,7 @@ export default async function ProvinceDetailPage({
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-background" />
         </div>
-        <div className="relative container mx-auto px-4 pt-20 pb-16 h-[400px] flex items-end">
+        <div className="relative container mx-auto px-5 pt-20 pb-16 h-[400px] flex items-end">
           <div className="max-w-3xl">
             <Badge
               className={`mb-4 ${regionBgColors[province.region as Region]} ${regionTextColors[province.region as Region]} border-0`}
@@ -166,7 +166,7 @@ export default async function ProvinceDetailPage({
 
       {/* Key Facts */}
       <section className="py-12 border-b">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {province.keyFacts.map((fact) => (
               <Card
@@ -187,7 +187,7 @@ export default async function ProvinceDetailPage({
 
       {/* Long Description */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">
               About {province.name}
@@ -201,7 +201,7 @@ export default async function ProvinceDetailPage({
 
       {/* Expat Appeal */}
       <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
               <GlobeIcon size="lg" className="text-primary" />
@@ -216,7 +216,7 @@ export default async function ProvinceDetailPage({
 
       {/* Info Grid: Cost, Climate, Safety, Internet */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {/* Cost of Living */}
             <Card>
@@ -282,7 +282,7 @@ export default async function ProvinceDetailPage({
 
       {/* Major Cities */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <MapPinIcon size="lg" className="text-primary" />
@@ -323,7 +323,7 @@ export default async function ProvinceDetailPage({
 
       {/* Highlights */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8">Highlights</h2>
             <div className="grid sm:grid-cols-2 gap-4">
@@ -343,7 +343,7 @@ export default async function ProvinceDetailPage({
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Explore {province.name}?

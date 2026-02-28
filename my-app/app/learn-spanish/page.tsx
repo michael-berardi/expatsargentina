@@ -209,7 +209,7 @@ const faqs = [
 
 export default function LearnSpanishPage() {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-5 py-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

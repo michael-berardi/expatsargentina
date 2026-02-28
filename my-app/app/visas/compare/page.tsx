@@ -35,7 +35,7 @@ export default function VisaCompareIndexPage() {
     <div className="flex flex-col min-h-screen">
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
@@ -52,7 +52,7 @@ export default function VisaCompareIndexPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <ArrowRightLeftIcon size="sm" className="mr-1" />
@@ -72,7 +72,7 @@ export default function VisaCompareIndexPage() {
 
       {/* Comparisons Grid */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {visaComparisons.map((comparison) => {
               // Count wins
@@ -167,7 +167,7 @@ export default function VisaCompareIndexPage() {
 
       {/* CTA Section */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">
               Want to Explore Individual Visa Types?

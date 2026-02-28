@@ -1027,7 +1027,7 @@ export default function VisasPageClient() {
     <div className="flex flex-col min-h-screen overflow-x-hidden">
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -1038,7 +1038,7 @@ export default function VisasPageClient() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <Icon name="file-text" size="sm" />
@@ -1071,7 +1071,7 @@ export default function VisasPageClient() {
 
       {/* 2026 Visa Reality Alert */}
       <section className="py-8 bg-amber-50 dark:bg-amber-950/20 border-y border-amber-200 dark:border-amber-800">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-start gap-4">
               <Icon name="alert-circle" size="lg" className="text-amber-600 flex-shrink-0 mt-1" />
@@ -1079,7 +1079,7 @@ export default function VisasPageClient() {
                 <h2 className="text-xl font-bold text-amber-900 dark:text-amber-100 mb-2">
                   2026 Visa Reality: Delays & Processing Updates
                 </h2>
-                <ul className="text-amber-800 dark:text-amber-200 space-y-2 text-sm">
+                <ul className="text-amber-800 dark:text-amber-200 space-y-3 text-sm">
                   <li><strong>DNI Delays:</strong> National ID processing is taking 6+ months due to system backlogs. Without DNI, banking and renting are extremely difficult.</li>
                   <li><strong>2-Year Citizenship Rule:</strong> Citizenship requires 2 years of <em>permanent</em> residency (not temporary). Total timeline: 4-5 years minimum.</li>
                   <li><strong>Digital Nomad Visa:</strong> Only 180 days with no direct residency path. Many regret choosing this over other visa types.</li>
@@ -1092,7 +1092,7 @@ export default function VisasPageClient() {
 
       {/* Interactive Tools Section */}
       <section id="quiz" className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Interactive Visa Tools</h2>
@@ -1151,7 +1151,7 @@ export default function VisasPageClient() {
 
       {/* Comparison Table */}
       <section id="comparison" className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Complete Visa Comparison</h2>
@@ -1273,7 +1273,7 @@ export default function VisasPageClient() {
 
       {/* Individual Visa Deep Dives */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Detailed Visa Guides</h2>
@@ -1538,7 +1538,7 @@ export default function VisasPageClient() {
 
       {/* Practical Sections */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Practical Information</h2>
@@ -1804,7 +1804,7 @@ export default function VisasPageClient() {
 
       {/* Tips Section */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Insider Tips from Successful Applicants</h2>
             
@@ -1883,7 +1883,7 @@ export default function VisasPageClient() {
 
       {/* Important Notice */}
       <section className="py-16 bg-amber-50 dark:bg-amber-950/20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <Card className="border-amber-200">
               <CardContent className="pt-6">
@@ -1913,7 +1913,7 @@ export default function VisasPageClient() {
 
       {/* Quick Links to All Visa Guides */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-4 text-center">All Visa & Immigration Guides</h2>
             <p className="text-muted-foreground text-center mb-8">

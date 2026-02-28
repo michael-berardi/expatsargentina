@@ -133,7 +133,7 @@ export default function InvestmentsPage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
@@ -148,7 +148,7 @@ export default function InvestmentsPage() {
       <section className="relative overflow-hidden bg-gradient-to-b from-emerald-50 via-white to-white dark:from-emerald-950/20 dark:via-background dark:to-background">
         <div className="absolute inset-0 bg-cover bg-center opacity-5" />
         <div className="absolute inset-0 bg-gradient-to-b from-emerald-50/90 via-white/80 to-white dark:from-emerald-950/90 dark:via-background/80 dark:to-background" />
-        <div className="container mx-auto px-4 py-16 md:py-24 relative">
+        <div className="container mx-auto px-5 py-16 md:py-24 relative">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-6">
               <TrendingUpIcon size="sm" className="mr-1" />
@@ -185,7 +185,7 @@ export default function InvestmentsPage() {
 
       {/* Economic Context Banner */}
       <section className="py-12 border-y bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
               <StarIcon size="lg" className="text-emerald-600" />
@@ -247,7 +247,7 @@ export default function InvestmentsPage() {
 
       {/* Investment Sectors Grid */}
       <section id="sectors" className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="text-center mb-12">
             <Badge variant="secondary" className="mb-4">
               <GlobeIcon size="sm" className="mr-1" />
@@ -317,7 +317,7 @@ export default function InvestmentsPage() {
 
       {/* RIGI Section */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <Badge variant="secondary" className="mb-4">
@@ -406,7 +406,7 @@ export default function InvestmentsPage() {
 
       {/* Lucero Legal CTA */}
       <section className="py-16 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <Card className="border-slate-200 dark:border-slate-800">
               <CardContent className="p-8 md:p-12">
@@ -446,7 +446,7 @@ export default function InvestmentsPage() {
 
       {/* Investment Visa CTA */}
       <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <Card className="border-emerald-200 dark:border-emerald-800 bg-gradient-to-br from-emerald-50/50 to-white dark:from-emerald-950/20 dark:to-background">
               <CardContent className="p-8 md:p-12">
@@ -487,7 +487,7 @@ export default function InvestmentsPage() {
 
       {/* Disclaimer */}
       <section className="py-8 border-t">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto space-y-4">
             <p className="text-xs text-muted-foreground text-center">
               <strong>Disclaimer:</strong> The information provided is for educational purposes only 

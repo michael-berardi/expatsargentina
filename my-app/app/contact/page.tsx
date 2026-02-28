@@ -75,7 +75,7 @@ export default function ContactPage() {
 
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -86,7 +86,7 @@ export default function ContactPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <MailIcon size="sm" className="mr-1" />
@@ -105,7 +105,7 @@ export default function ContactPage() {
 
       {/* Contact Form */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-2xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               {/* Form */}
@@ -204,7 +204,7 @@ export default function ContactPage() {
 
       {/* FAQ */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Before You Contact Us</h2>
             <div className="space-y-4">
@@ -250,7 +250,7 @@ export default function ContactPage() {
 
       {/* Response Times */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-10">
               <Badge className="mb-4" variant="secondary">
@@ -320,7 +320,7 @@ export default function ContactPage() {
 
       {/* Community Resources */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-10">
               <Badge className="mb-4" variant="secondary">
@@ -408,7 +408,7 @@ export default function ContactPage() {
 
       {/* Popular Help Topics */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-10">
               <Badge className="mb-4" variant="secondary">

@@ -95,7 +95,7 @@ export default async function InvestmentSectorPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
@@ -112,7 +112,7 @@ export default async function InvestmentSectorPage({
 
       {/* Hero Section */}
       <section className="relative py-16 md:py-24 overflow-hidden bg-gradient-to-b from-emerald-50/50 to-white dark:from-emerald-950/10 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl">
             <div className="flex flex-wrap items-center gap-2 mb-6">
               <Badge variant="secondary">
@@ -165,7 +165,7 @@ export default async function InvestmentSectorPage({
 
       {/* Long Description */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Sector Overview</h2>
             <p className="text-muted-foreground leading-relaxed text-lg">
@@ -177,7 +177,7 @@ export default async function InvestmentSectorPage({
 
       {/* Key Opportunities */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <LightbulbIcon size="lg" className="text-emerald-600" />
@@ -200,7 +200,7 @@ export default async function InvestmentSectorPage({
 
       {/* Top Regions */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <MapPinIcon size="lg" className="text-emerald-600" />
@@ -235,7 +235,7 @@ export default async function InvestmentSectorPage({
 
       {/* Legal & Tax */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               {/* Legal Considerations */}
@@ -284,7 +284,7 @@ export default async function InvestmentSectorPage({
 
       {/* Recent Developments */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <ClockIcon size="lg" className="text-emerald-600" />
@@ -307,7 +307,7 @@ export default async function InvestmentSectorPage({
 
       {/* FAQs */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
 
@@ -326,7 +326,7 @@ export default async function InvestmentSectorPage({
       {/* Related Sectors */}
       {relatedSectors.length > 0 && (
         <section className="py-16">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-5">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-8">Related Investment Sectors</h2>
 
@@ -353,7 +353,7 @@ export default async function InvestmentSectorPage({
 
       {/* Investment Visa CTA */}
       <section className="py-16 bg-gradient-to-b from-emerald-50/50 to-white dark:from-emerald-950/10 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <BriefcaseIcon size="xl" className="text-emerald-600 mx-auto mb-4" />
             <h2 className="text-3xl font-bold mb-4">
@@ -383,7 +383,7 @@ export default async function InvestmentSectorPage({
 
       {/* Lucero Legal CTA */}
       <section className="py-16 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950/20 dark:to-background border-t">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <Card className="border-slate-200 dark:border-slate-800">
               <CardContent className="p-8 md:p-12">
@@ -430,7 +430,7 @@ export default async function InvestmentSectorPage({
 
       {/* Disclaimer */}
       <section className="py-8 border-t">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto space-y-4">
             <p className="text-xs text-muted-foreground text-center">
               <strong>Disclaimer:</strong> The information provided is for educational purposes only 

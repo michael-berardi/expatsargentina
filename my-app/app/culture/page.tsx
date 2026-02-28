@@ -255,7 +255,7 @@ export default function CulturePage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -266,7 +266,7 @@ export default function CulturePage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-amber-50 to-white dark:from-amber-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <HeartIcon size="sm" className="mr-1" />
@@ -293,7 +293,7 @@ export default function CulturePage() {
 
       {/* Time & Schedules */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
@@ -326,7 +326,7 @@ export default function CulturePage() {
 
       {/* Social Customs */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-rose-100 dark:bg-rose-900/30 flex items-center justify-center">
@@ -365,7 +365,7 @@ export default function CulturePage() {
 
       {/* Communication Style */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
@@ -398,7 +398,7 @@ export default function CulturePage() {
 
       {/* Money & Tipping */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
@@ -431,7 +431,7 @@ export default function CulturePage() {
 
       {/* Safety & Street Smarts */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
@@ -467,7 +467,7 @@ export default function CulturePage() {
 
       {/* Food Culture */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center">
@@ -500,7 +500,7 @@ export default function CulturePage() {
 
       {/* Quick Tips Summary */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <SparklesIcon size="lg" className="text-primary" />
@@ -551,7 +551,7 @@ export default function CulturePage() {
 
       {/* Final Thoughts */}
       <section className="py-16 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <HeartIcon size="xl" className="mx-auto mb-6 text-rose-500" />
             <h2 className="text-3xl font-bold mb-6">The Real Secret</h2>
@@ -578,7 +578,7 @@ export default function CulturePage() {
 
       {/* Related Guides */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold mb-6">Continue Exploring</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -628,7 +628,7 @@ export default function CulturePage() {
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready for More Practical Guides?</h2>
             <p className="text-primary-foreground/80 mb-8">

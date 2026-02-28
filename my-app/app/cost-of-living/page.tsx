@@ -68,7 +68,7 @@ export default function CostOfLivingPage() {
     <main className="min-h-screen">
       {/* Hero */}
       <section className="relative bg-gradient-to-b from-teal-50 to-white py-16 md:py-24">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4">
               Updated February 2025
@@ -86,7 +86,7 @@ export default function CostOfLivingPage() {
 
       {/* Main Content with TOC */}
       <section className="py-12 md:py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 lg:gap-12">
             {/* Sticky TOC */}
             <aside className="hidden lg:block">

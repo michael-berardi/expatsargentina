@@ -101,7 +101,7 @@ export default async function ComparisonPage({
 
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
@@ -122,7 +122,7 @@ export default async function ComparisonPage({
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <ArrowRightLeftIcon size="sm" className="mr-1" />
@@ -160,7 +160,7 @@ export default async function ComparisonPage({
 
       {/* Side-by-Side Comparison Grid */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <StarIcon size="lg" className="text-teal-600" />
@@ -231,7 +231,7 @@ export default async function ComparisonPage({
 
       {/* Best For Section */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <UsersIcon size="lg" className="text-teal-600" />
@@ -285,7 +285,7 @@ export default async function ComparisonPage({
 
       {/* Verdict Section */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <Card className="bg-gradient-to-br from-teal-50 to-indigo-50 dark:from-teal-950/30 dark:to-indigo-950/30 border-none shadow-lg">
               <CardHeader>
@@ -306,7 +306,7 @@ export default async function ComparisonPage({
 
       {/* Links to Individual City Pages */}
       <section className="py-12 border-t">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h3 className="text-xl font-semibold mb-6 text-center">
               Explore Each City in Detail
@@ -341,7 +341,7 @@ export default async function ComparisonPage({
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <GlobeIcon size="xl" className="text-primary mx-auto mb-4" />
             <h2 className="text-3xl font-bold mb-4">

@@ -594,7 +594,7 @@ export default function StoriesPage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -605,7 +605,7 @@ export default function StoriesPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <QuoteIcon size="sm" className="mr-1" />
@@ -624,7 +624,7 @@ export default function StoriesPage() {
 
       {/* Stories */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto space-y-12">
             {stories.map((story) => (
               <Card key={story.name} className="overflow-hidden">
@@ -809,7 +809,7 @@ export default function StoriesPage() {
 
       {/* Related Guides */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-bold mb-6">Continue Exploring</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -852,7 +852,7 @@ export default function StoriesPage() {
 
       {/* Share Your Story CTA */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Share Your Story</h2>
             <p className="text-muted-foreground mb-8">
@@ -886,7 +886,7 @@ export default function StoriesPage() {
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Start Your Journey?</h2>
             <p className="text-primary-foreground/80 mb-8">

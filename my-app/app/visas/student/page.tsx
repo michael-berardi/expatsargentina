@@ -151,7 +151,7 @@ export default function StudentVisaPage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -164,7 +164,7 @@ export default function StudentVisaPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <GraduationCapIcon size="sm" className="mr-1" />
@@ -198,7 +198,7 @@ export default function StudentVisaPage() {
 
       {/* Quick Stats */}
       <section className="py-12 border-b">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">$0</div>
@@ -222,7 +222,7 @@ export default function StudentVisaPage() {
 
       {/* Overview */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center">Overview</h2>
             <div className="prose prose-lg dark:prose-invert mx-auto">
@@ -256,7 +256,7 @@ export default function StudentVisaPage() {
 
       {/* Free University System */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4 text-center">The Free University System</h2>
             <p className="text-center text-muted-foreground mb-8">
@@ -293,7 +293,7 @@ export default function StudentVisaPage() {
 
       {/* Requirements */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Requirements</h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -317,7 +317,7 @@ export default function StudentVisaPage() {
 
       {/* Application Process */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Application Process</h2>
             <div className="space-y-6">
@@ -339,7 +339,7 @@ export default function StudentVisaPage() {
 
       {/* Document Checklist */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Document Checklist</h2>
             <Card>
@@ -373,7 +373,7 @@ export default function StudentVisaPage() {
 
       {/* Student Life */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Student Life in Argentina</h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -394,7 +394,7 @@ export default function StudentVisaPage() {
 
       {/* Timeline */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Expected Timeline</h2>
             <div className="space-y-4">
@@ -441,7 +441,7 @@ export default function StudentVisaPage() {
 
       {/* Reality Check */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <Card className="border-amber-200 bg-amber-50 dark:bg-amber-950/20">
               <CardContent className="pt-6">
@@ -478,7 +478,7 @@ export default function StudentVisaPage() {
 
       {/* FAQs */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="w-full">
@@ -495,7 +495,7 @@ export default function StudentVisaPage() {
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Need Help With Your Student Visa?</h2>
             <p className="text-primary-foreground/80 mb-8">
@@ -523,7 +523,7 @@ export default function StudentVisaPage() {
 
       {/* Legal Disclaimer */}
       <section className="py-8 border-t">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs text-muted-foreground text-center">
               This guide is for informational purposes only and does not constitute legal advice.

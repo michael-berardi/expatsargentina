@@ -154,7 +154,7 @@ export default function TouristVisaPage() {
 
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -167,7 +167,7 @@ export default function TouristVisaPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <PlaneIcon size="sm" className="mr-1" />
@@ -201,7 +201,7 @@ export default function TouristVisaPage() {
 
       {/* Quick Stats */}
       <section className="py-12 border-b">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">90</div>
@@ -225,7 +225,7 @@ export default function TouristVisaPage() {
 
       {/* Requirements */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Entry & Extension Requirements</h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -249,7 +249,7 @@ export default function TouristVisaPage() {
 
       {/* Application Process */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">How to Extend Your Tourist Visa</h2>
             <div className="space-y-6">
@@ -271,7 +271,7 @@ export default function TouristVisaPage() {
 
       {/* Document Checklist */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Document Checklist for Extension</h2>
             <Card>
@@ -301,7 +301,7 @@ export default function TouristVisaPage() {
 
       {/* FAQs */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="w-full">
@@ -318,7 +318,7 @@ export default function TouristVisaPage() {
 
       {/* Important Notice */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <Card className="border-amber-200 bg-amber-50 dark:bg-amber-950/20">
               <CardContent className="pt-6">
@@ -348,7 +348,7 @@ export default function TouristVisaPage() {
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Planning a Longer Stay?</h2>
             <p className="text-primary-foreground/80 mb-8">

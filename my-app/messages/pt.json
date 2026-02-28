@@ -28,7 +28,13 @@
       "subtitle": "Não apenas Buenos Aires. De lagos patagônicos a região vinícola andina, cachoeiras subtropicais a cidades coloniais do Noroeste — guias completos para expats em cada canto da Argentina.",
       "description": "Vistos, custo de vida, moradia, saúde e conselhos honestos para cada província e cidade importante do país.",
       "exploreProvinces": "Explorar Províncias",
-      "browseCities": "Ver Guias de Cidades"
+      "browseCities": "Ver Guias de Cidades",
+      "legal": "Orientação jurídica fornecida pela Lucero Legal"
+    },
+    "trust": {
+      "legal": "Patrocinado pela Lucero Legal",
+      "readers": "Confiado por mais de 50.000 expats",
+      "updated": "Atualizado fevereiro 2026"
     },
     "stats": {
       "provinces": "Províncias",

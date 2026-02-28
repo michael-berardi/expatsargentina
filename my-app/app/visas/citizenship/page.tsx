@@ -161,7 +161,7 @@ export default function CitizenshipPage() {
 
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -174,7 +174,7 @@ export default function CitizenshipPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-amber-50 to-white dark:from-amber-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <StarIcon size="sm" className="mr-1" />
@@ -208,7 +208,7 @@ export default function CitizenshipPage() {
 
       {/* Quick Stats */}
       <section className="py-12 border-b">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">2</div>
@@ -232,7 +232,7 @@ export default function CitizenshipPage() {
 
       {/* Requirements */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Requirements for Naturalization</h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -256,7 +256,7 @@ export default function CitizenshipPage() {
 
       {/* Citizenship Pathways */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Pathways to Citizenship</h2>
             <div className="grid md:grid-cols-3 gap-6">
@@ -294,7 +294,7 @@ export default function CitizenshipPage() {
 
       {/* Application Process */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Application Process</h2>
             <div className="space-y-6">
@@ -316,7 +316,7 @@ export default function CitizenshipPage() {
 
       {/* Document Checklist */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Document Checklist</h2>
             <Card>
@@ -349,7 +349,7 @@ export default function CitizenshipPage() {
 
       {/* FAQs */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="w-full">
@@ -366,7 +366,7 @@ export default function CitizenshipPage() {
 
       {/* Important Notice */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <Card className="border-amber-200 bg-amber-50 dark:bg-amber-950/20">
               <CardContent className="pt-6">
@@ -396,7 +396,7 @@ export default function CitizenshipPage() {
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Begin Your Journey to Citizenship</h2>
             <p className="text-primary-foreground/80 mb-8">

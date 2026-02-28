@@ -103,7 +103,7 @@ export default async function CityDetailPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(placeJsonLd) }} />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">
               Home
@@ -129,7 +129,7 @@ export default async function CityDetailPage({
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" />
-        <div className="relative container mx-auto px-4">
+        <div className="relative container mx-auto px-5">
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 text-white/80 mb-4">
               <MapPinIcon size="sm" />
@@ -158,7 +158,7 @@ export default async function CityDetailPage({
 
       {/* Key Facts Grid */}
       <section className="py-12 border-b">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
             {city.keyFacts.map((fact) => (
               <Card key={fact.label} className="text-center">
@@ -176,7 +176,7 @@ export default async function CityDetailPage({
 
       {/* Long Description */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">
               About Living in {city.name}
@@ -190,7 +190,7 @@ export default async function CityDetailPage({
 
       {/* Monthly Budget */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <DollarSignIcon size="lg" className="text-teal-600" />
@@ -248,7 +248,7 @@ export default async function CityDetailPage({
 
       {/* Neighborhoods */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center gap-3">
@@ -306,7 +306,7 @@ export default async function CityDetailPage({
 
       {/* Climate & Weather */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               {/* Climate */}
@@ -388,7 +388,7 @@ export default async function CityDetailPage({
 
       {/* Expat Appeal */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
               <HeartIcon size="lg" className="text-teal-600" />
@@ -419,7 +419,7 @@ export default async function CityDetailPage({
 
       {/* Related Province */}
       <section className="py-12 border-t">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto flex items-center justify-between">
             <div className="flex items-center gap-3">
               <GlobeIcon size="md" className="text-primary" />
@@ -443,7 +443,7 @@ export default async function CityDetailPage({
       {/* Compare This City */}
       {cityComparisons.filter(c => c.city1Slug === city.slug || c.city2Slug === city.slug).length > 0 && (
         <section className="py-12 border-t">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-5">
             <div className="max-w-3xl mx-auto">
               <h3 className="text-xl font-bold mb-4">Compare {city.name} With Other Cities</h3>
               <div className="flex flex-wrap gap-3">
@@ -465,7 +465,7 @@ export default async function CityDetailPage({
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <StarIcon size="xl" className="text-primary mx-auto mb-4" />
             <h2 className="text-3xl font-bold mb-4">

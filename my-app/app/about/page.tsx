@@ -96,7 +96,7 @@ export default function AboutPage() {
       />
       {/* Breadcrumb */}
       <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-5 py-4">
           <nav className="flex gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-foreground">Home</Link>
             <span>/</span>
@@ -107,7 +107,7 @@ export default function AboutPage() {
 
       {/* Hero */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <Badge className="mb-4" variant="secondary">
               <GlobeIcon size="sm" className="mr-1" />
@@ -132,7 +132,7 @@ export default function AboutPage() {
 
       {/* Our Mission */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
@@ -160,7 +160,7 @@ export default function AboutPage() {
 
       {/* Coverage Section */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Our Coverage</h2>
             <p className="text-muted-foreground mb-8">
@@ -208,7 +208,7 @@ export default function AboutPage() {
 
       {/* Team Across Argentina */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Our Team Across Argentina</h2>
             <p className="text-muted-foreground mb-8">
@@ -243,7 +243,7 @@ export default function AboutPage() {
 
       {/* What Makes Us Different */}
       <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/10 dark:to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">What Makes This Site Different</h2>
             <p className="text-muted-foreground mb-8">
@@ -271,7 +271,7 @@ export default function AboutPage() {
 
       {/* How This Site Makes Money */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">How This Site Makes Money (Full Transparency)</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
@@ -327,7 +327,7 @@ export default function AboutPage() {
 
       {/* Contact */}
       <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
             <p className="text-muted-foreground mb-8">
@@ -355,7 +355,7 @@ export default function AboutPage() {
 
       {/* CTA */}
       <section className="py-16 bg-teal-700 text-white">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Explore Argentina?</h2>
             <p className="text-white/80 mb-8">
