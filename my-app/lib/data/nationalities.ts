@@ -3382,7 +3382,7 @@ export const nationalities: Nationality[] = [
     flag: "🇳🇱",
     title: "Dutch Citizens in Argentina: Complete Immigration Guide",
     subtitle: "European pathway, agricultural connections, and growing business presence",
-    description: "Dutch citizens are increasingly drawn to Argentina for agricultural business opportunities, lower cost of living, and adventure. The Netherlands maintains strong agricultural and trade relationships with Argentina.",
+    description: "Dutch citizens are drawn to Argentina for agricultural business opportunities and lower cost of living. Strong agricultural and trade relationships between the Netherlands and Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -3508,7 +3508,7 @@ export const nationalities: Nationality[] = [
     flag: "🇷🇺",
     title: "Russian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing Russian community, streamlined visa pathways, and new opportunities",
-    description: "Argentina has become an increasingly popular destination for Russians seeking new opportunities. With no visa required for tourism, a straightforward temporary residency process, and a welcoming community in Buenos Aires, Russia nationals find Argentina offers stability and quality of life.",
+    description: "Russians find Argentina offers stability and quality of life with no visa required for tourism. Straightforward temporary residency process and a welcoming community in Buenos Aires.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -3626,7 +3626,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇳",
     title: "Indian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing business ties, student pathways, and community connections",
-    description: "Argentina and India share growing business and cultural ties. Indian professionals, students, and entrepreneurs find opportunities in Argentina's tech sector, agriculture, and education. The Indian community is small but well-established, particularly in Buenos Aires.",
+    description: "Argentina and India share growing business ties. Indian professionals and students find opportunities in tech, agriculture, and education. Well-established community in Buenos Aires.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -3744,7 +3744,7 @@ export const nationalities: Nationality[] = [
     flag: "🇿🇦",
     title: "South African Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Working holiday agreement, vibrant community, and lifestyle opportunities",
-    description: "South Africa and Argentina enjoy a working holiday agreement that allows young South Africans to live and work in Argentina for up to a year. Combined with Argentina's growing popularity among South African retirees and professionals, there's a vibrant community in Buenos Aires and coastal areas.",
+    description: "South Africans enjoy a working holiday agreement for up to a year in Argentina. Growing community of retirees and professionals in Buenos Aires and coastal areas.",
     region: "africa",
     visaRequirements: {
       tourist: {
@@ -3863,7 +3863,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇱",
     title: "Israeli Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Strong historical ties, vibrant Jewish community, and business opportunities",
-    description: "Argentina is home to the largest Jewish community in Latin America, and Israelis find a welcoming environment with strong cultural connections. From tech startups to agriculture, Israelis contribute significantly to Argentina's economy while enjoying the country's lifestyle.",
+    description: "Israelis find a welcoming environment in Argentina, home to the largest Jewish community in Latin America. Opportunities in tech startups and agriculture with strong cultural connections.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -3982,7 +3982,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇪",
     title: "Irish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Working holiday agreement, Celtic connections, and entrepreneurial opportunities",
-    description: "Ireland and Argentina share deep historical ties, with Argentina home to the fifth-largest Irish diaspora in the world. Irish citizens enjoy a working holiday agreement, visa-free travel, and a welcoming community that celebrates Celtic heritage throughout the country.",
+    description: "Irish citizens enjoy a working holiday agreement and visa-free travel. Deep historical ties with Argentina, home to the fifth-largest Irish diaspora in the world.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4102,7 +4102,7 @@ export const nationalities: Nationality[] = [
     flag: "🇦🇷",
     title: "Argentine Citizens: Returning Home & Dual Citizenship Guide",
     subtitle: "Information for Argentine citizens abroad considering return or dual citizenship",
-    description: "Argentine citizens returning home or abroad seeking dual citizenship options will find Argentina welcoming. This guide covers repatriation benefits, citizenship by descent, and pathways for Argentines with foreign-born children.",
+    description: "Argentine citizens returning home find welcoming repatriation benefits. Guide covers citizenship by descent and pathways for Argentines with foreign-born children.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -4223,7 +4223,7 @@ export const nationalities: Nationality[] = [
     flag: "🇧🇪",
     title: "Belgian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "EU benefits, chocolate business connections, and quality of life",
-    description: "Belgians find Argentina an attractive destination for its European-style culture, vibrant cities, and business opportunities. Whether you're a chocolate maker, brewer, or tech professional, Argentina offers a welcoming environment with strong EU connections.",
+    description: "Belgians find Argentina attractive for European-style culture and business opportunities. Welcoming environment for chocolate makers, brewers, and tech professionals with EU connections.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4340,7 +4340,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇭",
     title: "Swiss Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Alpine connections, precision industry opportunities, and quality living",
-    description: "Switzerland and Argentina share deep historical ties, with Swiss immigrants helping build Argentina's infrastructure and dairy industry. Today, Swiss professionals, retirees, and entrepreneurs continue to find opportunities in this welcoming South American nation.",
+    description: "Switzerland and Argentina share deep historical ties. Swiss immigrants helped build infrastructure and dairy industry. Professionals, retirees, and entrepreneurs find opportunities today.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4459,7 +4459,7 @@ export const nationalities: Nationality[] = [
     flag: "🇸🇪",
     title: "Swedish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Nordic lifestyle, tech opportunities, and sustainable living",
-    description: "Swedes are drawn to Argentina's vibrant culture, outdoor lifestyle, and growing tech scene. With a small but active community in Buenos Aires, Swedish citizens find opportunities in sustainability, design, and remote work while enjoying Argentina's quality of life.",
+    description: "Swedes are drawn to Argentina's vibrant culture and growing tech scene. Opportunities in sustainability, design, and remote work with a small but active community in Buenos Aires.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4577,7 +4577,7 @@ export const nationalities: Nationality[] = [
     flag: "🇳🇴",
     title: "Norwegian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Seafaring heritage, salmon industry connections, and outdoor lifestyle",
-    description: "Norwegians find Argentina's diverse landscapes, from Patagonian fjords to mountain lakes, reminiscent of home. With growing business ties in aquaculture and renewable energy, plus a welcoming community in Buenos Aires, Norway and Argentina continue their century-old friendship.",
+    description: "Norwegians find Argentina's diverse landscapes reminiscent of home. Growing business ties in aquaculture and renewable energy with a welcoming community in Buenos Aires.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4695,7 +4695,7 @@ export const nationalities: Nationality[] = [
     flag: "🇩🇰",
     title: "Danish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Hygge lifestyle, design expertise, and sustainable business opportunities",
-    description: "Danes bring their design sensibility, sustainability focus, and quality of life values to Argentina. Whether you're a designer, tech professional, or retiree, Argentina offers Danish citizens visa-free entry, affordable living, and a growing community in Buenos Aires.",
+    description: "Danes bring design sensibility and sustainability focus to Argentina. Visa-free entry, affordable living, and a growing community in Buenos Aires for designers and tech professionals.",
     region: "europe",
     visaRequirements: {
       tourist: {

@@ -735,7 +735,6 @@ export const cities: City[] = [
     ],
     gettingThere: "EZE international airport with direct flights from major world cities. AEP (Aeroparque) for domestic flights. Buquebus ferry from Uruguay.",
     bestFor: ["First-time expats", "Digital nomads", "Foodies", "Culture lovers", "Nightlife enthusiasts"],
-    image: "/images/cities/buenos-aires.webp",
   },
   {
     slug: "mendoza",
