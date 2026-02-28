@@ -61,30 +61,30 @@ const datingCulture = [
   {
     title: "The 'Coffee Date' Doesn't Exist",
     content: "Argentines don't do casual coffee first dates. A first date is dinner, drinks, or an activity—and it happens late. Expect to meet at 9 PM minimum, often 10 PM or later.",
-    story: "I suggested coffee for a first date. She looked confused and said '¿Y después?' (And after?). We went to dinner at 10:30 PM instead. The date lasted until 2 AM. I was exhausted but also... that was way more fun than coffee.",
+    story: "One expat suggested coffee for a first date. His date looked confused and asked '¿Y después?' (And after?). They went to dinner at 10:30 PM instead. The date lasted until 2 AM. He was exhausted but admitted it was way more fun than coffee.",
     tip: "Plan for a late night. Don't schedule early meetings the next day."
   },
   {
     title: "Meeting the Family Happens Fast",
     content: "Argentines are close with their families. Don't be shocked if you're invited to a family asado within weeks of dating. This is normal and actually a good sign.",
-    story: "Three weeks into dating, she invited me to her parents' house for Sunday asado. I panicked—back home, meeting parents was a 'we're getting married' moment. Here, it just meant I was someone she wanted them to meet. Her mom asked when we were having kids. I nearly choked on my chorizo.",
+    story: "Three weeks into dating, one expat was invited to his girlfriend's parents' house for Sunday asado. He panicked—back home, meeting parents meant 'we're getting married.' Here, it just meant he was someone she wanted them to meet. Her mom asked when they were having kids. He nearly choked on his chorizo.",
     tip: "Bring wine or dessert. Compliment the mom's cooking. Brace for personal questions—nothing is off-limits."
   },
   {
     title: "The 'We're Not Exclusive' Talk",
     content: "In Argentina, you're exclusive by default once you're dating regularly. The 'what are we' conversation happens early, and it's usually assumed you're not seeing other people.",
-    story: "I was casually seeing two people, thinking that was normal dating behavior. One found out and was genuinely hurt. 'But we never said we were exclusive,' I protested. 'We didn't need to,' she said. Lesson learned: exclusivity is the default, not the exception."
+    story: "One expat was casually seeing two people, thinking that was normal dating behavior. One found out and was genuinely hurt. 'But we never said we were exclusive,' he protested. 'We didn't need to,' she said. Lesson learned: exclusivity is the default, not the exception."
   },
   {
     title: "Language Barriers in Relationships",
     content: "Dating with limited Spanish is challenging but doable. Many educated porteños speak some English, but emotional conversations require Spanish fluency.",
-    story: "I dated someone for three months with my terrible Spanish. We got by, but I couldn't express complex feelings or understand her jokes fully. When we finally had our first argument, I realized how much nuance I was missing. We broke up shortly after—not because of language, but because I couldn't communicate properly.",
+    story: "An expat dated someone for three months with limited Spanish. They got by, but he couldn't express complex feelings or understand her jokes fully. When they finally had their first argument, he realized how much nuance he was missing. They broke up shortly after—not because of language, but because he couldn't communicate properly.",
     tip: "Start learning Spanish before you start dating seriously. It matters more than you think."
   },
   {
     title: "Long-Term vs Casual Culture",
     content: "While hookup culture exists, Argentines generally date with intention. Even casual dating often has a 'let's see where this goes' vibe rather than pure no-strings-attached.",
-    story: "I tried to keep things casual with someone who seemed on the same page. She kept asking about my 'intentions' and 'what I wanted long-term.' I thought she was pushing for commitment too fast. Turns out, she just wanted to know we were on the same wavelength. Casual here still involves feelings and communication."
+    story: "One expat tried to keep things casual with someone who seemed on the same page. She kept asking about his 'intentions' and 'what he wanted long-term.' He thought she was pushing for commitment too fast. Turns out, she just wanted to know they were on the same wavelength. Casual here still involves feelings and communication."
   }
 ];
 
@@ -92,7 +92,7 @@ const meetingPeople = [
   {
     title: "Language Exchange Meetups",
     content: "Mate Club, Mundo Lingo, and Spanglish are popular weekly events. You get a flag sticker for your languages and rotate conversations every 15 minutes.",
-    story: "My first Mate Club event, I was terrified. But within an hour, I'd met three other expats and two locals who wanted to practice English. One of those locals became my best friend here. Another became... more than a friend for a while. These events work.",
+    story: "At a first Mate Club event, most people arrive terrified. But within an hour, many have met three other expats and two locals who want to practice English. One local often becomes a best friend. Sometimes more. These events work.",
     venues: [
       { name: "Mate Club", location: "Various bars, check their Instagram", note: "Tuesdays, very popular" },
       { name: "Mundo Lingo", location: "The Temple Bar, Palermo", note: "Wednesdays, huge crowd" },
@@ -102,13 +102,13 @@ const meetingPeople = [
   {
     title: "Expat Facebook Groups",
     content: "Expats in Buenos Aires, Buenos Aires Digital Nomads, and niche groups (Women in BA, LGBTQ+ Expats) are active and welcoming.",
-    story: "I posted in Expats in BA saying I was looking for climbing partners. Got 20 responses. Met my current friend group through that one post. Yes, Facebook is old, but expat groups here are genuinely useful.",
+    story: "One expat posted in Expats in BA saying he was looking for climbing partners. Got 20 responses. Met his current friend group through that one post. Facebook may be old, but expat groups here are genuinely useful.",
     tip: "Search for groups specific to your interests—yoga, hiking, book clubs, etc."
   },
   {
     title: "Sports Groups",
     content: "Futbol, rugby, running clubs, climbing gyms, and yoga studios are social hubs. Argentines bond through shared physical suffering.",
-    story: "I joined a running group that meets Saturdays in Palermo parks. I hate running, but I kept going because the post-run coffee and facturas became my favorite ritual. Made three close friends who still mock me for my running form.",
+    story: "One expat joined a running group that meets Saturdays in Palermo parks. He hated running, but kept going because the post-run coffee and facturas became his favorite ritual. Made three close friends who still mock him for his running form.",
     venues: [
       { name: "Palermo Runners", location: "Parque Tres de Febrero", note: "Saturdays 9 AM" },
       { name: "Urban Running", location: "Various", note: "Structured training, social after" },
@@ -118,7 +118,7 @@ const meetingPeople = [
   {
     title: "Coworking Spaces",
     content: "WeWork, La Maquinita, and smaller spaces host events, happy hours, and foster community. Even if you work from home, consider a hot desk membership.",
-    story: "I worked from home for three months and was going insane with loneliness. Got a WeWork membership for the social aspect alone. Met other remote workers, started going to lunch with the same group every day, and suddenly had a social life again.",
+    story: "One expat worked from home for three months and was going insane with loneliness. Got a WeWork membership for the social aspect alone. Met other remote workers, started going to lunch with the same group every day, and suddenly had a social life again.",
     tip: "Ask about community events when touring spaces. Some are purely transactional; others are genuinely social."
   }
 ];
@@ -127,7 +127,7 @@ const nightlife = [
   {
     title: "The Timeline Reality",
     content: "Pre-gaming starts at 11 PM. Bars get busy at midnight. Clubs (boliches) don't fill up until 2 AM. The night ends at 6 AM or later.",
-    story: "My first weekend, I went to a club at 11 PM. It was empty. I thought I'd picked a bad night. Left at 12:30, disappointed. Found out later that the party started at 2 AM. Now I nap before going out like a proper Argentine."
+    story: "One expat's first weekend, he went to a club at 11 PM. It was empty. He thought he'd picked a bad night. Left at 12:30, disappointed. Found out later that the party started at 2 AM. Now he naps before going out like a proper Argentine."
   },
   {
     title: "Bar Neighborhoods",
@@ -142,13 +142,13 @@ const nightlife = [
   {
     title: "The Boliche Experience",
     content: "Argentine clubs are different. Table service (hacer lista) is common. Dress codes are real. The music is reggaeton, cumbia, and electronic.",
-    story: "I showed up to a boliche in jeans and sneakers. The bouncer looked at me like I'd insulted his mother. Had to go home and change. Now I know: dress pants, nice shoes, button-down minimum. It's not Europe—people dress up here.",
+    story: "One expat showed up to a boliche in jeans and sneakers. The bouncer looked at him like he'd insulted his mother. Had to go home and change. Lesson learned: dress pants, nice shoes, button-down minimum. It's not Europe—people dress up here.",
     tip: "Get on the list (lista) through someone who knows someone. Cover charges are lower or waived if you're on a list."
   },
   {
     title: "Cover Charges and Drinks",
     content: "Expect to pay 5,000-15,000 pesos cover (varies wildly with exchange rates). Drinks are expensive inside. Pre-game heavily.",
-    story: "I spent my entire weekly entertainment budget on one night out because I didn't pre-game and bought rounds at club prices. Now I drink at home until 1 AM, then nurse one drink at the club until 5 AM. Financial survival strategy."
+    story: "One expat spent his entire weekly entertainment budget on one night out because he didn't pre-game and bought rounds at club prices. Now he drinks at home until 1 AM, then nurses one drink at the club until 5 AM. Financial survival strategy."
   },
   {
     title: "Safety at Night",
@@ -161,28 +161,28 @@ const socialCustoms = [
   {
     title: "Personal Space (Or Lack Thereof)",
     content: "Argentines stand close when talking. They touch your arm or shoulder. They lean in. This isn't flirting (usually)—it's just cultural proximity.",
-    story: "I kept backing away from people during conversations, seeking my American personal bubble. They kept stepping closer. I thought I was being hit on by everyone. Turns out, we just have different space definitions. Now I embrace it—the warmth is genuine."
+    story: "One expat kept backing away from people during conversations, seeking his American personal bubble. They kept stepping closer. He thought he was being hit on by everyone. Turns out, Argentines just have different space definitions. He now embraces it—the warmth is genuine."
   },
   {
     title: "The Kiss Greeting",
     content: "One kiss on the right cheek for everyone—regardless of gender. Men shake hands only in very formal business settings.",
-    story: "At my first Argentine party, I stuck out my hand to a woman. She looked confused, then laughed and kissed my cheek anyway. I spent the night overthinking every greeting. Now I default to the kiss. It's actually quite lovely once you get used to it.",
+    story: "At one expat's first Argentine party, he stuck out his hand to a woman. She looked confused, then laughed and kissed his cheek anyway. He spent the night overthinking every greeting. Now he defaults to the kiss. It's actually quite lovely once you get used to it.",
     tip: "When in doubt, follow their lead. If they lean in, you lean in."
   },
   {
     title: "Group Dynamics",
     content: "Argentines hang out in groups. Solo activities are less common. Friends groups are tight and can be hard to penetrate.",
-    story: "I tried to make friends one-on-one and found it surprisingly difficult. People kept inviting me to group things instead. Eventually, I realized that being adopted into a friend group is the goal here. Individual friendships develop within the group context."
+    story: "One expat tried to make friends one-on-one and found it surprisingly difficult. People kept inviting him to group things instead. Eventually, he realized that being adopted into a friend group is the goal here. Individual friendships develop within the group context."
   },
   {
     title: "Invitation Etiquette",
     content: "If you're invited to someone's home, bring something. Wine, dessert, or flowers for the host. Never arrive empty-handed.",
-    story: "I showed up to my first asado with just myself. The host was too polite to say anything, but I noticed everyone else brought wine or sides. Felt like a jerk. Now I always bring Malbec or a dessert from a good bakery."
+    story: "One expat showed up to his first asado with just himself. The host was too polite to say anything, but he noticed everyone else brought wine or sides. Felt like a jerk. Now he always brings Malbec or a dessert from a good bakery."
   },
   {
     title: "Gift Giving",
     content: "Small gifts are common when visiting homes. For birthdays, dinners out are more common than gifts. Don't overthink it.",
-    story: "I brought an expensive gift to a birthday dinner, thinking that was normal. The recipient was embarrassed and didn't open it. Later, a friend explained that making a fuss over gifts is awkward here. A nice bottle of wine or covering their dinner is preferred."
+    story: "One expat brought an expensive gift to a birthday dinner, thinking that was normal. The recipient was embarrassed and didn't open it. Later, a friend explained that making a fuss over gifts is awkward here. A nice bottle of wine or covering their dinner is preferred."
   }
 ];
 
@@ -190,23 +190,23 @@ const soloExpat = [
   {
     title: "Combating Loneliness",
     content: "The first month is the hardest. You don't know anyone, your Spanish sucks, and everything feels overwhelming. This is normal.",
-    story: "Week three, I cried in a cafe because I couldn't figure out how to order what I wanted and felt so isolated. A kind barista helped me, and we ended up chatting for an hour. That small connection saved me. The loneliness passes, but you have to push through it."
+    story: "Week three, one expat broke down in a cafe because he couldn't figure out how to order what he wanted and felt so isolated. A kind barista helped him, and they ended up chatting for an hour. That small connection saved him. The loneliness passes, but you have to push through it."
   },
   {
     title: "Finding Your People",
     content: "It takes 3-6 months to build a real social circle. Be patient. Say yes to everything at first, even if it's awkward.",
-    story: "I went to a board game night where I knew no one and barely spoke Spanish. It was awkward as hell. But I met one person there who invited me to another thing, where I met more people. Six months later, that awkward board game night was the origin of my entire friend group."
+    story: "One expat went to a board game night where he knew no one and barely spoke Spanish. It was awkward. But he met one person there who invited him to another event, where he met more people. Six months later, that awkward board game night was the origin of his entire friend group."
   },
   {
     title: "Therapy Culture",
     content: "Therapy is extremely common in Buenos Aires. Many porteños have been in therapy for years. There's no stigma—it's seen as self-improvement.",
-    story: "On a second date, she casually mentioned her therapist's opinion about something. I was surprised by the openness. 'Don't you go to therapy?' she asked, genuinely confused. When I said no, she looked concerned for my mental health. Now I have a therapist here too. It's actually great.",
+    story: "On a second date, she casually mentioned her therapist's opinion about something. The expat was surprised by the openness. 'Don't you go to therapy?' she asked, genuinely confused. When he said no, she looked concerned for his mental health. Now he has a therapist here too. It's actually great.",
     tip: "Many therapists work on a sliding scale. Spanish fluency helps, but some speak English."
   },
   {
     title: "When to Visit Home",
     content: "Most successful expats go home every 3-4 months at first. It prevents the 'trapped' feeling and reminds you why you left.",
-    story: "I tried to be a hero and stay for six months straight. By month five, I was miserable and questioning everything. Went home for a week, saw family, ate familiar food, and came back refreshed. Now I schedule visits quarterly. It's not failure—it's maintenance."
+    story: "One expat tried to be a hero and stay for six months straight. By month five, he was miserable and questioning everything. Went home for a week, saw family, ate familiar food, and came back refreshed. Now he schedules visits quarterly. It's not failure—it's maintenance."
   }
 ];
 
@@ -802,7 +802,7 @@ export default function SocialLifePage() {
             <h2 className="text-3xl font-bold mb-6">The Real Secret</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="mb-4">
-                Here's the thing: your first few months will be lonely. You'll have awkward dates 
+                Your first few months will be lonely. You'll have awkward dates 
                 where you can't express yourself. You'll stand at parties not understanding the jokes. 
                 You'll go home at 2 AM while everyone else is just getting started. This is normal. 
                 This is the process.

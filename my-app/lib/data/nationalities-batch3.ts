@@ -100,7 +100,7 @@ export const nationalitiesBatch3: Nationality[] = [
     flag: "🇳🇴",
     title: "Norwegian Citizens in Argentina: Immigration Guide",
     subtitle: "Visa pathways, Norwegian community, and immigration options",
-    description: "Norway and Argentina maintain diplomatic relations. Norwegian citizens enjoy visa-free entry and various pathways for extended stays.",
+    description: "Norway and Argentina share friendly bilateral ties. Norwegian citizens enjoy visa-free entry and straightforward pathways for residency and extended stays in Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {

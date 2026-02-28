@@ -912,7 +912,7 @@ export const recipes: Recipe[] = [
     protein: 8,
     carbs: 38,
     fat: 11,
-    history: "Flan came to Argentina from Spain, but Argentines elevated it by pairing it with their beloved dulce de leche. In restaurants, you'll always be asked the critical question: '¿Mixto?' — meaning 'do you want it with both dulce de leche AND whipped cream?' The correct answer is always yes. Flan casero (homemade) is a point of pride for Argentine home cooks, and every family claims their recipe is the best.",
+    history: "Flan came to Argentina from Spain, but Argentines made it their own by pairing it with their beloved dulce de leche. In restaurants, you'll always be asked the critical question: '¿Mixto?' — meaning 'do you want it with both dulce de leche AND whipped cream?' The correct answer is always yes. Flan casero (homemade) is a point of pride for Argentine home cooks, and every family claims their recipe is the best.",
     whereToFind: [
       "Literally every parrilla and restaurant in Argentina",
       "El Desnivel (San Telmo) — classic flan after a steak",

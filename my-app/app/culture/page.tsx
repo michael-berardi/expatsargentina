@@ -30,12 +30,12 @@ const timeAndSchedules = [
   {
     title: "The 'Argentine Hour'",
     content: "If someone says 'llego en 20 minutos' (I'll be there in 20 minutes), they mean 45 minutes. If they say 'ahora' (now), they mean sometime today. This isn't rudeness—it's just how time works here.",
-    story: "I learned this the hard way when I showed up 'on time' for a party at 9 PM. The hosts were still in their pajamas. The actual party started around 11. I sat on their couch for two hours pretending I wasn't incredibly awkward.",
+    story: "Many expats show up 'on time' for a party at 9 PM only to find hosts still in pajamas. The actual party often starts around 11. Those first two hours can feel incredibly awkward.",
   },
   {
     title: "The 10 PM Dinner Reality",
     content: "Restaurants don't even get busy until 9:30 PM. Most Argentines eat dinner between 9 PM and 11 PM. If you're hungry at 6 PM, you're on your own—kitchens are often closed.",
-    story: "My first week, I tried to get dinner at 7 PM. The waiter looked at me like I'd asked for breakfast at midnight. He politely explained they were 'between services.' I ate empanadas from a kiosk and went to bed hungry.",
+    story: "Many expats try to get dinner at 7 PM in their first week. Waiters often look confused and explain kitchens are 'between services.' The result is often empanadas from a kiosk instead of a proper meal."
   },
   {
     title: "Siesta Is Real",
@@ -313,7 +313,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-amber-50 dark:bg-amber-950/20 p-4 rounded-lg border-l-4 border-amber-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">I learned this the hard way:</span> {item.story}
+                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -346,7 +346,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-rose-50 dark:bg-rose-950/20 p-4 rounded-lg border-l-4 border-rose-400 mb-4">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">I learned this the hard way:</span> {item.story}
+                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
                       </p>
                     </div>
                     {item.tip && (
@@ -385,7 +385,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-blue-50 dark:bg-blue-950/20 p-4 rounded-lg border-l-4 border-blue-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">I learned this the hard way:</span> {item.story}
+                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -418,7 +418,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-green-50 dark:bg-green-950/20 p-4 rounded-lg border-l-4 border-green-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">I learned this the hard way:</span> {item.story}
+                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -454,7 +454,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-red-50 dark:bg-red-950/20 p-4 rounded-lg border-l-4 border-red-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">I learned this the hard way:</span> {item.story}
+                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -487,7 +487,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-orange-50 dark:bg-orange-950/20 p-4 rounded-lg border-l-4 border-orange-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">I learned this the hard way:</span> {item.story}
+                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -557,7 +557,7 @@ export default function CulturePage() {
             <h2 className="text-3xl font-bold mb-6">The Real Secret</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="mb-4">
-                Here's the thing: you're going to make mistakes. You'll say 'gracias' at the wrong time, 
+                You're going to make mistakes. You'll say 'gracias' at the wrong time, 
                 show up early to a party, try to pay with a large bill at a small shop. It's fine. 
                 Argentines are incredibly forgiving, especially if you show genuine interest in their culture.
               </p>

@@ -29,6 +29,8 @@ import {
 } from "@/components/ui/icon";
 import { provinces, cities, regions } from "@/lib/data/argentina";
 import { useI18n } from "@/lib/i18n";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
+import { GeneralTestimonials } from "@/components/Testimonials";
 
 const stats = [
   { value: "24", labelKey: "homepage.stats.provinces" },
@@ -104,8 +106,12 @@ export default function Home() {
             <p className="text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
               {t("homepage.hero.subtitle") as string}
             </p>
-            <p className="text-base text-muted-foreground mb-8 max-w-xl mx-auto">
+            <p className="text-base text-muted-foreground mb-4 max-w-xl mx-auto">
               {t("homepage.hero.description") as string}
+            </p>
+            <p className="text-sm text-muted-foreground/80 mb-8 max-w-xl mx-auto flex items-center justify-center gap-2">
+              <ShieldIcon size="sm" className="text-primary" />
+              {(t("homepage.hero.legal") as string) || "Legal guidance provided by Lucero Legal"}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="gap-2">
@@ -119,6 +125,28 @@ export default function Home() {
                   {t("homepage.hero.browseCities") as string}
                 </Link>
               </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Bar */}
+      <section className="py-4 bg-primary/5 border-y">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <CheckCircleIcon size="sm" className="text-primary" />
+              <span>{(t("homepage.trust.legal") as string) || "Sponsored by Lucero Legal"}</span>
+            </div>
+            <div className="hidden sm:block w-px h-4 bg-border" />
+            <div className="flex items-center gap-2">
+              <UsersIcon size="sm" className="text-primary" />
+              <span>{(t("homepage.trust.readers") as string) || "Trusted by 50,000+ expats"}</span>
+            </div>
+            <div className="hidden sm:block w-px h-4 bg-border" />
+            <div className="flex items-center gap-2">
+              <GlobeIcon size="sm" className="text-primary" />
+              <span>{(t("homepage.trust.updated") as string) || "Updated February 2026"}</span>
             </div>
           </div>
         </div>
@@ -272,8 +300,14 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <GeneralTestimonials />
+
+      {/* Lucero Legal CTA */}
+      <LuceroLegalCTA variant="full" />
+
       {/* Newsletter CTA */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4">

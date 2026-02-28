@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Utensils,
   Clock,
@@ -18,6 +19,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { StickyTOC } from "@/components/StickyTOC";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 export const metadata: Metadata = {
   title: "Food Guide Buenos Aires",
@@ -229,6 +232,21 @@ const ferias = [
   }
 ];
 
+const tocItems = [
+  { id: "culture", text: "Food Culture", level: 1 },
+  { id: "must-try", text: "Must-Try Foods", level: 1 },
+  { id: "parrillas", text: "Best Parrillas", level: 1 },
+  { id: "cheap-eats", text: "Cheap Eats", level: 1 },
+  { id: "vegetarian", text: "Vegetarian & Vegan", level: 1 },
+  { id: "international", text: "International", level: 1 },
+  { id: "cafes", text: "Café Culture", level: 1 },
+  { id: "delivery", text: "Delivery Apps", level: 1 },
+  { id: "grocery", text: "Grocery Shopping", level: 1 },
+  { id: "cooking", text: "Cooking at Home", level: 1 },
+  { id: "etiquette", text: "Dining Etiquette", level: 1 },
+  { id: "faq", text: "FAQ", level: 1 },
+];
+
 const faqs = [
   {
     question: "Can I find vegetarian or vegan food in Buenos Aires?",
@@ -306,6 +324,7 @@ export default function FoodGuidePage() {
       {/* Hero */}
       <div className="relative bg-gradient-to-br from-orange-600 via-red-600 to-orange-700 text-white">
         <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/guides/food-bg.webp')" }} />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
         <div className="relative max-w-6xl mx-auto px-4 py-20">
           <div className="flex items-center gap-3 mb-6">
             <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
@@ -339,10 +358,18 @@ export default function FoodGuidePage() {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 py-12 space-y-16">
+      <div className="max-w-6xl mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 lg:gap-12">
+          {/* Sticky TOC - Desktop */}
+          <aside className="hidden lg:block">
+            <StickyTOC items={tocItems} title="On this page" />
+          </aside>
+
+          {/* Main Content */}
+          <article className="space-y-16">
         
         {/* Argentine Food Culture */}
-        <section>
+        <section id="culture">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-orange-100 rounded-lg">
               <Flame className="w-6 h-6 text-orange-900" />
@@ -447,7 +474,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Must-Try Foods */}
-        <section>
+        <section id="must-try">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-orange-100 rounded-lg">
               <Heart className="w-6 h-6 text-orange-900" />
@@ -531,7 +558,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Parrillas */}
-        <section>
+        <section id="parrillas">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-red-100 rounded-lg">
               <Flame className="w-6 h-6 text-red-600" />
@@ -573,7 +600,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Cheap Eats */}
-        <section>
+        <section id="cheap-eats">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-green-100 rounded-lg">
               <DollarSign className="w-6 h-6 text-green-600" />
@@ -620,7 +647,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Vegetarian */}
-        <section>
+        <section id="vegetarian">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-emerald-100 rounded-lg">
               <Leaf className="w-6 h-6 text-emerald-600" />
@@ -659,7 +686,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* International */}
-        <section>
+        <section id="international">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-blue-100 rounded-lg">
               <Utensils className="w-6 h-6 text-blue-600" />
@@ -694,7 +721,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Cafes */}
-        <section>
+        <section id="cafes">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-amber-100 rounded-lg">
               <Coffee className="w-6 h-6 text-amber-600" />
@@ -731,7 +758,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Delivery Apps */}
-        <section>
+        <section id="delivery">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-purple-100 rounded-lg">
               <Smartphone className="w-6 h-6 text-purple-600" />
@@ -768,7 +795,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Grocery Shopping */}
-        <section>
+        <section id="grocery">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-cyan-100 rounded-lg">
               <ShoppingCart className="w-6 h-6 text-cyan-600" />
@@ -835,7 +862,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Cooking at Home */}
-        <section>
+        <section id="cooking">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-rose-100 rounded-lg">
               <ChefHat className="w-6 h-6 text-rose-600" />
@@ -906,7 +933,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Dining Etiquette */}
-        <section>
+        <section id="etiquette">
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-indigo-100 rounded-lg">
               <Utensils className="w-6 h-6 text-indigo-600" />
@@ -962,7 +989,7 @@ export default function FoodGuidePage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 md:py-24 bg-gray-50 -mx-4 px-4 rounded-2xl">
+        <section id="faq" className="py-16 md:py-24 bg-gray-50 -mx-4 px-4 rounded-2xl">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="w-full">
@@ -1064,6 +1091,14 @@ export default function FoodGuidePage() {
           </div>
         </section>
 
+        {/* Lucero Legal CTA */}
+        <LuceroLegalCTA 
+          title="Moving to Argentina?"
+          description="Lucero Legal helps expats navigate immigration, residency, and visas. Focus on finding the best empanadas while they handle your paperwork."
+        />
+
+          </article>
+        </div>
       </div>
     </div>
   );

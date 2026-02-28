@@ -160,7 +160,7 @@ const rosarioRestaurants: RosarioRestaurant[] = [
     cuisine: "Craft Beer & Gastropub",
     category: "International",
     priceRange: "$$",
-    description: "Rosario's craft beer scene is thriving, and Berlina is at the forefront. A modern brewpub serving house-brewed beers alongside elevated pub food including gourmet burgers and creative sharing plates.",
+    description: "Rosario's craft beer scene is thriving, and Berlina is at the forefront. A modern brewpub serving house-brewed beers alongside refined pub food including gourmet burgers and creative sharing plates.",
     whatToOrder: ["IPA de la casa", "Burger de cordero", "Nachos cargados"],
     neighborhood: "Barrio Pichincha",
     localTip: "The Pichincha neighborhood is Rosario's hippest area—combine a visit here with a walk through the local galleries and bars.",

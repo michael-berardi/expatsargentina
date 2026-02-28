@@ -3,6 +3,15 @@
 // Country-specific immigration guidance for expats from different nations
 // ============================================================================
 
+import { nationalitiesBatch1 } from "./nationalities-batch1";
+import { nationalitiesBatch2 } from "./nationalities-batch2";
+import { nationalitiesBatch3 } from "./nationalities-batch3";
+import { nationalitiesBatch4 } from "./nationalities-batch4";
+import { nationalitiesBatch5 } from "./nationalities-batch5";
+import { nationalitiesBatch6 } from "./nationalities-batch6";
+import { nationalitiesBatch7 } from "./nationalities-batch7";
+import { nationalitiesBatch8 } from "./nationalities-batch8";
+
 export interface Nationality {
   slug: string;
   name: string;
@@ -11039,7 +11048,17 @@ export const nationalities: Nationality[] = [
       { title: "Digital Nomad Visa", url: "/visas/digital-nomad", description: "For remote workers" }
     ],
     image: "/images/nationalities/default.webp"
-  }
+  },
+
+  // BATCH IMPORTS: Additional countries from batch files
+  ...nationalitiesBatch1,
+  ...nationalitiesBatch2,
+  ...nationalitiesBatch3,
+  ...nationalitiesBatch4,
+  ...nationalitiesBatch5,
+  ...nationalitiesBatch6,
+  ...nationalitiesBatch7,
+  ...nationalitiesBatch8,
 ];
 
 // Helper functions

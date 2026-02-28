@@ -5,6 +5,7 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { I18nProvider } from "@/lib/i18n";
+import { MobileBottomNav, MobileScrollToTop } from "@/components/MobileBottomNav";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -74,6 +75,8 @@ export default function RootLayout({
           <Navbar />
           <main id="main-content">{children}</main>
           <Footer />
+          <MobileBottomNav />
+          <MobileScrollToTop />
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{

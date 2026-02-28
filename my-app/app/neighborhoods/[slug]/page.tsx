@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -18,6 +19,12 @@ import {
   UsersIcon,
 } from "@/components/ui/icon";
 import { neighborhoods, getNeighborhoodBySlug } from "@/lib/data/neighborhoods";
+import { getNeighborhoodPhotos } from "@/lib/data/neighborhood-photos";
+import { PhotoGallery } from "@/components/PhotoGallery";
+import { NeighborhoodTestimonials } from "@/components/Testimonials";
+import { AuthorBio, siteAuthors } from "@/components/AuthorBio";
+import { RelatedForCity } from "@/components/RelatedContent";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 export function generateStaticParams() {
   return neighborhoods.map((n) => ({ slug: n.slug }));
@@ -87,6 +94,9 @@ export default async function NeighborhoodDetailPage({
     .map((s) => getNeighborhoodBySlug(s))
     .filter(Boolean);
 
+  const photos = getNeighborhoodPhotos(slug);
+  const currentDate = new Date().toISOString();
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Place",
@@ -143,6 +153,13 @@ export default async function NeighborhoodDetailPage({
       <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            {/* Author & Date */}
+            <div className="flex flex-wrap items-center gap-3 mb-6 text-sm text-muted-foreground">
+              <span>By {siteAuthors.housing.name}</span>
+              <span>·</span>
+              <time dateTime={currentDate}>Updated {new Date(currentDate).toLocaleDateString("en-US", { month: "long", year: "numeric" })}</time>
+            </div>
+
             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-4">
@@ -166,6 +183,19 @@ export default async function NeighborhoodDetailPage({
                 <p className="text-xl text-muted-foreground mb-8">
                   {hood.description}
                 </p>
+              </div>
+
+              {/* Hero Image */}
+              <div className="md:w-1/3">
+                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    src={photos[0]?.src || hood.image}
+                    alt={hood.name}
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
             </div>
 
@@ -219,9 +249,26 @@ export default async function NeighborhoodDetailPage({
                 <p key={i} className="mb-4">{sentences.join(". ")}{sentences[sentences.length - 1].endsWith(".") ? "" : "."}</p>
               ))}
             </div>
+
+            {/* Author Bio */}
+            <div className="mt-12">
+              <AuthorBio 
+                author={siteAuthors.housing}
+                updatedAt={currentDate}
+                variant="full"
+              />
+            </div>
           </div>
         </div>
       </section>
+
+      {/* Photo Gallery */}
+      {photos.length > 0 && (
+        <PhotoGallery photos={photos} title={`Photos of ${hood.name}`} variant="featured" />
+      )}
+
+      {/* Testimonials */}
+      <NeighborhoodTestimonials neighborhood={slug} />
 
       {/* At a Glance */}
       <section className="py-16 bg-muted/30">
@@ -479,6 +526,22 @@ export default async function NeighborhoodDetailPage({
           </div>
         </section>
       )}
+
+      {/* Related Content */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-8">
+              <RelatedForCity citySlug="buenos-aires" />
+              <LuceroLegalCTA 
+                variant="sidebar"
+                title="Moving to Buenos Aires?"
+                description="Lucero Legal helps expats with visas, residency, and legal matters when relocating to Argentina. Get expert guidance on your move."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="py-16 bg-primary text-primary-foreground">

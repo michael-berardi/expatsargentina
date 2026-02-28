@@ -10,6 +10,8 @@ import {
   ArrowLeft, CheckCircle, Clock, DollarSign, 
   Globe, Users, FileText, AlertCircle, ExternalLink
 } from "lucide-react";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
+import { RelatedForNationality } from "@/components/RelatedContent";
 
 interface NationalityPageProps {
   params: Promise<{
@@ -363,6 +365,9 @@ export default async function NationalityPage({ params }: NationalityPageProps) 
                   ))}
                 </div>
               </section>
+
+              {/* Related Content */}
+              <RelatedForNationality nationality={nationality.slug} />
             </div>
 
             {/* Right Sidebar */}
@@ -451,18 +456,12 @@ export default async function NationalityPage({ params }: NationalityPageProps) 
                 </CardContent>
               </Card>
 
-              {/* CTA */}
-              <Card className="bg-primary/5">
-                <CardContent className="p-6 text-center">
-                  <h3 className="font-semibold mb-2">Questions?</h3>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Get personalized guidance for {nationality.demonym} citizens moving to Argentina.
-                  </p>
-                  <Link href="/contact">
-                    <Button className="w-full">Contact Us</Button>
-                  </Link>
-                </CardContent>
-              </Card>
+              {/* Lucero Legal CTA */}
+              <LuceroLegalCTA 
+                variant="sidebar"
+                title={`${nationality.demonym} Immigration Help`}
+                description={`Lucero Legal has experience helping ${nationality.demonym} citizens navigate Argentine immigration. Get expert guidance on visas, residency, and citizenship.`}
+              />
             </aside>
           </div>
         </div>

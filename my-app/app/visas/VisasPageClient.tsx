@@ -9,6 +9,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import { Input } from "@/components/ui/input";
 import { Icon, FeatureIcon } from "@/components/ui/icon";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 // Quiz Types
 type QuizAnswer = {
@@ -1136,6 +1137,14 @@ export default function VisasPageClient() {
                 <DocumentChecklist />
               </TabsContent>
             </Tabs>
+
+            {/* Lucero Legal CTA */}
+            <div className="mt-8">
+              <LuceroLegalCTA 
+                title="Confused About Which Visa to Choose?"
+                description="Lucero Legal's immigration attorneys can analyze your situation and recommend the best visa path. They handle digital nomad visas, work permits, retirement visas, and investment-based residency."
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -1944,32 +1953,12 @@ export default function VisasPageClient() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
-          <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Need Professional Help?</h2>
-            <p className="text-primary-foreground/80 mb-8">
-              Immigration law is complex and changes frequently. A qualified lawyer can 
-              save you time, money, and stress - especially for business visas or if 
-              you&apos;ve had previous immigration issues.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" variant="secondary">
-                <Link href="/resources/directory?category=legal">
-                  Find Immigration Lawyers
-                  <Icon name="arrow-right" size="sm" />
-                </Link>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 hover:bg-primary-foreground/10">
-                <Link href="/contact">
-                  Ask a Question
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Lucero Legal Full CTA */}
+      <LuceroLegalCTA 
+        variant="full"
+        title="Ready to Start Your Visa Application?"
+        description="Lucero Legal specializes in Argentine immigration law. Their team has helped hundreds of expats navigate the visa process, from digital nomads to retirees to business investors. Schedule a consultation to discuss your specific situation."
+      />
     </div>
   );
 }

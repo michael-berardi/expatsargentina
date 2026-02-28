@@ -1,1344 +1,307 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Metadata } from "next";
 import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import {
-  DollarSignIcon,
-  HomeIcon,
-  UtensilsIcon,
-  BusIcon,
-  HeartIcon,
-  WifiIcon,
-  FilmIcon,
-  AlertCircleIcon,
-  TrendingUpIcon,
-  ArrowRightIcon,
-  CalculatorIcon,
-  WalletIcon,
-  CreditCardIcon,
-  PiggyBankIcon,
-  MapPinIcon,
-  ZapIcon,
-  BriefcaseIcon,
-  DumbbellIcon,
-  CoffeeIcon,
-  ReceiptIcon,
-  ShieldIcon,
-  LightbulbIcon
-} from "@/components/ui/icon";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { StickyTOC } from "@/components/StickyTOC";
+import { ResponsiveTable } from "@/components/ResponsiveTable";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 export const metadata: Metadata = {
-  title: "Cost of Living Argentina 2026",
-  description: "Argentina is NOT cheap anymore. 2026 cost of living guide with doubled prices, Milei economy impact, and Western Europe-level costs.",
-  keywords: ["cost of living Argentina 2026", "Argentina expensive now", "Buenos Aires prices doubled", "Milei economy cost", "is Argentina still cheap 2026"],
-  openGraph: {
-    title: "Cost of Living in Argentina 2026 - Prices Doubled",
-    description: "Argentina cost of living has doubled. Real 2026 budgets: $1,200-5,000/month for Western Europe-level prices.",
-    images: [{ url: "/images/cost-of-living-og.webp", width: 1200, height: 630 }],
-  },
-  alternates: {
-    canonical: "https://expatsargentina.com/cost-of-living",
-  },
+  title: "Cost of Living in Argentina 2025 | Complete Guide",
+  description:
+    "Detailed breakdown of living costs in Argentina for 2025. Budgets for Buenos Aires, Mendoza, Cordoba and more. Real prices updated monthly.",
 };
 
-// Real 2026 budget profiles - prices have DOUBLED since 2023
-const monthlyCosts = {
-  backpacker: {
-    rent: 550,
-    food: 320,
-    transport: 35,
-    utilities: 75,
-    healthcare: 85,
-    entertainment: 100,
-    coworking: 0,
-    gym: 0,
-    misc: 85,
-    total: 1250,
-    description: "Shared apartment in Villa Crespo or Caballito, cooking most meals, SUBE card, no frills",
-    rentDetails: "Room in shared apartment (3-4 people)",
-    foodDetails: "Mostly groceries, occasional empanadas",
-    lifestyle: "Local bars, free events, parks"
-  },
-  comfortable: {
-    rent: 1200,
-    food: 650,
-    transport: 120,
-    utilities: 180,
-    healthcare: 250,
-    entertainment: 350,
-    coworking: 150,
-    gym: 55,
-    misc: 200,
-    total: 3155,
-    description: "Own 1-bedroom in Palermo or Belgrano, mix of cooking and dining out, gym membership",
-    rentDetails: "1-bedroom apartment, mid-range building",
-    foodDetails: "Groceries + 3-4 restaurant meals/week",
-    lifestyle: "Coworking space, weekend trips, decent nightlife"
-  },
-  highroller: {
-    rent: 2800,
-    food: 1200,
-    transport: 300,
-    utilities: 350,
-    healthcare: 450,
-    entertainment: 800,
-    coworking: 250,
-    gym: 120,
-    misc: 450,
-    total: 6720,
-    description: "Nice 2-bedroom in Palermo Hollywood or Puerto Madero, dining out frequently, premium everything",
-    rentDetails: "Modern 2-bedroom with amenities (gym, pool, security)",
-    foodDetails: "Frequent dining out, delivery, quality groceries",
-    lifestyle: "Premium coworking, regular travel, upscale nightlife"
-  }
-};
+const tocItems = [
+  { id: "overview", text: "Overview", level: 1 },
+  { id: "monthly-budgets", text: "Monthly Budgets by City", level: 1 },
+  { id: "housing", text: "Housing Costs", level: 1 },
+  { id: "food", text: "Food & Dining", level: 1 },
+  { id: "transport", text: "Transportation", level: 1 },
+  { id: "utilities", text: "Utilities & Services", level: 1 },
+  { id: "healthcare", text: "Healthcare", level: 1 },
+  { id: "visa-requirements", text: "Visa Financial Requirements", level: 1 },
+];
 
-// Detailed expense categories with real 2025 prices
-const expenseCategories = [
+const budgetData = [
   {
-    icon: HomeIcon,
-    title: "Rent (USD Prices)",
-    description: "Rent is typically quoted in USD and paid in cash or via wire. Prices have doubled since 2023.",
-    items: [
-      { name: "Room in shared apt (Villa Crespo/Caballito)", price: "$450-600" },
-      { name: "Room in shared apt (Palermo)", price: "$600-800" },
-      { name: "Studio apartment (budget areas)", price: "$700-950" },
-      { name: "1-bedroom (Belgrano/Almagro)", price: "$900-1,200" },
-      { name: "1-bedroom (Palermo/Recoleta)", price: "$1,100-1,600" },
-      { name: "2-bedroom nice building (Palermo)", price: "$1,800-2,400" },
-      { name: "2-bedroom luxury (Puerto Madero)", price: "$2,500-4,000" },
-    ],
+    city: "Buenos Aires",
+    budget: "$800 – $1,200",
+    rent1br: "$400 – $600",
+    rent3br: "$700 – $1,100",
+    mealOut: "$8 – $15",
+    transport: "$15 – $25",
   },
   {
-    icon: UtensilsIcon,
-    title: "Food & Dining",
-    description: "Restaurant prices now rival Western Europe. The 'cheap Argentina' of 2020-2023 is gone.",
-    items: [
-      { name: "Empanada (takeaway)", price: "$1.50-2.50" },
-      { name: "Menu del día (weekday lunch)", price: "$12-18" },
-      { name: "Pizza + beer (casual place)", price: "$22-32" },
-      { name: "Dinner for 2 (mid-range restaurant)", price: "$80-120" },
-      { name: "Dinner for 2 (nice restaurant)", price: "$150-220" },
-      { name: "Coffee at café", price: "$4-6" },
-      { name: "Craft beer (pint)", price: "$7-12" },
-      { name: "Bottle of wine (mid-range)", price: "$12-20" },
-    ],
+    city: "Mendoza",
+    budget: "$700 – $1,000",
+    rent1br: "$300 – $450",
+    rent3br: "$550 – $850",
+    mealOut: "$7 – $12",
+    transport: "$10 – $20",
   },
   {
-    icon: BusIcon,
-    title: "Transportation",
-    description: "Public transport is extremely cheap. Taxis and Uber are affordable compared to US/Europe.",
-    items: [
-      { name: "SUBE card (bus/subway)", price: "$0.25-0.35/ride" },
-      { name: "Taxi (short trip, 2-3km)", price: "$3-5" },
-      { name: "Taxi (airport to city)", price: "$25-35" },
-      { name: "Uber/Cabify (short trip)", price: "$4-7" },
-      { name: "Uber/Cabify (cross-city)", price: "$8-15" },
-      { name: "Monthly SUBE pass (frequent use)", price: "$18-25" },
-    ],
+    city: "Cordoba",
+    budget: "$650 – $950",
+    rent1br: "$280 – $400",
+    rent3br: "$500 – $750",
+    mealOut: "$6 – $10",
+    transport: "$12 – $20",
   },
   {
-    icon: HeartIcon,
-    title: "Healthcare (Prepaga)",
-    description: "Private health insurance is essential. Prices vary by age bracket significantly.",
-    items: [
-      { name: "Basic plan (under 35)", price: "$65-95/month" },
-      { name: "Basic plan (35-50)", price: "$95-145/month" },
-      { name: "Basic plan (50+)", price: "$145-225/month" },
-      { name: "Premium plan (under 35)", price: "$125-185/month" },
-      { name: "Premium plan (35-50)", price: "$185-275/month" },
-      { name: "Doctor consultation (private)", price: "$35-65" },
-      { name: "Dental cleaning", price: "$35-65" },
-      { name: "Emergency room visit", price: "$45-85" },
-    ],
-  },
-  {
-    icon: WifiIcon,
-    title: "Utilities & Services",
-    description: "Internet is fast and cheap. Phone plans are affordable. Electricity has been rising.",
-    items: [
-      { name: "Internet (300 Mbps)", price: "$22-28/month" },
-      { name: "Internet (1000 Mbps)", price: "$32-42/month" },
-      { name: "Mobile plan (5-10GB)", price: "$8-15/month" },
-      { name: "Mobile plan (unlimited)", price: "$18-28/month" },
-      { name: "Electricity (1BR apt)", price: "$35-65/month" },
-      { name: "Gas & water (1BR apt)", price: "$25-45/month" },
-      { name: "Building expenses (expensas)", price: "$85-175/month" },
-    ],
-  },
-  {
-    icon: BriefcaseIcon,
-    title: "Coworking Spaces",
-    description: "Coworking is popular among digital nomads. Prices vary by amenities and location.",
-    items: [
-      { name: "Basic hot desk (monthly)", price: "$75-115" },
-      { name: "Dedicated desk (monthly)", price: "$125-185" },
-      { name: "Private office (monthly)", price: "$285-450" },
-      { name: "Day pass", price: "$12-18" },
-      { name: "Weekly pass", price: "$45-65" },
-    ],
-  },
-  {
-    icon: DumbbellIcon,
-    title: "Gym & Fitness",
-    description: "Gyms are affordable. Many modern apartment buildings include basic gyms.",
-    items: [
-      { name: "Basic gym (monthly)", price: "$22-35" },
-      { name: "Mid-range gym (monthly)", price: "$35-55" },
-      { name: "Premium gym/spa (monthly)", price: "$65-95" },
-      { name: "CrossFit box (monthly)", price: "$45-75" },
-      { name: "Yoga studio (monthly)", price: "$35-55" },
-      { name: "Personal training session", price: "$18-28" },
-    ],
-  },
-  {
-    icon: FilmIcon,
-    title: "Entertainment",
-    description: "Entertainment is where Argentina shines - world-class culture at affordable prices.",
-    items: [
-      { name: "Movie ticket", price: "$5-8" },
-      { name: "Theater ticket (good seats)", price: "$25-65" },
-      { name: "Tango show (tourist)", price: "$45-85" },
-      { name: "Night out (drinks + cover)", price: "$25-55" },
-      { name: "Museum entrance", price: "$2-8" },
-      { name: "Concert ticket (local)", price: "$15-35" },
-      { name: "Concert ticket (international)", price: "$65-185" },
-    ],
+    city: "Bariloche",
+    budget: "$750 – $1,100",
+    rent1br: "$350 – $500",
+    rent3br: "$600 – $900",
+    mealOut: "$8 – $14",
+    transport: "$15 – $25",
   },
 ];
 
-// Neighborhood rent comparison - updated for 2026 reality
-const neighborhoodComparison = [
-  { name: "Puerto Madero", rent: "$$$$", rentRange: "$2,500-4,500", vibe: "Ultra-modern, waterfront, expat enclave", transport: "Good" },
-  { name: "Palermo (Hollywood/Soho)", rent: "$$$", rentRange: "$1,400-2,400", vibe: "Trendy, nightlife, restaurants, young", transport: "Excellent" },
-  { name: "Recoleta", rent: "$$$", rentRange: "$1,200-2,200", vibe: "Upscale, historic, museums, families", transport: "Excellent" },
-  { name: "Belgrano", rent: "$$", rentRange: "$900-1,500", vibe: "Residential, quiet, parks, families", transport: "Very Good" },
-  { name: "San Telmo", rent: "$$", rentRange: "$700-1,100", vibe: "Bohemian, touristy, tango, artsy", transport: "Good" },
-  { name: "Villa Crespo", rent: "$", rentRange: "$600-1,000", vibe: "Up-and-coming, authentic, outlets", transport: "Good" },
-  { name: "Caballito", rent: "$", rentRange: "$550-950", vibe: "Traditional, residential, very local", transport: "Very Good" },
-  { name: "Almagro", rent: "$", rentRange: "$650-1,100", vibe: "Student area, cafes, affordable-ish", transport: "Good" },
-];
-
-// Sample grocery receipt - 2026 prices (doubled from 2023)
-const groceryReceipt = [
-  { item: "1L milk", price: "$2.40" },
-  { item: "Dozen eggs", price: "$4.80" },
-  { item: "1kg chicken breast", price: "$9.50" },
-  { item: "1kg rice", price: "$3.20" },
-  { item: "1kg pasta", price: "$2.80" },
-  { item: "Bread (baguette)", price: "$2.40" },
-  { item: "Butter (200g)", price: "$4.40" },
-  { item: "Cheese (500g)", price: "$8.40" },
-  { item: "Yogurt (1kg)", price: "$5.60" },
-  { item: "Coffee (250g)", price: "$7.60" },
-  { item: "Wine (decent bottle)", price: "$11" },
-  { item: "6-pack beer", price: "$9" },
-  { item: "Fresh vegetables (assorted)", price: "$13" },
-  { item: "Fruit (assorted)", price: "$9.50" },
-];
-
-const groceryTotal = "$93.60";
-
-const faqs = [
-  {
-    question: "How much does it cost to live in Buenos Aires per month?",
-    answer: "In 2026, expect to spend $1,250/month on a tight budget (shared apartment, cooking at home), $3,000-3,200/month for a comfortable lifestyle (own 1-bedroom, dining out regularly), or $5,000-7,000/month for a premium lifestyle (nice 2-bedroom, frequent dining out, premium services). Prices have roughly doubled since 2023.",
-  },
-  {
-    question: "Should I budget in USD or Argentine pesos?",
-    answer: "Budget in USD. Rent is quoted in USD, and the peso fluctuates too much for reliable planning. Convert to pesos at the blue dollar rate for daily expenses. Track spending in USD to maintain a clear picture of your monthly burn rate regardless of exchange rate movements.",
-  },
-  {
-    question: "Is Argentina cheap for foreigners?",
-    answer: "Not anymore. The 'cheap Argentina' era of 2020-2023 is over. Prices have doubled and Buenos Aires now rivals Lisbon or Barcelona in cost. However, certain things remain affordable: public transport ($0.25-0.35/ride), basic groceries, entertainment, and healthcare. The key is using the blue dollar rate, not the official rate, which makes a massive difference.",
-  },
-  {
-    question: "How much is rent in Buenos Aires?",
-    answer: "Rent varies widely by neighborhood and is quoted in USD. A room in a shared apartment costs $450-800, a studio $700-950, a 1-bedroom in Palermo or Recoleta $1,100-1,600, and a 2-bedroom in a nice building $1,800-2,400. Budget neighborhoods like Caballito and Villa Crespo are 30-40% cheaper than Palermo.",
-  },
-  {
-    question: "Are groceries expensive in Argentina?",
-    answer: "Groceries are moderate. A weekly shop for one person at a mid-range supermarket costs $45-55 USD. Meat (especially beef) is still good value. Shop at neighborhood ferias (street markets) for produce at 30-50% less than supermarkets. Imported goods and specialty items are expensive. Dining out at restaurants now rivals Western European prices.",
-  },
-  {
-    question: "How does Buenos Aires compare to other Latin American countries?",
-    answer: "Buenos Aires is now one of the more expensive cities in Latin America, comparable to Lisbon or Barcelona. Mexico City is about 25-30% cheaper overall, while cities like Medellin or Lima are 40-50% cheaper. However, Buenos Aires offers a uniquely European lifestyle, world-class culture, excellent healthcare, and strong infrastructure that justify the higher cost for many expats.",
-  },
-];
-
-// City comparison data - 2026 reality
-const cityComparison = [
-  { city: "Buenos Aires", rent: "$1,100", meal: "$22", transport: "$50", total: "$2,500" },
-  { city: "Mexico City", rent: "$900", meal: "$18", transport: "$20", total: "$1,800" },
-  { city: "Lisbon", rent: "$1,300", meal: "$24", transport: "$50", total: "$2,600" },
-  { city: "Barcelona", rent: "$1,500", meal: "$30", transport: "$60", total: "$3,000" },
-  { city: "Austin, TX", rent: "$1,700", meal: "$40", transport: "$70", total: "$3,400" },
+const budgetColumns = [
+  { key: "city", header: "City" },
+  { key: "budget", header: "Monthly Budget", align: "right" as const },
+  { key: "rent1br", header: "1BR Rent", align: "right" as const },
+  { key: "rent3br", header: "3BR Rent", align: "right" as const },
 ];
 
 export default function CostOfLivingPage() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://expatsargentina.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Cost of Living",
-                "item": "https://expatsargentina.com/cost-of-living"
-              }
-            ]
-          })
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": faqs.map(f => ({
-              "@type": "Question",
-              "name": f.question,
-              "acceptedAnswer": { "@type": "Answer", "text": f.answer }
-            }))
-          })
-        }}
-      />
-      {/* Breadcrumb */}
-      <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-4 py-4">
-          <nav className="flex gap-2 text-base text-muted-foreground">
-            <Link href="/" className="hover:text-foreground">Home</Link>
-            <span>/</span>
-            <span className="text-foreground">Cost of Living</span>
-          </nav>
-        </div>
-      </div>
-
+    <main className="min-h-screen">
       {/* Hero */}
-      <section className="py-12 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
+      <section className="relative bg-gradient-to-b from-teal-50 to-white py-16 md:py-24">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <Badge className="mb-4" variant="secondary">
-              <TrendingUpIcon className="mr-1 h-4 w-4" />
-              Updated February 2026
+          <div className="max-w-4xl mx-auto text-center">
+            <Badge variant="secondary" className="mb-4">
+              Updated February 2025
             </Badge>
-            <h1 className="text-3xl md:text-5xl font-bold mb-6">
-              Cost of Living in Argentina 2026
+            <h1 className="text-3xl md:text-5xl font-bold mb-4">
+              Cost of Living in Argentina
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto">
-              The &quot;cheap Argentina&quot; era is OVER. Prices have doubled since 2023.
-              Real 2026 budgets for Buenos Aires—now rivaling Western Europe.
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Real numbers, updated monthly. What you will actually spend in
+              Buenos Aires, Mendoza, and beyond.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
-              <Button asChild size="lg" className="w-full sm:w-auto">
-                <Link href="#monthly-budgets">
-                  See Monthly Budgets
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
-                <Link href="/contact">
-                  Get Personalized Advice
-                </Link>
-              </Button>
-            </div>
-            <div className="flex flex-wrap justify-center gap-4 text-base">
-              <div className="flex items-center gap-2">
-                <DollarSignIcon className="text-primary h-4 w-4" />
-                <span>USD pricing (2026)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CalculatorIcon className="text-primary h-4 w-4" />
-                <span>3 budget profiles</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <AlertCircleIcon className="text-primary h-4 w-4" />
-                <span>Prices doubled</span>
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* 2026 Economic Reality Banner */}
-      <section className="py-12 bg-amber-50 dark:bg-amber-950/20 border-y border-amber-200 dark:border-amber-800">
+      {/* Main Content with TOC */}
+      <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-start gap-4 mb-6">
-              <AlertCircleIcon className="h-10 w-10 text-amber-600 flex-shrink-0 mt-1" />
-              <div>
-                <h2 className="text-xl md:text-2xl font-bold text-amber-900 dark:text-amber-100 mb-2">
-                  2026 Reality: Argentina Is NOT Cheap Anymore
+          <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 lg:gap-12">
+            {/* Sticky TOC */}
+            <aside className="hidden lg:block">
+              <StickyTOC items={tocItems} title="On this page" />
+            </aside>
+
+            {/* Content */}
+            <article className="prose prose-lg max-w-none">
+              {/* Overview */}
+              <section id="overview" className="mb-12">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  The Bottom Line First
                 </h2>
-                <p className="text-amber-900 dark:text-amber-200 mb-3">
-                  <strong>Prices have doubled since 2023.</strong> The &quot;bargain Argentina&quot; that attracted 
-                  digital nomads with $600 apartments is gone. Buenos Aires now rivals Lisbon or Barcelona in cost.
+                <p className="text-muted-foreground mb-4">
+                  Argentina remains one of Latin America most affordable countries
+                  for expats, despite years of high inflation. A single person
+                  can live comfortably on $800–$1,200 per month in Buenos Aires.
+                  Smaller cities drop that to $600–$900.
                 </p>
-                <p className="text-amber-900 dark:text-amber-200">
-                  Under Milei&apos;s economy, inflation has stabilized at 2-3% monthly (down from 25%), but the 
-                  base prices are now permanently higher. Expect Western Europe-level costs for restaurants, 
-                  rent, and services.
+                <p className="text-muted-foreground">
+                  The key is understanding the dual currency economy. Official
+                  exchange rates differ from the informal "blue dollar" rate by
+                  20–50%. Using services like Western Union or crypto exchanges
+                  that give you the blue rate effectively increases your purchasing
+                  power significantly.
                 </p>
-              </div>
-            </div>
-            
-            <div className="grid md:grid-cols-3 gap-4">
-              <Card className="bg-white/80 dark:bg-black/20 border-2">
-                <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-amber-600 mb-2">2-3%</div>
-                  <p className="text-base text-muted-foreground">Monthly inflation (stabilized under Milei)</p>
-                </CardContent>
-              </Card>
-              <Card className="bg-white/80 dark:bg-black/20 border-2">
-                <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-amber-600 mb-2">2x</div>
-                  <p className="text-base text-muted-foreground">Price increase since 2023</p>
-                </CardContent>
-              </Card>
-              <Card className="bg-white/80 dark:bg-black/20 border-2">
-                <CardContent className="pt-4">
-                  <div className="text-2xl font-bold text-amber-600 mb-2">Europe</div>
-                  <p className="text-base text-muted-foreground">Current price level comparison</p>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
+              </section>
 
-      {/* The Exchange Rate Confusion Explained */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">The Exchange Rate Maze</h2>
-            <p className="text-muted-foreground mb-8">
-              Understanding Argentina's multiple exchange rates is crucial. Using the wrong one can cost you 50% more.
-            </p>
+              {/* Monthly Budgets */}
+              <section id="monthly-budgets" className="mb-12">
+                <h2 className="text-2xl md:text-3xl font-bold mb-6">
+                  Monthly Budgets by City
+                </h2>
+                <p className="text-muted-foreground mb-6">
+                  These figures represent total monthly expenses for one person
+                  living moderately: private apartment, eating out a few times per
+                  week, occasional entertainment. Couples can expect roughly 1.6x
+                  these amounts (shared rent, split utilities).
+                </p>
 
-            <div className="grid md:grid-cols-2 gap-6">
-              <Card className="border-red-200 border-2">
-                <CardHeader>
-                  <CardTitle className="text-base md:text-lg flex items-center gap-2">
-                    <span className="text-red-500 text-xl">✗</span> Official Rate (Banco Nación)
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-4">
-                    The government-set rate. This is what you&apos;ll get if you use your foreign credit card 
-                    or withdraw from an ATM. <strong>NEVER use this—you&apos;ll lose ~40%.</strong>
-                  </p>
-                  <div className="text-2xl font-bold text-red-600">~$1,400 ARS/$1 USD</div>
-                  <p className="text-base text-muted-foreground mt-2">You lose ~40% of your money</p>
-                </CardContent>
-              </Card>
+                <div className="bg-card border rounded-lg p-4 md:p-6 mb-6">
+                  <ResponsiveTable
+                    caption="Monthly Costs by City (USD)"
+                    columns={budgetColumns}
+                    data={budgetData}
+                  />
+                </div>
 
-              <Card className="border-green-200 border-2">
-                <CardHeader>
-                  <CardTitle className="text-base md:text-lg flex items-center gap-2">
-                    <span className="text-green-500 text-xl">✓</span> Blue Dollar (Dólar Blue)
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-4">
-                    The unofficial street rate for physical USD cash. Bring USD bills and exchange at cuevas. 
-                    Check <a href="https://dolarhoy.com" target="_blank" rel="noopener" className="text-primary underline">dolarhoy.com</a> daily.
-                  </p>
-                  <div className="text-2xl font-bold text-green-600">~$1,400 ARS/$1 USD</div>
-                  <p className="text-base text-muted-foreground mt-2">The rate locals actually use</p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-blue-200 border-2">
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <span className="text-blue-500">★</span> Western Union / Remittances
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    Send yourself money via Western Union. Most popular option for expats without DNI. 
-                    Pick up in pesos at branches with passport only.
-                  </p>
-                  <div className="text-2xl font-bold text-blue-600">~$1,380 ARS/$1 USD</div>
-                  <p className="text-base text-muted-foreground mt-2">Best option for most expats</p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-amber-200 border-2">
-                <CardHeader>
-                  <CardTitle className="text-base md:text-lg flex items-center gap-2">
-                    <span className="text-amber-500 text-xl">◆</span> MEP / CCL (Financial)
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-4">
-                    Financial market rates through local brokers. Requires local bank account and DNI. 
-                    Best for large amounts once you have residency.
-                  </p>
-                  <div className="text-2xl font-bold text-amber-600">~$1,380 ARS/$1 USD</div>
-                  <p className="text-base text-muted-foreground mt-2">For those with DNI and local banking</p>
-                </CardContent>
-              </Card>
-            </div>
-
-            <div className="mt-8 p-6 bg-amber-50 dark:bg-amber-950/20 rounded-lg border border-amber-200">
-              <h3 className="font-semibold text-amber-900 dark:text-amber-100 mb-2 flex items-center gap-2">
-                <LightbulbIcon className="h-4 w-4" />
-                The Golden Rule
-              </h3>
-              <p className="text-amber-900 dark:text-amber-200 text-base">
-                <strong>Never use your foreign credit or debit card in Argentina.</strong> You'll get the official rate 
-                and instantly lose 40-50% of your purchasing power. Bring USD cash, use Western Union, or open a 
-                local bank account and use MEP/CCL. The cash economy is king here.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Monthly Budget Calculator */}
-      <section id="monthly-budgets" className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4 text-center">Real Monthly Budgets</h2>
-            <p className="text-center text-muted-foreground mb-8">
-              Three authentic profiles based on actual expat spending. Prices in USD at blue rate equivalent.
-            </p>
-
-            <Tabs defaultValue="comfortable" className="w-full">
-              <TabsList className="grid w-full grid-cols-3">
-                <TabsTrigger value="backpacker">Budget Backpacker</TabsTrigger>
-                <TabsTrigger value="comfortable">Comfortable Expat</TabsTrigger>
-                <TabsTrigger value="highroller">High Roller</TabsTrigger>
-              </TabsList>
-
-              {Object.entries(monthlyCosts).map(([key, costs]) => (
-                <TabsContent key={key} value={key}>
-                  <Card>
-                    <CardHeader>
-                      <CardTitle className="capitalize">
-                        {key === "backpacker" && "Budget Backpacker"}
-                        {key === "comfortable" && "Comfortable Expat"}
-                        {key === "highroller" && "High Roller"}
-                      </CardTitle>
-                      <CardDescription>{costs.description}</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="mb-6 p-4 bg-muted rounded-lg">
-                        <h3 className="font-semibold text-base mb-2">Lifestyle Snapshot</h3>
-                        <ul className="text-base text-muted-foreground space-y-2">
-                          <li><strong>Housing:</strong> {costs.rentDetails}</li>
-                          <li><strong>Food:</strong> {costs.foodDetails}</li>
-                          <li><strong>Social:</strong> {costs.lifestyle}</li>
-                        </ul>
-                      </div>
-
-                      <div className="space-y-3">
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <HomeIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Rent</span>
-                          </div>
-                          <span className="font-semibold">${costs.rent}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <UtensilsIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Food & Dining</span>
-                          </div>
-                          <span className="font-semibold">${costs.food}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <BusIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Transportation</span>
-                          </div>
-                          <span className="font-semibold">${costs.transport}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <WifiIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Utilities & Internet</span>
-                          </div>
-                          <span className="font-semibold">${costs.utilities}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <HeartIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Healthcare</span>
-                          </div>
-                          <span className="font-semibold">${costs.healthcare}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <FilmIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Entertainment</span>
-                          </div>
-                          <span className="font-semibold">${costs.entertainment}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <BriefcaseIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Coworking</span>
-                          </div>
-                          <span className="font-semibold">${costs.coworking}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <DumbbellIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Gym</span>
-                          </div>
-                          <span className="font-semibold">${costs.gym}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                          <div className="flex items-center gap-2">
-                            <ReceiptIcon className="h-4 w-4 text-muted-foreground" />
-                            <span>Miscellaneous</span>
-                          </div>
-                          <span className="font-semibold">${costs.misc}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-3 bg-primary/5 rounded-lg px-4">
-                          <span className="font-bold">Total Monthly</span>
-                          <span className="font-bold text-xl text-primary">${costs.total}</span>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </TabsContent>
-              ))}
-            </Tabs>
-
-            <div className="mt-6 text-center text-muted-foreground">
-              <p className="text-base">These are baseline estimates. Add 15-20% buffer for inflation adjustments and unexpected expenses.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What $1000/Month Actually Looks Like */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">What $1,000/Month Actually Looks Like</h2>
-            <p className="text-center text-muted-foreground mb-8">
-              The most common question from prospective expats. Here's the honest breakdown.
-            </p>
-
-            <Card className="mb-6">
-              <CardContent className="pt-6">
-                <div className="space-y-4">
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span>Room in shared apartment (Palermo/Villa Crespo)</span>
-                    <span className="font-semibold">$350</span>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                  <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
+                    <h3 className="font-semibold text-emerald-800 mb-1">
+                      Shoestring
+                    </h3>
+                    <p className="text-2xl font-bold text-emerald-700">$600</p>
+                    <p className="text-sm text-emerald-600">
+                      Shared apartment, cook at home, public transit only
+                    </p>
                   </div>
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span>Food (mix of cooking + some dining out)</span>
-                    <span className="font-semibold">$275</span>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <h3 className="font-semibold text-blue-800 mb-1">
+                      Comfortable
+                    </h3>
+                    <p className="text-2xl font-bold text-blue-700">$1,000</p>
+                    <p className="text-sm text-blue-600">
+                      1BR apartment, eat out weekly, occasional taxis
+                    </p>
                   </div>
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span>Transportation (SUBE + occasional Uber)</span>
-                    <span className="font-semibold">$45</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span>Utilities (split in shared apt)</span>
-                    <span className="font-semibold">$55</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span>Basic prepaga (under 35)</span>
-                    <span className="font-semibold">$85</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span>Coworking (hot desk, 2-3x/week)</span>
-                    <span className="font-semibold">$75</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span>Entertainment & going out</span>
-                    <span className="font-semibold">$95</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span>Miscellaneous & buffer</span>
-                    <span className="font-semibold">$20</span>
-                  </div>
-                  <div className="flex justify-between items-center py-3 bg-green-50 dark:bg-green-950/20 rounded-lg px-4">
-                    <span className="font-bold">Total</span>
-                    <span className="font-bold text-xl text-green-600">$1,000</span>
+                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                    <h3 className="font-semibold text-purple-800 mb-1">
+                      High Life
+                    </h3>
+                    <p className="text-2xl font-bold text-purple-700">$1,800</p>
+                    <p className="text-sm text-purple-600">
+                      Premium apartment, dining out often, private healthcare
+                    </p>
                   </div>
                 </div>
-              </CardContent>
-            </Card>
+              </section>
 
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="p-4 bg-green-50 dark:bg-green-950/20 rounded-lg">
-                <h3 className="font-semibold text-green-900 dark:text-green-200 mb-2">✓ What you CAN do:</h3>
-                <ul className="text-base text-green-700 dark:text-green-300 space-y-2">
-                  <li>Live in a decent shared apartment in a good neighborhood</li>
-                  <li>Eat out 2-3 times per week at mid-range places</li>
-                  <li>Go out on weekends (bars, not clubs every night)</li>
-                  <li>Take occasional weekend trips (Mendoza, Tigre)</li>
-                  <li>Have basic private health insurance</li>
-                  <li>Work from a coworking space part-time</li>
+              {/* Housing */}
+              <section id="housing" className="mb-12">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  Housing Costs
+                </h2>
+                <p className="text-muted-foreground mb-4">
+                  Rent takes the biggest bite from most budgets. In Buenos Aires,
+                  prices vary dramatically by neighborhood. Palermo and Recoleta
+                  command premium rents. San Telmo, Almagro, and Caballito offer
+                  better value.
+                </p>
+                <p className="text-muted-foreground mb-4">
+                  Most rentals require a garantía—a local property owner who
+                  guarantees your rent. This is nearly impossible for foreigners
+                  to obtain. Solutions include:
+                </p>
+                <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-4">
+                  <li>
+                    <strong>Airbnb monthly:</strong> More expensive but no garantía
+                    needed. Negotiate for 30%+ discounts on 3+ month stays.
+                  </li>
+                  <li>
+                    <strong>Guarantor services:</strong> Companies like{" "}
+                    <em> garantía BA</em> charge 3–5% of annual rent to act as your
+                    guarantor.
+                  </li>
+                  <li>
+                    <strong>Foreigner-friendly landlords:</strong> Some accept
+                    larger security deposits (3–6 months) instead of garantía.
+                  </li>
                 </ul>
-              </div>
-              <div className="p-4 bg-amber-50 dark:bg-amber-950/20 rounded-lg">
-                <h3 className="font-semibold text-amber-900 dark:text-amber-200 mb-2">✗ What you CAN'T do:</h3>
-                <ul className="text-base text-amber-700 dark:text-amber-300 space-y-2">
-                  <li>Live alone in Palermo or Recoleta</li>
-                  <li>Dine out every meal</li>
-                  <li>Party at upscale clubs every weekend</li>
-                  <li>Take frequent international trips</li>
-                  <li>Have a car (parking alone is $150+/month)</li>
-                  <li>Build significant savings</li>
-                </ul>
-              </div>
-            </div>
+              </section>
+
+              {/* Food */}
+              <section id="food" className="mb-12">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  Food & Dining
+                </h2>
+                <p className="text-muted-foreground mb-4">
+                  Argentina food scene is a highlight for many expats. Steak
+                  dinners at traditional parrillas run $15–$25 with wine. A
+                  cafeteria-style lunch (menú del día) costs $4–$6.
+                </p>
+                <p className="text-muted-foreground mb-4">
+                  Cooking at home keeps costs down. Large supermarkets like
+                  Carrefour and Coto are affordable. Neighborhood verdulerías
+                  (produce shops) offer fresher vegetables at lower prices than
+                  chains.
+                </p>
+              </section>
+
+              {/* Transport */}
+              <section id="transport" className="mb-12">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  Transportation
+                </h2>
+                <p className="text-muted-foreground mb-4">
+                  Buenos Aires has excellent and affordable public transit. The
+                  SUBE card works on buses, subways, and commuter trains. A single
+                  ride costs about $0.20–$0.30. Monthly passes make sense if you
+                  commute daily.
+                </p>
+                <p className="text-muted-foreground">
+                  Taxis and Uber are widely available. A 15-minute Uber ride
+                  typically costs $3–$5. Avoid taxis from the airport—book a
+                  remis (private car) in advance for fixed rates around $25–$35
+                  to the city center.
+                </p>
+              </section>
+
+              {/* Utilities */}
+              <section id="utilities" className="mb-12">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  Utilities & Services
+                </h2>
+                <p className="text-muted-foreground mb-4">
+                  Electricity and gas bills have risen substantially as
+                  government subsidies decreased. A typical 1BR apartment now
+                  pays $40–$80 monthly for utilities, depending on usage and
+                  season.
+                </p>
+                <p className="text-muted-foreground">
+                  Internet is affordable and generally reliable in cities. Fiber
+                  plans with 100+ Mbps run $15–$25 per month. Mobile data is
+                  inexpensive by international standards—$5–$10 gets you several
+                  gigabytes.
+                </p>
+              </section>
+
+              {/* Healthcare */}
+              <section id="healthcare" className="mb-12">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  Healthcare Costs
+                </h2>
+                <p className="text-muted-foreground mb-4">
+                  Argentina has a three-tier healthcare system. Public hospitals
+                  are free for everyone, including foreigners, though wait times
+                  can be long and facilities vary.
+                </p>
+                <p className="text-muted-foreground mb-4">
+                  Most expats opt for private prepaid medicine (prepaga) plans.
+                  Major providers like OSDE and Swiss Medical offer comprehensive
+                  coverage for $100–$300 per month depending on age and plan
+                  level. These plans include access to private hospitals, specialists
+                  without referrals, and often dental coverage.
+                </p>
+              </section>
+
+              {/* Visa Requirements */}
+              <section id="visa-requirements" className="mb-12">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  Visa Financial Requirements
+                </h2>
+                <p className="text-muted-foreground mb-4">
+                  Argentina visa applications typically require proof of
+                  sufficient funds. For the digital nomad visa, you will need to
+                  show monthly income of approximately $1,500–$2,000 from a
+                  foreign source.
+                </p>
+                <p className="text-muted-foreground">
+                  The rentista visa (passive income) requires proof of stable
+                  monthly income around $1,500 from investments, pensions, or
+                  rental properties. Specific amounts vary by consulate and are
+                  subject to change with inflation.
+                </p>
+              </section>
+
+              {/* Lucero Legal CTA */}
+              <LuceroLegalCTA 
+                title="Planning Your Move?"
+                description="Lucero Legal helps expats navigate Argentine immigration law. From digital nomad visas to permanent residency, they handle the paperwork so you can focus on your new life."
+              />
+            </article>
           </div>
         </div>
       </section>
-
-      {/* Detailed Expenses */}
-      <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-4 text-center">Detailed Expense Breakdown</h2>
-          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Real prices from February 2025. Peso prices fluctuate monthly; USD equivalents shown at blue rate.
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {expenseCategories.map((category) => (
-              <Card key={category.title} className="h-full">
-                <CardHeader>
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
-                    <category.icon className="h-5 w-5 text-primary" />
-                  </div>
-                  <CardTitle className="text-lg">{category.title}</CardTitle>
-                  <CardDescription className="text-base">{category.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {category.items.map((item, index) => (
-                      <li key={index} className="flex justify-between text-base">
-                        <span className="text-muted-foreground">{item.name}</span>
-                        <span className="font-medium">{item.price}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Sample Grocery Receipt */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-md mx-auto">
-            <h2 className="text-2xl font-bold mb-6 text-center">Sample Grocery Run</h2>
-            <p className="text-center text-muted-foreground mb-8 text-base">
-              What $47 gets you at a mid-range supermarket (Coto, Carrefour, Día)
-            </p>
-
-            <Card className="font-mono">
-              <CardHeader className="border-b border-dashed">
-                <div className="text-center">
-                  <div className="font-bold text-lg">SUPERMERCADO</div>
-                  <div className="text-base text-muted-foreground">Buenos Aires, Argentina</div>
-                  <div className="text-base text-muted-foreground">February 2025</div>
-                </div>
-              </CardHeader>
-              <CardContent className="pt-4">
-                <div className="space-y-2 text-base">
-                  {groceryReceipt.map((item, index) => (
-                    <div key={index} className="flex justify-between">
-                      <span>{item.item}</span>
-                      <span>{item.price}</span>
-                    </div>
-                  ))}
-                </div>
-                <div className="border-t border-dashed mt-4 pt-4">
-                  <div className="flex justify-between font-bold text-lg">
-                    <span>TOTAL</span>
-                    <span>{groceryTotal}</span>
-                  </div>
-                </div>
-                <div className="text-base text-muted-foreground mt-4 text-center">
-                  * Prices vary by neighborhood and inflation
-                </div>
-              </CardContent>
-            </Card>
-
-            <div className="mt-6 text-center text-base text-muted-foreground">
-              <p>This covers roughly 4-5 days of meals for one person cooking at home.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Neighborhood Comparison */}
-      <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4 text-center">Rent by Neighborhood</h2>
-            <p className="text-center text-muted-foreground mb-8">
-              USD rent ranges for a 1-bedroom apartment. Prices vary by building amenities and exact location.
-            </p>
-            
-            {/* Desktop: Table View */}
-            <Card className="hidden md:block overflow-hidden">
-              <CardContent className="pt-6 overflow-x-auto">
-                <table className="w-full min-w-[500px]">
-                  <thead>
-                    <tr className="border-b">
-                      <th className="text-left py-3 px-4 font-semibold">Neighborhood</th>
-                      <th className="text-left py-3 px-4 font-semibold">1BR Range</th>
-                      <th className="text-left py-3 px-4 font-semibold">Vibe</th>
-                      <th className="text-left py-3 px-4 font-semibold">Transport</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {neighborhoodComparison.map((hood) => (
-                      <tr key={hood.name} className="border-b last:border-0 hover:bg-muted/50 transition-colors">
-                        <td className="py-4 px-4 font-medium">
-                          <Link href={`/neighborhoods/${hood.name.toLowerCase().replace(/[()]/g, "").replace(/ /g, "-")}`} className="text-primary hover:underline">
-                            {hood.name}
-                          </Link>
-                        </td>
-                        <td className="py-4 px-4 font-mono text-base font-semibold text-green-700">{hood.rentRange}</td>
-                        <td className="py-4 px-4 text-base text-muted-foreground">{hood.vibe}</td>
-                        <td className="py-4 px-4">
-                          <span className={`inline-flex items-center px-3 py-1.5 rounded-full text-base font-medium ${
-                            hood.transport === 'Excellent' ? 'bg-green-100 text-green-900' :
-                            hood.transport === 'Very Good' ? 'bg-blue-100 text-blue-900' :
-                            'bg-amber-100 text-amber-900'
-                          }`}>
-                            {hood.transport}
-                          </span>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </CardContent>
-            </Card>
-
-            {/* Mobile: Card View */}
-            <div className="md:hidden space-y-4">
-              {neighborhoodComparison.map((hood) => (
-                <Card key={hood.name} className="overflow-hidden">
-                  <CardContent className="p-5">
-                    <div className="flex items-start justify-between mb-3">
-                      <Link 
-                        href={`/neighborhoods/${hood.name.toLowerCase().replace(/[()]/g, "").replace(/ /g, "-")}`} 
-                        className="text-lg font-semibold text-primary hover:underline"
-                      >
-                        {hood.name}
-                      </Link>
-                      <span className={`inline-flex items-center px-3 py-1.5 rounded-full text-base font-medium ${
-                        hood.transport === 'Excellent' ? 'bg-green-100 text-green-900' :
-                        hood.transport === 'Very Good' ? 'bg-blue-100 text-blue-900' :
-                        'bg-amber-100 text-amber-900'
-                      }`}>
-                        {hood.transport}
-                      </span>
-                    </div>
-                    <div className="flex items-baseline gap-2 mb-3">
-                      <span className="text-base text-muted-foreground">1BR:</span>
-                      <span className="text-xl font-bold text-green-700">{hood.rentRange}</span>
-                    </div>
-                    <p className="text-base text-muted-foreground leading-relaxed">{hood.vibe}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Hidden Costs Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4 text-center">Hidden Costs & Gotchas</h2>
-            <p className="text-center text-muted-foreground mb-8">
-              Expenses that catch expats off guard. Budget for these upfront.
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <HomeIcon className="h-4 w-4 text-amber-500" />
-                    Garantía (Rental Guarantee)
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    Most landlords require a garantía - a property owner who guarantees your rent. 
-                    As a foreigner, you likely don't have one. Solutions:
-                  </p>
-                  <ul className="text-base space-y-2">
-                    <li>• <strong>Seguro de caución:</strong> Insurance policy (~1-1.5 months rent)</li>
-                    <li>• <strong>More deposit:</strong> Offer 3-6 months upfront</li>
-                    <li>• <strong>Airbnb/sublet:</strong> Bypass requirement entirely</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <ReceiptIcon className="h-4 w-4 text-amber-500" />
-                    Realtor Fees
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    If you use a real estate agent (inmobiliaria), you'll pay:
-                  </p>
-                  <ul className="text-base space-y-2">
-                    <li>• <strong>Commission:</strong> 1-1.5 months rent</li>
-                    <li>• <strong>Contract fee:</strong> ~$50-100</li>
-                    <li>• <strong>Pro tip:</strong> Find apartments on Facebook groups or Airbnb to avoid this</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <CreditCardIcon className="h-4 w-4 text-amber-500" />
-                    Visa & Residency Costs
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    If you plan to stay long-term:
-                  </p>
-                  <ul className="text-base space-y-2">
-                    <li>• <strong>Digital Nomad Visa:</strong> ~$200-400 total</li>
-                    <li>• <strong>Rentista Visa:</strong> ~$1,500-3,000 (with lawyer)</li>
-                    <li>• <strong>DNI (ID card):</strong> ~$50-100</li>
-                    <li>• <strong>Lawyer fees:</strong> $500-1,500 depending on visa type</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <ZapIcon className="h-4 w-4 text-amber-500" />
-                    Building Expenses (Expensas)
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    Monthly building maintenance fees, often not included in rent:
-                  </p>
-                  <ul className="text-base space-y-2">
-                    <li>• <strong>Old building:</strong> $50-100/month</li>
-                    <li>• <strong>Modern building:</strong> $100-200/month</li>
-                    <li>• <strong>Luxury building:</strong> $200-400/month (includes gym, pool, security)</li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Money-Saving Hacks */}
-      <section className="py-16 bg-green-50 dark:bg-green-950/20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4 text-center">Money-Saving Hacks</h2>
-            <p className="text-center text-muted-foreground mb-8">
-              How to stretch your dollars further in Argentina.
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <WalletIcon className="h-4 w-4 text-green-500" />
-                    The Western Union Hack
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    Send money to yourself via Western Union. You'll often get a better rate than the blue dollar, 
-                    and it's safer than carrying large amounts of cash.
-                  </p>
-                  <div className="text-base bg-muted p-3 rounded">
-                    <strong>How:</strong> Send from your home bank account to yourself in Argentina. 
-                    Pick up pesos at any WU branch (bring passport).
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <DollarSignIcon className="h-4 w-4 text-green-500" />
-                    Crypto Arbitrage
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    Many expats use USDC/USDT to move money. Buy stablecoins abroad, sell for pesos 
-                    at the crypto blue rate (often better than cash blue).
-                  </p>
-                  <div className="text-base bg-muted p-3 rounded">
-                    <strong>Platforms:</strong> Lemon Cash, Buenbit, Ripio. Requires local bank account.
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <MapPinIcon className="h-4 w-4 text-green-500" />
-                    Shop at Ferias
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    Neighborhood ferias (street markets) offer produce at 30-50% less than supermarkets. 
-                    Plus, the quality is often better.
-                  </p>
-                  <div className="text-base bg-muted p-3 rounded">
-                    <strong>Best ones:</strong> Mercado de San Telmo, your local barrio feria (usually weekends)
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <PiggyBankIcon className="h-4 w-4 text-green-500" />
-                    Menu del Día
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground mb-3">
-                    Weekday lunch specials are incredible value. 2-3 courses with drink for $6-10 at decent places.
-                  </p>
-                  <div className="text-base bg-muted p-3 rounded">
-                    <strong>Tip:</strong> Look for "MDQ" or "Menú Ejecutivo" signs. Usually Mon-Fri, 12-4pm.
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-
-            <div className="mt-8 p-6 bg-red-50 dark:bg-red-950/20 rounded-lg border border-red-200">
-              <h3 className="font-semibold text-red-900 dark:text-red-100 mb-2 flex items-center gap-2">
-                <AlertCircleIcon className="h-4 w-4" />
-                What NOT to Do
-              </h3>
-              <ul className="text-red-800 dark:text-red-200 text-base space-y-2">
-                <li>• <strong>Never use foreign cards</strong> - you'll get the official rate and lose 40-50%</li>
-                <li>• <strong>Don't exchange at the airport</strong> - terrible rates, use Western Union instead</li>
-                <li>• <strong>Don't carry all your cash</strong> - use safety deposit boxes or split it up</li>
-                <li>• <strong>Don't ignore expensas</strong> - ask about building fees before signing a lease</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* City Comparison */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4 text-center">Buenos Aires vs Other Cities</h2>
-            <p className="text-center text-muted-foreground mb-8">
-              How Buenos Aires compares to other popular expat destinations (monthly costs, single person).
-            </p>
-
-            {/* Desktop: Table View */}
-            <Card className="hidden md:block">
-              <CardContent className="pt-6">
-                <table className="w-full">
-                  <thead>
-                    <tr className="border-b">
-                      <th className="text-left py-3 px-4 font-semibold">City</th>
-                      <th className="text-left py-3 px-4 font-semibold">Rent (1BR)</th>
-                      <th className="text-left py-3 px-4 font-semibold">Meal Out</th>
-                      <th className="text-left py-3 px-4 font-semibold">Transport</th>
-                      <th className="text-left py-3 px-4 font-semibold">Total Est.</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {cityComparison.map((city) => (
-                      <tr key={city.city} className={`border-b last:border-0 ${city.city === "Buenos Aires" ? "bg-primary/5" : "hover:bg-muted/50"} transition-colors`}>
-                        <td className="py-4 px-4 font-medium">{city.city}</td>
-                        <td className="py-4 px-4">{city.rent}</td>
-                        <td className="py-4 px-4">{city.meal}</td>
-                        <td className="py-4 px-4">{city.transport}</td>
-                        <td className="py-4 px-4 font-bold text-primary">{city.total}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </CardContent>
-            </Card>
-
-            {/* Mobile: Card View */}
-            <div className="md:hidden space-y-3">
-              {cityComparison.map((city) => (
-                <Card 
-                  key={city.city} 
-                  className={`overflow-hidden ${city.city === "Buenos Aires" ? "border-2 border-primary" : ""}`}
-                >
-                  <CardContent className="p-4">
-                    <div className="flex items-center justify-between mb-3">
-                      <span className={`text-lg font-bold ${city.city === "Buenos Aires" ? "text-primary" : ""}`}>
-                        {city.city}
-                      </span>
-                      <span className="text-xl font-bold text-primary">{city.total}</span>
-                    </div>
-                    <div className="grid grid-cols-3 gap-4 text-base">
-                      <div>
-                        <p className="text-muted-foreground text-base mb-1">Rent</p>
-                        <p className="font-semibold">{city.rent}</p>
-                      </div>
-                      <div>
-                        <p className="text-muted-foreground text-base mb-1">Meal</p>
-                        <p className="font-semibold">{city.meal}</p>
-                      </div>
-                      <div>
-                        <p className="text-muted-foreground text-base mb-1">Transport</p>
-                        <p className="font-semibold">{city.transport}</p>
-                      </div>
-                    </div>
-                    {city.city === "Buenos Aires" && (
-                      <div className="mt-3 pt-3 border-t">
-                        <span className="inline-flex items-center px-3 py-1.5 rounded bg-primary/10 text-primary text-base font-medium">
-                          You are here
-                        </span>
-                      </div>
-                    )}
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-
-            <div className="mt-6 text-center text-base text-muted-foreground">
-              <p>Buenos Aires offers European-quality lifestyle at Latin American prices - if you navigate the exchange rates correctly.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Psychological Aspect */}
-      <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">The Psychological Reality</h2>
-            
-            <div className="prose dark:prose-invert max-w-none">
-              <p className="text-muted-foreground mb-6">
-                Living with high inflation changes your psychology. Here's what to expect:
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-6 not-prose">
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">The Price Check Habit</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-base text-muted-foreground">
-                      You'll find yourself checking dolarhoy.com daily. Prices at your favorite restaurant 
-                      will change between visits. You'll celebrate when the exchange rate moves in your favor.
-                    </p>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">The Cash Economy</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-base text-muted-foreground">
-                      You'll carry more cash than you're used to. You'll learn to count stacks of pesos 
-                      quickly. Paying with a card will feel weird and wrong.
-                    </p>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">The Stockpile Instinct</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-base text-muted-foreground">
-                      When you see a good price on something non-perishable, you'll buy extra. 
-                      Locals do this constantly - it's rational behavior in an inflationary economy.
-                    </p>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">The USD Anchor</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-base text-muted-foreground">
-                      You'll start thinking in USD for big purchases, even though you're earning/spending pesos. 
-                      It's the only way to maintain sanity and compare value.
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Track Your Spending */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">How to Track Your Spending</h2>
-            
-            <div className="grid md:grid-cols-3 gap-4">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">Spreadsheet Method</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground">
-                    Simple Google Sheet with categories. Convert peso expenses to USD daily using that day's rate. 
-                    Best for detail-oriented people.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">App Method</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground">
-                    Apps like Spendee, Splitwise, or even a notes app. Record every purchase, categorize weekly. 
-                    Less precise but easier to maintain.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">Envelope Method</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-base text-muted-foreground">
-                    Withdraw your weekly budget in pesos. When it's gone, it's gone. Forces discipline 
-                    and eliminates tracking overhead.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-
-            <div className="mt-8 p-6 bg-blue-50 dark:bg-blue-950/20 rounded-lg">
-              <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">
-                Recommended Tracking Categories
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-base text-blue-900 dark:text-blue-200">
-                <div>• Rent</div>
-                <div>• Groceries</div>
-                <div>• Dining Out</div>
-                <div>• Transport</div>
-                <div>• Healthcare</div>
-                <div>• Coworking</div>
-                <div>• Entertainment</div>
-                <div>• Miscellaneous</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Important Notice */}
-      <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <Card className="border-amber-200 bg-amber-50 dark:bg-amber-950/20">
-              <CardContent className="pt-6">
-                <div className="flex items-start gap-4">
-                  <AlertCircleIcon className="h-10 w-10 text-amber-600 flex-shrink-0" />
-                  <div>
-                    <h2 className="font-semibold text-amber-900 dark:text-amber-100 mb-2">
-                      Final Reality Check
-                    </h2>
-                    <p className="text-amber-900 dark:text-amber-200 text-base">
-                      These numbers are accurate as of February 2025, but Argentina's economy is volatile. 
-                      Prices can change rapidly. Always verify current rates on <a href="https://dolarhoy.com" target="_blank" rel="noopener" className="underline">dolarhoy.com</a> or 
-                      similar sites. Connect with current expats in Facebook groups or Reddit (r/ArgentinaExpats) 
-                      for real-time updates. Budget 15-20% extra for your first month as you figure things out.
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-8">
-              Frequently Asked Questions
-            </h2>
-            <Accordion type="single" collapsible className="w-full">
-              {faqs.map((faq, i) => (
-                <AccordionItem key={i} value={`faq-${i}`}>
-                  <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
-          <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Ready to Make the Move?</h2>
-            <p className="text-primary-foreground/80 mb-8">
-              Explore neighborhoods, visa options, and get the full picture of life in Argentina.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" variant="secondary">
-                <Link href="/neighborhoods">
-                  Explore Neighborhoods
-                  <ArrowRightIcon className="h-4 w-4 ml-2" />
-                </Link>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 hover:bg-primary-foreground/10">
-                <Link href="/visas/digital-nomad">
-                  Visa Guide
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    </main>
   );
 }
