@@ -888,7 +888,7 @@ export default function ResourcesPage() {
                     <StarIcon size="md" className="text-yellow-500" />
                     Essential Apps (Download First)
                   </h3>
-                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                  <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {apps.essential.map((app) => (
                       <AppCard key={app.name} app={app} />
                     ))}
@@ -912,7 +912,7 @@ export default function ResourcesPage() {
                     <CreditCardIcon size="md" className="text-primary" />
                     Banking & Finance
                   </h3>
-                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                  <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {apps.banking.map((app) => (
                       <AppCard key={app.name} app={app} />
                     ))}
@@ -1001,7 +1001,7 @@ export default function ResourcesPage() {
                 </div>
               </div>
 
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {emergencyContacts.general.map((contact) => (
                   <EmergencyCard key={contact.name} contact={contact} />
                 ))}
