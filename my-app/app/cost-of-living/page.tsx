@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Cost of Living in Argentina 2025 | Complete Guide",
   description:
     "Detailed breakdown of living costs in Argentina for 2025. Budgets for Buenos Aires, Mendoza, Cordoba and more. Real prices updated monthly.",
+  alternates: {
+    canonical: "https://expatsargentina.com/cost-of-living/",
+  },
 };
 
 const tocItems = [
