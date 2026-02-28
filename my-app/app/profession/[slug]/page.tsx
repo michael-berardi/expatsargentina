@@ -35,8 +35,14 @@ export async function generateMetadata({ params }: ProfessionPageProps): Promise
     };
   }
 
+  // Shorten title if too long (max 60 chars before the suffix)
+  let title = prof.title;
+  if (title.length > 45) {
+    title = `${prof.name} in Argentina`;
+  }
+  
   return {
-    title: `${prof.title} | Expats Argentina`,
+    title: `${title} | Expats Argentina`,
     description: prof.description,
     keywords: [prof.name.toLowerCase(), "argentina visa", "work in argentina", prof.category],
     openGraph: {

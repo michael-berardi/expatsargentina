@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Clock, Calendar, ArrowRight, BookOpen } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog | Expats Argentina - Guides, Tips & Insights",
-  description: "Expert guides and articles for expats moving to Argentina. Visa guides, cost of living, neighborhoods, culture, and practical advice from local experts.",
+  title: "Blog | Expats Argentina Guides & Tips",
+  description: "Expert articles for expats moving to Argentina. Visa guides, cost of living, neighborhoods, culture, and practical advice from our team across the country.",
   keywords: ["expats argentina blog", "living in argentina tips", "argentina visa guide", "buenos aires expat", "move to argentina"],
   openGraph: {
     title: "Expats Argentina Blog - Expert Guides & Tips",

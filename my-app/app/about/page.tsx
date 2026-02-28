@@ -6,8 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { MapPinIcon, GlobeIcon, UsersIcon, ShieldIcon, MailIcon, ArrowRightIcon, CheckCircleIcon, HeartIcon, StarIcon } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "About Expats Argentina - Our Team Across the Country",
-  description: "Expats Argentina is run by a team of expats living across Argentina -- from Buenos Aires to Bariloche, Mendoza to Salta. Honest, comprehensive guides for every corner of the country.",
+  title: "About Us | Expats Argentina Team",
+  description: "Meet the expats behind Expats Argentina. Our team lives across the country from Buenos Aires to Bariloche, bringing you honest guides for every province.",
   keywords: ["about Expats Argentina", "expat team Argentina", "living in Argentina", "Argentina expat guide"],
   alternates: {
     canonical: "https://expatsargentina.com/about",

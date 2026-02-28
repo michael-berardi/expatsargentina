@@ -43,8 +43,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${hood.name}, Buenos Aires - Expat Guide 2026 | Expats Argentina`,
-    description: `Complete expat guide to ${hood.name}. Rent ${hood.rentRange}/month, safety: ${hood.safety}, transport: ${hood.transport}. Honest review with pros, cons, and tips for living in ${hood.name}.`,
+    title: `${hood.name}, Buenos Aires | Expat Guide 2026`,
+    description: `Living in ${hood.name}, Buenos Aires. Rent ${hood.rentRange}/month, safety: ${hood.safety}, transport: ${hood.transport}. Honest review with pros, cons, and tips for expats.`,
     keywords: [
       `${hood.name} Buenos Aires expats`,
       `living in ${hood.name}`,

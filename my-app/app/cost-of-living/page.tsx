@@ -5,9 +5,9 @@ import { ResponsiveTable } from "@/components/ResponsiveTable";
 import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 export const metadata: Metadata = {
-  title: "Cost of Living in Argentina 2025 | Complete Guide",
+  title: "Cost of Living in Argentina 2025 | Expats Guide",
   description:
-    "Detailed breakdown of living costs in Argentina for 2025. Budgets for Buenos Aires, Mendoza, Cordoba and more. Real prices updated monthly.",
+    "Real cost of living numbers for Argentina in 2025. Monthly budgets for Buenos Aires, Mendoza, Cordoba with actual rent, food, and transport prices.",
   alternates: {
     canonical: "https://expatsargentina.com/cost-of-living/",
   },

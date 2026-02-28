@@ -117,7 +117,7 @@ export const nationalities: Nationality[] = [
     flag: "🇺🇾",
     title: "Uruguayan Citizens in Argentina: The Complete Immigration Guide",
     subtitle: "Mercosur benefits, border living, and everything Uruguayans need to know about moving to Argentina",
-    description: "As fellow Mercosur members and neighbors, Uruguayans enjoy the easiest immigration pathway to Argentina. No visas, no reciprocity fees, and full work rights from day one. This guide covers everything from residency to cross-border living.",
+    description: "Uruguayans enjoy the easiest immigration to Argentina as Mercosur members. No visas needed, no fees, and full work rights from day one. Complete guide to residency and cross-border living.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1293,7 +1293,7 @@ export const nationalities: Nationality[] = [
     flag: "🇺🇸",
     title: "US Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Digital nomad visa, tourist entry, and pathways to residency for Americans",
-    description: "Argentina has become increasingly popular with Americans seeking lower costs of living, vibrant culture, and a welcoming environment. The digital nomad visa provides an excellent pathway for remote workers, while the 90-day tourist entry allows for extended exploration.",
+    description: "Complete guide for Americans moving to Argentina. Digital nomad visa, tourist entry, residency pathways, and practical advice for US citizens.",
     region: "north-america",
     visaRequirements: {
       tourist: {
