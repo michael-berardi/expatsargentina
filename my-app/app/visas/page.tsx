@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import VisasPageClient from "./VisasPageClient";
 
 export const metadata: Metadata = {
-  title: "Argentina Visa Guide 2026 - Find the Right Visa & Decision Tool",
-  description: "Complete Argentina visa guide with interactive tools. Compare all visa types, calculate costs, estimate timelines, and find the right visa for your situation in 2026.",
+  title: "Argentina Visa Guide 2026 | All Visa Types & Requirements",
+  description: "Complete guide to Argentina visas in 2026. Compare visa types, requirements, costs, and timelines. Find the right visa for your situation.",
   keywords: ["Argentina visa guide", "Argentina visa types", "Argentina immigration 2026", "digital nomad visa Argentina", "work visa Argentina", "retirement visa Argentina"],
   openGraph: {
     title: "Argentina Visa Guide 2026 - Find the Right Visa",
