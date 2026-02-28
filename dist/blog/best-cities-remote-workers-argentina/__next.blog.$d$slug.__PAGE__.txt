@@ -1,0 +1,231 @@
+1:"$Sreact.fragment"
+2:I[87352,["/_next/static/chunks/780ed9f12bd597e3.js","/_next/static/chunks/93fb432403aebbdd.js","/_next/static/chunks/6ed45c29e6db9297.js","/_next/static/chunks/ca6e69eece0158a1.js","/_next/static/chunks/c6ed05d45582b587.js","/_next/static/chunks/359436006d412aab.js"],""]
+34:I[31742,["/_next/static/chunks/780ed9f12bd597e3.js","/_next/static/chunks/93fb432403aebbdd.js","/_next/static/chunks/6ed45c29e6db9297.js","/_next/static/chunks/ca6e69eece0158a1.js","/_next/static/chunks/c6ed05d45582b587.js","/_next/static/chunks/359436006d412aab.js"],"Image"]
+39:I[37277,["/_next/static/chunks/780ed9f12bd597e3.js","/_next/static/chunks/93fb432403aebbdd.js","/_next/static/chunks/6ed45c29e6db9297.js","/_next/static/chunks/ca6e69eece0158a1.js","/_next/static/chunks/c6ed05d45582b587.js","/_next/static/chunks/359436006d412aab.js"],"Separator"]
+3a:I[19497,["/_next/static/chunks/f7a6a5c10098787e.js","/_next/static/chunks/0228e4c449c3a8b8.js"],"OutletBoundary"]
+3b:"$Sreact.suspense"
+0:{"buildId":"XJ7f5RvYDcX4yjbAXmNYG","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Best Cities in Argentina for Remote Workers\",\"description\":\"Beyond Buenos Aires: discover the best Argentine cities for digital nomads and remote workers, from mountain towns to wine country.\",\"image\":\"/images/blog/argentina-cities-remote-work.webp\",\"datePublished\":\"2025-12-05\",\"dateModified\":\"2025-12-05\",\"author\":{\"@type\":\"Person\",\"name\":\"Expats Argentina Team\",\"jobTitle\":\"Remote Work & Location Specialists\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Expats Argentina\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://expatsargentina.com/images/logo.png\"}},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://expatsargentina.com/blog/best-cities-remote-workers-argentina\"},\"keywords\":\"remote work, digital nomad, cities, coworking, provincial\",\"articleSection\":\"work\",\"wordCount\":1340,\"timeRequired\":\"PT12M\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://expatsargentina.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://expatsargentina.com/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Best Cities in Argentina for Remote Workers\",\"item\":\"https://expatsargentina.com/blog/best-cities-remote-workers-argentina\"}]}"}}],["$","article",null,{"className":"min-h-screen","children":[["$","header",null,{"className":"relative bg-gradient-to-b from-primary/5 to-background py-12 md:py-16","children":["$","div",null,{"className":"container px-4 md:px-6","children":[["$","nav",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-6","children":[["$","$L2",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","$L2",null,{"href":"/blog","className":"hover:text-foreground transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-foreground truncate max-w-[200px]","children":"Best Cities in Argentina for Remote Workers"}]]}],["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 lg:gap-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","data-variant":"default","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-primary text-primary-foreground [a&]:hover:bg-primary/90 capitalize","children":"work"}],"$undefined"]}],["$","h1",null,{"className":"text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6","children":"Best Cities in Argentina for Remote Workers"}],["$","p",null,{"className":"text-lg md:text-xl text-muted-foreground mb-6","children":"Beyond Buenos Aires: discover the best Argentine cities for digital nomads and remote workers, from mountain towns to wine country."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-muted-foreground","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-user h-4 w-4","aria-hidden":"true","children":["$L3","$L4","$undefined"]}],"$L5","$L6"]}],"$L7","$L8","$L9","$La"]}],"$undefined"]}],"$Lb"]}]]}]}],"$Lc","$Ld","$Le"]}]],["$Lf"],"$L10"]}],"loading":null,"isPartial":false}
+3:["$","path","975kel",{"d":"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"}]
+4:["$","circle","17ys0d",{"cx":"12","cy":"7","r":"4"}]
+5:["$","span",null,{"children":"Expats Argentina Team"}]
+6:["$","span",null,{"className":"text-xs","children":["(","Remote Work & Location Specialists",")"]}]
+7:["$","span",null,{"className":"hidden sm:inline","children":"•"}]
+8:["$","div",null,{"className":"flex items-center gap-1","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar h-4 w-4","aria-hidden":"true","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","time",null,{"dateTime":"2025-12-05","children":"December 4, 2025"}]]}]
+9:["$","span",null,{"className":"hidden sm:inline","children":"•"}]
+a:["$","div",null,{"className":"flex items-center gap-1","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock h-4 w-4","aria-hidden":"true","children":[["$","path","mmk7yg",{"d":"M12 6v6l4 2"}],["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],"$undefined"]}],["$","span",null,{"children":[12," min read"]}]]}]
+b:["$","aside",null,{"className":"hidden lg:block","children":["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm sticky top-24","children":["$","div",null,{"data-slot":"card-content","className":"p-6","children":[["$","h2",null,{"className":"font-semibold mb-4","children":"Table of Contents"}],["$","nav",null,{"className":"space-y-2","children":[["$","a","0",{"href":"#1-crdoba","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"1. Córdoba"}],["$","a","1",{"href":"#why-remote-workers-love-it","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Why Remote Workers Love It"}],["$","a","2",{"href":"#cost-of-living","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cost of Living"}],["$","a","3",{"href":"#coworking-spaces","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Coworking Spaces"}],["$","a","4",{"href":"#internet-infrastructure","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Internet & Infrastructure"}],["$","a","5",{"href":"#pros","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Pros"}],["$","a","6",{"href":"#cons","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cons"}],["$","a","7",{"href":"#best-neighborhoods","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Best Neighborhoods"}],["$","a","8",{"href":"#2-mendoza","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"2. Mendoza"}],["$","a","9",{"href":"#why-remote-workers-love-it","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Why Remote Workers Love It"}],["$","a","10",{"href":"#cost-of-living","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cost of Living"}],["$","a","11",{"href":"#coworking-spaces","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Coworking Spaces"}],["$","a","12",{"href":"#internet-infrastructure","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Internet & Infrastructure"}],["$","a","13",{"href":"#pros","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Pros"}],["$","a","14",{"href":"#cons","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cons"}],["$","a","15",{"href":"#best-neighborhoods","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Best Neighborhoods"}],["$","a","16",{"href":"#3-bariloche","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"3. Bariloche"}],["$","a","17",{"href":"#why-remote-workers-love-it","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Why Remote Workers Love It"}],["$","a","18",{"href":"#cost-of-living","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cost of Living"}],["$","a","19",{"href":"#coworking-spaces","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Coworking Spaces"}],["$","a","20",{"href":"#internet-infrastructure","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Internet & Infrastructure"}],["$","a","21",{"href":"#pros","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Pros"}],"$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33"]}]]}]}]}]
+c:["$","div",null,{"className":"container px-4 md:px-6 -mt-4","children":["$","div",null,{"className":"relative aspect-[2/1] md:aspect-[3/1] max-h-[500px] rounded-xl overflow-hidden","children":["$","$L34",null,{"src":"/images/blog/argentina-cities-remote-work.webp","alt":"Best Cities in Argentina for Remote Workers","fill":true,"className":"object-cover","priority":true}]}]}]
+35:T32dd,<p><h1>Best Cities in Argentina for Remote Workers</h1></p><p>While Buenos Aires dominates the expat conversation, Argentina has incredible cities for remote workers seeking different experiences. From wine country to mountain towns, here are the best alternatives.</p><p><h2 id="1-crdoba">1. Córdoba</h2></p><p><strong>Population</strong>: 1.4 million (metro: 1.6 million)</p>
+<p><strong>Best for</strong>: Young professionals, university vibe, affordability</p><p><h3 id="why-remote-workers-love-it">Why Remote Workers Love It</h3></p>
+<p>Córdoba is Argentina's second city and its youthful energy comes from having the country's oldest university. The city combines colonial architecture with modern amenities at a fraction of BA's cost.</p><p><h3 id="cost-of-living">Cost of Living</h3></p>
+<p>- <strong>Rent (1BR nice area)</strong>: $500-800</p>
+<p>- <strong>Coworking</strong>: $80-150/month</p>
+<p>- <strong>Monthly budget</strong>: $900-1,500</p><p><h3 id="coworking-spaces">Coworking Spaces</h3></p>
+<p>- <strong>Sinergia</strong>: Multiple locations, great community</p>
+<p>- <strong>AreaTres</strong>: Premium option with events</p>
+<p>- <strong>La Maquinita</strong>: Creative vibe, affordable</p><p><h3 id="internet-infrastructure">Internet & Infrastructure</h3></p>
+<p>- Fiber available: 100-300 Mbps</p>
+<p>- 4G/5G excellent</p>
+<p>- Power reliable</p>
+<p>- Good flight connections</p><p><h3 id="pros">Pros</h3></p>
+<p>- 20% cheaper than Buenos Aires</p>
+<p>- Young, educated population</p>
+<p>- Excellent nightlife</p>
+<p>- Gateway to Sierras de Córdoba mountains</p>
+<p>- Less pollution than BA</p><p><h3 id="cons">Cons</h3></p>
+<p>- Fewer English speakers</p>
+<p>- Hot summers (35°C+)</p>
+<p>- Limited international flights</p><p><h3 id="best-neighborhoods">Best Neighborhoods</h3></p>
+<p>- <strong>Nueva Córdoba</strong>: Young, walkable, near university</p>
+<p>- <strong>Guemes</strong>: Trendy, restaurants, nightlife</p>
+<p>- <strong>General Paz</strong>: Quiet, residential, good value</p><p><h2 id="2-mendoza">2. Mendoza</h2></p><p><strong>Population</strong>: 115,000 (metro: 1 million)</p>
+<p><strong>Best for</strong>: Wine lovers, outdoor enthusiasts, mountain views</p><p><h3 id="why-remote-workers-love-it">Why Remote Workers Love It</h3></p>
+<p>Imagine coding with the Andes as your backdrop. Mendoza offers a unique blend of urban amenities and outdoor adventure, all centered around Argentina's famous wine culture.</p><p><h3 id="cost-of-living">Cost of Living</h3></p>
+<p>- <strong>Rent (1BR nice area)</strong>: $600-1,000</p>
+<p>- <strong>Coworking</strong>: $100-180/month</p>
+<p>- <strong>Monthly budget</strong>: $1,000-1,700</p><p><h3 id="coworking-spaces">Coworking Spaces</h3></p>
+<p>- <strong>Metro Cowork</strong>: Central, professional</p>
+<p>- <strong>Sinergia Mendoza</strong>: Great community events</p>
+<p>- <strong>Workshop</strong>: Creative/design focused</p><p><h3 id="internet-infrastructure">Internet & Infrastructure</h3></p>
+<p>- Good fiber coverage</p>
+<p>- Occasional summer power issues</p>
+<p>- Excellent 4G</p><p><h3 id="pros">Pros</h3></p>
+<p>- Stunning mountain scenery</p>
+<p>- Wine culture everywhere</p>
+<p>- Outdoor activities year-round</p>
+<p>- Clean air</p>
+<p>- Growing expat community</p><p><h3 id="cons">Cons</h3></p>
+<p>- Hot, dry summers</p>
+<p>- Earthquake risk (minor, buildings are prepared)</p>
+<p>- Smaller city feel</p>
+<p>- Limited direct international flights</p><p><h3 id="best-neighborhoods">Best Neighborhoods</h3></p>
+<p>- <strong>Ciudad</strong>: Central, walkable</p>
+<p>- <strong>Chacras de Coria</strong>: Suburban, wine country adjacent</p>
+<p>- <strong>Godoy Cruz</strong>: Affordable, good amenities</p><p><h2 id="3-bariloche">3. Bariloche</h2></p><p><strong>Population</strong>: 115,000</p>
+<p><strong>Best for</strong>: Nature lovers, outdoor adventurers, winter sports</p><p><h3 id="why-remote-workers-love-it">Why Remote Workers Love It</h3></p>
+<p>Bariloche is the Patagonian dream—alpine lakes, snow-capped mountains, and chocolate shops. It's like living in a postcard, with surprisingly good infrastructure.</p><p><h3 id="cost-of-living">Cost of Living</h3></p>
+<p>- <strong>Rent (1BR nice area)</strong>: $700-1,200</p>
+<p>- <strong>Coworking</strong>: $120-200/month</p>
+<p>- <strong>Monthly budget</strong>: $1,100-1,900</p><p><h3 id="coworking-spaces">Coworking Spaces</h3></p>
+<p>- <strong>Nube Cowork</strong>: Mountain views</p>
+<p>- <strong>Sinergia Bariloche</strong>: Community-focused</p>
+<p>- <strong>Hotel workspaces</strong>: Many hotels offer day passes</p><p><h3 id="internet-infrastructure">Internet & Infrastructure</h3></p>
+<p>- Good fiber in town center</p>
+<p>- Can be spotty in outskirts</p>
+<p>- Winter power outages possible</p>
+<p>- Best internet in Patagonia</p><p><h3 id="pros">Pros</h3></p>
+<p>- Unbeatable natural beauty</p>
+<p>- Skiing, hiking, kayaking at your door</p>
+<p>- Swiss-style architecture</p>
+<p>- Chocolate and craft beer scene</p>
+<p>- Tight-knit expat community</p><p><h3 id="cons">Cons</h3></p>
+<p>- Tourist prices in summer/winter</p>
+<p>- Isolated (long drives to other cities)</p>
+<p>- Cold, dark winters</p>
+<p>- Limited flights (seasonal)</p><p><h3 id="best-neighborhoods">Best Neighborhoods</h3></p>
+<p>- <strong>Centro</strong>: Walkable, touristy</p>
+<p>- <strong>Belgrano</strong>: Residential, lake views</p>
+<p>- <strong>Melipal</strong>: Quiet, family-friendly</p><p><h2 id="4-rosario">4. Rosario</h2></p><p><strong>Population</strong>: 1.3 million</p>
+<p><strong>Best for</strong>: River life, lower costs, authentic Argentina</p><p><h3 id="why-remote-workers-love-it">Why Remote Workers Love It</h3></p>
+<p>Rosario is Argentina's forgotten gem. Birthplace of Che Guevara and Messi, it offers a more authentic Argentine experience without the BA price tag.</p><p><h3 id="cost-of-living">Cost of Living</h3></p>
+<p>- <strong>Rent (1BR nice area)</strong>: $400-700</p>
+<p>- <strong>Coworking</strong>: $60-120/month</p>
+<p>- <strong>Monthly budget</strong>: $800-1,400</p><p><h3 id="coworking-spaces">Coworking Spaces</h3></p>
+<p>- <strong>Rosario Cowork</strong>: Central location</p>
+<p>- <strong>Sinergia Rosario</strong>: Growing community</p>
+<p>- <strong>Café workspaces</strong>: Many riverfront cafés</p><p><h3 id="internet-infrastructure">Internet & Infrastructure</h3></p>
+<p>- Good fiber coverage</p>
+<p>- Reliable infrastructure</p>
+<p>- Short ferry to Buenos Aires</p><p><h3 id="pros">Pros</h3></p>
+<p>- Most affordable major city</p>
+<p>- Beautiful riverfront (Paraná)</p>
+<p>- Vibrant cultural scene</p>
+<p>- Great food (home of Argentine fish cuisine)</p>
+<p>- Less than 3 hours from BA</p><p><h3 id="cons">Cons</h3></p>
+<p>- Hot, humid summers</p>
+<p>- Fewer English speakers</p>
+<p>- Less international</p>
+<p>- Limited direct flights</p><p><h3 id="best-neighborhoods">Best Neighborhoods</h3></p>
+<p>- <strong>Centro</strong>: Historic, walkable</p>
+<p>- <strong>Pichincha</strong>: Trendy, nightlife</p>
+<p>- <strong>Martin</strong>: Quiet, residential</p><p><h2 id="5-salta">5. Salta</h2></p><p><strong>Population</strong>: 535,000</p>
+<p><strong>Best for</strong>: Culture seekers, altitude lovers, unique landscapes</p><p><h3 id="why-remote-workers-love-it">Why Remote Workers Love It</h3></p>
+<p>Salta offers something completely different—colonial architecture, indigenous culture, and landscapes ranging from desert to jungle. It's Argentina's most distinctive city.</p><p><h3 id="cost-of-living">Cost of Living</h3></p>
+<p>- <strong>Rent (1BR nice area)</strong>: $350-600</p>
+<p>- <strong>Coworking</strong>: $50-100/month</p>
+<p>- <strong>Monthly budget</strong>: $700-1,200</p><p><h3 id="coworking-spaces">Coworking Spaces</h3></p>
+<p>- <strong>Sinergia Salta</strong>: Central</p>
+<p>- <strong>Hotel del Virrey</strong>: Historic hotel with workspace</p>
+<p>- <strong>Cafés</strong>: Many colonial cafés welcome workers</p><p><h3 id="internet-infrastructure">Internet & Infrastructure</h3></p>
+<p>- Decent fiber</p>
+<p>- Can be unreliable in rain</p>
+<p>- Good 4G</p><p><h3 id="pros">Pros</h3></p>
+<p>- Unique culture and architecture</p>
+<p>- Gateway to incredible landscapes</p>
+<p>- Very affordable</p>
+<p>- Pleasant climate (warm days, cool nights)</p>
+<p>- Authentic Argentine experience</p><p><h3 id="cons">Cons</h3></p>
+<p>- Altitude (1,200m) affects some people</p>
+<p>- Limited English</p>
+<p>- Smaller expat community</p>
+<p>- Fewer amenities</p>
+<p>- Limited flights</p><p><h3 id="best-neighborhoods">Best Neighborhoods</h3></p>
+<p>- <strong>Centro</strong>: Historic, colonial</p>
+<p>- <strong>Guemes</strong>: Trendy, restaurants</p>
+<p>- <strong>Vicente Lopez</strong>: Residential, quiet</p><p><h2 id="6-mar-del-plata">6. Mar del Plata</h2></p><p><strong>Population</strong>: 650,000</p>
+<p><strong>Best for</strong>: Beach lovers, summer vibes, Buenos Aires escape</p><p><h3 id="why-remote-workers-love-it">Why Remote Workers Love It</h3></p>
+<p>Mar del Plata is Argentina's premier beach city. In summer (December-March), it's packed; the rest of the year, it's a peaceful coastal city with good infrastructure.</p><p><h3 id="cost-of-living">Cost of Living</h3></p>
+<p>- <strong>Rent (1BR nice area)</strong>: $400-800</p>
+<p>- <strong>Coworking</strong>: $60-120/month</p>
+<p>- <strong>Monthly budget</strong>: $800-1,400</p><p><h3 id="coworking-spaces">Coworking Spaces</h3></p>
+<p>- <strong>Sinergia MDP</strong>: Central</p>
+<p>- <strong>Beachside cafés</strong>: Many remote-friendly</p><p><h3 id="internet-infrastructure">Internet & Infrastructure</h3></p>
+<p>- Good fiber in city</p>
+<p>- Summer overload can slow things</p>
+<p>- Reliable year-round</p><p><h3 id="pros">Pros</h3></p>
+<p>- Beach lifestyle</p>
+<p>- Just 4 hours from BA by bus</p>
+<p>- Good seafood</p>
+<p>- Active year-round</p>
+<p>- Cool in summer, mild in winter</p><p><h3 id="cons">Cons</h3></p>
+<p>- Dead in winter (May-September)</p>
+<p>- Overcrowded January-February</p>
+<p>- Tourist prices in summer</p>
+<p>- Windy</p><p><h3 id="best-neighborhoods">Best Neighborhoods</h3></p>
+<p>- <strong>Centro</strong>: Beach access</p>
+<p>- <strong>La Perla</strong>: Quiet, residential</p>
+<p>- <strong>Torreon</strong>: Upscale, modern</p><p><h2 id="city-comparison-summary">City Comparison Summary</h2></p><p><tr><td>City</td><td>Cost</td><td>Internet</td><td>English</td><td>Outdoors</td><td>Expat Community</td></tr></p>
+<p></p>
+<p><tr><td>Córdoba</td><td>$</td><td>★★★★</td><td>★★★</td><td>★★★</td><td>★★★</td></tr></p>
+<p><tr><td>Mendoza</td><td>$$</td><td>★★★★</td><td>★★★</td><td>★★★★★</td><td>★★★</td></tr></p>
+<p><tr><td>Bariloche</td><td>$$</td><td>★★★</td><td>★★★</td><td>★★★★★</td><td>★★</td></tr></p>
+<p><tr><td>Rosario</td><td>$</td><td>★★★★</td><td>★★</td><td>★★★</td><td>★★</td></tr></p>
+<p><tr><td>Salta</td><td>$</td><td>★★★</td><td>★★</td><td>★★★★</td><td>★</td></tr></p>
+<p><tr><td>Mar del Plata</td><td>$</td><td>★★★</td><td>★★</td><td>★★★</td><td>★★</td></tr></p><p><h2 id="making-your-choice">Making Your Choice</h2></p><p><h3 id="choose-crdoba-if">Choose Córdoba if...</h3></p>
+<p>- You want city amenities at lower cost</p>
+<p>- Nightlife and culture matter</p>
+<p>- You prefer moderate climate</p>
+<p>- You want university town energy</p><p><h3 id="choose-mendoza-if">Choose Mendoza if...</h3></p>
+<p>- Mountains inspire you</p>
+<p>- Wine culture appeals</p>
+<p>- Outdoor activities are priorities</p>
+<p>- You can handle hot summers</p><p><h3 id="choose-bariloche-if">Choose Bariloche if...</h3></p>
+<p>- Nature is your office</p>
+<p>- You love winter sports</p>
+<p>- Small community appeals</p>
+<p>- You don't mind isolation</p><p><h3 id="choose-rosario-if">Choose Rosario if...</h3></p>
+<p>- You want authentic Argentina</p>
+<p>- Budget is tight</p>
+<p>- You like river life</p>
+<p>- You need easy BA access</p><p><h3 id="choose-salta-if">Choose Salta if...</h3></p>
+<p>- You want unique culture</p>
+<p>- You love dramatic landscapes</p>
+<p>- You're adventurous</p>
+<p>- You prefer off-the-beaten-path</p><p><h3 id="choose-mar-del-plata-if">Choose Mar del Plata if...</h3></p>
+<p>- Beach living is essential</p>
+<p>- You can handle seasonal variation</p>
+<p>- You want weekend escape options</p>
+<p>- You don't mind wind</p><p><h2 id="conclusion">Conclusion</h2></p><p>While Buenos Aires offers the easiest landing for expats, Argentina's provincial cities provide incredible quality of life at lower costs. Each offers a different Argentine experience—from Córdoba's youthful energy to Bariloche's alpine tranquility.</p><p>Consider spending a few weeks in your chosen city before committing. Many remote workers find they prefer provincial life once they experience it. The lower costs, stronger communities, and unique character often win over the capital's chaos.</p><p>Wherever you choose, Argentina welcomes remote workers with open arms.</p>
+d:["$","div",null,{"className":"container px-4 md:px-6 py-12","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 lg:gap-12","children":[["$","div",null,{"className":"max-w-none","children":[["$","div",null,{"className":"prose prose-lg max-w-none dark:prose-invert prose-headings:scroll-mt-24 prose-a:text-primary hover:prose-a:underline prose-img:rounded-xl","dangerouslySetInnerHTML":{"__html":"$35"}}],"$L36","$L37"]}],"$L38"]}]}]
+e:["$","div",null,{"className":"container px-4 md:px-6 pb-12","children":[["$","$L39",null,{"className":"mb-8"}],["$","div",null,{"className":"flex flex-col sm:flex-row justify-between gap-4","children":[["$","$L2",null,{"href":"/blog","children":["$","button",null,{"data-slot":"button","data-variant":"outline","data-size":"default","className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 gap-2 w-full sm:w-auto","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left h-4 w-4","aria-hidden":"true","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Back to Blog"]}]}],["$","div",null,{"className":"flex gap-2","children":["$","$L2",null,{"href":"/visas","children":["$","button",null,{"data-slot":"button","data-variant":"default","data-size":"default","className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-9 px-4 py-2 has-[>svg]:px-3 gap-2","children":["Explore Visas",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right h-4 w-4","aria-hidden":"true","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]}]]}]]}]
+f:["$","script","script-0",{"src":"/_next/static/chunks/359436006d412aab.js","async":true}]
+10:["$","$L3a",null,{"children":["$","$3b",null,{"name":"Next.MetadataOutlet","children":"$@3c"}]}]
+11:["$","a","22",{"href":"#cons","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cons"}]
+12:["$","a","23",{"href":"#best-neighborhoods","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Best Neighborhoods"}]
+13:["$","a","24",{"href":"#4-rosario","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"4. Rosario"}]
+14:["$","a","25",{"href":"#why-remote-workers-love-it","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Why Remote Workers Love It"}]
+15:["$","a","26",{"href":"#cost-of-living","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cost of Living"}]
+16:["$","a","27",{"href":"#coworking-spaces","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Coworking Spaces"}]
+17:["$","a","28",{"href":"#internet-infrastructure","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Internet & Infrastructure"}]
+18:["$","a","29",{"href":"#pros","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Pros"}]
+19:["$","a","30",{"href":"#cons","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cons"}]
+1a:["$","a","31",{"href":"#best-neighborhoods","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Best Neighborhoods"}]
+1b:["$","a","32",{"href":"#5-salta","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"5. Salta"}]
+1c:["$","a","33",{"href":"#why-remote-workers-love-it","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Why Remote Workers Love It"}]
+1d:["$","a","34",{"href":"#cost-of-living","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cost of Living"}]
+1e:["$","a","35",{"href":"#coworking-spaces","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Coworking Spaces"}]
+1f:["$","a","36",{"href":"#internet-infrastructure","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Internet & Infrastructure"}]
+20:["$","a","37",{"href":"#pros","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Pros"}]
+21:["$","a","38",{"href":"#cons","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cons"}]
+22:["$","a","39",{"href":"#best-neighborhoods","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Best Neighborhoods"}]
+23:["$","a","40",{"href":"#6-mar-del-plata","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"6. Mar del Plata"}]
+24:["$","a","41",{"href":"#why-remote-workers-love-it","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Why Remote Workers Love It"}]
+25:["$","a","42",{"href":"#cost-of-living","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cost of Living"}]
+26:["$","a","43",{"href":"#coworking-spaces","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Coworking Spaces"}]
+27:["$","a","44",{"href":"#internet-infrastructure","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Internet & Infrastructure"}]
+28:["$","a","45",{"href":"#pros","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Pros"}]
+29:["$","a","46",{"href":"#cons","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cons"}]
+2a:["$","a","47",{"href":"#best-neighborhoods","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Best Neighborhoods"}]
+2b:["$","a","48",{"href":"#city-comparison-summary","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"City Comparison Summary"}]
+2c:["$","a","49",{"href":"#making-your-choice","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Making Your Choice"}]
+2d:["$","a","50",{"href":"#choose-crdoba-if","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Choose Córdoba if..."}]
+2e:["$","a","51",{"href":"#choose-mendoza-if","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Choose Mendoza if..."}]
+2f:["$","a","52",{"href":"#choose-bariloche-if","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Choose Bariloche if..."}]
+30:["$","a","53",{"href":"#choose-rosario-if","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Choose Rosario if..."}]
+31:["$","a","54",{"href":"#choose-salta-if","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Choose Salta if..."}]
+32:["$","a","55",{"href":"#choose-mar-del-plata-if","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Choose Mar del Plata if..."}]
+33:["$","a","56",{"href":"#conclusion","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Conclusion"}]
+36:["$","div",null,{"className":"mt-12 pt-8 border-t","children":[["$","h3",null,{"className":"text-sm font-semibold text-muted-foreground mb-3","children":"Tags"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","remote work",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"remote work"}],["$","span","digital nomad",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"digital nomad"}],["$","span","cities",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"cities"}],["$","span","coworking",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"coworking"}],["$","span","provincial",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"provincial"}]]}]]}]
+37:["$","div",null,{"className":"mt-8 flex items-center gap-4","children":[["$","span",null,{"className":"text-sm text-muted-foreground","children":"Share this article:"}],["$","button",null,{"data-slot":"button","data-variant":"outline","data-size":"sm","className":"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md px-3 has-[>svg]:px-2.5 gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-share2 lucide-share-2 h-4 w-4","aria-hidden":"true","children":[["$","circle","gq8acd",{"cx":"18","cy":"5","r":"3"}],["$","circle","w7nqdw",{"cx":"6","cy":"12","r":"3"}],["$","circle","1xt0gg",{"cx":"18","cy":"19","r":"3"}],["$","line","47mynk",{"x1":"8.59","x2":"15.42","y1":"13.51","y2":"17.49"}],["$","line","1n3mei",{"x1":"15.41","x2":"8.59","y1":"6.51","y2":"10.49"}],"$undefined"]}],"Share"]}]]}]
+38:["$","aside",null,{"className":"space-y-6","children":[["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm","children":["$","div",null,{"data-slot":"card-content","className":"p-6","children":[["$","div",null,{"className":"flex items-center gap-3 mb-4","children":[["$","div",null,{"className":"w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-user h-6 w-6 text-primary","aria-hidden":"true","children":[["$","path","975kel",{"d":"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"}],["$","circle","17ys0d",{"cx":"12","cy":"7","r":"4"}],"$undefined"]}]}],["$","div",null,{"children":[["$","h3",null,{"className":"font-semibold","children":"Expats Argentina Team"}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Remote Work & Location Specialists"}]]}]]}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Our team of experts provides accurate, up-to-date information to help you navigate life in Argentina."}]]}]}],["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm","children":["$","div",null,{"data-slot":"card-content","className":"p-6","children":[["$","h3",null,{"className":"font-semibold mb-4","children":"Related Articles"}],["$","div",null,{"className":"space-y-4","children":[["$","$L2","complete-guide-digital-nomad-visa-argentina-2026",{"href":"/blog/complete-guide-digital-nomad-visa-argentina-2026","className":"block group","children":[["$","h4",null,{"className":"text-sm font-medium group-hover:text-primary transition-colors line-clamp-2","children":"The Complete Guide to Argentina's Digital Nomad Visa in 2026"}],["$","p",null,{"className":"text-xs text-muted-foreground mt-1","children":[15," min read"]}]]}],["$","$L2","cost-living-buenos-aires-2025",{"href":"/blog/cost-living-buenos-aires-2025","className":"block group","children":[["$","h4",null,{"className":"text-sm font-medium group-hover:text-primary transition-colors line-clamp-2","children":"Cost of Living in Buenos Aires: Complete 2026 Budget Guide"}],["$","p",null,{"className":"text-xs text-muted-foreground mt-1","children":[18," min read"]}]]}]]}]]}]}]]}]
+3c:null

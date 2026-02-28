@@ -1,0 +1,182 @@
+1:"$Sreact.fragment"
+2:I[87352,["/_next/static/chunks/780ed9f12bd597e3.js","/_next/static/chunks/93fb432403aebbdd.js","/_next/static/chunks/6ed45c29e6db9297.js","/_next/static/chunks/ca6e69eece0158a1.js","/_next/static/chunks/c6ed05d45582b587.js","/_next/static/chunks/359436006d412aab.js"],""]
+23:I[31742,["/_next/static/chunks/780ed9f12bd597e3.js","/_next/static/chunks/93fb432403aebbdd.js","/_next/static/chunks/6ed45c29e6db9297.js","/_next/static/chunks/ca6e69eece0158a1.js","/_next/static/chunks/c6ed05d45582b587.js","/_next/static/chunks/359436006d412aab.js"],"Image"]
+28:I[37277,["/_next/static/chunks/780ed9f12bd597e3.js","/_next/static/chunks/93fb432403aebbdd.js","/_next/static/chunks/6ed45c29e6db9297.js","/_next/static/chunks/ca6e69eece0158a1.js","/_next/static/chunks/c6ed05d45582b587.js","/_next/static/chunks/359436006d412aab.js"],"Separator"]
+29:I[19497,["/_next/static/chunks/f7a6a5c10098787e.js","/_next/static/chunks/0228e4c449c3a8b8.js"],"OutletBoundary"]
+2a:"$Sreact.suspense"
+0:{"buildId":"XJ7f5RvYDcX4yjbAXmNYG","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"How to Open a Bank Account in Argentina as an Expat\",\"description\":\"Step-by-step guide to opening a bank account in Argentina. Documents needed, best banks for expats, and tips for navigating the system.\",\"image\":\"/images/blog/argentina-banking.webp\",\"datePublished\":\"2025-12-20\",\"dateModified\":\"2025-12-20\",\"author\":{\"@type\":\"Person\",\"name\":\"Expats Argentina Team\",\"jobTitle\":\"Financial Services Experts\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Expats Argentina\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://expatsargentina.com/images/logo.png\"}},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://expatsargentina.com/blog/opening-bank-account-argentina-expat\"},\"keywords\":\"banking, bank account, finance, mercadopago, practical\",\"articleSection\":\"practical\",\"wordCount\":1136,\"timeRequired\":\"PT14M\"}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://expatsargentina.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://expatsargentina.com/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"How to Open a Bank Account in Argentina as an Expat\",\"item\":\"https://expatsargentina.com/blog/opening-bank-account-argentina-expat\"}]}"}}],["$","article",null,{"className":"min-h-screen","children":[["$","header",null,{"className":"relative bg-gradient-to-b from-primary/5 to-background py-12 md:py-16","children":["$","div",null,{"className":"container px-4 md:px-6","children":[["$","nav",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-6","children":[["$","$L2",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Home"}],["$","span",null,{"children":"/"}],["$","$L2",null,{"href":"/blog","className":"hover:text-foreground transition-colors","children":"Blog"}],["$","span",null,{"children":"/"}],["$","span",null,{"className":"text-foreground truncate max-w-[200px]","children":"How to Open a Bank Account in Argentina as an Expat"}]]}],["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 lg:gap-12","children":[["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","data-variant":"default","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-primary text-primary-foreground [a&]:hover:bg-primary/90 capitalize","children":"practical"}],"$undefined"]}],["$","h1",null,{"className":"text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6","children":"How to Open a Bank Account in Argentina as an Expat"}],["$","p",null,{"className":"text-lg md:text-xl text-muted-foreground mb-6","children":"Step-by-step guide to opening a bank account in Argentina. Documents needed, best banks for expats, and tips for navigating the system."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-muted-foreground","children":[["$","div",null,{"className":"flex items-center gap-2","children":["$L3","$L4","$L5"]}],"$L6","$L7","$L8","$L9"]}],"$undefined"]}],"$La"]}]]}]}],"$Lb","$Lc","$Ld"]}]],["$Le"],"$Lf"]}],"loading":null,"isPartial":false}
+3:["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-user h-4 w-4","aria-hidden":"true","children":[["$","path","975kel",{"d":"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"}],["$","circle","17ys0d",{"cx":"12","cy":"7","r":"4"}],"$undefined"]}]
+4:["$","span",null,{"children":"Expats Argentina Team"}]
+5:["$","span",null,{"className":"text-xs","children":["(","Financial Services Experts",")"]}]
+6:["$","span",null,{"className":"hidden sm:inline","children":"•"}]
+7:["$","div",null,{"className":"flex items-center gap-1","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar h-4 w-4","aria-hidden":"true","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","time",null,{"dateTime":"2025-12-20","children":"December 19, 2025"}]]}]
+8:["$","span",null,{"className":"hidden sm:inline","children":"•"}]
+9:["$","div",null,{"className":"flex items-center gap-1","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock h-4 w-4","aria-hidden":"true","children":[["$","path","mmk7yg",{"d":"M12 6v6l4 2"}],["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],"$undefined"]}],["$","span",null,{"children":[14," min read"]}]]}]
+a:["$","aside",null,{"className":"hidden lg:block","children":["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm sticky top-24","children":["$","div",null,{"data-slot":"card-content","className":"p-6","children":[["$","h2",null,{"className":"font-semibold mb-4","children":"Table of Contents"}],["$","nav",null,{"className":"space-y-2","children":[["$","a","0",{"href":"#why-you-need-an-argentine-bank-account","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Why You Need an Argentine Bank Account"}],["$","a","1",{"href":"#requirements-for-opening-an-account","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Requirements for Opening an Account"}],["$","a","2",{"href":"#basic-requirements","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Basic Requirements"}],["$","a","3",{"href":"#getting-your-cdicuit","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Getting Your CDI/CUIT"}],["$","a","4",{"href":"#best-banks-for-expats","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Best Banks for Expats"}],["$","a","5",{"href":"#1-santander-ro","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"1. Santander Río"}],["$","a","6",{"href":"#2-galicia","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"2. Galicia"}],["$","a","7",{"href":"#3-bbva","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"3. BBVA"}],["$","a","8",{"href":"#4-banco-nacin","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"4. Banco Nación"}],["$","a","9",{"href":"#5-mercadopago-digital","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"5. MercadoPago (Digital)"}],["$","a","10",{"href":"#step-by-step-opening-process","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Step-by-Step Opening Process"}],["$","a","11",{"href":"#step-1-gather-documents","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Step 1: Gather Documents"}],["$","a","12",{"href":"#step-2-make-an-appointment","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Step 2: Make an Appointment"}],["$","a","13",{"href":"#step-3-visit-the-branch","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Step 3: Visit the Branch"}],["$","a","14",{"href":"#step-4-fill-out-forms","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Step 4: Fill Out Forms"}],["$","a","15",{"href":"#step-5-wait-for-approval","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Step 5: Wait for Approval"}],["$","a","16",{"href":"#account-types","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Account Types"}],["$","a","17",{"href":"#caja-de-ahorro-savings-account","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Caja de Ahorro (Savings Account)"}],["$","a","18",{"href":"#cuenta-corriente-checking-account","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cuenta Corriente (Checking Account)"}],["$","a","19",{"href":"#cuenta-sueldo-salary-account","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Cuenta Sueldo (Salary Account)"}],"$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22"]}]]}]}]}]
+b:["$","div",null,{"className":"container px-4 md:px-6 -mt-4","children":["$","div",null,{"className":"relative aspect-[2/1] md:aspect-[3/1] max-h-[500px] rounded-xl overflow-hidden","children":["$","$L23",null,{"src":"/images/blog/argentina-banking.webp","alt":"How to Open a Bank Account in Argentina as an Expat","fill":true,"className":"object-cover","priority":true}]}]}]
+24:T2901,<p><h1>How to Open a Bank Account in Argentina as an Expat</h1></p><p>Opening a bank account in Argentina can feel like a mission impossible, but it's essential for long-term stays. Here's the complete guide to navigating the system.</p><p><h2 id="why-you-need-an-argentine-bank-account">Why You Need an Argentine Bank Account</h2></p><p>While you can survive on cash and foreign cards, a local account offers:</p>
+<p>- <strong>Salary deposits</strong> (if working locally)</p>
+<p>- <strong>Rent payments</strong> (most landlords prefer transfers)</p>
+<p>- <strong>Utility bills</strong> (automatic debit = discounts)</p>
+<p>- <strong>Avoiding ATM fees</strong> (foreign cards charge $3-5 per withdrawal)</p>
+<p>- <strong>MercadoPago</strong> (Argentina's payment app, essential for online purchases)</p><p><h2 id="requirements-for-opening-an-account">Requirements for Opening an Account</h2></p><p><h3 id="basic-requirements">Basic Requirements</h3></p>
+<p>1. <strong>DNI</strong> (Documento Nacional de Identidad) or passport with valid visa</p>
+<p>2. <strong>Proof of Address</strong> (utility bill, rental contract)</p>
+<p>3. <strong>CDI</strong> (Clave de Identificación) or CUIT/CUIL</p>
+<p>4. <strong>Proof of Income</strong> (employment contract, tax returns)</p><p><h3 id="getting-your-cdicuit">Getting Your CDI/CUIT</h3></p><p>The CDI (Clave de Identificación) is your tax identification number:</p>
+<p>- Apply at AFIP (tax authority) office</p>
+<p>- Or online with a local's help</p>
+<p>- Required for most financial transactions</p>
+<p>- Free to obtain</p><p><h2 id="best-banks-for-expats">Best Banks for Expats</h2></p><p><h3 id="1-santander-ro">1. Santander Río</h3></p>
+<p><strong>Best for</strong>: English support, international transfers</p><p><strong>Pros</strong>:</p>
+<p>- Some English-speaking staff</p>
+<p>- Good online banking</p>
+<p>- International wire capabilities</p>
+<p>- Wide ATM network</p><p><strong>Cons</strong>:</p>
+<p>- Higher fees</p>
+<p>- Long lines at branches</p><p><h3 id="2-galicia">2. Galicia</h3></p>
+<p><strong>Best for</strong>: Digital banking, expat-friendly</p><p><strong>Pros</strong>:</p>
+<p>- Excellent mobile app</p>
+<p>- Lower fees</p>
+<p>- Growing expat customer base</p>
+<p>- Good customer service</p><p><strong>Cons</strong>:</p>
+<p>- Limited English support</p>
+<p>- Smaller branch network</p><p><h3 id="3-bbva">3. BBVA</h3></p>
+<p><strong>Best for</strong>: International presence</p><p><strong>Pros</strong>:</p>
+<p>- Global bank with local presence</p>
+<p>- Good for receiving foreign transfers</p>
+<p>- Decent online platform</p><p><strong>Cons</strong>:</p>
+<p>- Higher minimum balances</p>
+<p>- Bureaucratic processes</p><p><h3 id="4-banco-nacin">4. Banco Nación</h3></p>
+<p><strong>Best for</strong>: Government employees, lowest fees</p><p><strong>Pros</strong>:</p>
+<p>- Lowest fees</p>
+<p>- Government backing</p>
+<p>- Accepts more document types</p>
+<p>- Many branches</p><p><strong>Cons</strong>:</p>
+<p>- Longest lines</p>
+<p>- Worst technology</p>
+<p>- Limited English support</p><p><h3 id="5-mercadopago-digital">5. MercadoPago (Digital)</h3></p>
+<p><strong>Best for</strong>: Digital natives, immediate needs</p><p><strong>Pros</strong>:</p>
+<p>- Open instantly with DNI</p>
+<p>- No minimum balance</p>
+<p>- Accepted everywhere</p>
+<p>- Great app experience</p><p><strong>Cons</strong>:</p>
+<p>- Not a full bank (no wire transfers)</p>
+<p>- Limited cash deposit options</p><p><h2 id="step-by-step-opening-process">Step-by-Step Opening Process</h2></p><p><h3 id="step-1-gather-documents">Step 1: Gather Documents</h3></p>
+<p>- Original passport + copies</p>
+<p>- Visa or residency document</p>
+<p>- Proof of address (rental contract or utility bill)</p>
+<p>- CDI/CUIT document</p>
+<p>- Proof of income (payslip, contract, or tax return)</p><p><h3 id="step-2-make-an-appointment">Step 2: Make an Appointment</h3></p>
+<p>- Many banks require appointments</p>
+<p>- Call or book online</p>
+<p>- Some branches accept walk-ins</p><p><h3 id="step-3-visit-the-branch">Step 3: Visit the Branch</h3></p>
+<p>- Arrive early (lines form quickly)</p>
+<p>- Bring all documents plus extras</p>
+<p>- Dress professionally</p>
+<p>- Be prepared for Spanish-only service</p><p><h3 id="step-4-fill-out-forms">Step 4: Fill Out Forms</h3></p>
+<p>- Multiple forms in Spanish</p>
+<p>- Bank officer will guide you</p>
+<p>- Sign everywhere indicated</p><p><h3 id="step-5-wait-for-approval">Step 5: Wait for Approval</h3></p>
+<p>- Can be immediate or take days</p>
+<p>- Account may have initial limits</p>
+<p>- Full functionality after verification</p><p><h2 id="account-types">Account Types</h2></p><p><h3 id="caja-de-ahorro-savings-account">Caja de Ahorro (Savings Account)</h3></p>
+<p>- Most common for individuals</p>
+<p>- Limited transactions per month</p>
+<p>- Small interest (below inflation)</p>
+<p>- Usually free or low fee</p><p><h3 id="cuenta-corriente-checking-account">Cuenta Corriente (Checking Account)</h3></p>
+<p>- Unlimited transactions</p>
+<p>- Overdraft possible</p>
+<p>- Higher fees</p>
+<p>- Usually for businesses or high-income individuals</p><p><h3 id="cuenta-sueldo-salary-account">Cuenta Sueldo (Salary Account)</h3></p>
+<p>- Opened by employer</p>
+<p>- Usually free</p>
+<p>- Linked to salary deposits</p>
+<p>- Can convert to regular account if employment ends</p><p><h2 id="banking-fees-to-know">Banking Fees to Know</h2></p><p><tr><td>Fee Type</td><td>Typical Cost</td></tr></p>
+<p></p>
+<p><tr><td>Monthly maintenance</td><td>$0-10</td></tr></p>
+<p><tr><td>ATM withdrawal (own bank)</td><td>Free</td></tr></p>
+<p><tr><td>ATM withdrawal (other bank)</td><td>$1-3</td></tr></p>
+<p><tr><td>International wire (receive)</td><td>$15-50</td></tr></p>
+<p><tr><td>International wire (send)</td><td>$30-100</td></tr></p>
+<p><tr><td>Checkbook</td><td>$5-15</td></tr></p>
+<p><tr><td>Card replacement</td><td>$5-20</td></tr></p><p><h2 id="digital-banking-in-argentina">Digital Banking in Argentina</h2></p><p><h3 id="mercadopago">MercadoPago</h3></p>
+<p>Argentina's essential payment app:</p>
+<p>- Link to bank account or credit card</p>
+<p>- Pay at most businesses</p>
+<p>- Send money to friends</p>
+<p>- Pay bills</p>
+<p>- Buy phone credit</p>
+<p>- Even invest in funds</p><p><strong>Download</strong>: Available for all phones</p>
+<p><strong>Requirements</strong>: Local phone number, DNI</p><p><h3 id="modo">Modo</h3></p>
+<p>Bank consortium app:</p>
+<p>- Transfer between any banks instantly</p>
+<p>- QR code payments</p>
+<p>- Growing acceptance</p><p><h3 id="home-banking">Home Banking</h3></p>
+<p>Every major bank offers online banking:</p>
+<p>- Check balances</p>
+<p>- Transfer money</p>
+<p>- Pay bills</p>
+<p>- Deposit checks via photo</p><p><h2 id="receiving-money-from-abroad">Receiving Money from Abroad</h2></p><p><h3 id="wire-transfers">Wire Transfers</h3></p>
+<p>- Provide sender with: Bank name, account number, CBU, SWIFT code</p>
+<p>- Takes 2-5 business days</p>
+<p>- Receiving fees: $15-50</p>
+<p>- Exchange rate at bank (not favorable)</p><p><h3 id="western-union-moneygram">Western Union / MoneyGram</h3></p>
+<p>- Pick up cash at thousands of locations</p>
+<p>- Better exchange rates than banks</p>
+<p>- Fees vary by amount</p>
+<p>- Need ID and tracking number</p><p><h3 id="wise-formerly-transferwise">Wise (formerly TransferWise)</h3></p>
+<p>- Best exchange rates</p>
+<p>- Low fees</p>
+<p>- Direct to Argentine account</p>
+<p>- Takes 1-2 days</p><p><h3 id="crypto">Crypto</h3></p>
+<p>- Growing option for expats</p>
+<p>- Buy USDT, cash out via P2P</p>
+<p>- Requires crypto knowledge</p>
+<p>- Legal gray area</p><p><h2 id="banking-tips-for-expats">Banking Tips for Expats</h2></p><p>1. <strong>Open ASAP</strong>: The process gets harder the longer you wait</p>
+<p>2. <strong>Bring a Translator</strong>: If your Spanish is weak</p>
+<p>3. <strong>Multiple Copies</strong>: Banks love paperwork</p>
+<p>4. <strong>Patience</strong>: Everything takes longer than expected</p>
+<p>5. <strong>Keep Records</strong>: Screenshot everything</p>
+<p>6. <strong>Check Statements</strong>: Fees appear without warning</p>
+<p>7. <strong>Maintain Minimum</strong>: Avoid monthly fees</p>
+<p>8. <strong>Use Home Banking</strong>: Branch visits are time-consuming</p>
+<p>9. <strong>Link to MercadoPago</strong>: Essential for daily life</p>
+<p>10. <strong>Inform Your Home Bank</strong>: Avoid account freezes</p><p><h2 id="common-problems-solutions">Common Problems & Solutions</h2></p><p><h3 id="problem-we-cant-open-accounts-for-foreigners">Problem: "We can't open accounts for foreigners"</h3></p>
+<p><strong>Solution</strong>: Try multiple branches. Some are more expat-friendly. Ask for a supervisor.</p><p><h3 id="problem-your-documents-arent-sufficient">Problem: "Your documents aren't sufficient"</h3></p>
+<p><strong>Solution</strong>: Bring extra proof. Utility bills, phone bills, anything official with your address.</p><p><h3 id="problem-you-need-a-guarantor">Problem: "You need a guarantor"</h3></p>
+<p><strong>Solution</strong>: This is old-school banking. Try a different bank or digital options like MercadoPago.</p><p><h3 id="problem-account-frozen-after-transfer">Problem: Account frozen after transfer</h3></p>
+<p><strong>Solution</strong>: Inform bank before large transfers. Keep transfer receipts. Expect questions.</p><p><h3 id="problem-cant-access-account-from-abroad">Problem: Can't access account from abroad</h3></p>
+<p><strong>Solution</strong>: Set up VPN to Argentina. Enable international access before traveling.</p><p><h2 id="alternative-no-bank-account">Alternative: No Bank Account</h2></p><p>If banking proves impossible:</p>
+<p>- <strong>Wise Card</strong>: Works for most purchases</p>
+<p>- <strong>Western Union</strong>: For cash needs</p>
+<p>- <strong>Crypto</strong>: Growing acceptance</p>
+<p>- <strong>Cash</strong>: Still king in Argentina</p>
+<p>- <strong>Foreign Cards</strong>: For large purchases (use official rate)</p><p><h2 id="conclusion">Conclusion</h2></p><p>Opening a bank account in Argentina requires patience and persistence, but it's doable. Start with MercadoPago for immediate needs, then work toward a traditional account. Bring every document you can think of, expect multiple visits, and celebrate when you finally get that debit card.</p><p>Once set up, banking in Argentina is functional. The mobile apps are surprisingly good, transfers are instant, and you'll save money on ATM fees. Just remember: cash is still king, and always keep some pesos on hand.</p>
+c:["$","div",null,{"className":"container px-4 md:px-6 py-12","children":["$","div",null,{"className":"grid lg:grid-cols-[1fr_300px] gap-8 lg:gap-12","children":[["$","div",null,{"className":"max-w-none","children":[["$","div",null,{"className":"prose prose-lg max-w-none dark:prose-invert prose-headings:scroll-mt-24 prose-a:text-primary hover:prose-a:underline prose-img:rounded-xl","dangerouslySetInnerHTML":{"__html":"$24"}}],"$L25","$L26"]}],"$L27"]}]}]
+d:["$","div",null,{"className":"container px-4 md:px-6 pb-12","children":[["$","$L28",null,{"className":"mb-8"}],["$","div",null,{"className":"flex flex-col sm:flex-row justify-between gap-4","children":[["$","$L2",null,{"href":"/blog","children":["$","button",null,{"data-slot":"button","data-variant":"outline","data-size":"default","className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 gap-2 w-full sm:w-auto","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left h-4 w-4","aria-hidden":"true","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Back to Blog"]}]}],["$","div",null,{"className":"flex gap-2","children":["$","$L2",null,{"href":"/visas","children":["$","button",null,{"data-slot":"button","data-variant":"default","data-size":"default","className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-9 px-4 py-2 has-[>svg]:px-3 gap-2","children":["Explore Visas",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right h-4 w-4","aria-hidden":"true","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]}]]}]]}]
+e:["$","script","script-0",{"src":"/_next/static/chunks/359436006d412aab.js","async":true}]
+f:["$","$L29",null,{"children":["$","$2a",null,{"name":"Next.MetadataOutlet","children":"$@2b"}]}]
+10:["$","a","20",{"href":"#banking-fees-to-know","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Banking Fees to Know"}]
+11:["$","a","21",{"href":"#digital-banking-in-argentina","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Digital Banking in Argentina"}]
+12:["$","a","22",{"href":"#mercadopago","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"MercadoPago"}]
+13:["$","a","23",{"href":"#modo","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Modo"}]
+14:["$","a","24",{"href":"#home-banking","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Home Banking"}]
+15:["$","a","25",{"href":"#receiving-money-from-abroad","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Receiving Money from Abroad"}]
+16:["$","a","26",{"href":"#wire-transfers","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Wire Transfers"}]
+17:["$","a","27",{"href":"#western-union-moneygram","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Western Union / MoneyGram"}]
+18:["$","a","28",{"href":"#wise-formerly-transferwise","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Wise (formerly TransferWise)"}]
+19:["$","a","29",{"href":"#crypto","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Crypto"}]
+1a:["$","a","30",{"href":"#banking-tips-for-expats","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Banking Tips for Expats"}]
+1b:["$","a","31",{"href":"#common-problems-solutions","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Common Problems & Solutions"}]
+1c:["$","a","32",{"href":"#problem-we-cant-open-accounts-for-foreigners","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Problem: \"We can't open accounts for foreigners\""}]
+1d:["$","a","33",{"href":"#problem-your-documents-arent-sufficient","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Problem: \"Your documents aren't sufficient\""}]
+1e:["$","a","34",{"href":"#problem-you-need-a-guarantor","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Problem: \"You need a guarantor\""}]
+1f:["$","a","35",{"href":"#problem-account-frozen-after-transfer","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Problem: Account frozen after transfer"}]
+20:["$","a","36",{"href":"#problem-cant-access-account-from-abroad","className":"block text-sm hover:text-primary transition-colors pl-4 text-muted-foreground","children":"Problem: Can't access account from abroad"}]
+21:["$","a","37",{"href":"#alternative-no-bank-account","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Alternative: No Bank Account"}]
+22:["$","a","38",{"href":"#conclusion","className":"block text-sm hover:text-primary transition-colors text-foreground","children":"Conclusion"}]
+25:["$","div",null,{"className":"mt-12 pt-8 border-t","children":[["$","h3",null,{"className":"text-sm font-semibold text-muted-foreground mb-3","children":"Tags"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","banking",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"banking"}],["$","span","bank account",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"bank account"}],["$","span","finance",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"finance"}],["$","span","mercadopago",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"mercadopago"}],["$","span","practical",{"data-slot":"badge","data-variant":"secondary","className":"inline-flex items-center justify-center rounded-full border border-transparent px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90 capitalize","children":"practical"}]]}]]}]
+26:["$","div",null,{"className":"mt-8 flex items-center gap-4","children":[["$","span",null,{"className":"text-sm text-muted-foreground","children":"Share this article:"}],["$","button",null,{"data-slot":"button","data-variant":"outline","data-size":"sm","className":"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md px-3 has-[>svg]:px-2.5 gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-share2 lucide-share-2 h-4 w-4","aria-hidden":"true","children":[["$","circle","gq8acd",{"cx":"18","cy":"5","r":"3"}],["$","circle","w7nqdw",{"cx":"6","cy":"12","r":"3"}],["$","circle","1xt0gg",{"cx":"18","cy":"19","r":"3"}],["$","line","47mynk",{"x1":"8.59","x2":"15.42","y1":"13.51","y2":"17.49"}],["$","line","1n3mei",{"x1":"15.41","x2":"8.59","y1":"6.51","y2":"10.49"}],"$undefined"]}],"Share"]}]]}]
+27:["$","aside",null,{"className":"space-y-6","children":[["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm","children":["$","div",null,{"data-slot":"card-content","className":"p-6","children":[["$","div",null,{"className":"flex items-center gap-3 mb-4","children":[["$","div",null,{"className":"w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-user h-6 w-6 text-primary","aria-hidden":"true","children":[["$","path","975kel",{"d":"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"}],["$","circle","17ys0d",{"cx":"12","cy":"7","r":"4"}],"$undefined"]}]}],["$","div",null,{"children":[["$","h3",null,{"className":"font-semibold","children":"Expats Argentina Team"}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Financial Services Experts"}]]}]]}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"Our team of experts provides accurate, up-to-date information to help you navigate life in Argentina."}]]}]}],["$","div",null,{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm","children":["$","div",null,{"data-slot":"card-content","className":"p-6","children":[["$","h3",null,{"className":"font-semibold mb-4","children":"Related Articles"}],["$","div",null,{"className":"space-y-4","children":[["$","$L2","cost-living-buenos-aires-2025",{"href":"/blog/cost-living-buenos-aires-2025","className":"block group","children":[["$","h4",null,{"className":"text-sm font-medium group-hover:text-primary transition-colors line-clamp-2","children":"Cost of Living in Buenos Aires: Complete 2026 Budget Guide"}],["$","p",null,{"className":"text-xs text-muted-foreground mt-1","children":[18," min read"]}]]}],["$","$L2","renting-apartment-argentina-guide",{"href":"/blog/renting-apartment-argentina-guide","className":"block group","children":[["$","h4",null,{"className":"text-sm font-medium group-hover:text-primary transition-colors line-clamp-2","children":"The Complete Guide to Renting an Apartment in Argentina"}],["$","p",null,{"className":"text-xs text-muted-foreground mt-1","children":[16," min read"]}]]}]]}]]}]}]]}]
+2b:null
