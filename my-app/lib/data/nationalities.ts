@@ -998,7 +998,7 @@ export const nationalities: Nationality[] = [
     flag: "🇧🇷",
     title: "Brazilian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Full Mercosur member benefits, immediate permanent residency, and established community",
-    description: "Brazilians enjoy the easiest immigration as founding Mercosur members. Immediate permanent residency with no criminal record required and the largest foreign community.",
+    description: "Brazilians enjoy easiest immigration as founding Mercosur members. Immediate permanent residency with no criminal record required and the largest foreign community.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1587,7 +1587,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇹",
     title: "Italian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Strongest European ties, simplified processes, and the heart of Argentine culture",
-    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage in a welcoming environment.",
+    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage across the country.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2173,7 +2173,7 @@ export const nationalities: Nationality[] = [
     flag: "🇫🇷",
     title: "French Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Cultural exchange, professional opportunities, and quality of life",
-    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Institutional presence through schools and cultural centers supports the community.",
+    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Institutional presence supports the French community in major cities."
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -3135,7 +3135,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇹",
     title: "Portuguese Citizens in Argentina: Complete Immigration Guide",
     subtitle: "European pathway, Brazilian connections, and cultural ties",
-    description: "Portuguese citizens find Argentina attractive for lower cost of living and European lifestyle. Cultural ties through language and Latin heritage support the community.",
+    description: "Portuguese citizens find Argentina attractive for lower cost of living and European lifestyle. Ties through language and Latin heritage support the community.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4340,7 +4340,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇭",
     title: "Swiss Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Alpine connections, precision industry opportunities, and quality living",
-    description: "Switzerland and Argentina share deep historical ties. Swiss immigrants helped build infrastructure and dairy industry. Professionals find opportunities in Argentina today.",
+    description: "Switzerland and Argentina share deep historical ties. Swiss immigrants helped build infrastructure and dairy industry. Professionals find opportunities in Argentina."
     region: "europe",
     visaRequirements: {
       tourist: {
