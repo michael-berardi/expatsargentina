@@ -68,7 +68,7 @@ function CostOfLivingStructuredData() {
 }
 
 export const metadata: Metadata = {
-  title: "Cost of Living in Argentina 2025 | Expats Guide",
+  title: "Cost of Living in Argentina 2025",
   description:
     "Real cost of living numbers for Argentina in 2025. Monthly budgets for Buenos Aires, Mendoza, Cordoba with actual rent, food, and transport prices.",
   alternates: {
