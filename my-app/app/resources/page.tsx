@@ -1173,18 +1173,18 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      {/* Newsletter CTA */}
+      {/* Lucero Legal CTA */}
       <section className="py-16 bg-primary text-primary-foreground mt-auto">
         <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
+            <h2 className="text-3xl font-bold mb-4">Need Legal Help?</h2>
             <p className="text-primary-foreground/80 mb-8">
-              Resources change — businesses close, phone numbers change, new apps launch. 
-              Subscribe to get notified when this directory is updated.
+              For complex visa cases, business immigration, or legal advice, 
+              our partner Lucero Legal specializes in expat immigration in Argentina.
             </p>
             <Button asChild size="lg" variant="secondary">
-              <Link href="/newsletter">
-                Subscribe to Updates
+              <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=resources-cta" target="_blank" rel="noopener noreferrer">
+                Get Free Consultation
                 <ArrowRightIcon size="sm" className="ml-2" />
               </Link>
             </Button>

@@ -307,33 +307,6 @@ export default function Home() {
 
       {/* Lucero Legal CTA */}
       <LuceroLegalCTA variant="full" />
-
-      {/* Newsletter CTA */}
-      <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-5">
-          <div className="max-w-2xl mx-auto text-center">
-            <Badge variant="secondary" className="mb-4">
-              <MailIcon size="sm" className="mr-1" />
-              {t("homepage.newsletter.badge") as string}
-            </Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("homepage.newsletter.title") as string}</h2>
-            <p className="text-muted-foreground mb-8">
-              {t("homepage.newsletter.description") as string}
-            </p>
-            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onSubmit={(e) => e.preventDefault()}>
-              <Input
-                type="email"
-                placeholder={t("homepage.newsletter.placeholder") as string}
-                className="flex-1"
-              />
-              <Button type="submit">{t("homepage.newsletter.subscribe") as string}</Button>
-            </form>
-            <p className="text-xs text-muted-foreground mt-4">
-              {t("homepage.newsletter.joinCount") as string}
-            </p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

@@ -35,7 +35,6 @@ const footerLinks = {
     { labelKey: "navigation.learnSpanish", href: "/learn-spanish" },
     { labelKey: "navigation.transportation", href: "/transportation" },
     { labelKey: "navigation.food", href: "/food" },
-    { labelKey: "Newsletter", href: "/newsletter" },
   ],
   company: [
     { labelKey: "About Us", href: "/about" },
@@ -61,7 +60,6 @@ export function Footer() {
   const allProvinces = locale === 'es' ? 'Todas las Provincias' : 'All Provinces';
   const allCities = locale === 'es' ? 'Todas las Ciudades' : 'All Cities';
   const expatStories = locale === 'es' ? 'Historias de Expatriados' : 'Expat Stories';
-  const newsletter = locale === 'es' ? 'Boletín' : 'Newsletter';
   const aboutUs = locale === 'es' ? 'Sobre Nosotros' : 'About Us';
   const privacyPolicy = locale === 'es' ? 'Política de Privacidad' : 'Privacy Policy';
   const siteMap = locale === 'es' ? 'Mapa del Sitio' : 'Site Map';
@@ -163,7 +161,6 @@ export function Footer() {
                     className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
                   >
                     {link.labelKey === "Expat Stories" ? expatStories : 
-                      link.labelKey === "Newsletter" ? newsletter :
                       getText(link.labelKey)}
                   </Link>
                 </li>

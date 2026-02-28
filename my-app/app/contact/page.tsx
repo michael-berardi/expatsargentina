@@ -386,16 +386,16 @@ export default function ContactPage() {
                     <div className="bg-primary/10 text-primary rounded-lg w-10 h-10 flex items-center justify-center">
                       <MailIcon size="sm" />
                     </div>
-                    <CardTitle className="text-lg">Newsletter</CardTitle>
+                    <CardTitle className="text-lg">Legal Help</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground text-sm mb-4">
-                    Get weekly updates on exchange rates, policy changes, new guides, and community events delivered straight to your inbox. Free and unsubscribe anytime.
+                    Need professional legal assistance with visas, residency, or business formation? Our partner Lucero Legal specializes in expat immigration.
                   </p>
                   <Button asChild variant="outline" size="sm">
-                    <Link href="/newsletter">
-                      Subscribe
+                    <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=contact-card" target="_blank" rel="noopener noreferrer">
+                      Get Consultation
                       <ArrowRightIcon size="sm" className="ml-2" />
                     </Link>
                   </Button>
