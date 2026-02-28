@@ -1110,7 +1110,7 @@ export default function LearnSpanishPage() {
 
         <Card>
           <CardContent className="pt-6">
-            <div className="grid md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-primary">1M</span>

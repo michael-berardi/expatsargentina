@@ -808,7 +808,7 @@ export default function First30DaysPage() {
             <h2 className="text-3xl font-bold mb-8 text-center">The Week-by-Week Roadmap</h2>
             
             <Tabs defaultValue="week1" className="w-full">
-              <TabsList className="grid w-full grid-cols-4">
+              <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 h-auto">
                 <TabsTrigger value="week1">Week 1</TabsTrigger>
                 <TabsTrigger value="week2">Week 2</TabsTrigger>
                 <TabsTrigger value="week3">Week 3</TabsTrigger>

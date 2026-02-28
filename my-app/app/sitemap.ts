@@ -8,6 +8,7 @@ import { visaComparisons } from "@/lib/data/visa-comparisons";
 import { blogPosts } from "@/lib/data/blog";
 import { professions } from "@/lib/data/professions";
 import { nationalities } from "@/lib/data/nationalities";
+import { cityServices } from "@/lib/data/city-services";
 
 export const dynamic = "force-static";
 
@@ -156,6 +157,86 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // Visa Matrix pages (241 combinations)
+  const visaMatrixCombinations = [
+    { type: "digital-nomad", nationalities: [
+      "united-states", "canada", "united-kingdom", "germany", "france", "netherlands", 
+      "spain", "italy", "portugal", "belgium", "switzerland", "sweden", "norway", 
+      "denmark", "finland", "ireland", "austria",
+      "russia", "ukraine", "poland", "czech-republic", "hungary", "romania", 
+      "bulgaria", "croatia", "serbia", "slovakia", "slovenia", "estonia", "latvia", "lithuania",
+      "india", "south-africa", "israel", "australia", "new-zealand", "china", "japan", "south-korea",
+      "mexico", "brazil", "chile", "colombia", "peru", "uruguay", "paraguay", "bolivia", "ecuador", "venezuela",
+      "cuba", "dominican-republic", "puerto-rico"
+    ]},
+    { type: "rentista", nationalities: [
+      "united-states", "canada", "united-kingdom", "germany", "france", "spain", "italy", 
+      "portugal", "belgium", "switzerland", "sweden", "norway", "denmark", "finland", "ireland",
+      "israel", "south-africa", "australia", "new-zealand",
+      "russia", "ukraine", "poland", "czech-republic", "hungary", "romania",
+      "mexico", "chile", "uruguay", "brazil", "colombia", "peru", "venezuela",
+      "china", "japan"
+    ]},
+    { type: "pensionado", nationalities: [
+      "united-states", "canada", "united-kingdom", "germany", "france", "spain", "italy",
+      "portugal", "belgium", "switzerland", "sweden", "norway", "denmark", "finland", "ireland",
+      "israel", "south-africa", "australia", "new-zealand",
+      "russia", "ukraine", "poland", "czech-republic", "hungary", "romania",
+      "mexico", "chile", "uruguay", "brazil", "colombia", "peru", "venezuela",
+      "china", "japan"
+    ]},
+    { type: "work", nationalities: [
+      "united-states", "canada", "united-kingdom", "germany", "france", "netherlands", "spain", "italy",
+      "portugal", "belgium", "switzerland", "sweden", "norway", "denmark", "finland", "ireland",
+      "russia", "ukraine", "poland", "czech-republic", "hungary", "romania", 
+      "bulgaria", "croatia", "serbia", "slovakia", "slovenia",
+      "india", "south-africa", "israel", "australia", "new-zealand", "china", "japan", "south-korea",
+      "mexico", "brazil", "chile", "colombia", "peru", "uruguay", "paraguay", "bolivia", "ecuador", "venezuela",
+      "cuba", "dominican-republic"
+    ]},
+    { type: "student", nationalities: [
+      "united-states", "canada", "united-kingdom", "germany", "france", "netherlands", "spain", "italy",
+      "portugal", "belgium", "switzerland", "sweden", "norway", "denmark", "finland", "ireland",
+      "russia", "ukraine", "poland", "czech-republic", "hungary", "romania",
+      "india", "south-africa", "israel", "australia", "new-zealand", "china", "japan", "south-korea",
+      "mexico", "brazil", "chile", "colombia", "peru", "uruguay", "paraguay", "bolivia", "ecuador", "venezuela"
+    ]},
+    { type: "investment", nationalities: [
+      "united-states", "canada", "united-kingdom", "germany", "france", "spain", "italy",
+      "portugal", "belgium", "switzerland", "sweden", "norway", "denmark", "finland",
+      "israel", "south-africa", "australia", "new-zealand",
+      "russia", "ukraine", "poland", "czech-republic", "hungary", "romania",
+      "mexico", "chile", "uruguay", "brazil", "colombia", "peru",
+      "china", "japan"
+    ]},
+    { type: "mercosur", nationalities: ["brazil", "uruguay", "paraguay", "bolivia", "chile", "peru", "colombia", "ecuador", "venezuela"] },
+  ];
+
+  const visaMatrixPages: MetadataRoute.Sitemap = [];
+  for (const combo of visaMatrixCombinations) {
+    for (const nat of combo.nationalities) {
+      visaMatrixPages.push({
+        url: `${BASE_URL}/visas-matrix/${combo.type}/${nat}/`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+      });
+    }
+  }
+
+  // City Services pages
+  const cityServicesPages: MetadataRoute.Sitemap = [];
+  for (const city of cities) {
+    for (const service of cityServices) {
+      cityServicesPages.push({
+        url: `${BASE_URL}/cities-services/${city.slug}/${service.slug}/`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+      });
+    }
+  }
+
   return [
     ...staticPages,
     ...provincePages,
@@ -168,5 +249,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogPages,
     ...professionPages,
     ...nationalityPages,
+    ...visaMatrixPages,
+    ...cityServicesPages,
   ];
 }

@@ -125,7 +125,7 @@ export default function BuenosAiresRestaurantsPage() {
         {/* Price Guide */}
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-orange-100 mb-12">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Price Guide</h2>
-          <div className="grid md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {Object.entries(priceLabels).map(([price, label]) => (
               <div key={price} className="flex items-center gap-3">
                 <Badge className={`${priceColors[price as keyof typeof priceColors]} text-base px-3 py-1`}>

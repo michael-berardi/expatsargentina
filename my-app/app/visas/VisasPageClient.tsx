@@ -1161,7 +1161,7 @@ export default function VisasPageClient() {
             </div>
 
             <Card>
-              <CardContent className="pt-6 overflow-x-auto">
+              <CardContent className="pt-6 overflow-x-auto -mx-4 px-4 md:mx-0 md:px-6">
                 <table className="w-full min-w-[800px]">
                   <thead>
                     <tr className="border-b">
