@@ -435,7 +435,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇾",
     title: "Paraguayan Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur full membership, cultural connections, and immigration benefits",
-    description: "Paraguayans enjoy unrestricted freedom of movement to Argentina as Mercosur founding members. Strong cultural ties and a large established community welcome Paraguayan expats.",
+    description: "Paraguayans enjoy unrestricted freedom of movement as Mercosur founding members. Strong cultural ties and a large community welcome expats from Paraguay.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -571,7 +571,7 @@ export const nationalities: Nationality[] = [
     flag: "🇧🇴",
     title: "Bolivian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur membership, cultural ties, and immigration pathways",
-    description: "Bolivians enjoy unrestricted access to live and work in Argentina as full Mercosur members. Deep historical connections and a large community provide strong support networks.",
+    description: "Bolivians enjoy unrestricted access to live and work as full Mercosur members. Deep historical connections and a large community provide strong support networks.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -697,7 +697,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇪",
     title: "Peruvian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur associate benefits, vibrant community, and immigration pathways for Peruvians",
-    description: "Peruvians enjoy streamlined immigration to Argentina as Mercosur associates since 2003. One of the largest immigrant communities with strong cultural and economic ties throughout the country.",
+    description: "Peruvians enjoy streamlined immigration as Mercosur associates since 2003. One of the largest immigrant communities with strong cultural and economic ties.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -855,7 +855,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇴",
     title: "Colombian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Mercosur associate benefits, growing community, and immigration pathways",
-    description: "Colombians enjoy preferential immigration access to Argentina as Mercosur associates since 2012. Rapidly growing community with strong cultural presence and increasing opportunities.",
+    description: "Colombians enjoy preferential immigration access as Mercosur associates since 2012. Rapidly growing community with strong cultural presence and opportunities.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -998,7 +998,7 @@ export const nationalities: Nationality[] = [
     flag: "🇧🇷",
     title: "Brazilian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Full Mercosur member benefits, immediate permanent residency, and established community",
-    description: "Brazilians enjoy the easiest immigration path to Argentina as founding Mercosur members. Immediate permanent residency, no criminal record required, and the largest foreign community.",
+    description: "Brazilians enjoy the easiest immigration path as founding Mercosur members. Immediate permanent residency with no criminal record required and the largest foreign community.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1145,7 +1145,7 @@ export const nationalities: Nationality[] = [
     flag: "🇻🇪",
     title: "Venezuelan Citizens in Argentina: Complete Immigration Guide",
     subtitle: "DNE migratory agreement, special humanitarian provisions, and established community support",
-    description: "Venezuelans have established pathways to residency through the DNE agreement and humanitarian provisions. One of Argentina's largest immigrant communities with work authorization support.",
+    description: "Venezuelans have pathways to residency through the DNE agreement and humanitarian provisions. One of Argentina's largest communities with work authorization support.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1440,7 +1440,7 @@ export const nationalities: Nationality[] = [
     flag: "🇪🇸",
     title: "Spanish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Bilateral agreements, preferential treatment, and strong cultural ties",
-    description: "Spanish citizens benefit from bilateral agreements that simplify residency and offer special pension arrangements. Deep historical and cultural bonds between Spain and Argentina.",
+    description: "Spanish citizens benefit from bilateral agreements that simplify residency and offer special pension arrangements. Deep historical bonds between Spain and Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -1587,7 +1587,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇹",
     title: "Italian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Strongest European ties, simplified processes, and the heart of Argentine culture",
-    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity and a welcoming environment celebrate Italian heritage throughout the country.",
+    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity and a welcoming environment celebrate Italian heritage.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4813,7 +4813,7 @@ export const nationalities: Nationality[] = [
     flag: "🇫🇮",
     title: "Finnish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Sauna culture, tech innovation, and Patagonian adventures",
-    description: "Finns find Argentina's diverse landscapes and welcoming culture a perfect match for their love of nature and quality living. With growing opportunities in tech and education, plus a small but active community in Buenos Aires, Finland and Argentina share increasing connections.",
+    description: "Finns find Argentina's diverse landscapes a perfect match for love of nature. Growing opportunities in tech and education with a small but active community in Buenos Aires.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4931,7 +4931,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇱",
     title: "Polish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing community, EU benefits, and cultural connections",
-    description: "Poland and Argentina share deep historical ties, with Argentina home to one of the largest Polish communities in South America. Polish citizens today find visa-free entry, EU privileges, and a welcoming established community that dates back generations.",
+    description: "Poland and Argentina share deep historical ties. Polish citizens find visa-free entry and a welcoming community that dates back generations in one of South America's largest Polish communities.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -5050,7 +5050,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇿",
     title: "Czech Citizens in Argentina: Complete Immigration Guide",
     subtitle: "EU opportunities, beer culture connections, and growing community",
-    description: "Czech citizens find Argentina's European-influenced culture, vibrant beer scene, and growing tech sector welcoming. With a small but active community in Buenos Aires and strong EU benefits, Czechs enjoy visa-free entry and straightforward pathways to residency.",
+    description: "Czech citizens find Argentina's European-influenced culture and growing tech sector welcoming. Small but active community in Buenos Aires with visa-free entry and EU benefits.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -5168,7 +5168,7 @@ export const nationalities: Nationality[] = [
     flag: "🇺🇦",
     title: "Ukrainian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Humanitarian pathways, growing community, and new beginnings",
-    description: "Argentina has welcomed Ukrainian refugees and immigrants with open arms, offering humanitarian visas, work authorization, and a supportive community. With simplified processes and strong cultural ties, Ukraine nationals find Argentina a safe and welcoming new home.",
+    description: "Argentina has welcomed Ukrainian refugees with open arms, offering humanitarian visas and work authorization. Simplified processes and a supportive community provide a safe new home.",
     region: "europe",
     visaRequirements: {
       tourist: {

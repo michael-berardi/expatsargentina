@@ -774,7 +774,6 @@ export const cities: City[] = [
     ],
     gettingThere: "Direct flights from Buenos Aires (2 hours). Bus from Santiago, Chile (7 hours via the Andes). Excellent highway connections.",
     bestFor: ["Wine enthusiasts", "Outdoor adventurers", "Retirees", "Ski season workers", "Foodies"],
-    image: "/images/cities/mendoza.webp",
   },
   {
     slug: "cordoba",
