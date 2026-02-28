@@ -44,9 +44,7 @@ export const metadata: Metadata = {
     description: "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina.",
     images: ["/images/hero-argentina.webp"],
   },
-  alternates: {
-    canonical: "https://expatsargentina.com",
-  },
+  // Note: canonical URLs should be defined per-page, not in layout
   robots: {
     index: true,
     follow: true,
