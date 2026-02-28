@@ -46,7 +46,7 @@ const coverageStats = [
   { label: "Provinces Covered", value: "24", icon: GlobeIcon },
   { label: "Cities with Guides", value: "15+", icon: MapPinIcon },
   { label: "Regions Explored", value: "6", icon: StarIcon },
-  { label: "Contributors", value: "Growing team", icon: UsersIcon },
+  { label: "Contributors", value: "Expanding", icon: UsersIcon },
 ];
 
 const differentiators = [
