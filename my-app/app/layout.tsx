@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
@@ -99,7 +99,3 @@ export default function RootLayout({
     </html>
   );
 }
-// Cache bust: Sat Feb 28 02:41:25 EST 2026
-// Deploy: Sat Feb 28 03:17:09 EST 2026
-// Cache bust: Sat Feb 28 03:20:57 EST 2026
-// Deploy: 1772266980

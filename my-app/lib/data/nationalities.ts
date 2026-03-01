@@ -1587,7 +1587,7 @@ export const nationalities: Nationality[] = [
     flag: "🇮🇹",
     title: "Italian in Argentina | Complete Guide",
     subtitle: "Strongest European ties, simplified processes, and the heart of Argentine culture",
-    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage."
+    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -2173,7 +2173,7 @@ export const nationalities: Nationality[] = [
     flag: "🇫🇷",
     title: "French in Argentina | Complete Guide",
     subtitle: "Cultural exchange, professional opportunities, and quality of life",
-    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Institutional presence supports the French community in major cities."
+    description: "French citizens are drawn to Argentina for cultural vibrancy and lower cost of living. Institutional presence supports the French community in major cities.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4340,7 +4340,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇭",
     title: "Swiss in Argentina | Complete Guide",
     subtitle: "Alpine connections, precision industry opportunities, and quality living",
-    description: "Switzerland and Argentina share deep historical ties. Swiss immigrants helped build infrastructure and dairy industry. Professionals find opportunities in Argentina."
+    description: "Switzerland and Argentina share deep historical ties. Swiss immigrants helped build infrastructure and dairy industry. Professionals find opportunities in Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {
