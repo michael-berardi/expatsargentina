@@ -15,7 +15,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "Best Restaurants in Rosario | Top Guide | Expats Argentina",
+  title: "Best Restaurants in Rosario - Top Guide",
   description: "Where to eat in Rosario, Argentina's third-largest city. From legendary parrillas and riverside dining along the Costanera to classic cafes and craft beer spots.",
   keywords: ["Rosario restaurants", "Rosario dining", "Costanera restaurants", "Rosario parrillas", "where to eat Rosario", "Rosario food guide"],
   openGraph: {

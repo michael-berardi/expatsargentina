@@ -10,11 +10,11 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Immigration by Profession | Expats Argentina",
+  title: "Immigration by Profession",
   description: "Visa guidance and career resources for professionals moving to Argentina. Software developers, designers, teachers, entrepreneurs and more.",
   keywords: ["work in argentina", "profession visa", "developer visa", "teacher argentina", "remote work argentina"],
   openGraph: {
-    title: "Immigration by Profession | Expats Argentina",
+    title: "Immigration by Profession",
     description: "Career-specific immigration guidance for professionals moving to Argentina.",
     type: "website",
   },

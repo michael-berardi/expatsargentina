@@ -87,7 +87,7 @@ export async function generateMetadata({ params }: CityServicePageProps): Promis
   
   if (!cityData || !serviceData) {
     return {
-      title: "Not Found | Expats Argentina",
+      title: "Not Found",
     };
   }
 

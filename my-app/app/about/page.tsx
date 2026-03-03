@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { MapPinIcon, GlobeIcon, UsersIcon, ShieldIcon, MailIcon, ArrowRightIcon, CheckCircleIcon, HeartIcon, StarIcon } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "About Us | Expats Argentina Team",
+  title: "About Us",
   description: "Meet the expats behind Expats Argentina. Our team lives across the country from Buenos Aires to Bariloche, bringing you honest guides for every province.",
   keywords: ["about Expats Argentina", "expat team Argentina", "living in Argentina", "Argentina expat guide"],
   alternates: {
@@ -343,7 +343,7 @@ export default function AboutPage() {
                 </Link>
               </Button>
               <Button asChild variant="outline">
-                <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=about-cta" target="_blank" rel="noopener noreferrer">
+                <Link href="https://lucerolegal.com?utm_source=expatsargentina&utm_medium=about-cta" target="_blank" rel="noopener noreferrer">
                   Get Legal Help
                   <ArrowRightIcon size="sm" className="ml-2" />
                 </Link>

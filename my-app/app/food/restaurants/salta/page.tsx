@@ -15,7 +15,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "Best Restaurants in Salta | Top Guide | Expats Argentina",
+  title: "Best Restaurants in Salta - Top Guide",
   description: "Where to eat in Salta la Linda. From the best empanadas salteñas and traditional peñas to torrontés wine bars and regional norteño cuisine.",
   keywords: ["Salta restaurants", "Salta dining", "empanadas salteñas", "peña Salta", "torrontés wine", "where to eat Salta", "Salta food guide", "norteño cuisine"],
   openGraph: {

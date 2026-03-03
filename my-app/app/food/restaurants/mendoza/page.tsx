@@ -18,7 +18,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "Best Restaurants in Mendoza | Wine Country Dining Guide | Expats Argentina",
+  title: "Best Restaurants in Mendoza - Wine Country Dining Guide",
   description: "The essential dining guide to Mendoza, Argentina's wine capital. From winery restaurants to local parrillas, discover where to eat in wine country.",
   keywords: ["Mendoza restaurants", "wine country dining", "Mendoza food guide", "winery restaurants", "where to eat Mendoza"],
   openGraph: {

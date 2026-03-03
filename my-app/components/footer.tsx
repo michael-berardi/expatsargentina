@@ -69,7 +69,7 @@ export function Footer() {
   const resourcesLabel = locale === 'es' ? 'Recursos' : 'Resources';
   const companyLabel = locale === 'es' ? 'Empresa' : 'Company';
   const rights = locale === 'es' ? 'Todos los derechos reservados' : 'All rights reserved';
-  const sponsored = locale === 'es' ? 'Patrocinado por' : 'Sponsored by';
+  const legalServices = locale === 'es' ? 'Servicios legales:' : 'Legal services:';
   const disclaimer = locale === 'es' 
     ? 'La información proporcionada es solo para fines educativos y no constituye asesoramiento legal.'
     : 'Information provided is for educational purposes only and not legal advice.';
@@ -191,13 +191,24 @@ export function Footer() {
 
         <Separator className="my-8" />
 
+        {/* Sister Sites */}
+        <div className="flex flex-wrap items-center justify-center gap-6 mb-6 text-sm text-muted-foreground">
+          <span className="font-medium">{locale === 'es' ? 'Sitios relacionados:' : 'Related Resources:'}</span>
+          <a href="https://argentinavisalaw.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+            {locale === 'es' ? 'Ley de Visas Argentina' : 'Argentina Visa Law'}
+          </a>
+          <a href="https://buenosairesexpats.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+            {locale === 'es' ? 'Expats Buenos Aires' : 'Buenos Aires Expats'}
+          </a>
+        </div>
+
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-base text-muted-foreground">
             &copy; {currentYear} Expats Argentina. {rights}.
           </p>
-          <p className="text-base text-muted-foreground text-center md:text-right">
-            {sponsored}{" "}
-            <Link href="https://lucerolegal.com" className="underline hover:text-foreground">
+          <p className="text-xs text-muted-foreground text-center md:text-right">
+            {legalServices}{" "}
+            <Link href="https://lucerolegal.com" className="hover:text-foreground transition-colors">
               Lucero Legal
             </Link>
             . {disclaimer}

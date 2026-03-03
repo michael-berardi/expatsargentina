@@ -19,7 +19,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata: Metadata = {
-  title: "Best Parrillas in Buenos Aires | Top 30 Steakhouses | Expats Argentina",
+  title: "Best Parrillas in Buenos Aires - Top 30 Steakhouses",
   description: "The ultimate guide to Argentine steakhouses—from Don Julio (#1 in the world) to hidden local gems. Complete with what to order, how to book, and insider tips.",
   keywords: ["best parrillas buenos aires", "argentine steakhouse", "don julio", "asado buenos aires", "where to eat steak buenos aires", "top parrillas"],
   openGraph: {

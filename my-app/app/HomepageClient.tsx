@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
 import {
   MapPinIcon,
   DollarSignIcon,
@@ -13,10 +12,8 @@ import {
   HeartIcon,
   UsersIcon,
   ArrowRightIcon,
-  CheckCircleIcon,
   GlobeIcon,
   ShieldIcon,
-  MailIcon,
   CoffeeIcon,
   WifiIcon,
   UtensilsIcon,
@@ -29,7 +26,6 @@ import {
 } from "@/components/ui/icon";
 import { provinces, cities, regions } from "@/lib/data/argentina";
 import { useI18n } from "@/lib/i18n";
-import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 import { GeneralTestimonials } from "@/components/Testimonials";
 
 const stats = [
@@ -111,10 +107,7 @@ export default function Home() {
             <p className="text-base text-muted-foreground mb-4 max-w-xl mx-auto">
               {t("homepage.hero.description") as string}
             </p>
-            <p className="text-sm text-muted-foreground/80 mb-8 max-w-xl mx-auto flex items-center justify-center gap-2">
-              <ShieldIcon size="sm" className="text-primary" />
-              Legal guidance provided by Lucero Legal
-            </p>
+            <div className="mb-8" />
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="gap-2">
                 <Link href="/provinces">
@@ -136,11 +129,6 @@ export default function Home() {
       <section className="py-4 bg-primary/5 border-y">
         <div className="container mx-auto px-5">
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2">
-              <CheckCircleIcon size="sm" className="text-primary" />
-              <span>Sponsored by Lucero Legal</span>
-            </div>
-            <div className="hidden sm:block w-px h-4 bg-border" />
             <div className="flex items-center gap-2">
               <UsersIcon size="sm" className="text-primary" />
               <span>Trusted by 50,000+ readers</span>
@@ -309,9 +297,6 @@ export default function Home() {
 
       {/* Testimonials */}
       <GeneralTestimonials />
-
-      {/* Lucero Legal CTA */}
-      <LuceroLegalCTA variant="full" />
     </div>
   );
 }

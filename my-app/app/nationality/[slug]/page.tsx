@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: NationalityPageProps): Promis
   
   if (!nat) {
     return {
-      title: "Nationality Not Found | Expats Argentina",
+      title: "Nationality Not Found",
     };
   }
 

@@ -31,11 +31,11 @@ export async function generateMetadata({
   const comparison = getVisaComparisonBySlug(slug);
 
   if (!comparison) {
-    return { title: "Comparison Not Found | Expats Argentina" };
+    return { title: "Comparison Not Found" };
   }
 
   return {
-    title: `${comparison.title}: Which Is Right for You? | Expats Argentina`,
+    title: `${comparison.title}: Which Is Right for You?`,
     description: comparison.description,
     keywords: comparison.seoKeywords,
     openGraph: {

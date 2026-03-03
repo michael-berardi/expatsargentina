@@ -271,11 +271,6 @@ export function Navbar() {
         {/* CTA Button & Language Switcher */}
         <div className="hidden lg:flex items-center gap-4">
           <LanguageSwitcher />
-          <Button asChild variant="outline" className="hidden xl:flex">
-            <Link href="https://lucerolegal.com/contact" target="_blank" rel="noopener noreferrer">
-              {locale === 'es' ? "Consulta Legal" : "Legal Help"}
-            </Link>
-          </Button>
           <Button asChild variant="default">
             <Link href="/contact">{contactLabel as string}</Link>
           </Button>
@@ -385,19 +380,6 @@ export function Navbar() {
                   </SheetClose>
                 ))}
               </nav>
-
-              {/* Lucero Legal CTA in Mobile Menu */}
-              <div className="mt-4 p-4 rounded-lg bg-gradient-to-br from-primary/10 to-primary/5 border border-primary/20">
-                <p className="font-semibold text-sm mb-1">{locale === 'es' ? "¿Necesitas ayuda legal?" : "Need Legal Help?"}</p>
-                <p className="text-xs text-muted-foreground mb-3">{locale === 'es' ? "Lucero Legal: Expertos en visas y residencia" : "Lucero Legal: Visa & Residency Experts"}</p>
-                <SheetClose asChild>
-                  <Button asChild size="sm" className="w-full">
-                    <Link href="https://lucerolegal.com/contact" target="_blank" rel="noopener noreferrer">
-                      {locale === 'es' ? "Consulta Gratis" : "Free Consultation"}
-                    </Link>
-                  </Button>
-                </SheetClose>
-              </div>
 
               <SheetClose asChild>
                 <Button asChild className="mt-4">

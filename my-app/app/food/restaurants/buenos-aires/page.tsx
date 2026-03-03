@@ -19,7 +19,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata: Metadata = {
-  title: "Best Restaurants in Buenos Aires | Top 40 Guide | Expats Argentina",
+  title: "Best Restaurants in Buenos Aires - Top 40 Guide",
   description: "The definitive guide to Buenos Aires restaurants—from world-famous parrillas like Don Julio to hidden local gems. Top 40 restaurants by category with prices, reservations tips, and what to order.",
   keywords: ["buenos aires restaurants", "best restaurants buenos aires", "parrillas buenos aires", "don julio", "buenos aires dining guide", "where to eat buenos aires"],
   openGraph: {

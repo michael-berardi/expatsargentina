@@ -108,7 +108,7 @@ export async function generateMetadata({ params }: VisaNationalityPageProps): Pr
   
   if (!visa || !nat) {
     return {
-      title: "Not Found | Expats Argentina",
+      title: "Not Found",
     };
   }
 

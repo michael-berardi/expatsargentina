@@ -18,7 +18,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "Best Restaurants in Bariloche | Patagonia Dining Guide | Expats Argentina",
+  title: "Best Restaurants in Bariloche - Patagonia Dining Guide",
   description: "Where to eat in Bariloche, the gateway to Patagonia. From lakeside dining to traditional cordero, discover the best restaurants in Argentina's Lake District.",
   keywords: ["Bariloche restaurants", "Patagonia dining", "Bariloche food guide", "Lake District restaurants", "where to eat Bariloche"],
   openGraph: {

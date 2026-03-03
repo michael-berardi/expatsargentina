@@ -14,11 +14,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "Authentic Argentine Recipes | Expats Argentina",
+  title: "Authentic Argentine Recipes",
   description: "Learn to cook authentic Argentine dishes: empanadas, chimichurri, asado, milanesa, and more. Step-by-step recipes with local tips and ingredient sourcing advice.",
   keywords: ["argentine recipes", "empanadas recipe", "chimichurri recipe", "asado recipe", "authentic argentine food", "cook argentine"],
   openGraph: {
-    title: "Authentic Argentine Recipes | Expats Argentina",
+    title: "Authentic Argentine Recipes",
     description: "Learn to cook authentic Argentine dishes with our step-by-step recipes and local tips.",
     images: [{ url: "/images/recipes/empanadas.webp", width: 1200, height: 630 }],
   },

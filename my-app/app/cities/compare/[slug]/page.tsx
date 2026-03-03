@@ -33,13 +33,13 @@ export async function generateMetadata({
   const comparison = getComparisonBySlug(slug);
 
   if (!comparison) {
-    return { title: "Comparison Not Found | Expats Argentina" };
+    return { title: "Comparison Not Found" };
   }
 
   const { city1 } = getComparisonCities(comparison);
 
   return {
-    title: `${comparison.title}: Which Is Better for Expats? | Expats Argentina`,
+    title: `${comparison.title}: Which Is Better for Expats?`,
     description: comparison.description,
     keywords: comparison.seoKeywords,
     openGraph: {

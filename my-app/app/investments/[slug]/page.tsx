@@ -36,11 +36,11 @@ export async function generateMetadata({
   const sector = getSectorBySlug(slug);
 
   if (!sector) {
-    return { title: "Investment Sector Not Found | Expats Argentina" };
+    return { title: "Investment Sector Not Found" };
   }
 
   return {
-    title: `${sector.name} in Argentina | Investment Guide | Expats Argentina`,
+    title: `${sector.name} in Argentina - Investment Guide`,
     description: `${sector.description} Updated 2026 analysis of opportunities, risks, legal considerations, and regional breakdowns for ${sector.shortName.toLowerCase()} investment in Argentina.`,
     keywords: [
       `${sector.shortName.toLowerCase()} investment Argentina`,
@@ -408,7 +408,7 @@ export default async function InvestmentSectorPage({
                     </p>
                     <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                       <Button asChild variant="outline">
-                        <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer">
                           <GlobeIcon size="sm" className="mr-2" />
                           Consult Lucero Legal
                         </Link>
@@ -441,7 +441,7 @@ export default async function InvestmentSectorPage({
             </p>
             <p className="text-xs text-muted-foreground text-center">
               Legal services provided by{" "}
-              <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:underline">
+              <Link href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:underline">
                 Lucero Legal
               </Link>
               . This content is produced independently by Expats Argentina.

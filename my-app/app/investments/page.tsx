@@ -66,7 +66,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "Investment Opportunities in Argentina | Expats Argentina",
+  title: "Investment Opportunities in Argentina",
   description:
     "Discover investment opportunities in Argentina: real estate, agriculture, mining, energy, technology, and tourism. Updated 2026 data on Milei reforms, RIGI incentives, and market conditions.",
   keywords: [
@@ -203,7 +203,7 @@ export default function InvestmentsPage() {
                     "Foreign land ownership restrictions revoked (Dec 2023)",
                     "RIGI program: 25% corporate tax for 30 years",
                     "Capital controls partially lifted (April 2025)",
-                    "Full capital control elimination planned by end of 2025",
+                    "Full capital control elimination completed (2025)",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm">
                       <ShieldIcon size="sm" className="text-emerald-600 mt-0.5 shrink-0" />
@@ -226,15 +226,15 @@ export default function InvestmentsPage() {
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
-                      <span className="text-emerald-600 font-medium">Q2 2025:</span>
-                      <span>Capital control elimination timeline</span>
+                      <span className="text-emerald-600 font-medium">2026:</span>
+                      <span>Post-capital control economic liberalization</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-emerald-600 font-medium">Ongoing:</span>
                       <span>RIGI large investment applications</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-emerald-600 font-medium">2025:</span>
+                      <span className="text-emerald-600 font-medium">2026:</span>
                       <span>Provincial tax harmonization efforts</span>
                     </li>
                   </ul>
@@ -430,7 +430,7 @@ export default function InvestmentsPage() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                       <Button asChild variant="outline">
-                        <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer">
                           <ArrowRightIcon size="sm" className="mr-2" />
                           Consult Lucero Legal
                         </Link>
@@ -498,7 +498,7 @@ export default function InvestmentsPage() {
             </p>
             <p className="text-xs text-muted-foreground text-center">
               Legal services for international investors provided by{" "}
-              <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:underline">
+              <Link href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:underline">
                 Lucero Legal
               </Link>
               {" "}— specializing in investment structuring, residency visas, and regulatory compliance.

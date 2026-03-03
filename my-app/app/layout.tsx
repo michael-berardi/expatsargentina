@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Expats Argentina | Guide to Living in Argentina",
+    default: "Expats Argentina - Your Guide to Living in Argentina",
     template: "%s | Expats Argentina",
   },
   description: "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina. Not just Buenos Aires.",

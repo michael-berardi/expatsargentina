@@ -12,7 +12,7 @@ import {
 import { visaComparisons } from "@/lib/data/visa-comparisons";
 
 export const metadata: Metadata = {
-  title: "Compare Argentina Visa Types for Expats | Expats Argentina",
+  title: "Compare Argentina Visa Types for Expats",
   description:
     "Side-by-side comparisons of Argentina's visa options. Compare digital nomad, work, retirement, investment, and student visas to find the right one for your move.",
   keywords: [

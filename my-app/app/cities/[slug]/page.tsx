@@ -36,11 +36,11 @@ export async function generateMetadata({
   const city = getCityBySlug(slug);
 
   if (!city) {
-    return { title: "City Not Found | Expats Argentina" };
+    return { title: "City Not Found" };
   }
 
   return {
-    title: `Living in ${city.name}, Argentina - Expat Guide | Expats Argentina`,
+    title: `Living in ${city.name}, Argentina - Expat Guide`,
     description: `Complete expat guide to ${city.name}, ${city.province}. Cost of living ${city.costOfLiving}, neighborhoods, safety, internet, climate, and tips for moving to ${city.name}.`,
     keywords: [
       `${city.name} expats`,

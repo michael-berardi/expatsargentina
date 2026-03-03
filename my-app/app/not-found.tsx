@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Page Not Found | Expats Argentina",
+  title: "Page Not Found",
   description: "The page you're looking for doesn't exist. Explore our guides to living in Argentina.",
 };
 

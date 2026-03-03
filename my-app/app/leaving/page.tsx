@@ -35,7 +35,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Leaving Argentina: A Complete Guide | Expats Argentina",
+  title: "Leaving Argentina: A Complete Guide",
   description: "Everything you need to know about leaving Argentina temporarily or permanently. From practical preparations to emotional readiness.",
   keywords: ["leaving Argentina", "emigrar Argentina", "expat departure", "Argentina exit guide", "reverse culture shock"],
   alternates: { canonical: "https://expatsargentina.com/leaving" },
@@ -358,7 +358,7 @@ export default function LeavingGuidePage() {
         
         <div className="relative max-w-5xl mx-auto px-4 py-20 sm:px-6 lg:px-8">
           <Link 
-            href="/guides" 
+            href="/" 
             className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />

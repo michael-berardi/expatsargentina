@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Clock, Calendar, ArrowRight, BookOpen } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog | Expats Argentina Guides & Tips",
+  title: "Blog - Guides & Tips",
   description: "Expert articles for expats moving to Argentina. Visa guides, cost of living, neighborhoods, culture, and practical advice from our team across the country.",
   keywords: ["expats argentina blog", "living in argentina tips", "argentina visa guide", "buenos aires expat", "move to argentina"],
   openGraph: {
@@ -224,7 +224,7 @@ export default function BlogPage() {
               {categories.map((category) => (
                 <Card key={category.slug} className="group hover:border-primary/50 transition-colors">
                   <CardContent className="p-6">
-                    <Link href={`/resources?category=${category.slug}`} className="block">
+                    <Link href={`/blog?category=${category.slug}`} className="block">
                       <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors">
                         {category.name}
                       </h3>

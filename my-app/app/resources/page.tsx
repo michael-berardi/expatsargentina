@@ -50,7 +50,7 @@ const serviceProviders = {
       rating: 5,
       reviews: 47,
       notes: "English-speaking, specializes in expat cases. Partner firm of this site.",
-      verified: "2025-02",
+      verified: "2026-02",
     },
     {
       name: "Estudio Jurídico Pérez & Asoc.",
@@ -61,7 +61,7 @@ const serviceProviders = {
       rating: 4,
       reviews: 23,
       notes: "Good for company formation. Some English support.",
-      verified: "2025-01",
+      verified: "2026-01",
     },
     {
       name: "Immigration BA",
@@ -72,7 +72,7 @@ const serviceProviders = {
       rating: 4,
       reviews: 31,
       notes: "Fast turnaround on residency applications. Cash only.",
-      verified: "2025-02",
+      verified: "2026-02",
     },
   ],
   realEstate: [
@@ -85,7 +85,7 @@ const serviceProviders = {
       rating: 5,
       reviews: 89,
       notes: "Specializes in helping foreigners rent without local guarantor. Speaks English.",
-      verified: "2025-02",
+      verified: "2026-02",
     },
     {
       name: "Properati BA",
@@ -96,7 +96,7 @@ const serviceProviders = {
       rating: 4,
       reviews: 156,
       notes: "Large database. Some agents speak English. Verify listings exist before visiting.",
-      verified: "2025-01",
+      verified: "2026-01",
     },
     {
       name: "Rent in Buenos Aires",
@@ -121,7 +121,7 @@ const serviceProviders = {
       rating: 5,
       reviews: 34,
       notes: "Specializes in expat tax situations. Explains things in English. Worth every peso.",
-      verified: "2025-02",
+      verified: "2026-02",
     },
     {
       name: "Estudio Contable Martínez",
@@ -132,7 +132,7 @@ const serviceProviders = {
       rating: 4,
       reviews: 28,
       notes: "Good for setting up monotributo (simplified tax regime). Spanish only.",
-      verified: "2025-01",
+      verified: "2026-01",
     },
   ],
   healthcare: [
@@ -145,7 +145,7 @@ const serviceProviders = {
       rating: 5,
       reviews: 203,
       notes: "Excellent English-speaking staff. Direct billing with most prepagas.",
-      verified: "2025-02",
+      verified: "2026-02",
     },
     {
       name: "Hospital Italiano",
@@ -156,7 +156,7 @@ const serviceProviders = {
       rating: 5,
       reviews: 178,
       notes: "Top-tier care. Many English-speaking doctors. Can be expensive without insurance.",
-      verified: "2025-02",
+      verified: "2026-02",
     },
     {
       name: "Swiss Medical Center",
@@ -167,7 +167,7 @@ const serviceProviders = {
       rating: 4,
       reviews: 145,
       notes: "Premium service. English-speaking staff. Requires Swiss Medical prepaga.",
-      verified: "2025-01",
+      verified: "2026-01",
     },
   ],
   translators: [
@@ -180,7 +180,7 @@ const serviceProviders = {
       rating: 5,
       reviews: 67,
       notes: "Certified translator for court documents. Fast turnaround (24-48h).",
-      verified: "2025-02",
+      verified: "2026-02",
     },
     {
       name: "Traductora Pública María González",
@@ -191,7 +191,7 @@ const serviceProviders = {
       rating: 4,
       reviews: 45,
       notes: "Good rates. Can handle apostille requirements. Email preferred.",
-      verified: "2025-01",
+      verified: "2026-01",
     },
   ],
 };
@@ -1183,7 +1183,7 @@ export default function ResourcesPage() {
               our partner Lucero Legal specializes in expat immigration in Argentina.
             </p>
             <Button asChild size="lg" variant="secondary">
-              <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=resources-cta" target="_blank" rel="noopener noreferrer">
+              <Link href="https://lucerolegal.com?utm_source=expatsargentina&utm_medium=resources-cta" target="_blank" rel="noopener noreferrer">
                 Get Free Consultation
                 <ArrowRightIcon size="sm" className="ml-2" />
               </Link>

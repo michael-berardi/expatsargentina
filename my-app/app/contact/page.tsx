@@ -25,7 +25,7 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Expats Argentina",
+  title: "Contact Us",
   description: "Get in touch with Expats Argentina. Questions, feedback, or partnership inquiries - we'd love to hear from you.",
   keywords: ["contact Expats Argentina", "Argentina expat help", "moving to Argentina questions"],
   alternates: {
@@ -394,7 +394,7 @@ export default function ContactPage() {
                     Need professional legal assistance with visas, residency, or business formation? Our partner Lucero Legal specializes in expat immigration.
                   </p>
                   <Button asChild variant="outline" size="sm">
-                    <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=contact-card" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://lucerolegal.com?utm_source=expatsargentina&utm_medium=contact-card" target="_blank" rel="noopener noreferrer">
                       Get Consultation
                       <ArrowRightIcon size="sm" className="ml-2" />
                     </Link>

@@ -904,7 +904,7 @@ export default function RemoteWorkPage() {
           <div className="bg-gradient-to-r from-pink-50 to-rose-50 p-6 rounded-xl border border-pink-200">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Monthly Budgets for Different Lifestyles</h3>
             <p className="text-gray-600 mb-6">
-              Based on 2024-2025 prices. Assumes you're using the blue rate effectively.
+              Based on 2025-2026 prices. Assumes you're using the blue rate effectively.
             </p>
             
             <div className="grid md:grid-cols-3 gap-6">

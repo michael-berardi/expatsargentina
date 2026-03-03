@@ -35,11 +35,11 @@ export async function generateMetadata({
   const recipe = getRecipeBySlug(slug);
 
   if (!recipe) {
-    return { title: "Recipe Not Found | Expats Argentina" };
+    return { title: "Recipe Not Found" };
   }
 
   return {
-    title: `${recipe.name} | Authentic Argentine Recipe | Expats Argentina`,
+    title: `${recipe.name} - Authentic Argentine Recipe`,
     description: `${recipe.description} Prep time: ${recipe.prepTime}. Serves ${recipe.servings}.`,
     keywords: recipe.seoKeywords,
     openGraph: {
@@ -82,7 +82,7 @@ export default async function RecipePage({
       "@type": "Organization",
       name: "Expats Argentina",
     },
-    datePublished: "2025-01-01",
+    datePublished: "2026-01-01",
     prepTime: `PT${recipe.prepTime.replace(/\D/g, "")}M`,
     cookTime: `PT${recipe.cookTime.replace(/\D/g, "")}M`,
     totalTime: `PT${parseInt(recipe.prepTime) + parseInt(recipe.cookTime)}M`,

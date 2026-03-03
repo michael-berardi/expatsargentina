@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button";
 import { Globe, ArrowRight, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Immigration by Nationality | Expats Argentina",
+  title: "Immigration by Nationality",
   description: "Country-specific immigration guidance for moving to Argentina. Visa requirements, special agreements, and pathways by nationality.",
   keywords: ["argentina visa by country", "immigration requirements", "nationality guide", "mercosur visa"],
   openGraph: {
-    title: "Immigration by Nationality | Expats Argentina",
+    title: "Immigration by Nationality",
     description: "Find visa requirements and pathways to Argentina based on your citizenship.",
     type: "website",
   },

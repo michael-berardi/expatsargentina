@@ -68,9 +68,9 @@ function CostOfLivingStructuredData() {
 }
 
 export const metadata: Metadata = {
-  title: "Cost of Living in Argentina 2025",
+  title: "Cost of Living in Argentina 2026",
   description:
-    "Real cost of living numbers for Argentina in 2025. Monthly budgets for Buenos Aires, Mendoza, Cordoba with actual rent, food, and transport prices.",
+    "Real cost of living numbers for Argentina in 2026. Monthly budgets for Buenos Aires, Mendoza, Cordoba with actual rent, food, and transport prices.",
   alternates: {
     canonical: "https://expatsargentina.com/cost-of-living/",
   },
@@ -137,7 +137,7 @@ export default function CostOfLivingPage() {
         <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4">
-              Updated February 2025
+              Updated February 2026
             </Badge>
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
               Cost of Living in Argentina
@@ -167,7 +167,7 @@ export default function CostOfLivingPage() {
                   The Bottom Line First
                 </h2>
                 <p className="text-muted-foreground mb-4">
-                  Argentina remains one of Latin America most affordable countries
+                  Argentina remains one of Latin America's most affordable countries
                   for expats, despite years of high inflation. A single person
                   can live comfortably on $800–$1,200 per month in Buenos Aires.
                   Smaller cities drop that to $600–$900.
@@ -271,7 +271,7 @@ export default function CostOfLivingPage() {
                   Food & Dining
                 </h2>
                 <p className="text-muted-foreground mb-4">
-                  Argentina food scene is a highlight for many expats. Steak
+                  Argentina's food scene is a highlight for many expats. Steak
                   dinners at traditional parrillas run $15–$25 with wine. A
                   cafeteria-style lunch (menú del día) costs $4–$6.
                 </p>
@@ -360,9 +360,9 @@ export default function CostOfLivingPage() {
               </section>
 
               {/* Lucero Legal CTA */}
-              <LuceroLegalCTA 
-                title="Planning Your Move?"
-                description="Lucero Legal helps expats navigate Argentine immigration law. From digital nomad visas to permanent residency, they handle the paperwork so you can focus on your new life."
+              <LuceroLegalCTA
+                title="Planning your move?"
+                description="can help with visas and residency paperwork."
               />
             </article>
           </div>

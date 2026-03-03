@@ -14,7 +14,7 @@ import { cities } from "@/lib/data/argentina";
 import { cityComparisons } from "@/lib/data/comparisons";
 
 export const metadata: Metadata = {
-  title: "Best Cities for Expats in Argentina | Expats Argentina",
+  title: "Best Cities for Expats in Argentina",
   description:
     "Best cities in Argentina for expats. Compare cost of living, safety, internet, and lifestyle across Buenos Aires, Mendoza, Cordoba, and more.",
   keywords: [

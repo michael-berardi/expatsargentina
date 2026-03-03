@@ -16,7 +16,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "Best Restaurants in Córdoba | Argentina's Second City Dining | Expats Argentina",
+  title: "Best Restaurants in Córdoba - Argentina's Second City Dining",
   description: "Where to eat in Córdoba, Argentina's second largest city. From historic center classics to Nueva Córdoba's modern dining scene.",
   keywords: ["Córdoba restaurants", "Córdoba dining", "Nueva Córdoba food", "historic center restaurants", "where to eat Córdoba"],
   openGraph: {

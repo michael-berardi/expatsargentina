@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "Cordoba",
   ],
   openGraph: {
-    title: "Explore Argentina's Provinces | Expats Argentina",
+    title: "Explore Argentina's Provinces",
     description:
       "Discover all 24 provinces of Argentina. Compare cost of living, climate, safety, and expat appeal across every region.",
     images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],

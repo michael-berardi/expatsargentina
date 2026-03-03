@@ -71,7 +71,7 @@ export async function generateMetadata({
       ...province.majorCities.slice(0, 3),
     ],
     openGraph: {
-      title: `${province.name} | Expats Argentina`,
+      title: `${province.name} - Province Guide`,
       description: desc,
       images: [{ url: province.image, width: 1200, height: 630 }],
     },

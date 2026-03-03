@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "Restaurant Guides | Buenos Aires, Mendoza, Salta & More | Expats Argentina",
+  title: "Restaurant Guides - Buenos Aires, Mendoza, Salta & More",
   description: "Comprehensive restaurant guides for Buenos Aires, Mendoza, Bariloche, Córdoba, Rosario, Salta and more. From world-famous parrillas to hidden local gems.",
   keywords: ["argentina restaurants", "buenos aires dining", "mendoza restaurants", "bariloche dining", "cordoba restaurants", "rosario restaurants", "salta restaurants"],
   alternates: { canonical: "https://expatsargentina.com/food/restaurants" },

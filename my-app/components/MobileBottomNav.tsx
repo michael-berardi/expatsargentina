@@ -3,15 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Home, Compass, FileText, MapPin, Menu, Phone } from "lucide-react";
+import { Home, Compass, FileText, MapPin, Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Button } from "@/components/ui/button";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
   { href: "/visas", label: "Visas", icon: FileText },
   { href: "/cities", label: "Cities", icon: MapPin },
-  { href: "/guides", label: "Guides", icon: Compass },
+  { href: "/cost-of-living", label: "Guides", icon: Compass },
 ];
 
 export function MobileBottomNav() {
@@ -77,13 +76,12 @@ export function MobileBottomNav() {
                 </div>
                 
                 <div className="mt-6 pt-6 border-t">
-                  <p className="text-sm text-muted-foreground mb-3">Need immigration help?</p>
-                  <Button asChild className="w-full">
-                    <a href="https://lucerolegal.com" target="_blank" rel="noopener">
-                      <Phone className="h-4 w-4 mr-2" />
-                      Contact Lucero Legal
+                  <p className="text-xs text-muted-foreground">
+                    Need immigration legal help?{" "}
+                    <a href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                      Lucero Legal
                     </a>
-                  </Button>
+                  </p>
                 </div>
               </div>
             </SheetContent>

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: ProfessionPageProps): Promise
   
   if (!prof) {
     return {
-      title: "Profession Not Found | Expats Argentina",
+      title: "Profession Not Found",
     };
   }
 
@@ -40,9 +40,9 @@ export async function generateMetadata({ params }: ProfessionPageProps): Promise
   if (title.length > 45) {
     title = `${prof.name} in Argentina`;
   }
-  
+
   return {
-    title: `${title} | Expats Argentina`,
+    title: title,
     description: prof.description,
     keywords: [prof.name.toLowerCase(), "argentina visa", "work in argentina", prof.category],
     openGraph: {

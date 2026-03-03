@@ -27,12 +27,12 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   
   if (!post) {
     return {
-      title: "Article Not Found | Expats Argentina",
+      title: "Article Not Found",
     };
   }
 
   return {
-    title: `${post.title} | Expats Argentina Blog`,
+    title: `${post.title}`,
     description: post.excerpt,
     keywords: post.tags,
     authors: [{ name: post.author.name }],

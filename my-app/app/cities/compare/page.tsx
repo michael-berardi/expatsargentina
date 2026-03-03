@@ -12,7 +12,7 @@ import {
 import { cityComparisons, getComparisonCities } from "@/lib/data/comparisons";
 
 export const metadata: Metadata = {
-  title: "Compare Argentine Cities for Expats | Expats Argentina",
+  title: "Compare Argentine Cities for Expats",
   description:
     "Side-by-side comparisons of Argentina's top expat cities. Compare cost of living, safety, nightlife, internet, and lifestyle to find your ideal city.",
   keywords: [

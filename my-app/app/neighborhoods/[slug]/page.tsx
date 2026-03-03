@@ -39,18 +39,18 @@ export async function generateMetadata({
   const hood = getNeighborhoodBySlug(slug);
 
   if (!hood) {
-    return { title: "Neighborhood Not Found | Expats Argentina" };
+    return { title: "Neighborhood Not Found" };
   }
 
   return {
-    title: `${hood.name}, Buenos Aires | Expat Guide 2026`,
-    description: `Living in ${hood.name}, Buenos Aires. Rent ${hood.rentRange}/month, safety: ${hood.safety}, transport: ${hood.transport}. Honest review with pros, cons, and tips for expats.`,
+    title: `${hood.name}, ${hood.city} | Expat Guide 2026`,
+    description: `Living in ${hood.name}, ${hood.city}. Rent ${hood.rentRange}/month, safety: ${hood.safety}, transport: ${hood.transport}. Honest review with pros, cons, and tips for expats.`,
     keywords: [
-      `${hood.name} Buenos Aires expats`,
+      `${hood.name} ${hood.city} expats`,
       `living in ${hood.name}`,
       `${hood.name} rent prices 2026`,
       `${hood.name} safety`,
-      `best neighborhoods Buenos Aires`,
+      `best neighborhoods ${hood.city}`,
     ],
     openGraph: {
       title: `${hood.name} - Expat Neighborhood Guide 2026`,
@@ -97,15 +97,21 @@ export default async function NeighborhoodDetailPage({
   const photos = getNeighborhoodPhotos(slug);
   const currentDate = new Date().toISOString();
 
+  const regionMap: Record<string, string> = {
+    "Buenos Aires": "CABA",
+    "Mendoza": "Mendoza",
+    "Córdoba": "Córdoba",
+  };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Place",
-    name: `${hood.name}, Buenos Aires`,
+    name: `${hood.name}, ${hood.city}`,
     description: hood.description,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Buenos Aires",
-      addressRegion: "CABA",
+      addressLocality: hood.city,
+      addressRegion: regionMap[hood.city] || hood.city,
       addressCountry: "AR",
     },
     geo: {
@@ -165,7 +171,7 @@ export default async function NeighborhoodDetailPage({
                 <div className="flex items-center gap-3 mb-4">
                   <Badge variant="secondary">
                     <MapPinIcon size="sm" className="mr-1" />
-                    {hood.zone} Buenos Aires
+                    {hood.zone} {hood.city}
                   </Badge>
                   <div className="flex items-center gap-1 bg-amber-100 dark:bg-amber-900/30 px-3 py-1 rounded-full">
                     <StarIcon size="sm" className="text-amber-600 fill-amber-600" />
@@ -533,10 +539,9 @@ export default async function NeighborhoodDetailPage({
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <RelatedForCity citySlug="buenos-aires" />
-              <LuceroLegalCTA 
+              <LuceroLegalCTA
                 variant="sidebar"
-                title="Moving to Buenos Aires?"
-                description="Lucero Legal helps expats with visas, residency, and legal matters when relocating to Argentina. Get expert guidance on your move."
+                title="Need help with visas or residency?"
               />
             </div>
           </div>
@@ -549,7 +554,7 @@ export default async function NeighborhoodDetailPage({
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Move to {hood.name}?</h2>
             <p className="text-primary-foreground/80 mb-8">
-              Compare all Buenos Aires neighborhoods, check current rent prices,
+              Compare all {hood.city} neighborhoods, check current rent prices,
               and get our complete moving guide.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

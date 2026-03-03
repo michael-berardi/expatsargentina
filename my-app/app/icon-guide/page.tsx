@@ -246,10 +246,10 @@ export default function IconGuidePage() {
               <div className="flex items-center gap-4">
                 <Badge variant="secondary">
                   <GlobeIcon size="sm" className="mr-1" />
-                  Updated 2025
+                  Updated 2026
                 </Badge>
                 <code className="text-sm bg-muted px-2 py-1 rounded">
-                  {`<Badge><GlobeIcon size="sm" /> Updated 2025</Badge>`}
+                  {`<Badge><GlobeIcon size="sm" /> Updated 2026</Badge>`}
                 </code>
               </div>
 
