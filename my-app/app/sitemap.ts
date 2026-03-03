@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact/`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/cost-of-living/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/culture/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-profiles/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/first-30-days/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/healthcare/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/housing/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
@@ -33,13 +34,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/neighborhoods/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
 
     { url: `${BASE_URL}/pet-importation/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/privacy/`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE_URL}/remote-work/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/resources/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/safety/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/site-map/`, lastModified: now, changeFrequency: "weekly", priority: 0.3 },
     { url: `${BASE_URL}/social-life/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/stories/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/transportation/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/why-argentina/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/wine/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    // Guide pages
+    { url: `${BASE_URL}/guides/getting-started/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/guides/getting-dni/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/guides/working-taxes/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     // Visa pages
     { url: `${BASE_URL}/visas/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/visas/digital-nomad/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
@@ -51,6 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/visas/temporary/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/visas/permanent/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/visas/citizenship/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/visas/quiz/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     // Food pages
     { url: `${BASE_URL}/food/`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/food/recipes/`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
