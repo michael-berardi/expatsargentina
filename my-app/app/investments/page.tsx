@@ -430,7 +430,7 @@ export default function InvestmentsPage() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                       <Button asChild variant="outline">
-                        <Link href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer">
                           <ArrowRightIcon size="sm" className="mr-2" />
                           Consult Lucero Legal
                         </Link>
@@ -498,7 +498,7 @@ export default function InvestmentsPage() {
             </p>
             <p className="text-xs text-muted-foreground text-center">
               Legal services for international investors provided by{" "}
-              <Link href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:underline">
+              <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:underline">
                 Lucero Legal
               </Link>
               {" "}— specializing in investment structuring, residency visas, and regulatory compliance.

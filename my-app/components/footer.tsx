@@ -208,7 +208,7 @@ export function Footer() {
           </p>
           <p className="text-xs text-muted-foreground text-center md:text-right">
             {legalServices}{" "}
-            <Link href="https://lucerolegal.com" className="hover:text-foreground transition-colors">
+            <Link href="https://lucerolegal.org" className="hover:text-foreground transition-colors">
               Lucero Legal
             </Link>
             . {disclaimer}

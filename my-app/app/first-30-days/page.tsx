@@ -1237,7 +1237,7 @@ export default function First30DaysPage() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline">
-                <Link href="https://lucerolegal.com?utm_source=expatsargentina&utm_medium=first30days-cta" target="_blank" rel="noopener noreferrer">
+                <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=first30days-cta" target="_blank" rel="noopener noreferrer">
                   Get Legal Help
                 </Link>
               </Button>

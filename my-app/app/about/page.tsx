@@ -343,7 +343,7 @@ export default function AboutPage() {
                 </Link>
               </Button>
               <Button asChild variant="outline">
-                <Link href="https://lucerolegal.com?utm_source=expatsargentina&utm_medium=about-cta" target="_blank" rel="noopener noreferrer">
+                <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=about-cta" target="_blank" rel="noopener noreferrer">
                   Get Legal Help
                   <ArrowRightIcon size="sm" className="ml-2" />
                 </Link>

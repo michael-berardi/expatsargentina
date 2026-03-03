@@ -46,7 +46,7 @@ const serviceProviders = {
       specialty: "Digital Nomad Visas, Residency, Citizenship",
       phone: "+54 11 1234-5678",
       address: "Av. Libertador 1234, Recoleta",
-      website: "https://lucerolegal.com",
+      website: "https://lucerolegal.org",
       rating: 5,
       reviews: 47,
       notes: "English-speaking, specializes in expat cases. Partner firm of this site.",
@@ -1183,7 +1183,7 @@ export default function ResourcesPage() {
               our partner Lucero Legal specializes in expat immigration in Argentina.
             </p>
             <Button asChild size="lg" variant="secondary">
-              <Link href="https://lucerolegal.com?utm_source=expatsargentina&utm_medium=resources-cta" target="_blank" rel="noopener noreferrer">
+              <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=resources-cta" target="_blank" rel="noopener noreferrer">
                 Get Free Consultation
                 <ArrowRightIcon size="sm" className="ml-2" />
               </Link>

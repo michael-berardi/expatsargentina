@@ -90,8 +90,7 @@ export default function PrivacyPage() {
               <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-4">
                 <li>
                   <strong>Contact information:</strong> Your name and email
-                  address when you use our contact form or subscribe to our
-                  newsletter.
+                  address when you use our contact form.
                 </li>
                 <li>
                   <strong>Inquiry details:</strong> Questions or comments you
@@ -202,7 +201,6 @@ export default function PrivacyPage() {
                 </li>
                 <li>
                   <strong>To communicate with you:</strong> Responding to your inquiries,
-                  sending newsletter updates (if you have subscribed), and
                   providing information you have requested about living in
                   Argentina.
                 </li>
@@ -242,7 +240,7 @@ export default function PrivacyPage() {
                   partner Lucero Legal for immigration assistance, you leave our
                   site and their privacy policy applies.{" "}
                   <a
-                    href="https://lucerolegal.com"
+                    href="https://lucerolegal.org"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
@@ -273,11 +271,6 @@ export default function PrivacyPage() {
                 <li>
                   <strong>Contact form submissions:</strong> Retained for up to
                   12 months after your last interaction, then deleted.
-                </li>
-                <li>
-                  <strong>Newsletter subscriptions:</strong> Your email is
-                  retained until you unsubscribe. You can unsubscribe at any time
-                  using the link in every email we send.
                 </li>
                 <li>
                   <strong>Analytics data:</strong> Anonymized analytics data is

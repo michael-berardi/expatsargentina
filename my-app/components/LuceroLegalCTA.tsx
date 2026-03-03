@@ -14,7 +14,7 @@ export function LuceroLegalCTA({
       <div className="text-sm text-muted-foreground">
         <p className="mb-1">{title}</p>
         <p>
-          <a href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+          <a href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
             Lucero Legal
           </a>{" "}
           can assist with visas and residency.
@@ -28,7 +28,7 @@ export function LuceroLegalCTA({
       <div className="py-6 text-center text-sm text-muted-foreground">
         <p>
           {title}{" "}
-          <a href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+          <a href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
             Lucero Legal
           </a>{" "}
           can assist with visas, residency, and immigration paperwork.
@@ -41,7 +41,7 @@ export function LuceroLegalCTA({
   return (
     <p className="text-sm text-muted-foreground my-6">
       {title}{" "}
-      <a href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+      <a href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
         Lucero Legal
       </a>{" "}
       {description}
@@ -55,7 +55,7 @@ export function LuceroLegalCTAMini() {
     <p className="text-xs text-muted-foreground">
       Immigration legal help:{" "}
       <a
-        href="https://lucerolegal.com"
+        href="https://lucerolegal.org"
         target="_blank"
         rel="noopener noreferrer"
         className="text-primary hover:underline"

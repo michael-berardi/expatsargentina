@@ -189,7 +189,7 @@ export default function ContactPage() {
                       For visa and immigration legal advice, contact our partner:
                     </p>
                     <Button asChild variant="outline">
-                      <Link href="https://lucerolegal.com" target="_blank" rel="noopener noreferrer">
+                      <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer">
                         Visit Lucero Legal
                         <ArrowRightIcon size="sm" className="ml-2" />
                       </Link>
@@ -394,7 +394,7 @@ export default function ContactPage() {
                     Need professional legal assistance with visas, residency, or business formation? Our partner Lucero Legal specializes in expat immigration.
                   </p>
                   <Button asChild variant="outline" size="sm">
-                    <Link href="https://lucerolegal.com?utm_source=expatsargentina&utm_medium=contact-card" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=contact-card" target="_blank" rel="noopener noreferrer">
                       Get Consultation
                       <ArrowRightIcon size="sm" className="ml-2" />
                     </Link>
