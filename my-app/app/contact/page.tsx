@@ -189,7 +189,7 @@ export default function ContactPage() {
                       For visa and immigration legal advice, contact our partner:
                     </p>
                     <Button asChild variant="outline">
-                      <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer">
+                      <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=contact" target="_blank" rel="noopener noreferrer">
                         Visit Lucero Legal
                         <ArrowRightIcon size="sm" className="ml-2" />
                       </Link>

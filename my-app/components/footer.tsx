@@ -57,24 +57,28 @@ export function Footer() {
     return key;
   };
 
-  const allProvinces = locale === 'es' ? 'Todas las Provincias' : 'All Provinces';
-  const allCities = locale === 'es' ? 'Todas las Ciudades' : 'All Cities';
-  const expatStories = locale === 'es' ? 'Historias de Expatriados' : 'Expat Stories';
-  const aboutUs = locale === 'es' ? 'Sobre Nosotros' : 'About Us';
-  const privacyPolicy = locale === 'es' ? 'Política de Privacidad' : 'Privacy Policy';
-  const siteMap = locale === 'es' ? 'Mapa del Sitio' : 'Site Map';
-  const provincesLabel = locale === 'es' ? 'Provincias' : 'Provinces';
-  const citiesLabel = locale === 'es' ? 'Ciudades' : 'Cities';
-  const guidesLabel = locale === 'es' ? 'Guías' : 'Guides';
-  const resourcesLabel = locale === 'es' ? 'Recursos' : 'Resources';
-  const companyLabel = locale === 'es' ? 'Empresa' : 'Company';
-  const rights = locale === 'es' ? 'Todos los derechos reservados' : 'All rights reserved';
-  const legalServices = locale === 'es' ? 'Servicios legales:' : 'Legal services:';
-  const disclaimer = locale === 'es' 
+  const allProvinces = locale === 'es' ? 'Todas las Provincias' : locale === 'pt' ? 'Todas as Províncias' : 'All Provinces';
+  const allCities = locale === 'es' ? 'Todas las Ciudades' : locale === 'pt' ? 'Todas as Cidades' : 'All Cities';
+  const expatStories = locale === 'es' ? 'Historias de Expatriados' : locale === 'pt' ? 'Histórias de Expatriados' : 'Expat Stories';
+  const aboutUs = locale === 'es' ? 'Sobre Nosotros' : locale === 'pt' ? 'Sobre Nós' : 'About Us';
+  const privacyPolicy = locale === 'es' ? 'Política de Privacidad' : locale === 'pt' ? 'Política de Privacidade' : 'Privacy Policy';
+  const siteMap = locale === 'es' ? 'Mapa del Sitio' : locale === 'pt' ? 'Mapa do Site' : 'Site Map';
+  const provincesLabel = locale === 'es' ? 'Provincias' : locale === 'pt' ? 'Províncias' : 'Provinces';
+  const citiesLabel = locale === 'es' ? 'Ciudades' : locale === 'pt' ? 'Cidades' : 'Cities';
+  const guidesLabel = locale === 'es' ? 'Guías' : locale === 'pt' ? 'Guias' : 'Guides';
+  const resourcesLabel = locale === 'es' ? 'Recursos' : locale === 'pt' ? 'Recursos' : 'Resources';
+  const companyLabel = locale === 'es' ? 'Empresa' : locale === 'pt' ? 'Empresa' : 'Company';
+  const rights = locale === 'es' ? 'Todos los derechos reservados' : locale === 'pt' ? 'Todos os direitos reservados' : 'All rights reserved';
+  const legalServices = locale === 'es' ? 'Servicios legales:' : locale === 'pt' ? 'Serviços jurídicos:' : 'Legal services:';
+  const disclaimer = locale === 'es'
     ? 'La información proporcionada es solo para fines educativos y no constituye asesoramiento legal.'
+    : locale === 'pt'
+    ? 'As informações fornecidas são apenas para fins educacionais e não constituem aconselhamento jurídico.'
     : 'Information provided is for educational purposes only and not legal advice.';
   const description = locale === 'es'
     ? 'Tu guía completa para vivir en cualquier lugar de Argentina. Explora 24 provincias, más de 15 guías de ciudad, información de visas y consejos prácticos.'
+    : locale === 'pt'
+    ? 'Seu guia completo para viver em qualquer lugar da Argentina. Explore 24 províncias, 15+ guias de cidades, informações de vistos e conselhos práticos.'
     : 'Your comprehensive guide to living anywhere in Argentina. Explore 24 provinces, 15+ city guides, visa information, and practical advice.';
 
   return (
@@ -193,12 +197,12 @@ export function Footer() {
 
         {/* Sister Sites */}
         <div className="flex flex-wrap items-center justify-center gap-6 mb-6 text-sm text-muted-foreground">
-          <span className="font-medium">{locale === 'es' ? 'Sitios relacionados:' : 'Related Resources:'}</span>
+          <span className="font-medium">{locale === 'es' ? 'Sitios relacionados:' : locale === 'pt' ? 'Sites relacionados:' : 'Related Resources:'}</span>
           <a href="https://argentinavisalaw.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-            {locale === 'es' ? 'Ley de Visas Argentina' : 'Argentina Visa Law'}
+            {locale === 'es' ? 'Ley de Visas Argentina' : locale === 'pt' ? 'Lei de Vistos Argentina' : 'Argentina Visa Law'}
           </a>
           <a href="https://buenosairesexpats.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-            {locale === 'es' ? 'Expats Buenos Aires' : 'Buenos Aires Expats'}
+            {locale === 'es' ? 'Expats Buenos Aires' : locale === 'pt' ? 'Expats Buenos Aires' : 'Buenos Aires Expats'}
           </a>
         </div>
 
@@ -208,9 +212,9 @@ export function Footer() {
           </p>
           <p className="text-xs text-muted-foreground text-center md:text-right">
             {legalServices}{" "}
-            <Link href="https://lucerolegal.org" className="hover:text-foreground transition-colors">
+            <a href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=footer" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
               Lucero Legal
-            </Link>
+            </a>
             . {disclaimer}
           </p>
         </div>

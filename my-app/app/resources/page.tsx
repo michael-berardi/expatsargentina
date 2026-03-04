@@ -46,7 +46,7 @@ const serviceProviders = {
       specialty: "Digital Nomad Visas, Residency, Citizenship",
       phone: "+54 11 1234-5678",
       address: "Av. Libertador 1234, Recoleta",
-      website: "https://lucerolegal.org",
+      website: "https://lucerolegal.org?utm_source=expatsargentina&utm_medium=resources-listing",
       rating: 5,
       reviews: 47,
       notes: "English-speaking, specializes in expat cases. Partner firm of this site.",

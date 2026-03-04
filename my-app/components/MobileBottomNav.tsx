@@ -78,7 +78,7 @@ export function MobileBottomNav() {
                 <div className="mt-6 pt-6 border-t">
                   <p className="text-xs text-muted-foreground">
                     Need immigration legal help?{" "}
-                    <a href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                    <a href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=mobile-nav" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                       Lucero Legal
                     </a>
                   </p>

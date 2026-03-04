@@ -240,7 +240,7 @@ export default function PrivacyPage() {
                   partner Lucero Legal for immigration assistance, you leave our
                   site and their privacy policy applies.{" "}
                   <a
-                    href="https://lucerolegal.org"
+                    href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=privacy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"

@@ -324,7 +324,7 @@ export default function DigitalNomadVisaPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" variant="secondary">
-                <Link href="https://lucerolegal.org" target="_blank" rel="noopener noreferrer">
+                <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=visa-digital-nomad" target="_blank" rel="noopener noreferrer">
                   Contact Lucero Legal
                   <ArrowRightIcon size="sm" className="ml-2" />
                 </Link>

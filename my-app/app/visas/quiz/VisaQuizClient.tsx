@@ -783,12 +783,14 @@ export default function VisaQuizClient() {
                 This quiz provides general guidance based on common visa
                 categories. Immigration requirements change frequently. For
                 personalized legal advice, consult an immigration attorney.{" "}
-                <Link
-                  href="https://lucerolegal.org"
+                <a
+                  href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=visa-quiz"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="underline hover:text-foreground"
                 >
                   Lucero Legal
-                </Link>{" "}
+                </a>{" "}
                 specializes in Argentine immigration law.
               </p>
             </div>

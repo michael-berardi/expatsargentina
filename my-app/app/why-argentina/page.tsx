@@ -261,9 +261,9 @@ export default function WhyArgentinaPage() {
                   bank account, or dealing with any official paperwork requires
                   patience. A good immigration lawyer (like{" "}
                   <a
-                    href="https://lucerolegal.org"
+                    href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=why-argentina"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     className="underline"
                   >
                     Lucero Legal
