@@ -1166,7 +1166,7 @@ export default function LearnSpanishPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 md:py-24 bg-gray-50 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+      <section className="py-16 md:py-24 bg-muted -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
           <Accordion type="single" collapsible className="w-full">

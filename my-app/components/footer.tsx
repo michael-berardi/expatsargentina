@@ -3,219 +3,91 @@
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 import { useI18n } from "@/lib/i18n";
-
-const footerLinks = {
-  provinces: [
-    { labelKey: "Buenos Aires", href: "/provinces/buenos-aires-city" },
-    { labelKey: "Cordoba", href: "/provinces/cordoba" },
-    { labelKey: "Mendoza", href: "/provinces/mendoza" },
-    { labelKey: "Salta", href: "/provinces/salta" },
-    { labelKey: "Patagonia", href: "/provinces/rio-negro" },
-    { labelKey: "All Provinces", href: "/provinces" },
-  ],
-  cities: [
-    { labelKey: "Buenos Aires", href: "/cities/buenos-aires" },
-    { labelKey: "Mendoza", href: "/cities/mendoza" },
-    { labelKey: "Cordoba", href: "/cities/cordoba" },
-    { labelKey: "Bariloche", href: "/cities/bariloche" },
-    { labelKey: "Salta", href: "/cities/salta" },
-    { labelKey: "All Cities", href: "/cities" },
-  ],
-  guides: [
-    { labelKey: "navigation.visas", href: "/visas/digital-nomad" },
-    { labelKey: "navigation.costOfLiving", href: "/cost-of-living" },
-    { labelKey: "navigation.healthcare", href: "/healthcare" },
-    { labelKey: "navigation.housing", href: "/housing" },
-    { labelKey: "navigation.banking", href: "/banking" },
-    { labelKey: "navigation.safety", href: "/safety" },
-  ],
-  resources: [
-    { labelKey: "Expat Stories", href: "/stories" },
-    { labelKey: "navigation.remoteWork", href: "/remote-work" },
-    { labelKey: "navigation.learnSpanish", href: "/learn-spanish" },
-    { labelKey: "navigation.transportation", href: "/transportation" },
-    { labelKey: "navigation.food", href: "/food" },
-  ],
-  company: [
-    { labelKey: "About Us", href: "/about" },
-    { labelKey: "navigation.contactUs", href: "/contact" },
-    { labelKey: "Privacy Policy", href: "/privacy" },
-    { labelKey: "Site Map", href: "/site-map" },
-  ],
-};
+import { footerNav, type NavItem } from "@/lib/data/navigation";
 
 export function Footer() {
-  const { t, locale } = useI18n();
-  const currentYear = new Date().getFullYear();
-  
-  // Helper to get translated text
-  const getText = (key: string) => {
-    if (key.startsWith('navigation.')) {
-      return t(key) as string;
-    }
-    // For non-translation keys, return as-is (these are proper nouns)
-    return key;
-  };
+  const { locale } = useI18n();
 
-  const allProvinces = locale === 'es' ? 'Todas las Provincias' : locale === 'pt' ? 'Todas as Províncias' : 'All Provinces';
-  const allCities = locale === 'es' ? 'Todas las Ciudades' : locale === 'pt' ? 'Todas as Cidades' : 'All Cities';
-  const expatStories = locale === 'es' ? 'Historias de Expatriados' : locale === 'pt' ? 'Histórias de Expatriados' : 'Expat Stories';
-  const aboutUs = locale === 'es' ? 'Sobre Nosotros' : locale === 'pt' ? 'Sobre Nós' : 'About Us';
-  const privacyPolicy = locale === 'es' ? 'Política de Privacidad' : locale === 'pt' ? 'Política de Privacidade' : 'Privacy Policy';
-  const siteMap = locale === 'es' ? 'Mapa del Sitio' : locale === 'pt' ? 'Mapa do Site' : 'Site Map';
-  const provincesLabel = locale === 'es' ? 'Provincias' : locale === 'pt' ? 'Províncias' : 'Provinces';
-  const citiesLabel = locale === 'es' ? 'Ciudades' : locale === 'pt' ? 'Cidades' : 'Cities';
-  const guidesLabel = locale === 'es' ? 'Guías' : locale === 'pt' ? 'Guias' : 'Guides';
-  const resourcesLabel = locale === 'es' ? 'Recursos' : locale === 'pt' ? 'Recursos' : 'Resources';
-  const companyLabel = locale === 'es' ? 'Empresa' : locale === 'pt' ? 'Empresa' : 'Company';
-  const rights = locale === 'es' ? 'Todos los derechos reservados' : locale === 'pt' ? 'Todos os direitos reservados' : 'All rights reserved';
-  const legalServices = locale === 'es' ? 'Servicios legales:' : locale === 'pt' ? 'Serviços jurídicos:' : 'Legal services:';
-  const disclaimer = locale === 'es'
-    ? 'La información proporcionada es solo para fines educativos y no constituye asesoramiento legal.'
-    : locale === 'pt'
-    ? 'As informações fornecidas são apenas para fins educacionais e não constituem aconselhamento jurídico.'
-    : 'Information provided is for educational purposes only and not legal advice.';
-  const description = locale === 'es'
-    ? 'Tu guía completa para vivir en cualquier lugar de Argentina. Explora 24 provincias, más de 15 guías de ciudad, información de visas y consejos prácticos.'
-    : locale === 'pt'
-    ? 'Seu guia completo para viver em qualquer lugar da Argentina. Explore 24 províncias, 15+ guias de cidades, informações de vistos e conselhos práticos.'
-    : 'Your comprehensive guide to living anywhere in Argentina. Explore 24 provinces, 15+ city guides, visa information, and practical advice.';
+  const sections: { title: string; items: NavItem[] }[] = [
+    { title: "Provinces", items: footerNav.provinces },
+    { title: "Cities", items: footerNav.cities },
+    { title: "Guides", items: footerNav.guides },
+    { title: "Resources", items: footerNav.resources },
+    { title: "Company", items: footerNav.company },
+  ];
 
   return (
-    <footer className="border-t bg-muted/50">
-      <div className="container mx-auto px-5 py-12 md:py-16">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
+    <footer className="border-t bg-gradient-to-b from-muted/50 to-background">
+      <div className="container mx-auto px-5 py-16 md:py-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
           {/* Brand */}
-          <div className="col-span-2 md:col-span-3 lg:col-span-1">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
                 EA
               </div>
               <span className="font-bold text-xl">Expats Argentina</span>
             </Link>
-            <p className="text-base text-muted-foreground max-w-xs">
-              {description}
+            <p className="text-sm text-muted-foreground max-w-xs">
+              Your comprehensive guide to living in Argentina. Visa guides, cost of living, and expert advice for all 24 provinces.
             </p>
-            <p className="text-base text-muted-foreground mt-3">
+            <p className="text-sm text-muted-foreground mt-2">
               <a href="mailto:hello@expatsargentina.com" className="hover:text-foreground transition-colors">
                 hello@expatsargentina.com
               </a>
             </p>
           </div>
 
-          {/* Provinces */}
-          <div>
-            <h3 className="font-semibold mb-3">{provincesLabel}</h3>
-            <ul className="space-y-2">
-              {footerLinks.provinces.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
-                  >
-                    {link.labelKey === "All Provinces" ? allProvinces : link.labelKey}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* Nav columns */}
+          {sections.map((section) => (
+            <div key={section.title}>
+              <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide text-primary">
+                {section.title}
+              </h3>
+              <ul className="space-y-2">
+                {section.items.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                      className="text-sm text-muted-foreground hover:text-foreground transition-colors inline-flex items-center min-h-[44px]"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
 
-          {/* Cities */}
-          <div>
-            <h3 className="font-semibold mb-3">{citiesLabel}</h3>
-            <ul className="space-y-2">
-              {footerLinks.cities.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
-                  >
-                    {link.labelKey === "All Cities" ? allCities : link.labelKey}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Guides */}
-          <div>
-            <h3 className="font-semibold mb-3">{guidesLabel}</h3>
-            <ul className="space-y-2">
-              {footerLinks.guides.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
-                  >
-                    {getText(link.labelKey)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h3 className="font-semibold mb-3">{resourcesLabel}</h3>
-            <ul className="space-y-2">
-              {footerLinks.resources.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
-                  >
-                    {link.labelKey === "Expat Stories" ? expatStories : 
-                      getText(link.labelKey)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Company */}
-          <div>
-            <h3 className="font-semibold mb-3">{companyLabel}</h3>
-            <ul className="space-y-2">
-              {footerLinks.company.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-base text-muted-foreground hover:text-foreground transition-colors py-1"
-                  >
-                    {link.labelKey === "About Us" ? aboutUs :
-                     link.labelKey === "Privacy Policy" ? privacyPolicy :
-                     link.labelKey === "Site Map" ? siteMap :
-                     getText(link.labelKey)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {/* Sister Sites */}
+        <div className="mt-10 pt-8 border-t border-border">
+          <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide text-primary">Sister Sites</h3>
+          <ul className="flex flex-col sm:flex-row gap-3 sm:gap-6">
+            {footerNav.sisterSites.map((site) => (
+              <li key={site.href}>
+                <Link
+                  href={site.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {site.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
 
         <Separator className="my-8" />
 
-        {/* Sister Sites */}
-        <div className="flex flex-wrap items-center justify-center gap-6 mb-6 text-sm text-muted-foreground">
-          <span className="font-medium">{locale === 'es' ? 'Sitios relacionados:' : locale === 'pt' ? 'Sites relacionados:' : 'Related Resources:'}</span>
-          <a href="https://argentinavisalaw.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-            {locale === 'es' ? 'Ley de Visas Argentina' : locale === 'pt' ? 'Lei de Vistos Argentina' : 'Argentina Visa Law'}
-          </a>
-          <a href="https://buenosairesexpats.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-            {locale === 'es' ? 'Expats Buenos Aires' : locale === 'pt' ? 'Expats Buenos Aires' : 'Buenos Aires Expats'}
-          </a>
-        </div>
-
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-base text-muted-foreground">
-            &copy; {currentYear} Expats Argentina. {rights}.
+          <p className="text-sm text-muted-foreground">
+            &copy; {new Date().getFullYear()} Expats Argentina. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground text-center md:text-right">
-            {legalServices}{" "}
-            <a href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=footer" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-              Lucero Legal
-            </a>
-            . {disclaimer}
+            Information is for general guidance only and does not constitute legal advice.
           </p>
         </div>
       </div>

@@ -63,7 +63,7 @@ function WinnerBadge({
   }
   if (winner === "visa1") {
     return (
-      <Badge className="bg-teal-600 text-white">{visa1Name} wins</Badge>
+      <Badge className="bg-primary text-white">{visa1Name} wins</Badge>
     );
   }
   return (
@@ -153,7 +153,7 @@ export default async function VisaComparisonPage({
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
@@ -174,7 +174,7 @@ export default async function VisaComparisonPage({
             {/* Quick Win Summary */}
             <div className="flex items-center justify-center gap-6 mb-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-teal-600">
+                <div className="text-3xl font-bold text-primary">
                   {visa1Wins}
                 </div>
                 <div className="text-sm text-muted-foreground">
@@ -226,7 +226,7 @@ export default async function VisaComparisonPage({
         <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <StarIcon size="lg" className="text-teal-600" />
+              <StarIcon size="lg" className="text-primary" />
               <h2 className="text-3xl font-bold">
                 Category-by-Category Breakdown
               </h2>
@@ -252,15 +252,15 @@ export default async function VisaComparisonPage({
                         <div className="flex items-center gap-2">
                           <FileTextIcon
                             size="sm"
-                            className="text-teal-600 shrink-0"
+                            className="text-primary shrink-0"
                           />
-                          <span className="font-semibold text-teal-700 dark:text-teal-400">
+                          <span className="font-semibold text-primary dark:text-primary">
                             {comparison.visa1.name}
                           </span>
                           {category.winner === "visa1" && (
                             <CheckCircleIcon
                               size="sm"
-                              className="text-teal-600"
+                              className="text-primary"
                             />
                           )}
                         </div>
@@ -304,7 +304,7 @@ export default async function VisaComparisonPage({
         <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <UsersIcon size="lg" className="text-teal-600" />
+              <UsersIcon size="lg" className="text-primary" />
               <h2 className="text-3xl font-bold">
                 Which Visa Is Best For You?
               </h2>
@@ -312,10 +312,10 @@ export default async function VisaComparisonPage({
 
             <div className="grid md:grid-cols-2 gap-8">
               {/* Visa 1 Best For */}
-              <Card className="border-teal-200 dark:border-teal-800">
+              <Card className="border-primary/20 dark:border-primary/30">
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2 text-teal-700 dark:text-teal-400">
-                    <FileTextIcon size="md" className="text-teal-600" />
+                  <CardTitle className="flex items-center gap-2 text-primary dark:text-primary">
+                    <FileTextIcon size="md" className="text-primary" />
                     {comparison.visa1.name} is best for...
                   </CardTitle>
                 </CardHeader>
@@ -325,7 +325,7 @@ export default async function VisaComparisonPage({
                       <div key={item} className="flex items-start gap-2">
                         <CheckCircleIcon
                           size="sm"
-                          className="text-teal-600 mt-0.5 shrink-0"
+                          className="text-primary mt-0.5 shrink-0"
                         />
                         <span className="text-base md:text-sm">{item}</span>
                       </div>
@@ -365,7 +365,7 @@ export default async function VisaComparisonPage({
       <section className="py-16">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
-            <Card className="bg-gradient-to-br from-teal-50 to-indigo-50 dark:from-teal-950/30 dark:to-indigo-950/30 border-none shadow-lg">
+            <Card className="bg-gradient-to-br from-primary/5 to-indigo-50 dark:from-primary/15 dark:to-indigo-950/30 border-none shadow-lg">
               <CardHeader>
                 <CardTitle className="text-2xl flex items-center gap-3">
                   <StarIcon size="lg" className="text-primary" />
@@ -398,7 +398,7 @@ export default async function VisaComparisonPage({
               >
                 <Link href={`/visas/${comparison.visa1.slug}`}>
                   <span className="flex items-center gap-2">
-                    <FileTextIcon size="sm" className="text-teal-600" />
+                    <FileTextIcon size="sm" className="text-primary" />
                     {comparison.visa1.name} Guide
                   </span>
                   <ArrowRightIcon size="sm" />
@@ -424,7 +424,7 @@ export default async function VisaComparisonPage({
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <GlobeIcon size="xl" className="text-primary mx-auto mb-4" />

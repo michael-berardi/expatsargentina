@@ -51,7 +51,7 @@ export default function VisaCompareIndexPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
@@ -91,7 +91,7 @@ export default function VisaCompareIndexPage() {
                 >
                   <Card className="h-full overflow-hidden transition-shadow duration-300 hover:shadow-lg">
                     {/* Header with visa names */}
-                    <div className="bg-gradient-to-r from-teal-500 to-indigo-500 p-6 text-white">
+                    <div className="bg-gradient-to-r from-primary/50 to-indigo-500 p-6 text-white">
                       <div className="flex items-center justify-center gap-3 text-xl font-bold">
                         <span className="text-center">
                           {comparison.visa1.name}
@@ -112,7 +112,7 @@ export default function VisaCompareIndexPage() {
                       {/* Category win counts */}
                       <div className="flex items-center justify-center gap-4 py-3">
                         <div className="text-center">
-                          <div className="text-2xl font-bold text-teal-600">
+                          <div className="text-2xl font-bold text-primary">
                             {visa1Wins}
                           </div>
                           <div className="text-xs text-muted-foreground">

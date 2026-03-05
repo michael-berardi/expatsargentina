@@ -10,6 +10,8 @@ import {
   DollarSignIcon,
   ArrowRightIcon,
 } from "@/components/ui/icon";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { StatBar } from "@/components/StatBar";
 import {
   regions,
   getProvincesByRegion,
@@ -41,69 +43,37 @@ export const metadata: Metadata = {
 const regionTextColors: Record<Region, string> = {
   Patagonia: "text-cyan-700 dark:text-cyan-300",
   Cuyo: "text-purple-700 dark:text-purple-300",
-  Northwest: "text-orange-700 dark:text-orange-300",
+  Northwest: "text-accent dark:text-accent",
   Northeast: "text-green-700 dark:text-green-300",
   Pampas: "text-amber-700 dark:text-amber-300",
-  Central: "text-teal-700 dark:text-teal-300",
+  Central: "text-primary dark:text-primary",
 };
 
 const regionBgColors: Record<Region, string> = {
   Patagonia: "bg-cyan-100 dark:bg-cyan-900/30",
   Cuyo: "bg-purple-100 dark:bg-purple-900/30",
-  Northwest: "bg-orange-100 dark:bg-orange-900/30",
+  Northwest: "bg-accent/10 dark:bg-accent/20",
   Northeast: "bg-green-100 dark:bg-green-900/30",
   Pampas: "bg-amber-100 dark:bg-amber-900/30",
-  Central: "bg-teal-100 dark:bg-teal-900/30",
+  Central: "bg-primary/10 dark:bg-primary/20",
 };
 
 export default function ProvincesPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://expatsargentina.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Provinces",
-                "item": "https://expatsargentina.com/provinces"
-              }
-            ]
-          })
-        }}
-      />
-      {/* Breadcrumb */}
-      <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-5 py-4">
-          <nav className="flex gap-2 text-base md:text-sm text-muted-foreground">
-            <Link href="/" className="hover:text-foreground">
-              Home
-            </Link>
-            <span>/</span>
-            <span className="text-foreground">Provinces</span>
-          </nav>
-        </div>
-      </div>
+      <Breadcrumb items={[
+        { label: "Provinces", href: "/provinces" },
+      ]} />
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
               <GlobeIcon size="sm" className="mr-1" />
               Argentina Guide
             </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6">
               All 24 Provinces of Argentina
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
@@ -111,6 +81,14 @@ export default function ProvincesPage() {
               of Patagonia to the subtropical jungles of Misiones, explore every
               corner of South America&apos;s most diverse country.
             </p>
+          </div>
+          <div className="max-w-3xl mx-auto mt-8">
+            <StatBar stats={[
+              { value: "24", label: "Provinces" },
+              { value: "6", label: "Regions" },
+              { value: "15+", label: "City Guides", highlight: true },
+              { value: "$800-2,500", label: "Monthly Cost Range" },
+            ]} />
           </div>
         </div>
       </section>
@@ -156,7 +134,7 @@ export default function ProvincesPage() {
                   <span
                     className={`inline-block w-3 h-3 rounded-full ${region.color}`}
                   />
-                  <h2 className="text-3xl font-bold">{region.name}</h2>
+                  <h2 className="font-serif text-3xl font-bold">{region.name}</h2>
                 </div>
                 <p className="text-muted-foreground text-lg">
                   {region.description}
@@ -260,7 +238,7 @@ export default function ProvincesPage() {
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="font-serif text-3xl font-bold mb-4">
               Not Sure Where to Start?
             </h2>
             <p className="text-primary-foreground/80 mb-8">

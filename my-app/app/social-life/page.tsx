@@ -642,8 +642,8 @@ export default function SocialLifePage() {
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-12 h-12 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center">
-                <UserIcon size="lg" className="text-teal-600 dark:text-teal-400" />
+              <div className="w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center">
+                <UserIcon size="lg" className="text-primary dark:text-primary" />
               </div>
               <div>
                 <h2 className="text-3xl font-bold">For Solo Expats</h2>
@@ -657,7 +657,7 @@ export default function SocialLifePage() {
                   <CardContent className="pt-6">
                     <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
                     <p className="text-muted-foreground mb-4">{item.content}</p>
-                    <div className="bg-teal-50 dark:bg-teal-950/20 p-4 rounded-lg border-l-4 border-teal-400 mb-4">
+                    <div className="bg-primary/5 dark:bg-primary/15 p-4 rounded-lg border-l-4 border-primary/60 mb-4">
                       <p className="text-sm italic">
                         <span className="font-semibold not-italic">Personal story:</span> {item.story}
                       </p>
@@ -673,39 +673,39 @@ export default function SocialLifePage() {
               ))}
             </div>
 
-            <Card className="mt-6 bg-gradient-to-br from-teal-50 to-cyan-50 dark:from-teal-950/20 dark:to-cyan-950/20">
+            <Card className="mt-6 bg-gradient-to-br from-primary/5 to-cyan-50 dark:from-primary/10 dark:to-primary/10">
               <CardContent className="pt-6">
                 <h3 className="font-semibold text-lg mb-3 flex items-center gap-2">
-                  <SparklesIcon size="sm" className="text-teal-500" />
+                  <SparklesIcon size="sm" className="text-primary" />
                   The Solo Expat Survival Checklist
                 </h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-500">✓</span>
+                    <span className="text-primary">✓</span>
                     <span>Join at least two expat Facebook groups before you arrive</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-500">✓</span>
+                    <span className="text-primary">✓</span>
                     <span>Sign up for a language exchange event in your first week</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-500">✓</span>
+                    <span className="text-primary">✓</span>
                     <span>Find a coworking space or regular cafe to work from</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-500">✓</span>
+                    <span className="text-primary">✓</span>
                     <span>Join one sports/fitness activity (even if you're not sporty)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-500">✓</span>
+                    <span className="text-primary">✓</span>
                     <span>Schedule your first home visit for the 3-month mark</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-500">✓</span>
+                    <span className="text-primary">✓</span>
                     <span>Get a therapist's contact (even if you don't think you need one)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-500">✓</span>
+                    <span className="text-primary">✓</span>
                     <span>Download WhatsApp and learn to use voice messages (everyone uses them)</span>
                   </li>
                 </ul>
@@ -870,7 +870,7 @@ export default function SocialLifePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-24 bg-muted">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
           <Accordion type="single" collapsible className="w-full">

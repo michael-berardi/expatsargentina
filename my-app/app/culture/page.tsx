@@ -470,8 +470,8 @@ export default function CulturePage() {
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-12 h-12 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center">
-                <UtensilsIcon size="lg" className="text-orange-600 dark:text-orange-400" />
+              <div className="w-12 h-12 rounded-full bg-accent/10 dark:bg-accent/20 flex items-center justify-center">
+                <UtensilsIcon size="lg" className="text-accent dark:text-accent" />
               </div>
               <div>
                 <h2 className="text-3xl font-bold">Food Culture</h2>
@@ -485,7 +485,7 @@ export default function CulturePage() {
                   <CardContent className="pt-6">
                     <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
                     <p className="text-muted-foreground mb-4">{item.content}</p>
-                    <div className="bg-orange-50 dark:bg-orange-950/20 p-4 rounded-lg border-l-4 border-orange-400">
+                    <div className="bg-accent/5 dark:bg-accent/10 p-4 rounded-lg border-l-4 border-accent/60">
                       <p className="text-sm italic">
                         <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
                       </p>
@@ -550,7 +550,7 @@ export default function CulturePage() {
       </section>
 
       {/* Final Thoughts */}
-      <section className="py-16 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
+      <section className="py-16 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <HeartIcon size="xl" className="mx-auto mb-6 text-rose-500" />
@@ -612,7 +612,7 @@ export default function CulturePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-24 bg-muted">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
           <Accordion type="single" collapsible className="w-full">

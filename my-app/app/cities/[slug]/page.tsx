@@ -193,7 +193,7 @@ export default async function CityDetailPage({
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <DollarSignIcon size="lg" className="text-teal-600" />
+              <DollarSignIcon size="lg" className="text-primary" />
               <div>
                 <h2 className="text-3xl font-bold">Monthly Budget</h2>
                 <p className="text-muted-foreground">
@@ -252,7 +252,7 @@ export default async function CityDetailPage({
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center gap-3">
-                <HomeIcon size="lg" className="text-teal-600" />
+                <HomeIcon size="lg" className="text-primary" />
                 <h2 className="text-3xl font-bold">Neighborhoods</h2>
               </div>
               {city.slug === "buenos-aires" && (
@@ -313,7 +313,7 @@ export default async function CityDetailPage({
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <ClockIcon size="md" className="text-teal-600" />
+                    <ClockIcon size="md" className="text-primary" />
                     Climate and Weather
                   </CardTitle>
                 </CardHeader>
@@ -337,7 +337,7 @@ export default async function CityDetailPage({
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <WifiIcon size="md" className="text-teal-600" />
+                    <WifiIcon size="md" className="text-primary" />
                     Internet and Connectivity
                   </CardTitle>
                 </CardHeader>
@@ -355,7 +355,7 @@ export default async function CityDetailPage({
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <ShieldIcon size="md" className="text-teal-600" />
+                    <ShieldIcon size="md" className="text-primary" />
                     Safety
                   </CardTitle>
                 </CardHeader>
@@ -373,7 +373,7 @@ export default async function CityDetailPage({
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <PlaneIcon size="md" className="text-teal-600" />
+                    <PlaneIcon size="md" className="text-primary" />
                     Getting There
                   </CardTitle>
                 </CardHeader>
@@ -391,7 +391,7 @@ export default async function CityDetailPage({
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
-              <HeartIcon size="lg" className="text-teal-600" />
+              <HeartIcon size="lg" className="text-primary" />
               <h2 className="text-3xl font-bold">Expat Appeal</h2>
             </div>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
@@ -407,7 +407,7 @@ export default async function CityDetailPage({
                 >
                   <CheckCircleIcon
                     size="sm"
-                    className="text-teal-600 mt-0.5 shrink-0"
+                    className="text-primary mt-0.5 shrink-0"
                   />
                   <span>{highlight}</span>
                 </div>
@@ -464,7 +464,7 @@ export default async function CityDetailPage({
       )}
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <StarIcon size="xl" className="text-primary mx-auto mb-4" />

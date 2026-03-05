@@ -108,7 +108,7 @@ export default async function RecipePage({
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-accent/5 to-background">
       {/* Schema */}
       <script
         type="application/ld+json"
@@ -131,7 +131,7 @@ export default async function RecipePage({
       </div>
 
       {/* Hero */}
-      <div className="relative bg-gradient-to-br from-orange-600 via-red-600 to-orange-700 text-white print:bg-none print:text-black">
+      <div className="relative bg-gradient-to-br from-primary to-accent text-white print:bg-none print:text-black">
         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: `url('${recipe.image}')` }} />
         <div className="relative max-w-5xl mx-auto px-4 py-12 md:py-16">
           <div className="flex flex-wrap items-center gap-2 mb-4 print:hidden">
@@ -149,10 +149,10 @@ export default async function RecipePage({
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
             {recipe.name}
           </h1>
-          <p className="text-xl text-white/90 mb-4 drop-shadow-sm print:text-gray-600">
+          <p className="text-xl text-white/90 mb-4 drop-shadow-sm print:text-muted-foreground">
             {recipe.spanishName}
           </p>
-          <p className="text-lg text-orange-50 max-w-2xl print:text-gray-700">
+          <p className="text-lg text-white/85 max-w-2xl print:text-muted-foreground">
             {recipe.description}
           </p>
         </div>
@@ -163,29 +163,29 @@ export default async function RecipePage({
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 print:hidden">
           <Card>
             <CardContent className="p-4 text-center">
-              <Clock className="w-5 h-5 text-orange-600 mx-auto mb-2" />
-              <div className="text-sm text-gray-600">Prep Time</div>
+              <Clock className="w-5 h-5 text-accent mx-auto mb-2" />
+              <div className="text-sm text-muted-foreground">Prep Time</div>
               <div className="font-semibold">{recipe.prepTime}</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <Flame className="w-5 h-5 text-orange-600 mx-auto mb-2" />
-              <div className="text-sm text-gray-600">Cook Time</div>
+              <Flame className="w-5 h-5 text-accent mx-auto mb-2" />
+              <div className="text-sm text-muted-foreground">Cook Time</div>
               <div className="font-semibold">{recipe.cookTime}</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <Clock3 className="w-5 h-5 text-orange-600 mx-auto mb-2" />
-              <div className="text-sm text-gray-600">Total Time</div>
+              <Clock3 className="w-5 h-5 text-accent mx-auto mb-2" />
+              <div className="text-sm text-muted-foreground">Total Time</div>
               <div className="font-semibold">{recipe.totalTime}</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <Users className="w-5 h-5 text-orange-600 mx-auto mb-2" />
-              <div className="text-sm text-gray-600">Servings</div>
+              <Users className="w-5 h-5 text-accent mx-auto mb-2" />
+              <div className="text-sm text-muted-foreground">Servings</div>
               <div className="font-semibold">{recipe.servings}</div>
             </CardContent>
           </Card>
@@ -194,8 +194,8 @@ export default async function RecipePage({
         {/* Print Header */}
         <div className="hidden print:block mb-8">
           <h1 className="text-3xl font-bold">{recipe.name} ({recipe.spanishName})</h1>
-          <p className="text-gray-600 mt-2">{recipe.description}</p>
-          <div className="mt-4 text-sm text-gray-600">
+          <p className="text-muted-foreground mt-2">{recipe.description}</p>
+          <div className="mt-4 text-sm text-muted-foreground">
             Prep: {recipe.prepTime} | Cook: {recipe.cookTime} | Total: {recipe.totalTime} | Serves: {recipe.servings}
           </div>
           <Separator className="my-4" />
@@ -205,10 +205,10 @@ export default async function RecipePage({
           {/* Left Column: Ingredients & Info */}
           <div className="space-y-6">
             {/* Ingredients */}
-            <Card className="print:shadow-none print:border-gray-300">
+            <Card className="print:shadow-none print:border-border">
               <CardHeader className="pb-3">
                 <CardTitle className="flex items-center gap-2 text-lg">
-                  <ChefHat className="w-5 h-5 text-orange-600" />
+                  <ChefHat className="w-5 h-5 text-accent" />
                   Ingredients
                 </CardTitle>
               </CardHeader>
@@ -216,18 +216,18 @@ export default async function RecipePage({
                 {recipe.ingredients.map((section, idx) => (
                   <div key={idx} className={idx > 0 ? "mt-4" : ""}>
                     {section.section && (
-                      <h4 className="font-semibold text-gray-900 text-sm mb-2">
+                      <h4 className="font-semibold text-foreground text-sm mb-2">
                         {section.section}
                       </h4>
                     )}
                     <ul className="space-y-2">
                       {section.items.map((item, itemIdx) => (
                         <li key={itemIdx} className="flex items-start gap-2 text-sm">
-                          <input 
-                            type="checkbox" 
-                            className="mt-1 w-4 h-4 rounded border-gray-300 text-orange-600 focus:ring-orange-500 print:hidden"
+                          <input
+                            type="checkbox"
+                            className="mt-1 w-4 h-4 rounded border-border text-accent focus:ring-accent print:hidden"
                           />
-                          <span className="text-gray-700">{item}</span>
+                          <span className="text-muted-foreground">{item}</span>
                         </li>
                       ))}
                     </ul>
@@ -238,26 +238,26 @@ export default async function RecipePage({
 
             {/* Nutrition */}
             {recipe.calories && (
-              <Card className="print:shadow-none print:border-gray-300">
+              <Card className="print:shadow-none print:border-border">
                 <CardHeader className="pb-3">
                   <CardTitle className="text-lg">Nutrition (per serving)</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-0">
                   <div className="grid grid-cols-2 gap-3 text-sm">
-                    <div className="bg-orange-50 rounded-lg p-3">
-                      <div className="text-gray-600">Calories</div>
+                    <div className="bg-accent/5 rounded-lg p-3">
+                      <div className="text-muted-foreground">Calories</div>
                       <div className="font-semibold text-lg">{recipe.calories}</div>
                     </div>
-                    <div className="bg-orange-50 rounded-lg p-3">
-                      <div className="text-gray-600">Protein</div>
+                    <div className="bg-accent/5 rounded-lg p-3">
+                      <div className="text-muted-foreground">Protein</div>
                       <div className="font-semibold text-lg">{recipe.protein}g</div>
                     </div>
-                    <div className="bg-orange-50 rounded-lg p-3">
-                      <div className="text-gray-600">Carbs</div>
+                    <div className="bg-accent/5 rounded-lg p-3">
+                      <div className="text-muted-foreground">Carbs</div>
                       <div className="font-semibold text-lg">{recipe.carbs}g</div>
                     </div>
-                    <div className="bg-orange-50 rounded-lg p-3">
-                      <div className="text-gray-600">Fat</div>
+                    <div className="bg-accent/5 rounded-lg p-3">
+                      <div className="text-muted-foreground">Fat</div>
                       <div className="font-semibold text-lg">{recipe.fat}g</div>
                     </div>
                   </div>
@@ -267,7 +267,7 @@ export default async function RecipePage({
 
             {/* Wine Pairing */}
             {recipe.winePairing && (
-              <Card className="bg-gradient-to-br from-purple-50 to-pink-50 border-purple-100 print:bg-none print:border-gray-300">
+              <Card className="bg-gradient-to-br from-purple-50 to-pink-50 border-purple-100 print:bg-none print:border-border">
                 <CardContent className="p-4">
                   <div className="flex items-center gap-2 mb-2">
                     <Wine className="w-5 h-5 text-purple-600" />
@@ -280,18 +280,18 @@ export default async function RecipePage({
 
             {/* Where to Find */}
             {recipe.whereToFind && (
-              <Card className="print:shadow-none print:border-gray-300">
+              <Card className="print:shadow-none print:border-border">
                 <CardHeader className="pb-3">
                   <CardTitle className="flex items-center gap-2 text-lg">
-                    <Store className="w-5 h-5 text-orange-600" />
+                    <Store className="w-5 h-5 text-accent" />
                     Where to Try It
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-0">
                   <ul className="space-y-2">
                     {recipe.whereToFind.map((place, idx) => (
-                      <li key={idx} className="text-sm text-gray-600 flex items-start gap-2">
-                        <span className="text-orange-500 mt-1">•</span>
+                      <li key={idx} className="text-sm text-muted-foreground flex items-start gap-2">
+                        <span className="text-white/850 mt-1">•</span>
                         {place}
                       </li>
                     ))}
@@ -305,14 +305,14 @@ export default async function RecipePage({
           <div className="lg:col-span-2 space-y-6">
             {/* Jump to */}
             <div className="flex items-center gap-4 text-sm print:hidden">
-              <span className="text-gray-500">Jump to:</span>
-              <a href="#instructions" className="text-orange-600 hover:underline">Instructions</a>
-              <a href="#tips" className="text-orange-600 hover:underline">Tips</a>
-              {recipe.history && <a href="#history" className="text-orange-600 hover:underline">History</a>}
+              <span className="text-muted-foreground">Jump to:</span>
+              <a href="#instructions" className="text-accent hover:underline">Instructions</a>
+              <a href="#tips" className="text-accent hover:underline">Tips</a>
+              {recipe.history && <a href="#history" className="text-accent hover:underline">History</a>}
             </div>
 
             {/* Instructions */}
-            <Card className="print:shadow-none print:border-gray-300" id="instructions">
+            <Card className="print:shadow-none print:border-border" id="instructions">
               <CardHeader>
                 <CardTitle className="text-xl">Instructions</CardTitle>
               </CardHeader>
@@ -320,10 +320,10 @@ export default async function RecipePage({
                 <ol className="space-y-6">
                   {recipe.instructions.map((step, idx) => (
                     <li key={idx} className="flex gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center font-bold text-sm">
+                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-accent/10 text-accent flex items-center justify-center font-bold text-sm">
                         {idx + 1}
                       </div>
-                      <p className="text-gray-700 leading-relaxed pt-1">{step}</p>
+                      <p className="text-muted-foreground leading-relaxed pt-1">{step}</p>
                     </li>
                   ))}
                 </ol>
@@ -331,7 +331,7 @@ export default async function RecipePage({
             </Card>
 
             {/* Pro Tips */}
-            <Card className="bg-gradient-to-br from-amber-50 to-orange-50 border-amber-100 print:bg-none print:border-gray-300" id="tips">
+            <Card className="bg-gradient-to-br from-amber-50 to-accent/5 border-amber-100 print:bg-none print:border-border" id="tips">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-xl">
                   <Lightbulb className="w-5 h-5 text-amber-600" />
@@ -343,7 +343,7 @@ export default async function RecipePage({
                   {recipe.tips.map((tip, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <span className="text-amber-500 mt-1">✦</span>
-                      <p className="text-gray-700">{tip}</p>
+                      <p className="text-muted-foreground">{tip}</p>
                     </li>
                   ))}
                 </ul>
@@ -352,27 +352,27 @@ export default async function RecipePage({
 
             {/* History */}
             {recipe.history && (
-              <Card className="print:shadow-none print:border-gray-300" id="history">
+              <Card className="print:shadow-none print:border-border" id="history">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
-                    <History className="w-5 h-5 text-orange-600" />
+                    <History className="w-5 h-5 text-accent" />
                     The Story Behind the Dish
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 leading-relaxed">{recipe.history}</p>
+                  <p className="text-muted-foreground leading-relaxed">{recipe.history}</p>
                 </CardContent>
               </Card>
             )}
 
             {/* Storage */}
             {recipe.storageInstructions && (
-              <Card className="print:shadow-none print:border-gray-300">
+              <Card className="print:shadow-none print:border-border">
                 <CardHeader className="pb-3">
                   <CardTitle className="text-lg">Storage & Leftovers</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-0">
-                  <p className="text-gray-700">{recipe.storageInstructions}</p>
+                  <p className="text-muted-foreground">{recipe.storageInstructions}</p>
                 </CardContent>
               </Card>
             )}
@@ -399,15 +399,15 @@ export default async function RecipePage({
                 >
                   <Card className="h-full hover:shadow-md transition-shadow">
                     <CardContent className="p-4">
-                      <div className="aspect-video bg-gradient-to-br from-orange-100 to-amber-50 rounded-lg mb-3 flex items-center justify-center">
-                        <span className="text-2xl font-bold text-orange-200">
+                      <div className="aspect-video bg-gradient-to-br from-accent/10 to-amber-50 rounded-lg mb-3 flex items-center justify-center">
+                        <span className="text-2xl font-bold text-accent/30">
                           {relatedRecipe.name[0]}
                         </span>
                       </div>
-                      <h4 className="font-semibold text-gray-900 group-hover:text-orange-600 transition-colors">
+                      <h4 className="font-semibold text-foreground group-hover:text-accent transition-colors">
                         {relatedRecipe.name}
                       </h4>
-                      <p className="text-sm text-gray-600 mt-1">{relatedRecipe.totalTime}</p>
+                      <p className="text-sm text-muted-foreground mt-1">{relatedRecipe.totalTime}</p>
                     </CardContent>
                   </Card>
                 </Link>
@@ -417,7 +417,7 @@ export default async function RecipePage({
       </div>
 
       {/* Print Footer */}
-      <div className="hidden print:block mt-8 pt-4 border-t text-center text-sm text-gray-500">
+      <div className="hidden print:block mt-8 pt-4 border-t text-center text-sm text-muted-foreground">
         Recipe from Expats Argentina | expatsargentina.com/food/recipes/{recipe.slug}
       </div>
     </div>

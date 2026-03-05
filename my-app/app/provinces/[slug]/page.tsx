@@ -19,6 +19,7 @@ import {
   getCitiesByProvince,
   type Region,
 } from "@/lib/data/argentina";
+import { FactBox } from "@/components/FactBox";
 
 export function generateStaticParams() {
   return provinces.map((province) => ({ slug: province.slug }));
@@ -27,19 +28,19 @@ export function generateStaticParams() {
 const regionTextColors: Record<Region, string> = {
   Patagonia: "text-cyan-700 dark:text-cyan-300",
   Cuyo: "text-purple-700 dark:text-purple-300",
-  Northwest: "text-orange-700 dark:text-orange-300",
+  Northwest: "text-accent dark:text-accent",
   Northeast: "text-green-700 dark:text-green-300",
   Pampas: "text-amber-700 dark:text-amber-300",
-  Central: "text-teal-700 dark:text-teal-300",
+  Central: "text-primary dark:text-primary",
 };
 
 const regionBgColors: Record<Region, string> = {
   Patagonia: "bg-cyan-100 dark:bg-cyan-900/30",
   Cuyo: "bg-purple-100 dark:bg-purple-900/30",
-  Northwest: "bg-orange-100 dark:bg-orange-900/30",
+  Northwest: "bg-accent/10 dark:bg-accent/20",
   Northeast: "bg-green-100 dark:bg-green-900/30",
   Pampas: "bg-amber-100 dark:bg-amber-900/30",
-  Central: "bg-teal-100 dark:bg-teal-900/30",
+  Central: "bg-primary/10 dark:bg-primary/20",
 };
 
 export async function generateMetadata({
@@ -167,20 +168,19 @@ export default async function ProvinceDetailPage({
       {/* Key Facts */}
       <section className="py-12 border-b">
         <div className="container mx-auto px-5">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {province.keyFacts.map((fact) => (
-              <Card
-                key={fact.label}
-                className="text-center bg-muted/30 border-muted"
-              >
-                <CardContent className="pt-6 pb-4">
-                  <div className="text-base md:text-sm text-muted-foreground mb-1">
-                    {fact.label}
-                  </div>
-                  <div className="font-semibold text-base md:text-sm">{fact.value}</div>
-                </CardContent>
-              </Card>
-            ))}
+          <div className="max-w-4xl mx-auto">
+            <FactBox
+              title={`${province.name} at a Glance`}
+              facts={[
+                { label: "Capital", value: province.capital },
+                { label: "Population", value: province.population },
+                { label: "Area", value: province.area },
+                ...province.keyFacts,
+              ]}
+              source="INDEC (Argentine National Statistics Institute)"
+              sourceUrl="https://www.indec.gob.ar/"
+              sourceDate="2024"
+            />
           </div>
         </div>
       </section>
@@ -200,7 +200,7 @@ export default async function ProvinceDetailPage({
       </section>
 
       {/* Expat Appeal */}
-      <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">

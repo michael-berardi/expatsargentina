@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Source_Serif_4 } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
@@ -10,6 +10,12 @@ import { MobileBottomNav, MobileScrollToTop } from "@/components/MobileBottomNav
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+});
+
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -23,7 +29,7 @@ export const metadata: Metadata = {
   creator: "Expats Argentina",
   metadataBase: new URL("https://expatsargentina.com"),
   other: {
-    "theme-color": "#0d9488",
+    "theme-color": "#0f766e",
     "apple-mobile-web-app-status-bar-style": "default",
   },
   icons: {
@@ -65,7 +71,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${sourceSerif.variable} font-sans antialiased`}>
         <I18nProvider>
           <a href="#main-content" className="skip-nav">
             Skip to main content

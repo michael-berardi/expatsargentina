@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import {
   Utensils,
   Clock,
@@ -21,6 +20,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyTOC } from "@/components/StickyTOC";
 import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
+import { ReferenceHero } from "@/components/ReferenceHero";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { SourceAttribution } from "@/components/SourceAttribution";
 
 export const metadata: Metadata = {
   title: "Food Guide Buenos Aires",
@@ -280,30 +282,7 @@ const faqs = [
 
 export default function FoodGuidePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://expatsargentina.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Food & Dining",
-                "item": "https://expatsargentina.com/food"
-              }
-            ]
-          })
-        }}
-      />
+    <div className="min-h-screen bg-background">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -322,41 +301,18 @@ export default function FoodGuidePage() {
         }}
       />
       {/* Hero */}
-      <div className="relative bg-gradient-to-br from-orange-600 via-red-600 to-orange-700 text-white">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/guides/food-bg.webp')" }} />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-        <div className="relative max-w-6xl mx-auto px-4 py-20">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
-              <Utensils className="w-8 h-8" />
-            </div>
-            <span className="text-white/95 font-medium drop-shadow-md">Expats Argentina Guide</span>
-          </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            The Complete Food Guide to<br />
-            <span className="text-orange-200">Buenos Aires</span>
-          </h1>
-          <p className="text-xl text-white/95 max-w-2xl drop-shadow-md mb-8">
-            From sizzling asados to medialunas at dawn. Everything you need to eat like a local in the Paris of South America.
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <a 
-              href="#argentinian-classics" 
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-orange-700 font-semibold rounded-lg hover:bg-orange-50 transition-colors"
-            >
-              <Flame className="w-5 h-5" />
-              Explore Argentine Foods
-            </a>
-            <a 
-              href="/food/restaurants" 
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white/20 text-white font-semibold rounded-lg hover:bg-white/30 transition-colors backdrop-blur-sm"
-            >
-              <MapPin className="w-5 h-5" />
-              Best Restaurants
-            </a>
-          </div>
-        </div>
-      </div>
+      <ReferenceHero
+        badge="Food & Dining Guide"
+        title="Argentine Food & Dining Guide"
+        subtitle="From legendary parrillas to neighborhood ferias — everything you need to eat well in Argentina"
+        stats={[
+          { value: "25+", label: "Restaurants reviewed" },
+          { value: "9", label: "Must-try dishes" },
+          { value: "5", label: "Neighborhoods" },
+          { value: "$–$$$", label: "Budget to fine dining" },
+        ]}
+      />
+      <Breadcrumb items={[{ label: "Food & Dining" }]} />
 
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-8 lg:gap-12">
@@ -371,101 +327,101 @@ export default function FoodGuidePage() {
         {/* Argentine Food Culture */}
         <section id="culture">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-orange-100 rounded-lg">
-              <Flame className="w-6 h-6 text-orange-900" />
+            <div className="p-2 bg-primary/10 rounded-lg">
+              <Flame className="w-6 h-6 text-primary" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Argentine Food Culture</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Argentine Food Culture</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <Flame className="w-5 h-5 text-orange-900" />
+            <div className="bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
+                <Flame className="w-5 h-5 text-primary" />
                 The Meat Obsession
               </h3>
-              <p className="text-gray-600 mb-4">
-                Argentines consume 55kg of beef per person annually (double the US average). 
-                Asado isn't just barbecue—it's a ritual. Sunday asados with family are sacred, 
+              <p className="text-muted-foreground mb-4">
+                Argentines consume 55kg of beef per person annually (double the US average).
+                Asado isn't just barbecue—it's a ritual. Sunday asados with family are sacred,
                 lasting 4+ hours of slow-cooking over wood coals.
               </p>
-              <div className="bg-orange-50 rounded-xl p-4">
-                <p className="text-base text-orange-900">
-                  <strong>The cuts:</strong> Vacío (flank steak, juicy), entraña (skirt steak, 
-                  flavorful), bife de chorizo (sirloin, the classic), ojo de bife (ribeye), 
+              <div className="bg-primary/5 rounded-xl p-4">
+                <p className="text-base text-foreground">
+                  <strong>The cuts:</strong> Vacío (flank steak, juicy), entraña (skirt steak,
+                  flavorful), bife de chorizo (sirloin, the classic), ojo de bife (ribeye),
                   asado de tira (short ribs). Don't ask for well-done—medium is as far as locals go.
                 </p>
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <Clock className="w-5 h-5 text-orange-900" />
+            <div className="bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
+                <Clock className="w-5 h-5 text-primary" />
                 Meal Times
               </h3>
-              <ul className="space-y-3 text-gray-600">
+              <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-orange-900 min-w-[80px]">Breakfast</span>
+                  <span className="font-semibold text-primary min-w-[80px]">Breakfast</span>
                   <span>Light—coffee and medialunas (croissants). Most cafes open 8am.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-orange-900 min-w-[80px]">Lunch</span>
+                  <span className="font-semibold text-primary min-w-[80px]">Lunch</span>
                   <span>1-2pm, the main meal. Many restaurants offer menú del día (set lunch).</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-orange-900 min-w-[80px]">Merienda</span>
+                  <span className="font-semibold text-primary min-w-[80px]">Merienda</span>
                   <span>5-7pm afternoon snack. Coffee with facturas (pastries) or toast with dulce de leche.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-orange-900 min-w-[80px]">Dinner</span>
+                  <span className="font-semibold text-primary min-w-[80px]">Dinner</span>
                   <span>9-11pm. Restaurants empty before 9pm. Reservations for 9:30pm are early.</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <Coffee className="w-5 h-5 text-orange-900" />
+            <div className="bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
+                <Coffee className="w-5 h-5 text-primary" />
                 Coffee Culture
               </h3>
-              <p className="text-gray-600 mb-4">
-                Forget drip coffee—it barely exists here. Argentines drink espresso-based drinks, 
+              <p className="text-muted-foreground mb-4">
+                Forget drip coffee—it barely exists here. Argentines drink espresso-based drinks,
                 usually small and strong.
               </p>
               <div className="grid grid-cols-2 gap-3 text-base">
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <span className="font-semibold text-gray-900">Cortado</span>
-                  <p className="text-gray-600">Espresso with a splash of milk</p>
+                <div className="bg-muted rounded-lg p-3">
+                  <span className="font-semibold text-foreground">Cortado</span>
+                  <p className="text-muted-foreground">Espresso with a splash of milk</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <span className="font-semibold text-gray-900">Café con leche</span>
-                  <p className="text-gray-600">Half espresso, half milk</p>
+                <div className="bg-muted rounded-lg p-3">
+                  <span className="font-semibold text-foreground">Café con leche</span>
+                  <p className="text-muted-foreground">Half espresso, half milk</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <span className="font-semibold text-gray-900">Lagrima</span>
-                  <p className="text-gray-600">Mostly milk, drop of coffee</p>
+                <div className="bg-muted rounded-lg p-3">
+                  <span className="font-semibold text-foreground">Lagrima</span>
+                  <p className="text-muted-foreground">Mostly milk, drop of coffee</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <span className="font-semibold text-gray-900">Americano</span>
-                  <p className="text-gray-600">Espresso with hot water</p>
+                <div className="bg-muted rounded-lg p-3">
+                  <span className="font-semibold text-foreground">Americano</span>
+                  <p className="text-muted-foreground">Espresso with hot water</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <Leaf className="w-5 h-5 text-orange-900" />
+            <div className="bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
+                <Leaf className="w-5 h-5 text-primary" />
                 Vegetarian Survival
               </h3>
-              <p className="text-gray-600 mb-4">
-                Traditional Argentine cuisine is meat-heavy, but Palermo and other neighborhoods 
-                now have excellent vegetarian options. The struggle is real in traditional parrillas 
+              <p className="text-muted-foreground mb-4">
+                Traditional Argentine cuisine is meat-heavy, but Palermo and other neighborhoods
+                now have excellent vegetarian options. The struggle is real in traditional parrillas
                 and small towns.
               </p>
-              <div className="bg-green-50 rounded-xl p-4">
-                <p className="text-base text-green-900">
-                  <strong>Survival tips:</strong> Look for "vegetariano" or "vegano" signs. 
-                  Empanadas come in cheese/onion and corn (humita) varieties. Most restaurants 
-                  now offer at least one vegetarian main. Dietéticas (health food stores) sell 
+              <div className="bg-green-50 dark:bg-green-950/20 rounded-xl p-4">
+                <p className="text-base text-green-900 dark:text-green-200">
+                  <strong>Survival tips:</strong> Look for "vegetariano" or "vegano" signs.
+                  Empanadas come in cheese/onion and corn (humita) varieties. Most restaurants
+                  now offer at least one vegetarian main. Dietéticas (health food stores) sell
                   tofu, seitan, and plant-based milks.
                 </p>
               </div>
@@ -476,10 +432,10 @@ export default function FoodGuidePage() {
         {/* Must-Try Foods */}
         <section id="must-try">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-orange-100 rounded-lg">
-              <Heart className="w-6 h-6 text-orange-900" />
+            <div className="p-2 bg-accent/10 rounded-lg">
+              <Heart className="w-6 h-6 text-accent" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Must-Try Foods</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Must-Try Foods</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -539,16 +495,16 @@ export default function FoodGuidePage() {
                 proTip: "Order it 'a la provenzal' with garlic and parsley."
               }
             ].map((food, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-orange-100 hover:shadow-md transition-shadow">
+              <div key={i} className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border hover:shadow-md transition-shadow">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="p-2 bg-orange-100 rounded-lg text-orange-900">
+                  <div className="p-2 bg-accent/10 rounded-lg text-accent">
                     {food.icon}
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900">{food.title}</h3>
+                  <h3 className="text-lg font-bold text-foreground">{food.title}</h3>
                 </div>
-                <p className="text-gray-600 text-base mb-4">{food.description}</p>
-                <div className="bg-orange-50 rounded-lg p-3">
-                  <p className="text-base text-orange-900">
+                <p className="text-muted-foreground text-base mb-4">{food.description}</p>
+                <div className="bg-accent/5 rounded-lg p-3">
+                  <p className="text-base text-foreground">
                     <strong>Pro tip:</strong> {food.proTip}
                   </p>
                 </div>
@@ -560,19 +516,19 @@ export default function FoodGuidePage() {
         {/* Parrillas */}
         <section id="parrillas">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-red-100 rounded-lg">
-              <Flame className="w-6 h-6 text-red-600" />
+            <div className="p-2 bg-accent/10 rounded-lg">
+              <Flame className="w-6 h-6 text-accent" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Best Parrillas</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Best Parrillas</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             {parrillas.map((spot, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-red-100">
+              <div key={i} className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
                 <div className="flex justify-between items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
+                    <h3 className="text-xl font-bold text-foreground">{spot.name}</h3>
+                    <div className="flex items-center gap-2 text-base text-muted-foreground mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
@@ -585,36 +541,38 @@ export default function FoodGuidePage() {
                     {spot.price}
                   </span>
                 </div>
-                <p className="text-gray-600 mb-4">{spot.description}</p>
-                <div className="bg-red-50 rounded-lg p-3 mb-3">
-                  <p className="text-base text-red-800">
+                <p className="text-muted-foreground mb-4">{spot.description}</p>
+                <div className="bg-primary/5 rounded-lg p-3 mb-3">
+                  <p className="text-base text-foreground">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
-                <p className="text-base text-gray-500">
+                <p className="text-base text-muted-foreground">
                   <strong>Tip:</strong> {spot.tip}
                 </p>
               </div>
             ))}
           </div>
+
+          <SourceAttribution source="Expats Argentina community reviews" date="2025" className="mt-4" />
         </section>
 
         {/* Cheap Eats */}
         <section id="cheap-eats">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-green-100 rounded-lg">
+            <div className="p-2 bg-green-100 dark:bg-green-950/30 rounded-lg">
               <DollarSign className="w-6 h-6 text-green-600" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Cheap Eats</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Cheap Eats</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             {cheapEats.map((spot, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-green-100">
+              <div key={i} className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
                 <div className="flex justify-between items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
+                    <h3 className="text-xl font-bold text-foreground">{spot.name}</h3>
+                    <div className="flex items-center gap-2 text-base text-muted-foreground mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
@@ -623,9 +581,9 @@ export default function FoodGuidePage() {
                     {spot.price}
                   </span>
                 </div>
-                <p className="text-gray-600 mb-4">{spot.description}</p>
-                <div className="bg-green-50 rounded-lg p-3">
-                  <p className="text-base text-green-900">
+                <p className="text-muted-foreground mb-4">{spot.description}</p>
+                <div className="bg-primary/5 rounded-lg p-3">
+                  <p className="text-base text-foreground">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
@@ -633,14 +591,14 @@ export default function FoodGuidePage() {
             ))}
           </div>
 
-          <div className="mt-8 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-200">
-            <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-green-600" />
+          <div className="mt-8 bg-primary/5 rounded-2xl p-6 border border-primary/20">
+            <h3 className="text-lg font-bold text-foreground mb-3 flex items-center gap-2">
+              <AlertCircle className="w-5 h-5 text-primary" />
               The "Menú del Día" Hack
             </h3>
-            <p className="text-gray-700">
-              Most restaurants offer a set lunch menu (menú del día or menú ejecutivo) weekdays 12-4pm. 
-              For $8-15 USD you get: starter (soup/salad), main course, drink, and sometimes dessert/coffee. 
+            <p className="text-muted-foreground">
+              Most restaurants offer a set lunch menu (menú del día or menú ejecutivo) weekdays 12-4pm.
+              For $8-15 USD you get: starter (soup/salad), main course, drink, and sometimes dessert/coffee.
               It's the best value in the city. Look for chalkboards outside restaurants advertising "Menú $X.XXX".
             </p>
           </div>
@@ -649,19 +607,19 @@ export default function FoodGuidePage() {
         {/* Vegetarian */}
         <section id="vegetarian">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-emerald-100 rounded-lg">
+            <div className="p-2 bg-emerald-100 dark:bg-emerald-950/30 rounded-lg">
               <Leaf className="w-6 h-6 text-emerald-600" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Vegetarian & Vegan</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Vegetarian & Vegan</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             {vegetarianSpots.map((spot, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-emerald-100">
+              <div key={i} className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
                 <div className="flex justify-between items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
+                    <h3 className="text-xl font-bold text-foreground">{spot.name}</h3>
+                    <div className="flex items-center gap-2 text-base text-muted-foreground mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
@@ -674,9 +632,9 @@ export default function FoodGuidePage() {
                     {spot.price}
                   </span>
                 </div>
-                <p className="text-gray-600 mb-4">{spot.description}</p>
-                <div className="bg-emerald-50 rounded-lg p-3">
-                  <p className="text-base text-emerald-800">
+                <p className="text-muted-foreground mb-4">{spot.description}</p>
+                <div className="bg-emerald-50 dark:bg-emerald-950/20 rounded-lg p-3">
+                  <p className="text-base text-emerald-800 dark:text-emerald-200">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
@@ -688,30 +646,30 @@ export default function FoodGuidePage() {
         {/* International */}
         <section id="international">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-blue-100 rounded-lg">
-              <Utensils className="w-6 h-6 text-blue-600" />
+            <div className="p-2 bg-primary/10 rounded-lg">
+              <Utensils className="w-6 h-6 text-primary" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">International Cuisine</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">International Cuisine</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             {international.map((spot, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-blue-100">
+              <div key={i} className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
                 <div className="flex justify-between items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
+                    <h3 className="text-xl font-bold text-foreground">{spot.name}</h3>
+                    <div className="flex items-center gap-2 text-base text-muted-foreground mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
                   </div>
-                  <span className="px-3 py-1 rounded-full text-base font-medium bg-blue-100 text-blue-900">
+                  <span className="px-3 py-1 rounded-full text-base font-medium bg-primary/10 text-primary">
                     {spot.cuisine}
                   </span>
                 </div>
-                <p className="text-gray-600 mb-4">{spot.description}</p>
-                <div className="bg-blue-50 rounded-lg p-3">
-                  <p className="text-base text-blue-800">
+                <p className="text-muted-foreground mb-4">{spot.description}</p>
+                <div className="bg-primary/5 rounded-lg p-3">
+                  <p className="text-base text-foreground">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
@@ -723,32 +681,32 @@ export default function FoodGuidePage() {
         {/* Cafes */}
         <section id="cafes">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-amber-100 rounded-lg">
-              <Coffee className="w-6 h-6 text-amber-600" />
+            <div className="p-2 bg-primary/10 rounded-lg">
+              <Coffee className="w-6 h-6 text-primary" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Café Culture</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Café Culture</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             {cafes.map((spot, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-amber-100">
+              <div key={i} className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
                 <div className="flex justify-between items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900">{spot.name}</h3>
-                    <div className="flex items-center gap-2 text-base text-gray-500 mt-1">
+                    <h3 className="text-xl font-bold text-foreground">{spot.name}</h3>
+                    <div className="flex items-center gap-2 text-base text-muted-foreground mt-1">
                       <MapPin className="w-4 h-4" />
                       {spot.address}
                     </div>
                   </div>
                   {spot.workFriendly && (
-                    <span className="px-3 py-1 rounded-full text-base font-medium bg-amber-100 text-amber-900">
-                      💻 Work-friendly
+                    <span className="px-3 py-1 rounded-full text-base font-medium bg-primary/10 text-primary">
+                      Work-friendly
                     </span>
                   )}
                 </div>
-                <p className="text-gray-600 mb-4">{spot.description}</p>
-                <div className="bg-amber-50 rounded-lg p-3">
-                  <p className="text-base text-amber-900">
+                <p className="text-muted-foreground mb-4">{spot.description}</p>
+                <div className="bg-primary/5 rounded-lg p-3">
+                  <p className="text-base text-foreground">
                     <strong>Must try:</strong> {spot.mustTry}
                   </p>
                 </div>
@@ -760,32 +718,32 @@ export default function FoodGuidePage() {
         {/* Delivery Apps */}
         <section id="delivery">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-purple-100 rounded-lg">
-              <Smartphone className="w-6 h-6 text-purple-600" />
+            <div className="p-2 bg-primary/10 rounded-lg">
+              <Smartphone className="w-6 h-6 text-primary" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Delivery Apps</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Delivery Apps</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-2xl p-6 shadow-sm border border-purple-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Rappi</h3>
-              <p className="text-gray-600 mb-4">
-                The biggest delivery app in Argentina. Restaurants, groceries, pharmacy, 
+            <div className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4">Rappi</h3>
+              <p className="text-muted-foreground mb-4">
+                The biggest delivery app in Argentina. Restaurants, groceries, pharmacy,
                 and even cash delivery (yes, really). Essential app for expats.
               </p>
-              <ul className="text-base text-gray-600 space-y-2">
+              <ul className="text-base text-muted-foreground space-y-2">
                 <li>• Rappi Prime subscription gives free delivery</li>
                 <li>• Cash or card payment options</li>
                 <li>• English interface available</li>
               </ul>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-sm border border-purple-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">PedidosYa</h3>
-              <p className="text-gray-600 mb-4">
-                The main competitor to Rappi. Sometimes has different restaurant options 
+            <div className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4">PedidosYa</h3>
+              <p className="text-muted-foreground mb-4">
+                The main competitor to Rappi. Sometimes has different restaurant options
                 and better promotions. Worth having both.
               </p>
-              <ul className="text-base text-gray-600 space-y-2">
+              <ul className="text-base text-muted-foreground space-y-2">
                 <li>• Often cheaper delivery fees</li>
                 <li>• Good grocery delivery (Disco, Carrefour)</li>
                 <li>• Ya+ subscription for free delivery</li>
@@ -797,56 +755,56 @@ export default function FoodGuidePage() {
         {/* Grocery Shopping */}
         <section id="grocery">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-cyan-100 rounded-lg">
-              <ShoppingCart className="w-6 h-6 text-cyan-600" />
+            <div className="p-2 bg-primary/10 rounded-lg">
+              <ShoppingCart className="w-6 h-6 text-primary" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Grocery Shopping</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Grocery Shopping</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-cyan-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Supermarket Chains</h3>
+            <div className="bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4">Supermarket Chains</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-cyan-600 min-w-[100px]">Carrefour</span>
-                  <span className="text-gray-600">Largest selection, mid-to-high prices. Good imported goods section.</span>
+                  <span className="font-semibold text-primary min-w-[100px]">Carrefour</span>
+                  <span className="text-muted-foreground">Largest selection, mid-to-high prices. Good imported goods section.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-cyan-600 min-w-[100px]">Coto</span>
-                  <span className="text-gray-600">Best prices, chaotic experience. Worth it for the savings.</span>
+                  <span className="font-semibold text-primary min-w-[100px]">Coto</span>
+                  <span className="text-muted-foreground">Best prices, chaotic experience. Worth it for the savings.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-cyan-600 min-w-[100px]">Día</span>
-                  <span className="text-gray-600">Discount chain, basic selection, cheapest option.</span>
+                  <span className="font-semibold text-primary min-w-[100px]">Día</span>
+                  <span className="text-muted-foreground">Discount chain, basic selection, cheapest option.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-cyan-600 min-w-[100px]">Disco</span>
-                  <span className="text-gray-600">Premium chain, excellent quality, higher prices.</span>
+                  <span className="font-semibold text-primary min-w-[100px]">Disco</span>
+                  <span className="text-muted-foreground">Premium chain, excellent quality, higher prices.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-semibold text-cyan-600 min-w-[100px]">Jumbo</span>
-                  <span className="text-gray-600">Chilean-owned, good quality, moderate prices.</span>
+                  <span className="font-semibold text-primary min-w-[100px]">Jumbo</span>
+                  <span className="text-muted-foreground">Chilean-owned, good quality, moderate prices.</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-cyan-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Ferias (Farmers Markets)</h3>
+            <div className="bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4">Ferias (Farmers Markets)</h3>
               <div className="space-y-4">
                 {ferias.map((feria, i) => (
                   <div key={i}>
-                    <h4 className="font-semibold text-gray-900">{feria.name}</h4>
-                    <p className="text-base text-cyan-600">{feria.location}</p>
-                    <p className="text-base text-gray-600">{feria.description}</p>
+                    <h4 className="font-semibold text-foreground">{feria.name}</h4>
+                    <p className="text-base text-primary">{feria.location}</p>
+                    <p className="text-base text-muted-foreground">{feria.description}</p>
                   </div>
                 ))}
               </div>
             </div>
           </div>
 
-          <div className="mt-8 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl p-6 border border-cyan-200">
-            <h3 className="text-lg font-bold text-gray-900 mb-3">What to Bring From Home</h3>
-            <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+          <div className="mt-8 bg-primary/5 rounded-2xl p-6 border border-primary/20">
+            <h3 className="text-lg font-bold text-foreground mb-3">What to Bring From Home</h3>
+            <div className="grid md:grid-cols-2 gap-4 text-muted-foreground">
               <ul className="space-y-2">
                 <li>• <strong>Spices:</strong> Curry powder, specific Asian spices, quality vanilla</li>
                 <li>• <strong>Sauces:</strong> Hot sauce (Cholula, Sriracha), soy sauce, fish sauce</li>
@@ -859,72 +817,74 @@ export default function FoodGuidePage() {
               </ul>
             </div>
           </div>
+
+          <SourceAttribution source="Expats Argentina community price surveys" date="2025" className="mt-4" />
         </section>
 
         {/* Cooking at Home */}
         <section id="cooking">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-rose-100 rounded-lg">
-              <ChefHat className="w-6 h-6 text-rose-600" />
+            <div className="p-2 bg-accent/10 rounded-lg">
+              <ChefHat className="w-6 h-6 text-accent" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Cooking at Home</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Cooking at Home</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-rose-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Where to Buy Meat</h3>
-              <p className="text-gray-600 mb-4">
-                Skip the supermarket meat section. Go to a carnicería (butcher shop) for 
-                quality and better prices. Neighborhood butchers know their regulars and 
+            <div className="bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4">Where to Buy Meat</h3>
+              <p className="text-muted-foreground mb-4">
+                Skip the supermarket meat section. Go to a carnicería (butcher shop) for
+                quality and better prices. Neighborhood butchers know their regulars and
                 will give you the best cuts.
               </p>
-              <div className="bg-rose-50 rounded-lg p-4">
-                <p className="text-base text-rose-800">
-                  <strong>What to ask for:</strong> "Un kilo de vacío" (flank steak), 
-                  "medio kilo de entraña" (skirt steak), "bife de chorizo" (sirloin). 
+              <div className="bg-accent/5 rounded-lg p-4">
+                <p className="text-base text-foreground">
+                  <strong>What to ask for:</strong> "Un kilo de vacío" (flank steak),
+                  "medio kilo de entraña" (skirt steak), "bife de chorizo" (sirloin).
                   Specify "para la parrilla" (for grilling) or "para la plancha" (for pan).
                 </p>
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-rose-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Asado at Home</h3>
-              <p className="text-gray-600 mb-4">
-                If you have a balcony, you can have a parrilla (grill). Buy a small 
-                brasero (charcoal grill) at any hardware store. Weekend asados are 
+            <div className="bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+              <h3 className="text-xl font-bold text-foreground mb-4">Asado at Home</h3>
+              <p className="text-muted-foreground mb-4">
+                If you have a balcony, you can have a parrilla (grill). Buy a small
+                brasero (charcoal grill) at any hardware store. Weekend asados are
                 the best way to make Argentine friends.
               </p>
-              <div className="bg-rose-50 rounded-lg p-4">
-                <p className="text-base text-rose-800">
-                  <strong>Basics:</strong> Carbon (charcoal) from the supermarket, 
-                  starter cubes, chimichurri (make your own or buy), coarse salt. 
+              <div className="bg-accent/5 rounded-lg p-4">
+                <p className="text-base text-foreground">
+                  <strong>Basics:</strong> Carbon (charcoal) from the supermarket,
+                  starter cubes, chimichurri (make your own or buy), coarse salt.
                   Cook slow over indirect heat. Expect 2-3 hours for the full experience.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="mt-8 bg-white rounded-2xl p-8 shadow-sm border border-rose-100">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Argentine Recipes to Learn</h3>
+          <div className="mt-8 bg-white dark:bg-card rounded-2xl p-8 shadow-sm border border-border">
+            <h3 className="text-xl font-bold text-foreground mb-4">Argentine Recipes to Learn</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Chimichurri</h4>
-                <p className="text-base text-gray-600">
-                  Parsley, oregano, garlic, vinegar, oil, red pepper flakes. 
+                <h4 className="font-semibold text-foreground mb-2">Chimichurri</h4>
+                <p className="text-base text-muted-foreground">
+                  Parsley, oregano, garlic, vinegar, oil, red pepper flakes.
                   The essential asado sauce. Make a big jar—it keeps for weeks.
                 </p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Tortilla de Papas</h4>
-                <p className="text-base text-gray-600">
-                  Spanish-style potato omelet. Slice potatoes thin, fry gently, 
+                <h4 className="font-semibold text-foreground mb-2">Tortilla de Papas</h4>
+                <p className="text-base text-muted-foreground">
+                  Spanish-style potato omelet. Slice potatoes thin, fry gently,
                   mix with eggs, cook until set. Perfect any time of day.
                 </p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Milanesa</h4>
-                <p className="text-base text-gray-600">
-                  Pound meat thin, dip in egg, coat in breadcrumbs, fry until golden. 
+                <h4 className="font-semibold text-foreground mb-2">Milanesa</h4>
+                <p className="text-base text-muted-foreground">
+                  Pound meat thin, dip in egg, coat in breadcrumbs, fry until golden.
                   Serve with lemon. Comfort food at its finest.
                 </p>
               </div>
@@ -935,52 +895,52 @@ export default function FoodGuidePage() {
         {/* Dining Etiquette */}
         <section id="etiquette">
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-indigo-100 rounded-lg">
-              <Utensils className="w-6 h-6 text-indigo-600" />
+            <div className="p-2 bg-primary/10 rounded-lg">
+              <Utensils className="w-6 h-6 text-primary" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Dining Etiquette</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground">Dining Etiquette</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-2xl p-6 shadow-sm border border-indigo-100">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">Tipping & Bills</h3>
-              <ul className="space-y-3 text-gray-600">
+            <div className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
+              <h3 className="text-lg font-bold text-foreground mb-4">Tipping & Bills</h3>
+              <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
-                  <span className="text-indigo-600">•</span>
+                  <span className="text-primary">•</span>
                   <span><strong>10% is standard</strong>—leave cash even if paying by card</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-indigo-600">•</span>
+                  <span className="text-primary">•</span>
                   <span><strong>Service charge (cubierto)</strong>—usually $2-5 USD, not a tip</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-indigo-600">•</span>
+                  <span className="text-primary">•</span>
                   <span><strong>Splitting bills</strong>—not common; one person usually pays</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-indigo-600">•</span>
+                  <span className="text-primary">•</span>
                   <span><strong>Card vs cash</strong>—cash preferred for tips; cards accepted most places</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white rounded-2xl p-6 shadow-sm border border-indigo-100">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">Reservations & Dress</h3>
-              <ul className="space-y-3 text-gray-600">
+            <div className="bg-white dark:bg-card rounded-2xl p-6 shadow-sm border border-border">
+              <h3 className="text-lg font-bold text-foreground mb-4">Reservations & Dress</h3>
+              <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
-                  <span className="text-indigo-600">•</span>
+                  <span className="text-primary">•</span>
                   <span><strong>Reservations</strong>—essential for popular parrillas (book weeks ahead)</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-indigo-600">•</span>
+                  <span className="text-primary">•</span>
                   <span><strong>Dress code</strong>—mostly casual; Palermo is trendy casual</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-indigo-600">•</span>
+                  <span className="text-primary">•</span>
                   <span><strong>Arriving late</strong>—15-30 minutes is socially acceptable</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-indigo-600">•</span>
+                  <span className="text-primary">•</span>
                   <span><strong>Lingering</strong>—expected; meals are social events</span>
                 </li>
               </ul>
@@ -989,9 +949,9 @@ export default function FoodGuidePage() {
         </section>
 
         {/* FAQ Section */}
-        <section id="faq" className="py-16 md:py-24 bg-gray-50 -mx-4 px-4 rounded-2xl">
+        <section id="faq" className="py-16 md:py-24 bg-muted -mx-4 px-4 rounded-2xl">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+            <h2 className="font-serif text-3xl font-bold mb-8 text-foreground">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, index) => (
                 <AccordionItem key={index} value={`faq-${index}`}>
@@ -1005,7 +965,7 @@ export default function FoodGuidePage() {
 
         {/* Recipes & Restaurants CTAs */}
         <section className="grid md:grid-cols-2 gap-6">
-          <Card className="bg-gradient-to-br from-orange-500 to-red-600 text-white border-0 overflow-hidden">
+          <Card className="bg-gradient-to-br from-primary to-accent text-white border-0 overflow-hidden">
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="p-2 bg-white/20 rounded-lg">
@@ -1014,8 +974,8 @@ export default function FoodGuidePage() {
                 <h3 className="text-xl font-bold">Learn to Cook</h3>
               </div>
               <p className="text-white/90 mb-6 drop-shadow-sm">
-                Master authentic Argentine dishes at home. Our tested recipes include 
-                empanadas, chimichurri, asado, and more—with ingredient sourcing tips 
+                Master authentic Argentine dishes at home. Our tested recipes include
+                empanadas, chimichurri, asado, and more—with ingredient sourcing tips
                 and cultural context.
               </p>
               <Button asChild variant="secondary" className="gap-2">
@@ -1027,7 +987,7 @@ export default function FoodGuidePage() {
             </CardContent>
           </Card>
 
-          <Card className="bg-gradient-to-br from-gray-800 to-gray-900 text-white border-0 overflow-hidden">
+          <Card className="bg-gradient-to-br from-foreground/90 to-foreground text-white border-0 overflow-hidden dark:from-card dark:to-card dark:border dark:border-border">
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="p-2 bg-white/20 rounded-lg">
@@ -1035,8 +995,8 @@ export default function FoodGuidePage() {
                 </div>
                 <h3 className="text-xl font-bold">Restaurant Guides</h3>
               </div>
-              <p className="text-gray-300 mb-6">
-                Our curated guides to Buenos Aires dining—from Don Julio (world's #1 steakhouse) 
+              <p className="text-white/70 mb-6">
+                Our curated guides to Buenos Aires dining—from Don Julio (world's #1 steakhouse)
                 to hidden local gems. Complete with what to order and how to book.
               </p>
               <div className="flex flex-wrap gap-3">
@@ -1045,7 +1005,7 @@ export default function FoodGuidePage() {
                     Top 40 Restaurants
                   </Link>
                 </Button>
-                <Button asChild variant="outline" size="sm" className="border-gray-600 text-white hover:bg-gray-700">
+                <Button asChild variant="outline" size="sm" className="border-white/30 text-white hover:bg-white/10">
                   <Link href="/food/restaurants/best-parrillas">
                     Best Parrillas
                   </Link>
@@ -1056,12 +1016,12 @@ export default function FoodGuidePage() {
         </section>
 
         {/* Final Tips */}
-        <section className="bg-gradient-to-br from-orange-500 via-red-500 to-orange-600 rounded-3xl p-8 md:p-12 text-white">
-          <h2 className="text-3xl font-bold mb-6">Final Thoughts</h2>
+        <section className="bg-gradient-to-br from-primary to-accent rounded-3xl p-8 md:p-12 text-white">
+          <h2 className="font-serif text-3xl font-bold mb-6">Final Thoughts</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-3 text-white/95 drop-shadow-sm">Personal Favorites</h3>
-              <ul className="space-y-2 text-orange-50">
+              <ul className="space-y-2 text-white/85">
                 <li>• <strong>Best overall experience:</strong> Don Julio (book ahead!)</li>
                 <li>• <strong>Best value parrilla:</strong> El Boliche de Dario</li>
                 <li>• <strong>Best empanadas:</strong> El Sanjuanino</li>
@@ -1072,7 +1032,7 @@ export default function FoodGuidePage() {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-3 text-white/95 drop-shadow-sm">Honest Warnings</h3>
-              <ul className="space-y-2 text-orange-50">
+              <ul className="space-y-2 text-white/85">
                 <li>• Not every parrilla is amazing—tourist traps exist</li>
                 <li>• Pizza is different (thick crust, lots of cheese)—embrace it</li>
                 <li>• Spicy food is rare; ask for "picante" if you want heat</li>
@@ -1084,18 +1044,15 @@ export default function FoodGuidePage() {
           </div>
           <div className="mt-8 pt-8 border-t border-white/20">
             <p className="text-lg text-white/90 drop-shadow-sm">
-              Buenos Aires is a food lover's paradise. The combination of Italian immigration, 
-              gaucho traditions, and modern creativity makes for one of the world's most 
+              Buenos Aires is a food lover's paradise. The combination of Italian immigration,
+              gaucho traditions, and modern creativity makes for one of the world's most
               underrated food scenes. Come hungry, eat late, and don't skip the helado.
             </p>
           </div>
         </section>
 
         {/* Lucero Legal CTA */}
-        <LuceroLegalCTA 
-          title="Moving to Argentina?"
-          description="Lucero Legal helps expats navigate immigration, residency, and visas. Focus on finding the best empanadas while they handle your paperwork."
-        />
+        <LuceroLegalCTA />
 
           </article>
         </div>

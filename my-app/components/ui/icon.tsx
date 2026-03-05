@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import {
   AlertCircle,
   AlertTriangle,
+  BookOpen,
   ArrowRight,
   ArrowRightLeft,
   Briefcase,
@@ -105,6 +106,7 @@ const iconVariants = cva("inline-flex items-center justify-center", {
 const iconMap = {
   "alert-circle": AlertCircle,
   "alert-triangle": AlertTriangle,
+  "book-open": BookOpen,
   "arrow-right": ArrowRight,
   "arrow-right-left": ArrowRightLeft,
   "briefcase": Briefcase,
@@ -265,6 +267,7 @@ const createBrandIcon = (IconComponent: React.ComponentType<LucideProps>, displa
 // Export individual icons for direct imports
 export const AlertCircleIcon = createBrandIcon(AlertCircle, "AlertCircleIcon");
 export const AlertTriangleIcon = createBrandIcon(AlertTriangle, "AlertTriangleIcon");
+export const BookOpenIcon = createBrandIcon(BookOpen, "BookOpenIcon");
 export const ArrowRightIcon = createBrandIcon(ArrowRight, "ArrowRightIcon");
 export const ArrowRightLeftIcon = createBrandIcon(ArrowRightLeft, "ArrowRightLeftIcon");
 export const BriefcaseIcon = createBrandIcon(Briefcase, "BriefcaseIcon");

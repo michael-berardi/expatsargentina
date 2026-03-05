@@ -53,10 +53,10 @@ export type Region = "Patagonia" | "Cuyo" | "Northwest" | "Northeast" | "Pampas"
 export const regions: { name: Region; description: string; color: string }[] = [
   { name: "Patagonia", description: "Glaciers, lakes, and the end of the world", color: "bg-cyan-500" },
   { name: "Cuyo", description: "Wine country and Andean adventures", color: "bg-purple-500" },
-  { name: "Northwest", description: "Indigenous culture and desert landscapes", color: "bg-orange-500" },
+  { name: "Northwest", description: "Indigenous culture and desert landscapes", color: "bg-accent" },
   { name: "Northeast", description: "Waterfalls, wetlands, and subtropical forests", color: "bg-green-500" },
   { name: "Pampas", description: "Endless plains and gaucho culture", color: "bg-amber-500" },
-  { name: "Central", description: "Urban hubs and university cities", color: "bg-teal-500" },
+  { name: "Central", description: "Urban hubs and university cities", color: "bg-primary" },
 ];
 
 // ============================================================================
@@ -130,7 +130,7 @@ export const provinces: Province[] = [
     costOfLiving: "Low to Moderate",
     costRange: "$600–$1,200/month",
     climate: "Semi-arid — hot summers (32°C+), mild dry winters (5-18°C), clear skies most of the year",
-    safety: "Generally safe in the city center and northern neighborhoods. Standard precautions in peripheral areas.",
+    safety: "Generally safe. Nueva Córdoba and Cerro de las Rosas are the best areas. Avoid poorly lit streets in peripheral barrios at night.",
     internet: "Good — 50-200 Mbps fiber available in the city. Multiple coworking spaces.",
     majorCities: ["Córdoba", "Villa Carlos Paz", "Río Cuarto", "Villa María", "Alta Gracia"],
     keyFacts: [
@@ -156,7 +156,7 @@ export const provinces: Province[] = [
     costOfLiving: "Low to Moderate",
     costRange: "$700–$1,400/month",
     climate: "Arid continental — hot dry summers (35°C+), cold winters (2-14°C), very low humidity, 300+ sunny days",
-    safety: "Very safe by Argentine standards. Low crime rates, especially in the wine country areas.",
+    safety: "Very safe. Bodega districts and city center are excellent. Petty theft rare outside the bus terminal area at night.",
     internet: "Good in the city (50-100 Mbps). Rural wine country areas may have limited options.",
     majorCities: ["Mendoza", "San Rafael", "Luján de Cuyo", "Maipú", "Malargüe"],
     keyFacts: [
@@ -182,7 +182,7 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$500–$1,000/month",
     climate: "Subtropical with dry season — warm year-round (15-30°C), distinct wet/dry seasons, cooler in the mountains",
-    safety: "Very safe. Low crime rates. Friendly, welcoming community.",
+    safety: "Very safe. Centro histórico and Tres Cerritos are excellent. Use normal awareness near the bus terminal and markets after dark.",
     internet: "Moderate — 20-50 Mbps in the city. Can be limited in rural areas.",
     majorCities: ["Salta", "San Salvador de Jujuy", "Cafayate", "San Antonio de los Cobres"],
     keyFacts: [
@@ -208,7 +208,7 @@ export const provinces: Province[] = [
     costOfLiving: "Moderate",
     costRange: "$800–$1,600/month",
     climate: "Cold oceanic — cool summers (15-25°C), cold snowy winters (-5 to 8°C), dramatic seasonal changes",
-    safety: "Very safe. Low crime rates throughout the province.",
+    safety: "Very safe. Bariloche's centro and lakeside areas are excellent. Standard precautions near the bus terminal at night.",
     internet: "Good in Bariloche (30-100 Mbps). Limited in remote areas.",
     majorCities: ["San Carlos de Bariloche", "Viedma", "General Roca", "Cipolletti", "El Bolsón"],
     keyFacts: [
@@ -234,7 +234,7 @@ export const provinces: Province[] = [
     costOfLiving: "Moderate",
     costRange: "$800–$1,500/month",
     climate: "Varies — dry steppe in the east, cold oceanic mountains in the west. Summers 20-30°C, winters -5 to 10°C",
-    safety: "Very safe, especially in the mountain towns.",
+    safety: "Very safe. San Martín de los Andes and Villa La Angostura have near-zero crime. The capital is safe in residential zones.",
     internet: "Good in the capital and San Martín (30-100 Mbps). Variable in smaller towns.",
     majorCities: ["Neuquén", "San Martín de los Andes", "Villa La Angostura", "Junín de los Andes"],
     keyFacts: [
@@ -260,7 +260,7 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$400–$800/month",
     climate: "Subtropical — hot humid summers (35°C+), mild winters (10-20°C), rain year-round",
-    safety: "Generally safe. Border areas require standard precautions.",
+    safety: "Generally safe. Posadas centro and Puerto Iguazú tourist zones are fine. Exercise awareness near the triple-border area at night.",
     internet: "Basic — 10-50 Mbps in Posadas. Limited in rural areas.",
     majorCities: ["Posadas", "Puerto Iguazú", "Oberá", "Eldorado"],
     keyFacts: [
@@ -312,7 +312,7 @@ export const provinces: Province[] = [
     costOfLiving: "Moderate to High",
     costRange: "$900–$1,800/month",
     climate: "Sub-Antarctic — cool summers (5-15°C), cold winters (-5 to 5°C), wind, snow, and dramatic weather changes",
-    safety: "Very safe. Small-town feel despite being a city of 80,000.",
+    safety: "Very safe. Ushuaia has a small-town feel with very low crime. Strong winds and icy sidewalks in winter are more hazardous than crime.",
     internet: "Moderate — 20-50 Mbps. Can be unreliable in storms.",
     majorCities: ["Ushuaia", "Río Grande", "Tolhuin"],
     keyFacts: [
@@ -338,8 +338,8 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$400–$900/month",
     climate: "Subtropical — hot humid summers (35°C+), mild dry winters (10-20°C), lush vegetation",
-    safety: "Generally safe in the city center and university areas.",
-    internet: "Moderate — 20-50 Mbps in the city.",
+    safety: "Generally safe. Yerba Buena and the city center are the best areas. Avoid walking alone at night in peripheral neighborhoods.",
+    internet: "Moderate — 20-50 Mbps via Telecom and Claro in the city. A few coworking spaces near the university area.",
     majorCities: ["San Miguel de Tucumán", "Tafí del Valle", "Yerba Buena"],
     keyFacts: [
       { label: "Airport", value: "TUC (Benjamín Matienzo)" },
@@ -364,7 +364,7 @@ export const provinces: Province[] = [
     costOfLiving: "Moderate",
     costRange: "$700–$1,400/month",
     climate: "Arid steppe — mild summers (18-28°C), cold windy winters (0-10°C), very dry",
-    safety: "Very safe. Small-town feel.",
+    safety: "Very safe. Puerto Madryn is small and tourist-friendly with minimal crime. Wildlife tours are well-regulated and safe.",
     internet: "Moderate in Puerto Madryn (20-50 Mbps). Limited elsewhere.",
     majorCities: ["Puerto Madryn", "Trelew", "Rawson", "Comodoro Rivadavia", "Esquel"],
     keyFacts: [
@@ -390,7 +390,7 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$400–$800/month",
     climate: "Humid subtropical — hot summers (32°C+), mild winters (8-18°C), regular rainfall",
-    safety: "Very safe throughout the province.",
+    safety: "Very safe. Thermal resort towns like Colón and Federación are especially calm. Paraná's riverfront areas are well-patrolled.",
     internet: "Basic to moderate — 10-30 Mbps in main cities.",
     majorCities: ["Paraná", "Concordia", "Gualeguaychú", "Colón", "Federación"],
     keyFacts: [
@@ -416,8 +416,8 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$400–$900/month",
     climate: "Arid — very hot summers (38°C+), mild winters (5-18°C), 300+ sunny days, very dry",
-    safety: "Very safe. Tight-knit community.",
-    internet: "Basic — 10-30 Mbps in the city.",
+    safety: "Very safe. The city center is quiet and walkable day and night. Earthquake preparedness is more relevant than crime concerns.",
+    internet: "Basic — 10-30 Mbps in the city via Telecom and Claro. Limited fiber; university zone cafes offer reliable Wi-Fi for remote work.",
     majorCities: ["San Juan", "Calingasta", "Barreal", "Jáchal"],
     keyFacts: [
       { label: "Airport", value: "UAQ (Domingo Faustino Sarmiento)" },
@@ -442,7 +442,7 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$350–$800/month",
     climate: "Varies dramatically — subtropical in the east, arid desert in the quebrada, frigid at altitude. Generally warm and dry.",
-    safety: "Safe. Welcoming communities.",
+    safety: "Generally safe. San Salvador is friendly and walkable. Avoid unlit areas near the bus terminal at night; highland towns are very secure.",
     internet: "Basic — 10-30 Mbps in San Salvador. Very limited in highlands.",
     majorCities: ["San Salvador de Jujuy", "Purmamarca", "Tilcara", "Humahuaca"],
     keyFacts: [
@@ -468,7 +468,7 @@ export const provinces: Province[] = [
     costOfLiving: "Moderate to High",
     costRange: "$800–$1,600/month",
     climate: "Cold arid — cool summers (8-18°C), frigid windy winters (-10 to 5°C), constant wind",
-    safety: "Very safe. Extremely low crime.",
+    safety: "Very safe. El Calafate and El Chaltén are tiny, tight-knit towns with near-zero crime. Main hazard is Patagonian wind, not people.",
     internet: "Basic — 10-30 Mbps in El Calafate and Río Gallegos. Limited in El Chaltén.",
     majorCities: ["El Calafate", "El Chaltén", "Río Gallegos", "Puerto Deseado"],
     keyFacts: [
@@ -494,7 +494,7 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$350–$750/month",
     climate: "Subtropical — hot humid summers (35°C+), mild winters (12-22°C), abundant rainfall",
-    safety: "Very safe. Friendly, welcoming communities.",
+    safety: "Very safe. Corrientes city is calm and walkable. Iberá wetlands towns like Mercedes are among the safest places in Argentina.",
     internet: "Basic — 10-20 Mbps in the capital. Very limited in rural areas.",
     majorCities: ["Corrientes", "Mercedes", "Goya", "Paso de los Libres"],
     keyFacts: [
@@ -520,7 +520,7 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$400–$850/month",
     climate: "Semi-arid — hot summers (32°C+), mild dry winters (5-18°C), clear skies",
-    safety: "Very safe. Low crime rates throughout.",
+    safety: "Very safe. San Luis capital is clean and orderly. Merlo and mountain towns have near-zero crime and strong community watch culture.",
     internet: "Good for the region — 20-50 Mbps with provincial Wi-Fi networks in public spaces.",
     majorCities: ["San Luis", "Merlo", "Villa Mercedes"],
     keyFacts: [
@@ -546,7 +546,7 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$350–$700/month",
     climate: "Semi-arid — hot summers (35°C+), cold winters (2-14°C), limited rainfall",
-    safety: "Extremely safe. Very low crime rates.",
+    safety: "Extremely safe. One of Argentina's lowest crime rates. Rural estancias and Santa Rosa both feel like stepping back in time.",
     internet: "Basic — 10-20 Mbps in Santa Rosa. Very limited rurally.",
     majorCities: ["Santa Rosa", "General Pico", "Toay"],
     keyFacts: [
@@ -572,8 +572,8 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$300–$700/month",
     climate: "Arid — hot summers (35°C+), mild winters (5-20°C), very dry, extreme at altitude",
-    safety: "Very safe. Minimal crime.",
-    internet: "Basic — 10-20 Mbps in the capital. Very limited elsewhere.",
+    safety: "Very safe. The capital and Belén are calm and welcoming. Remote Puna areas require a guide more for navigation than safety.",
+    internet: "Basic — 10-20 Mbps DSL in the capital via Telecom. No fiber optic yet; mobile 4G often more reliable.",
     majorCities: ["San Fernando del Valle de Catamarca", "Belén", "Tinogasta", "Andalgalá"],
     keyFacts: [
       { label: "Airport", value: "CTC (Felipe Varela)" },
@@ -598,8 +598,8 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$300–$650/month",
     climate: "Subtropical continental — extremely hot summers (40°C+), mild winters (10-22°C), wet/dry seasons",
-    safety: "Generally safe in Resistencia. Rural areas require local knowledge.",
-    internet: "Basic — 10-20 Mbps in the capital. Very limited rurally.",
+    safety: "Generally safe. Resistencia's centro and sculpture district are fine. Rural Impenetrable areas need a local guide for logistics, not crime.",
+    internet: "Basic — 10-20 Mbps via Telecom in Resistencia. No public coworking; mobile 4G best option outside the capital.",
     majorCities: ["Resistencia", "Presidencia Roque Sáenz Peña", "Villa Ángela"],
     keyFacts: [
       { label: "Airport", value: "RES (Resistencia)" },
@@ -624,8 +624,8 @@ export const provinces: Province[] = [
     costOfLiving: "Lowest in Argentina",
     costRange: "$250–$600/month",
     climate: "Subtropical — very hot summers (40°C+), warm winters (15-25°C), humid, tropical feel",
-    safety: "Generally safe. Remote areas require local knowledge.",
-    internet: "Very basic — 5-15 Mbps in the capital.",
+    safety: "Generally safe. Formosa city center is calm. The Clorinda border crossing can be hectic; use established crossing points during daylight hours.",
+    internet: "Very basic — 5-15 Mbps DSL in the capital. Fiber unavailable; 4G mobile hotspot is the most reliable option for remote work.",
     majorCities: ["Formosa", "Clorinda", "Pirané"],
     keyFacts: [
       { label: "Airport", value: "FMA (El Pucú)" },
@@ -650,8 +650,8 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$350–$750/month",
     climate: "Arid — extremely hot summers (42°C+), mild winters (5-20°C), minimal rainfall",
-    safety: "Very safe. Small, tight-knit communities.",
-    internet: "Basic — 10-20 Mbps in the capital.",
+    safety: "Very safe. La Rioja city is small and calm. Summer heat (45°C+) is a bigger concern than crime — stay hydrated and avoid midday sun.",
+    internet: "Basic — 10-20 Mbps DSL via Telecom in La Rioja city. Fiber rollout minimal; Chilecito has even less coverage.",
     majorCities: ["La Rioja", "Chilecito", "Chamical"],
     keyFacts: [
       { label: "Airport", value: "IRJ (Capitán Vicente Almandos Almonacid)" },
@@ -676,8 +676,8 @@ export const provinces: Province[] = [
     costOfLiving: "Very Low",
     costRange: "$300–$650/month",
     climate: "Subtropical continental — extremely hot summers (42°C+), mild winters (10-22°C), dry",
-    safety: "Generally safe. Small-city atmosphere.",
-    internet: "Basic — 10-20 Mbps in the capital.",
+    safety: "Generally safe. The city center and Termas de Río Hondo tourist zone are calm. Extreme summer heat is more of a concern than crime.",
+    internet: "Basic — 10-20 Mbps via Telecom in the capital. Termas de Río Hondo hotels have Wi-Fi; residential areas rely on DSL or 4G.",
     majorCities: ["Santiago del Estero", "Termas de Río Hondo", "La Banda"],
     keyFacts: [
       { label: "Airport", value: "SDE (Vicecomodoro Ángel de la Paz Aragonés)" },
@@ -1014,7 +1014,7 @@ export const cities: City[] = [
     province: "Neuquén",
     provinceSlug: "neuquen",
     population: "35,000",
-    description: "The quieter Bariloche — a charming Patagonian mountain town on Lago Lácar with world-class skiing, hiking, and fly fishing, minus the tourist crowds.",
+    description: "The quieter Bariloche — a charming Patagonian village on Lago Lácar offering Chapelco skiing, world-class fly fishing, and Ruta de los Siete Lagos access without the tourist crowds.",
     longDescription: "San Martín de los Andes is what happens when a Patagonian mountain town gets it right. Sitting on the shores of Lago Lácar at the end of the famous Ruta de los Siete Lagos, San Martín offers everything Bariloche does — skiing (Chapelco), hiking, mountain scenery, craft beer — but with a fraction of the tourists and a more authentic small-town character. The main street (San Martín) is lined with log-cabin-style shops and restaurants, and the pace of life is genuinely slow. Fly fishing on the area's rivers and lakes is world-class, attracting anglers from around the globe. The town has attracted a quiet community of expats, mostly European and American, drawn by the quality of life and the feeling of having discovered Patagonia's best-kept secret.",
     highlights: ["Chapelco ski resort", "Ruta de los Siete Lagos", "World-class fly fishing", "Quieter than Bariloche", "Authentic mountain town"],
     expatAppeal: "Mountain enthusiasts who want Patagonian alpine living without tourist crowds. Smaller, more intimate community.",
@@ -1052,7 +1052,7 @@ export const cities: City[] = [
     province: "Santa Cruz",
     provinceSlug: "santa-cruz",
     population: "25,000",
-    description: "Gateway to the Perito Moreno glacier and Los Glaciares National Park. A Patagonian frontier town where the ice age is still happening in real time.",
+    description: "Gateway to the Perito Moreno glacier and Los Glaciares National Park. A Patagonian frontier town on Lago Argentino where bus-sized ice chunks calve daily into milky blue waters.",
     longDescription: "El Calafate exists because of ice — specifically, the Perito Moreno glacier, one of the few advancing glaciers on Earth and a UNESCO World Heritage centerpiece. The town sits on the shore of Lago Argentino, a milky blue glacial lake, and serves as the base for visiting Los Glaciares National Park. The glacier experience is extraordinary: you can walk the boardwalks and watch bus-sized chunks of ice calve into the lake with a thunderous roar. Beyond Perito Moreno, the park includes Upsala and Spegazzini glaciers, accessible by boat. El Calafate itself is a tourism-dependent town — small, seasonal, and expensive by Patagonian standards. For expats, it's extremely niche: seasonal work in tourism, limited year-round employment, and winter isolation. But the natural spectacle is unmatched.",
     highlights: ["Perito Moreno glacier", "Los Glaciares NP (UNESCO)", "Lago Argentino", "Glacier trekking", "Deep Patagonia experience"],
     expatAppeal: "Seasonal tourism workers and glacier enthusiasts. Very small community, seasonal economy, stunning natural setting.",
@@ -1204,7 +1204,7 @@ export const cities: City[] = [
     province: "Neuquén",
     provinceSlug: "neuquen",
     population: "350,000",
-    description: "Patagonia's oil capital — a modern, prosperous city on the Limay River with gateway access to wine, dinosaurs, and the Andes.",
+    description: "Patagonia's energy boomtown — a modern, high-income city at the Limay-Neuquén confluence with Vaca Muerta wealth, nearby wineries, dinosaur museums, and quick Andean access.",
     longDescription: "Neuquén is the economic powerhouse of northern Patagonia, driven by the massive Vaca Muerta oil and gas formation that has turned this once-sleepy city into a boomtown. The city sits at the confluence of the Limay and Neuquén rivers, creating a surprisingly green oasis in the Patagonian steppe. For expats, Neuquén offers higher-than-average salaries (oil economy), excellent infrastructure, a compact walkable center, and proximity to both the wine country of San Patricio del Chañar and the ski resorts of the Andes. The city has a young, professional population, good restaurants, and a cultural scene that punches above its weight. Summer temperatures soar, but the dry climate and reliable sunshine make it pleasant most of the year. It's an ideal base for exploring northern Patagonia without the tourist-town prices of Bariloche.",
     highlights: ["Oil economy prosperity", "River confluence setting", "Gateway to northern Patagonia", "Dinosaur museums", "Nearby wine route"],
     expatAppeal: "Professionals seeking Patagonian lifestyle with big-city amenities and strong employment opportunities in the energy sector.",
@@ -1242,7 +1242,7 @@ export const cities: City[] = [
     province: "Misiones",
     provinceSlug: "misiones",
     population: "380,000",
-    description: "Gateway to Iguazú Falls — a subtropical riverside city on the Paraguay border with mangoes, red earth, and mate culture everywhere.",
+    description: "Gateway to Iguazú Falls — a subtropical riverside capital on the Paraguay border where wild mangoes, red earth roads, and all-day mate rituals define a warm, cross-border lifestyle.",
     longDescription: "Posadas is the capital of Misiones province, sitting on the banks of the Paraná River directly across from Encarnación, Paraguay. The city is the main gateway for visiting Iguazú Falls (5 hours north) and the Jesuit missions that give the province its name. Life here moves at a subtropical pace — mangoes and citrus fruit grow wild, the red laterite soil colors everything, and mate (shared communal tea) is practically a religion. The recently completed costanera (riverside promenade) has transformed the waterfront into a beautiful recreational space. For expats, Posadas offers ultra-affordable living, warm people, cross-border shopping in Paraguay, and an authentic experience far from the beaten tourist path. The city has a university (UNaM) that brings cultural events, and the proximity to Brazil adds another dimension to the multicultural feel.",
     highlights: ["Gateway to Iguazú Falls", "Riverside costanera", "Paraguay border access", "Subtropical climate", "Jesuit missions nearby"],
     expatAppeal: "Budget-focused adventurers wanting subtropical living, easy cross-border access, and proximity to one of the world's natural wonders.",
@@ -1280,7 +1280,7 @@ export const cities: City[] = [
     province: "San Juan",
     provinceSlug: "san-juan",
     population: "500,000",
-    description: "Argentina's sun capital — 300+ cloudless days, world-class Malbec beyond Mendoza, and gateway to the stunning Ischigualasto moonscape.",
+    description: "Argentina's sun capital — 300+ cloudless days, superb Syrah and Malbec rivaling Mendoza at half the price, and gateway to the surreal Ischigualasto moonscape and Barreal stargazing.",
     longDescription: "San Juan lives in Mendoza's shadow, but this sunny Cuyo city has its own compelling story. With over 300 days of sunshine per year, it's Argentina's sunniest city and a major wine region producing some of the country's best Syrah and Malbec. The city was rebuilt after a devastating 1944 earthquake (which killed 10,000 people and launched Juan Perón's political career), giving it a modern, grid-like layout. The surrounding landscapes are extraordinary: Ischigualasto (Valley of the Moon) is a UNESCO World Heritage Site with 230-million-year-old formations, and Barreal offers Andean trekking with views of Aconcagua. For expats, San Juan offers Cuyo wine culture at a fraction of Mendoza prices, genuine Argentine hospitality, and a pace of life that's relaxed without being sleepy. The university adds cultural depth, and the proximity to Chile (Paso de Agua Negra) provides easy border access.",
     highlights: ["300+ days of sunshine", "Wine country (Syrah, Malbec)", "Ischigualasto UNESCO site", "Post-earthquake modern city", "Andean access"],
     expatAppeal: "Wine enthusiasts and sun-seekers wanting authentic Cuyo living at significantly lower costs than Mendoza.",
@@ -1318,7 +1318,7 @@ export const cities: City[] = [
     province: "Jujuy",
     provinceSlug: "jujuy",
     population: "310,000",
-    description: "Gateway to the Quebrada — where Andean culture meets colonial charm at the foot of Argentina's most colorful landscapes.",
+    description: "Gateway to the Quebrada de Humahuaca — where living Quechua and Aymara traditions meet colonial charm at the foot of Argentina's rainbow mountains and vast salt flats.",
     longDescription: "San Salvador de Jujuy (usually just called 'Jujuy') is the northernmost provincial capital in Argentina, sitting at 1,260 meters elevation where the Andes begin to dominate the landscape. The city itself is a comfortable, walkable place with colonial architecture, a lively market culture, and strong indigenous Quechua and Aymara influences that set it apart from anywhere else in Argentina. The real draw is the gateway access: the Quebrada de Humahuaca (UNESCO World Heritage) with its rainbow mountains is just 90 minutes north, the Salinas Grandes salt flats are 2 hours away, and the Yungas cloud forests are 30 minutes east. The local cuisine is distinctive — llama empanadas, humita, tamales, and quinoa dishes reflect the Andean heritage. For expats, Jujuy offers an immersive cultural experience at Argentina's lowest costs, with natural landscapes that rival anything in South America.",
     highlights: ["Quebrada de Humahuaca gateway", "Strong Andean/indigenous culture", "Rainbow mountain landscapes", "Colonial city center", "Unique Northwest cuisine"],
     expatAppeal: "Culture-seekers and budget expats wanting deep Andean immersion with stunning landscapes and Argentina's most affordable urban living.",
@@ -1356,7 +1356,7 @@ export const cities: City[] = [
     province: "Entre Ríos",
     provinceSlug: "entre-rios",
     population: "280,000",
-    description: "A riverfront gem overlooking the Paraná — Argentina's former capital with tree-lined boulevards, thermal springs, and a slow-living culture.",
+    description: "A riverfront gem perched on dramatic bluffs above the Paraná River — Argentina's former national capital with thermal springs, pre-delta wetlands, and a pace of life built for well-being.",
     longDescription: "Paraná sits on dramatic bluffs overlooking the vast Paraná River, with stunning views across to Santa Fe on the opposite bank. As the capital of Entre Ríos ('Between Rivers') province, it served briefly as Argentina's national capital in the 1850s, and the historic architecture reflects that moment of importance. Today, Paraná is a mid-size city with an exceptional quality of life: tree-lined avenues, riverside parks, excellent regional cuisine (river fish like surubí and dorado), and a warm, relaxed population. The thermal springs of the region draw visitors year-round, and the nearby pre-delta wetlands offer world-class birdwatching and kayaking. For expats, Paraná offers an authentic Argentine provincial capital experience — no tourists, real connections with locals, affordable living, and a pace of life that prioritizes well-being over hustle.",
     highlights: ["Dramatic river bluffs", "Former national capital", "Thermal springs region", "Pre-delta wetlands", "Exceptional river cuisine"],
     expatAppeal: "Those seeking authentic provincial Argentine life with river views, thermal springs, genuine community, and none of the big-city stress.",
@@ -1394,7 +1394,7 @@ export const cities: City[] = [
     province: "Santa Fe",
     provinceSlug: "santa-fe",
     population: "420,000",
-    description: "Argentina's constitutional capital — a university city where colonial heritage meets student energy on the banks of the Salado River.",
+    description: "Argentina's constitutional capital — a vibrant university city on a river island where 1853 colonial heritage meets student nightlife, legendary river fish, and famous alfajores.",
     longDescription: "Santa Fe de la Vera Cruz, the provincial capital, is where Argentina's constitution was signed in 1853, and the historic center retains a colonial gravitas that few Argentine cities can match. But Santa Fe is no museum — the Universidad Nacional del Litoral (UNL) keeps the city young and energetic, with a vibrant bar and cultural scene. The city sits on an island between the Salado and Paraná rivers, giving it a unique waterfront character with lagoons, wetlands, and riverside beaches. The cuisine is famous for its river fish (surubí a la parrilla is legendary) and alfajores santafesinos. For expats, Santa Fe offers the intellectual stimulation of a university city, genuine colonial heritage, extremely affordable living, and easy access to both Rosario (2.5 hours) and Buenos Aires (5 hours). The flood risk from the Salado is real but manageable with proper neighborhood choice.",
     highlights: ["Constitutional history", "University culture", "River island setting", "Colonial architecture", "Famous alfajores"],
     expatAppeal: "Intellectuals, history buffs, and budget expats wanting a cultured provincial capital with strong university energy and riverside living.",
@@ -1432,7 +1432,7 @@ export const cities: City[] = [
     province: "Córdoba",
     provinceSlug: "cordoba",
     population: "95,000",
-    description: "Argentina's summer playground — a lakeside resort town in the Sierras with theater culture, outdoor sports, and a vibrant social scene.",
+    description: "Argentina's summer theater capital — a lakeside resort on Lago San Roque in the Sierras de Córdoba with 30+ live stages, water sports, hiking trails, and Córdoba city just 36 km away.",
     longDescription: "Villa Carlos Paz (or just 'Carlos Paz' to Argentines) is Córdoba province's premier resort town, sitting on the shores of Lago San Roque in the Sierras de Córdoba. Every January and February, the population swells as Argentines flock here for the summer theater season — over 30 venues stage comedies, musicals, and variety shows nightly, making it the country's second theater capital after Buenos Aires. Beyond summer, Carlos Paz offers year-round appeal: hiking in the Sierras, water sports on the lake, excellent restaurants, and a social scene fueled by a mix of retirees, seasonal workers, and lifestyle migrants. For expats, it provides mountain-lake living at accessible prices, with the university city of Córdoba just 36 km away for anything the town lacks. The challenge is its seasonal nature — winter is quiet, which is either a blessing or a bore depending on your temperament.",
     highlights: ["Lakeside Sierra setting", "Summer theater capital", "Hiking and water sports", "36 km from Córdoba city", "Year-round mild climate"],
     expatAppeal: "Lifestyle expats wanting mountain-lake living with cultural entertainment, outdoor activities, and easy access to a major city.",
@@ -1488,5 +1488,5 @@ export function getCitiesByProvince(provinceSlug: string): City[] {
 
 export function getRegionColor(region: string): string {
   const r = regions.find((r) => r.name === region);
-  return r?.color ?? "bg-gray-500";
+  return r?.color ?? "bg-muted-foreground";
 }

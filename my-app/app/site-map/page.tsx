@@ -253,7 +253,7 @@ export default function SitemapPage() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 via-white to-white dark:from-sky-950/20 dark:via-background dark:to-background py-16 md:py-24">
+      <section className="bg-gradient-to-b from-primary/5 via-white to-white dark:from-primary/10 dark:via-background dark:to-background py-16 md:py-24">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">

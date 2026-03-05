@@ -436,7 +436,7 @@ export default function TransportationPage() {
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex items-center gap-2 text-sm">
-                  <Sun className="h-4 w-4 text-orange-500" />
+                  <Sun className="h-4 w-4 text-white/850" />
                   <span className="font-medium">Morning:</span> 7:30 - 9:30 AM
                 </div>
                 <div className="flex items-center gap-2 text-sm">
@@ -1113,8 +1113,8 @@ export default function TransportationPage() {
         {/* 8. Trains */}
         <section id="trains">
           <div className="flex items-center gap-3 mb-6">
-            <div className="p-3 bg-slate-100 rounded-lg">
-              <Train className="h-6 w-6 text-slate-600" />
+            <div className="p-3 bg-muted rounded-lg">
+              <Train className="h-6 w-6 text-muted-foreground" />
             </div>
             <div>
               <h2 className="text-3xl font-bold">Trains</h2>
@@ -1180,8 +1180,8 @@ export default function TransportationPage() {
         {/* 9. Long Distance */}
         <section id="longdistance">
           <div className="flex items-center gap-3 mb-6">
-            <div className="p-3 bg-orange-100 rounded-lg">
-              <Navigation className="h-6 w-6 text-orange-600" />
+            <div className="p-3 bg-accent/10 rounded-lg">
+              <Navigation className="h-6 w-6 text-accent" />
             </div>
             <div>
               <h2 className="text-3xl font-bold">Long Distance Travel</h2>
@@ -1264,8 +1264,8 @@ export default function TransportationPage() {
         {/* 10. Airport Transportation */}
         <section id="airport">
           <div className="flex items-center gap-3 mb-6">
-            <div className="p-3 bg-sky-100 rounded-lg">
-              <Plane className="h-6 w-6 text-sky-600" />
+            <div className="p-3 bg-primary/10 rounded-lg">
+              <Plane className="h-6 w-6 text-primary" />
             </div>
             <div>
               <h2 className="text-3xl font-bold">Airport Transportation</h2>

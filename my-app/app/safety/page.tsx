@@ -90,9 +90,9 @@ export default function SafetyPage() {
         }}
       />
       {/* Hero */}
-      <section className="bg-slate-900 text-white py-16 md:py-24">
+      <section className="bg-foreground text-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
+          <div className="flex items-center gap-2 text-sm text-muted-foreground/70 mb-4">
             <Link href="/" className="hover:text-white transition-colors">
               Home
             </Link>
@@ -102,7 +102,7 @@ export default function SafetyPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Safety in Buenos Aires (2026)
           </h1>
-          <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
+          <p className="text-xl text-muted-foreground/50 leading-relaxed max-w-2xl">
             The honest truth: Palermo, Recoleta & Belgrano are very safe. Petty theft (phone snatching) 
             is the main risk—not violent crime. No fear-mongering, just practical advice.
           </p>
@@ -112,12 +112,12 @@ export default function SafetyPage() {
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* The Real Safety Situation */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
             The Real Safety Situation (Not Fear-Mongering)
           </h2>
 
-          <div className="prose prose-lg max-w-none text-slate-700">
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+          <div className="prose prose-lg max-w-none text-muted-foreground">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               How Safe Is BA Really?
             </h3>
             <p>
@@ -131,7 +131,7 @@ export default function SafetyPage() {
               petty theft. It&apos;s annoying, not life-threatening.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Crime Statistics vs. Perception
             </h3>
             <p>
@@ -145,7 +145,7 @@ export default function SafetyPage() {
               It&apos;s not personal, it&apos;s business.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               What Actually Happens
             </h3>
             <p>Let me break down the reality:</p>
@@ -168,7 +168,7 @@ export default function SafetyPage() {
               </li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Why the &quot;Dangerous&quot; Reputation Is Overblown
             </h3>
             <p>
@@ -183,7 +183,7 @@ export default function SafetyPage() {
               It&apos;s not Caracas. It&apos;s a European-style city with Latin American chaos, not danger.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Personal Stories: Unsafe vs. Safe
             </h3>
             
@@ -231,19 +231,19 @@ export default function SafetyPage() {
 
         {/* Common Scams */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
             Common Scams (Detailed)
           </h2>
 
           <div className="space-y-8">
             {/* Mustard Scam */}
-            <div className="bg-slate-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">
+            <div className="bg-muted rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-foreground mb-4">
                 The &quot;Mustard Scam&quot; (or Bird Poop Scam)
               </h3>
-              <div className="space-y-4 text-slate-700">
+              <div className="space-y-4 text-muted-foreground">
                 <div>
-                  <span className="font-semibold text-slate-900">How it works:</span>
+                  <span className="font-semibold text-foreground">How it works:</span>
                   <p className="mt-1">
                     Someone &quot;accidentally&quot; spills mustard, ketchup, or fake bird poop on your 
                     shoulder or bag. They &quot;helpfully&quot; offer to clean it off. While you&apos;re distracted, 
@@ -251,14 +251,14 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">How to spot it:</span>
+                  <span className="font-semibold text-foreground">How to spot it:</span>
                   <p className="mt-1">
                     If someone suddenly points out a stain on you, be immediately suspicious. 
                     Real stains don&apos;t appear out of nowhere with a helper ready to assist.
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">What to do:</span>
+                  <span className="font-semibold text-foreground">What to do:</span>
                   <p className="mt-1">
                     Keep walking. Say &quot;no gracias&quot; firmly. Don&apos;t let anyone touch you or your belongings. 
                     If they persist, make a scene. Go into the nearest shop to clean yourself.
@@ -274,13 +274,13 @@ export default function SafetyPage() {
             </div>
 
             {/* Taxi Overcharging */}
-            <div className="bg-slate-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">
+            <div className="bg-muted rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-foreground mb-4">
                 Taxi Overcharging (Especially from the Airport)
               </h3>
-              <div className="space-y-4 text-slate-700">
+              <div className="space-y-4 text-muted-foreground">
                 <div>
-                  <span className="font-semibold text-slate-900">How it works:</span>
+                  <span className="font-semibold text-foreground">How it works:</span>
                   <p className="mt-1">
                     Taxi drivers at Ezeiza airport target tired, confused tourists. They&apos;ll quote 
                     an inflated flat rate (often $50-80 USD when it should be $30-40), claim the 
@@ -288,7 +288,7 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">How to spot it:</span>
+                  <span className="font-semibold text-foreground">How to spot it:</span>
                   <p className="mt-1">
                     The driver approaches you inside the terminal (legitimate drivers wait outside 
                     at official stands). They quote a price before you get in. The meter is 
@@ -296,7 +296,7 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">What to do:</span>
+                  <span className="font-semibold text-foreground">What to do:</span>
                   <p className="mt-1">
                     <strong>Best option:</strong> Book a remis (private car service) in advance—Tienda 
                     León or Manuel Tienda León are reputable. Fixed price, no hassle. <strong>Second 
@@ -309,13 +309,13 @@ export default function SafetyPage() {
             </div>
 
             {/* Fake Police */}
-            <div className="bg-slate-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">
+            <div className="bg-muted rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-foreground mb-4">
                 Fake Police Officers
               </h3>
-              <div className="space-y-4 text-slate-700">
+              <div className="space-y-4 text-muted-foreground">
                 <div>
-                  <span className="font-semibold text-slate-900">How it works:</span>
+                  <span className="font-semibold text-foreground">How it works:</span>
                   <p className="mt-1">
                     Someone approaches claiming to be police, flashes a badge, and asks to see 
                     your passport/wallet to &quot;check for counterfeit money&quot; or verify your identity. 
@@ -324,7 +324,7 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">How to spot it:</span>
+                  <span className="font-semibold text-foreground">How to spot it:</span>
                   <p className="mt-1">
                     Real police in Argentina rarely approach tourists randomly. They won&apos;t ask to 
                     see your wallet or money. Plainclothes officers should show official ID with 
@@ -332,7 +332,7 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">What to do:</span>
+                  <span className="font-semibold text-foreground">What to do:</span>
                   <p className="mt-1">
                     Never hand over your wallet or passport. Say you&apos;ll go to the nearest police 
                     station or your embassy. Walk away. If they&apos;re persistent, yell &quot;¡Policía!&quot; 
@@ -343,13 +343,13 @@ export default function SafetyPage() {
             </div>
 
             {/* Friendship Bracelet */}
-            <div className="bg-slate-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">
+            <div className="bg-muted rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-foreground mb-4">
                 The Friendship Bracelet Scam
               </h3>
-              <div className="space-y-4 text-slate-700">
+              <div className="space-y-4 text-muted-foreground">
                 <div>
-                  <span className="font-semibold text-slate-900">How it works:</span>
+                  <span className="font-semibold text-foreground">How it works:</span>
                   <p className="mt-1">
                     Someone (often in San Telmo or La Boca) approaches and quickly ties a 
                     &quot;friendship bracelet&quot; around your wrist before you can react. Then they 
@@ -358,14 +358,14 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">How to spot it:</span>
+                  <span className="font-semibold text-foreground">How to spot it:</span>
                   <p className="mt-1">
                     Anyone approaching with string, bracelets, or anything to put on your body. 
                     They&apos;re fast—you might not even see it coming until it&apos;s on your wrist.
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">What to do:</span>
+                  <span className="font-semibold text-foreground">What to do:</span>
                   <p className="mt-1">
                     Keep your hands in your pockets when walking through tourist areas. If someone 
                     manages to tie something on you, refuse to pay, remove it immediately, and walk 
@@ -377,13 +377,13 @@ export default function SafetyPage() {
             </div>
 
             {/* Restaurant Bill Padding */}
-            <div className="bg-slate-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">
+            <div className="bg-muted rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-foreground mb-4">
                 Restaurant Bill Padding
               </h3>
-              <div className="space-y-4 text-slate-700">
+              <div className="space-y-4 text-muted-foreground">
                 <div>
-                  <span className="font-semibold text-slate-900">How it works:</span>
+                  <span className="font-semibold text-foreground">How it works:</span>
                   <p className="mt-1">
                     Touristy restaurants (especially in La Boca, San Telmo, and Puerto Madero) 
                     may add extra items to your bill, charge for bread or water you didn&apos;t order, 
@@ -391,14 +391,14 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">How to spot it:</span>
+                  <span className="font-semibold text-foreground">How to spot it:</span>
                   <p className="mt-1">
                     The bill is much higher than expected. Items you didn&apos;t order appear. The 
                     math doesn&apos;t add up. &quot;Cubiertos&quot; (cover charge) is inflated.
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">What to do:</span>
+                  <span className="font-semibold text-foreground">What to do:</span>
                   <p className="mt-1">
                     Always check your bill carefully. Ask about any charges you don&apos;t understand. 
                     Keep a rough mental tally of what you ordered. If something&apos;s wrong, dispute 
@@ -410,13 +410,13 @@ export default function SafetyPage() {
             </div>
 
             {/* Apartment Rental Scams */}
-            <div className="bg-slate-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">
+            <div className="bg-muted rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-foreground mb-4">
                 Apartment Rental Scams
               </h3>
-              <div className="space-y-4 text-slate-700">
+              <div className="space-y-4 text-muted-foreground">
                 <div>
-                  <span className="font-semibold text-slate-900">How it works:</span>
+                  <span className="font-semibold text-foreground">How it works:</span>
                   <p className="mt-1">
                     Fake listings on Facebook groups, Craigslist-style sites, or Airbnb. The 
                     &quot;owner&quot; asks for a deposit before you see the place, or the apartment doesn&apos;t 
@@ -425,7 +425,7 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">How to spot it:</span>
+                  <span className="font-semibold text-foreground">How to spot it:</span>
                   <p className="mt-1">
                     Prices too good to be true. Pressure to wire money or pay deposit before 
                     seeing the place. Owner is &quot;out of the country&quot; or has a convoluted story. 
@@ -433,7 +433,7 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">What to do:</span>
+                  <span className="font-semibold text-foreground">What to do:</span>
                   <p className="mt-1">
                     Never send money before seeing a place in person. Use established platforms 
                     (Airbnb with verified reviews, Booking.com) for short-term stays. For long-term, 
@@ -445,13 +445,13 @@ export default function SafetyPage() {
             </div>
 
             {/* Currency Exchange Scams */}
-            <div className="bg-slate-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">
+            <div className="bg-muted rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-foreground mb-4">
                 Currency Exchange Scams
               </h3>
-              <div className="space-y-4 text-slate-700">
+              <div className="space-y-4 text-muted-foreground">
                 <div>
-                  <span className="font-semibold text-slate-900">How it works:</span>
+                  <span className="font-semibold text-foreground">How it works:</span>
                   <p className="mt-1">
                     Street changers (&quot;arbolitos&quot;) who short-change you, give counterfeit bills, 
                     or simply run off with your money. Some use slight-of-hand to swap real bills 
@@ -460,7 +460,7 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">How to spot it:</span>
+                  <span className="font-semibold text-foreground">How to spot it:</span>
                   <p className="mt-1">
                     The rate is significantly better than the official rate (suspicious). They 
                     rush you or distract you during the count. They want to count the money in 
@@ -468,7 +468,7 @@ export default function SafetyPage() {
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-slate-900">What to do:</span>
+                  <span className="font-semibold text-foreground">What to do:</span>
                   <p className="mt-1">
                     Use reputable exchange houses (&quot;cuevas&quot;) with fixed locations and good reviews. 
                     Count your money carefully, twice. Don&apos;t let them rush you. Learn to recognize 
@@ -484,7 +484,7 @@ export default function SafetyPage() {
 
         {/* Neighborhood Safety */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
             Neighborhood Safety Reality Check
           </h2>
 
@@ -494,7 +494,7 @@ export default function SafetyPage() {
               <p className="text-green-800 mb-2">
                 <strong>Safety level:</strong> Very safe
               </p>
-              <p className="text-slate-700">
+              <p className="text-muted-foreground">
                 Palermo is the safest large neighborhood in BA. It&apos;s where most expats live, 
                 where the wealthy porteños hang out, and where you&apos;ll feel most comfortable 
                 walking at night. That said, phone snatching happens here too—especially in 
@@ -509,7 +509,7 @@ export default function SafetyPage() {
               <p className="text-green-800 mb-2">
                 <strong>Safety level:</strong> Safest
               </p>
-              <p className="text-slate-700">
+              <p className="text-muted-foreground">
                 Recoleta is the most &quot;European&quot; neighborhood—wide avenues, fancy buildings, 
                 embassies everywhere. It&apos;s arguably the safest area in the city. You can walk 
                 around at any hour and feel fine. The only issue is the occasional scam artist 
@@ -523,7 +523,7 @@ export default function SafetyPage() {
               <p className="text-yellow-800 mb-2">
                 <strong>Safety level:</strong> Fine during day, careful at night
               </p>
-              <p className="text-slate-700">
+              <p className="text-muted-foreground">
                 San Telmo is tourist central during the day and edgy-cool at night. The main 
                 streets (Defensa, Estados Unidos) are fine, but the side streets can get sketchy 
                 after dark. Plaza Dorrego and the surrounding area are safe enough, but don&apos;t 
@@ -537,7 +537,7 @@ export default function SafetyPage() {
               <p className="text-red-800 mb-2">
                 <strong>Safety level:</strong> Tourist area only, don&apos;t wander
               </p>
-              <p className="text-slate-700">
+              <p className="text-muted-foreground">
                 La Boca is complicated. Caminito—the colorful tourist street—is heavily policed 
                 and safe. But step one block in any direction and you&apos;re in a different world. 
                 The neighborhood has real poverty and real crime. Go see Caminito, take your photos, 
@@ -552,7 +552,7 @@ export default function SafetyPage() {
               <p className="text-red-800 mb-2">
                 <strong>Safety level:</strong> Avoid at night (near bus station)
               </p>
-              <p className="text-slate-700">
+              <p className="text-muted-foreground">
                 Retiro is a tale of two neighborhoods. The area around Plaza San Martín and the 
                 luxury hotels is fine—business district, well policed. But the area around the 
                 Retiro bus station is sketchy, especially at night. This is where many of the 
@@ -567,7 +567,7 @@ export default function SafetyPage() {
               <p className="text-green-800 mb-2">
                 <strong>Safety level:</strong> Up-and-coming, generally safe
               </p>
-              <p className="text-slate-700">
+              <p className="text-muted-foreground">
                 Villa Crespo is what Palermo was 15 years ago—trendy, full of young people, 
                 great food and nightlife, but still a bit rough around the edges. It&apos;s generally 
                 safe, especially around the main avenues (Corrientes, Scalabrini Ortiz). The 
@@ -581,7 +581,7 @@ export default function SafetyPage() {
               <p className="text-green-800 mb-2">
                 <strong>Safety level:</strong> Very safe, sterile
               </p>
-              <p className="text-slate-700">
+              <p className="text-muted-foreground">
                 Puerto Madero is BA&apos;s newest neighborhood—all glass towers, fancy restaurants, 
                 and corporate offices. It&apos;s extremely safe, heavily policed, and feels completely 
                 artificial. The downside: it&apos;s boring. No street life, no character, overpriced 
@@ -594,12 +594,12 @@ export default function SafetyPage() {
 
         {/* Practical Safety Tips */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
             Practical Safety Tips
           </h2>
 
-          <div className="prose prose-lg max-w-none text-slate-700">
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+          <div className="prose prose-lg max-w-none text-muted-foreground">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               The Phone in Front Pocket Rule
             </h3>
             <p>
@@ -614,7 +614,7 @@ export default function SafetyPage() {
               can ride up behind you. Yes, it&apos;s annoying. Yes, you&apos;ll get used to it.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Don&apos;t Wear Flashy Jewelry or Watches
             </h3>
             <p>
@@ -628,7 +628,7 @@ export default function SafetyPage() {
               avoid obvious displays of wealth.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               The &quot;No Dar Papaya&quot; Philosophy
             </h3>
             <p>
@@ -644,7 +644,7 @@ export default function SafetyPage() {
               look like a soft target.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Walking at Night Guidelines
             </h3>
             <ul className="list-disc pl-6 space-y-2 mt-4">
@@ -670,7 +670,7 @@ export default function SafetyPage() {
               </li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Using ATMs Safely
             </h3>
             <p>
@@ -698,7 +698,7 @@ export default function SafetyPage() {
               </li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Uber vs. Taxis vs. Public Transport
             </h3>
             <p>
@@ -718,7 +718,7 @@ export default function SafetyPage() {
               Avoid rush hour if you can—it&apos;s unpleasant and higher risk for theft.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               What to Do If You&apos;re Robbed
             </h3>
             <p>
@@ -756,7 +756,7 @@ export default function SafetyPage() {
 
         {/* Emergency Information */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
             Emergency Information
           </h2>
 
@@ -765,29 +765,29 @@ export default function SafetyPage() {
             <div className="space-y-3">
               <div className="flex items-center gap-4">
                 <span className="text-2xl font-bold text-red-700 w-32">911</span>
-                <span className="text-slate-700">General emergency (works from any phone)</span>
+                <span className="text-muted-foreground">General emergency (works from any phone)</span>
               </div>
               <div className="flex items-center gap-4">
                 <span className="text-2xl font-bold text-red-700 w-32">101</span>
-                <span className="text-slate-700">Police</span>
+                <span className="text-muted-foreground">Police</span>
               </div>
               <div className="flex items-center gap-4">
                 <span className="text-2xl font-bold text-red-700 w-32">107</span>
-                <span className="text-slate-700">Medical emergency (SAME)</span>
+                <span className="text-muted-foreground">Medical emergency (SAME)</span>
               </div>
               <div className="flex items-center gap-4">
                 <span className="text-2xl font-bold text-red-700 w-32">100</span>
-                <span className="text-slate-700">Fire department</span>
+                <span className="text-muted-foreground">Fire department</span>
               </div>
               <div className="flex items-center gap-4">
                 <a href="tel:0800-999-5000" className="text-lg font-bold text-red-700 w-32 hover:underline">0800-999-5000</a>
-                <span className="text-slate-700">Tourist police (English spoken)</span>
+                <span className="text-muted-foreground">Tourist police (English spoken)</span>
               </div>
             </div>
           </div>
 
-          <div className="prose prose-lg max-w-none text-slate-700">
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+          <div className="prose prose-lg max-w-none text-muted-foreground">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Embassy Contacts
             </h3>
             <p>
@@ -805,7 +805,7 @@ export default function SafetyPage() {
               <strong>Australian Embassy:</strong> <a href="tel:+54-11-4779-4100" className="hover:underline">+54-11-4779-4100</a>
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               How to Report a Crime (And Why You Might Not Want To)
             </h3>
             <p>
@@ -839,7 +839,7 @@ export default function SafetyPage() {
               </li>
             </ol>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Getting a Police Report for Insurance
             </h3>
             <p>
@@ -872,12 +872,12 @@ export default function SafetyPage() {
 
         {/* Health Emergencies */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
             Health Emergencies
           </h2>
 
-          <div className="prose prose-lg max-w-none text-slate-700">
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+          <div className="prose prose-lg max-w-none text-muted-foreground">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Guardia vs. Emergency Room
             </h3>
             <p>
@@ -886,7 +886,7 @@ export default function SafetyPage() {
               status. However, the quality varies dramatically between public and private hospitals.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               When to Call SAME (107)
             </h3>
             <p>
@@ -905,7 +905,7 @@ export default function SafetyPage() {
               the central neighborhoods.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Private vs. Public Emergency Care
             </h3>
             <p>
@@ -924,7 +924,7 @@ export default function SafetyPage() {
               For anything serious, go private if you can. The difference in care quality is significant.
             </p>
 
-            <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4">
               Travel Insurance That Actually Works
             </h3>
             <p>
@@ -976,7 +976,7 @@ export default function SafetyPage() {
         {/* FAQ */}
         <section className="mb-16">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-900 mb-8">
+            <h2 className="text-3xl font-bold text-foreground mb-8">
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="w-full">
@@ -991,25 +991,25 @@ export default function SafetyPage() {
         </section>
 
         {/* Final Thoughts */}
-        <section className="bg-slate-900 text-white rounded-lg p-8">
+        <section className="bg-foreground text-white rounded-lg p-8">
           <h2 className="text-2xl font-bold mb-4">Final Thoughts</h2>
-          <p className="text-slate-300 leading-relaxed mb-4">
+          <p className="text-muted-foreground/50 leading-relaxed mb-4">
             Buenos Aires is not a dangerous city. It&apos;s a big city, with big city problems. 
             Petty theft exists. Scams exist. But violent crime against tourists is rare, and 
             most people visit without any issues at all.
           </p>
-          <p className="text-slate-300 leading-relaxed mb-4">
+          <p className="text-muted-foreground/50 leading-relaxed mb-4">
             The key is awareness, not fear. Don&apos;t let safety concerns ruin your trip. Don&apos;t 
             stay in your apartment because you&apos;re worried about going out. Use common sense, 
             follow the tips above, and you&apos;ll be fine.
           </p>
-          <p className="text-slate-300 leading-relaxed">
+          <p className="text-muted-foreground/50 leading-relaxed">
             I&apos;ve lived here for years. I&apos;ve walked home alone at 3am dozens of times. I&apos;ve 
             taken the Subte at midnight. I&apos;ve left my laptop in cafés (don&apos;t do this). And 
             I&apos;ve never been robbed, never been assaulted, never had anything worse than an 
             attempted scam that I saw through immediately.
           </p>
-          <p className="text-slate-300 leading-relaxed mt-4">
+          <p className="text-muted-foreground/50 leading-relaxed mt-4">
             BA is a wonderful city. Don&apos;t let fear keep you from experiencing it.
           </p>
         </section>

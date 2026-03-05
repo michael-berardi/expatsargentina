@@ -390,7 +390,7 @@ export default function InvestmentsPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-24 bg-muted">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
           <Accordion type="single" collapsible className="w-full">
@@ -405,15 +405,15 @@ export default function InvestmentsPage() {
       </section>
 
       {/* Lucero Legal CTA */}
-      <section className="py-16 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950/20 dark:to-background">
+      <section className="py-16 bg-gradient-to-b from-muted to-white dark:from-foreground/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
-            <Card className="border-slate-200 dark:border-slate-800">
+            <Card className="border-border dark:border-border">
               <CardContent className="p-8 md:p-12">
                 <div className="flex flex-col md:flex-row items-center gap-8">
                   <div className="flex-shrink-0">
-                    <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-slate-100 dark:bg-slate-900/50 flex items-center justify-center">
-                      <GlobeIcon size="xl" className="text-slate-600" />
+                    <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-muted dark:bg-foreground/20 flex items-center justify-center">
+                      <GlobeIcon size="xl" className="text-muted-foreground" />
                     </div>
                   </div>
                   <div className="flex-1 text-center md:text-left">

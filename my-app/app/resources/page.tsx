@@ -496,7 +496,7 @@ function StarRating({ rating }: { rating: number }) {
         <StarIcon
           key={i}
           size="sm"
-          className={i < rating ? "text-yellow-500 fill-yellow-500" : "text-gray-300"}
+          className={i < rating ? "text-yellow-500 fill-yellow-500" : "text-muted-foreground/50"}
         />
       ))}
     </div>
@@ -714,7 +714,7 @@ export default function ResourcesPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-20 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
+      <section className="py-16 md:py-20 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
@@ -962,7 +962,7 @@ export default function ResourcesPage() {
 
                 <div>
                   <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-                    <BriefcaseIcon size="md" className="text-orange-600" />
+                    <BriefcaseIcon size="md" className="text-accent" />
                     Job Boards
                   </h3>
                   <div className="space-y-4">

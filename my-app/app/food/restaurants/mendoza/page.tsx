@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const priceColors = {
   "$": "bg-green-100 text-green-700",
   "$$": "bg-yellow-100 text-yellow-700",
-  "$$$": "bg-orange-100 text-orange-700",
+  "$$$": "bg-accent/10 text-accent",
   "$$$$": "bg-red-100 text-red-700",
 };
 
@@ -87,25 +87,25 @@ export default function MendozaRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-purple-600">2</div>
-              <div className="text-base text-gray-600">Featured Restaurants</div>
+              <div className="text-base text-muted-foreground">Featured Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-purple-600">1500+</div>
-              <div className="text-base text-gray-600">Wineries</div>
+              <div className="text-base text-muted-foreground">Wineries</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-purple-600">5M</div>
-              <div className="text-base text-gray-600">Annual Visitors</div>
+              <div className="text-base text-muted-foreground">Annual Visitors</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-purple-600">★★★</div>
-              <div className="text-base text-gray-600">Wine Tourism</div>
+              <div className="text-base text-muted-foreground">Wine Tourism</div>
             </CardContent>
           </Card>
         </div>
@@ -119,23 +119,23 @@ export default function MendozaRestaurantsPage() {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            <p className="text-gray-700">
+            <p className="text-muted-foreground">
               Mendoza is Argentina's premier wine region, and the dining scene reflects this. 
               Many of the best restaurants are located within wineries (bodegas), offering 
               multi-course meals paired with estate wines and views of the Andes.
             </p>
             <div className="grid md:grid-cols-2 gap-4 text-base">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Wine Regions</h4>
-                <ul className="space-y-1 text-gray-600">
+                <h4 className="font-semibold text-foreground mb-2">Wine Regions</h4>
+                <ul className="space-y-1 text-muted-foreground">
                   <li>• <strong>Luján de Cuyo:</strong> Historic wineries, Malbec birthplace</li>
                   <li>• <strong>Valle de Uco:</strong> High-altitude wines, modern architecture</li>
                   <li>• <strong>Maipú:</strong> Traditional bodegas, bike-friendly routes</li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Dining Tips</h4>
-                <ul className="space-y-1 text-gray-600">
+                <h4 className="font-semibold text-foreground mb-2">Dining Tips</h4>
+                <ul className="space-y-1 text-muted-foreground">
                   <li>• Book winery restaurants well in advance</li>
                   <li>• Lunch is the main meal; dinner starts late (9pm+)</li>
                   <li>• Wine pairings are always worth it</li>
@@ -150,8 +150,8 @@ export default function MendozaRestaurantsPage() {
         <section id="top-restaurants" className="mb-16">
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900">Featured Restaurants</h2>
-              <p className="text-gray-600 mt-1">The best dining experiences in Mendoza</p>
+              <h2 className="text-3xl font-bold text-foreground">Featured Restaurants</h2>
+              <p className="text-muted-foreground mt-1">The best dining experiences in Mendoza</p>
             </div>
           </div>
 
@@ -163,7 +163,7 @@ export default function MendozaRestaurantsPage() {
                     <div className="p-6">
                       <div className="flex items-start justify-between gap-4 mb-3">
                         <div>
-                          <h3 className="text-xl font-bold text-gray-900">
+                          <h3 className="text-xl font-bold text-foreground">
                             {restaurant.name}
                           </h3>
                           <p className="text-base text-purple-600">
@@ -175,7 +175,7 @@ export default function MendozaRestaurantsPage() {
                         </Badge>
                       </div>
                       
-                      <p className="text-gray-600 mb-4">{restaurant.description}</p>
+                      <p className="text-muted-foreground mb-4">{restaurant.description}</p>
                       
                       <div className="flex flex-wrap gap-2 mb-4">
                         {restaurant.mustTry.slice(0, 3).map((item) => (
@@ -185,7 +185,7 @@ export default function MendozaRestaurantsPage() {
                         ))}
                       </div>
 
-                      <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
+                      <div className="flex flex-wrap items-center gap-4 text-base text-muted-foreground">
                         <div className="flex items-center gap-1">
                           <MapPin className="w-4 h-4" />
                           <span>{restaurant.address}</span>
@@ -237,20 +237,20 @@ export default function MendozaRestaurantsPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
-                <h4 className="font-semibold text-gray-900">Bodega Catena Zapata</h4>
-                <p className="text-base text-gray-600">Iconic pyramid winery with tastings and food pairings</p>
+                <h4 className="font-semibold text-foreground">Bodega Catena Zapata</h4>
+                <p className="text-base text-muted-foreground">Iconic pyramid winery with tastings and food pairings</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Bodega Salentein</h4>
-                <p className="text-base text-gray-600">Modern art and wine in Valle de Uco</p>
+                <h4 className="font-semibold text-foreground">Bodega Salentein</h4>
+                <p className="text-base text-muted-foreground">Modern art and wine in Valle de Uco</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Bodega Zuccardi</h4>
-                <p className="text-base text-gray-600">Award-winning architecture and excellent restaurant</p>
+                <h4 className="font-semibold text-foreground">Bodega Zuccardi</h4>
+                <p className="text-base text-muted-foreground">Award-winning architecture and excellent restaurant</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Bodega Ruca Malén</h4>
-                <p className="text-base text-gray-600">Famous 5-course lunch with wine pairings</p>
+                <h4 className="font-semibold text-foreground">Bodega Ruca Malén</h4>
+                <p className="text-base text-muted-foreground">Famous 5-course lunch with wine pairings</p>
               </div>
             </CardContent>
           </Card>
@@ -264,20 +264,20 @@ export default function MendozaRestaurantsPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
-                <h4 className="font-semibold text-gray-900">Cordero Patagónico</h4>
-                <p className="text-base text-gray-600">Patagonian lamb, often cooked over open fire</p>
+                <h4 className="font-semibold text-foreground">Cordero Patagónico</h4>
+                <p className="text-base text-muted-foreground">Patagonian lamb, often cooked over open fire</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Cabrito</h4>
-                <p className="text-base text-gray-600">Roast goat, a regional specialty</p>
+                <h4 className="font-semibold text-foreground">Cabrito</h4>
+                <p className="text-base text-muted-foreground">Roast goat, a regional specialty</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Alfajores Mendocinos</h4>
-                <p className="text-base text-gray-600">Local variation with walnut and quince</p>
+                <h4 className="font-semibold text-foreground">Alfajores Mendocinos</h4>
+                <p className="text-base text-muted-foreground">Local variation with walnut and quince</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Aceite de Oliva</h4>
-                <p className="text-base text-gray-600">Mendoza also produces excellent olive oil</p>
+                <h4 className="font-semibold text-foreground">Aceite de Oliva</h4>
+                <p className="text-base text-muted-foreground">Mendoza also produces excellent olive oil</p>
               </div>
             </CardContent>
           </Card>

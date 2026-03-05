@@ -106,10 +106,10 @@ export default function RemoteWorkPage() {
             <div className="p-2 bg-blue-100 rounded-lg">
               <Wifi className="w-6 h-6 text-blue-700" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">The Reality of Remote Work in BA</h2>
+            <h2 className="text-3xl font-bold text-foreground">The Reality of Remote Work in BA</h2>
           </div>
 
-          <div className="prose prose-lg max-w-none text-gray-700">
+          <div className="prose prose-lg max-w-none text-muted-foreground">
             <p className="text-xl leading-relaxed">
               Let's cut through the Instagram滤镜. Working remotely from Buenos Aires is amazing, 
               but it's not all cafés with perfect WiFi and sunset laptop sessions. Here's what 
@@ -118,12 +118,12 @@ export default function RemoteWorkPage() {
           </div>
 
           <div className="mt-8 grid md:grid-cols-2 gap-6">
-            <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
+            <div className="bg-muted p-6 rounded-xl border border-border">
+              <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
                 <Wifi className="w-5 h-5 text-green-600" />
                 Internet Speeds (Real Numbers)
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-muted-foreground mb-4">
                 Speeds vary wildly by neighborhood and building. Fiber (Fibertel) is expanding 
                 but not universal. Here's what to expect:
               </p>
@@ -155,16 +155,16 @@ export default function RemoteWorkPage() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
+            <div className="bg-muted p-6 rounded-xl border border-border">
+              <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
                 <Zap className="w-5 h-5 text-yellow-600" />
                 Power Outages (Cortes de Luz)
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-muted-foreground mb-4">
                 They happen. More in summer (everyone's AC is blasting), more in older neighborhoods. 
                 Here's the reality:
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-600 mt-1">•</span>
                   <span><strong>Summer frequency:</strong> 1-3 times per month, 1-4 hours</span>
@@ -189,14 +189,14 @@ export default function RemoteWorkPage() {
             </div>
           </div>
 
-          <div className="mt-8 bg-gradient-to-r from-orange-50 to-red-50 p-6 rounded-xl border border-orange-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <Clock className="w-5 h-5 text-orange-600" />
+          <div className="mt-8 bg-gradient-to-r from-accent/5 to-red-50 p-6 rounded-xl border border-accent/20">
+            <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
+              <Clock className="w-5 h-5 text-accent" />
               The Time Zone Challenge
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <p className="text-gray-700 mb-4">
+                <p className="text-muted-foreground mb-4">
                   Buenos Aires is EST +2 hours (or +1 during US daylight saving time mismatch). 
                   This means:
                 </p>
@@ -212,14 +212,14 @@ export default function RemoteWorkPage() {
                 </div>
               </div>
               <div>
-                <p className="text-gray-700 mb-2"><strong>Overlap with US teams:</strong></p>
-                <ul className="space-y-1 text-sm text-gray-600">
+                <p className="text-muted-foreground mb-2"><strong>Overlap with US teams:</strong></p>
+                <ul className="space-y-1 text-sm text-muted-foreground">
                   <li>• East Coast: 4 hours (11am-3pm BA time)</li>
                   <li>• West Coast: 1-2 hours (if they start early)</li>
                   <li>• Europe: 3-4 hours morning overlap</li>
                 </ul>
-                <p className="text-gray-700 mt-4 mb-2"><strong>What this means:</strong></p>
-                <p className="text-sm text-gray-600">
+                <p className="text-muted-foreground mt-4 mb-2"><strong>What this means:</strong></p>
+                <p className="text-sm text-muted-foreground">
                   You'll either work split shifts (morning + evening) or become a morning person. 
                   Most nomads adapt to start around 8-9 AM BA time.
                 </p>
@@ -228,21 +228,21 @@ export default function RemoteWorkPage() {
           </div>
 
           <div className="mt-8 bg-blue-50 p-6 rounded-xl border border-blue-200">
-            <h3 className="text-lg font-semibold text-gray-900 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mb-3">
               The "I'm in Argentina" Meeting Script
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-muted-foreground mb-4">
               You'll need to explain your situation. Here's what works:
             </p>
             <div className="bg-white p-4 rounded-lg border border-blue-100">
-              <p className="text-gray-800 italic">
+              <p className="text-foreground italic">
                 "I'm working remotely from Buenos Aires for [time period]. I'm on EST+2, so I'm 
                 available for meetings 11 AM - 3 PM your time. I have backup internet and power 
                 solutions, and I've been doing this for [X months] without issues. My output 
                 remains the same."
               </p>
             </div>
-            <p className="text-sm text-gray-600 mt-3">
+            <p className="text-sm text-muted-foreground mt-3">
               Don't apologize. Don't over-explain. Treat it like a normal working arrangement 
               because it is.
             </p>
@@ -255,20 +255,20 @@ export default function RemoteWorkPage() {
             <div className="p-2 bg-purple-100 rounded-lg">
               <Briefcase className="w-6 h-6 text-purple-700" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Coworking Spaces (Real Reviews)</h2>
+            <h2 className="text-3xl font-bold text-foreground">Coworking Spaces (Real Reviews)</h2>
           </div>
 
           <div className="space-y-8">
             {/* WeWork */}
-            <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
+            <div className="bg-white p-6 rounded-xl border-2 border-border">
               <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900">WeWork</h3>
-                  <p className="text-gray-600">Palermo & Puerto Madero locations</p>
+                  <h3 className="text-2xl font-bold text-foreground">WeWork</h3>
+                  <p className="text-muted-foreground">Palermo & Puerto Madero locations</p>
                 </div>
                 <div className="text-right">
                   <p className="text-2xl font-bold text-purple-700">$150-250/month</p>
-                  <p className="text-sm text-gray-500">Hot desk</p>
+                  <p className="text-sm text-muted-foreground">Hot desk</p>
                 </div>
               </div>
               
@@ -300,22 +300,22 @@ export default function RemoteWorkPage() {
                 </div>
               </div>
               
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-muted-foreground">
                 <strong>Palermo:</strong> Torre Bellini, Carranza 1905. <strong>Puerto Madero:</strong> 
                 Juana Manso 1180. Both have parking (expensive), bike storage, and are near subte.
               </p>
             </div>
 
             {/* La Maquinita */}
-            <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
+            <div className="bg-white p-6 rounded-xl border-2 border-border">
               <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900">La Maquinita</h3>
-                  <p className="text-gray-600">Multiple locations (Colegiales, Palermo, Villa Crespo)</p>
+                  <h3 className="text-2xl font-bold text-foreground">La Maquinita</h3>
+                  <p className="text-muted-foreground">Multiple locations (Colegiales, Palermo, Villa Crespo)</p>
                 </div>
                 <div className="text-right">
                   <p className="text-2xl font-bold text-purple-700">$80-150/month</p>
-                  <p className="text-sm text-gray-500">Hot desk</p>
+                  <p className="text-sm text-muted-foreground">Hot desk</p>
                 </div>
               </div>
               
@@ -347,22 +347,22 @@ export default function RemoteWorkPage() {
                 </div>
               </div>
               
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-muted-foreground">
                 <strong>Colegiales</strong> is the flagship location. They host regular events, 
                 have a café on-site, and the community is genuinely welcoming to foreigners.
               </p>
             </div>
 
             {/* Area Tres */}
-            <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
+            <div className="bg-white p-6 rounded-xl border-2 border-border">
               <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900">Area Tres</h3>
-                  <p className="text-gray-600">El Salvador 5218, Palermo</p>
+                  <h3 className="text-2xl font-bold text-foreground">Area Tres</h3>
+                  <p className="text-muted-foreground">El Salvador 5218, Palermo</p>
                 </div>
                 <div className="text-right">
                   <p className="text-2xl font-bold text-purple-700">$100-180/month</p>
-                  <p className="text-sm text-gray-500">Hot desk</p>
+                  <p className="text-sm text-muted-foreground">Hot desk</p>
                 </div>
               </div>
               
@@ -396,15 +396,15 @@ export default function RemoteWorkPage() {
             </div>
 
             {/* Cespedes */}
-            <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
+            <div className="bg-white p-6 rounded-xl border-2 border-border">
               <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900">Cespedes</h3>
-                  <p className="text-gray-600">Céspedes 3030, Palermo</p>
+                  <h3 className="text-2xl font-bold text-foreground">Cespedes</h3>
+                  <p className="text-muted-foreground">Céspedes 3030, Palermo</p>
                 </div>
                 <div className="text-right">
                   <p className="text-2xl font-bold text-purple-700">$60-100/month</p>
-                  <p className="text-sm text-gray-500">Hot desk</p>
+                  <p className="text-sm text-muted-foreground">Hot desk</p>
                 </div>
               </div>
               
@@ -440,17 +440,17 @@ export default function RemoteWorkPage() {
 
           {/* Cafe Working */}
           <div className="mt-8 bg-amber-50 p-6 rounded-xl border border-amber-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
+            <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
               <Coffee className="w-5 h-5 text-amber-600" />
               Cafe Working Culture
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-muted-foreground mb-4">
               Argentines are cafe people, but working from cafes is a gray area. Here's how to do it right:
             </p>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Cafes That Welcome Laptops</h4>
+                <h4 className="font-semibold text-foreground mb-2">Cafes That Welcome Laptops</h4>
                 <ul className="space-y-2 text-sm">
                   <li className="p-2 bg-white rounded">
                     <strong>Lab Tostadores</strong> (Palermo) - Specialty coffee, laptop-friendly
@@ -470,8 +470,8 @@ export default function RemoteWorkPage() {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Cafe Etiquette</h4>
-                <ul className="space-y-2 text-sm text-gray-700">
+                <h4 className="font-semibold text-foreground mb-2">Cafe Etiquette</h4>
+                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Order every 2-3 hours minimum</li>
                   <li>• Don't camp at peak times (11am-1pm, 5-7pm)</li>
                   <li>• Tip well (10% is standard, 15% if you're there all day)</li>
@@ -487,39 +487,39 @@ export default function RemoteWorkPage() {
           </div>
 
           {/* Home Office Setup */}
-          <div className="mt-8 bg-gray-50 p-6 rounded-xl border border-gray-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <Home className="w-5 h-5 text-gray-600" />
+          <div className="mt-8 bg-muted p-6 rounded-xl border border-border">
+            <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
+              <Home className="w-5 h-5 text-muted-foreground" />
               Home Office Setup: Where to Buy
             </h3>
-            <p className="text-gray-600 mb-4">
+            <p className="text-muted-foreground mb-4">
               Don't expect furnished apartments to have good desk setups. Here's where to get equipment:
             </p>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="p-4 bg-white rounded-lg">
-                <p className="font-semibold text-gray-900 mb-2">Desk & Chair</p>
-                <p className="text-sm text-gray-600 mb-2">
+                <p className="font-semibold text-foreground mb-2">Desk & Chair</p>
+                <p className="text-sm text-muted-foreground mb-2">
                   <strong>Easy</strong> (easy.com.ar) - IKEA-style, delivers fast
                 </p>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-muted-foreground">
                   <strong>Mercado Libre</strong> - Everything, check seller ratings
                 </p>
               </div>
               <div className="p-4 bg-white rounded-lg">
-                <p className="font-semibold text-gray-900 mb-2">Electronics</p>
-                <p className="text-sm text-gray-600 mb-2">
+                <p className="font-semibold text-foreground mb-2">Electronics</p>
+                <p className="text-sm text-muted-foreground mb-2">
                   <strong>Garbarino</strong> or <strong>Frávega</strong> - Local chains
                 </p>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-muted-foreground">
                   <strong>Apple:</strong> Bring your own or pay 2x import taxes
                 </p>
               </div>
               <div className="p-4 bg-white rounded-lg">
-                <p className="font-semibold text-gray-900 mb-2">Monitor/Peripherals</p>
-                <p className="text-sm text-gray-600 mb-2">
+                <p className="font-semibold text-foreground mb-2">Monitor/Peripherals</p>
+                <p className="text-sm text-muted-foreground mb-2">
                   <strong>Bring from home</strong> if possible - much cheaper
                 </p>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-muted-foreground">
                   <strong>Compumundo</strong> for local options (limited selection)
                 </p>
               </div>
@@ -533,68 +533,68 @@ export default function RemoteWorkPage() {
             <div className="p-2 bg-green-100 rounded-lg">
               <Briefcase className="w-6 h-6 text-green-700" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Finding Remote Jobs from Argentina</h2>
+            <h2 className="text-3xl font-bold text-foreground">Finding Remote Jobs from Argentina</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Job Boards That Work</h3>
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-xl font-semibold text-foreground mb-4">Job Boards That Work</h3>
               <div className="space-y-3">
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">RemoteOK</p>
-                  <p className="text-sm text-gray-600">Best for tech jobs, filter by timezone</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">RemoteOK</p>
+                  <p className="text-sm text-muted-foreground">Best for tech jobs, filter by timezone</p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">We Work Remotely</p>
-                  <p className="text-sm text-gray-600">Quality listings, good for experienced devs</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">We Work Remotely</p>
+                  <p className="text-sm text-muted-foreground">Quality listings, good for experienced devs</p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">AngelList / Wellfound</p>
-                  <p className="text-sm text-gray-600">Startups, often timezone-flexible</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">AngelList / Wellfound</p>
+                  <p className="text-sm text-muted-foreground">Startups, often timezone-flexible</p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">LinkedIn</p>
-                  <p className="text-sm text-gray-600">Set location to "Remote" and "Argentina"</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">LinkedIn</p>
+                  <p className="text-sm text-muted-foreground">Set location to "Remote" and "Argentina"</p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">FlexJobs</p>
-                  <p className="text-sm text-gray-600">Paid but vetted, good for non-tech</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">FlexJobs</p>
+                  <p className="text-sm text-muted-foreground">Paid but vetted, good for non-tech</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Argentine Companies Hiring Foreigners</h3>
-              <p className="text-gray-600 mb-4">
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-xl font-semibold text-foreground mb-4">Argentine Companies Hiring Foreigners</h3>
+              <p className="text-muted-foreground mb-4">
                 Some local companies actively seek international talent (usually for US/EU clients):
               </p>
               <div className="space-y-3">
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Globant</p>
-                  <p className="text-sm text-gray-600">Tech consulting, hires globally</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Globant</p>
+                  <p className="text-sm text-muted-foreground">Tech consulting, hires globally</p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Mercado Libre</p>
-                  <p className="text-sm text-gray-600">Latin America's Amazon, remote roles</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Mercado Libre</p>
+                  <p className="text-sm text-muted-foreground">Latin America's Amazon, remote roles</p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Auth0</p>
-                  <p className="text-sm text-gray-600">Remote-first, founded by Argentines</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Auth0</p>
+                  <p className="text-sm text-muted-foreground">Remote-first, founded by Argentines</p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Various Startups</p>
-                  <p className="text-sm text-gray-600">Check BA Startup Jobs Facebook group</p>
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Various Startups</p>
+                  <p className="text-sm text-muted-foreground">Check BA Startup Jobs Facebook group</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="mt-8 bg-blue-50 p-6 rounded-xl border border-blue-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Freelancing from Argentina</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Freelancing from Argentina</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div>
-                <p className="font-semibold text-gray-900 mb-2">Platforms</p>
-                <ul className="text-sm text-gray-700 space-y-1">
+                <p className="font-semibold text-foreground mb-2">Platforms</p>
+                <ul className="text-sm text-muted-foreground space-y-1">
                   <li>• <strong>Upwork:</strong> Competitive but possible</li>
                   <li>• <strong>Toptal:</strong> High rates, tough screening</li>
                   <li>• <strong>Contra:</strong> Newer, lower fees</li>
@@ -602,8 +602,8 @@ export default function RemoteWorkPage() {
                 </ul>
               </div>
               <div>
-                <p className="font-semibold text-gray-900 mb-2">Advantages</p>
-                <ul className="text-sm text-gray-700 space-y-1">
+                <p className="font-semibold text-foreground mb-2">Advantages</p>
+                <ul className="text-sm text-muted-foreground space-y-1">
                   <li>• Cost of living arbitrage</li>
                   <li>• Can undercut US rates slightly</li>
                   <li>• Same timezone as US clients</li>
@@ -611,8 +611,8 @@ export default function RemoteWorkPage() {
                 </ul>
               </div>
               <div>
-                <p className="font-semibold text-gray-900 mb-2">Challenges</p>
-                <ul className="text-sm text-gray-700 space-y-1">
+                <p className="font-semibold text-foreground mb-2">Challenges</p>
+                <ul className="text-sm text-muted-foreground space-y-1">
                   <li>• Payment processing fees</li>
                   <li>• Currency exchange complexity</li>
                   <li>• Building reputation takes time</li>
@@ -622,12 +622,12 @@ export default function RemoteWorkPage() {
             </div>
           </div>
 
-          <div className="mt-8 bg-white p-6 rounded-xl border border-gray-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Networking for Remote Work</h3>
-            <p className="text-gray-600 mb-4">
+          <div className="mt-8 bg-white p-6 rounded-xl border border-border">
+            <h3 className="text-xl font-semibold text-foreground mb-4">Networking for Remote Work</h3>
+            <p className="text-muted-foreground mb-4">
               Most remote jobs come from connections, not applications. Build your network:
             </p>
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start gap-3">
                 <span className="text-blue-600 mt-1">→</span>
                 <span><strong>Coworking communities:</strong> La Maquinita and Area Tres have active Slack groups</span>
@@ -658,11 +658,11 @@ export default function RemoteWorkPage() {
             <div className="p-2 bg-yellow-100 rounded-lg">
               <DollarSign className="w-6 h-6 text-yellow-700" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Money Management for Remote Workers</h2>
+            <h2 className="text-3xl font-bold text-foreground">Money Management for Remote Workers</h2>
           </div>
 
-          <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-xl border border-yellow-200 mb-8">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Getting Paid: The Options</h3>
+          <div className="bg-gradient-to-r from-yellow-50 to-accent/5 p-6 rounded-xl border border-yellow-200 mb-8">
+            <h3 className="text-xl font-semibold text-foreground mb-4">Getting Paid: The Options</h3>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
@@ -673,7 +673,7 @@ export default function RemoteWorkPage() {
                     <th className="text-left py-2 px-3">Best For</th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-700">
+                <tbody className="text-muted-foreground">
                   <tr className="border-b border-yellow-100">
                     <td className="py-3 px-3 font-medium">Wise (TransferWise)</td>
                     <td className="py-3 px-3">~0.5-1%</td>
@@ -716,9 +716,9 @@ export default function RemoteWorkPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">The Western Union Lifestyle</h3>
-              <p className="text-gray-600 mb-4">
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-xl font-semibold text-foreground mb-4">The Western Union Lifestyle</h3>
+              <p className="text-muted-foreground mb-4">
                 Many nomads use Western Union to access the "blue dollar" rate (informal exchange rate), 
                 which can be 30-50% better than the official rate.
               </p>
@@ -745,33 +745,33 @@ export default function RemoteWorkPage() {
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Banking for Nomads</h3>
-              <p className="text-gray-600 mb-4">
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-xl font-semibold text-foreground mb-4">Banking for Nomads</h3>
+              <p className="text-muted-foreground mb-4">
                 You probably can't get an Argentine bank account as a tourist. Here's what works:
               </p>
               <div className="space-y-3">
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Keep Home Account</p>
-                  <p className="text-sm text-gray-600">
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Keep Home Account</p>
+                  <p className="text-sm text-muted-foreground">
                     Use your home country bank + Wise/PayPal for everything
                   </p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Wise Account</p>
-                  <p className="text-sm text-gray-600">
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Wise Account</p>
+                  <p className="text-sm text-muted-foreground">
                     Multi-currency account, debit card works in Argentina
                   </p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Crypto Wallet</p>
-                  <p className="text-sm text-gray-600">
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Crypto Wallet</p>
+                  <p className="text-sm text-muted-foreground">
                     For backup and emergencies. Exchange to cash via local groups.
                   </p>
                 </div>
-                <div className="p-3 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Cash is King</p>
-                  <p className="text-sm text-gray-600">
+                <div className="p-3 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Cash is King</p>
+                  <p className="text-sm text-muted-foreground">
                     Many places don't take cards. Always have peso cash.
                   </p>
                 </div>
@@ -780,14 +780,14 @@ export default function RemoteWorkPage() {
           </div>
 
           <div className="mt-8 bg-blue-50 p-6 rounded-xl border border-blue-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Tax Considerations (Simplified)</h3>
-            <p className="text-gray-700 mb-4">
+            <h3 className="text-xl font-semibold text-foreground mb-4">Tax Considerations (Simplified)</h3>
+            <p className="text-muted-foreground mb-4">
               <strong>Disclaimer:</strong> Not tax advice. Consult a professional. But here's the general situation:
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">If You're a Tourist (6 months or less)</h4>
-                <ul className="text-sm text-gray-700 space-y-1">
+                <h4 className="font-semibold text-foreground mb-2">If You're a Tourist (6 months or less)</h4>
+                <ul className="text-sm text-muted-foreground space-y-1">
                   <li>• Usually no Argentine tax obligation</li>
                   <li>• Continue paying taxes in home country</li>
                   <li>• Keep records of your stay duration</li>
@@ -795,8 +795,8 @@ export default function RemoteWorkPage() {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">If You're Long-Term</h4>
-                <ul className="text-sm text-gray-700 space-y-1">
+                <h4 className="font-semibold text-foreground mb-2">If You're Long-Term</h4>
+                <ul className="text-sm text-muted-foreground space-y-1">
                   <li>• May become tax resident after 12 months</li>
                   <li>• Argentina taxes worldwide income for residents</li>
                   <li>• Many nomads use Digital Nomad Visa</li>
@@ -817,12 +817,12 @@ export default function RemoteWorkPage() {
             <div className="p-2 bg-indigo-100 rounded-lg">
               <Calendar className="w-6 h-6 text-indigo-700" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Productivity & Lifestyle</h2>
+            <h2 className="text-3xl font-bold text-foreground">Productivity & Lifestyle</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Best Neighborhoods for Remote Work</h3>
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Best Neighborhoods for Remote Work</h3>
               <div className="space-y-3 text-sm">
                 <div className="p-3 bg-green-50 rounded-lg">
                   <p className="font-semibold text-green-800">Palermo (Hollywood/Soho)</p>
@@ -843,9 +843,9 @@ export default function RemoteWorkPage() {
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Daily Routines That Work</h3>
-              <div className="space-y-3 text-sm text-gray-700">
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Daily Routines That Work</h3>
+              <div className="space-y-3 text-sm text-muted-foreground">
                 <div className="p-3 border-l-4 border-blue-500 bg-blue-50">
                   <p className="font-semibold">The Early Bird (US overlap)</p>
                   <p>8 AM - 12 PM: Deep work</p>
@@ -867,12 +867,12 @@ export default function RemoteWorkPage() {
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Avoiding Isolation</h3>
-              <p className="text-gray-600 mb-3 text-sm">
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Avoiding Isolation</h3>
+              <p className="text-muted-foreground mb-3 text-sm">
                 Working alone in a foreign city can be lonely. Combat it:
               </p>
-              <ul className="space-y-2 text-sm text-gray-700">
+              <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-blue-600">•</span>
                   <span>Cowork 2-3 days/week minimum</span>
@@ -902,8 +902,8 @@ export default function RemoteWorkPage() {
           </div>
 
           <div className="bg-gradient-to-r from-pink-50 to-rose-50 p-6 rounded-xl border border-pink-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Monthly Budgets for Different Lifestyles</h3>
-            <p className="text-gray-600 mb-6">
+            <h3 className="text-xl font-semibold text-foreground mb-4">Monthly Budgets for Different Lifestyles</h3>
+            <p className="text-muted-foreground mb-6">
               Based on 2025-2026 prices. Assumes you're using the blue rate effectively.
             </p>
             
@@ -911,20 +911,20 @@ export default function RemoteWorkPage() {
               <div className="bg-white p-5 rounded-xl border-2 border-green-200">
                 <h4 className="text-lg font-bold text-green-800 mb-2">The Budget Nomad</h4>
                 <p className="text-3xl font-bold text-green-700 mb-4">$800-1,200</p>
-                <ul className="text-sm text-gray-700 space-y-2">
+                <ul className="text-sm text-muted-foreground space-y-2">
                   <li>• Shared apartment or room</li>
                   <li>• Home cooking + cheap eats</li>
                   <li>• Public transport</li>
                   <li>• Free/cheap entertainment</li>
                   <li>• No coworking membership</li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-4">Possible but tight. Good for short stays.</p>
+                <p className="text-sm text-muted-foreground mt-4">Possible but tight. Good for short stays.</p>
               </div>
 
               <div className="bg-white p-5 rounded-xl border-2 border-blue-200">
                 <h4 className="text-lg font-bold text-blue-800 mb-2">The Comfortable Nomad</h4>
                 <p className="text-3xl font-bold text-blue-700 mb-4">$1,500-2,500</p>
-                <ul className="text-sm text-gray-700 space-y-2">
+                <ul className="text-sm text-muted-foreground space-y-2">
                   <li>• Nice 1-bedroom apartment</li>
                   <li>• Mix of cooking and restaurants</li>
                   <li>• Uber + some taxis</li>
@@ -932,13 +932,13 @@ export default function RemoteWorkPage() {
                   <li>• Weekend trips</li>
                   <li>• Social life</li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-4">Sweet spot for most nomads.</p>
+                <p className="text-sm text-muted-foreground mt-4">Sweet spot for most nomads.</p>
               </div>
 
               <div className="bg-white p-5 rounded-xl border-2 border-purple-200">
                 <h4 className="text-lg font-bold text-purple-800 mb-2">The Ballin' Nomad</h4>
                 <p className="text-3xl font-bold text-purple-700 mb-4">$3,000-5,000+</p>
-                <ul className="text-sm text-gray-700 space-y-2">
+                <ul className="text-sm text-muted-foreground space-y-2">
                   <li>• Luxury apartment or WeWork living</li>
                   <li>• Premium restaurants</li>
                   <li>• Private car/Uber everywhere</li>
@@ -946,7 +946,7 @@ export default function RemoteWorkPage() {
                   <li>• Frequent travel</li>
                   <li>• No compromises</li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-4">Live like a king/queen.</p>
+                <p className="text-sm text-muted-foreground mt-4">Live like a king/queen.</p>
               </div>
             </div>
           </div>
@@ -958,61 +958,61 @@ export default function RemoteWorkPage() {
             <div className="p-2 bg-pink-100 rounded-lg">
               <Users className="w-6 h-6 text-pink-700" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Community & Networking</h2>
+            <h2 className="text-3xl font-bold text-foreground">Community & Networking</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Digital Nomad Meetups</h3>
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-xl font-semibold text-foreground mb-4">Digital Nomad Meetups</h3>
               <div className="space-y-4">
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Nomad Mondays</p>
-                  <p className="text-sm text-gray-600">Weekly meetup, rotating locations</p>
-                  <p className="text-sm text-gray-500">Check Meetup.com or Facebook groups</p>
+                <div className="p-4 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Nomad Mondays</p>
+                  <p className="text-sm text-muted-foreground">Weekly meetup, rotating locations</p>
+                  <p className="text-sm text-muted-foreground">Check Meetup.com or Facebook groups</p>
                 </div>
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Coworking Socials</p>
-                  <p className="text-sm text-gray-600">La Maquinita and Area Tres host regular events</p>
-                  <p className="text-sm text-gray-500">Usually free, sometimes with drinks/food</p>
+                <div className="p-4 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Coworking Socials</p>
+                  <p className="text-sm text-muted-foreground">La Maquinita and Area Tres host regular events</p>
+                  <p className="text-sm text-muted-foreground">Usually free, sometimes with drinks/food</p>
                 </div>
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Language Exchanges</p>
-                  <p className="text-sm text-gray-600">Spanglish, Mundo Lingo - great for meeting people</p>
-                  <p className="text-sm text-gray-500">Multiple locations, usually weekdays</p>
+                <div className="p-4 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Language Exchanges</p>
+                  <p className="text-sm text-muted-foreground">Spanglish, Mundo Lingo - great for meeting people</p>
+                  <p className="text-sm text-muted-foreground">Multiple locations, usually weekdays</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Online Communities</h3>
+            <div className="bg-white p-6 rounded-xl border border-border">
+              <h3 className="text-xl font-semibold text-foreground mb-4">Online Communities</h3>
               <div className="space-y-4">
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Facebook Groups</p>
-                  <ul className="text-sm text-gray-600 mt-2 space-y-1">
+                <div className="p-4 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Facebook Groups</p>
+                  <ul className="text-sm text-muted-foreground mt-2 space-y-1">
                     <li>• Digital Nomads Buenos Aires</li>
                     <li>• Expats in Buenos Aires</li>
                     <li>• Buenos Aires Startups</li>
                   </ul>
                 </div>
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Slack/Discord</p>
-                  <ul className="text-sm text-gray-600 mt-2 space-y-1">
+                <div className="p-4 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Slack/Discord</p>
+                  <ul className="text-sm text-muted-foreground mt-2 space-y-1">
                     <li>• Coworking space Slacks (ask when you visit)</li>
                     <li>• Nomad List community</li>
                     <li>• Various tech group Discords</li>
                   </ul>
                 </div>
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <p className="font-semibold text-gray-900">Nomad List</p>
-                  <p className="text-sm text-gray-600">Active BA community, good for real-time questions</p>
+                <div className="p-4 bg-muted rounded-lg">
+                  <p className="font-semibold text-foreground">Nomad List</p>
+                  <p className="text-sm text-muted-foreground">Active BA community, good for real-time questions</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="mt-8 bg-white p-6 rounded-xl border border-gray-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Expat Entrepreneur Groups</h3>
-            <p className="text-gray-600 mb-4">
+          <div className="mt-8 bg-white p-6 rounded-xl border border-border">
+            <h3 className="text-xl font-semibold text-foreground mb-4">Expat Entrepreneur Groups</h3>
+            <p className="text-muted-foreground mb-4">
               If you're building something while here, these groups are gold:
             </p>
             <div className="grid md:grid-cols-3 gap-4">
@@ -1037,12 +1037,12 @@ export default function RemoteWorkPage() {
             </div>
           </div>
 
-          <div className="mt-8 bg-gradient-to-r from-green-50 to-teal-50 p-6 rounded-xl border border-green-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Networking Events Calendar</h3>
+          <div className="mt-8 bg-gradient-to-r from-green-50 to-primary/5 p-6 rounded-xl border border-green-200">
+            <h3 className="text-xl font-semibold text-foreground mb-4">Networking Events Calendar</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Regular Events</h4>
-                <ul className="space-y-2 text-sm text-gray-700">
+                <h4 className="font-semibold text-foreground mb-2">Regular Events</h4>
+                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• <strong>Mondays:</strong> Nomad meetups (varies)</li>
                   <li>• <strong>Tuesdays:</strong> Spanglish Palermo</li>
                   <li>• <strong>Wednesdays:</strong> Mundo Lingo</li>
@@ -1051,8 +1051,8 @@ export default function RemoteWorkPage() {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Where to Find Events</h4>
-                <ul className="space-y-2 text-sm text-gray-700">
+                <h4 className="font-semibold text-foreground mb-2">Where to Find Events</h4>
+                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Meetup.com (search "Buenos Aires")</li>
                   <li>• Facebook Events</li>
                   <li>• Coworking space newsletters</li>
@@ -1066,12 +1066,12 @@ export default function RemoteWorkPage() {
 
         {/* Final Tips */}
         <section className="mb-16">
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-white p-8 rounded-2xl">
+          <div className="bg-gradient-to-br from-foreground to-foreground/90 text-white p-8 rounded-2xl">
             <h2 className="text-2xl font-bold mb-6">Final Tips from Someone Who's Been There</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-lg font-semibold text-blue-300 mb-3">Before You Come</h3>
-                <ul className="space-y-2 text-gray-300 text-sm">
+                <ul className="space-y-2 text-muted-foreground/50 text-sm">
                   <li>• Test your company's VPN from abroad first</li>
                   <li>• Set up Wise/PayPal before you leave</li>
                   <li>• Bring a good power bank</li>
@@ -1081,7 +1081,7 @@ export default function RemoteWorkPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-green-300 mb-3">After You Arrive</h3>
-                <ul className="space-y-2 text-gray-300 text-sm">
+                <ul className="space-y-2 text-muted-foreground/50 text-sm">
                   <li>• Find your coworking space in week 1</li>
                   <li>• Join at least 2 online communities</li>
                   <li>• Set a routine immediately (before jet lag fades)</li>
@@ -1090,8 +1090,8 @@ export default function RemoteWorkPage() {
                 </ul>
               </div>
             </div>
-            <div className="mt-8 pt-6 border-t border-gray-700">
-              <p className="text-gray-400 text-sm">
+            <div className="mt-8 pt-6 border-t border-border">
+              <p className="text-muted-foreground/70 text-sm">
                 Buenos Aires is one of the best nomad cities in the world - if you come prepared. 
                 The internet is good enough, the cost of living is low, the community is welcoming, 
                 and the steak is incredible. Just don't expect everything to work like it does back home. 
@@ -1102,7 +1102,7 @@ export default function RemoteWorkPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 md:py-24 bg-gray-50 -mx-4 px-4">
+        <section className="py-16 md:py-24 bg-muted -mx-4 px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="w-full">
@@ -1118,13 +1118,13 @@ export default function RemoteWorkPage() {
 
         {/* Related Guides */}
         <section className="py-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Continue Exploring</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-6">Continue Exploring</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <Link href="/visas/digital-nomad" className="group">
               <Card className="h-full transition-all hover:shadow-md hover:border-blue-400">
                 <CardContent className="p-4">
                   <p className="font-semibold group-hover:text-blue-700 transition-colors">Digital Nomad Visa</p>
-                  <p className="text-sm text-gray-500">Requirements, process, and how to apply</p>
+                  <p className="text-sm text-muted-foreground">Requirements, process, and how to apply</p>
                 </CardContent>
               </Card>
             </Link>
@@ -1132,7 +1132,7 @@ export default function RemoteWorkPage() {
               <Card className="h-full transition-all hover:shadow-md hover:border-blue-400">
                 <CardContent className="p-4">
                   <p className="font-semibold group-hover:text-blue-700 transition-colors">Banking & Money</p>
-                  <p className="text-sm text-gray-500">Blue dollar, transfers, and managing finances</p>
+                  <p className="text-sm text-muted-foreground">Blue dollar, transfers, and managing finances</p>
                 </CardContent>
               </Card>
             </Link>
@@ -1140,7 +1140,7 @@ export default function RemoteWorkPage() {
               <Card className="h-full transition-all hover:shadow-md hover:border-blue-400">
                 <CardContent className="p-4">
                   <p className="font-semibold group-hover:text-blue-700 transition-colors">Cost of Living</p>
-                  <p className="text-sm text-gray-500">Real budget breakdowns for Buenos Aires</p>
+                  <p className="text-sm text-muted-foreground">Real budget breakdowns for Buenos Aires</p>
                 </CardContent>
               </Card>
             </Link>
@@ -1148,7 +1148,7 @@ export default function RemoteWorkPage() {
               <Card className="h-full transition-all hover:shadow-md hover:border-blue-400">
                 <CardContent className="p-4">
                   <p className="font-semibold group-hover:text-blue-700 transition-colors">Housing Guide</p>
-                  <p className="text-sm text-gray-500">Find your apartment in Argentina</p>
+                  <p className="text-sm text-muted-foreground">Find your apartment in Argentina</p>
                 </CardContent>
               </Card>
             </Link>

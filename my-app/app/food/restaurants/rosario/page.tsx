@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const priceColors: Record<string, string> = {
   "$": "bg-green-100 text-green-700",
   "$$": "bg-yellow-100 text-yellow-700",
-  "$$$": "bg-orange-100 text-orange-700",
+  "$$$": "bg-accent/10 text-accent",
   "$$$$": "bg-red-100 text-red-700",
 };
 
@@ -259,7 +259,7 @@ export default function RosarioRestaurantsPage() {
       />
 
       {/* Hero */}
-      <div className="relative bg-gradient-to-br from-rose-600 via-red-600 to-orange-700 text-white">
+      <div className="relative bg-gradient-to-br from-rose-600 via-red-600 to-accent/90 text-white">
         <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/cities/rosario.webp')" }} />
         <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-24">
           <div className="max-w-3xl">
@@ -301,31 +301,31 @@ export default function RosarioRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-rose-600">{rosarioRestaurants.length}</div>
-              <div className="text-base text-gray-600">Curated Restaurants</div>
+              <div className="text-base text-muted-foreground">Curated Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-rose-600">1.2M+</div>
-              <div className="text-base text-gray-600">City Population</div>
+              <div className="text-base text-muted-foreground">City Population</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-rose-600">15km</div>
-              <div className="text-base text-gray-600">Costanera Riverside</div>
+              <div className="text-base text-muted-foreground">Costanera Riverside</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-rose-600">3rd</div>
-              <div className="text-base text-gray-600">Largest City in AR</div>
+              <div className="text-base text-muted-foreground">Largest City in AR</div>
             </CardContent>
           </Card>
         </div>
 
         {/* Rosario Dining Context */}
-        <Card className="bg-gradient-to-r from-rose-50 to-orange-50 border-rose-100 mb-12">
+        <Card className="bg-gradient-to-r from-rose-50 to-accent/5 border-rose-100 mb-12">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Waves className="w-5 h-5 text-rose-600" />
@@ -333,7 +333,7 @@ export default function RosarioRestaurantsPage() {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            <p className="text-gray-700">
+            <p className="text-muted-foreground">
               Rosario is a city built along the banks of the mighty Paraná river, and its dining
               culture reflects this. The city is famous across Argentina for its parrillas—many argue
               the best asado in the country comes from Rosario, not Buenos Aires. The Costanera
@@ -342,8 +342,8 @@ export default function RosarioRestaurantsPage() {
             </p>
             <div className="grid md:grid-cols-2 gap-4 text-base">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Key Neighborhoods</h4>
-                <ul className="space-y-1 text-gray-600">
+                <h4 className="font-semibold text-foreground mb-2">Key Neighborhoods</h4>
+                <ul className="space-y-1 text-muted-foreground">
                   <li>• <strong>Costanera Norte/Central:</strong> Riverside restaurants with Paraná views</li>
                   <li>• <strong>Centro:</strong> Historic cafes, traditional restaurants, pizza joints</li>
                   <li>• <strong>Barrio Pichincha:</strong> Trendy gastro scene, craft beer, galleries</li>
@@ -351,8 +351,8 @@ export default function RosarioRestaurantsPage() {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Rosario Specialties</h4>
-                <ul className="space-y-1 text-gray-600">
+                <h4 className="font-semibold text-foreground mb-2">Rosario Specialties</h4>
+                <ul className="space-y-1 text-muted-foreground">
                   <li>• <strong>Asado rosarino:</strong> Locals claim the best parrilla in Argentina</li>
                   <li>• <strong>Surubí:</strong> Prized Paraná river catfish, grilled or pan-fried</li>
                   <li>• <strong>Dorado:</strong> The "golden" river fish, a local delicacy</li>
@@ -370,7 +370,7 @@ export default function RosarioRestaurantsPage() {
             return (
               <div key={category} className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <h2 className="text-2xl font-bold text-gray-900">{category}</h2>
+                  <h2 className="text-2xl font-bold text-foreground">{category}</h2>
                   <Badge variant="secondary">{categoryRestaurants.length} spots</Badge>
                 </div>
                 <div className="space-y-6">
@@ -381,7 +381,7 @@ export default function RosarioRestaurantsPage() {
                           <div className="p-6">
                             <div className="flex items-start justify-between gap-4 mb-3">
                               <div>
-                                <h3 className="text-xl font-bold text-gray-900">
+                                <h3 className="text-xl font-bold text-foreground">
                                   {restaurant.name}
                                 </h3>
                                 <p className="text-base text-rose-600">
@@ -393,7 +393,7 @@ export default function RosarioRestaurantsPage() {
                               </Badge>
                             </div>
 
-                            <p className="text-gray-600 mb-4">{restaurant.description}</p>
+                            <p className="text-muted-foreground mb-4">{restaurant.description}</p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
                               {restaurant.whatToOrder.map((item) => (
@@ -403,7 +403,7 @@ export default function RosarioRestaurantsPage() {
                               ))}
                             </div>
 
-                            <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
+                            <div className="flex flex-wrap items-center gap-4 text-base text-muted-foreground">
                               <div className="flex items-center gap-1">
                                 <MapPin className="w-4 h-4" />
                                 <span>{restaurant.neighborhood}</span>
@@ -424,7 +424,7 @@ export default function RosarioRestaurantsPage() {
                             )}
                           </div>
 
-                          <div className="bg-gradient-to-br from-rose-100 to-orange-50 flex items-center justify-center p-6">
+                          <div className="bg-gradient-to-br from-rose-100 to-accent/5 flex items-center justify-center p-6">
                             <div className="text-center">
                               <div className="text-6xl font-bold text-rose-200 mb-2">
                                 {restaurant.name[0]}
@@ -457,24 +457,24 @@ export default function RosarioRestaurantsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-base text-gray-600">
+              <p className="text-base text-muted-foreground">
                 The Costanera is the heart of Rosario's social and dining life. Stretching along the Paraná, it offers:
               </p>
               <div>
-                <h4 className="font-semibold text-gray-900">Costanera Norte</h4>
-                <p className="text-base text-gray-600">Premium restaurants and parrillas with the best river views</p>
+                <h4 className="font-semibold text-foreground">Costanera Norte</h4>
+                <p className="text-base text-muted-foreground">Premium restaurants and parrillas with the best river views</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Parque España</h4>
-                <p className="text-base text-gray-600">Green spaces with food vendors and weekend markets</p>
+                <h4 className="font-semibold text-foreground">Parque España</h4>
+                <p className="text-base text-muted-foreground">Green spaces with food vendors and weekend markets</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Isla de los Inventos</h4>
-                <p className="text-base text-gray-600">Cultural center near the riverfront with casual dining nearby</p>
+                <h4 className="font-semibold text-foreground">Isla de los Inventos</h4>
+                <p className="text-base text-muted-foreground">Cultural center near the riverfront with casual dining nearby</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Weekend Island Trips</h4>
-                <p className="text-base text-gray-600">Take a boat to the river islands for asado on the beach—a quintessential Rosario experience</p>
+                <h4 className="font-semibold text-foreground">Weekend Island Trips</h4>
+                <p className="text-base text-muted-foreground">Take a boat to the river islands for asado on the beach—a quintessential Rosario experience</p>
               </div>
             </CardContent>
           </Card>
@@ -488,20 +488,20 @@ export default function RosarioRestaurantsPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
-                <h4 className="font-semibold text-gray-900">Parrilla Etiquette</h4>
-                <p className="text-base text-gray-600">Rosarinos take their asado seriously. Don't ask for your steak well-done unless you want disapproving looks.</p>
+                <h4 className="font-semibold text-foreground">Parrilla Etiquette</h4>
+                <p className="text-base text-muted-foreground">Rosarinos take their asado seriously. Don't ask for your steak well-done unless you want disapproving looks.</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">River Fish Season</h4>
-                <p className="text-base text-gray-600">Surubí and dorado are best from spring through autumn (September to April). Ask what's fresh.</p>
+                <h4 className="font-semibold text-foreground">River Fish Season</h4>
+                <p className="text-base text-muted-foreground">Surubí and dorado are best from spring through autumn (September to April). Ask what's fresh.</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Lunch Is King</h4>
-                <p className="text-base text-gray-600">Many of the best restaurants serve their finest menus at lunch. Dinner starts late—9:30pm or later.</p>
+                <h4 className="font-semibold text-foreground">Lunch Is King</h4>
+                <p className="text-base text-muted-foreground">Many of the best restaurants serve their finest menus at lunch. Dinner starts late—9:30pm or later.</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Budget Tip</h4>
-                <p className="text-base text-gray-600">Rosario is significantly cheaper than Buenos Aires. A parrilla meal for two with wine runs 30-50% less than the capital.</p>
+                <h4 className="font-semibold text-foreground">Budget Tip</h4>
+                <p className="text-base text-muted-foreground">Rosario is significantly cheaper than Buenos Aires. A parrilla meal for two with wine runs 30-50% less than the capital.</p>
               </div>
             </CardContent>
           </Card>
@@ -509,7 +509,7 @@ export default function RosarioRestaurantsPage() {
 
         {/* CTA */}
         <div className="text-center">
-          <Card className="bg-gradient-to-br from-rose-600 to-orange-700 text-white border-0">
+          <Card className="bg-gradient-to-br from-rose-600 to-accent/90 text-white border-0">
             <CardContent className="p-8 md:p-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">
                 Exploring Rosario?

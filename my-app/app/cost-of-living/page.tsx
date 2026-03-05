@@ -1,8 +1,11 @@
 import { Metadata } from "next";
-import { Badge } from "@/components/ui/badge";
 import { StickyTOC } from "@/components/StickyTOC";
 import { ResponsiveTable } from "@/components/ResponsiveTable";
 import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
+import { ReferenceHero } from "@/components/ReferenceHero";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FactBox } from "@/components/FactBox";
+import { SourceAttribution } from "@/components/SourceAttribution";
 
 // JSON-LD structured data
 function CostOfLivingStructuredData() {
@@ -132,23 +135,21 @@ const budgetColumns = [
 export default function CostOfLivingPage() {
   return (
     <main className="min-h-screen">
+      {/* Breadcrumb */}
+      <Breadcrumb items={[{ label: "Cost of Living" }]} />
+
       {/* Hero */}
-      <section className="relative bg-gradient-to-b from-teal-50 to-white py-16 md:py-24">
-        <div className="container mx-auto px-5">
-          <div className="max-w-4xl mx-auto text-center">
-            <Badge variant="secondary" className="mb-4">
-              Updated February 2026
-            </Badge>
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">
-              Cost of Living in Argentina
-            </h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Real numbers, updated monthly. What you will actually spend in
-              Buenos Aires, Mendoza, and beyond.
-            </p>
-          </div>
-        </div>
-      </section>
+      <ReferenceHero
+        badge="Updated 2026"
+        title="Cost of Living in Argentina"
+        subtitle="A data-driven guide to monthly expenses across Argentina's major cities. Real numbers for rent, food, transport, and healthcare — updated monthly with USD and ARS pricing."
+        stats={[
+          { value: "4", label: "Cities Covered" },
+          { value: "6", label: "Expense Categories" },
+          { value: "Monthly", label: "Updated" },
+          { value: "USD + ARS", label: "Currencies" },
+        ]}
+      />
 
       {/* Main Content with TOC */}
       <section className="py-12 md:py-16">
@@ -163,7 +164,7 @@ export default function CostOfLivingPage() {
             <article className="prose prose-lg max-w-none">
               {/* Overview */}
               <section id="overview" className="mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">
                   The Bottom Line First
                 </h2>
                 <p className="text-muted-foreground mb-4">
@@ -183,7 +184,7 @@ export default function CostOfLivingPage() {
 
               {/* Monthly Budgets */}
               <section id="monthly-budgets" className="mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold mb-6">
+                <h2 className="font-serif text-2xl md:text-3xl font-bold mb-6">
                   Monthly Budgets by City
                 </h2>
                 <p className="text-muted-foreground mb-6">
@@ -202,39 +203,40 @@ export default function CostOfLivingPage() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                  <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-                    <h3 className="font-semibold text-emerald-800 mb-1">
-                      Shoestring
-                    </h3>
-                    <p className="text-2xl font-bold text-emerald-700">$600</p>
-                    <p className="text-sm text-emerald-600">
-                      Shared apartment, cook at home, public transit only
-                    </p>
-                  </div>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <h3 className="font-semibold text-blue-800 mb-1">
-                      Comfortable
-                    </h3>
-                    <p className="text-2xl font-bold text-blue-700">$1,000</p>
-                    <p className="text-sm text-blue-600">
-                      1BR apartment, eat out weekly, occasional taxis
-                    </p>
-                  </div>
-                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
-                    <h3 className="font-semibold text-purple-800 mb-1">
-                      High Life
-                    </h3>
-                    <p className="text-2xl font-bold text-purple-700">$1,800</p>
-                    <p className="text-sm text-purple-600">
-                      Premium apartment, dining out often, private healthcare
-                    </p>
-                  </div>
+                  <FactBox
+                    title="Shoestring"
+                    facts={[
+                      { label: "Monthly Budget", value: "$600" },
+                      { label: "Housing", value: "Shared apartment" },
+                      { label: "Food", value: "Cook at home" },
+                      { label: "Transport", value: "Public transit only" },
+                    ]}
+                  />
+                  <FactBox
+                    title="Comfortable"
+                    facts={[
+                      { label: "Monthly Budget", value: "$1,000" },
+                      { label: "Housing", value: "1BR apartment" },
+                      { label: "Food", value: "Eat out weekly" },
+                      { label: "Transport", value: "Occasional taxis" },
+                    ]}
+                  />
+                  <FactBox
+                    title="High Life"
+                    facts={[
+                      { label: "Monthly Budget", value: "$1,800" },
+                      { label: "Housing", value: "Premium apartment" },
+                      { label: "Food", value: "Dining out often" },
+                      { label: "Healthcare", value: "Private prepaga" },
+                    ]}
+                  />
                 </div>
+                <SourceAttribution source="Expats Argentina community surveys" date="March 2026" />
               </section>
 
               {/* Housing */}
               <section id="housing" className="mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">
                   Housing Costs
                 </h2>
                 <p className="text-muted-foreground mb-4">
@@ -267,7 +269,7 @@ export default function CostOfLivingPage() {
 
               {/* Food */}
               <section id="food" className="mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">
                   Food & Dining
                 </h2>
                 <p className="text-muted-foreground mb-4">
@@ -285,7 +287,7 @@ export default function CostOfLivingPage() {
 
               {/* Transport */}
               <section id="transport" className="mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">
                   Transportation
                 </h2>
                 <p className="text-muted-foreground mb-4">
@@ -304,7 +306,7 @@ export default function CostOfLivingPage() {
 
               {/* Utilities */}
               <section id="utilities" className="mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">
                   Utilities & Services
                 </h2>
                 <p className="text-muted-foreground mb-4">
@@ -323,7 +325,7 @@ export default function CostOfLivingPage() {
 
               {/* Healthcare */}
               <section id="healthcare" className="mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">
                   Healthcare Costs
                 </h2>
                 <p className="text-muted-foreground mb-4">
@@ -334,15 +336,23 @@ export default function CostOfLivingPage() {
                 <p className="text-muted-foreground mb-4">
                   Most expats opt for private prepaid medicine (prepaga) plans.
                   Major providers like OSDE and Swiss Medical offer comprehensive
-                  coverage for $100–$300 per month depending on age and plan
-                  level. These plans include access to private hospitals, specialists
-                  without referrals, and often dental coverage.
+                  coverage for $100–$800 per month depending on age and plan
+                  level. Budget plans (Sancor Salud) start at $100–$250, mid-range
+                  options (Galeno, Medicus) run $140–$400, and premium plans (OSDE,
+                  Swiss Medical) range from $300–$800. These plans include access
+                  to private hospitals, specialists without referrals, and often
+                  dental coverage.
                 </p>
+                <SourceAttribution
+                  source="See our full Healthcare guide for detailed provider comparisons"
+                  url="/healthcare"
+                  date="2026"
+                />
               </section>
 
               {/* Visa Requirements */}
               <section id="visa-requirements" className="mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">
                   Visa Financial Requirements
                 </h2>
                 <p className="text-muted-foreground mb-4">
@@ -360,10 +370,7 @@ export default function CostOfLivingPage() {
               </section>
 
               {/* Lucero Legal CTA */}
-              <LuceroLegalCTA
-                title="Planning your move?"
-                description="can help with visas and residency paperwork."
-              />
+              <LuceroLegalCTA />
             </article>
           </div>
         </div>

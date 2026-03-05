@@ -4,8 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { 
-  HeartIcon,
+import {
   ShieldIcon,
   BuildingIcon,
   CheckCircleIcon,
@@ -13,6 +12,10 @@ import {
   ArrowRightIcon,
   PhoneIcon
 } from "@/components/ui/icon";
+import { ReferenceHero } from "@/components/ReferenceHero";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FactBox } from "@/components/FactBox";
+import { SourceAttribution } from "@/components/SourceAttribution";
 
 export const metadata: Metadata = {
   title: "Healthcare in Argentina 2026 - Mandatory Insurance, New Rules",
@@ -108,34 +111,20 @@ export default function HealthcarePage() {
         }}
       />
       {/* Breadcrumb */}
-      <div className="border-b bg-muted/30">
-        <div className="container mx-auto px-5 py-4">
-          <nav className="flex gap-2 text-sm text-muted-foreground">
-            <Link href="/" className="hover:text-foreground">Home</Link>
-            <span>/</span>
-            <span className="text-foreground">Healthcare</span>
-          </nav>
-        </div>
-      </div>
+      <Breadcrumb items={[{ label: "Healthcare" }]} />
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
-        <div className="container mx-auto px-5">
-          <div className="max-w-3xl mx-auto text-center">
-            <Badge className="mb-4" variant="secondary">
-              <HeartIcon size="sm" className="mr-1" />
-              Healthcare Guide 2026
-            </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Healthcare in Argentina
-            </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              New 2026 rules: mandatory travel insurance for entry, public hospitals 
-              now charge foreigners. Complete guide to prepaga insurance and medical care.
-            </p>
-          </div>
-        </div>
-      </section>
+      <ReferenceHero
+        badge="Healthcare Guide"
+        title="Healthcare in Argentina"
+        subtitle="Your authoritative guide to Argentina's healthcare system. Navigating public hospitals, private prepaga insurance, and the 2026 policy changes every expat needs to know."
+        stats={[
+          { value: "5", label: "Insurers Compared" },
+          { value: "4", label: "Hospitals Listed" },
+          { value: "Public + Private", label: "Systems Covered" },
+          { value: "107 / 911", label: "Emergency Numbers" },
+        ]}
+      />
 
       {/* 2026 Healthcare Alert */}
       <section className="py-8 bg-red-50 dark:bg-red-950/20 border-y border-red-200 dark:border-red-800">
@@ -144,7 +133,7 @@ export default function HealthcarePage() {
             <div className="flex items-start gap-4">
               <AlertCircleIcon size="lg" className="text-red-600 flex-shrink-0 mt-1" />
               <div>
-                <h2 className="text-xl font-bold text-red-900 dark:text-red-100 mb-2">
+                <h2 className="font-serif text-xl font-bold text-red-900 dark:text-red-100 mb-2">
                   2026 Critical Update: New Healthcare Rules
                 </h2>
                 <ul className="text-red-800 dark:text-red-200 space-y-2">
@@ -162,7 +151,7 @@ export default function HealthcarePage() {
       <section className="py-16">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6">Healthcare System Overview</h2>
+            <h2 className="font-serif text-3xl font-bold mb-6">Healthcare System Overview</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="mb-4">
                 Argentina has a mixed healthcare system with both public and private options. 
@@ -243,7 +232,7 @@ export default function HealthcarePage() {
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Major Insurance Providers</h2>
+            <h2 className="font-serif text-3xl font-bold mb-8 text-center">Major Insurance Providers</h2>
             <Card>
               <CardContent className="pt-6">
                 <div className="overflow-x-auto">
@@ -277,6 +266,7 @@ export default function HealthcarePage() {
             <p className="text-sm text-muted-foreground mt-4 text-center">
               Prices are approximate for a single person in their 30s-40s. Actual costs vary by age, coverage level, and pre-existing conditions.
             </p>
+            <SourceAttribution source="Provider websites and expat community reports" date="2026" className="justify-center mt-2" />
           </div>
         </div>
       </section>
@@ -285,7 +275,7 @@ export default function HealthcarePage() {
       <section className="py-16">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Recommended Hospitals</h2>
+            <h2 className="font-serif text-3xl font-bold mb-8 text-center">Recommended Hospitals</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {topHospitals.map((hospital) => (
                 <Card key={hospital.name}>
@@ -307,29 +297,23 @@ export default function HealthcarePage() {
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Typical Medical Costs</h2>
-            <Card>
-              <CardContent className="pt-6">
-                <div className="space-y-4">
-                  {[
-                    { service: "General doctor consultation (private)", cost: "$30-60" },
-                    { service: "Specialist consultation", cost: "$50-100" },
-                    { service: "Dental cleaning", cost: "$40-80" },
-                    { service: "Eye exam", cost: "$30-50" },
-                    { service: "Blood work panel", cost: "$50-150" },
-                    { service: "X-ray", cost: "$40-80" },
-                    { service: "Emergency room visit", cost: "$100-300" },
-                  ].map((item) => (
-                    <div key={item.service} className="flex justify-between items-center py-2 border-b last:border-0">
-                      <span className="text-muted-foreground">{item.service}</span>
-                      <span className="font-semibold">{item.cost}</span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+            <h2 className="font-serif text-3xl font-bold mb-8 text-center">Typical Medical Costs</h2>
+            <FactBox
+              title="Typical Medical Costs (USD, without insurance)"
+              facts={[
+                { label: "General doctor consultation (private)", value: "$30-60" },
+                { label: "Specialist consultation", value: "$50-100" },
+                { label: "Dental cleaning", value: "$40-80" },
+                { label: "Eye exam", value: "$30-50" },
+                { label: "Blood work panel", value: "$50-150" },
+                { label: "X-ray", value: "$40-80" },
+                { label: "Emergency room visit", value: "$100-300" },
+              ]}
+              source="Expats Argentina community data"
+              sourceDate="2026"
+            />
             <p className="text-sm text-muted-foreground mt-4 text-center">
-              Costs are approximate in USD. With prepaga insurance, you'll typically pay a small copay or nothing for covered services.
+              With prepaga insurance, you&apos;ll typically pay a small copay or nothing for covered services.
             </p>
           </div>
         </div>
@@ -339,7 +323,7 @@ export default function HealthcarePage() {
       <section className="py-16">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-8">
+            <h2 className="font-serif text-3xl font-bold text-center mb-8">
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="w-full">
@@ -390,7 +374,7 @@ export default function HealthcarePage() {
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Need Help Choosing Insurance?</h2>
+            <h2 className="font-serif text-3xl font-bold mb-4">Need Help Choosing Insurance?</h2>
             <p className="text-primary-foreground/80 mb-8">
               Our partners can help you compare plans and find the right coverage for your needs and budget.
             </p>

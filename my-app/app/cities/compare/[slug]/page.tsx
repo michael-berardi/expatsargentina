@@ -121,7 +121,7 @@ export default async function ComparisonPage({
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
@@ -163,7 +163,7 @@ export default async function ComparisonPage({
         <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <StarIcon size="lg" className="text-teal-600" />
+              <StarIcon size="lg" className="text-primary" />
               <h2 className="text-3xl font-bold">Category-by-Category Breakdown</h2>
             </div>
 
@@ -180,7 +180,7 @@ export default async function ComparisonPage({
                         {tied ? (
                           <Badge variant="secondary">Tie</Badge>
                         ) : city1Wins ? (
-                          <Badge className="bg-teal-600 text-white">
+                          <Badge className="bg-primary text-white">
                             {city1?.name ?? comparison.city1Slug} wins
                           </Badge>
                         ) : (
@@ -195,12 +195,12 @@ export default async function ComparisonPage({
                         {/* City 1 */}
                         <div className="space-y-3">
                           <div className="flex items-center gap-2">
-                            <MapPinIcon size="sm" className="text-teal-600 shrink-0" />
-                            <span className="font-semibold text-teal-700 dark:text-teal-400">
+                            <MapPinIcon size="sm" className="text-primary shrink-0" />
+                            <span className="font-semibold text-primary dark:text-primary">
                               {city1?.name ?? comparison.city1Slug}
                             </span>
                           </div>
-                          <ScoreBar score={category.city1Score} color="bg-teal-500" />
+                          <ScoreBar score={category.city1Score} color="bg-primary" />
                           <p className="text-base md:text-sm text-muted-foreground leading-relaxed">
                             {category.city1Detail}
                           </p>
@@ -234,16 +234,16 @@ export default async function ComparisonPage({
         <div className="container mx-auto px-5">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
-              <UsersIcon size="lg" className="text-teal-600" />
+              <UsersIcon size="lg" className="text-primary" />
               <h2 className="text-3xl font-bold">Which City Is Best For You?</h2>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               {/* City 1 Best For */}
-              <Card className="border-teal-200 dark:border-teal-800">
+              <Card className="border-primary/20 dark:border-primary/30">
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2 text-teal-700 dark:text-teal-400">
-                    <MapPinIcon size="md" className="text-teal-600" />
+                  <CardTitle className="flex items-center gap-2 text-primary dark:text-primary">
+                    <MapPinIcon size="md" className="text-primary" />
                     {city1?.name ?? comparison.city1Slug} is best for...
                   </CardTitle>
                 </CardHeader>
@@ -251,7 +251,7 @@ export default async function ComparisonPage({
                   <div className="space-y-3">
                     {comparison.bestFor.city1.map((item) => (
                       <div key={item} className="flex items-start gap-2">
-                        <CheckCircleIcon size="sm" className="text-teal-600 mt-0.5 shrink-0" />
+                        <CheckCircleIcon size="sm" className="text-primary mt-0.5 shrink-0" />
                         <span className="text-base md:text-sm">{item}</span>
                       </div>
                     ))}
@@ -287,7 +287,7 @@ export default async function ComparisonPage({
       <section className="py-16">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
-            <Card className="bg-gradient-to-br from-teal-50 to-indigo-50 dark:from-teal-950/30 dark:to-indigo-950/30 border-none shadow-lg">
+            <Card className="bg-gradient-to-br from-primary/5 to-indigo-50 dark:from-primary/15 dark:to-indigo-950/30 border-none shadow-lg">
               <CardHeader>
                 <CardTitle className="text-2xl flex items-center gap-3">
                   <StarIcon size="lg" className="text-primary" />
@@ -316,7 +316,7 @@ export default async function ComparisonPage({
                 <Button variant="outline" size="lg" className="w-full justify-between" asChild>
                   <Link href={`/cities/${city1.slug}`}>
                     <span className="flex items-center gap-2">
-                      <MapPinIcon size="sm" className="text-teal-600" />
+                      <MapPinIcon size="sm" className="text-primary" />
                       {city1.name} Full Guide
                     </span>
                     <ArrowRightIcon size="sm" />
@@ -340,7 +340,7 @@ export default async function ComparisonPage({
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <GlobeIcon size="xl" className="text-primary mx-auto mb-4" />

@@ -1037,7 +1037,7 @@ export default function VisasPageClient() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
@@ -1502,12 +1502,12 @@ export default function VisasPageClient() {
                       </CardContent>
                     </Card>
 
-                    {/* Real Stories */}
+                    {/* Applicant Experiences */}
                     <Card>
                       <CardHeader>
                         <CardTitle className="flex items-center gap-2">
                           <Icon name="message-square" size="md" />
-                          Real Stories from Successful Applicants
+                          Common Applicant Experiences
                         </CardTitle>
                       </CardHeader>
                       <CardContent>

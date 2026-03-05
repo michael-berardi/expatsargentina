@@ -72,7 +72,7 @@ export default function GettingStartedPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4">
@@ -620,10 +620,7 @@ export default function GettingStartedPage() {
               </section>
 
               {/* Lucero Legal CTA */}
-              <LuceroLegalCTA
-                title="Need Help With Your Visa?"
-                description="Lucero Legal specializes in Argentine immigration law. They handle visa applications, residency permits, and citizenship cases for expats from around the world."
-              />
+              <LuceroLegalCTA />
             </article>
           </div>
         </div>

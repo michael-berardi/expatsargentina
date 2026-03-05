@@ -156,7 +156,7 @@ export default async function NeighborhoodDetailPage({
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-sky-50 to-white dark:from-sky-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             {/* Author & Date */}
@@ -539,10 +539,7 @@ export default async function NeighborhoodDetailPage({
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <RelatedForCity citySlug="buenos-aires" />
-              <LuceroLegalCTA
-                variant="sidebar"
-                title="Need help with visas or residency?"
-              />
+              <LuceroLegalCTA />
             </div>
           </div>
         </div>

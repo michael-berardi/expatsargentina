@@ -327,8 +327,8 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
               {/* Local Job Market - Enhanced */}
               <section>
                 <div className="flex items-center gap-3 mb-8">
-                  <div className="p-2 rounded-lg bg-orange-500/10">
-                    <MapPin className="h-5 w-5 text-orange-600 dark:text-orange-400" />
+                  <div className="p-2 rounded-lg bg-accent/10">
+                    <MapPin className="h-5 w-5 text-accent dark:text-accent" />
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Local Job Market</h2>
                 </div>
@@ -342,7 +342,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                             ? "bg-green-500 hover:bg-green-600 text-white px-3 py-1 text-sm shadow-sm" 
                             : profession.localJobMarket.demand === "Medium" 
                               ? "bg-amber-500 hover:bg-amber-600 text-white px-3 py-1 text-sm shadow-sm" 
-                              : "bg-slate-400 px-3 py-1 text-sm"
+                              : "bg-muted-foreground px-3 py-1 text-sm"
                           }
                         >
                           {profession.localJobMarket.demand}
@@ -388,7 +388,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Tax Considerations</h2>
                 </div>
-                <Card className="border-amber-200/50 bg-gradient-to-br from-amber-50/30 to-orange-50/20 dark:from-amber-950/10 dark:to-orange-950/10 hover:shadow-md transition-all duration-300">
+                <Card className="border-amber-200/50 bg-gradient-to-br from-amber-50/30 to-accent/10 dark:from-amber-950/10 dark:to-accent/5 hover:shadow-md transition-all duration-300">
                   <CardContent className="p-6 md:p-8">
                     <ul className="space-y-4">
                       {profession.taxConsiderations.map((tax, index) => (

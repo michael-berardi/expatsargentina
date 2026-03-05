@@ -163,7 +163,7 @@ export default function StudentVisaPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
@@ -262,7 +262,7 @@ export default function StudentVisaPage() {
             <p className="text-center text-muted-foreground mb-8">
               Argentina&apos;s public university system is one of the most generous in the world for international students.
             </p>
-            <Card className="border-teal-200 bg-teal-50 dark:bg-teal-950/20">
+            <Card className="border-primary/20 bg-primary/5 dark:bg-primary/15">
               <CardContent className="pt-6">
                 <div className="space-y-4 text-sm">
                   <p>

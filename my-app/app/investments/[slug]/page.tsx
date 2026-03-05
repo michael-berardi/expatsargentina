@@ -382,15 +382,15 @@ export default async function InvestmentSectorPage({
       </section>
 
       {/* Lucero Legal CTA */}
-      <section className="py-16 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950/20 dark:to-background border-t">
+      <section className="py-16 bg-gradient-to-b from-muted to-white dark:from-foreground/10 dark:to-background border-t">
         <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
-            <Card className="border-slate-200 dark:border-slate-800">
+            <Card className="border-border dark:border-border">
               <CardContent className="p-8 md:p-12">
                 <div className="flex flex-col md:flex-row items-center gap-8">
                   <div className="flex-shrink-0">
-                    <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-slate-100 dark:bg-slate-900/50 flex items-center justify-center">
-                      <ScaleIcon size="xl" className="text-slate-600" />
+                    <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-muted dark:bg-foreground/20 flex items-center justify-center">
+                      <ScaleIcon size="xl" className="text-muted-foreground" />
                     </div>
                   </div>
                   <div className="flex-1 text-center md:text-left">

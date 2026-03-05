@@ -11,6 +11,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
+  --font-serif: var(--font-source-serif);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -57,20 +58,20 @@
   --card-foreground: #1c1917;
   --popover: #ffffff;
   --popover-foreground: #1c1917;
-  --primary: #0d9488;
+  --primary: #0f766e;
   --primary-foreground: #ffffff;
-  --secondary: #f5f5f4;
+  --secondary: #f0fdfa;
   --secondary-foreground: #44403c;
   --muted: #f5f5f4;
   --muted-foreground: #57534e;
-  --accent: #f59e0b;
-  --accent-foreground: #1c1917;
+  --accent: #ea580c;
+  --accent-foreground: #ffffff;
   --destructive: #ef4444;
-  --border: #e7e5e4;
-  --input: #e7e5e4;
-  --ring: #0d9488;
-  --chart-1: #0d9488;
-  --chart-2: #f59e0b;
+  --border: #d6d3d1;
+  --input: #d6d3d1;
+  --ring: #0f766e;
+  --chart-1: #0f766e;
+  --chart-2: #ea580c;
   --chart-3: #10b981;
   --chart-4: #6366f1;
   --chart-5: #8b5cf6;
@@ -83,20 +84,20 @@
   --card-foreground: #fafaf9;
   --popover: #1c1917;
   --popover-foreground: #fafaf9;
-  --primary: #2dd4bf;
+  --primary: #14b8a6;
   --primary-foreground: #0c0a09;
   --secondary: #292524;
   --secondary-foreground: #fafaf9;
   --muted: #292524;
   --muted-foreground: #a8a29e;
-  --accent: #f59e0b;
+  --accent: #ea580c;
   --accent-foreground: #0c0a09;
   --destructive: #ef4444;
-  --border: #292524;
-  --input: #292524;
-  --ring: #2dd4bf;
-  --chart-1: #2dd4bf;
-  --chart-2: #f59e0b;
+  --border: #44403c;
+  --input: #44403c;
+  --ring: #14b8a6;
+  --chart-1: #14b8a6;
+  --chart-2: #ea580c;
   --chart-3: #34d399;
   --chart-4: #818cf8;
   --chart-5: #a78bfa;
@@ -214,5 +215,10 @@ html {
 
 /* Selection color */
 ::selection {
-  background: rgba(13, 148, 136, 0.2);
+  background: rgba(15, 118, 110, 0.2);
+}
+
+/* Serif headlines */
+.font-serif {
+  font-family: var(--font-source-serif), Georgia, 'Times New Roman', serif;
 }

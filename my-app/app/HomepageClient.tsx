@@ -23,17 +23,13 @@ import {
   MessageCircleIcon,
   TrendingUpIcon,
   WineIcon,
+  BookOpenIcon,
+  ExternalLinkIcon,
 } from "@/components/ui/icon";
 import { provinces, cities, regions } from "@/lib/data/argentina";
 import { useI18n } from "@/lib/i18n";
 import { GeneralTestimonials } from "@/components/Testimonials";
-
-const stats = [
-  { value: "24", labelKey: "homepage.stats.provinces" },
-  { value: "20+", labelKey: "homepage.stats.cityGuides" },
-  { value: "6", labelKey: "homepage.stats.regions" },
-  { value: "9", labelKey: "homepage.stats.visaTypes" },
-];
+import { ReferenceHero } from "@/components/ReferenceHero";
 
 const featuredCitySlugs = ["buenos-aires", "mendoza", "cordoba", "bariloche", "salta", "rosario"];
 
@@ -81,77 +77,58 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-teal-50 via-white to-white dark:from-teal-950/20 dark:via-background dark:to-background">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-8"
-          style={{
-            backgroundImage:
-              "url('/images/hero-argentina.webp')",
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-teal-50/90 via-white/80 to-white dark:from-teal-950/90 dark:via-background/80 dark:to-background" />
-        <div className="container mx-auto px-5 py-24 md:py-36 relative">
-          <div className="max-w-4xl mx-auto text-center">
-            <Badge variant="secondary" className="mb-6">
-              <MapPinIcon size="sm" className="mr-1" />
-              {t("homepage.hero.badge") as string}
-            </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
-              Your Complete Guide to{" "}
-              <br className="md:hidden" />
-              Living in Argentina
-            </h1>
-            <p className="text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
-              {t("homepage.hero.subtitle") as string}
-            </p>
-            <p className="text-base text-muted-foreground mb-4 max-w-xl mx-auto">
-              {t("homepage.hero.description") as string}
-            </p>
-            <div className="mb-8" />
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="gap-2">
-                <Link href="/provinces">
-                  {t("homepage.hero.exploreProvinces") as string}
-                  <ArrowRightIcon size="sm" />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg">
-                <Link href="/cities">
-                  {t("homepage.hero.browseCities") as string}
-                </Link>
-              </Button>
-            </div>
-          </div>
+      <ReferenceHero
+        badge="Argentina's Definitive Expat Reference"
+        title="Your Complete Guide to Living in Argentina"
+        subtitle="Research-backed guides covering all 24 provinces, 20+ cities, and 9 visa pathways. Real data, real prices, updated for 2026."
+        stats={[
+          { value: "24", label: "Provinces Covered" },
+          { value: "20+", label: "City Guides" },
+          { value: "9", label: "Visa Types" },
+          { value: "6", label: "Regions" },
+        ]}
+      >
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button asChild size="lg" className="gap-2">
+            <Link href="/provinces">
+              Explore Provinces <ArrowRightIcon size="sm" />
+            </Link>
+          </Button>
+          <Button asChild variant="outline" size="lg">
+            <Link href="/visas">
+              Compare Visas
+            </Link>
+          </Button>
         </div>
-      </section>
+      </ReferenceHero>
 
-      {/* Trust Bar */}
-      <section className="py-4 bg-primary/5 border-y">
+      {/* Guide Categories */}
+      <section className="py-16 md:py-24 bg-muted/30">
         <div className="container mx-auto px-5">
-          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2">
-              <UsersIcon size="sm" className="text-primary" />
-              <span>Trusted by 50,000+ readers</span>
-            </div>
-            <div className="hidden sm:block w-px h-4 bg-border" />
-            <div className="flex items-center gap-2">
-              <GlobeIcon size="sm" className="text-primary" />
-              <span>Updated February 2026</span>
-            </div>
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+              Comprehensive Living Guides
+            </h2>
           </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-12 border-y bg-muted/30">
-        <div className="container mx-auto px-5">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto text-center">
-            {stats.map((stat) => (
-              <div key={stat.labelKey}>
-                <div className="text-3xl md:text-4xl font-bold text-primary">{stat.value}</div>
-                <div className="text-sm text-muted-foreground mt-1">{t(stat.labelKey) as string}</div>
-              </div>
-            ))}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {guideCategoriesConfig.map((category) => {
+              const Icon = category.icon;
+              const title = t(`homepage.guides.${category.key}.title`) as string;
+              const description = t(`homepage.guides.${category.key}.description`) as string;
+              return (
+                <Link key={category.key} href={category.href} className="group">
+                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                    <CardHeader>
+                      <Icon size="lg" className="text-primary mb-2" />
+                      <CardTitle className="text-lg">{title}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">{description}</p>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -160,7 +137,7 @@ export default function Home() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-5">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
               {t("homepage.whyArgentina.title") as string}
             </h2>
           </div>
@@ -187,46 +164,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Guide Categories */}
-      <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-5">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              {t("homepage.guides.title") as string}
-            </h2>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
-            {guideCategoriesConfig.map((category) => {
-              const Icon = category.icon;
-              const title = t(`homepage.guides.${category.key}.title`) as string;
-              const description = t(`homepage.guides.${category.key}.description`) as string;
-              return (
-                <Link key={category.key} href={category.href} className="group">
-                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
-                    <CardHeader>
-                      <Icon size="lg" className="text-primary mb-2" />
-                      <CardTitle className="text-lg">{title}</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">{description}</p>
-                    </CardContent>
-                  </Card>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* Featured Cities */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-muted/30">
         <div className="container mx-auto px-5">
           <div className="text-center mb-12">
             <Badge variant="secondary" className="mb-4">
               <MapPinIcon size="sm" className="mr-1" />
               {t("homepage.cities.badge") as string}
             </Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("homepage.cities.title") as string}</h2>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">{t("homepage.cities.title") as string}</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               {t("homepage.cities.subtitle") as string}
             </p>
@@ -266,14 +212,14 @@ export default function Home() {
       </section>
 
       {/* Regions Explorer */}
-      <section className="py-16 md:py-24 bg-muted/30">
+      <section className="py-16 md:py-24">
         <div className="container mx-auto px-5">
           <div className="text-center mb-12">
             <Badge variant="secondary" className="mb-4">
               <GlobeIcon size="sm" className="mr-1" />
               {t("homepage.regions.badge") as string}
             </Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("homepage.regions.title") as string}</h2>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">{t("homepage.regions.title") as string}</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               {t("homepage.regions.subtitle") as string}
             </p>
@@ -291,6 +237,171 @@ export default function Home() {
                 </Card>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Community & Resources */}
+      <section className="py-16 md:py-24 bg-muted/30">
+        <div className="container mx-auto px-5">
+          <div className="text-center mb-12">
+            <Badge variant="secondary" className="mb-4">
+              <BookOpenIcon size="sm" className="mr-1" />
+              Trusted Sources
+            </Badge>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+              Community &amp; Resources
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Independent guides, active forums, and expat communities we recommend.
+              These are real resources maintained by people living in Argentina.
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto space-y-10">
+            {/* Content & Guides */}
+            <div>
+              <h3 className="font-serif text-xl font-semibold mb-4 text-center">
+                Content &amp; Guides
+              </h3>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a
+                  href="https://solsalute.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                    <CardHeader>
+                      <CardTitle className="text-lg flex items-center gap-2">
+                        Sol Salute
+                        <ExternalLinkIcon size="sm" className="text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>solsalute.com</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Comprehensive Argentina living guide with real costs and visa information.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+                <a
+                  href="https://nomadflag.com/living-in-argentina"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                    <CardHeader>
+                      <CardTitle className="text-lg flex items-center gap-2">
+                        Nomad Flag
+                        <ExternalLinkIcon size="sm" className="text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>nomadflag.com</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Argentina pros, cons, and practical guide for nomads.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+                <a
+                  href="https://wheretheroadforks.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                    <CardHeader>
+                      <CardTitle className="text-lg flex items-center gap-2">
+                        Where The Road Forks
+                        <ExternalLinkIcon size="sm" className="text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>wheretheroadforks.com</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        In-depth Buenos Aires and Argentina expat guides.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+              </div>
+            </div>
+
+            {/* Communities */}
+            <div>
+              <h3 className="font-serif text-xl font-semibold mb-4 text-center">
+                Communities
+              </h3>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a
+                  href="https://baexpats.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                    <CardHeader>
+                      <CardTitle className="text-lg flex items-center gap-2">
+                        BAexpats.org
+                        <ExternalLinkIcon size="sm" className="text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>Forum</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Largest English-speaking Argentina expat forum.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+                <a
+                  href="https://reddit.com/r/argentina"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                    <CardHeader>
+                      <CardTitle className="text-lg flex items-center gap-2">
+                        r/argentina
+                        <ExternalLinkIcon size="sm" className="text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>Reddit</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Reddit community for Argentina discussions (Spanish-heavy).
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+                <a
+                  href="https://expatsba.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/50">
+                    <CardHeader>
+                      <CardTitle className="text-lg flex items-center gap-2">
+                        ExpatsBA.com
+                        <ExternalLinkIcon size="sm" className="text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>Community</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Active expat community with housing, events, and advice.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>

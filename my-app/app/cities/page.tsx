@@ -81,7 +81,7 @@ export default function CitiesPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-teal-50 to-white dark:from-teal-950/20 dark:to-background">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto text-center">
             <Badge className="mb-4" variant="secondary">
@@ -142,7 +142,7 @@ export default function CitiesPage() {
                     <div className="flex items-center gap-2 text-base md:text-sm">
                       <DollarSignIcon
                         size="sm"
-                        className="text-teal-600 shrink-0"
+                        className="text-primary shrink-0"
                       />
                       <span className="font-medium">
                         {city.costOfLiving}

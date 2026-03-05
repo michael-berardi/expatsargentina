@@ -40,7 +40,7 @@ const priceLabels = {
 const priceColors = {
   "$": "bg-green-100 text-green-700",
   "$$": "bg-yellow-100 text-yellow-700",
-  "$$$": "bg-orange-100 text-orange-700",
+  "$$$": "bg-accent/10 text-accent",
   "$$$$": "bg-red-100 text-red-700",
 };
 
@@ -56,9 +56,9 @@ export default function BuenosAiresRestaurantsPage() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-accent/5 to-background">
       {/* Hero */}
-      <div className="relative bg-gradient-to-br from-orange-600 via-red-600 to-orange-700 text-white">
+      <div className="relative bg-gradient-to-br from-primary to-accent text-white">
         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('/images/guides/food-bg.webp')" }} />
         <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-24">
           <div className="max-w-3xl">
@@ -70,7 +70,7 @@ export default function BuenosAiresRestaurantsPage() {
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Best Restaurants in<br />
-              <span className="text-orange-200">Buenos Aires</span>
+              <span className="text-accent/30">Buenos Aires</span>
             </h1>
             <p className="text-xl text-white/95 max-w-2xl mb-8 drop-shadow-md">
               From the world's best steakhouse to hidden neighborhood gems. 
@@ -98,40 +98,40 @@ export default function BuenosAiresRestaurantsPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           <Card>
             <CardContent className="p-4 text-center">
-              <div className="text-3xl font-bold text-orange-600">40+</div>
-              <div className="text-base text-gray-600">Curated Restaurants</div>
+              <div className="text-3xl font-bold text-accent">40+</div>
+              <div className="text-base text-muted-foreground">Curated Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <div className="text-3xl font-bold text-orange-600">#1</div>
-              <div className="text-base text-gray-600">World's Best Steak</div>
+              <div className="text-3xl font-bold text-accent">#1</div>
+              <div className="text-base text-muted-foreground">World's Best Steak</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <div className="text-3xl font-bold text-orange-600">8</div>
-              <div className="text-base text-gray-600">Neighborhoods</div>
+              <div className="text-3xl font-bold text-accent">8</div>
+              <div className="text-base text-muted-foreground">Neighborhoods</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
-              <div className="text-3xl font-bold text-orange-600">$</div>
-              <div className="text-base text-gray-600">All Price Ranges</div>
+              <div className="text-3xl font-bold text-accent">$</div>
+              <div className="text-base text-muted-foreground">All Price Ranges</div>
             </CardContent>
           </Card>
         </div>
 
         {/* Price Guide */}
-        <div className="bg-white rounded-2xl p-6 shadow-sm border border-orange-100 mb-12">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Price Guide</h2>
+        <div className="bg-white rounded-2xl p-6 shadow-sm border border-accent/10 mb-12">
+          <h2 className="text-xl font-bold text-foreground mb-4">Price Guide</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {Object.entries(priceLabels).map(([price, label]) => (
               <div key={price} className="flex items-center gap-3">
                 <Badge className={`${priceColors[price as keyof typeof priceColors]} text-base px-3 py-1`}>
                   {price}
                 </Badge>
-                <span className="text-base text-gray-600">{label}</span>
+                <span className="text-base text-muted-foreground">{label}</span>
               </div>
             ))}
           </div>
@@ -141,8 +141,8 @@ export default function BuenosAiresRestaurantsPage() {
         <section id="top-picks" className="mb-16">
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900">Top 20 Restaurants</h2>
-              <p className="text-gray-600 mt-1">The best of Buenos Aires across all categories</p>
+              <h2 className="text-3xl font-bold text-foreground">Top 20 Restaurants</h2>
+              <p className="text-muted-foreground mt-1">The best of Buenos Aires across all categories</p>
             </div>
             <Badge variant="outline" className="hidden md:flex items-center gap-1">
               <Heart className="w-3 h-3" />
@@ -158,14 +158,14 @@ export default function BuenosAiresRestaurantsPage() {
                     <div className="p-6">
                       <div className="flex items-start justify-between gap-4 mb-3">
                         <div className="flex items-center gap-3">
-                          <div className="w-10 h-10 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center font-bold">
+                          <div className="w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center font-bold">
                             {restaurant.ranking}
                           </div>
                           <div>
-                            <h3 className="text-xl font-bold text-gray-900">
+                            <h3 className="text-xl font-bold text-foreground">
                               {restaurant.name}
                             </h3>
-                            <p className="text-base text-orange-600">
+                            <p className="text-base text-accent">
                               {restaurant.cuisineType} • {restaurant.neighborhood}
                             </p>
                           </div>
@@ -175,7 +175,7 @@ export default function BuenosAiresRestaurantsPage() {
                         </Badge>
                       </div>
                       
-                      <p className="text-gray-600 mb-4">{restaurant.description}</p>
+                      <p className="text-muted-foreground mb-4">{restaurant.description}</p>
                       
                       <div className="flex flex-wrap gap-2 mb-4">
                         {restaurant.mustTry.slice(0, 3).map((item) => (
@@ -185,7 +185,7 @@ export default function BuenosAiresRestaurantsPage() {
                         ))}
                       </div>
 
-                      <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
+                      <div className="flex flex-wrap items-center gap-4 text-base text-muted-foreground">
                         <div className="flex items-center gap-1">
                           <MapPin className="w-4 h-4" />
                           <span>{restaurant.address}</span>
@@ -205,9 +205,9 @@ export default function BuenosAiresRestaurantsPage() {
                       )}
                     </div>
 
-                    <div className="bg-gradient-to-br from-orange-100 to-amber-50 flex items-center justify-center p-6">
+                    <div className="bg-gradient-to-br from-accent/10 to-amber-50 flex items-center justify-center p-6">
                       <div className="text-center">
-                        <div className="text-6xl font-bold text-orange-200 mb-2">
+                        <div className="text-6xl font-bold text-accent/30 mb-2">
                           {restaurant.name[0]}
                         </div>
                         <div className="flex items-center justify-center gap-1 text-amber-700">
@@ -227,8 +227,8 @@ export default function BuenosAiresRestaurantsPage() {
         <section className="mb-16">
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900">Best Parrillas (Steakhouses)</h2>
-              <p className="text-gray-600 mt-1">Where to get the perfect Argentine steak</p>
+              <h2 className="text-3xl font-bold text-foreground">Best Parrillas (Steakhouses)</h2>
+              <p className="text-muted-foreground mt-1">Where to get the perfect Argentine steak</p>
             </div>
             <Button asChild variant="outline">
               <Link href="/food/restaurants/best-parrillas">
@@ -243,16 +243,16 @@ export default function BuenosAiresRestaurantsPage() {
               <Card key={parrilla.slug} className="hover:shadow-md transition-shadow">
                 <CardContent className="p-5">
                   <div className="flex items-start justify-between gap-3 mb-3">
-                    <h3 className="text-lg font-bold text-gray-900">{parrilla.name}</h3>
+                    <h3 className="text-lg font-bold text-foreground">{parrilla.name}</h3>
                     <Badge className={priceColors[parrilla.priceRange]}>{parrilla.priceRange}</Badge>
                   </div>
-                  <p className="text-base text-gray-600 mb-3 line-clamp-2">{parrilla.description}</p>
-                  <div className="flex items-center gap-2 text-base text-gray-500">
+                  <p className="text-base text-muted-foreground mb-3 line-clamp-2">{parrilla.description}</p>
+                  <div className="flex items-center gap-2 text-base text-muted-foreground">
                     <MapPin className="w-4 h-4" />
                     <span>{parrilla.neighborhood}</span>
                   </div>
                   {parrilla.whyWeLoveIt && (
-                    <p className="mt-3 text-base text-orange-700 bg-orange-50 rounded-lg p-2">
+                    <p className="mt-3 text-base text-accent bg-accent/5 rounded-lg p-2">
                       <span className="font-semibold">Why we love it:</span> {parrilla.whyWeLoveIt}
                     </p>
                   )}
@@ -265,17 +265,17 @@ export default function BuenosAiresRestaurantsPage() {
         {/* Pizza & Empanadas */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Best Pizza</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-6">Best Pizza</h2>
             <div className="space-y-4">
               {pizzaPlaces.map((pizza) => (
                 <Card key={pizza.slug}>
                   <CardContent className="p-4">
                     <div className="flex items-center justify-between mb-2">
-                      <h3 className="font-bold text-gray-900">{pizza.name}</h3>
+                      <h3 className="font-bold text-foreground">{pizza.name}</h3>
                       <Badge className={priceColors[pizza.priceRange]}>{pizza.priceRange}</Badge>
                     </div>
-                    <p className="text-base text-gray-600 mb-2">{pizza.address}</p>
-                    <p className="text-base text-orange-600">Must try: {pizza.mustTry[0]}</p>
+                    <p className="text-base text-muted-foreground mb-2">{pizza.address}</p>
+                    <p className="text-base text-accent">Must try: {pizza.mustTry[0]}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -283,17 +283,17 @@ export default function BuenosAiresRestaurantsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Best Empanadas</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-6">Best Empanadas</h2>
             <div className="space-y-4">
               {empanadaPlaces.map((empanada) => (
                 <Card key={empanada.slug}>
                   <CardContent className="p-4">
                     <div className="flex items-center justify-between mb-2">
-                      <h3 className="font-bold text-gray-900">{empanada.name}</h3>
+                      <h3 className="font-bold text-foreground">{empanada.name}</h3>
                       <Badge className={priceColors[empanada.priceRange]}>{empanada.priceRange}</Badge>
                     </div>
-                    <p className="text-base text-gray-600 mb-2">{empanada.address}</p>
-                    <p className="text-base text-orange-600">Must try: {empanada.mustTry[0]}</p>
+                    <p className="text-base text-muted-foreground mb-2">{empanada.address}</p>
+                    <p className="text-base text-accent">Must try: {empanada.mustTry[0]}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -304,17 +304,17 @@ export default function BuenosAiresRestaurantsPage() {
         {/* Vegetarian & International */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Vegetarian & Vegan</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-6">Vegetarian & Vegan</h2>
             <div className="space-y-4">
               {vegetarian.map((veg) => (
                 <Card key={veg.slug}>
                   <CardContent className="p-4">
                     <div className="flex items-center justify-between mb-2">
-                      <h3 className="font-bold text-gray-900">{veg.name}</h3>
+                      <h3 className="font-bold text-foreground">{veg.name}</h3>
                       <Badge className={priceColors[veg.priceRange]}>{veg.priceRange}</Badge>
                     </div>
-                    <p className="text-base text-gray-600 mb-2">{veg.neighborhood}</p>
-                    <p className="text-base text-gray-500">{veg.description.slice(0, 100)}...</p>
+                    <p className="text-base text-muted-foreground mb-2">{veg.neighborhood}</p>
+                    <p className="text-base text-muted-foreground">{veg.description.slice(0, 100)}...</p>
                   </CardContent>
                 </Card>
               ))}
@@ -322,17 +322,17 @@ export default function BuenosAiresRestaurantsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">International</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-6">International</h2>
             <div className="space-y-4">
               {international.slice(0, 3).map((rest) => (
                 <Card key={rest.slug}>
                   <CardContent className="p-4">
                     <div className="flex items-center justify-between mb-2">
-                      <h3 className="font-bold text-gray-900">{rest.name}</h3>
+                      <h3 className="font-bold text-foreground">{rest.name}</h3>
                       <Badge className={priceColors[rest.priceRange]}>{rest.priceRange}</Badge>
                     </div>
-                    <p className="text-base text-orange-600 mb-1">{rest.cuisineType}</p>
-                    <p className="text-base text-gray-600">{rest.neighborhood}</p>
+                    <p className="text-base text-accent mb-1">{rest.cuisineType}</p>
+                    <p className="text-base text-muted-foreground">{rest.neighborhood}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -341,7 +341,7 @@ export default function BuenosAiresRestaurantsPage() {
         </div>
 
         {/* Reservation Tips */}
-        <Card className="bg-gradient-to-r from-amber-50 to-orange-50 border-amber-100 mb-12">
+        <Card className="bg-gradient-to-r from-amber-50 to-accent/5 border-amber-100 mb-12">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Clock className="w-5 h-5 text-amber-600" />
@@ -353,29 +353,29 @@ export default function BuenosAiresRestaurantsPage() {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-amber-600 font-bold">1.</span>
-                  <span className="text-gray-700">Book top parrillas (Don Julio, etc.) 30-60 days ahead online</span>
+                  <span className="text-muted-foreground">Book top parrillas (Don Julio, etc.) 30-60 days ahead online</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-amber-600 font-bold">2.</span>
-                  <span className="text-gray-700">Walk in at opening (7pm) for places that don't take reservations</span>
+                  <span className="text-muted-foreground">Walk in at opening (7pm) for places that don't take reservations</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-amber-600 font-bold">3.</span>
-                  <span className="text-gray-700">Dinner is late—9pm is early, 10pm is normal for locals</span>
+                  <span className="text-muted-foreground">Dinner is late—9pm is early, 10pm is normal for locals</span>
                 </li>
               </ul>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-amber-600 font-bold">4.</span>
-                  <span className="text-gray-700">Many top restaurants are closed Sunday night and Monday</span>
+                  <span className="text-muted-foreground">Many top restaurants are closed Sunday night and Monday</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-amber-600 font-bold">5.</span>
-                  <span className="text-gray-700">WhatsApp is commonly used for reservations—ask your hotel to book</span>
+                  <span className="text-muted-foreground">WhatsApp is commonly used for reservations—ask your hotel to book</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-amber-600 font-bold">6.</span>
-                  <span className="text-gray-700">Bring cash—some top parrillas are cash-only</span>
+                  <span className="text-muted-foreground">Bring cash—some top parrillas are cash-only</span>
                 </li>
               </ul>
             </div>
@@ -384,12 +384,12 @@ export default function BuenosAiresRestaurantsPage() {
 
         {/* CTA */}
         <div className="text-center">
-          <Card className="bg-gradient-to-br from-gray-900 to-gray-800 text-white border-0">
+          <Card className="bg-gradient-to-br from-foreground to-foreground/90 text-white border-0">
             <CardContent className="p-8 md:p-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">
                 Want to Cook Instead?
               </h2>
-              <p className="text-gray-300 mb-6 max-w-xl mx-auto">
+              <p className="text-muted-foreground/50 mb-6 max-w-xl mx-auto">
                 Learn to make authentic Argentine dishes at home with our tested recipes 
                 and local tips.
               </p>

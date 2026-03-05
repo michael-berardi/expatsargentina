@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const priceColors: Record<string, string> = {
   "$": "bg-green-100 text-green-700",
   "$$": "bg-yellow-100 text-yellow-700",
-  "$$$": "bg-orange-100 text-orange-700",
+  "$$$": "bg-accent/10 text-accent",
   "$$$$": "bg-red-100 text-red-700",
 };
 
@@ -259,7 +259,7 @@ export default function SaltaRestaurantsPage() {
       />
 
       {/* Hero */}
-      <div className="relative bg-gradient-to-br from-amber-700 via-orange-700 to-red-800 text-white">
+      <div className="relative bg-gradient-to-br from-amber-700 via-accent/90 to-red-800 text-white">
         <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/images/cities/salta.webp')" }} />
         <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-24">
           <div className="max-w-3xl">
@@ -301,31 +301,31 @@ export default function SaltaRestaurantsPage() {
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-700">{saltaRestaurants.length}</div>
-              <div className="text-base text-gray-600">Curated Restaurants</div>
+              <div className="text-base text-muted-foreground">Curated Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-700">#1</div>
-              <div className="text-base text-gray-600">Empanadas in Argentina</div>
+              <div className="text-base text-muted-foreground">Empanadas in Argentina</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-700">3000m</div>
-              <div className="text-base text-gray-600">Highest Vineyards</div>
+              <div className="text-base text-muted-foreground">Highest Vineyards</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4 text-center">
               <div className="text-3xl font-bold text-amber-700">1582</div>
-              <div className="text-base text-gray-600">Founded (Colonial)</div>
+              <div className="text-base text-muted-foreground">Founded (Colonial)</div>
             </CardContent>
           </Card>
         </div>
 
         {/* Salta Dining Context */}
-        <Card className="bg-gradient-to-r from-amber-50 to-orange-50 border-amber-200 mb-12">
+        <Card className="bg-gradient-to-r from-amber-50 to-accent/5 border-amber-200 mb-12">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Utensils className="w-5 h-5 text-amber-700" />
@@ -333,7 +333,7 @@ export default function SaltaRestaurantsPage() {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            <p className="text-gray-700">
+            <p className="text-muted-foreground">
               Salta's cuisine is unlike anywhere else in Argentina. Influenced by indigenous Andean
               traditions, Spanish colonial heritage, and the harsh beauty of the northwest landscape,
               the food here is deeply regional. Empanadas salteñas are universally acknowledged as
@@ -343,8 +343,8 @@ export default function SaltaRestaurantsPage() {
             </p>
             <div className="grid md:grid-cols-2 gap-4 text-base">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Must-Try Regional Dishes</h4>
-                <ul className="space-y-1 text-gray-600">
+                <h4 className="font-semibold text-foreground mb-2">Must-Try Regional Dishes</h4>
+                <ul className="space-y-1 text-muted-foreground">
                   <li>• <strong>Empanadas salteñas:</strong> Spiced beef in crispy dough, baked in clay oven</li>
                   <li>• <strong>Locro:</strong> Hearty corn, bean, and meat stew (especially May 25)</li>
                   <li>• <strong>Tamales:</strong> Corn masa with meat, wrapped in corn husks</li>
@@ -352,8 +352,8 @@ export default function SaltaRestaurantsPage() {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Wine & Drink</h4>
-                <ul className="space-y-1 text-gray-600">
+                <h4 className="font-semibold text-foreground mb-2">Wine & Drink</h4>
+                <ul className="space-y-1 text-muted-foreground">
                   <li>• <strong>Torrontés:</strong> Argentina's signature white grape, best from Cafayate</li>
                   <li>• <strong>Malbec de altura:</strong> High-altitude reds with intense character</li>
                   <li>• <strong>Vino patero:</strong> Rustic homemade wine served at peñas</li>
@@ -371,7 +371,7 @@ export default function SaltaRestaurantsPage() {
             return (
               <div key={category} className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <h2 className="text-2xl font-bold text-gray-900">{category}</h2>
+                  <h2 className="text-2xl font-bold text-foreground">{category}</h2>
                   <Badge variant="secondary">{categoryRestaurants.length} spots</Badge>
                 </div>
                 <div className="space-y-6">
@@ -382,7 +382,7 @@ export default function SaltaRestaurantsPage() {
                           <div className="p-6">
                             <div className="flex items-start justify-between gap-4 mb-3">
                               <div>
-                                <h3 className="text-xl font-bold text-gray-900">
+                                <h3 className="text-xl font-bold text-foreground">
                                   {restaurant.name}
                                 </h3>
                                 <p className="text-base text-amber-700">
@@ -394,7 +394,7 @@ export default function SaltaRestaurantsPage() {
                               </Badge>
                             </div>
 
-                            <p className="text-gray-600 mb-4">{restaurant.description}</p>
+                            <p className="text-muted-foreground mb-4">{restaurant.description}</p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
                               {restaurant.whatToOrder.map((item) => (
@@ -404,7 +404,7 @@ export default function SaltaRestaurantsPage() {
                               ))}
                             </div>
 
-                            <div className="flex flex-wrap items-center gap-4 text-base text-gray-500">
+                            <div className="flex flex-wrap items-center gap-4 text-base text-muted-foreground">
                               <div className="flex items-center gap-1">
                                 <MapPin className="w-4 h-4" />
                                 <span>{restaurant.neighborhood}</span>
@@ -425,7 +425,7 @@ export default function SaltaRestaurantsPage() {
                             )}
                           </div>
 
-                          <div className="bg-gradient-to-br from-amber-100 to-orange-50 flex items-center justify-center p-6">
+                          <div className="bg-gradient-to-br from-amber-100 to-accent/5 flex items-center justify-center p-6">
                             <div className="text-center">
                               <div className="text-6xl font-bold text-amber-200 mb-2">
                                 {restaurant.name[0]}
@@ -458,24 +458,24 @@ export default function SaltaRestaurantsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-base text-gray-600">
+              <p className="text-base text-muted-foreground">
                 Salta province is home to the Calchaquí Valley wine region, centered around Cafayate (3 hours south). A must-do day trip or overnight:
               </p>
               <div>
-                <h4 className="font-semibold text-gray-900">Quebrada de las Flechas</h4>
-                <p className="text-base text-gray-600">Stunning rock formations en route to Cafayate wine country</p>
+                <h4 className="font-semibold text-foreground">Quebrada de las Flechas</h4>
+                <p className="text-base text-muted-foreground">Stunning rock formations en route to Cafayate wine country</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Bodega Colomé</h4>
-                <p className="text-base text-gray-600">One of the world's highest wineries with a James Turrell museum</p>
+                <h4 className="font-semibold text-foreground">Bodega Colomé</h4>
+                <p className="text-base text-muted-foreground">One of the world's highest wineries with a James Turrell museum</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Bodega El Esteco</h4>
-                <p className="text-base text-gray-600">Historic winery with excellent restaurant and torrontés tastings</p>
+                <h4 className="font-semibold text-foreground">Bodega El Esteco</h4>
+                <p className="text-base text-muted-foreground">Historic winery with excellent restaurant and torrontés tastings</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Cafayate Plaza</h4>
-                <p className="text-base text-gray-600">Charming town square ringed with wine bars and restaurants</p>
+                <h4 className="font-semibold text-foreground">Cafayate Plaza</h4>
+                <p className="text-base text-muted-foreground">Charming town square ringed with wine bars and restaurants</p>
               </div>
             </CardContent>
           </Card>
@@ -489,20 +489,20 @@ export default function SaltaRestaurantsPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
-                <h4 className="font-semibold text-gray-900">Empanada Etiquette</h4>
-                <p className="text-base text-gray-600">Eat them by hand, never with a fork. The repulgue (crimp pattern) tells you the filling. Locals eat them with a squeeze of lemon.</p>
+                <h4 className="font-semibold text-foreground">Empanada Etiquette</h4>
+                <p className="text-base text-muted-foreground">Eat them by hand, never with a fork. The repulgue (crimp pattern) tells you the filling. Locals eat them with a squeeze of lemon.</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Peña Timing</h4>
-                <p className="text-base text-gray-600">Peñas start late (9-10pm) and go until 2-3am. Arrive by 10pm for dinner, stay for the music. Weekends are liveliest.</p>
+                <h4 className="font-semibold text-foreground">Peña Timing</h4>
+                <p className="text-base text-muted-foreground">Peñas start late (9-10pm) and go until 2-3am. Arrive by 10pm for dinner, stay for the music. Weekends are liveliest.</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Festival Season</h4>
-                <p className="text-base text-gray-600">Visit in July for the Fiesta de la Empanada, or February for Carnival. Food experiences multiply during festivals.</p>
+                <h4 className="font-semibold text-foreground">Festival Season</h4>
+                <p className="text-base text-muted-foreground">Visit in July for the Fiesta de la Empanada, or February for Carnival. Food experiences multiply during festivals.</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">Budget Note</h4>
-                <p className="text-base text-gray-600">Salta is one of Argentina's most affordable food cities. A dozen empanadas costs less than a single dish in Buenos Aires.</p>
+                <h4 className="font-semibold text-foreground">Budget Note</h4>
+                <p className="text-base text-muted-foreground">Salta is one of Argentina's most affordable food cities. A dozen empanadas costs less than a single dish in Buenos Aires.</p>
               </div>
             </CardContent>
           </Card>

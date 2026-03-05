@@ -28,7 +28,7 @@ const cityGuides = [
     description: "The complete guide to dining in Argentina's capital—from world-famous parrillas to Michelin-starred fine dining.",
     highlights: ["Don Julio (#1 steakhouse)", "Michelin-starred restaurants", "40+ curated spots"],
     icon: Building2,
-    color: "from-orange-500 to-red-600",
+    color: "from-primary to-accent",
     image: "/images/cities/buenos-aires.webp",
   },
   {
@@ -37,7 +37,7 @@ const cityGuides = [
     description: "The ultimate guide to Argentine steakhouses. Where to find the perfect bife de chorizo.",
     highlights: ["Top 10 parrillas", "Reservation tips", "What to order"],
     icon: Utensils,
-    color: "from-red-600 to-orange-600",
+    color: "from-red-600 to-accent",
     image: "/images/guides/food-bg.webp",
   },
   {
@@ -64,7 +64,7 @@ const cityGuides = [
     description: "Argentina's second city offers excellent value and a vibrant university-town dining scene.",
     highlights: ["Historic center", "Student-friendly prices", "Sunday tradition"],
     icon: GraduationCap,
-    color: "from-amber-600 to-orange-600",
+    color: "from-amber-600 to-accent",
     image: "/images/cities/cordoba.webp",
   },
   {
@@ -73,7 +73,7 @@ const cityGuides = [
     description: "Argentina's third city delivers excellent parrillas, river fish, and a vibrant riverside dining scene.",
     highlights: ["Riverside dining", "Historic parrillas", "Craft beer scene"],
     icon: Compass,
-    color: "from-teal-600 to-cyan-600",
+    color: "from-primary to-cyan-600",
     image: "/images/cities/rosario.webp",
   },
   {
@@ -82,16 +82,16 @@ const cityGuides = [
     description: "The northwest's culinary capital. Empanadas salteñas, peñas with live folk music, and torrontés wine.",
     highlights: ["Best empanadas in Argentina", "Peñas folk dining", "Torrontés wine"],
     icon: Landmark,
-    color: "from-rose-600 to-orange-600",
+    color: "from-rose-600 to-accent",
     image: "/images/cities/salta.webp",
   },
 ];
 
 export default function RestaurantsIndexPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-accent/5 to-background">
       {/* Hero */}
-      <div className="relative bg-gradient-to-br from-orange-600 via-red-600 to-orange-700 text-white">
+      <div className="relative bg-gradient-to-br from-primary to-accent text-white">
         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('/images/guides/food-bg.webp')" }} />
         <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-24">
           <div className="max-w-3xl mx-auto text-center">
@@ -128,32 +128,32 @@ export default function RestaurantsIndexPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           <Card>
             <CardContent className="p-6 text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-1">40+</div>
-              <div className="text-base text-gray-600">Curated Restaurants</div>
+              <div className="text-4xl font-bold text-accent mb-1">40+</div>
+              <div className="text-base text-muted-foreground">Curated Restaurants</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-1">7</div>
-              <div className="text-base text-gray-600">City Guides</div>
+              <div className="text-4xl font-bold text-accent mb-1">7</div>
+              <div className="text-base text-muted-foreground">City Guides</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-1">4</div>
-              <div className="text-base text-gray-600">Michelin Stars</div>
+              <div className="text-4xl font-bold text-accent mb-1">4</div>
+              <div className="text-base text-muted-foreground">Michelin Stars</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
-              <div className="text-4xl font-bold text-orange-600 mb-1">#1</div>
-              <div className="text-base text-gray-600">World Steakhouse</div>
+              <div className="text-4xl font-bold text-accent mb-1">#1</div>
+              <div className="text-base text-muted-foreground">World Steakhouse</div>
             </CardContent>
           </Card>
         </div>
 
         {/* City Guides Grid */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Explore by City</h2>
+        <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Explore by City</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {cityGuides.map((city) => {
             const Icon = city.icon;
@@ -172,18 +172,18 @@ export default function RestaurantsIndexPage() {
                   </div>
                   
                   <CardContent className="p-6">
-                    <p className="text-gray-600 mb-4 line-clamp-2">{city.description}</p>
+                    <p className="text-muted-foreground mb-4 line-clamp-2">{city.description}</p>
                     
                     <div className="space-y-2 mb-4">
                       {city.highlights.map((highlight) => (
-                        <div key={highlight} className="flex items-center gap-2 text-base text-gray-500">
-                          <Star className="w-4 h-4 text-orange-500 fill-orange-500" />
+                        <div key={highlight} className="flex items-center gap-2 text-base text-muted-foreground">
+                          <Star className="w-4 h-4 text-white/850 fill-accent" />
                           <span>{highlight}</span>
                         </div>
                       ))}
                     </div>
                     
-                    <div className="flex items-center text-orange-600 font-medium group-hover:text-orange-700 transition-colors">
+                    <div className="flex items-center text-accent font-medium group-hover:text-accent transition-colors">
                       Explore Guide
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </div>
