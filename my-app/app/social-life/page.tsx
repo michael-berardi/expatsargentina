@@ -303,8 +303,9 @@ export default function SocialLifePage() {
               Dating & Social Life in Buenos Aires
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              The real talk on dating apps, making friends, surviving the nightlife, 
-              and not dying of loneliness. Learn from my romantic disasters and social victories.
+              The real talk on dating apps, making friends, surviving the nightlife,
+              and not dying of loneliness in your first months. Everything here comes from actual
+              expats who stumbled through the social scene so you can skip the worst parts.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Badge variant="outline"><SmartphoneIcon size="sm" className="mr-1" />Dating Apps</Badge>
@@ -392,7 +393,7 @@ export default function SocialLifePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-pink-50 dark:bg-pink-950/20 p-4 rounded-lg border-l-4 border-pink-400 mb-4">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Personal story:</span> {item.story}
+                        <span className="font-semibold not-italic">From the field:</span> {item.story}
                       </p>
                     </div>
                     {item.tip && (
@@ -448,7 +449,7 @@ export default function SocialLifePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-blue-50 dark:bg-blue-950/20 p-4 rounded-lg border-l-4 border-blue-400 mb-4">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Personal story:</span> {item.story}
+                        <span className="font-semibold not-italic">What happened:</span> {item.story}
                       </p>
                     </div>
                     {item.venues && (
@@ -532,7 +533,7 @@ export default function SocialLifePage() {
                     {item.story && (
                       <div className="bg-purple-50 dark:bg-purple-950/20 p-4 rounded-lg border-l-4 border-purple-400 mb-4">
                         <p className="text-sm italic">
-                          <span className="font-semibold not-italic">Personal story:</span> {item.story}
+                          <span className="font-semibold not-italic">How it goes:</span> {item.story}
                         </p>
                       </div>
                     )}
@@ -620,7 +621,7 @@ export default function SocialLifePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-amber-50 dark:bg-amber-950/20 p-4 rounded-lg border-l-4 border-amber-400 mb-4">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Personal story:</span> {item.story}
+                        <span className="font-semibold not-italic">Real talk:</span> {item.story}
                       </p>
                     </div>
                     {item.tip && (
@@ -659,7 +660,7 @@ export default function SocialLifePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-primary/5 dark:bg-primary/15 p-4 rounded-lg border-l-4 border-primary/60 mb-4">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Personal story:</span> {item.story}
+                        <span className="font-semibold not-italic">Been there:</span> {item.story}
                       </p>
                     </div>
                     {item.tip && (

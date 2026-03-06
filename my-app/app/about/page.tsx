@@ -7,7 +7,7 @@ import { MapPinIcon, GlobeIcon, UsersIcon, ShieldIcon, MailIcon, CheckCircleIcon
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Expats Argentina — a comprehensive reference guide covering all 24 provinces, 20+ cities, visa pathways, and the practical realities of expat life across the entire country.",
+  description: "Learn about Expats Argentina — a complete reference guide covering all 24 provinces, 20+ cities, visa pathways, and the practical realities of expat life across the entire country.",
   keywords: ["about Expats Argentina", "Argentina expat guide", "living in Argentina", "move to Argentina"],
   alternates: {
     canonical: "https://expatsargentina.com/about",
@@ -89,12 +89,12 @@ export default function AboutPage() {
               About Expats Argentina
             </h1>
             <p className="text-xl text-muted-foreground mb-6">
-              Expats Argentina is a comprehensive reference guide for people considering
+              Expats Argentina is a detailed reference guide for people considering
               a move to Argentina. We cover all 24 provinces, 20+ cities, visa pathways,
               and the practical realities of expat life across the entire country.
             </p>
             <p className="text-lg text-muted-foreground">
-              Our goal: be the most accurate, comprehensive, and honest source of expat
+              Our goal: be the most accurate, thorough, and honest source of expat
               information for Argentina — not just Buenos Aires, but everywhere.
             </p>
           </div>

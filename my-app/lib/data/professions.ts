@@ -69,7 +69,7 @@ export const professions: Profession[] = [
     description: "Argentina's growing tech ecosystem offers excellent opportunities for software developers. From Buenos Aires' startup scene to provincial tech hubs, discover your pathway to living and working as a developer in Argentina.",
     icon: "Code",
     category: "tech",
-    overview: "Argentina has emerged as Latin America's leading tech hub, with Buenos Aires ranking among the top startup ecosystems globally. Software developers are in high demand, with companies actively recruiting international talent. The country offers excellent infrastructure for remote workers, a thriving tech community, and competitive salaries when earning in foreign currency. Whether you want to work remotely for a US/EU company, join a local startup, or freelance, Argentina provides an ideal base for tech professionals.",
+    overview: "Argentina has emerged as Latin America's leading tech hub, with Buenos Aires ranking among the top startup ecosystems globally. Software developers are in high demand, with companies actively recruiting international talent. The country offers excellent infrastructure for remote workers, an established tech community, and competitive salaries when earning in foreign currency. Whether you want to work remotely for a US/EU company, join a local startup, or freelance, Argentina provides an ideal base for tech professionals.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -164,7 +164,7 @@ export const professions: Profession[] = [
       },
       {
         question: "Are there local developer communities?",
-        answer: "Absolutely. Buenos Aires has a vibrant tech scene with regular meetups, conferences (like NodeConf, RubyConf), and active Slack communities. Palermo and Palermo Hollywood are the main tech neighborhoods."
+        answer: "Absolutely. Buenos Aires has an active tech scene with regular meetups, conferences (like NodeConf, RubyConf), and active Slack communities. Palermo and Palermo Hollywood are the main tech neighborhoods."
       }
     ],
     relatedProfessions: ["ux-designer", "product-manager", "data-analyst"],
@@ -192,10 +192,10 @@ export const professions: Profession[] = [
     name: "UX/UI Designer",
     title: "UX/UI Designer Guide for Argentina",
     subtitle: "Design community, freelance opportunities, and visa pathways for designers",
-    description: "Argentina's design scene is thriving, with strong demand for UX/UI talent in the growing tech sector. Discover how to build your design career in one of Latin America's most creative cities.",
+    description: "Argentina's design scene is growing fast, with strong demand for UX/UI talent in the growing tech sector. Discover how to build your design career in one of Latin America's most creative cities.",
     icon: "Palette",
     category: "creative",
-    overview: "Buenos Aires has a rich design heritage and a rapidly growing UX/UI community. Argentine designers are known for their creativity and technical skills, making the country an attractive destination for design professionals. The startup ecosystem values good design, creating opportunities both in-house and freelance. The city hosts design events, has active design communities, and offers inspiration from its European-influenced architecture and vibrant street art scene.",
+    overview: "Buenos Aires has a rich design heritage and a rapidly growing UX/UI community. Argentine designers are known for their creativity and technical skills, making the country an attractive destination for design professionals. The startup ecosystem values good design, creating opportunities both in-house and freelance. The city hosts design events, has active design communities, and offers inspiration from its European-influenced architecture and lively street art scene.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -224,9 +224,9 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Design work translates perfectly to remote arrangements. Many Argentine designers work for US/EU companies while living in Buenos Aires.",
+      description: "Design work translates naturally to remote setups. Many Argentine designers work for US/EU companies while living in Buenos Aires.",
       considerations: [
-        "Design tools (Figma, Adobe CC) work seamlessly",
+        "Design tools (Figma, Adobe CC) work smoothly",
         "Time zone overlap with US clients",
         "Lower cost of living allows competitive rates",
         "Strong local design community for networking",
@@ -269,7 +269,7 @@ export const professions: Profession[] = [
     faqs: [
       {
         question: "Is there a strong design community in Buenos Aires?",
-        answer: "Yes, BA has a vibrant design community with regular meetups, conferences like Interaction Latin America, and active online communities. The city has a rich artistic heritage that influences contemporary design."
+        answer: "Yes, BA has a lively design community with regular meetups, conferences like Interaction Latin America, and active online communities. The city has a rich artistic heritage that influences contemporary design."
       },
       {
         question: "Can I find local clients as a foreign designer?",
@@ -290,7 +290,7 @@ export const professions: Profession[] = [
     slug: "product-manager",
     name: "Product Manager",
     title: "Product Manager Immigration Guide",
-    subtitle: "Navigate Argentina's startup ecosystem as a product leader",
+    subtitle: "Break into Argentina's startup ecosystem as a product leader",
     description: "Argentina's booming startup scene needs experienced product managers. Learn about visa options, salary expectations, and the local product community.",
     icon: "Briefcase",
     category: "tech",
@@ -485,7 +485,7 @@ export const professions: Profession[] = [
     name: "Content Creator / Writer",
     title: "Content Creator Guide for Argentina",
     subtitle: "Build your creator career from Argentina's inspiring landscapes",
-    description: "Argentina offers endless content opportunities—from Buenos Aires' vibrant culture to Patagonia's dramatic landscapes. Learn how to thrive as a creator.",
+    description: "Argentina offers endless content opportunities—from Buenos Aires' rich culture to Patagonia's dramatic landscapes. A guide to building your creator career here.",
     icon: "Pen",
     category: "creative",
     overview: "Argentina is a content creator's dream. The country offers diverse backdrops (cosmopolitan cities, wine country, mountains, glaciers), affordable living, and a growing digital infrastructure. Whether you're a writer, YouTuber, photographer, or social media creator, Argentina provides both inspiration and affordability.",
@@ -566,7 +566,7 @@ export const professions: Profession[] = [
     slug: "data-analyst",
     name: "Data Analyst / Scientist",
     title: "Data Professional Guide for Argentina",
-    subtitle: "Leverage your analytical skills in Argentina's data-driven economy",
+    subtitle: "Put your analytical skills to work in Argentina's data-driven economy",
     description: "Argentina's growing fintech and e-commerce sectors need data professionals. Discover visa pathways, salary expectations, and the local data community.",
     icon: "BarChart",
     category: "tech",
@@ -599,7 +599,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Data work is highly remote-friendly. Cloud-based tools make collaboration seamless across borders.",
+      description: "Data work is highly remote-friendly. Cloud-based tools make cross-border collaboration easy.",
       considerations: [
         "Strong demand for bilingual data professionals",
         "US companies value LATAM timezone overlap",
@@ -856,7 +856,7 @@ export const professions: Profession[] = [
     description: "Argentina's digital marketing scene is booming with fintech, e-commerce, and SaaS companies seeking experienced marketing leaders. Discover visa pathways and salary expectations.",
     icon: "BarChart",
     category: "creative",
-    overview: "Digital marketing managers are in high demand across Argentina's thriving tech ecosystem. From Buenos Aires' startup scene to multinational agencies, companies need experienced marketers who understand both global best practices and local market nuances. The role translates exceptionally well to remote work, with many Argentine-based marketers leading campaigns for US and EU companies while enjoying the country's favorable cost of living.",
+    overview: "Digital marketing managers are in high demand across Argentina's expanding tech ecosystem. From Buenos Aires' startup scene to multinational agencies, companies need experienced marketers who understand both global best practices and local market nuances. The role translates exceptionally well to remote work, with many Argentine-based marketers leading campaigns for US and EU companies while enjoying the country's favorable cost of living.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -892,7 +892,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Digital marketing is highly remote-friendly. Campaign management, analytics, and strategy work seamlessly across time zones.",
+      description: "Digital marketing is highly remote-friendly. Campaign management, analytics, and strategy work smoothly across time zones.",
       considerations: [
         "Strong demand for bilingual marketers (English/Spanish)",
         "US time zone overlap enables real-time collaboration",
@@ -973,10 +973,10 @@ export const professions: Profession[] = [
     name: "SEO Specialist",
     title: "SEO Specialist Guide for Argentina",
     subtitle: "Optimize your career from Latin America's growing SEO hub",
-    description: "Argentina's SEO community is rapidly expanding. Learn how to leverage your search marketing skills while enjoying Argentina's lifestyle and cost advantages.",
+    description: "Argentina's SEO community is rapidly expanding. A guide to making the most of your search marketing skills while enjoying Argentina's lifestyle and cost advantages.",
     icon: "BarChart",
     category: "creative",
-    overview: "SEO specialists are increasingly in demand as Argentine companies expand internationally and US companies target LATAM markets. The work is perfectly suited to remote arrangements, allowing SEO professionals to earn USD while benefiting from Argentina's lower cost of living. The local SEO community is active and growing, with regular meetups and knowledge sharing.",
+    overview: "SEO specialists are increasingly in demand as Argentine companies expand internationally and US companies target LATAM markets. The work lends itself to location independence, allowing SEO professionals to earn USD while benefiting from Argentina's lower cost of living. The local SEO community is active and growing, with regular meetups and knowledge sharing.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -1010,7 +1010,7 @@ export const professions: Profession[] = [
       considerations: [
         "Strong demand for Spanish-language SEO expertise",
         "US companies value bilingual SEOs for LATAM markets",
-        "Tools (Ahrefs, SEMrush, GA) work seamlessly remotely",
+        "Tools (Ahrefs, SEMrush, GA) work smoothly remotely",
         "Time zone alignment with US clients",
         "Growing local SEO agency ecosystem"
       ]
@@ -1045,7 +1045,7 @@ export const professions: Profession[] = [
     faqs: [
       {
         question: "Is Argentina good for SEO professionals?",
-        answer: "Yes. The growing tech ecosystem creates demand, and the favorable exchange rate makes USD earnings go very far. Plus, the work is perfectly remote-friendly."
+        answer: "Yes. The growing tech ecosystem creates demand, and the favorable exchange rate makes USD earnings go very far. Plus, the work is fully remote-friendly."
       }
     ],
     relatedProfessions: ["digital-marketing-manager", "content-writer"],
@@ -1146,7 +1146,7 @@ export const professions: Profession[] = [
     name: "Virtual Assistant",
     title: "Virtual Assistant Guide for Argentina",
     subtitle: "Build your VA business while enjoying Argentina's lifestyle and cost advantages",
-    description: "Argentina's growing pool of bilingual virtual assistants makes it an ideal base for VA professionals. Learn about visa pathways, client acquisition, and thriving as a remote assistant.",
+    description: "Argentina's growing pool of bilingual virtual assistants makes it an ideal base for VA professionals. Learn about visa pathways, client acquisition, and building a successful remote practice.",
     icon: "Briefcase",
     category: "business",
     overview: "Virtual assistance is one of the most accessible and flexible careers for expats in Argentina. With over 2,000 Argentine VAs already working remotely on platforms like ProsMarketplace, the ecosystem is well-established. The country's strong English proficiency (#1 in Latin America), favorable time zone overlap with the US, and significantly lower cost of living make it an ideal base for VA professionals. Whether you specialize in executive assistance, customer service, social media management, or specialized admin support, Argentina offers the infrastructure and lifestyle to build a successful remote VA business.",
@@ -1268,11 +1268,11 @@ export const professions: Profession[] = [
     slug: "business-consultant",
     name: "Business Consultant",
     title: "Business Consultant Guide for Argentina",
-    subtitle: "Navigate Argentina's complex business landscape as an independent advisor",
+    subtitle: "Work Argentina's complex business environment as an independent advisor",
     description: "Argentina's unique economic environment creates high demand for experienced business consultants. Learn about visa pathways, client acquisition, and building your consulting practice.",
     icon: "Briefcase",
     category: "business",
-    overview: "Business consulting in Argentina presents both unique challenges and significant opportunities. The country's complex regulatory environment, currency controls, and high inflation rate create demand for experienced advisors who can help companies navigate these challenges. Foreign consultants bring valuable international perspective, particularly in areas like digital transformation, operational efficiency, and international expansion. Whether serving multinational corporations entering the Argentine market, local companies seeking to expand abroad, or international clients remotely, consultants can build lucrative practices while enjoying Argentina's exceptional lifestyle and lower cost of living.",
+    overview: "Business consulting in Argentina presents both unique challenges and significant opportunities. The country's complex regulatory environment, currency controls, and high inflation rate create demand for experienced advisors who can help companies deal with these challenges. Foreign consultants bring valuable international perspective, particularly in areas like digital transformation, operational efficiency, and international expansion. Whether serving multinational corporations entering the Argentine market, local companies seeking to expand abroad, or international clients remotely, consultants can build lucrative practices while enjoying Argentina's exceptional lifestyle and lower cost of living.",
     visaOptions: [
       {
         name: "Investment Visa",
@@ -1352,7 +1352,7 @@ export const professions: Profession[] = [
       "Connect with Argentine-American Chamber of Commerce",
       "Engage with industry-specific associations",
       "Build relationships with venture capital firms",
-      "Leverage LinkedIn for international client acquisition"
+      "Use LinkedIn for international client acquisition"
     ],
     faqs: [
       {
@@ -1373,7 +1373,7 @@ export const professions: Profession[] = [
       },
       {
         question: "What's unique about consulting in Argentina?",
-        answer: "Argentina's economic volatility (inflation, currency controls) creates both challenges and opportunities. Consultants who can help businesses navigate these complexities are highly valued. Building trust is paramount—Argentine business culture prioritizes relationships. Patience with bureaucratic processes is essential."
+        answer: "Argentina's economic volatility (inflation, currency controls) creates both challenges and opportunities. Consultants who can help businesses work through these complexities are highly valued. Building trust is paramount—Argentine business culture prioritizes relationships. Patience with bureaucratic processes is essential."
       }
     ],
     relatedProfessions: ["entrepreneur", "financial-advisor", "product-manager"],
@@ -1400,11 +1400,11 @@ export const professions: Profession[] = [
     slug: "financial-advisor",
     name: "Financial Advisor",
     title: "Financial Advisor Guide for Argentina",
-    subtitle: "Navigate Argentina's complex financial landscape as an independent advisor",
+    subtitle: "Make sense of Argentina's complex financial system as an independent advisor",
     description: "Argentina's unique economic environment creates demand for experienced financial advisors. Learn about regulatory requirements, visa pathways, and building your advisory practice.",
     icon: "BarChart",
     category: "business",
-    overview: "Financial advisory in Argentina operates within one of the world's most complex economic environments. With inflation rates that have historically challenged savings, currency controls that limit capital movement, and a sophisticated wealthy class seeking to protect and grow assets, the demand for skilled financial advisors is substantial. Foreign advisors bring valuable perspective on international diversification, offshore structuring, and navigating multi-jurisdictional wealth management. The key opportunities include advising high-net-worth Argentines on international diversification, helping expats navigate Argentina's financial system, and serving international clients remotely. Success requires understanding Argentina's unique financial culture—where wealth preservation often takes precedence over growth, and where relationships and trust are paramount.",
+    overview: "Financial advisory in Argentina operates within one of the world's most complex economic environments. With inflation rates that have historically challenged savings, currency controls that limit capital movement, and a sophisticated wealthy class seeking to protect and grow assets, the demand for skilled financial advisors is substantial. Foreign advisors bring valuable perspective on international diversification, offshore structuring, and managing multi-jurisdictional wealth. The key opportunities include advising high-net-worth Argentines on international diversification, helping expats understand Argentina's financial system, and serving international clients remotely. Success requires understanding Argentina's unique financial culture—where wealth preservation often takes precedence over growth, and where relationships and trust are paramount.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -1538,7 +1538,7 @@ export const professions: Profession[] = [
     description: "Argentina's cloud infrastructure market is growing rapidly. Learn how DevOps engineers can thrive in Argentina's tech ecosystem with remote opportunities and local demand.",
     icon: "Code",
     category: "tech",
-    overview: "DevOps engineering has emerged as one of the most in-demand tech specialties in Argentina. As local companies accelerate their cloud migrations and international firms seek cost-effective DevOps talent, the opportunities for skilled engineers have expanded dramatically. Argentine DevOps professionals are increasingly working with cutting-edge technologies—Kubernetes, Terraform, AWS/GCP/Azure, CI/CD pipelines—while enjoying the country's exceptional lifestyle and favorable cost of living. The role is perfectly suited to remote work, with many Argentine DevOps engineers managing infrastructure for US and EU companies from Buenos Aires coworking spaces.",
+    overview: "DevOps engineering has emerged as one of the most in-demand tech specialties in Argentina. As local companies accelerate their cloud migrations and international firms seek cost-effective DevOps talent, the opportunities for skilled engineers have expanded dramatically. Argentine DevOps professionals are increasingly working with advanced technologies—Kubernetes, Terraform, AWS/GCP/Azure, CI/CD pipelines—while enjoying the country's exceptional lifestyle and favorable cost of living. The role fits remote work naturally, with many Argentine DevOps engineers managing infrastructure for US and EU companies from Buenos Aires coworking spaces.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -1747,10 +1747,10 @@ export const professions: Profession[] = [
     name: "Data Scientist",
     title: "Data Scientist Guide for Argentina",
     subtitle: "Turn data into insights from Latin America's data science hub",
-    description: "Argentina's data science community is thriving. Learn how data scientists can leverage their skills while enjoying Argentina's exceptional lifestyle.",
+    description: "Argentina's data science community is growing fast. Here's what data scientists need to know about building careers while enjoying Argentina's exceptional lifestyle.",
     icon: "BarChart",
     category: "tech",
-    overview: "Data science has emerged as one of Argentina's most dynamic tech fields, with strong demand across fintech, e-commerce, agriculture (agtech), and healthcare sectors. The country's solid mathematical and statistical education tradition has produced a deep talent pool, while international companies increasingly recognize the value of Argentine data scientists. The work translates perfectly to remote arrangements, with many data scientists serving US and EU companies from Buenos Aires. The field offers intellectual challenge, competitive compensation, and the satisfaction of driving data-informed decisions. Argentina's lower cost of living means data scientists can enjoy an excellent quality of life while building their careers.",
+    overview: "Data science has emerged as one of Argentina's most dynamic tech fields, with strong demand across fintech, e-commerce, agriculture (agtech), and healthcare sectors. The country's solid mathematical and statistical education tradition has produced a deep talent pool, while international companies increasingly recognize the value of Argentine data scientists. The work translates well to remote setups, with many data scientists serving US and EU companies from Buenos Aires. The field offers intellectual challenge, competitive compensation, and the satisfaction of driving data-informed decisions. Argentina's lower cost of living means data scientists can enjoy an excellent quality of life while building their careers.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -1851,7 +1851,7 @@ export const professions: Profession[] = [
     description: "Argentina's pool of bilingual executive assistants attracts international executives and companies seeking high-level administrative support. Learn about visa pathways and building your EA career from Argentina.",
     icon: "Briefcase",
     category: "business",
-    overview: "Executive assistance represents a premium tier of administrative support, with Argentine EAs commanding higher rates due to strong English proficiency, cultural alignment with US business practices, and excellent education levels. The role is perfectly suited for remote work, with many EAs supporting CEOs, founders, and executives at startups and established companies. Argentina's time zone overlap with the US and significantly lower cost of living create an ideal environment for building a lucrative remote EA practice. The profession offers strong earning potential ($3,000-$6,000+/month with experienced US clients) and clear pathways to permanent residency through the Digital Nomad Visa.",
+    overview: "Executive assistance represents a premium tier of administrative support, with Argentine EAs commanding higher rates due to strong English proficiency, cultural alignment with US business practices, and excellent education levels. The role lends itself to remote work, with many EAs supporting CEOs, founders, and executives at startups and established companies. Argentina's time zone overlap with the US and significantly lower cost of living create an ideal environment for building a lucrative remote EA practice. The profession offers strong earning potential ($3,000-$6,000+/month with experienced US clients) and clear pathways to permanent residency through the Digital Nomad Visa.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -1894,7 +1894,7 @@ export const professions: Profession[] = [
         "Many executives prefer Argentine EAs for cultural compatibility",
         "Lower living costs make competitive rates sustainable",
         "Growing demand for bilingual executive support",
-        "Tools like Slack, Zoom, Calendly, and Asana enable seamless remote collaboration",
+        "Tools like Slack, Zoom, Calendly, and Asana enable smooth remote collaboration",
         "Some executives require coverage during US business hours"
       ]
     },
@@ -1976,11 +1976,11 @@ export const professions: Profession[] = [
     slug: "accountant-bookkeeper",
     name: "Accountant / Bookkeeper",
     title: "Accountant & Bookkeeper Guide for Argentina",
-    subtitle: "Manage finances remotely while navigating Argentina's unique economic landscape",
+    subtitle: "Manage finances remotely while handling Argentina's unique economic environment",
     description: "Argentina's complex currency controls and tax system create unique opportunities for accountants and bookkeepers serving international clients. Learn about visa pathways and building your practice.",
     icon: "BarChart",
     category: "business",
-    overview: "Accounting and bookkeeping professionals find Argentina particularly interesting due to its complex economic environment. The country's multiple exchange rates (official, blue, MEP, CCL), high inflation, and intricate tax regulations create demand for skilled financial professionals. Many Argentine accountants serve US and international clients remotely, while others help expats navigate Argentina's challenging fiscal landscape. The profession offers strong remote work potential, with US clients valuing the cost savings while Argentine clients need local expertise. Understanding both international accounting standards and Argentina's unique systems (monotributo, IVA, ganancias) creates a valuable skill set.",
+    overview: "Accounting and bookkeeping professionals find Argentina particularly interesting due to its complex economic environment. The country's multiple exchange rates (official, blue, MEP, CCL), high inflation, and intricate tax regulations create demand for skilled financial professionals. Many Argentine accountants serve US and international clients remotely, while others help expats figure out Argentina's challenging fiscal system. The profession offers strong remote work potential, with US clients valuing the cost savings while Argentine clients need local expertise. Understanding both international accounting standards and Argentina's unique systems (monotributo, IVA, ganancias) creates a valuable skill set.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -2240,7 +2240,7 @@ export const professions: Profession[] = [
     slug: "legal-consultant",
     name: "Legal Consultant",
     title: "Legal Consultant Guide for Argentina",
-    subtitle: "Navigate international legal practice while experiencing Argentina's culture",
+    subtitle: "Practice international law while experiencing Argentina's culture",
     description: "Foreign attorneys and legal consultants find unique opportunities in Argentina, from serving international clients remotely to advising on cross-border transactions. Learn about visa pathways and regulatory requirements.",
     icon: "Briefcase",
     category: "business",
@@ -2497,11 +2497,11 @@ export const professions: Profession[] = [
     slug: "mobile-app-developer",
     name: "Mobile App Developer",
     title: "Mobile App Developer Guide for Argentina",
-    subtitle: "Build apps from Latin America's thriving tech ecosystem",
+    subtitle: "Build apps from Latin America's growing tech ecosystem",
     description: "Argentina's mobile development talent is globally recognized, with developers contributing to apps used worldwide. Learn about visa pathways for iOS, Android, and cross-platform developers.",
     icon: "Code",
     category: "tech",
-    overview: "Mobile app development is one of Argentina's strongest tech specializations. Argentine developers have contributed to major apps for companies like Google, Apple, and leading startups. The country's excellent technical education, strong English proficiency, and cultural affinity with US business practices make Argentine mobile devs highly sought after. The profession offers excellent remote work opportunities, with US companies paying $50-120/hour for experienced developers. Buenos Aires has a particularly strong mobile dev community, with regular meetups, hackathons, and a thriving startup ecosystem. Whether you specialize in native iOS (Swift), Android (Kotlin), or cross-platform (React Native, Flutter), Argentina provides an ideal base.",
+    overview: "Mobile app development is one of Argentina's strongest tech specializations. Argentine developers have contributed to major apps for companies like Google, Apple, and leading startups. The country's excellent technical education, strong English proficiency, and cultural affinity with US business practices make Argentine mobile devs highly sought after. The profession offers excellent remote work opportunities, with US companies paying $50-120/hour for experienced developers. Buenos Aires has a particularly strong mobile dev community, with regular meetups, hackathons, and a healthy startup ecosystem. Whether you specialize in native iOS (Swift), Android (Kotlin), or cross-platform (React Native, Flutter), Argentina provides an ideal base.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -2539,7 +2539,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Mobile development is perfectly suited for remote work. Code can be written anywhere, testing can be done on devices or emulators, and collaboration happens through Git, Slack, and video calls. Many Argentine mobile devs work entirely remotely for US and European companies.",
+      description: "Mobile development works well remotely. Code can be written anywhere, testing can be done on devices or emulators, and collaboration happens through Git, Slack, and video calls. Many Argentine mobile devs work entirely remotely for US and European companies.",
       considerations: [
         "Extremely high demand for mobile developers globally",
         "Time zone alignment with US enables real-time collaboration",
@@ -2631,7 +2631,7 @@ export const professions: Profession[] = [
     description: "Argentina has a rich design tradition and strong creative community. Learn about visa pathways for graphic designers serving international clients.",
     icon: "Palette",
     category: "creative",
-    overview: "Graphic design is a thriving profession in Argentina, with the country having a strong tradition in visual arts, typography, and branding. Argentine designers are known for their creativity, technical skill, and cultural sophistication. The profession is highly remote-friendly, with designers successfully serving clients worldwide from Buenos Aires and other cities. US clients appreciate the creative excellence and cost advantages (rates typically 40-60% lower than US equivalents). Argentina's design community is active and supportive, with regular meetups, conferences, and collaborative spaces. Whether you specialize in branding, UI/UX, illustration, or marketing design, Argentina offers inspiration and opportunity.",
+    overview: "Graphic design is an established profession in Argentina, with the country having a strong tradition in visual arts, typography, and branding. Argentine designers are known for their creativity, technical skill, and cultural sophistication. The profession is highly remote-friendly, with designers successfully serving clients worldwide from Buenos Aires and other cities. US clients appreciate the creative excellence and cost advantages (rates typically 40-60% lower than US equivalents). Argentina's design community is active and supportive, with regular meetups, conferences, and collaborative spaces. Whether you specialize in branding, UI/UX, illustration, or marketing design, Argentina offers inspiration and opportunity.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -2668,7 +2668,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Graphic design is perfectly suited for remote work. Design work happens on computers, client feedback comes through email and video calls, and files are delivered digitally. Many Argentine designers have worked remotely for years.",
+      description: "Graphic design fits the remote lifestyle naturally. Design work happens on computers, client feedback comes through email and video calls, and files are delivered digitally. Many Argentine designers have worked remotely for years.",
       considerations: [
         "Strong international demand for quality design work",
         "Portfolio and reputation matter more than location",
@@ -2883,7 +2883,7 @@ export const professions: Profession[] = [
     description: "Video content is in explosive demand. Learn how video editors can build remote careers serving international clients while living in Argentina.",
     icon: "Palette",
     category: "creative",
-    overview: "Video editing has become one of the most in-demand creative professions globally, driven by the explosion of YouTube, TikTok, Instagram Reels, and corporate video content. Argentine video editors are known for their technical skill, creative flair, and cultural sophistication. The profession is perfectly suited for remote work - editors receive footage digitally, edit on powerful laptops or home workstations, and deliver finished videos through cloud storage. US clients pay $30-100+/hour for quality editing, making it possible to earn $3,000-8,000+/month serving international clients from Argentina. Buenos Aires has a thriving film and video production community, providing networking opportunities and creative inspiration.",
+    overview: "Video editing has become one of the most in-demand creative professions globally, driven by the explosion of YouTube, TikTok, Instagram Reels, and corporate video content. Argentine video editors are known for their technical skill, creative flair, and cultural sophistication. The profession is a natural fit for remote work - editors receive footage digitally, edit on powerful laptops or home workstations, and deliver finished videos through cloud storage. US clients pay $30-100+/hour for quality editing, making it possible to earn $3,000-8,000+/month serving international clients from Argentina. Buenos Aires has an active film and video production community, providing networking opportunities and creative inspiration.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -3010,7 +3010,7 @@ export const professions: Profession[] = [
     description: "HR professionals are increasingly working remotely. Learn how Argentine-based HR specialists serve global companies while enjoying Argentina's lifestyle.",
     icon: "Users",
     category: "business",
-    overview: "Human Resources is rapidly becoming a remote-friendly profession, with many companies hiring HR specialists who can work from anywhere. Argentine HR professionals bring strong interpersonal skills, cultural awareness, and often excellent English proficiency. The profession covers recruitment, employee relations, benefits administration, and HR operations - all of which can be conducted remotely with modern tools. US companies particularly value Argentine HR specialists for recruiting Latin American talent and managing distributed teams. The Digital Nomad Visa is perfectly suited for HR professionals serving international clients.",
+    overview: "Human Resources is rapidly becoming a remote-friendly profession, with many companies hiring HR specialists who can work from anywhere. Argentine HR professionals bring strong interpersonal skills, cultural awareness, and often excellent English proficiency. The profession covers recruitment, employee relations, benefits administration, and HR operations - all of which can be conducted remotely with modern tools. US companies particularly value Argentine HR specialists for recruiting Latin American talent and managing distributed teams. The Digital Nomad Visa works well for HR professionals serving international clients.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -3109,7 +3109,7 @@ export const professions: Profession[] = [
     description: "Copywriting is a perfect remote profession. Learn how Argentine copywriters serve international clients while enjoying the country's creative atmosphere.",
     icon: "Languages",
     category: "creative",
-    overview: "Copywriting is one of the most location-independent creative professions. Argentine copywriters bring strong writing skills, cultural sophistication, and native or near-native English proficiency. The work - crafting website copy, ads, emails, sales pages, and brand messaging - is entirely deliverable digitally. US companies pay $50-150+/hour for quality copywriting, making it possible to earn excellent income from Argentina. Buenos Aires has a vibrant creative community that provides inspiration and networking. The profession requires only a laptop and internet connection.",
+    overview: "Copywriting is one of the most location-independent creative professions. Argentine copywriters bring strong writing skills, cultural sophistication, and native or near-native English proficiency. The work - crafting website copy, ads, emails, sales pages, and brand messaging - is entirely deliverable digitally. US companies pay $50-150+/hour for quality copywriting, making it possible to earn excellent income from Argentina. Buenos Aires has an energetic creative community that provides inspiration and networking. The profession requires only a laptop and internet connection.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -3231,7 +3231,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Cloud architecture is perfectly suited for remote work. Architecture design, infrastructure as code, cost analysis, and consultations can all be done remotely. Many cloud architects work entirely from home offices.",
+      description: "Cloud architecture is inherently remote-friendly. Architecture design, infrastructure as code, cost analysis, and consultations can all be done remotely. Many cloud architects work entirely from home offices.",
       considerations: [
         "Extremely high global demand for cloud architects",
         "Certifications matter more than location",
@@ -3307,7 +3307,7 @@ export const professions: Profession[] = [
     description: "Blockchain development is one of tech's fastest-growing fields. Learn about opportunities for crypto developers working remotely from Argentina.",
     icon: "Code",
     category: "tech",
-    overview: "Blockchain development represents one of the fastest-growing and highest-paying specializations in tech. Argentine developers are increasingly contributing to Web3 projects, DeFi protocols, and NFT platforms. The profession offers exceptional remote work opportunities, with crypto projects often being fully distributed teams. US crypto companies pay $80-200+/hour for experienced blockchain developers. Argentina has a vibrant crypto community driven by currency instability and tech sophistication. Buenos Aires has regular Ethereum meetups, Bitcoin conferences, and a strong Web3 developer scene. Whether you specialize in Ethereum/Solidity, Rust (Solana, Polkadot), or other chains, the opportunities are substantial.",
+    overview: "Blockchain development represents one of the fastest-growing and highest-paying specializations in tech. Argentine developers are increasingly contributing to Web3 projects, DeFi protocols, and NFT platforms. The profession offers exceptional remote work opportunities, with crypto projects often being fully distributed teams. US crypto companies pay $80-200+/hour for experienced blockchain developers. Argentina has an active crypto community driven by currency instability and tech sophistication. Buenos Aires has regular Ethereum meetups, Bitcoin conferences, and a strong Web3 developer scene. Whether you specialize in Ethereum/Solidity, Rust (Solana, Polkadot), or other chains, the opportunities are substantial.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -3390,7 +3390,7 @@ export const professions: Profession[] = [
       },
       {
         question: "Is Argentina crypto-friendly for developers?",
-        answer: "Yes, Argentina has one of the highest crypto adoption rates globally due to currency instability. The government has been relatively open to crypto innovation. Buenos Aires has a thriving Web3 scene with regular events, and many local developers work in crypto. However, regulations continue to evolve, so staying informed is important."
+        answer: "Yes, Argentina has one of the highest crypto adoption rates globally due to currency instability. The government has been relatively open to crypto innovation. Buenos Aires has an active Web3 scene with regular events, and many local developers work in crypto. However, regulations continue to evolve, so staying informed is important."
       }
     ],
     relatedProfessions: ["software-developer", "devops-engineer", "security-engineer"],
@@ -3447,7 +3447,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Customer success is ideally suited for remote work. All customer interactions happen through Zoom, email, and customer success platforms. QBRs, onboarding, and support are all conducted virtually.",
+      description: "Customer success translates smoothly to remote work. All customer interactions happen through Zoom, email, and customer success platforms. QBRs, onboarding, and support are all conducted virtually.",
       considerations: [
         "Very high demand for skilled CSMs in SaaS",
         "Time zone 1-2 hours ahead helps with early US customer issues",
@@ -3849,7 +3849,7 @@ export const professions: Profession[] = [
     name: "Machine Learning Engineer",
     title: "Machine Learning Engineer Guide for Argentina",
     subtitle: "Build AI and ML systems from Latin America's tech hub",
-    description: "Machine Learning is one of tech's highest-paying fields. Learn how ML engineers can build remote careers serving international companies from Argentina.",
+    description: "ML engineering is one of tech's highest-paying fields -- and it works from anywhere. Here's what you need to know about doing it from Argentina.",
     icon: "BarChart",
     category: "tech",
     overview: "Machine Learning Engineering combines software engineering with data science to build production AI systems. It's one of the highest-paying specializations in tech, with US companies paying $100-200+/hour for experienced ML engineers. Argentina produces strong ML talent through excellent technical universities and a growing AI community. The work is entirely remote-friendly - model development, training, deployment, and monitoring all happen through cloud platforms. ML engineers work on recommendation systems, computer vision, NLP, and predictive analytics. The profession requires strong programming skills (Python), ML frameworks (TensorFlow, PyTorch), and cloud platforms. Buenos Aires has an active ML community with regular meetups and ML-focused events.",
@@ -3891,7 +3891,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "ML engineering is perfectly suited for remote work. Model development, training on cloud GPUs, deployment, and monitoring all happen through cloud platforms and collaborative tools.",
+      description: "ML engineering is built for remote work. Model development, training on cloud GPUs, deployment, and monitoring all happen through cloud platforms and collaborative tools.",
       considerations: [
         "Extremely high global demand for ML engineers",
         "Talent shortage drives premium compensation",
@@ -3968,7 +3968,7 @@ export const professions: Profession[] = [
     description: "Full stack developers are among the most in-demand tech professionals. Learn about opportunities for full stack devs working remotely from Argentina.",
     icon: "Code",
     category: "tech",
-    overview: "Full Stack Developers work across both frontend and backend, building complete web applications. They're among the most versatile and in-demand developers. Argentine full stack devs are highly sought after by US companies for their technical skills, English proficiency, and competitive rates ($40-100+/hour). The profession offers excellent remote work opportunities - all development happens on computers, with collaboration through Git, Slack, and video calls. Buenos Aires has a thriving web development community with strong representation in JavaScript, Python, and Ruby ecosystems. Full stack developers can work on everything from startups to enterprise applications.",
+    overview: "Full Stack Developers work across both frontend and backend, building complete web applications. They're among the most versatile and in-demand developers. Argentine full stack devs are highly sought after by US companies for their technical skills, English proficiency, and competitive rates ($40-100+/hour). The profession offers excellent remote work opportunities - all development happens on computers, with collaboration through Git, Slack, and video calls. Buenos Aires has a strong web development community with strong representation in JavaScript, Python, and Ruby ecosystems. Full stack developers can work on everything from startups to enterprise applications.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -4006,7 +4006,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Full stack development is ideally suited for remote work. All coding, testing, and deployment happen digitally. Modern tools enable seamless collaboration with distributed teams.",
+      description: "Full stack development works well remotely. All coding, testing, and deployment happen digitally. Modern tools enable easy collaboration with distributed teams.",
       considerations: [
         "Extremely high demand for full stack developers",
         "Versatility increases job opportunities",
@@ -4312,7 +4312,7 @@ export const professions: Profession[] = [
     name: "Operations Manager",
     title: "Operations Manager Guide for Argentina",
     subtitle: "Oversee business operations remotely from Argentina",
-    description: "Operations managers keep businesses running smoothly. Learn how operations professionals can work remotely for international companies from Argentina.",
+    description: "Operations managers keep businesses running smoothly -- and more of them are doing it remotely from Argentina. Here's the practical breakdown.",
     icon: "Briefcase",
     category: "business",
     overview: "Operations Managers oversee the day-to-day operations of businesses, ensuring efficiency, managing processes, and optimizing systems. The role has become increasingly remote-friendly as businesses digitize their operations. Argentine operations professionals bring strong organizational skills, analytical thinking, and often excellent English. US companies pay $40-90+/hour for experienced operations managers. The work involves process improvement, vendor management, team coordination, and data analysis - all of which can be done remotely with modern tools. The profession offers good career progression and is suitable for organized, detail-oriented professionals.",
@@ -4430,7 +4430,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Recruiting is ideally suited for remote work. Sourcing, screening, interviews, and offers all happen through digital platforms.",
+      description: "Recruiting has gone fully remote. Sourcing, screening, interviews, and offers all happen through digital platforms.",
       considerations: [
         "High demand for tech recruiters",
         "Commission potential for high earnings",
@@ -4483,7 +4483,7 @@ export const professions: Profession[] = [
     description: "Photography offers creative entrepreneurship opportunities. Learn how photographers can work internationally while based in Argentina.",
     icon: "Palette",
     category: "creative",
-    overview: "Photographers capture images for various purposes - from commercial work to fine art. While some photography requires physical presence, many photographers build remote income through stock photography, online courses, digital products, and editing services. Argentina offers stunning landscapes, vibrant cities, and lower living costs for photographers building their businesses. US clients pay $50-200+/hour for commercial photography work. The profession combines creative fulfillment with entrepreneurial opportunity. Photographers can specialize in product photography, portraits, travel, events, or stock imagery.",
+    overview: "Photographers capture images for various purposes - from commercial work to fine art. While some photography requires physical presence, many photographers build remote income through stock photography, online courses, digital products, and editing services. Argentina offers stunning landscapes, dynamic cities, and lower living costs for photographers building their businesses. US clients pay $50-200+/hour for commercial photography work. The profession combines creative fulfillment with entrepreneurial opportunity. Photographers can specialize in product photography, portraits, travel, events, or stock imagery.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -4565,7 +4565,7 @@ export const professions: Profession[] = [
     name: "Podcast Editor / Producer",
     title: "Podcast Editor Guide for Argentina",
     subtitle: "Edit and produce podcasts remotely from Argentina",
-    description: "Podcasting is booming. Learn how audio editors can build remote careers serving podcasters worldwide from Argentina.",
+    description: "Podcasting is booming, and audio editors are cashing in. Argentina is a great base for serving podcasters worldwide.",
     icon: "Palette",
     category: "creative",
     overview: "Podcast Editors and Producers handle the technical production of podcasts - editing audio, removing mistakes, adding music, and mastering episodes. It's a specialized skill in high demand as podcasting explodes globally. The work is 100% remote - audio files are shared digitally, editing happens in software, and finished episodes upload to hosting platforms. Argentine podcast editors can serve podcasters worldwide, with US clients paying $30-100+/hour. The profession requires audio editing skills, attention to detail, and understanding of podcast formats. It's an accessible creative career that can be learned through online courses and practice.",
@@ -4649,7 +4649,7 @@ export const professions: Profession[] = [
     name: "Business Analyst",
     title: "Business Analyst Guide for Argentina",
     subtitle: "Analyze data and improve business processes remotely",
-    description: "Business analysts bridge data and decision-making. Learn how BAs can work remotely for international companies from Argentina.",
+    description: "Business analysts bridge data and decision-making. This guide covers what it takes to do that remotely from Argentina.",
     icon: "BarChart",
     category: "business",
     overview: "Business Analysts analyze data, processes, and systems to help companies make better decisions and improve operations. They work with data, document requirements, and bridge technical and business teams. The role is highly remote-friendly - analysis happens in spreadsheets, databases, and documentation tools. US companies pay $40-90+/hour for experienced business analysts. Argentine BAs bring strong analytical skills, business understanding, and often excellent English. The profession requires data analysis skills, communication abilities, and understanding of business processes. It's a good fit for analytical thinkers who enjoy solving business problems.",
@@ -4738,7 +4738,7 @@ export const professions: Profession[] = [
     name: "Marketing Manager",
     title: "Marketing Manager Guide for Argentina",
     subtitle: "Lead marketing efforts remotely for international companies",
-    description: "Marketing management offers excellent remote opportunities. Learn how marketing professionals can lead teams and campaigns from Argentina.",
+    description: "More marketing managers are leading campaigns from abroad. Argentina is an increasingly popular base -- here's why, and how to make it work.",
     icon: "Rocket",
     category: "business",
     overview: "Marketing Managers develop and execute marketing strategies to drive growth. They oversee campaigns, manage teams, analyze performance, and coordinate across channels. The role has become highly remote-friendly as marketing moves digital. US companies pay $50-100+/hour for experienced marketing managers. Argentine marketing professionals bring creativity, cultural insights, and often strong English skills. The profession offers good career progression and the satisfaction of driving measurable business results. Marketing managers need strategic thinking, analytical skills, and understanding of modern marketing channels.",
@@ -4822,7 +4822,7 @@ export const professions: Profession[] = [
     name: "Illustrator",
     title: "Illustrator Guide for Argentina",
     subtitle: "Create illustrations and visual art from Argentina",
-    description: "Illustration offers creative freedom and remote work opportunities. Learn how illustrators can build international careers from Argentina.",
+    description: "A practical guide for illustrators considering Argentina as a home base. Visas, rates, community, and what to expect.",
     icon: "Palette",
     category: "creative",
     overview: "Illustrators create visual art for books, magazines, advertising, digital products, and more. The work is 100% digital and remote-friendly. Argentine illustrators are known for their creativity and unique style. US clients pay $40-100+/hour for quality illustration work. Illustrators can work with publishers, brands, app developers, and content creators worldwide. The profession offers creative fulfillment and the ability to develop a personal artistic brand. Success requires strong artistic skills, professional tools, and ability to work with client feedback.",
@@ -4905,7 +4905,7 @@ export const professions: Profession[] = [
     name: "Animator",
     title: "Animator Guide for Argentina",
     subtitle: "Create motion graphics and animation from Argentina",
-    description: "Animation offers creative remote work opportunities. Learn how animators can work for studios and clients worldwide from Argentina.",
+    description: "Animators are building careers from Argentina, working with studios and clients across the globe. Here's the full picture.",
     icon: "Palette",
     category: "creative",
     overview: "Animators create motion graphics, character animation, explainer videos, and visual effects. The work is digital and can be done remotely with modern tools. Argentine animators can work with studios, agencies, and content creators globally. US clients pay $40-100+/hour for quality animation work. The profession requires technical skills in animation software, artistic sensibility, and attention to timing and movement. Animators work in 2D, 3D, or motion graphics depending on specialization.",
@@ -4987,7 +4987,7 @@ export const professions: Profession[] = [
     name: "PR Specialist",
     title: "PR Specialist Guide for Argentina",
     subtitle: "Manage public relations remotely for international clients",
-    description: "Public Relations offers remote work opportunities. Learn how PR professionals can serve clients worldwide from Argentina.",
+    description: "PR has gone remote, and Argentina is a solid base for serving international clients. Visa options, rates, and tips inside.",
     icon: "Rocket",
     category: "business",
     overview: "PR Specialists manage communications between organizations and the public. They handle media relations, crisis communications, and brand reputation. The role has become more digital and remote-friendly. PR professionals work with journalists, write press releases, and manage brand messaging. Argentine PR specialists can serve international clients, especially those looking to reach Latin American markets. The profession requires excellent writing skills, media relationships, and strategic thinking.",
@@ -5070,7 +5070,7 @@ export const professions: Profession[] = [
     name: "Event Planner",
     title: "Event Planner Guide for Argentina",
     subtitle: "Plan events remotely for international clients",
-    description: "Event planning offers hybrid remote opportunities. Learn how event planners can coordinate events from Argentina.",
+    description: "Can you plan events from Argentina? Many planners are doing exactly that -- especially for virtual and hybrid events.",
     icon: "Rocket",
     category: "business",
     overview: "Event Planners coordinate conferences, meetings, and corporate events. While some aspects require local presence, much of the planning (vendor coordination, logistics, marketing) can be done remotely. Argentine event planners can work with international clients planning events in Latin America, or plan virtual/hybrid events. The profession requires organizational skills, vendor relationships, and attention to detail. Event planners who speak both English and Spanish have an advantage for international events in LATAM.",
@@ -5147,7 +5147,7 @@ export const professions: Profession[] = [
     name: "Data Engineer",
     title: "Data Engineer Guide for Argentina",
     subtitle: "Build data pipelines and infrastructure remotely",
-    description: "Data engineering is one of tech's fastest-growing fields. Learn how data engineers can build remote careers from Argentina.",
+    description: "Data engineering pays well and works remotely. Argentina has the infrastructure and talent pool to back it up.",
     icon: "BarChart",
     category: "tech",
     overview: "Data Engineers build the infrastructure and pipelines that enable data science and analytics. They work with databases, data warehouses, ETL processes, and cloud data platforms. It's a high-demand, well-paying field with US companies offering $60-130+/hour for experienced data engineers. Argentine data engineers are known for strong technical skills and reliability. The work is entirely remote-friendly - all development happens on computers with cloud infrastructure. Data engineering offers excellent career prospects and the satisfaction of building critical data infrastructure.",
@@ -5319,7 +5319,7 @@ export const professions: Profession[] = [
     name: "Technical Writer",
     title: "Technical Writer Guide for Argentina",
     subtitle: "Create documentation and technical content remotely",
-    description: "Technical writing offers excellent remote opportunities. Learn how technical writers can work for tech companies from Argentina.",
+    description: "Technical writers are in demand at tech companies worldwide, and the job is inherently remote. Here's how to do it from Argentina.",
     icon: "Languages",
     category: "creative",
     overview: "Technical Writers create documentation, API docs, user guides, and technical content for software and products. It's a specialized writing field that pays well and is highly remote-friendly. US tech companies pay $40-90+/hour for experienced technical writers. Argentine technical writers bring strong English skills and technical aptitude. The work involves writing, editing, and collaborating with engineers - all done digitally. The profession offers good work-life balance and the satisfaction of making complex topics understandable.",
@@ -5490,7 +5490,7 @@ export const professions: Profession[] = [
     name: "Scrum Master",
     title: "Scrum Master Guide for Argentina",
     subtitle: "Facilitate agile teams remotely from Argentina",
-    description: "Scrum Masters help agile teams work effectively. Learn how Scrum Masters can facilitate remote teams from Argentina.",
+    description: "Agile teams need Scrum Masters regardless of where they sit. Argentina's time zone and cost advantages make it an attractive option.",
     icon: "Users",
     category: "business",
     overview: "Scrum Masters facilitate agile development teams, helping them follow Scrum practices and improve their processes. It's a specialized role in high demand as more companies adopt agile. US companies pay $50-100+/hour for experienced Scrum Masters. Argentine Scrum Masters bring strong facilitation skills and English proficiency. The work is highly remote-friendly - standups, ceremonies, and coaching happen through video calls. The profession offers good work-life balance and the satisfaction of helping teams improve.",
@@ -5578,7 +5578,7 @@ export const professions: Profession[] = [
     name: "Site Reliability Engineer",
     title: "Site Reliability Engineer Guide for Argentina",
     subtitle: "Ensure systems reliability remotely from Argentina",
-    description: "SRE is one of tech's most in-demand specializations. Learn how SREs can work remotely for top tech companies from Argentina.",
+    description: "SRE is one of tech's most in-demand specializations, and it's built for remote work. Everything you need to know about doing it from Argentina.",
     icon: "BarChart",
     category: "tech",
     overview: "Site Reliability Engineers (SREs) ensure that large-scale systems remain reliable, scalable, and efficient. They combine software engineering with systems engineering and operations. It's a high-paying, critical role with US tech companies offering $80-150+/hour for experienced SREs. Argentine SREs are known for strong technical skills and problem-solving abilities. The work is entirely remote-friendly - monitoring, incident response, automation, and system design all happen through digital tools. SRE is a fast-growing field pioneered by Google and now adopted by most major tech companies.",
@@ -5663,7 +5663,7 @@ export const professions: Profession[] = [
     name: "Database Administrator",
     title: "Database Administrator Guide for Argentina",
     subtitle: "Manage critical data infrastructure remotely",
-    description: "Database administrators ensure data is available, secure, and performant. Learn how DBAs can work remotely from Argentina.",
+    description: "DBAs keep data available, secure, and fast. Most of that work happens through a terminal -- which means it works from Argentina too.",
     icon: "BarChart",
     category: "tech",
     overview: "Database Administrators (DBAs) manage, secure, and optimize databases that power applications. They ensure data availability, performance, and security. It's a critical, well-paying role with US companies offering $50-110+/hour for experienced DBAs. Argentine DBAs bring strong technical skills and attention to detail. The work is highly remote-friendly - database management, monitoring, optimization, and troubleshooting all happen through digital tools. DBAs can specialize in specific database systems (PostgreSQL, MySQL, Oracle, SQL Server, MongoDB)."
@@ -5748,7 +5748,7 @@ export const professions: Profession[] = [
     name: "Network Engineer",
     title: "Network Engineer Guide for Argentina",
     subtitle: "Design and maintain network infrastructure remotely",
-    description: "Network engineering is critical infrastructure work. Learn how network engineers can work remotely from Argentina.",
+    description: "Cloud networking and SD-WAN have made network engineering more remote-friendly than ever. Here's what that looks like from Argentina.",
     icon: "BarChart",
     category: "tech",
     overview: "Network Engineers design, implement, and maintain computer networks. They ensure connectivity, security, and performance of network infrastructure. While traditionally on-site, cloud networking and SD-WAN have made the role more remote-friendly. US companies pay $50-100+/hour for experienced network engineers. Argentine network engineers bring strong technical skills. The profession offers steady demand and the satisfaction of keeping critical infrastructure running. Network engineers can specialize in cloud networking, security, or specific vendor technologies.",
@@ -5908,7 +5908,7 @@ export const professions: Profession[] = [
     name: "Wellness Coach",
     title: "Wellness Coach Guide for Argentina",
     subtitle: "Coach clients to better health remotely from Argentina",
-    description: "Wellness coaching is a growing remote profession. Learn how coaches can build international practices from Argentina.",
+    description: "Wellness coaching is growing fast, and the entire practice can run over video. Argentina offers a great lifestyle while you build your client base.",
     icon: "GraduationCap",
     category: "healthcare",
     overview: "Wellness Coaches help clients improve their health, habits, and wellbeing through coaching sessions. The work is entirely remote - coaching happens through video calls, with support via messaging and apps. Argentine wellness coaches can serve international clients, with US coaches earning $50-150+/hour. The profession requires certification, empathy, and coaching skills. It's a fulfilling career for those passionate about health and helping others. Coaches can specialize in areas like nutrition, fitness, stress management, or holistic wellness.",
@@ -5996,7 +5996,7 @@ export const professions: Profession[] = [
     name: "Motion Designer",
     title: "Motion Designer Guide for Argentina",
     subtitle: "Create motion graphics and animations remotely",
-    description: "Motion design combines graphic design with animation. Learn how motion designers can work for international clients from Argentina.",
+    description: "Motion design sits at the intersection of graphic design and animation. It's fully digital, fully remote, and Argentina is a solid base for it.",
     icon: "Palette",
     category: "creative",
     overview: "Motion Designers create animated graphics, title sequences, explainer videos, and visual effects for video and web. They combine graphic design skills with animation and timing. US companies pay $40-100+/hour for quality motion design. Argentine motion designers bring creativity and technical skill. The work is entirely remote - projects are shared digitally, feedback through video calls, delivery as video files. Motion design is in high demand for social media content, advertising, and video production.",
@@ -6072,7 +6072,7 @@ export const professions: Profession[] = [
     name: "Game Developer",
     title: "Game Developer Guide for Argentina",
     subtitle: "Create games remotely for studios worldwide",
-    description: "Game development offers creative technical work. Learn how game devs can work remotely from Argentina's growing game industry.",
+    description: "Argentina has a growing game development scene, with several successful studios and a strong indie community. A practical guide for game devs considering the move.",
     icon: "Code",
     category: "tech",
     overview: "Game Developers create video games using engines like Unity or Unreal. Argentina has a growing game development scene with several successful studios. Remote work is common in the game industry, with developers collaborating digitally. US and international studios pay $40-90+/hour for experienced game developers. The work combines programming, creativity, and problem-solving. Game developers can work on mobile, PC, or console games across various genres.",
@@ -6244,7 +6244,7 @@ export const professions: Profession[] = [
     name: "Growth Hacker",
     title: "Growth Hacker Guide for Argentina",
     subtitle: "Drive user growth remotely for startups",
-    description: "Growth hacking combines marketing, product, and data. Learn how growth hackers can work remotely for startups from Argentina.",
+    description: "Growth hacking blends marketing, product, and data -- and startups don't care where you sit. Argentina's startup-friendly ecosystem makes it a natural fit.",
     icon: "Rocket",
     category: "business",
     overview: "Growth Hackers focus on rapid experimentation across marketing channels and product development to grow user bases. They combine creativity with data analysis and technical skills. Startups highly value growth hackers who can drive user acquisition efficiently. US startups pay $50-120+/hour for experienced growth hackers. Argentine growth hackers bring analytical skills, creativity, and often technical backgrounds. The work is entirely remote - experiments, analysis, and optimization happen digitally.",
@@ -6321,7 +6321,7 @@ export const professions: Profession[] = [
     name: "Community Manager",
     title: "Community Manager Guide for Argentina",
     subtitle: "Build and manage online communities remotely",
-    description: "Community management is crucial for brands and products. Learn how community managers can work remotely from Argentina.",
+    description: "Community managers work where their communities live: online. Argentina's low cost of living and strong internet make it an easy choice.",
     icon: "Users",
     category: "business",
     overview: "Community Managers build, grow, and engage online communities around brands, products, or causes. They moderate discussions, create content, and foster engagement. The work is entirely remote - communities exist online, engagement through digital platforms. US companies pay $20-50+/hour for community managers. Argentine community managers bring strong communication skills and cultural awareness. The profession requires empathy, communication skills, and understanding of online dynamics. It's a good entry point into tech and marketing.",
@@ -6398,7 +6398,7 @@ export const professions: Profession[] = [
     name: "UX Researcher",
     title: "UX Researcher Guide for Argentina",
     subtitle: "Conduct user research remotely for global companies",
-    description: "UX research helps build better products. Learn how UX researchers can conduct research remotely from Argentina.",
+    description: "UX researchers run interviews, usability tests, and surveys -- all remotely. Here's what it takes to do that from Argentina.",
     icon: "Search",
     category: "tech",
     overview: "UX Researchers conduct user research to inform product design and strategy. They use interviews, usability testing, surveys, and data analysis. The work is highly remote-friendly - research can be conducted through video calls, online testing tools, and digital surveys. US companies pay $50-120+/hour for experienced UX researchers. Argentine UX researchers bring analytical skills, empathy, and often multilingual capabilities valuable for international research. Research is critical for product success, making this a high-value role.",
@@ -6632,7 +6632,7 @@ export const professions: Profession[] = [
     name: "Telemedicine Doctor",
     title: "Telemedicine Doctor Guide for Argentina",
     subtitle: "Provide remote medical care from Argentina",
-    description: "Telemedicine allows doctors to consult patients remotely. Learn how physicians can practice telemedicine from Argentina.",
+    description: "Telemedicine lets physicians consult patients from anywhere with a stable connection. Argentina works -- but licensing is the real question.",
     icon: "Stethoscope",
     category: "healthcare",
     overview: "Telemedicine Doctors provide remote medical consultations via video calls, diagnosing conditions, prescribing medications, and offering medical advice. While licensing requirements vary, some telemedicine platforms allow internationally-licensed physicians to serve global patients. US telemedicine platforms pay $100-250+/hour for experienced doctors. Argentine physicians with US or international licenses can serve patients remotely. This is a high-conversion profession for visa services due to complex licensing and legal requirements.",
@@ -6723,7 +6723,7 @@ export const professions: Profession[] = [
     name: "Mental Health Therapist",
     title: "Mental Health Therapist Guide for Argentina",
     subtitle: "Provide therapy remotely from Argentina",
-    description: "Online therapy is in high demand globally. Learn how therapists can practice remotely from Argentina.",
+    description: "Demand for online therapy has surged. Therapists with the right licenses can serve clients from Argentina -- here's how.",
     icon: "Heart",
     category: "healthcare",
     overview: "Mental Health Therapists (Psychologists, Counselors, LCSWs) provide therapy and counseling services via video sessions. The demand for online therapy has surged dramatically. US platforms pay $50-150+/hour for licensed therapists. Argentine therapists with US or international licenses can serve English-speaking clients globally. This profession has strong visa conversion potential due to licensing complexity and the need for ongoing legal compliance.",
@@ -6981,7 +6981,7 @@ export const professions: Profession[] = [
     name: "Financial Analyst",
     title: "Financial Analyst Guide for Argentina",
     subtitle: "Analyze markets and investments remotely",
-    description: "Financial analysis is highly remote-friendly. Learn how financial analysts can work from Argentina.",
+    description: "Spreadsheets, models, and reports don't care about your zip code. Financial analysts are finding Argentina an appealing remote base.",
     icon: "TrendingUp",
     category: "business",
     overview: "Financial Analysts analyze financial data, create forecasts, evaluate investments, and support business decisions. They work in FP&A, investment analysis, and corporate finance. The work is entirely digital - spreadsheets, financial models, and reports. US companies pay $40-100+/hour for experienced analysts. Argentine financial analysts with strong Excel/modeling skills and English proficiency are competitive. Good conversion potential due to complex financial structuring needs.",
@@ -7064,7 +7064,7 @@ export const professions: Profession[] = [
     name: "Investment Advisor",
     title: "Investment Advisor Guide for Argentina",
     subtitle: "Manage portfolios and advise clients remotely",
-    description: "Investment advisory can be done remotely. Learn how advisors can serve clients from Argentina.",
+    description: "Investment advisors with the right licensing can manage portfolios from anywhere. Argentina's cost of living and lifestyle make it worth considering.",
     icon: "DollarSign",
     category: "business",
     overview: "Investment Advisors manage client portfolios, provide investment recommendations, and help with wealth planning. While licensing is complex (Series 65/66 in US), some advisory roles are accessible remotely. US firms pay $50-150+/hour or AUM-based fees. This is a PRIME Lucero Legal profession due to complex regulatory requirements, tax implications, and high net worth clients needing sophisticated structuring.",
@@ -7147,10 +7147,10 @@ export const professions: Profession[] = [
     name: "Music Producer",
     title: "Music Producer Guide for Argentina",
     subtitle: "Produce music remotely for artists worldwide",
-    description: "Music production can be done entirely remotely. Learn how producers can work from Argentina.",
+    description: "Modern music production is entirely digital -- DAWs, virtual instruments, online collaboration. Argentina's music culture and low costs are a bonus.",
     icon: "Music",
     category: "creative",
-    overview: "Music Producers create, arrange, and mix music for artists, films, games, and media. Modern production is entirely digital - DAWs, virtual instruments, and online collaboration. Producers earn $30-100+/hour or per-project fees. Argentine music producers bring creativity and technical skills. Argentina has a vibrant music scene and talented producers. Work can be done entirely remotely with file sharing and video calls.",
+    overview: "Music Producers create, arrange, and mix music for artists, films, games, and media. Modern production is entirely digital - DAWs, virtual instruments, and online collaboration. Producers earn $30-100+/hour or per-project fees. Argentine music producers bring creativity and technical skills. Argentina has a rich music scene and talented producers. Work can be done entirely remotely with file sharing and video calls.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -7309,7 +7309,7 @@ export const professions: Profession[] = [
     name: "Education Consultant",
     title: "Education Consultant Guide for Argentina",
     subtitle: "Advise students and institutions remotely",
-    description: "Education consulting helps students navigate admissions. Learn how consultants can work from Argentina.",
+    description: "Education consultants guide students through admissions, test prep, and academic planning. All of it works over video -- and Argentina is a great base.",
     icon: "GraduationCap",
     category: "education",
     overview: "Education Consultants guide students through school/college admissions, test prep, and academic planning. They work with families, schools, or directly with students. Consulting happens via video calls, email, and shared documents. US consultants earn $50-150+/hour. Argentine consultants with US/international education experience can serve global clients. Strong demand for college admissions consulting in particular.",
@@ -7338,7 +7338,7 @@ export const professions: Profession[] = [
     },
     remoteWork: {
       feasible: true,
-      description: "Education consulting is 100% remote. Video sessions, document sharing, and email work perfectly for advising students.",
+      description: "Education consulting is 100% remote. Video sessions, document sharing, and email all work well for advising students.",
       considerations: [
         "Meaningful impact on students' futures",
         "Peak season during admissions cycle",
@@ -7392,7 +7392,7 @@ export const professions: Profession[] = [
     name: "Language Tutor",
     title: "Language Tutor Guide for Argentina",
     subtitle: "Teach languages online from Argentina",
-    description: "Online language tutoring is in high demand. Learn how tutors can build remote businesses from Argentina.",
+    description: "Language tutoring is booming online. Whether you teach English or Spanish, Argentina offers the lifestyle and time zone to build a real business.",
     icon: "Languages",
     category: "education",
     overview: "Language Tutors teach English, Spanish, or other languages to students via video calls. Platforms like iTalki, Preply, and Verbling connect tutors with global students. Tutors earn $15-50+/hour depending on language and experience. Native English speakers are in high demand for teaching English to international students. Argentine Spanish tutors can teach Spanish to global learners. Flexible schedule, location-independent work.",
@@ -7470,7 +7470,7 @@ export const professions: Profession[] = [
     name: "Embedded Systems Engineer",
     title: "Embedded Systems Engineer Guide for Argentina",
     subtitle: "Develop firmware and embedded systems remotely",
-    description: "Embedded systems programming is specialized and well-paid. Learn how engineers can work remotely from Argentina.",
+    description: "Embedded systems programming is specialized, well-paid, and increasingly remote-friendly. A guide for engineers thinking about Argentina.",
     icon: "Cpu",
     category: "tech",
     overview: "Embedded Systems Engineers develop software for hardware devices - microcontrollers, IoT devices, automotive systems, consumer electronics. They program in C/C++, work with real-time operating systems, and interface with hardware. The work is highly remote-friendly - development on computers, testing through emulators and remote hardware. US companies pay $50-120+/hour for experienced embedded engineers. This specialized skill commands premium rates.",
@@ -7626,7 +7626,7 @@ export const professions: Profession[] = [
     name: "AI Researcher",
     title: "AI Researcher Guide for Argentina",
     subtitle: "Conduct AI research remotely for institutions",
-    description: "AI research is cutting-edge work. Learn how researchers can work remotely from Argentina.",
+    description: "AI research is inherently location-independent -- compute lives in the cloud, collaboration happens through papers and conferences. Argentina's growing AI community is a draw.",
     icon: "Brain",
     category: "tech",
     overview: "AI Researchers advance artificial intelligence through research, paper publication, and algorithm development. They work at universities, research labs, and AI companies. Research is inherently location-independent - compute in cloud, collaboration through papers and conferences. US institutions pay $60-150+/hour or competitive salaries. Argentine AI researchers with strong academic backgrounds can contribute globally. Argentina has growing AI research community.",
@@ -7663,7 +7663,7 @@ export const professions: Profession[] = [
       feasible: true,
       description: "AI research is 100% remote. Cloud compute, paper writing, and collaboration tools enable distributed research teams.",
       considerations: [
-        "Cutting-edge, intellectually stimulating work",
+        "Advanced, intellectually stimulating work",
         "High impact potential",
         "Access to global research community",
         "GPU compute via cloud services"
@@ -7763,7 +7763,7 @@ export const professions: Profession[] = [
       "Complex fee structures may need professional advice"
     ],
     networkingTips: [
-      "Leverage alumni networks",
+      "Tap into alumni networks",
       "Build case study portfolio",
       "Maintain relationships with former clients"
     ],
@@ -7788,7 +7788,7 @@ export const professions: Profession[] = [
     name: "Strategy Consultant",
     title: "Strategy Consultant Guide for Argentina",
     subtitle: "Help companies define strategic direction remotely",
-    description: "Strategy consulting focuses on high-level business decisions. Learn how consultants can work from Argentina.",
+    description: "Strategy consultants advise on the biggest business decisions. The shift to remote consulting means Argentina is now a viable home base.",
     icon: "Chess",
     category: "business",
     overview: "Strategy Consultants help companies make high-stakes decisions about direction, growth, competition, and transformation. They work with C-suite executives on the most critical business questions. Like management consulting, strategy consulting has shifted to hybrid/remote models. US strategy consultants earn $100-300+/hour. The work requires analytical rigor, business acumen, and strong communication skills. Argentine consultants with top-tier experience can serve global markets.",
@@ -8169,7 +8169,7 @@ export const professions: Profession[] = [
     ],
     networkingTips: [
       "Obtain ICF PCC or MCC",
-      "Leverage executive network",
+      "Draw on your executive network",
       "Build reputation through results"
     ],
     faqs: [
@@ -8192,11 +8192,11 @@ export const professions: Profession[] = [
     slug: "career-coach",
     name: "Career Coach",
     title: "Career Coach Guide for Argentina",
-    subtitle: "Help professionals navigate careers remotely",
-    description: "Career coaching is in demand during transitions. Learn how coaches can work remotely.",
+    subtitle: "Help professionals manage career transitions remotely",
+    description: "Career coaching runs on video calls and shared documents. It's fully remote by nature, and Argentina is a comfortable place to build the practice.",
     icon: "Route",
     category: "business",
-    overview: "Career Coaches help professionals navigate career transitions, job searches, and professional development. They assist with resumes, interviews, salary negotiation, and career strategy. The work is entirely remote - coaching via video, documents shared digitally. Career coaches earn $50-150+/hour. Argentine coaches can serve global clients, especially those in career transition. This is a practical, high-impact coaching niche.",
+    overview: "Career Coaches help professionals work through career transitions, job searches, and professional development. They assist with resumes, interviews, salary negotiation, and career strategy. The work is entirely remote - coaching via video, documents shared digitally. Career coaches earn $50-150+/hour. Argentine coaches can serve global clients, especially those in career transition. This is a practical, high-impact coaching niche.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -8271,7 +8271,7 @@ export const professions: Profession[] = [
     name: "Tax Advisor",
     title: "Tax Advisor Guide for Argentina",
     subtitle: "Provide tax planning services remotely",
-    description: "Tax advisory is complex and valuable. Learn how tax advisors can work remotely from Argentina.",
+    description: "International tax situations get complicated fast -- which is exactly why tax advisors who understand cross-border issues are in demand from Argentina.",
     icon: "Receipt",
     category: "business",
     overview: "Tax Advisors help individuals and businesses optimize their tax situations, ensure compliance, and plan for efficiency. They provide strategic tax planning beyond basic preparation. This is a PRIME Lucero Legal profession due to complex international tax situations, cross-border issues, and high net worth clients. US tax advisors earn $75-250+/hour. Argentine advisors with US tax expertise can serve expats and international clients.",
@@ -8437,7 +8437,7 @@ export const professions: Profession[] = [
     name: "Insurance Broker",
     title: "Insurance Broker Guide for Argentina",
     subtitle: "Sell insurance remotely to international clients",
-    description: "Insurance sales can be done remotely. Learn how brokers can serve clients from Argentina.",
+    description: "Insurance brokerage has gone digital. Licensed brokers can serve US clients from Argentina while earning commissions and renewals.",
     icon: "Shield",
     category: "business",
     overview: "Insurance Brokers help clients find and purchase insurance - health, life, property, business. They work with multiple carriers to find best coverage. Remote insurance sales have grown significantly. Brokers earn commissions (typically 5-15% of premiums) and renewal income. US-licensed brokers can serve US clients remotely. This profession has good conversion potential for Lucero Legal due to complex international coverage needs and estate planning connections.",
@@ -8515,7 +8515,7 @@ export const professions: Profession[] = [
     name: "Mortgage Broker",
     title: "Mortgage Broker Guide for Argentina",
     subtitle: "Arrange financing remotely for clients",
-    description: "Mortgage brokerage can be done remotely. Learn how brokers can serve clients from Argentina.",
+    description: "Mortgage brokerage is going remote for certain niches. Here's what licensed brokers need to know about operating from Argentina.",
     icon: "Home",
     category: "business",
     overview: "Mortgage Brokers help clients find and secure mortgage financing. They work with multiple lenders to find best rates and terms. While traditionally local, some aspects can be done remotely for investment properties or specific markets. Brokers earn commissions (typically 1-2% of loan amount). Licensed brokers can serve clients in their licensed states. International mortgage brokerage is complex but possible for specific niches.",
@@ -8760,7 +8760,7 @@ export const professions: Profession[] = [
     name: "Voice Actor",
     title: "Voice Actor Guide for Argentina",
     subtitle: "Record voiceovers remotely from Argentina",
-    description: "Voice acting is entirely location-independent. Learn how voice actors can work from Argentina.",
+    description: "With a home studio and a decent mic, voice actors can record from anywhere. Argentina's affordable living stretches those per-project rates further.",
     icon: "Mic2",
     category: "creative",
     overview: "Voice Actors provide voiceovers for commercials, animations, audiobooks, games, and corporate videos. With a home studio, work is entirely remote. Voice actors earn $100-500+ per finished hour or project rates. Native English speakers have strong market advantage. Argentine voice actors can serve Spanish-speaking markets or English if fluent. This is a flexible, creative profession requiring vocal skill and acting ability.",
@@ -8849,7 +8849,7 @@ export const professions: Profession[] = [
     name: "AR/VR Developer",
     title: "AR/VR Developer Guide for Argentina",
     subtitle: "Build immersive experiences remotely",
-    description: "AR/VR development is cutting-edge tech work. Learn how developers can work remotely from Argentina.",
+    description: "AR/VR is a fast-growing field, and the development side is fully remote. Argentina's tech talent and cost advantages make it a smart base.",
     icon: "Glasses",
     category: "tech",
     overview: "AR/VR Developers create augmented and virtual reality applications for gaming, training, education, and enterprise. They use Unity, Unreal Engine, and native SDKs. The work is highly remote-friendly - development on computers, testing through headsets. AR/VR is a growing field with increasing adoption. Developers earn $40-100+/hour. Argentine developers can contribute to global AR/VR projects.",
@@ -8880,7 +8880,7 @@ export const professions: Profession[] = [
       feasible: true,
       description: "AR/VR development is 100% remote. Code on local machines, test with dev kits, collaborate through version control.",
       considerations: [
-        "Cutting-edge technology",
+        "Frontier technology",
         "Growing industry adoption",
         "Creative and technical work",
         "Hardware may need shipping"
@@ -8927,7 +8927,7 @@ export const professions: Profession[] = [
     name: "Unity Developer",
     title: "Unity Developer Guide for Argentina",
     subtitle: "Build games and apps with Unity remotely",
-    description: "Unity is the most popular game engine. Learn how Unity developers can work remotely from Argentina.",
+    description: "Unity powers over half of mobile games. Developers using it work remotely by default -- and Argentina has a strong game dev community to plug into.",
     icon: "Gamepad2",
     category: "tech",
     overview: "Unity Developers create games, simulations, and interactive applications using the Unity engine. Unity is the most widely used engine, powering 50%+ of mobile games. The work is entirely remote - development on computers, builds shared digitally. Unity developers earn $35-90+/hour. Argentine Unity developers are in demand globally. Strong community and learning resources make this an accessible career path.",
@@ -9083,10 +9083,10 @@ export const professions: Profession[] = [
     name: "Robotics Engineer",
     title: "Robotics Engineer Guide for Argentina",
     subtitle: "Design robots and automation systems remotely",
-    description: "Robotics engineering combines hardware and software. Learn how engineers can work remotely from Argentina.",
+    description: "While hardware needs hands-on work, robotics software, simulation, and algorithm development are fully remote. A guide for robotics engineers eyeing Argentina.",
     icon: "Cog",
     category: "tech",
-    overview: "Robotics Engineers design, build, and program robots and automated systems. They work on industrial automation, drones, autonomous vehicles, and consumer robots. While hardware requires physical presence, much of the software, simulation, and algorithm development can be done remotely. Robotics engineers earn $50-120+/hour. This specialized field offers cutting-edge work and strong demand.",
+    overview: "Robotics Engineers design, build, and program robots and automated systems. They work on industrial automation, drones, autonomous vehicles, and consumer robots. While hardware requires physical presence, much of the software, simulation, and algorithm development can be done remotely. Robotics engineers earn $50-120+/hour. This specialized field offers frontier-level work and strong demand.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -9114,7 +9114,7 @@ export const professions: Profession[] = [
       feasible: true,
       description: "Software, simulation, planning, and algorithms can be done remotely. Hardware testing may require occasional travel or local support.",
       considerations: [
-        "Cutting-edge technology",
+        "Frontier technology",
         "High specialization value",
         "Growing automation demand",
         "Hardware limits full remote"
@@ -9161,7 +9161,7 @@ export const professions: Profession[] = [
     name: "Biotech Researcher",
     title: "Biotech Researcher Guide for Argentina",
     subtitle: "Conduct biotech research remotely",
-    description: "Biotechnology research offers remote opportunities in computational and analysis work. Learn how researchers can work from Argentina.",
+    description: "Computational biology, bioinformatics, and data analysis can all be done remotely. Argentina's growing biotech sector adds local opportunities too.",
     icon: "Dna",
     category: "healthcare",
     overview: "Biotech Researchers work on biological and medical research - drug discovery, genetic analysis, bioinformatics. While lab work requires physical presence, computational biology, data analysis, and bioinformatics can be done remotely. Biotech researchers earn $50-120+/hour. Argentina has a growing biotech sector. Remote researchers can contribute to global projects through data analysis and computational work.",

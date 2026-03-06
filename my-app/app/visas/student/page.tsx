@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   keywords: ["Argentina student visa", "study in Argentina", "free university Argentina", "Argentina student residency", "UBA international students"],
   openGraph: {
     title: "Argentina Student Visa - Study in Argentina Guide 2026",
-    description: "Study at Argentina's world-class universities, many tuition-free for international students. Complete visa application guide.",
+    description: "Study at Argentina's highly ranked universities, many tuition-free for international students. Complete visa application guide.",
   },
   alternates: {
     canonical: "https://expatsargentina.com/visas/student",
@@ -97,7 +97,7 @@ const studentLifeHighlights = [
   },
   {
     title: "Vibrant Student Culture",
-    description: "Argentine universities have a dynamic student culture with active student unions, cultural activities, sports, and social events. The country attracts students from across Latin America, creating a diverse and international environment. Buenos Aires in particular offers world-class nightlife, arts, and cultural experiences that enrich the student experience.",
+    description: "Argentine universities have a dynamic student culture with active student unions, cultural activities, sports, and social events. The country attracts students from across Latin America, creating a diverse and international environment. Buenos Aires in particular offers excellent nightlife, arts, and cultural experiences that enrich the student experience.",
   },
   {
     title: "Spanish Language Immersion",
@@ -174,7 +174,7 @@ export default function StudentVisaPage() {
               Argentina Student Visa
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Study at world-class universities -- many completely tuition-free, even for
+              Study at top-ranked universities -- many completely tuition-free, even for
               international students. Argentina offers one of the most accessible and affordable
               higher education systems in the world, combined with an unforgettable cultural experience.
             </p>
@@ -245,7 +245,7 @@ export default function StudentVisaPage() {
                 only by free education but also by the low cost of living, the vibrant cultural
                 scene, and the opportunity for complete Spanish language immersion. Buenos Aires
                 is consistently ranked among the best cities in the world for students, offering
-                a unique blend of academic rigor and lifestyle that few other destinations can match.
+                a combination of strong academics and an unbeatable lifestyle that few other destinations can match.
                 The student visa is also one of the simplest Argentine visa categories to obtain,
                 with relatively minimal requirements and fast processing times.
               </p>

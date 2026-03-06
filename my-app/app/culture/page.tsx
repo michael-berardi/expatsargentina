@@ -276,8 +276,9 @@ export default function CulturePage() {
               The Unwritten Rules of Argentine Life
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              The cultural quirks, social norms, and daily realities that nobody tells you about. 
-              Learn from my embarrassing mistakes so you don't have to make them.
+              The cultural quirks, social norms, and daily realities that nobody tells you about before you move.
+              This page is a collection of real stories and hard-won lessons from expats who got it wrong first,
+              so you can skip the awkward phase. Or at least shorten it.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Badge variant="outline"><ClockIcon size="sm" className="mr-1" />Time & Schedules</Badge>
@@ -313,7 +314,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-amber-50 dark:bg-amber-950/20 p-4 rounded-lg border-l-4 border-amber-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
+                        <span className="font-semibold not-italic">What actually happens:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -346,7 +347,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-rose-50 dark:bg-rose-950/20 p-4 rounded-lg border-l-4 border-rose-400 mb-4">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
+                        <span className="font-semibold not-italic">What to expect:</span> {item.story}
                       </p>
                     </div>
                     {item.tip && (
@@ -385,7 +386,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-blue-50 dark:bg-blue-950/20 p-4 rounded-lg border-l-4 border-blue-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
+                        <span className="font-semibold not-italic">How it plays out:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -418,7 +419,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-green-50 dark:bg-green-950/20 p-4 rounded-lg border-l-4 border-green-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
+                        <span className="font-semibold not-italic">The reality:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -454,7 +455,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-red-50 dark:bg-red-950/20 p-4 rounded-lg border-l-4 border-red-400">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
+                        <span className="font-semibold not-italic">A cautionary tale:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>
@@ -487,7 +488,7 @@ export default function CulturePage() {
                     <p className="text-muted-foreground mb-4">{item.content}</p>
                     <div className="bg-accent/5 dark:bg-accent/10 p-4 rounded-lg border-l-4 border-accent/60">
                       <p className="text-sm italic">
-                        <span className="font-semibold not-italic">Common expat experience:</span> {item.story}
+                        <span className="font-semibold not-italic">Been there:</span> {item.story}
                       </p>
                     </div>
                   </CardContent>

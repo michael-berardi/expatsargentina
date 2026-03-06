@@ -22,7 +22,7 @@ export const mainNav: NavSection[] = [
       { label: "Salta", href: "/provinces/salta", description: "Colonial charm in the northwest" },
       { label: "Patagonia (Rio Negro)", href: "/provinces/rio-negro", description: "Lakes, mountains, and adventure" },
       { label: "All Cities", href: "/cities", description: "15+ detailed city guides" },
-      { label: "Buenos Aires", href: "/cities/buenos-aires", description: "The vibrant capital city" },
+      { label: "Buenos Aires", href: "/cities/buenos-aires", description: "The capital city" },
       { label: "Mendoza", href: "/cities/mendoza", description: "Wine, sun, and outdoor living" },
       { label: "Bariloche", href: "/cities/bariloche", description: "Patagonian lakeside paradise" },
     ],

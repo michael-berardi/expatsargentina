@@ -107,7 +107,7 @@ export default function Home() {
         <div className="container mx-auto px-5">
           <div className="text-center mb-12">
             <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
-              Comprehensive Living Guides
+              In-Depth Living Guides
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -281,7 +281,7 @@ export default function Home() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        Comprehensive Argentina living guide with real costs and visa information.
+                        Detailed Argentina living guide with real costs and visa information.
                       </p>
                     </CardContent>
                   </Card>

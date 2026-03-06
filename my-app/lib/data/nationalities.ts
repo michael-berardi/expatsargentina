@@ -284,7 +284,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇱",
     title: "Chilean in Argentina | Complete Guide",
     subtitle: "Mercosur freedom of movement, cross-Andes living, and everything Chileans need to know",
-    description: "Chileans enjoy simplified immigration to Argentina as Mercosur associates. Strong cultural ties and lower cost of living make integration easy for Chilean expats.",
+    description: "Chileans enjoy simplified immigration to Argentina as Mercosur associates. Close cultural connections and lower cost of living make integration easy for Chilean expats.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -435,7 +435,7 @@ export const nationalities: Nationality[] = [
     flag: "🇵🇾",
     title: "Paraguayan in Argentina | Complete Guide",
     subtitle: "Mercosur full membership, cultural connections, and immigration benefits",
-    description: "Paraguayans enjoy unrestricted freedom of movement as Mercosur founding members. Strong cultural ties and a large community welcome expats from Paraguay.",
+    description: "Paraguayans enjoy unrestricted freedom of movement as Mercosur founding members. Deep cultural links and a large community welcome expats from Paraguay.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -696,8 +696,8 @@ export const nationalities: Nationality[] = [
     demonym: "Peruvian",
     flag: "🇵🇪",
     title: "Peruvian in Argentina | Complete Guide",
-    subtitle: "Mercosur associate benefits, vibrant community, and immigration pathways for Peruvians",
-    description: "Peruvians enjoy streamlined immigration as Mercosur associates since 2003. One of the largest immigrant communities with strong cultural and economic ties.",
+    subtitle: "Mercosur associate benefits, active community, and immigration pathways for Peruvians",
+    description: "Peruvians enjoy streamlined immigration as Mercosur associates since 2003. One of the largest immigrant communities with established cultural and economic connections.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -855,7 +855,7 @@ export const nationalities: Nationality[] = [
     flag: "🇨🇴",
     title: "Colombian in Argentina | Complete Guide",
     subtitle: "Mercosur associate benefits, growing community, and immigration pathways",
-    description: "Colombians enjoy preferential immigration access as Mercosur associates since 2012. Rapidly growing community with strong cultural presence and opportunities.",
+    description: "Colombians enjoy preferential immigration access as Mercosur associates since 2012. Rapidly growing community with a visible cultural presence and good opportunities.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -1389,7 +1389,7 @@ export const nationalities: Nationality[] = [
         "The digital nomad visa is your best bet if you work remotely",
         "Bring USD cash for blue rate exchanges - you'll get ~40-50% more",
         "Get your FBI background check before traveling (apostille required)",
-        "Buenos Aires has a vibrant American expat scene",
+        "Buenos Aires has a thriving American expat scene",
         "Healthcare is excellent and affordable compared to US",
         "Consider the 'rentista' visa if you have passive income",
         "Learning Spanish will transform your experience"
@@ -1439,7 +1439,7 @@ export const nationalities: Nationality[] = [
     demonym: "Spanish",
     flag: "🇪🇸",
     title: "Spanish in Argentina | Complete Guide",
-    subtitle: "Bilateral agreements, preferential treatment, and strong cultural ties",
+    subtitle: "Bilateral agreements, preferential treatment, and longstanding cultural bonds",
     description: "Spanish citizens benefit from bilateral agreements that simplify residency and offer special pension arrangements. Deep historical bonds between Spain and Argentina.",
     region: "europe",
     visaRequirements: {
@@ -2697,7 +2697,7 @@ export const nationalities: Nationality[] = [
       },
       {
         question: "Are there outdoor adventure opportunities?",
-        answer: "Absolutely. Patagonia offers world-class hiking, skiing, climbing. Mendoza for wine and mountains. Bariloche is an outdoor hub."
+        answer: "Absolutely. Patagonia offers incredible hiking, skiing, and climbing. Mendoza for wine and mountains. Bariloche is an outdoor hub."
       }
     ],
     relatedResources: [
@@ -2870,7 +2870,7 @@ export const nationalities: Nationality[] = [
     flag: "🇯🇵",
     title: "Japanese in Argentina | Complete Guide",
     subtitle: "Cultural exchange, professional opportunities, and unique bilateral connections",
-    description: "Japan and Argentina maintain strong cultural and economic ties. Japanese citizens find opportunities in technology sectors with a community in Buenos Aires.",
+    description: "Japan and Argentina share longstanding cultural and economic relations. Japanese citizens find opportunities in technology sectors with a community in Buenos Aires.",
     region: "asia",
     visaRequirements: {
       tourist: {
@@ -3162,7 +3162,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "No Special Agreement",
-      description: "While Portugal doesn't have a special immigration agreement with Argentina, Portuguese citizens benefit from 90-day tourist entry, digital nomad visa, and strong cultural connections through Brazil and shared Latin heritage.",
+      description: "While Portugal doesn't have a special immigration agreement with Argentina, Portuguese citizens benefit from 90-day tourist entry, digital nomad visa, and deep cultural connections through Brazil and shared Latin heritage.",
       benefits: [
         "90-day visa-free entry (extendable to 180 days)",
         "Digital nomad visa available",
@@ -3649,7 +3649,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "No Special Agreement",
-      description: "No specific bilateral immigration agreement, but strong diplomatic ties facilitate visa processing.",
+      description: "There's no formal immigration treaty, but close diplomatic relations help simplify the visa process.",
       benefits: [
         "Student visa pathway available",
         "Business visa for entrepreneurs",
@@ -3743,7 +3743,7 @@ export const nationalities: Nationality[] = [
     demonym: "South African",
     flag: "🇿🇦",
     title: "South African in Argentina | Complete Guide",
-    subtitle: "Working holiday agreement, vibrant community, and lifestyle opportunities",
+    subtitle: "Working holiday agreement, growing community, and lifestyle opportunities",
     description: "South Africans enjoy working holiday agreements for up to a year. Growing community of retirees and professionals in Buenos Aires and coastal areas of Argentina.",
     region: "africa",
     visaRequirements: {
@@ -3862,7 +3862,7 @@ export const nationalities: Nationality[] = [
     demonym: "Israeli",
     flag: "🇮🇱",
     title: "Israeli in Argentina | Complete Guide",
-    subtitle: "Strong historical ties, vibrant Jewish community, and business opportunities",
+    subtitle: "Deep historical ties, active Jewish community, and business opportunities",
     description: "Israelis find a welcoming environment in Argentina, home to the largest Jewish community in Latin America. Opportunities in tech startups with cultural connections.",
     region: "asia",
     visaRequirements: {
@@ -3886,7 +3886,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "No Special Agreement",
-      description: "No specific bilateral immigration agreement, but strong cultural ties through the large Jewish community facilitate integration.",
+      description: "While no dedicated immigration pact exists, deep cultural connections through the large Jewish community make integration smoother.",
       benefits: [
         "Visa-free entry (90 days)",
         "Strong Jewish community support",
@@ -4246,7 +4246,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "EU Member Benefits",
-      description: "While no specific bilateral agreement exists, EU citizens enjoy streamlined processing and strong diplomatic support from the Belgian Embassy in Buenos Aires.",
+      description: "While no specific bilateral agreement exists, EU citizens enjoy streamlined processing and reliable diplomatic support from the Belgian Embassy in Buenos Aires.",
       benefits: [
         "Visa-free entry (90 days)",
         "Digital nomad visa available",
@@ -4363,7 +4363,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "EFTA Cooperation",
-      description: "While no specific immigration agreement exists, Switzerland's EFTA status and strong diplomatic presence facilitate visa processing.",
+      description: "Argentina doesn't have a specific immigration agreement with Switzerland, but EFTA status and an active diplomatic presence help smooth the path for visa applications.",
       benefits: [
         "Visa-free entry (90 days)",
         "Strong Swiss Embassy support",
@@ -4459,7 +4459,7 @@ export const nationalities: Nationality[] = [
     flag: "🇸🇪",
     title: "Swedish in Argentina | Complete Guide",
     subtitle: "Nordic lifestyle, tech opportunities, and sustainable living",
-    description: "Swedes are drawn to Argentina's vibrant culture and growing tech scene. Opportunities in sustainability and design with an active community in Buenos Aires.",
+    description: "Swedes are drawn to Argentina's dynamic culture and growing tech scene. Opportunities in sustainability and design with an active community in Buenos Aires.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -4482,7 +4482,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "EU Member Benefits",
-      description: "No specific bilateral agreement, but EU membership facilitates processing and provides consular support through the Swedish Embassy.",
+      description: "No dedicated immigration treaty exists, but EU membership streamlines processing and the Swedish Embassy provides consular support.",
       benefits: [
         "Visa-free entry (90 days)",
         "Digital nomad visa available",
@@ -4600,7 +4600,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "Schengen Cooperation",
-      description: "No specific bilateral immigration agreement, but Norway's EEA status and strong diplomatic presence facilitate visa processing.",
+      description: "While no formal immigration agreement is in place, Norway's EEA status and well-established diplomatic presence help make visa applications more straightforward.",
       benefits: [
         "Visa-free entry (90 days)",
         "Digital nomad visa available",
@@ -4718,7 +4718,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "EU Member Benefits",
-      description: "No specific bilateral immigration agreement, but EU membership and strong diplomatic ties facilitate visa processing.",
+      description: "There's no specific bilateral immigration agreement, but EU membership and established diplomatic relations support smoother immigration processing.",
       benefits: [
         "Visa-free entry (90 days)",
         "Digital nomad visa available",
@@ -4836,7 +4836,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "EU Member Benefits",
-      description: "No specific bilateral agreement, but EU membership facilitates processing and Finnish education credentials are recognized.",
+      description: "Argentina has no specific bilateral deal with Finland, but EU membership eases processing and Finnish education credentials are recognized.",
       benefits: [
         "Visa-free entry (90 days)",
         "Digital nomad visa available",
@@ -4954,7 +4954,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "EU Member Benefits",
-      description: "No specific bilateral agreement, but EU membership and large Polish-Argentine community facilitate integration.",
+      description: "No formal immigration treaty exists, but EU membership and the large Polish-Argentine community help with integration and settlement.",
       benefits: [
         "Visa-free entry (90 days)",
         "Digital nomad visa available",
@@ -5073,7 +5073,7 @@ export const nationalities: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "EU Member Benefits",
-      description: "No specific bilateral agreement, but EU membership and Czech expertise in manufacturing and IT facilitate opportunities.",
+      description: "While there's no dedicated bilateral agreement, EU membership and Czech expertise in manufacturing and IT open doors to opportunities.",
       benefits: [
         "Visa-free entry (90 days)",
         "Digital nomad visa available",

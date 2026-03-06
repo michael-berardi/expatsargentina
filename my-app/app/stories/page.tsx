@@ -60,7 +60,7 @@ const stories = [
     neighborhood: "Palermo Soho",
     street: "Near Plaza Serrano",
     quote: "I came for three months and stayed for two years. The first month I was like 'what the hell is a blue dollar?' Now I can explain it to newcomers in my sleep.",
-    summary: "Jake arrived as a digital nomad in 2022, thinking he'd bounce around South America. Two years later, he's still in the same apartment on Costa Rica Street, has a local girlfriend, and has learned that 'mañana' doesn't always mean tomorrow.",
+    summary: "Jake arrived as a digital nomad in 2024, thinking he'd bounce around South America. Two years later, he's still in the same apartment on Costa Rica Street, has a local girlfriend, and has learned that 'mañana' doesn't always mean tomorrow.",
     theGood: [
       "I can actually afford to live alone in a nice apartment",
       "The tech community here is surprisingly tight-knit",
@@ -615,11 +615,12 @@ export default function StoriesPage() {
               Life in Argentina, Unfiltered
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Composite portraits based on common expat experiences - the good, the bad,
-              and the &ldquo;why didn&apos;t anyone tell me this before I moved?&rdquo;
+              Composite portraits based on common expat experiences&mdash;the good, the bad,
+              and the &ldquo;why didn&apos;t anyone tell me this before I moved?&rdquo; Each story pulls from
+              real situations, real budgets, and real frustrations shared in expat groups and interviews.
             </p>
             <p className="text-sm text-muted-foreground/70">
-              Names are illustrative, but budgets, challenges, and tips reflect real situations reported by the expat community.
+              Names are illustrative, but the budgets, challenges, and tips reflect actual situations reported across the expat community.
             </p>
           </div>
         </div>

@@ -29,7 +29,7 @@ export function Footer() {
               <span className="font-bold text-xl">Expats Argentina</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
-              Your comprehensive guide to living in Argentina. Visa guides, cost of living, and expert advice for all 24 provinces.
+              Your guide to expat life in Argentina. Visa guides, cost of living, and expert advice for all 24 provinces.
             </p>
             <p className="text-sm text-muted-foreground mt-2">
               <a href="mailto:hello@expatsargentina.com" className="hover:text-foreground transition-colors">

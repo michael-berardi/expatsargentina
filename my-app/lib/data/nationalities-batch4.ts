@@ -329,7 +329,7 @@ export const nationalitiesBatch4: Nationality[] = [
     demonym: "Israeli",
     flag: "🇮🇱",
     title: "Israeli Citizens in Argentina: Complete Immigration Guide",
-    subtitle: "Strong historical ties, vibrant Jewish community, and immigration pathways",
+    subtitle: "Deep historical ties, active Jewish community, and immigration pathways",
     description: "Argentina has the largest Jewish community in Latin America and strong historical ties with Israel. Israeli citizens enjoy visa-free entry and find familiar cultural connections, kosher food availability, and an established support network.",
     region: "asia",
     visaRequirements: {

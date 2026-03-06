@@ -34,11 +34,11 @@ export const cityComparisons: CityComparison[] = [
     categories: [
       { name: "Cost of Living", city1Score: 4, city2Score: 7, city1Detail: "$1,200-3,500/month. Argentina's most expensive city. Palermo rents can rival European capitals.", city2Detail: "$700-1,800/month. Significantly cheaper rent, food, and entertainment. Wine is absurdly affordable." },
       { name: "Safety", city1Score: 5, city2Score: 8, city1Detail: "Moderate. Petty theft common in tourist areas. Avoid certain neighborhoods at night.", city2Detail: "Good. One of Argentina's safest cities. Relaxed atmosphere, low street crime." },
-      { name: "Nightlife & Culture", city1Score: 10, city2Score: 5, city1Detail: "World-class. Tango, theaters, live music, bars open until dawn. Never a dull night.", city2Detail: "Low-key but charming. Wine bars, bodega tours, occasional festivals. Quiet by 1am." },
+      { name: "Nightlife & Culture", city1Score: 10, city2Score: 5, city1Detail: "Best in South America. Tango, theaters, live music, bars open until dawn. Never a dull night.", city2Detail: "Low-key but charming. Wine bars, bodega tours, occasional festivals. Quiet by 1am." },
       { name: "Internet & Remote Work", city1Score: 8, city2Score: 6, city1Detail: "50-100+ Mbps. Coworking spaces everywhere. Cafes with good WiFi abundant.", city2Detail: "30-60 Mbps. Growing coworking scene. Less reliable in rural wine areas." },
       { name: "Climate", city1Score: 6, city2Score: 8, city1Detail: "Humid subtropical. Brutally hot summers, mild winters. High humidity.", city2Detail: "Arid and sunny. 300+ sunny days. Dry heat, cool winters. Great year-round." },
       { name: "Outdoor Activities", city1Score: 4, city2Score: 10, city1Detail: "Parks and riverside. Limited natural scenery within the city.", city2Detail: "Andes hiking, skiing, rafting, climbing. Wine cycling tours. Aconcagua base camp nearby." },
-      { name: "Food Scene", city1Score: 9, city2Score: 7, city1Detail: "Everything from world-class parrillas to sushi to vegan. Most diverse food scene in South America.", city2Detail: "Excellent parrillas and wine pairings. Growing international food scene. Fewer options overall." },
+      { name: "Food Scene", city1Score: 9, city2Score: 7, city1Detail: "Everything from legendary parrillas to sushi to vegan. Most diverse food scene in South America.", city2Detail: "Excellent parrillas and wine pairings. Growing international food scene. Fewer options overall." },
       { name: "Expat Community", city1Score: 9, city2Score: 6, city1Detail: "Massive. Thousands of expats, dozens of meetups weekly. Easy to find your tribe.", city2Detail: "Growing. Smaller but tight-knit community. Easier to make Argentine friends." },
     ],
     bestFor: {
@@ -58,11 +58,11 @@ export const cityComparisons: CityComparison[] = [
     categories: [
       { name: "Cost of Living", city1Score: 4, city2Score: 8, city1Detail: "$1,200-3,500/month. Premium pricing across the board. Rent alone eats 40-50% of budget.", city2Detail: "$600-1,500/month. Dramatically cheaper than BA. University town economics keep prices low." },
       { name: "Safety", city1Score: 5, city2Score: 6, city1Detail: "Moderate. Standard big-city precautions needed. Petty crime in tourist zones.", city2Detail: "Moderate to Good. Safer feel than BA. University areas well-lit and active." },
-      { name: "Nightlife & Culture", city1Score: 10, city2Score: 7, city1Detail: "World-class cultural capital. Tango, theater, art, music 24/7.", city2Detail: "Vibrant student nightlife. Great live music scene. More grassroots and authentic." },
+      { name: "Nightlife & Culture", city1Score: 10, city2Score: 7, city1Detail: "Argentina's cultural capital. Tango, theater, art, music 24/7.", city2Detail: "Buzzing student nightlife. Great live music scene. More grassroots and authentic." },
       { name: "Internet & Remote Work", city1Score: 8, city2Score: 7, city1Detail: "Best in country. Fiber widely available. Many coworking options.", city2Detail: "Good. Growing tech hub with startup culture. Multiple coworking spaces." },
       { name: "Climate", city1Score: 6, city2Score: 7, city1Detail: "Humid. Hot summers, mild winters. Can feel oppressive Jan-Feb.", city2Detail: "Warm and dry. Sierras nearby provide cooler escapes. Pleasant most of year." },
       { name: "Outdoor Activities", city1Score: 4, city2Score: 7, city1Detail: "Urban parks. Day trips to delta and coast.", city2Detail: "Sierras de Cordoba hiking, lakes, rivers. Carlos Paz 30 min away." },
-      { name: "Food Scene", city1Score: 9, city2Score: 6, city1Detail: "Endless variety. World-class dining to street food.", city2Detail: "Good local food. Famous for fernet con coca. Growing food scene." },
+      { name: "Food Scene", city1Score: 9, city2Score: 6, city1Detail: "Endless variety. Top-tier dining to street food.", city2Detail: "Good local food. Famous for fernet con coca. Growing food scene." },
       { name: "Tech & Startup Scene", city1Score: 8, city2Score: 8, city1Detail: "Major tech hub. Many international companies. Higher salaries.", city2Detail: "Argentina's 'Silicon Hills'. Growing fast. Lower costs attract startups." },
     ],
     bestFor: {
@@ -86,7 +86,7 @@ export const cityComparisons: CityComparison[] = [
       { name: "Climate", city1Score: 8, city2Score: 5, city1Detail: "300+ sunny days. Dry, pleasant. Hot summers, mild winters.", city2Detail: "Cold and wet winters (snow Nov-Aug). Cool summers. Rain is frequent." },
       { name: "Outdoor Activities", city1Score: 8, city2Score: 10, city1Detail: "Hiking, skiing (Las Lenas), cycling, rafting. Aconcagua access.", city2Detail: "Skiing (Cerro Catedral), kayaking, trekking, mountain biking, fishing. Year-round." },
       { name: "Infrastructure", city1Score: 7, city2Score: 5, city1Detail: "Major city infrastructure. Good hospital, flights, services.", city2Detail: "Small town. Limited healthcare, seasonal services. Airport is small." },
-      { name: "Food & Wine", city1Score: 10, city2Score: 6, city1Detail: "World-class wine region. Malbec capital. Excellent restaurants.", city2Detail: "Craft beer capital. Chocolate shops. Good but limited dining." },
+      { name: "Food & Wine", city1Score: 10, city2Score: 6, city1Detail: "Premier wine region. Malbec capital. Excellent restaurants.", city2Detail: "Craft beer capital. Chocolate shops. Good but limited dining." },
       { name: "Year-Round Livability", city1Score: 8, city2Score: 5, city1Detail: "Active year-round. No dead season. Always something happening.", city2Detail: "Seasonal. Summer is magic, winter is ski season, shoulder seasons quiet." },
     ],
     bestFor: {
@@ -178,12 +178,12 @@ export const cityComparisons: CityComparison[] = [
     categories: [
       { name: "Cost of Living", city1Score: 7, city2Score: 4, city1Detail: "$700-1,600/month. Significantly cheaper rent than BA. Food costs lower especially for seafood. Off-season deals are excellent.", city2Detail: "$1,200-3,500/month. Argentina's most expensive city. Palermo and Recoleta rents rival European capitals." },
       { name: "Beach/Nature Access", city1Score: 9, city2Score: 2, city1Detail: "Kilometers of Atlantic beaches. Surfing, fishing, coastal hiking. Mar del Plata is Argentina's undisputed beach capital.", city2Detail: "No beach. Río de la Plata is brown and not swimmable. Nearest beach is 4+ hours away. Parks are the best you get." },
-      { name: "Nightlife", city1Score: 7, city2Score: 10, city1Detail: "Excellent in summer — beachfront clubs, bars, live music. Significantly quieter off-season but still has a core scene.", city2Detail: "World-class. Tango milongas, underground clubs, live music every night. Bars open until dawn year-round." },
+      { name: "Nightlife", city1Score: 7, city2Score: 10, city1Detail: "Excellent in summer — beachfront clubs, bars, live music. Significantly quieter off-season but still has a core scene.", city2Detail: "Unrivaled. Tango milongas, underground clubs, live music every night. Bars open until dawn year-round." },
       { name: "Internet", city1Score: 6, city2Score: 8, city1Detail: "20-60 Mbps. Adequate for remote work. Fewer coworking spaces but growing. Can be spotty in beach areas.", city2Detail: "50-100+ Mbps. Fiber widely available. Coworking spaces everywhere. Best digital infrastructure in the country." },
-      { name: "Food", city1Score: 8, city2Score: 9, city1Detail: "Seafood capital of Argentina. Excellent fish, shellfish, and coastal dining. Alfajores originated here. Less international variety.", city2Detail: "Most diverse food scene in South America. World-class parrillas, international cuisine, vegan options, street food — everything." },
+      { name: "Food", city1Score: 8, city2Score: 9, city1Detail: "Seafood capital of Argentina. Excellent fish, shellfish, and coastal dining. Alfajores originated here. Less international variety.", city2Detail: "Most diverse food scene in South America. Outstanding parrillas, international cuisine, vegan options, street food — everything." },
       { name: "Safety", city1Score: 7, city2Score: 5, city1Detail: "Generally safer than Buenos Aires. Quieter streets, less petty crime. Some seasonal issues when tourist crowds arrive.", city2Detail: "Moderate. Petty theft common in tourist areas. Certain neighborhoods require caution at night. Standard big-city awareness needed." },
       { name: "Expat Community", city1Score: 5, city2Score: 9, city1Detail: "Small but growing. Seasonal expats in summer, core group year-round. Easier to integrate with locals.", city2Detail: "Massive. Thousands of expats, dozens of weekly meetups, Facebook groups, WhatsApp communities. Easy to find your tribe." },
-      { name: "Year-Round Appeal", city1Score: 6, city2Score: 9, city1Detail: "Summer is peak season and magical. Winters are cold, windy, and quiet — some love the solitude, others find it isolating.", city2Detail: "Vibrant 365 days a year. Seasons change the vibe but never shut the city down. Always something to do." },
+      { name: "Year-Round Appeal", city1Score: 6, city2Score: 9, city1Detail: "Summer is peak season and magical. Winters are cold, windy, and quiet — some love the solitude, others find it isolating.", city2Detail: "Alive 365 days a year. Seasons change the vibe but never shut the city down. Always something to do." },
     ],
     bestFor: {
       city1: ["Beach lovers", "Surfers", "Seafood enthusiasts", "Budget-conscious expats", "Those seeking slower pace", "Seasonal workers"],

@@ -30,7 +30,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Everything you need to know about Argentina's digital nomad visa: requirements, application process, costs, and insider tips from successful applicants.",
     content: `# The Complete Guide to Argentina's Digital Nomad Visa in 2026
 
-Argentina has emerged as one of the most attractive destinations for digital nomads in South America, and the Digital Nomad Visa introduced in recent years has made it easier than ever to live and work remotely from this vibrant country.
+Argentina has emerged as one of the most attractive destinations for digital nomads in South America, and the Digital Nomad Visa introduced in recent years has made it easier than ever to live and work remotely from this dynamic country.
 
 ## What is the Digital Nomad Visa?
 
@@ -205,7 +205,7 @@ Ready to make the move? Start gathering your documents today and join the growin
     excerpt: "From trendy Palermo to historic San Telmo, discover which BA neighborhoods offer the best mix of expat community, safety, and authentic Argentine culture.",
     content: `# The 10 Best Neighborhoods for Expats in Buenos Aires
 
-Buenos Aires is a city of neighborhoods (barrios), each with its own distinct personality. For expats, choosing the right barrio can make or break your experience. Here's our comprehensive guide to the best neighborhoods for foreigners living in BA.
+Buenos Aires is a city of neighborhoods (barrios), each with its own distinct personality. For expats, choosing the right barrio can make or break your experience. Here's our complete guide to the best neighborhoods for foreigners living in BA.
 
 ## 1. Palermo Soho
 
@@ -722,7 +722,7 @@ Argentina experiences high inflation (50-100% annually). This guide reflects Jan
 
 Buenos Aires offers incredible value for expats earning in foreign currency. A comfortable lifestyle costs 60-70% less than comparable cities in North America or Europe. The key is understanding the exchange rate system and living like a savvy local rather than a tourist.
 
-With $1,500-2,000 per month, you can live very comfortably in one of South America's most vibrant cities.
+With $1,500-2,000 per month, you can live very comfortably in one of South America's most exciting cities.
 `,
     category: "cost-of-living",
     author: {
@@ -1475,7 +1475,7 @@ Welcome home.
   {
     slug: "healthcare-argentina-expat-guide",
     title: "Healthcare in Argentina: Complete Guide for Expats",
-    excerpt: "Navigate Argentina's healthcare system: public vs private, insurance options, finding English-speaking doctors, and what to do in emergencies.",
+    excerpt: "How Argentina's healthcare system works: public vs private, insurance options, finding English-speaking doctors, and what to do in emergencies.",
     content: `# Healthcare in Argentina: Complete Guide for Expats
 
 Argentina's healthcare system is a mix of public, private, and social security options. Understanding your choices is crucial for peace of mind during your stay.
@@ -1917,7 +1917,7 @@ Rosario is Argentina's forgotten gem. Birthplace of Che Guevara and Messi, it of
 ### Pros
 - Most affordable major city
 - Beautiful riverfront (Paraná)
-- Vibrant cultural scene
+- Active cultural scene
 - Great food (home of Argentine fish cuisine)
 - Less than 3 hours from BA
 

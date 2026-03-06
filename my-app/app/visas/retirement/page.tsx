@@ -92,12 +92,12 @@ const benefits = [
     description: "Argentina offers a cost of living that is a fraction of what retirees pay in the United States, Canada, or Western Europe. A comfortable lifestyle in Buenos Aires, including dining out regularly, is achievable on a modest pension.",
   },
   {
-    title: "World-Class Healthcare",
+    title: "Excellent Healthcare",
     description: "Argentina has an excellent healthcare system with both public and private options. Public healthcare is free for residents, and private plans (obras sociales or prepagas) are affordable by international standards. Buenos Aires has hospitals that rank among the best in Latin America.",
   },
   {
     title: "Rich Culture and Lifestyle",
-    description: "From the European-influenced architecture of Buenos Aires to the wine regions of Mendoza and the natural beauty of Patagonia, Argentina offers an extraordinary quality of life. The country has a strong cafe culture, vibrant arts scene, and a pace of life that appeals to retirees.",
+    description: "From the European-influenced architecture of Buenos Aires to the wine regions of Mendoza and the natural beauty of Patagonia, Argentina offers a high quality of life at a fraction of the cost of most Western countries. The country has a strong cafe culture, vibrant arts scene, and a pace of life that appeals to retirees.",
   },
   {
     title: "Path to Citizenship",

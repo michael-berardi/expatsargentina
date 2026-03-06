@@ -49,7 +49,7 @@ const reasons = [
   },
   {
     icon: UtensilsIcon,
-    title: "World-Class Food and Wine Culture",
+    title: "Outstanding Food and Wine Culture",
     description:
       "Argentina is a food lover's paradise. The asado (barbecue) culture is legendary, with weekend gatherings around the grill being a cornerstone of social life. Buenos Aires has more restaurants per capita than almost any city in the world, ranging from hidden-door speakeasies to classic corner parrillas. Mendoza produces world-renowned Malbec and the wine country offers tastings for a fraction of Napa Valley prices.",
   },
@@ -57,13 +57,13 @@ const reasons = [
     icon: GlobeIcon,
     title: "Rich Culture and Vibrant Arts Scene",
     description:
-      "Buenos Aires is often called the 'Paris of South America' for a reason. The city boasts over 300 theaters (more than London), world-class museums like MALBA and Bellas Artes, and a street art scene that rivals Berlin. Tango isn't just for tourists; milongas (tango dance halls) fill every night of the week. The literary tradition runs deep: this is the city of Borges, and you'll find stunning bookstores like El Ateneo Grand Splendid everywhere.",
+      "Buenos Aires is often called the 'Paris of South America' for a reason. The city has over 300 theaters (more than London), top-tier museums like MALBA and Bellas Artes, and a street art scene that rivals Berlin. Tango isn't just for tourists; milongas (tango dance halls) fill every night of the week. The literary tradition runs deep: this is the city of Borges, and you'll find stunning bookstores like El Ateneo Grand Splendid everywhere.",
   },
   {
     icon: MapPinIcon,
     title: "Breathtaking Natural Landscapes",
     description:
-      "Few countries offer Argentina's geographic diversity. In the south, Patagonia delivers glaciers, turquoise lakes, and some of the best hiking on Earth. Iguazu Falls on the northern border is one of the planet's most spectacular waterfalls. Mendoza sits at the foot of the Andes with world-class skiing in winter and wine country in every direction. The Lake District around Bariloche looks like Switzerland. Salta's red rock canyons and Northwest Argentina feel like another planet entirely.",
+      "Few countries offer Argentina's geographic diversity. In the south, Patagonia delivers glaciers, turquoise lakes, and some of the best hiking on Earth. Iguazu Falls on the northern border is one of the planet's most spectacular waterfalls. Mendoza sits at the foot of the Andes with excellent skiing in winter and wine country in every direction. The Lake District around Bariloche looks like Switzerland. Salta's red rock canyons and Northwest Argentina feel like another planet entirely.",
   },
   {
     icon: WifiIcon,
@@ -99,7 +99,7 @@ const reasons = [
     icon: WineIcon,
     title: "Wine Country at Your Doorstep",
     description:
-      "Argentina is the fifth-largest wine producer in the world. Mendoza alone has over 1,500 wineries, many offering tastings and tours for a fraction of European or Californian prices. A full-day wine tour with lunch and multiple tastings runs $40-60. Beyond Malbec, the industry is producing world-class Cabernet Franc, Torrontes, and blends. Cafayate in Salta and the San Juan region add even more diversity to the wine map.",
+      "Argentina is the fifth-largest wine producer in the world. Mendoza alone has over 1,500 wineries, many offering tastings and tours for a fraction of European or Californian prices. A full-day wine tour with lunch and multiple tastings runs $40-60. Beyond Malbec, the industry is producing first-rate Cabernet Franc, Torrontes, and blends. Cafayate in Salta and the San Juan region add even more diversity to the wine map.",
   },
 ];
 
@@ -131,7 +131,7 @@ export default function WhyArgentinaPage() {
               Why Move to Argentina?
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Affordable living, world-class food and wine, stunning landscapes
+              Affordable living, incredible food and wine, stunning landscapes
               from Patagonia to Iguazu, and one of the most welcoming cultures
               on the planet. Here is why thousands of expats are making the move.
             </p>
@@ -298,7 +298,7 @@ export default function WhyArgentinaPage() {
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Explore?</h2>
             <p className="text-muted-foreground mb-8">
-              Start planning your move to Argentina with our comprehensive guides
+              Start planning your move to Argentina with our detailed guides
               on visas, neighborhoods, cost of living, and more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

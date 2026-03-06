@@ -217,14 +217,14 @@ const successStories = [
     name: "Sofia",
     from: "Buenos Aires",
     to: "Amsterdam",
-    story: "Left in 2019 for a tech job. Initially struggled with Dutch directness and the weather. Now has a house, two kids, and visits Argentina every year. 'I needed to leave to build the life I wanted, but Argentina is still home in my heart.'",
+    story: "Left in 2022 for a tech job. Initially struggled with Dutch directness and the weather. Now has a house, a kid, and visits Argentina every year. 'I needed to leave to build the life I wanted, but Argentina is still home in my heart.'",
     outcome: "Thrived abroad"
   },
   {
     name: "Michael",
     from: "Córdoba",
     to: "Back to Córdoba",
-    story: "Moved to Miami for 3 years. Made good money but was miserable. The work culture, the driving everywhere, the loneliness. Came back in 2022 and opened a café. 'I realized I valued quality of life over salary. Argentina gives me that.'",
+    story: "Moved to Miami for 3 years. Made good money but was miserable. The work culture, the driving everywhere, the loneliness. Came back in 2024 and opened a café. 'I realized I valued quality of life over salary. Argentina gives me that.'",
     outcome: "Returned and happy"
   },
   {
@@ -376,8 +376,9 @@ export default function LeavingGuidePage() {
             Leaving Argentina
           </h1>
           <p className="text-xl text-muted-foreground/50 max-w-2xl leading-relaxed">
-            A practical and emotional guide to departing—whether temporarily or forever. 
-            Because leaving is never just about logistics.
+            A practical and emotional guide to departing Argentina — whether for a few months or for good.
+            This page covers the money, the paperwork, the goodbye asados, and the part nobody warns you about:
+            what it actually feels like after you land somewhere else.
           </p>
         </div>
       </div>

@@ -25,7 +25,7 @@
     "hero": {
       "badge": "All 24 provinces covered",
       "title": "Your Complete Guide to Living in Argentina",
-      "subtitle": "Not just Buenos Aires. From Patagonian lakes to Andean wine country, subtropical waterfalls to colonial Northwest towns — comprehensive expat guides for every corner of Argentina.",
+      "subtitle": "Not just Buenos Aires. From Patagonian lakes to Andean wine country, subtropical waterfalls to colonial Northwest towns — in-depth expat guides for every corner of Argentina.",
       "description": "Visas, cost of living, housing, healthcare, and honest advice for every province and major city in the country.",
       "exploreProvinces": "Explore Provinces",
       "browseCities": "Browse City Guides",
@@ -188,7 +188,7 @@
   },
   "banking": {
     "title": "Banking & Money in Argentina",
-    "subtitle": "Navigate Argentina's unique financial landscape. Understanding the blue dollar, transferring money, and managing finances as an expat.",
+    "subtitle": "How Argentina's financial system works. Understanding the blue dollar, transferring money, and managing finances as an expat.",
     "noDni": {
       "title": "Banking Without DNI (2026 Workarounds)",
       "description": "DNI processing is taking 6+ months. Here's how to function financially without it.",
@@ -216,7 +216,7 @@
     }
   },
   "footer": {
-    "description": "Your honest, comprehensive guide to living in Argentina. Real information from real expats.",
+    "description": "Your honest, complete guide to living in Argentina. Real information from real expats.",
     "quickLinks": "Quick Links",
     "resources": "Resources",
     "connect": "Connect",

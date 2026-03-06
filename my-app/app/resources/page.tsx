@@ -491,7 +491,7 @@ const documents = [
 
 function StarRating({ rating }: { rating: number }) {
   return (
-    <div className="flex items-center gap-1">
+    <div className="flex items-center gap-1" aria-label={`${rating} out of 5 stars`}>
       {[...Array(5)].map((_, i) => (
         <StarIcon
           key={i}
@@ -724,9 +724,15 @@ export default function ResourcesPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Resources Directory
             </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              The phone numbers, apps, websites, and contacts you actually need. 
+            <p className="text-xl text-muted-foreground mb-4">
+              The phone numbers, apps, websites, and contacts you actually need.
               Everything verified and updated regularly.
+            </p>
+            <p className="text-base text-muted-foreground mb-8">
+              We built this directory after spending months collecting the same recommendations
+              from expat groups, immigration lawyers, and long-term residents. Every listing
+              has been personally verified or comes recommended by multiple expats. Verification
+              dates are shown on each card so you know what&apos;s current.
             </p>
             
             {/* Search */}
@@ -740,6 +746,90 @@ export default function ResourcesPage() {
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Overview */}
+      <section className="py-8 border-b">
+        <div className="container mx-auto px-5">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold mb-4">What You&apos;ll Find Here</h2>
+            <p className="text-muted-foreground mb-6">
+              Moving to Argentina means figuring out dozens of practical details at once — who can help
+              with your visa, which apps actually work here, where to find a doctor who speaks English,
+              and what number to call in an emergency. This directory covers six categories:
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+              <div className="flex items-start gap-2">
+                <BriefcaseIcon size="sm" className="text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-medium text-sm">Service Providers</p>
+                  <p className="text-xs text-muted-foreground">Immigration lawyers, accountants, real estate agents, translators, and hospitals — all vetted by the expat community.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <SmartphoneIcon size="sm" className="text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-medium text-sm">Essential Apps</p>
+                  <p className="text-xs text-muted-foreground">The apps locals actually use daily for payments, transport, delivery, and tracking the dollar exchange rate.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <GlobeIcon size="sm" className="text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-medium text-sm">Websites & Tools</p>
+                  <p className="text-xs text-muted-foreground">Government portals, job boards, apartment listing sites, and expat community forums.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <ShieldAlertIcon size="sm" className="text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-medium text-sm">Emergency Contacts</p>
+                  <p className="text-xs text-muted-foreground">Police, hospitals, pharmacies, and embassy numbers you should save before you arrive.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPinIcon size="sm" className="text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-medium text-sm">Places</p>
+                  <p className="text-xs text-muted-foreground">Coworking spaces, gyms, language schools, laptop-friendly cafes, and grocery stores in Buenos Aires.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <FileTextIcon size="sm" className="text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-medium text-sm">Downloads</p>
+                  <p className="text-xs text-muted-foreground">Free checklists, budget templates, and phrase guides you can save offline for reference.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How to use this page */}
+      <section className="py-8 border-b">
+        <div className="container mx-auto px-5">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold mb-4">How This Directory Works</h2>
+            <p className="text-muted-foreground mb-3">
+              Listings come from two sources: direct experience and community recommendations.
+              We track who suggested each provider and when we last confirmed they&apos;re still operating.
+              If a listing goes more than 6 months without confirmation, we mark it. If they close or get
+              consistent bad feedback, we remove them.
+            </p>
+            <p className="text-muted-foreground mb-3">
+              Prices are listed in USD where possible, but keep in mind they fluctuate with the exchange rate.
+              Gym memberships, coworking spaces, and language schools are especially sensitive to peso swings —
+              always confirm the current price before signing anything. Providers marked &quot;verified&quot; have been
+              contacted directly within the date shown on their card.
+            </p>
+            <p className="text-muted-foreground">
+              Use the tabs below to browse by category or the search bar above to find something specific.
+              The Emergency tab is worth bookmarking — you won&apos;t want to search for hospital numbers during
+              an actual emergency.
+            </p>
           </div>
         </div>
       </section>
@@ -1173,14 +1263,38 @@ export default function ResourcesPage() {
         </div>
       </section>
 
+      {/* Main CTA */}
+      <section className="py-12 bg-muted/50 border-y">
+        <div className="container mx-auto px-5 text-center">
+          <div className="max-w-2xl mx-auto">
+            <h2 className="text-2xl font-bold mb-3">Missing Something?</h2>
+            <p className="text-muted-foreground mb-6">
+              This directory grows through community contributions. If you&apos;ve found a service provider,
+              app, or resource that helped you settle in Argentina, submit it and we&apos;ll verify
+              and add it to the list.
+            </p>
+            <Button asChild size="lg">
+              <Link href="/contact">
+                Submit a Resource
+                <ArrowRightIcon size="sm" className="ml-2" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Lucero Legal CTA */}
       <section className="py-16 bg-primary text-primary-foreground mt-auto">
         <div className="container mx-auto px-5 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Need Legal Help?</h2>
-            <p className="text-primary-foreground/80 mb-8">
-              For complex visa cases, business immigration, or legal advice, 
+            <p className="text-primary-foreground/80 mb-4">
+              For complex visa cases, business immigration, or legal advice,
               our partner Lucero Legal specializes in expat immigration in Argentina.
+            </p>
+            <p className="text-primary-foreground/70 text-sm mb-8">
+              They handle digital nomad visas, residency applications, citizenship timelines, and employer
+              sponsorship — all in English. Free initial consultation to figure out which path fits your situation.
             </p>
             <Button asChild size="lg" variant="secondary">
               <Link href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=resources-cta" target="_blank" rel="noopener noreferrer">

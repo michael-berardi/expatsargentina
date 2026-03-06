@@ -18,8 +18,8 @@ export interface Neighborhood {
   transport: "Excellent" | "Very Good" | "Good" | "Moderate" | "Limited";
   subteLines?: string[];
   walkability: "Excellent" | "Very Good" | "Good" | "Moderate";
-  nightlife: "Legendary" | "Vibrant" | "Good" | "Moderate" | "Quiet";
-  foodScene: "World-Class" | "Excellent" | "Very Good" | "Good" | "Basic";
+  nightlife: "Legendary" | "Lively" | "Good" | "Moderate" | "Quiet";
+  foodScene: "Top-Tier" | "Excellent" | "Very Good" | "Good" | "Basic";
   greenSpaces: "Abundant" | "Good" | "Some" | "Limited";
   bestFor: string[];
   notIdealFor: string[];
@@ -50,8 +50,8 @@ export const neighborhoods: Neighborhood[] = [
     transport: "Excellent",
     subteLines: ["D (Plaza Italia)", "D (Scalabrini Ortiz)"],
     walkability: "Excellent",
-    nightlife: "Vibrant",
-    foodScene: "World-Class",
+    nightlife: "Lively",
+    foodScene: "Top-Tier",
     greenSpaces: "Good",
     bestFor: ["Digital nomads", "Young professionals", "First-time expats", "Foodies"],
     notIdealFor: ["Budget travelers", "Families seeking quiet", "Those seeking Argentine immersion"],
@@ -61,7 +61,7 @@ export const neighborhoods: Neighborhood[] = [
       "Walking distance to Bosques de Palermo",
       "Strong expat community and networking",
       "Excellent coworking spaces",
-      "Vibrant street art and murals"
+      "Colorful street art and murals"
     ],
     considerations: [
       "Highest rents in the city (doubled since 2023)",
@@ -150,7 +150,7 @@ export const neighborhoods: Neighborhood[] = [
     highlights: [
       "Safest neighborhood in Buenos Aires",
       "Beautiful French architecture",
-      "World-class museums (MALBA, Bellas Artes)",
+      "Outstanding museums (MALBA, Bellas Artes)",
       "Large apartments with classic details",
       "Weekend craft fair at the cemetery",
       "Embassy district security"
@@ -414,7 +414,7 @@ export const neighborhoods: Neighborhood[] = [
     city: "Buenos Aires",
     zone: "Central",
     description: "The geographic center of Buenos Aires and a solidly middle-class neighborhood. Great transport, affordable rents, and a genuine Argentine family feel. The unsexy but practical choice.",
-    longDescription: "Caballito sits at the exact geographic center of Buenos Aires, and its character reflects that centrality — it's a bit of everything. This is a solidly middle-class, family-oriented neighborhood where generations of porteños have lived. The main commercial arteries (Avenida Rivadavia, Avenida Directorio) are bustling with shops, banks, and restaurants, while the residential side streets are quiet and tree-lined. Parque Rivadavia, with its weekend book fair, is the neighborhood's green heart. For expats, Caballito offers exceptional value: rents are among the lowest in any safe, well-connected neighborhood. The Subte A line (the oldest in the Americas) runs along Rivadavia, and multiple bus lines connect everywhere. The neighborhood has no glamour — you won't find trendy cocktail bars or Instagram-worthy cafes — but everything you need for daily life is within walking distance. It's the kind of place where you settle in for the long term, learn your neighbors' names, and actually live in Buenos Aires rather than visiting it.",
+    longDescription: "Caballito sits at the exact geographic center of Buenos Aires, and its character reflects that centrality — it's a bit of everything. This is a solidly middle-class, family-oriented neighborhood where generations of porteños have lived. The main commercial arteries (Avenida Rivadavia, Avenida Directorio) are packed with shops, banks, and restaurants, while the residential side streets are quiet and tree-lined. Parque Rivadavia, with its weekend book fair, is the neighborhood's green heart. For expats, Caballito offers exceptional value: rents are among the lowest in any safe, well-connected neighborhood. The Subte A line (the oldest in the Americas) runs along Rivadavia, and multiple bus lines connect everywhere. The neighborhood has no glamour — you won't find trendy cocktail bars or Instagram-worthy cafes — but everything you need for daily life is within walking distance. It's the kind of place where you settle in for the long term, learn your neighbors' names, and actually live in Buenos Aires rather than visiting it.",
     expatScore: 6,
     rentRange: "$500–$900",
     rentLevel: "Budget",
@@ -555,7 +555,7 @@ export const neighborhoods: Neighborhood[] = [
     city: "Buenos Aires",
     zone: "Central",
     description: "The fastest-gentrifying neighborhood in Buenos Aires. Former working-class barrio now home to BA's hottest new restaurants, natural wine bars, and creative studios. The 'next Palermo' is happening right now.",
-    longDescription: "Chacarita is Buenos Aires' neighborhood of the moment. Five years ago, it was a quiet, working-class area known primarily for its large cemetery and Feria de los Mataderos connection. Today, it's the city's most exciting dining destination. The transformation started along Jorge Newbery and Dorrego streets, where some of the city's most innovative chefs opened restaurants — attracted by cheap rents and a blank canvas. Now the area between Federico Lacroze and the cemetery has become a culinary destination rivaling Palermo, with natural wine bars, specialty coffee roasters, and independent galleries joining the mix. What makes Chacarita special is that the gentrification is still early enough that old and new coexist. You'll find a cutting-edge chef next to a century-old almacén, a natural wine bar across from a traditional carnicería. This tension gives the neighborhood an energy that polished Palermo lost years ago. For expats, Chacarita offers good value — rents are rising but still 30-40% below Palermo. The Subte B line (Federico Lacroze, Dorrego) and the Lacroze train terminal provide excellent connectivity.",
+    longDescription: "Chacarita is Buenos Aires' neighborhood of the moment. Five years ago, it was a quiet, working-class area known primarily for its large cemetery and Feria de los Mataderos connection. Today, it's the city's most exciting dining destination. The transformation started along Jorge Newbery and Dorrego streets, where some of the city's most innovative chefs opened restaurants — attracted by cheap rents and a blank canvas. Now the area between Federico Lacroze and the cemetery has become a culinary destination rivaling Palermo, with natural wine bars, specialty coffee roasters, and independent galleries joining the mix. What makes Chacarita special is that the gentrification is still early enough that old and new coexist. You'll find a boundary-pushing chef next to a century-old almacén, a natural wine bar across from a traditional carnicería. This tension gives the neighborhood an energy that polished Palermo lost years ago. For expats, Chacarita offers good value — rents are rising but still 30-40% below Palermo. The Subte B line (Federico Lacroze, Dorrego) and the Lacroze train terminal provide excellent connectivity.",
     expatScore: 7,
     rentRange: "$600–$1,100",
     rentLevel: "Mid-Range",
@@ -564,7 +564,7 @@ export const neighborhoods: Neighborhood[] = [
     subteLines: ["B (Federico Lacroze)", "B (Dorrego)"],
     walkability: "Good",
     nightlife: "Good",
-    foodScene: "World-Class",
+    foodScene: "Top-Tier",
     greenSpaces: "Limited",
     bestFor: ["Foodies", "Early adopters", "Creative professionals", "Value seekers"],
     notIdealFor: ["Safety-anxious newcomers", "Families", "Those wanting established expat scene"],
@@ -693,7 +693,7 @@ export const neighborhoods: Neighborhood[] = [
     name: "La Boca",
     city: "Buenos Aires",
     zone: "South",
-    description: "The colorful birthplace of tango and home of Boca Juniors. Iconic for tourists but a complex choice for residents — vibrant culture with significant safety considerations.",
+    description: "The colorful birthplace of tango and home of Boca Juniors. Iconic for tourists but a complex choice for residents — rich culture with significant safety considerations.",
     longDescription: "La Boca is Buenos Aires' most photographed neighborhood thanks to the colorful corrugated-metal houses of Caminito and the legendary La Bombonera stadium. The tango was born here, among Italian immigrant dock workers in the late 19th century, and that working-class heritage still defines the area. For tourists, La Boca is a must-visit. For expats considering living here, it requires careful thought. The tourist area around Caminito (roughly 2-3 blocks) is heavily patrolled and safe during the day. Beyond that perimeter, La Boca is one of Buenos Aires' more challenging neighborhoods, with higher crime rates and infrastructure issues. However, some adventurous expats do live here, drawn by the incredibly low rents, authentic character, and proximity to the river. If you're considering La Boca, stick to the blocks closest to Parque Lezama and San Telmo, avoid walking alone at night beyond Caminito, and visit at different times before committing. The neighborhood does offer genuine charm — local pizzerias, street art beyond the tourist zone, and a community that's proud of its heritage.",
     expatScore: 4,
     rentRange: "$400–$700",
@@ -747,7 +747,7 @@ export const neighborhoods: Neighborhood[] = [
     city: "Mendoza",
     zone: "Mendoza",
     description: "The commercial heart of Argentina's wine capital — a walkable grid of plazas, sidewalk cafes, and affordable living. A compact, sunny city center where everything is within reach on foot.",
-    longDescription: "Centro Mendoza is one of the most pleasant downtown areas in all of Argentina. Rebuilt after a devastating earthquake in 1861, the city was redesigned with wide, tree-lined avenues and a system of five interconnected plazas that provide shade and green space even in the center of town. The result is a compact, walkable grid where daily life is remarkably easy. Plaza Independencia anchors the center — surrounded by cafes, the Hyatt, the modern art museum (MMAMM), and street performers most evenings. The commercial pedestrian street, Sarmiento, buzzes during the day with shops and restaurants. For expats, Centro Mendoza offers a rare combination: genuine affordability, excellent walkability, and a relaxed pace of life that Buenos Aires can't match. Rents are a fraction of Palermo or Recoleta, and the quality of life — sunshine 300+ days a year, mountains visible from every corner, world-class wine a short drive away — is hard to beat. The food scene is centered on regional cuisine: empanadas mendocinas, asado, goat (chivito), and of course wine by the bottle at every restaurant. The main considerations are summer heat (January temperatures often exceed 35°C), limited public transport compared to BA, and a smaller expat community. English is rarely spoken outside tourist-facing businesses, so basic Spanish is essential.",
+    longDescription: "Centro Mendoza is one of the most pleasant downtown areas in all of Argentina. Rebuilt after a devastating earthquake in 1861, the city was redesigned with wide, tree-lined avenues and a system of five interconnected plazas that provide shade and green space even in the center of town. The result is a compact, walkable grid where daily life is remarkably easy. Plaza Independencia anchors the center — surrounded by cafes, the Hyatt, the modern art museum (MMAMM), and street performers most evenings. The commercial pedestrian street, Sarmiento, buzzes during the day with shops and restaurants. For expats, Centro Mendoza offers a rare combination: genuine affordability, excellent walkability, and a relaxed pace of life that Buenos Aires can't match. Rents are a fraction of Palermo or Recoleta, and the quality of life — sunshine 300+ days a year, mountains visible from every corner, exceptional wine a short drive away — is hard to beat. The food scene is centered on regional cuisine: empanadas mendocinas, asado, goat (chivito), and of course wine by the bottle at every restaurant. The main considerations are summer heat (January temperatures often exceed 35°C), limited public transport compared to BA, and a smaller expat community. English is rarely spoken outside tourist-facing businesses, so basic Spanish is essential.",
     expatScore: 7,
     rentRange: "$400–$700",
     rentLevel: "Budget",
@@ -764,7 +764,7 @@ export const neighborhoods: Neighborhood[] = [
       "Walkable city grid with 5 connected plazas",
       "300+ days of sunshine per year",
       "Rents 50-60% cheaper than Buenos Aires",
-      "World-class wineries within 30 min drive",
+      "Acclaimed wineries within 30 min drive",
       "Andes mountain views from the city",
       "Safe, relaxed pace of life"
     ],
@@ -793,8 +793,8 @@ export const neighborhoods: Neighborhood[] = [
     name: "Godoy Cruz",
     city: "Mendoza",
     zone: "Mendoza",
-    description: "Mendoza's vibrant adjacent suburb — a favorite among young professionals for its nightlife strip on Arístides Villanueva, craft beer scene, and lower rents just minutes from downtown.",
-    longDescription: "Godoy Cruz is technically its own municipality, but it blends seamlessly into Mendoza's urban fabric — most people don't notice when they cross from one into the other. The neighborhood has become the go-to area for younger expats and professionals drawn to its combination of affordability, energy, and the famous Arístides Villanueva strip. Avenida Arístides Villanueva is Mendoza's answer to Palermo Hollywood — a 15-block stretch of bars, restaurants, craft breweries, and late-night spots that comes alive every Thursday through Saturday. The energy is fun without being overwhelming, and the prices are a fraction of Buenos Aires equivalents. Beyond the strip, Godoy Cruz is a mix of residential blocks, small plazas, and commercial streets. The housing stock is mostly low-rise apartments and houses, with modern developments going up along the main avenues. Rents here are even lower than Centro Mendoza, making it popular with digital nomads and longer-term expats. The Metrotranvía (Mendoza's light rail) connects Godoy Cruz to the center in about 15 minutes, and the cycling infrastructure is better here than most Argentine cities. The neighborhood also borders some of Mendoza's best parks, including Parque General San Martín to the northwest.",
+    description: "Mendoza's lively adjacent suburb — a favorite among young professionals for its nightlife strip on Arístides Villanueva, craft beer scene, and lower rents just minutes from downtown.",
+    longDescription: "Godoy Cruz is technically its own municipality, but it blends right into Mendoza's urban fabric — most people don't notice when they cross from one into the other. The neighborhood has become the go-to area for younger expats and professionals drawn to its combination of affordability, energy, and the famous Arístides Villanueva strip. Avenida Arístides Villanueva is Mendoza's answer to Palermo Hollywood — a 15-block stretch of bars, restaurants, craft breweries, and late-night spots that comes alive every Thursday through Saturday. The energy is fun without being overwhelming, and the prices are a fraction of Buenos Aires equivalents. Beyond the strip, Godoy Cruz is a mix of residential blocks, small plazas, and commercial streets. The housing stock is mostly low-rise apartments and houses, with modern developments going up along the main avenues. Rents here are even lower than Centro Mendoza, making it popular with digital nomads and longer-term expats. The Metrotranvía (Mendoza's light rail) connects Godoy Cruz to the center in about 15 minutes, and the cycling infrastructure is better here than most Argentine cities. The neighborhood also borders some of Mendoza's best parks, including Parque General San Martín to the northwest.",
     expatScore: 7,
     rentRange: "$350–$600",
     rentLevel: "Budget",
@@ -802,7 +802,7 @@ export const neighborhoods: Neighborhood[] = [
     transport: "Good",
     subteLines: [],
     walkability: "Very Good",
-    nightlife: "Vibrant",
+    nightlife: "Lively",
     foodScene: "Very Good",
     greenSpaces: "Good",
     bestFor: ["Young professionals", "Nightlife lovers", "Budget expats", "Craft beer fans"],
@@ -939,7 +939,7 @@ export const neighborhoods: Neighborhood[] = [
     name: "Nueva Córdoba",
     city: "Córdoba",
     zone: "Córdoba",
-    description: "Argentina's ultimate student quarter — a dense, walkable neighborhood packed with bars, cafes, and young energy. The most vibrant barrio outside Buenos Aires, with nightlife that rivals the capital.",
+    description: "Argentina's ultimate student quarter — a dense, walkable neighborhood packed with bars, cafes, and young energy. The most energetic barrio outside Buenos Aires, with nightlife that rivals the capital.",
     longDescription: "Nueva Córdoba is the beating heart of Argentina's second city, and it runs on the energy of 100,000+ university students. The neighborhood is wedged between the city center and Parque Sarmiento, creating a compact, ultra-walkable grid where everything you need is within a 10-minute stroll. The main arteries — Hipólito Yrigoyen, Chacabuco, and Obispo Trejo — are lined with bars, restaurants, cafes, clothing shops, and service businesses that cater to the student population. The nightlife here is legendary by Argentine standards. The 'Abasto' zone on the neighborhood's northern edge has one of the densest concentrations of bars and clubs in the country, and Thursday through Saturday nights the streets are packed until dawn. During the day, the neighborhood has a different character — students fill the cafes with laptops, the tree-lined streets are pleasant for walking, and Parque Sarmiento offers green space for jogging. For expats, Nueva Córdoba offers BA-level walkability and social life at a fraction of the cost. Rents are remarkably affordable, the food scene is growing rapidly, and the general energy is infectious. The main considerations are noise (it's loud, especially on weekends), the very young demographic (average age is early 20s), and the fact that Córdoba's economy is smaller than BA's — fewer professional networking opportunities. But for remote workers, students, or anyone who thrives on youthful energy, Nueva Córdoba is one of Argentina's best-kept secrets.",
     expatScore: 7,
     rentRange: "$350–$650",
@@ -954,7 +954,7 @@ export const neighborhoods: Neighborhood[] = [
     bestFor: ["Young expats", "Students", "Night owls", "Budget travelers", "Social butterflies"],
     notIdealFor: ["Families", "Light sleepers", "Retirees", "Those seeking quiet"],
     highlights: [
-      "Most vibrant nightlife outside Buenos Aires",
+      "Most active nightlife outside Buenos Aires",
       "Ultra-walkable dense grid",
       "Rents 60-70% cheaper than Palermo",
       "Parque Sarmiento green space",
@@ -987,7 +987,7 @@ export const neighborhoods: Neighborhood[] = [
     city: "Córdoba",
     zone: "Córdoba",
     description: "Córdoba's hipster barrio — craft markets, vintage shops, design studios, and a young creative crowd. The Palermo Soho of the interior, with its own distinct character and far lower prices.",
-    longDescription: "Güemes is what happens when a working-class neighborhood gets discovered by artists, designers, and young creatives — and it's glorious. Located just south of Nueva Córdoba, this compact barrio has transformed over the past decade into Córdoba's most culturally interesting neighborhood. The Feria de Güemes, held every weekend along Calle Belgrano, is one of the most vibrant street markets in Argentina — dozens of blocks of craft stalls, vintage clothing, handmade jewelry, street food, and live music that draws thousands every Saturday and Sunday afternoon. Beyond the market, the neighborhood's streets are lined with independent design shops, vintage stores, tattoo parlors, art galleries, and some of Córdoba's most interesting restaurants and bars. The architecture is a charming mix of old colonial houses and renovated industrial spaces, many now housing creative businesses. For expats, Güemes offers Palermo Soho vibes at interior-city prices. You can rent a characterful apartment in a renovated old house for what a closet-sized studio costs in BA. The creative community is welcoming, the food scene emphasizes local and artisanal, and the general atmosphere is laid-back and unpretentious. The main considerations are infrastructure (some streets are rough, buildings are old) and the weekend market crowds, which can overwhelm the small streets. Safety is generally good but standard precautions apply at the crowded markets.",
+    longDescription: "Güemes is what happens when a working-class neighborhood gets discovered by artists, designers, and young creatives — and it's glorious. Located just south of Nueva Córdoba, this compact barrio has transformed over the past decade into Córdoba's most culturally interesting neighborhood. The Feria de Güemes, held every weekend along Calle Belgrano, is one of the liveliest street markets in Argentina — dozens of blocks of craft stalls, vintage clothing, handmade jewelry, street food, and live music that draws thousands every Saturday and Sunday afternoon. Beyond the market, the neighborhood's streets are lined with independent design shops, vintage stores, tattoo parlors, art galleries, and some of Córdoba's most interesting restaurants and bars. The architecture is a charming mix of old colonial houses and renovated industrial spaces, many now housing creative businesses. For expats, Güemes offers Palermo Soho vibes at interior-city prices. You can rent a characterful apartment in a renovated old house for what a closet-sized studio costs in BA. The creative community is welcoming, the food scene emphasizes local and artisanal, and the general atmosphere is laid-back and unpretentious. The main considerations are infrastructure (some streets are rough, buildings are old) and the weekend market crowds, which can overwhelm the small streets. Safety is generally good but standard precautions apply at the crowded markets.",
     expatScore: 7,
     rentRange: "$300–$550",
     rentLevel: "Budget",
@@ -995,7 +995,7 @@ export const neighborhoods: Neighborhood[] = [
     transport: "Good",
     subteLines: [],
     walkability: "Very Good",
-    nightlife: "Vibrant",
+    nightlife: "Lively",
     foodScene: "Excellent",
     greenSpaces: "Limited",
     bestFor: ["Creatives", "Design lovers", "Market enthusiasts", "Budget-conscious foodies", "Young expats"],

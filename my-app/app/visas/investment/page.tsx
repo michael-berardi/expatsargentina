@@ -128,7 +128,7 @@ const benefitsOfInvesting = [
   },
   {
     title: "Quality of Life",
-    description: "Investors enjoy Argentina's exceptional quality of life: world-class dining, rich culture, beautiful landscapes from Patagonia to the wine country of Mendoza, and a lifestyle that balances work and personal enjoyment in a way that few countries can match.",
+    description: "Investors enjoy Argentina's high quality of life: excellent dining, rich culture, beautiful landscapes from Patagonia to the wine country of Mendoza, and a lifestyle that balances work and personal enjoyment in a way that few countries can match.",
   },
 ];
 
@@ -485,7 +485,7 @@ export default function InvestmentVisaPage() {
                         <strong>Due diligence is non-negotiable.</strong> If acquiring an existing business, thorough due diligence is essential. Tax liabilities, employee obligations, and undisclosed debts can transfer to the new owner. Never complete an acquisition without comprehensive legal and financial review.
                       </li>
                       <li>
-                        <strong>Professional advisors are essential.</strong> Do not attempt to navigate Argentine business and immigration law without qualified professionals. You need an immigration attorney, a business lawyer, and a certified public accountant (contador publico) who have specific experience with foreign investors.
+                        <strong>Professional advisors are essential.</strong> Do not attempt to work through Argentine business and immigration law without qualified professionals. You need an immigration attorney, a business lawyer, and a certified public accountant (contador publico) who have specific experience with foreign investors.
                       </li>
                     </ul>
                   </div>

@@ -230,8 +230,8 @@ export const investmentSectors: InvestmentSector[] = [
     slug: "energy",
     name: "Energy Sector Investment",
     shortName: "Energy",
-    description: "From Vaca Muerta — the world's second-largest shale formation — to world-class wind resources in Patagonia, Argentina's energy sector is undergoing transformation with major investment opportunities.",
-    longDescription: "Argentina's energy sector offers diverse investment opportunities spanning conventional and renewable resources. Vaca Muerta in Neuquén province is the world's second-largest shale gas and fourth-largest shale oil formation — a resource base comparable to the US Permian Basin but largely undeveloped. The Milei government has prioritized Vaca Muerta development, with production growing rapidly and LNG export projects planned. Simultaneously, Argentina has exceptional renewable energy potential: Patagonia has world-class wind resources, the northwest has concentrated solar potential, and the country has significant hydroelectric capacity. The energy transition is creating opportunities in solar, wind, green hydrogen, and battery storage. The government's RIGI program specifically targets energy investments, offering substantial tax incentives for large projects.",
+    description: "From Vaca Muerta — the world's second-largest shale formation — to exceptional wind resources in Patagonia, Argentina's energy sector is undergoing transformation with major investment opportunities.",
+    longDescription: "Argentina's energy sector offers diverse investment opportunities spanning conventional and renewable resources. Vaca Muerta in Neuquén province is the world's second-largest shale gas and fourth-largest shale oil formation — a resource base comparable to the US Permian Basin but largely undeveloped. The Milei government has prioritized Vaca Muerta development, with production growing rapidly and LNG export projects planned. Simultaneously, Argentina has exceptional renewable energy potential: Patagonia has outstanding wind resources, the northwest has concentrated solar potential, and the country has significant hydroelectric capacity. The energy transition is creating opportunities in solar, wind, green hydrogen, and battery storage. The government's RIGI program specifically targets energy investments, offering substantial tax incentives for large projects.",
     marketSize: "$15+ billion annually",
     growthRate: "8-12% (Vaca Muerta); 20%+ (renewables)",
     minInvestment: "$50,000 (small solar); $500+ million (upstream oil & gas)",
@@ -240,7 +240,7 @@ export const investmentSectors: InvestmentSector[] = [
     keyOpportunities: [
       "Vaca Muerta shale oil and gas development",
       "LNG export terminal projects",
-      "Patagonia wind farms (world-class wind resources)",
+      "Patagonia wind farms (some of the strongest sustained winds globally)",
       "Distributed solar generation (residential/commercial)",
       "Green hydrogen production using Patagonia wind",
       "Power transmission infrastructure",
@@ -285,7 +285,7 @@ export const investmentSectors: InvestmentSector[] = [
       },
       {
         question: "What is the renewable energy market like?",
-        answer: "Argentina has exceptional renewable resources — world-class wind in Patagonia, excellent solar in the northwest, and significant hydro. The government runs renewable energy auctions, and the private market for corporate PPAs is growing. Grid access is improving but can be a bottleneck in remote areas."
+        answer: "Argentina has exceptional renewable resources — powerful wind in Patagonia, excellent solar in the northwest, and significant hydro. The government runs renewable energy auctions, and the private market for corporate PPAs is growing. Grid access is improving but can be a bottleneck in remote areas."
       },
       {
         question: "Are there environmental concerns with Vaca Muerta?",

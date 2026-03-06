@@ -903,7 +903,7 @@ export const restaurants: Restaurant[] = [
     goodFor: ["Food enthusiasts", "Special occasions", "Date night"],
     notGoodFor: ["Budget dining", "Quick meal", "Traditionalists"],
     localTip: "Córdoba's answer to modern Argentine dining. The tasting menu showcases local ingredients beautifully.",
-    whyWeLoveIt: "Finally,Córdoba has a world-class contemporary restaurant. Worth the trip from BA.",
+    whyWeLoveIt: "Finally, Córdoba has a top-tier contemporary restaurant. Worth the trip from BA.",
   },
   {
     slug: "la-mamma-cordoba",
