@@ -103,11 +103,11 @@ export default function RootLayout({
           <Analytics />
         </I18nProvider>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-YXXQ5ZQSN2"
+          src="https://www.googletagmanager.com/gtag/js?id=G-VE6YSFCCJH"
           strategy="afterInteractive"
         />
         <Script id="ga4-init" strategy="afterInteractive">
-          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YXXQ5ZQSN2');`}
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-VE6YSFCCJH');`}
         </Script>
         <Script id="lucero-click-tracking" strategy="afterInteractive">
           {`document.addEventListener('click',function(e){var a=e.target.closest('a[href*="lucerolegal"]');if(a){gtag('event','lucero_referral',{link_url:a.href,link_text:a.textContent.trim(),page_path:window.location.pathname});}});`}
