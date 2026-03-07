@@ -42,13 +42,13 @@ export const metadata: Metadata = {
     siteName: "Expats Argentina",
     title: "Expats Argentina | Your Complete Guide to Living in Argentina",
     description: "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina.",
-    images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
+    images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Expats Argentina - Your complete guide to living in Argentina" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Expats Argentina | Your Complete Guide to Living in Argentina",
     description: "Visa guides, cost of living, and expert advice for expats in all 24 provinces of Argentina.",
-    images: ["/images/hero-argentina.webp"],
+    images: ["/images/og-image.png"],
   },
   // Note: canonical URLs should be defined per-page, not in layout
   robots: {
