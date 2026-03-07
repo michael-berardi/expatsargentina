@@ -72,7 +72,7 @@ const applicationSteps = [
   {
     step: 4,
     title: "Pay the Extension Fee",
-    description: "Pay the tourist visa extension fee, currently approximately $100 USD (paid in Argentine pesos at the official exchange rate). Payment is typically made at a bank or through the Migraciones online payment system before your appointment.",
+    description: "Pay the tourist visa extension fee, currently approximately $50 USD (paid in Argentine pesos at the official exchange rate). Payment is typically made at a bank or through the Migraciones online payment system before your appointment.",
   },
   {
     step: 5,
@@ -108,8 +108,8 @@ const faqs = [
     answer: "No, working on a tourist visa is not permitted under Argentine immigration law. This includes both employment with Argentine companies and freelance work for local clients. If you are caught working without proper authorization, you can face fines and potential deportation. If you want to work remotely for foreign companies, consider the Digital Nomad Visa instead. For local employment, you will need a work visa or temporary residency with work authorization.",
   },
   {
-    question: "Do I need travel insurance to enter Argentina?",
-    answer: "Travel insurance is not a strict entry requirement for most tourists entering Argentina, but it is strongly recommended. Argentine public hospitals will treat emergencies for free, but the quality and wait times vary. Private healthcare is excellent but expensive without insurance. Some credit cards include travel insurance coverage. If you plan to extend your stay or participate in adventure activities like skiing, hiking, or white-water rafting, comprehensive travel insurance is especially advisable.",
+    question: "Do I need health insurance to enter Argentina?",
+    answer: "Yes, health insurance is mandatory for tourists entering Argentina, with a minimum coverage of $20,000 USD as required by Decreto 366/2025. You must present proof of valid health insurance at immigration upon entry. Argentine public hospitals will treat emergencies for free, but the quality and wait times vary. Private healthcare is excellent but expensive without insurance. Some credit cards include travel insurance coverage that may meet this requirement, but verify the coverage amount before traveling.",
   },
   {
     question: "Can I enter Argentina multiple times on a tourist visa?",
@@ -188,7 +188,7 @@ export default function TouristVisaPage() {
               </div>
               <div className="flex items-center gap-2">
                 <DollarSignIcon size="sm" className="text-primary" />
-                <span>~$100 extension fee</span>
+                <span>~$50 extension fee</span>
               </div>
               <div className="flex items-center gap-2">
                 <GlobeIcon size="sm" className="text-primary" />
@@ -212,7 +212,7 @@ export default function TouristVisaPage() {
               <div className="text-sm text-muted-foreground">Days Extension</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary">~$100</div>
+              <div className="text-3xl font-bold text-primary">~$50</div>
               <div className="text-sm text-muted-foreground">Extension Fee</div>
             </div>
             <div className="text-center">
@@ -283,7 +283,7 @@ export default function TouristVisaPage() {
                     "Completed extension application form (available at Migraciones)",
                     "Proof of sufficient funds (bank statement, credit cards, or cash declaration)",
                     "Proof of accommodation in Argentina (rental contract, hotel booking, or host letter)",
-                    "Payment receipt for the extension fee (~$100 USD in Argentine pesos)",
+                    "Payment receipt for the extension fee (~$50 USD in Argentine pesos)",
                     "Migraciones appointment confirmation (turno)",
                     "Passport-sized photo (4x4 cm, white background)",
                   ].map((item, index) => (

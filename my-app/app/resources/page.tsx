@@ -307,9 +307,9 @@ const websites = {
       notes: "Often slow. Use early morning for best results. Have patience.",
     },
     {
-      name: "AFIP",
-      url: "https://afip.gob.ar",
-      description: "Tax authority. For getting CUIL/CUIT and tax matters.",
+      name: "ARCA",
+      url: "https://www.arca.gob.ar",
+      description: "Tax authority (formerly AFIP). For getting CUIL/CUIT and tax matters.",
       notes: "You'll need a CUIL for many services. Apply early.",
     },
     {

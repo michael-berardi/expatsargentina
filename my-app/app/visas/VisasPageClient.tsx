@@ -1719,7 +1719,7 @@ export default function VisasPageClient() {
                       <h3 className="font-semibold text-base mb-3">CUIT/CUIL (Tax ID)</h3>
                       <p className="text-muted-foreground">
                         If you plan to work, start a business, or buy property, you&apos;ll need a CUIT 
-                        (Clave Única de Identificación Tributaria). Apply at AFIP offices or online 
+                        (Clave Única de Identificación Tributaria). Apply at ARCA offices or online 
                         once you have your DNI. This is your Argentine tax identification number.
                       </p>
                     </div>

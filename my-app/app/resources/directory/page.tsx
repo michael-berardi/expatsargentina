@@ -151,7 +151,7 @@ const providers: Provider[] = [
     specialty: "Monotributo setup and quarterly tax filings",
     rating: 4,
     website: "https://freelancear.com",
-    notes: "Affordable service for freelancers. Handles AFIP registration and filings.",
+    notes: "Affordable service for freelancers. Handles ARCA registration and filings.",
     verified: "December 2025",
   },
   // Translation

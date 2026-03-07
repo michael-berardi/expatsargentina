@@ -953,7 +953,7 @@ While you can survive on cash and foreign cards, a local account offers:
 ### Getting Your CDI/CUIT
 
 The CDI (Clave de Identificación) is your tax identification number:
-- Apply at AFIP (tax authority) office
+- Apply at ARCA (tax authority) office
 - Or online with a local's help
 - Required for most financial transactions
 - Free to obtain

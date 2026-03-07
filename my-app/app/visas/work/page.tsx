@@ -58,7 +58,7 @@ const applicationSteps = [
   {
     step: 1,
     title: "Secure Employment in Argentina",
-    description: "Find a job with an Argentine employer willing to sponsor your visa. The employer must be a legally constituted entity registered with AFIP (the Argentine tax authority). Larger companies and multinational firms with local offices are the most common sponsors.",
+    description: "Find a job with an Argentine employer willing to sponsor your visa. The employer must be a legally constituted entity registered with ARCA (the Argentine tax authority). Larger companies and multinational firms with local offices are the most common sponsors.",
   },
   {
     step: 2,
@@ -167,7 +167,7 @@ export default function WorkVisaPage() {
               </div>
               <div className="flex items-center gap-2">
                 <DollarSignIcon size="sm" className="text-primary" />
-                <span>~$200-500 in fees</span>
+                <span>~$300 in fees</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircleIcon size="sm" className="text-primary" />
@@ -187,7 +187,7 @@ export default function WorkVisaPage() {
               <div className="text-sm text-muted-foreground">Years Residency</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary">$200-500</div>
+              <div className="text-3xl font-bold text-primary">$300</div>
               <div className="text-sm text-muted-foreground">Total Fees</div>
             </div>
             <div className="text-center">
@@ -295,7 +295,7 @@ export default function WorkVisaPage() {
                     "Police clearance certificate from home country (apostilled)",
                     "Police clearance from any country of residence in the past 5 years",
                     "Signed employment contract with Argentine employer",
-                    "Employer's company registration documents (AFIP enrollment, articles of incorporation)",
+                    "Employer's company registration documents (ARCA enrollment, articles of incorporation)",
                     "Employer's justification letter for hiring a foreign worker",
                     "Educational credentials (apostilled, if relevant to the position)",
                     "Certified Spanish translations of all foreign-language documents",

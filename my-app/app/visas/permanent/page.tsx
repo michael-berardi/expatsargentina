@@ -44,7 +44,7 @@ const requirements = [
   {
     icon: DollarSignIcon,
     title: "Tax Compliance",
-    description: "Proof of registration with AFIP (tax authority) and evidence of tax compliance during your temporary residency period",
+    description: "Proof of registration with ARCA (tax authority) and evidence of tax compliance during your temporary residency period",
   },
   {
     icon: FileTextIcon,
@@ -67,7 +67,7 @@ const applicationSteps = [
   {
     step: 3,
     title: "Prepare Your Tax Documentation",
-    description: "Gather proof of your AFIP registration (constancia de inscripción) and tax compliance. If you are registered under the monotributo regime, show that your payments are up to date. If employed, provide your CUIL documentation. Migraciones wants to see that you have been a responsible taxpayer during your time as a temporary resident.",
+    description: "Gather proof of your ARCA registration (constancia de inscripción) and tax compliance. If you are registered under the monotributo regime, show that your payments are up to date. If employed, provide your CUIL documentation. Migraciones wants to see that you have been a responsible taxpayer during your time as a temporary resident.",
   },
   {
     step: 4,
@@ -321,7 +321,7 @@ export default function PermanentResidencyPage() {
                     "Temporary residency disposition (original or certified copy)",
                     "Argentine criminal background check (Certificado de Antecedentes Penales)",
                     "Home country criminal background check (apostilled and translated)",
-                    "AFIP tax registration proof (constancia de inscripción CUIT/CUIL)",
+                    "ARCA tax registration proof (constancia de inscripción CUIT/CUIL)",
                     "Proof of tax compliance (monotributo payments, tax returns, or employer certification)",
                     "Proof of Argentine address (utility bill or rental contract)",
                     "Passport-sized photos (4x4 cm, white background)",

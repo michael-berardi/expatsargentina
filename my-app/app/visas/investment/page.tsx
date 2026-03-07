@@ -34,7 +34,7 @@ const requirements = [
   {
     icon: DollarSignIcon,
     title: "Qualifying Investment",
-    description: "A verifiable investment in an Argentine business, real estate development, or productive venture. While there is no single fixed minimum, investments of $100,000 USD or more are generally expected to demonstrate seriousness and viability.",
+    description: "A verifiable investment in an Argentine business, real estate development, or productive venture. The minimum investment amount is $150,000 USD to demonstrate seriousness and viability.",
   },
   {
     icon: BriefcaseIcon,
@@ -135,7 +135,7 @@ const benefitsOfInvesting = [
 const faqs = [
   {
     question: "Is there a fixed minimum investment amount?",
-    answer: "Argentine immigration law does not specify a single fixed minimum investment amount for the investor visa. However, in practice, investments of $100,000 USD or more are generally considered sufficient to demonstrate a serious and viable business commitment. Smaller investments may be accepted if the business plan is compelling and the economic activity is demonstrable. The key factors are the legitimacy, viability, and economic contribution of your investment, not solely the dollar amount.",
+    answer: "The minimum investment amount for the investor visa is $150,000 USD. This threshold demonstrates a serious and viable business commitment. The key factors are the legitimacy, viability, and economic contribution of your investment. A compelling business plan and demonstrable economic activity are also important considerations alongside meeting the minimum investment threshold.",
   },
   {
     question: "Does buying property qualify for the investment visa?",
@@ -217,7 +217,7 @@ export default function InvestmentVisaPage() {
               </div>
               <div className="flex items-center gap-2">
                 <DollarSignIcon size="sm" className="text-primary" />
-                <span>$100,000+ investment</span>
+                <span>$150,000 investment</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircleIcon size="sm" className="text-primary" />
@@ -233,8 +233,8 @@ export default function InvestmentVisaPage() {
         <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary">$100K+</div>
-              <div className="text-sm text-muted-foreground">Typical Investment</div>
+              <div className="text-3xl font-bold text-primary">$150K</div>
+              <div className="text-sm text-muted-foreground">Minimum Investment</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">1-3</div>

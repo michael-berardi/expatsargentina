@@ -34,7 +34,7 @@ const requirements = [
   {
     icon: DollarSignIcon,
     title: "Proof of Pension or Retirement Income",
-    description: "Verifiable pension, social security, or retirement income of at least $500 USD per month. Higher income strengthens your application and may expedite processing.",
+    description: "Verifiable pension, social security, or retirement income of at least $1,000-1,500 USD per month. Higher income strengthens your application and may expedite processing.",
   },
   {
     icon: ShieldIcon,
@@ -119,8 +119,8 @@ const faqs = [
     answer: "Government pensions (such as US Social Security, UK State Pension, or equivalent), private pension plans, retirement annuities, and documented investment income all qualify. The key requirement is that the income is regular, verifiable, and originates from outside Argentina. You will need official documentation, such as a benefit verification letter, to prove your income.",
   },
   {
-    question: "Is the $500/month minimum really enough?",
-    answer: "While $500 USD per month is the approximate legal minimum, higher income makes your application stronger and your life in Argentina more comfortable. Most retirees find that $1,500-2,500 per month provides a very comfortable lifestyle in Buenos Aires, including a nice apartment, dining out, and entertainment. Outside Buenos Aires, costs drop even further.",
+    question: "Is the $1,000-1,500/month minimum really enough?",
+    answer: "While $1,000-1,500 USD per month is the realistic minimum for a successful application, higher income makes your application stronger and your life in Argentina more comfortable. Most retirees find that $1,500-2,500 per month provides a very comfortable lifestyle in Buenos Aires, including a nice apartment, dining out, and entertainment. Outside Buenos Aires, costs drop even further.",
   },
   {
     question: "Can I bring my spouse?",
@@ -193,7 +193,7 @@ export default function RetirementVisaPage() {
               </div>
               <div className="flex items-center gap-2">
                 <DollarSignIcon size="sm" className="text-primary" />
-                <span>~$200-400 in fees</span>
+                <span>~$250 in fees</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircleIcon size="sm" className="text-primary" />
@@ -209,11 +209,11 @@ export default function RetirementVisaPage() {
         <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary">$500+</div>
+              <div className="text-3xl font-bold text-primary">$1,000+</div>
               <div className="text-sm text-muted-foreground">Monthly Income Min.</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary">$200-400</div>
+              <div className="text-3xl font-bold text-primary">$250</div>
               <div className="text-sm text-muted-foreground">Application Fees</div>
             </div>
             <div className="text-center">
@@ -243,7 +243,7 @@ export default function RetirementVisaPage() {
               <p className="text-muted-foreground leading-relaxed mt-4">
                 What makes Argentina particularly attractive to retirees is the combination of an
                 exceptionally low cost of living, high quality of life, excellent healthcare, and a
-                welcoming immigration policy. The minimum income requirement of approximately $500 USD
+                welcoming immigration policy. The minimum income requirement of approximately $1,000-1,500 USD
                 per month is among the lowest of any retirement visa program worldwide, making it
                 accessible to retirees who might not qualify for programs in countries like Portugal,
                 Panama, or Costa Rica.

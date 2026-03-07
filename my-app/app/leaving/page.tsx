@@ -107,7 +107,7 @@ const moneyStrategies = [
   {
     method: "Bank Wire (if possible)",
     pros: ["Secure", "Direct to foreign account", "Good for large amounts"],
-    cons: ["Extensive documentation required", "Can take weeks", "AFIP scrutiny"],
+    cons: ["Extensive documentation required", "Can take weeks", "ARCA scrutiny"],
     bestFor: "Those with legal residency and documented income"
   },
   {
@@ -548,7 +548,7 @@ export default function LeavingGuidePage() {
                   <p className="text-amber-800 text-sm">
                     Argentina has strict currency controls and reporting requirements. Taking more than 
                     USD $10,000 (or equivalent) in cash requires declaration. Large wire transfers may 
-                    trigger AFIP scrutiny. When in doubt, consult a certified accountant (contador) 
+                    trigger ARCA scrutiny. When in doubt, consult a certified accountant (contador) 
                     before moving significant sums. The information here is for educational purposes 
                     and not legal advice.
                   </p>

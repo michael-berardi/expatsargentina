@@ -149,128 +149,13 @@ export const nationalitiesBatch5: Nationality[] = [
   },
 
   {
-    slug: "poland",
-    name: "Poland",
-    demonym: "Polish",
-    flag: "🇵🇱",
-    title: "Polish Citizens in Argentina: Complete Immigration Guide",
-    subtitle: "Historical ties, growing community, and EU-Mercosur benefits",
-    description: "Poland and Argentina share deep historical connections through Polish immigration waves. Polish citizens benefit from EU-Mercosur association agreements and find a welcoming community with cultural ties dating back generations.",
-    region: "europe",
-    visaRequirements: {
-      tourist: {
-        duration: "90 days",
-        notes: "Polish citizens enter visa-free with valid passport",
-        reciprocityFee: false,
-        feeAmount: "$0"
-      },
-      digitalNomad: {
-        eligible: true,
-        notes: "Available for Polish remote workers",
-        incomeRequirement: "$1,000-1,500 USD/month"
-      },
-      work: {
-        eligible: true,
-        notes: "Work authorization available through Mercosur association",
-        sponsorshipRequired: false
-      },
-      mercosur: {
-        eligible: true,
-        notes: "Poland has EU-Mercosur association status"
-      }
-    },
-    specialAgreements: {
-      hasAgreement: true,
-      type: "EU-Mercosur Association",
-      description: "Poland benefits from EU-Mercosur association agreements, providing simplified residency and work authorization pathways.",
-      benefits: [
-        "2-year Mercosur residency option",
-        "No visa required for entry",
-        "Work authorization with Mercosur visa",
-        "Path to citizenship after 2 years",
-        "Recognition of professional qualifications"
-      ]
-    },
-    documents: {
-      passportValidity: "6 months beyond stay",
-      criminalRecord: {
-        required: true,
-        apostille: true,
-        notes: "Zaświadczenie o niekaralności with apostille"
-      },
-      birthCertificate: {
-        required: true,
-        apostille: true
-      }
-    },
-    practicalInfo: {
-      currencyExchange: "Polish złoty can be exchanged in Buenos Aires. EUR preferred. Wise popular for transfers.",
-      banking: "Can open accounts with residency. Polish banks have correspondent relationships.",
-      taxTreaty: true,
-      taxTreatyDetails: "Poland-Argentina have tax agreements. Consult accountant.",
-      dualCitizenshipAllowed: true
-    },
-    communityInfo: {
-      populationInArgentina: "15,000-25,000",
-      mainLocations: [
-        "Buenos Aires (Palermo, Belgrano)",
-        "Misiones province",
-        "Chaco province"
-      ],
-      associations: [
-        { name: "Polish-Argentine Association" },
-        { name: "Casa Polaca Buenos Aires" }
-      ],
-      facebookGroups: [
-        "Polish Community Argentina",
-        "Polacy w Buenos Aires"
-      ]
-    },
-    residencyPath: {
-      easiestRoute: "Mercosur Visa (2-year residency)",
-      timeline: "2 years to citizenship eligibility",
-      steps: [
-        "Enter Argentina with Polish passport (90 days visa-free)",
-        "Gather documents including apostilled criminal record",
-        "Apply for Mercosur residency within 90 days",
-        "Receive 2-year temporary residency",
-        "Apply for citizenship after 2 years"
-      ],
-      tips: [
-        "Get criminal record certificate apostilled before leaving Poland",
-        "Polish historical communities in Misiones and Chaco",
-        "Many Polish professionals work in IT and business",
-        "Consider learning Spanish before arrival"
-      ]
-    },
-    faqs: [
-      {
-        question: "Do Polish citizens need a visa for Argentina?",
-        answer: "No visa required for 90 days. Apply for Mercosur residency for longer stays."
-      },
-      {
-        question: "Is there a Polish community in Argentina?",
-        answer: "Yes, established community of 15,000-25,000 with historical presence in Misiones province."
-      }
-    ],
-    relatedResources: [
-      {
-        title: "Mercosur Visa Information",
-        url: "/visas/temporary",
-        description: "EU citizen residency pathway"
-      }
-    ],
-    image: "/images/nationalities/poland.webp"
-  },
-
-  {
     slug: "romania",
     name: "Romania",
     demonym: "Romanian",
     flag: "🇷🇴",
     title: "Romanian Citizens in Argentina: Complete Immigration Guide",
-    subtitle: "EU-Mercosur benefits, Romanian community, and immigration pathways",
-    description: "Romania and Argentina maintain positive diplomatic relations dating back decades. Romanian citizens benefit from EU-Mercosur association agreements, making Argentina an accessible destination for work, study, and residence. A growing Romanian community in Buenos Aires provides support for new arrivals.",
+    subtitle: "Romanian community, visa pathways, and immigration options",
+    description: "Romania and Argentina maintain positive diplomatic relations dating back decades. Romanian citizens enjoy visa-free entry, making Argentina an accessible destination for work, study, and residence. A growing Romanian community in Buenos Aires provides support for new arrivals.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -286,25 +171,21 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       work: {
         eligible: true,
-        notes: "Work authorization through Mercosur association - no employer sponsorship needed",
-        sponsorshipRequired: false
+        notes: "Employer sponsorship required for local employment",
+        sponsorshipRequired: true
       },
       mercosur: {
-        eligible: true,
-        notes: "Romania has EU-Mercosur association status"
+        eligible: false,
+        notes: "Romania is not a Mercosur member or associate state"
       }
     },
     specialAgreements: {
-      hasAgreement: true,
-      type: "EU-Mercosur Association",
-      description: "Romania benefits from EU-Mercosur association agreements providing streamlined residency, work authorization, and path to citizenship.",
+      hasAgreement: false,
+      description: "No special bilateral immigration agreement. Standard third-country residency process applies.",
       benefits: [
-        "2-year Mercosur residency option",
         "No visa required for 90-day entry",
-        "Work authorization without employer sponsorship",
-        "Path to citizenship after 2 years",
-        "Recognition of EU professional qualifications",
-        "Simplified document requirements"
+        "Multiple temporary residency pathways available",
+        "Path to citizenship after 2 years of legal residency"
       ]
     },
     documents: {
@@ -347,12 +228,12 @@ export const nationalitiesBatch5: Nationality[] = [
       ]
     },
     residencyPath: {
-      easiestRoute: "Mercosur Visa (2-year temporary residency)",
+      easiestRoute: "Digital Nomad Visa or Temporary Residency",
       timeline: "30-45 days processing. Citizenship eligibility after 2 years of residency.",
       steps: [
         "Enter Argentina with Romanian passport (90 days visa-free)",
         "Gather required documents including apostilled criminal record",
-        "Apply for Mercosur residency at Dirección Nacional de Migraciones within 90 days",
+        "Apply for temporary residency at Dirección Nacional de Migraciones within 90 days",
         "Submit birth certificate (apostilled) and proof of address",
         "Receive precaria (temporary authorization) while processing",
         "Collect residency card (DNI extranjero) within 30-45 days",
@@ -363,18 +244,18 @@ export const nationalitiesBatch5: Nationality[] = [
         "Romanian community in Buenos Aires offers support and networking",
         "Many Romanian IT professionals find work in Argentine tech sector",
         "Consider Spanish lessons before arrival - essential for daily life",
-        "Mercosur visa gives full work rights without employer sponsorship",
+        "Work visa requires employer sponsorship; Digital Nomad Visa for remote workers",
         "Document translation services available in Buenos Aires if needed"
       ]
     },
     faqs: [
       {
         question: "Do Romanians need a visa for Argentina?",
-        answer: "No, Romanian citizens can enter Argentina visa-free for 90 days. For longer stays, apply for Mercosur residency which provides 2 years of legal residence with full work rights."
+        answer: "No, Romanian citizens can enter Argentina visa-free for 90 days. For longer stays, apply for temporary residency (work, study, or rentista visa)."
       },
       {
         question: "Can Romanians work in Argentina?",
-        answer: "Yes, with the Mercosur visa, Romanians have full work authorization without needing employer sponsorship. You can work for Argentine companies, freelance, or start a business."
+        answer: "Yes, with a work visa (requires employer sponsorship) or by obtaining temporary residency. The Digital Nomad Visa allows remote work for foreign employers."
       },
       {
         question: "Is there a Romanian community in Argentina?",
@@ -382,7 +263,7 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       {
         question: "How long until I can get citizenship?",
-        answer: "After 2 years of legal residency with the Mercosur visa, you can apply for Argentine citizenship. Romania allows dual citizenship, so you can keep your Romanian passport."
+        answer: "After 2 years of legal residency, you can apply for Argentine citizenship. Romania allows dual citizenship, so you can keep your Romanian passport."
       },
       {
         question: "What documents need apostille?",
@@ -395,9 +276,9 @@ export const nationalitiesBatch5: Nationality[] = [
     ],
     relatedResources: [
       {
-        title: "Mercosur Residency Guide",
+        title: "Temporary Residency Guide",
         url: "/visas/temporary",
-        description: "Complete guide to EU citizen residency pathway"
+        description: "Complete guide to residency pathways for Romanian citizens"
       },
       {
         title: "Cost of Living in Buenos Aires",
@@ -419,8 +300,8 @@ export const nationalitiesBatch5: Nationality[] = [
     demonym: "Czech",
     flag: "🇨🇿",
     title: "Czech Citizens in Argentina: Complete Immigration Guide",
-    subtitle: "EU-Mercosur benefits, Czech community, and streamlined immigration",
-    description: "The Czech Republic and Argentina maintain strong diplomatic relations. Czech citizens benefit from EU-Mercosur association agreements, making Argentina an accessible destination for Czech professionals, students, and retirees seeking new opportunities in South America.",
+    subtitle: "Czech community, visa pathways, and immigration options",
+    description: "The Czech Republic and Argentina maintain strong diplomatic relations. Czech citizens enjoy visa-free entry, making Argentina an accessible destination for Czech professionals, students, and retirees seeking new opportunities in South America.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -436,25 +317,21 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       work: {
         eligible: true,
-        notes: "Full work authorization through Mercosur association - no local employer sponsorship required",
-        sponsorshipRequired: false
+        notes: "Employer sponsorship required for local employment",
+        sponsorshipRequired: true
       },
       mercosur: {
-        eligible: true,
-        notes: "Czech Republic has EU-Mercosur association status"
+        eligible: false,
+        notes: "Czech Republic is not a Mercosur member or associate state"
       }
     },
     specialAgreements: {
-      hasAgreement: true,
-      type: "EU-Mercosur Association",
-      description: "Czech citizens benefit from EU-Mercosur association agreements providing streamlined residency pathways and work authorization.",
+      hasAgreement: false,
+      description: "No special bilateral immigration agreement. Standard third-country residency process applies.",
       benefits: [
-        "2-year Mercosur residency option",
         "Visa-free entry for 90 days",
-        "Work authorization without sponsorship",
-        "Path to citizenship after 2 years",
-        "Recognition of professional qualifications",
-        "Simplified bureaucratic procedures"
+        "Multiple temporary residency pathways available",
+        "Path to citizenship after 2 years of legal residency"
       ]
     },
     documents: {
@@ -498,12 +375,12 @@ export const nationalitiesBatch5: Nationality[] = [
       ]
     },
     residencyPath: {
-      easiestRoute: "Mercosur Visa (2-year temporary residency)",
+      easiestRoute: "Digital Nomad Visa or Temporary Residency",
       timeline: "30-45 days processing. Eligible for citizenship after 2 years of residency.",
       steps: [
         "Enter Argentina with Czech passport (90 days visa-free)",
         "Gather required documents including apostilled criminal record",
-        "Apply for Mercosur residency at Dirección Nacional de Migraciones",
+        "Apply for temporary residency at Dirección Nacional de Migraciones",
         "Submit apostilled birth certificate and proof of address",
         "Receive precaria (temporary authorization) allowing legal stay",
         "Collect residency card within 30-45 days",
@@ -514,18 +391,18 @@ export const nationalitiesBatch5: Nationality[] = [
         "Join Czech community Facebook groups for support",
         "Many Czech professionals work in IT, engineering, and business",
         "Start learning Spanish before arrival - essential for integration",
-        "Mercosur visa provides full work rights immediately",
+        "Work visa requires employer sponsorship; Digital Nomad Visa for remote workers",
         "Consider healthcare options - public system available but private recommended"
       ]
     },
     faqs: [
       {
         question: "Do Czech citizens need a visa for Argentina?",
-        answer: "No, Czech citizens can enter visa-free for 90 days. For longer stays, apply for Mercosur residency which provides 2 years of legal residence with work authorization."
+        answer: "No, Czech citizens can enter visa-free for 90 days. For longer stays, apply for temporary residency (work, study, or rentista visa)."
       },
       {
         question: "Can Czechs work in Argentina?",
-        answer: "Yes, the Mercosur visa gives Czech citizens full work rights without employer sponsorship. You can work for Argentine companies, freelance, or start your own business."
+        answer: "Yes, with a work visa (requires employer sponsorship) or by obtaining temporary residency. The Digital Nomad Visa allows remote work for foreign employers."
       },
       {
         question: "Is there a Czech community?",
@@ -533,7 +410,7 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       {
         question: "How long to citizenship?",
-        answer: "After 2 years of legal residency with the Mercosur visa, you can apply for Argentine citizenship. The Czech Republic allows dual citizenship."
+        answer: "After 2 years of legal residency, you can apply for Argentine citizenship. The Czech Republic allows dual citizenship."
       },
       {
         question: "Which documents need apostille?",
@@ -546,9 +423,9 @@ export const nationalitiesBatch5: Nationality[] = [
     ],
     relatedResources: [
       {
-        title: "Mercosur Residency",
+        title: "Temporary Residency",
         url: "/visas/temporary",
-        description: "EU citizen residency pathway"
+        description: "Residency pathway for Czech citizens"
       },
       {
         title: "Digital Nomad Visa",
@@ -570,8 +447,8 @@ export const nationalitiesBatch5: Nationality[] = [
     demonym: "Hungarian",
     flag: "🇭🇺",
     title: "Hungarian Citizens in Argentina: Complete Immigration Guide",
-    subtitle: "EU-Mercosur benefits, Hungarian community, and immigration opportunities",
-    description: "Hungary and Argentina share friendly diplomatic relations. Hungarian citizens benefit from EU-Mercosur association agreements, offering streamlined residency and work pathways. A small Hungarian community in Buenos Aires provides cultural connections for new arrivals.",
+    subtitle: "Hungarian community, visa pathways, and immigration opportunities",
+    description: "Hungary and Argentina share friendly diplomatic relations. Hungarian citizens enjoy visa-free entry and multiple residency pathways. A small Hungarian community in Buenos Aires provides cultural connections for new arrivals.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -587,24 +464,21 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       work: {
         eligible: true,
-        notes: "Work authorization available through Mercosur association",
-        sponsorshipRequired: false
+        notes: "Employer sponsorship required for local employment",
+        sponsorshipRequired: true
       },
       mercosur: {
-        eligible: true,
-        notes: "Hungary has EU-Mercosur association status"
+        eligible: false,
+        notes: "Hungary is not a Mercosur member or associate state"
       }
     },
     specialAgreements: {
-      hasAgreement: true,
-      type: "EU-Mercosur Association",
-      description: "Hungary benefits from EU-Mercosur association agreements providing simplified immigration pathways for Hungarian citizens.",
+      hasAgreement: false,
+      description: "No special bilateral immigration agreement. Standard third-country residency process applies.",
       benefits: [
-        "2-year Mercosur residency available",
         "No visa required for 90-day entry",
-        "Work authorization without employer sponsorship",
-        "Path to citizenship after 2 years",
-        "Recognition of EU professional qualifications"
+        "Multiple temporary residency pathways available",
+        "Path to citizenship after 2 years of legal residency"
       ]
     },
     documents: {
@@ -647,12 +521,12 @@ export const nationalitiesBatch5: Nationality[] = [
       ]
     },
     residencyPath: {
-      easiestRoute: "Mercosur Visa (2-year residency)",
+      easiestRoute: "Digital Nomad Visa or Temporary Residency",
       timeline: "30-45 days processing. Citizenship eligibility after 2 years.",
       steps: [
         "Enter Argentina with Hungarian passport (90 days visa-free)",
         "Gather documents including apostilled criminal record",
-        "Apply for Mercosur residency at migraciones within 90 days",
+        "Apply for temporary residency at migraciones within 90 days",
         "Submit birth certificate (apostilled) and proof of address",
         "Receive precaria (temporary authorization)",
         "Collect residency card within 30-45 days",
@@ -663,18 +537,18 @@ export const nationalitiesBatch5: Nationality[] = [
         "Hungarian community offers support for new arrivals",
         "Many Hungarians work in IT, business, and education",
         "Learn Spanish before arrival - essential for daily life",
-        "Mercosur visa provides immediate work authorization",
+        "Work visa requires employer sponsorship; Digital Nomad Visa for remote workers",
         "Consider private health insurance for better care"
       ]
     },
     faqs: [
       {
         question: "Do Hungarians need a visa for Argentina?",
-        answer: "No, Hungarian citizens can enter visa-free for 90 days. For longer stays, apply for the Mercosur residency which provides 2 years of legal residence with full work rights."
+        answer: "No, Hungarian citizens can enter visa-free for 90 days. For longer stays, apply for temporary residency (work, study, or rentista visa)."
       },
       {
         question: "Can Hungarians work in Argentina?",
-        answer: "Yes, with the Mercosur visa you have full work authorization without needing employer sponsorship. You can work for Argentine companies or start your own business."
+        answer: "Yes, with a work visa (requires employer sponsorship) or by obtaining temporary residency. The Digital Nomad Visa allows remote work for foreign employers."
       },
       {
         question: "Is there a Hungarian community?",
@@ -682,7 +556,7 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       {
         question: "When can I apply for citizenship?",
-        answer: "After 2 years of legal residency with the Mercosur visa, you can apply for Argentine citizenship. Hungary allows dual citizenship."
+        answer: "After 2 years of legal residency, you can apply for Argentine citizenship. Hungary allows dual citizenship."
       },
       {
         question: "What documents need apostille?",
@@ -695,9 +569,9 @@ export const nationalitiesBatch5: Nationality[] = [
     ],
     relatedResources: [
       {
-        title: "Mercosur Residency",
+        title: "Temporary Residency",
         url: "/visas/temporary",
-        description: "EU citizen pathway"
+        description: "Residency pathway for Hungarian citizens"
       },
       {
         title: "Cost of Living Guide",

@@ -43,7 +43,7 @@ export const visaTypes: VisaType[] = [
       "Software developers, designers, marketers working remotely"
     ],
     requirements: {
-      income: "Proof of minimum monthly income (typically $1,000-1,500 USD equivalent)",
+      income: "Proof of minimum $2,500 USD monthly income",
       employment: "Contract or proof of remote employment with foreign company",
       other: [
         "Valid passport (6+ months)",
@@ -53,8 +53,8 @@ export const visaTypes: VisaType[] = [
       ]
     },
     processingTime: "30-45 days",
-    duration: "6 months to 2 years (varies by issuance)",
-    renewability: "Renewable for similar period",
+    duration: "180 days (renewable for additional 180 days)",
+    renewability: "Renewable once for an additional 180 days",
     pathToCitizenship: "Can transition to temporary residency → permanent residency → citizenship after 2 years",
     documents: [
       "Valid passport",
@@ -67,9 +67,9 @@ export const visaTypes: VisaType[] = [
       "Proof of address in Argentina"
     ],
     costs: {
-      governmentFee: "$200-400 USD",
+      governmentFee: "$200 USD",
       legalFees: "$500-1,500 USD (if using lawyer)",
-      totalEstimate: "$700-2,000 USD"
+      totalEstimate: "$700-1,700 USD"
     },
     pros: [
       "Designed specifically for remote workers",
@@ -115,7 +115,7 @@ export const visaTypes: VisaType[] = [
       "Anyone with stable passive income from abroad"
     ],
     requirements: {
-      income: "Proof of minimum $1,500-2,000 USD monthly passive income",
+      income: "Proof of minimum $2,000+ USD monthly passive income",
       other: [
         "Income must be from passive sources (not employment)",
         "Income must be stable and documented",
@@ -138,9 +138,9 @@ export const visaTypes: VisaType[] = [
       "Proof of address in Argentina"
     ],
     costs: {
-      governmentFee: "$300-500 USD",
+      governmentFee: "$250 USD",
       legalFees: "$800-2,000 USD",
-      totalEstimate: "$1,100-2,500 USD"
+      totalEstimate: "$1,050-2,250 USD"
     },
     pros: [
       "No need for employment",
@@ -166,7 +166,7 @@ export const visaTypes: VisaType[] = [
       },
       {
         q: "How do I prove my income?",
-        a: "Bank statements showing regular deposits, contracts, property deeds, pension letters, investment statements - all showing consistent income of at least $1,500-2,000 USD monthly."
+        a: "Bank statements showing regular deposits, contracts, property deeds, pension letters, investment statements - all showing consistent income of at least $2,000+ USD monthly."
       }
     ]
   },
@@ -207,9 +207,9 @@ export const visaTypes: VisaType[] = [
       "Proof of address in Argentina"
     ],
     costs: {
-      governmentFee: "$300-500 USD",
+      governmentFee: "$250 USD",
       legalFees: "$800-2,000 USD",
-      totalEstimate: "$1,100-2,500 USD"
+      totalEstimate: "$1,050-2,250 USD"
     },
     pros: [
       "Lower income threshold than general Rentista",
@@ -259,9 +259,9 @@ export const visaTypes: VisaType[] = [
         "Proof of qualifications/education"
       ]
     },
-    processingTime: "60-90 days",
-    duration: "1-2 years (linked to employment contract)",
-    renewability: "Renewable with continued employment",
+    processingTime: "30-60 days",
+    duration: "1 year (renewable annually)",
+    renewability: "Renewable annually with continued employment",
     pathToCitizenship: "After 2 years, can apply for permanent residency → citizenship",
     documents: [
       "Valid passport",
@@ -274,9 +274,9 @@ export const visaTypes: VisaType[] = [
       "Proof of address"
     ],
     costs: {
-      governmentFee: "$300-500 USD",
+      governmentFee: "$300 USD",
       legalFees: "$1,000-2,500 USD",
-      totalEstimate: "$1,300-3,000 USD"
+      totalEstimate: "$1,300-2,800 USD"
     },
     pros: [
       "Direct path to residency through employment",
@@ -326,8 +326,8 @@ export const visaTypes: VisaType[] = [
         "Proof of accommodation"
       ]
     },
-    processingTime: "30-60 days",
-    duration: "Duration of study program (typically 1-4 years)",
+    processingTime: "20-40 days",
+    duration: "1 year (renewable annually for duration of studies)",
     renewability: "Renewable for continued study",
     pathToCitizenship: "Can transition to work visa after graduation, then to permanent residency",
     documents: [
@@ -341,9 +341,9 @@ export const visaTypes: VisaType[] = [
       "Proof of accommodation"
     ],
     costs: {
-      governmentFee: "$150-300 USD",
+      governmentFee: "$150 USD",
       legalFees: "$500-1,500 USD",
-      totalEstimate: "$650-1,800 USD"
+      totalEstimate: "$650-1,650 USD"
     },
     pros: [
       "Pathway to experience Argentina",
@@ -383,7 +383,7 @@ export const visaTypes: VisaType[] = [
       "Investors in Argentine projects"
     ],
     requirements: {
-      investment: "Minimum investment (amount varies by project type, typically $50,000-150,000 USD)",
+      investment: "Minimum investment of $150,000 USD in productive economic activity",
       other: [
         "Business plan or investment proposal",
         "Proof of funds origin",
@@ -392,8 +392,8 @@ export const visaTypes: VisaType[] = [
         "Proof of address in Argentina"
       ]
     },
-    processingTime: "90-120 days",
-    duration: "1-2 years (renewable)",
+    processingTime: "60-90 days",
+    duration: "1 year (renewable annually)",
     renewability: "Renewable with continued investment",
     pathToCitizenship: "After 2 years, eligible for permanent residency → citizenship",
     documents: [
@@ -407,9 +407,9 @@ export const visaTypes: VisaType[] = [
       "Proof of address"
     ],
     costs: {
-      governmentFee: "$500-1,000 USD",
+      governmentFee: "$500 USD",
       legalFees: "$2,000-5,000 USD",
-      totalEstimate: "$2,500-6,000 USD plus investment amount"
+      totalEstimate: "$2,500-5,500 USD plus investment amount"
     },
     pros: [
       "Direct path for investors",
@@ -432,7 +432,7 @@ export const visaTypes: VisaType[] = [
       },
       {
         q: "Is there a minimum investment amount?",
-        a: "Typically $50,000-150,000 USD, but varies based on project type and economic impact. Consult an immigration lawyer for specific guidance."
+        a: "The minimum is $150,000 USD for the traditional investment visa. A separate Citizenship by Investment pathway (Decreto 524/2025) requires $500,000 USD with fast-track processing. Consult an immigration lawyer for specific guidance."
       }
     ]
   },
@@ -443,10 +443,9 @@ export const visaTypes: VisaType[] = [
     shortName: "Mercosur",
     description: "Mercosur Residency is available to citizens of Mercosur member and associate countries. This is the most advantageous residency option for qualifying nationals, offering streamlined processing and full work rights.",
     whoIsItFor: [
-      "Citizens of Mercosur full members (Argentina, Brazil, Paraguay, Uruguay, Bolivia)",
-      "Citizens of associate members (Chile, Peru, Colombia, Ecuador, Guyana, Suriname)",
-      "EU citizens (through EU-Mercosur association)",
-      "Nationals of countries with Mercosur agreements"
+      "Citizens of Mercosur full members (Brazil, Paraguay, Uruguay, Bolivia)",
+      "Citizens of associate members (Chile, Peru, Colombia, Ecuador)",
+      "Nationals of countries with bilateral Mercosur agreements"
     ],
     requirements: {
       other: [
@@ -457,8 +456,8 @@ export const visaTypes: VisaType[] = [
         "Proof of means of support (flexible requirements)"
       ]
     },
-    processingTime: "30-60 days",
-    duration: "2 years for associates, permanent for full members",
+    processingTime: "7-20 days",
+    duration: "2 years temporary, then permanent",
     renewability: "Renewable, leads to permanent residency",
     pathToCitizenship: "After 2 years, can apply for citizenship",
     documents: [
@@ -469,17 +468,17 @@ export const visaTypes: VisaType[] = [
       "Passport photos"
     ],
     costs: {
-      governmentFee: "$100-300 USD",
+      governmentFee: "$100-150 USD",
       legalFees: "$300-1,000 USD (optional, process is straightforward)",
-      totalEstimate: "$400-1,300 USD"
+      totalEstimate: "$400-1,150 USD"
     },
     pros: [
       "Fastest processing time",
       "Lowest cost",
       "Full work authorization immediately",
       "Simplified requirements",
-      "Full members get immediate permanent residency",
-      "Path to citizenship in 2 years"
+      "Full members receive 2-year temporary residency, convertible to permanent",
+      "Path to citizenship after 2 years of temporary + permanent residency"
     ],
     cons: [
       "Only available to qualifying nationalities",
@@ -488,7 +487,7 @@ export const visaTypes: VisaType[] = [
     faqs: [
       {
         q: "What's the difference between full and associate member benefits?",
-        a: "Full members get immediate permanent residency. Associate members get 2-year temporary residency that can become permanent. Both have work authorization."
+        a: "Both full and associate members receive 2-year temporary residency first, which can then be converted to permanent residency. Full members have a simpler process with fewer requirements. Both have immediate work authorization upon receiving their precaria (provisional certificate)."
       },
       {
         q: "Can I apply if I have dual citizenship with a Mercosur country?",

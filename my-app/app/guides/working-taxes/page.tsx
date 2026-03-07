@@ -171,8 +171,8 @@ export default function WorkingTaxesPage() {
                   Your tax identification code. It looks identical to a CUIL
                   (same format), but it is required for anyone who invoices,
                   freelances, runs a business, or needs to be registered with
-                  AFIP (the Argentine tax authority). To get a CUIT, you
-                  register at an AFIP office with your DNI and proof of address.
+                  ARCA (the Argentine tax authority, formerly AFIP). To get a CUIT, you
+                  register at an ARCA office with your DNI and proof of address.
                   The registration is free and usually processed the same day.
                 </p>
                 <p className="text-muted-foreground">
@@ -224,14 +224,14 @@ export default function WorkingTaxesPage() {
                   Registering for Monotributo
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  You register through the AFIP website (afip.gob.ar) using
+                  You register through the ARCA website (arca.gob.ar) using
                   your CUIT and digital tax key (clave fiscal). The process is
                   online and, once your CUIT is active, can be completed in a
                   single session. You will need to:
                 </p>
                 <ol className="list-decimal pl-6 space-y-2 text-muted-foreground mb-4">
-                  <li>Obtain your clave fiscal (digital tax key) at an AFIP office</li>
-                  <li>Register your economic activity code on the AFIP website</li>
+                  <li>Obtain your clave fiscal (digital tax key) at an ARCA office</li>
+                  <li>Register your economic activity code on the ARCA website</li>
                   <li>Choose your Monotributo category based on projected income</li>
                   <li>Select a healthcare provider (obra social)</li>
                   <li>Begin making monthly payments (via direct debit or manual payment)</li>
@@ -242,7 +242,7 @@ export default function WorkingTaxesPage() {
                 </h3>
                 <p className="text-muted-foreground">
                   As a Monotributista, you issue &quot;Factura C&quot; invoices
-                  through the AFIP online system. These electronic invoices are
+                  through the ARCA online system. These electronic invoices are
                   required for all services you provide. For clients outside
                   Argentina, you issue &quot;Factura E&quot; (export invoices).
                   The system is straightforward once you learn it, and your
@@ -399,7 +399,7 @@ export default function WorkingTaxesPage() {
                   register as a Responsable Inscripto and pay income tax under
                   the general regime. This is a progressive tax with rates
                   ranging from 5% to 35%. Annual tax returns are filed through
-                  the AFIP system, typically due in June for the previous
+                  the ARCA system, typically due in June for the previous
                   calendar year.
                 </p>
 
@@ -423,7 +423,7 @@ export default function WorkingTaxesPage() {
                   prices you see. As a consumer, you pay it on purchases. As a
                   Monotributista, you do not charge separate IVA. If you are a
                   Responsable Inscripto, you charge 21% IVA on invoices and
-                  remit it to AFIP monthly.
+                  remit it to ARCA monthly.
                 </p>
               </section>
 
@@ -477,7 +477,7 @@ export default function WorkingTaxesPage() {
                   will:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-4">
-                  <li>Register you with AFIP and set up your Monotributo or Responsable Inscripto status</li>
+                  <li>Register you with ARCA and set up your Monotributo or Responsable Inscripto status</li>
                   <li>Handle monthly and annual tax filings</li>
                   <li>Advise on the most tax-efficient way to receive foreign income</li>
                   <li>Keep you compliant as regulations change (which happens frequently)</li>

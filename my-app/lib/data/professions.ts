@@ -137,7 +137,7 @@ export const professions: Profession[] = [
     },
     taxConsiderations: [
       "Digital Nomad Visa holders typically don't pay Argentine income tax on foreign earnings",
-      "Local employment requires registration with AFIP (tax authority)",
+      "Local employment requires registration with ARCA (tax authority)",
       "Freelancers may need to register as monotributo (simplified tax regime)",
       "Consult an accountant for long-term stays (183+ days)",
       "Double taxation treaties with many countries"
@@ -204,7 +204,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent designers building a local client base",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -680,7 +680,7 @@ export const professions: Profession[] = [
     workPermitRequirements: [
       "Business plan (for investment visa)",
       "Proof of funds for business operations",
-      "Company registration with AFIP",
+      "Company registration with ARCA",
       "Health insurance",
       "Criminal background check"
     ],
@@ -776,7 +776,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For establishing local translation practice",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -871,7 +871,7 @@ export const professions: Profession[] = [
         timeline: "1-3 months"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent consultants with multiple clients",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -923,7 +923,7 @@ export const professions: Profession[] = [
     },
     taxConsiderations: [
       "Remote work for foreign companies typically not taxed locally",
-      "Local employment requires AFIP registration",
+      "Local employment requires ARCA registration",
       "Freelancers should register under monotributo",
       "Keep detailed records of client payments",
       "Consult accountant for multi-country tax obligations"
@@ -985,7 +985,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent SEO consultants",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -1158,7 +1158,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent VAs building a client portfolio in Argentina",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -1340,7 +1340,7 @@ export const professions: Profession[] = [
     },
     taxConsiderations: [
       "Remote consulting for foreign clients typically not taxed locally under Digital Nomad Visa",
-      "Local consulting requires AFIP registration and tax compliance",
+      "Local consulting requires ARCA registration and tax compliance",
       "Monotributo registration may be suitable for smaller operations",
       "Investment Visa holders must comply with business tax obligations",
       "Professional accounting support strongly recommended for local work",
@@ -1474,7 +1474,7 @@ export const professions: Profession[] = [
     },
     taxConsiderations: [
       "Remote work for foreign clients typically not taxed locally under Digital Nomad Visa",
-      "Advising local clients requires full tax registration with AFIP",
+      "Advising local clients requires full tax registration with ARCA",
       "Personal Asset Tax (PAT) applies to worldwide assets for Argentine residents",
       "Wealth tax ranges from 0.5% to 1.5% on assets above threshold",
       "Professional accounting support essential for local compliance",
@@ -1600,7 +1600,7 @@ export const professions: Profession[] = [
     },
     taxConsiderations: [
       "Remote work for foreign companies typically not taxed locally",
-      "Local employment requires AFIP registration",
+      "Local employment requires ARCA registration",
       "Freelancers should register under monotributo",
       "Stock options may have complex tax implications",
       "Consult accountant for multi-country situations"
@@ -1711,7 +1711,7 @@ export const professions: Profession[] = [
     },
     taxConsiderations: [
       "Remote security work for foreign clients typically not taxed locally",
-      "Local employment requires AFIP registration",
+      "Local employment requires ARCA registration",
       "Freelance security consulting may require monotributo",
       "Keep detailed records for security contract work"
     ],
@@ -1812,7 +1812,7 @@ export const professions: Profession[] = [
     },
     taxConsiderations: [
       "Remote data science work for foreign clients typically not taxed locally",
-      "Local employment requires AFIP registration",
+      "Local employment requires ARCA registration",
       "Freelance consulting may require monotributo",
       "Keep records of all client contracts and payments"
     ],
@@ -1866,7 +1866,7 @@ export const professions: Profession[] = [
         timeline: "1-3 months"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent EAs with multiple executive clients.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -1995,7 +1995,7 @@ export const professions: Profession[] = [
         timeline: "2-4 months"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent bookkeepers and accounting consultants.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -2087,8 +2087,8 @@ export const professions: Profession[] = [
     relatedProfessions: ["financial-advisor", "business-consultant", "virtual-assistant"],
     resources: [
       {
-        title: "AFIP Guide for Expats",
-        url: "/guides/afip",
+        title: "ARCA Guide for Expats",
+        url: "/guides/arca",
         description: "Understanding Argentina's tax authority"
       },
       {
@@ -2127,7 +2127,7 @@ export const professions: Profession[] = [
         timeline: "1-3 months"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent PM consultants serving multiple clients.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -2317,7 +2317,7 @@ export const professions: Profession[] = [
     },
     taxConsiderations: [
       "Remote legal consulting for foreign clients typically not taxed locally under Digital Nomad Visa",
-      "Establishing local practice requires full tax compliance and AFIP registration",
+      "Establishing local practice requires full tax compliance and ARCA registration",
       "Professional services may be subject to specific tax treatments",
       "International tax treaties may affect liability",
       "Professional accountant strongly recommended for compliance",
@@ -2640,7 +2640,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent designers with established client portfolios.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -2766,7 +2766,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent SMMs with established client portfolios.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -2892,7 +2892,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent editors with established client portfolios.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -3025,7 +3025,7 @@ export const professions: Profession[] = [
         timeline: "1-3 months"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent HR consultants serving multiple clients.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -3118,7 +3118,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent copywriters with established portfolios.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -3599,7 +3599,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For independent tutors with established student bases.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -3776,7 +3776,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For established course creators with consistent revenue.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -4492,7 +4492,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For established photographers with client base.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -4577,7 +4577,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For established podcast editors.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -4834,7 +4834,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For established illustrators.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -4917,7 +4917,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For established animators.",
         difficulty: "Moderate",
         timeline: "1-2 months"
@@ -5920,7 +5920,7 @@ export const professions: Profession[] = [
         timeline: "2-4 weeks"
       },
       {
-        name: "Freelancer Visa",
+        name: "Digital Nomad Visa",
         description: "For established coaches with client base.",
         difficulty: "Moderate",
         timeline: "1-2 months"

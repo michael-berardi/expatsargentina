@@ -116,7 +116,7 @@ const faqs = [
   },
   {
     question: "Can I work while studying?",
-    answer: "Yes, student residents in Argentina are permitted to work. Many students work part-time to support themselves. Once you have your DNI, you can be legally employed. Common student jobs include English teaching, hospitality work, and freelance services. Your student visa does not restrict your work hours, but your studies must remain your primary activity.",
+    answer: "Yes, student residents in Argentina are permitted to work, but work hours are limited to 20 hours per week. Many students work part-time to support themselves. Once you have your DNI, you can be legally employed. Common student jobs include English teaching, hospitality work, and freelance services. Your studies must remain your primary activity.",
   },
   {
     question: "How long does the student visa last?",

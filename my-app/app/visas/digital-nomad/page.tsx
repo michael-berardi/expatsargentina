@@ -38,7 +38,7 @@ const requirements = [
   {
     icon: DollarSignIcon,
     title: "Minimum Income",
-    description: "Proof of stable monthly income (approximately $1,500-2,500 USD recommended)",
+    description: "Proof of stable monthly income ($2,500 USD minimum)",
   },
   {
     icon: BuildingIcon,
@@ -66,7 +66,7 @@ const applicationSteps = [
   {
     step: 3,
     title: "Pay the Fee",
-    description: "Pay the visa application fee (approximately $100-150 USD, subject to change).",
+    description: "Pay the visa application fee ($200 USD, subject to change).",
   },
   {
     step: 4,
@@ -83,7 +83,7 @@ const applicationSteps = [
 const faqs = [
   {
     question: "How long is the Digital Nomad Visa valid?",
-    answer: "The Digital Nomad Visa is valid for 180 days (6 months). It cannot be renewed from within Argentina, but you can apply for a different visa type if you wish to stay longer.",
+    answer: "The Digital Nomad Visa is valid for 180 days and is renewable for an additional 180 days. You can apply for the renewal from within Argentina before your initial period expires.",
   },
   {
     question: "Can I bring my family?",
@@ -151,11 +151,11 @@ export default function DigitalNomadVisaPage() {
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <div className="flex items-center gap-2">
                 <ClockIcon size="sm" className="text-primary" />
-                <span>180 days validity</span>
+                <span>180 days (renewable for additional 180 days)</span>
               </div>
               <div className="flex items-center gap-2">
                 <DollarSignIcon size="sm" className="text-primary" />
-                <span>~$100-150 fee</span>
+                <span>$200 fee</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircleIcon size="sm" className="text-primary" />
@@ -175,7 +175,7 @@ export default function DigitalNomadVisaPage() {
               <div className="text-sm text-muted-foreground">Days Valid</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary">$100-150</div>
+              <div className="text-3xl font-bold text-primary">$200</div>
               <div className="text-sm text-muted-foreground">Application Fee</div>
             </div>
             <div className="text-center">

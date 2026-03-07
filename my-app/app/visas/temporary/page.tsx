@@ -97,7 +97,7 @@ const faqs = [
   },
   {
     question: "Can I work with temporary residency?",
-    answer: "Yes, temporary residency grants you the legal right to work in Argentina, whether as an employee (empleado en relación de dependencia) or as a self-employed worker (trabajador autónomo or monotributista). Once you have your DNI, you can obtain a CUIT (tax identification number) from AFIP and begin working legally. You will need to register with the appropriate tax regime (monotributo for freelancers and small businesses, or the general regime for higher-income earners). Note that the specific subcategory of your temporary residency may affect your initial work rights while the application is being processed.",
+    answer: "Yes, temporary residency grants you the legal right to work in Argentina, whether as an employee (empleado en relación de dependencia) or as a self-employed worker (trabajador autónomo or monotributista). Once you have your DNI, you can obtain a CUIT (tax identification number) from ARCA and begin working legally. You will need to register with the appropriate tax regime (monotributo for freelancers and small businesses, or the general regime for higher-income earners). Note that the specific subcategory of your temporary residency may affect your initial work rights while the application is being processed.",
   },
   {
     question: "How long does temporary residency last, and can I renew it?",

@@ -11,8 +11,8 @@ export const nationalitiesBatch8: Nationality[] = [
     demonym: "Greek",
     flag: "🇬🇷",
     title: "Greek Citizens in Argentina: Complete Immigration Guide",
-    subtitle: "Historical ties, EU-Mercosur benefits, and Greek community in Argentina",
-    description: "Greece and Argentina share historical ties through Greek immigration waves. Greek citizens benefit from EU-Mercosur association agreements and find a welcoming community with cultural connections.",
+    subtitle: "Historical ties, Greek community in Argentina, and visa pathways",
+    description: "Greece and Argentina share historical ties through Greek immigration waves. Greek citizens enjoy visa-free entry and find a welcoming community with cultural connections.",
     region: "europe",
     visaRequirements: {
       tourist: {
@@ -28,23 +28,21 @@ export const nationalitiesBatch8: Nationality[] = [
       },
       work: {
         eligible: true,
-        notes: "Work authorization through EU-Mercosur association",
-        sponsorshipRequired: false
+        notes: "Employer sponsorship required for local employment",
+        sponsorshipRequired: true
       },
       mercosur: {
-        eligible: true,
-        notes: "Greece has EU-Mercosur association status"
+        eligible: false,
+        notes: "Greece is not a Mercosur member or associate state"
       }
     },
     specialAgreements: {
-      hasAgreement: true,
-      type: "EU-Mercosur Association",
-      description: "Greece benefits from EU-Mercosur association agreements for streamlined immigration.",
+      hasAgreement: false,
+      description: "No special bilateral immigration agreement. Standard third-country residency process applies.",
       benefits: [
-        "2-year Mercosur residency option",
-        "No visa required for entry",
-        "Work authorization available",
-        "Path to citizenship after 2 years"
+        "No visa required for 90-day entry",
+        "Multiple temporary residency pathways available",
+        "Path to citizenship after 2 years of legal residency"
       ]
     },
     documents: {
@@ -83,13 +81,13 @@ export const nationalitiesBatch8: Nationality[] = [
       ]
     },
     residencyPath: {
-      easiestRoute: "Mercosur Visa (2-year residency)",
+      easiestRoute: "Digital Nomad Visa or Temporary Residency",
       timeline: "2 years to citizenship eligibility",
       steps: [
         "Enter Argentina with Greek passport (90 days visa-free)",
-        "Apply for Mercosur residency within 90 days",
-        "Receive 2-year temporary residency",
-        "Apply for citizenship after 2 years if desired"
+        "Apply for temporary residency (work, study, or rentista visa) within 90 days",
+        "Receive temporary residency",
+        "Apply for citizenship after 2 years of legal residency if desired"
       ],
       tips: [
         "Get criminal record certificate apostilled before leaving Greece",
@@ -102,7 +100,7 @@ export const nationalitiesBatch8: Nationality[] = [
     faqs: [
       {
         question: "Do Greek citizens need a visa for Argentina?",
-        answer: "No visa required for 90 days. Apply for Mercosur residency for longer stays with full work rights."
+        answer: "No visa required for 90 days. Apply for temporary residency for longer stays."
       },
       {
         question: "Is there a Greek community in Argentina?",
@@ -111,9 +109,9 @@ export const nationalitiesBatch8: Nationality[] = [
     ],
     relatedResources: [
       {
-        title: "Mercosur Visa Information",
+        title: "Temporary Residency Information",
         url: "/visas/temporary",
-        description: "EU citizen residency pathway"
+        description: "Residency pathway for Greek citizens"
       },
       {
         title: "Cost of Living Guide",
@@ -123,99 +121,4 @@ export const nationalitiesBatch8: Nationality[] = [
     ],
     image: "/images/nationalities/greece.webp"
   },
-
-  {
-    slug: "ireland",
-    name: "Ireland",
-    demonym: "Irish",
-    flag: "🇮🇪",
-    title: "Irish Citizens in Argentina: Complete Immigration Guide",
-    subtitle: "Historical ties, EU-Mercosur benefits, and Irish-Argentine connections",
-    description: "Ireland and Argentina share deep historical connections through significant Irish immigration. Irish citizens benefit from EU-Mercosur association agreements and find cultural familiarity in Argentina.",
-    region: "europe",
-    visaRequirements: {
-      tourist: {
-        duration: "90 days",
-        notes: "Irish citizens enter visa-free",
-        reciprocityFee: false,
-        feeAmount: "$0"
-      },
-      digitalNomad: {
-        eligible: true,
-        notes: "Popular for Irish remote workers",
-        incomeRequirement: "€1,400-1,800/month"
-      },
-      work: {
-        eligible: true,
-        notes: "Work authorization available",
-        sponsorshipRequired: false
-      },
-      mercosur: {
-        eligible: true,
-        notes: "Ireland has EU-Mercosur association"
-      }
-    },
-    specialAgreements: {
-      hasAgreement: true,
-      type: "EU-Mercosur Association",
-      description: "Ireland benefits from EU-Mercosur agreements"
-    },
-    documents: {
-      passportValidity: "6 months",
-      criminalRecord: {
-        required: true,
-        apostille: true,
-        notes: "Police Certificate from Garda Síochána"
-      },
-      birthCertificate: {
-        required: true,
-        apostille: true
-      }
-    },
-    practicalInfo: {
-      currencyExchange: "Euros easily exchanged. Wise popular.",
-      banking: "Can open accounts with residency.",
-      taxTreaty: true,
-      taxTreatyDetails: "Ireland-Argentina tax treaty",
-      dualCitizenshipAllowed: true
-    },
-    communityInfo: {
-      populationInArgentina: "15,000-25,000 (strong historical ties)",
-      mainLocations: [
-        "Buenos Aires",
-        "Luján (Irish shrine)"
-      ],
-      associations: [
-        { name: "Irish-Argentine Society" }
-      ]
-    },
-    residencyPath: {
-      easiestRoute: "Mercosur Visa",
-      timeline: "2 years to citizenship",
-      steps: [
-        "Enter with Irish passport",
-        "Apply for Mercosur residency",
-        "Receive 2-year temporary residency"
-      ],
-      tips: [
-        "Strong Irish historical influence in Argentina",
-        "Irish pubs and cultural connections",
-        "Get police certificate before departure"
-      ]
-    },
-    faqs: [
-      {
-        question: "Do Irish need a visa?",
-        answer: "No visa for 90 days. Mercosur visa available."
-      }
-    ],
-    relatedResources: [
-      {
-        title: "Mercosur Residency",
-        url: "/visas/temporary",
-        description: "EU citizen pathway"
-      }
-    ],
-    image: "/images/nationalities/ireland.webp"
-  }
 ];

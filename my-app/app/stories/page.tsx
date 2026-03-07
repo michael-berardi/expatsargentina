@@ -387,7 +387,7 @@ const stories = [
       "Our kids go to a public school two blocks away and they're thriving - fully bilingual in Spanish and Portuguese",
     ],
     theBad: [
-      "The AFIP (tax authority) is relentless. The tax system for small businesses is complicated and changes constantly. Our contador earns every peso",
+      "The ARCA (tax authority) is relentless. The tax system for small businesses is complicated and changes constantly. Our contador earns every peso",
       "Supplier prices change weekly. We've had to reprint our menu four times this year alone",
       "The habilitación (business permit) process took 11 months. Eleven. We operated in legal limbo the entire time",
       "Importing Brazilian ingredients is nearly impossible. We source locally and adapt recipes",
