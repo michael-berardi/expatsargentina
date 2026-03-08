@@ -110,7 +110,7 @@ export default function RootLayout({
           {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-VE6YSFCCJH');`}
         </Script>
         <Script id="lucero-click-tracking" strategy="afterInteractive">
-          {`document.addEventListener('click',function(e){var a=e.target.closest('a[href*="lucerolegal"]');if(a){gtag('event','lucero_referral',{link_url:a.href,link_text:a.textContent.trim(),page_path:window.location.pathname});}});`}
+          {`(function(){var base={event_group:'referral',referral_type:'spoke_to_hub',source_site_id:'expats-argentina',source_network_id:'lucero',source_site_role:'spoke',source_segment:'audience-satellite',hub_site_id:'lucero-legal',destination_site_id:'lucero-legal',destination_network_id:'lucero',destination_site_role:'hub',destination_segment:'hub'};function cleanText(value){return (value||'').replace(/\\s+/g,' ').trim().slice(0,120);}document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="lucerolegal"]'):null;if(!a){return;}var data=Object.assign({},base,{link_url:a.href,link_text:cleanText(a.textContent),page_path:window.location.pathname,language:document.documentElement.lang||'en'});if(window.va){window.va('event',{name:'lucero_referral',data:data});}if(window.gtag){window.gtag('event','lucero_referral',data);}});})();`}
         </Script>
       </body>
     </html>
