@@ -50,14 +50,14 @@ export const blogPostsFactOverrides = {
     }
   },
   "complete-guide-digital-nomad-visa-argentina-2026": {
-    "reviewDate": "2026-01-15",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "Everything you need to know about Argentina's digital nomad visa: requirements, application process, costs, and insider tips from successful applicants.",
       "truthSync": {
         "canonicalKey": "blog-post:complete-guide-digital-nomad-visa-argentina-2026",
         "recordId": "expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
-        "reviewDate": "2026-01-15",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }

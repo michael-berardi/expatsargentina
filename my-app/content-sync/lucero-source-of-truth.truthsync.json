@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T12:25:51.594Z",
+  "generatedAt": "2026-03-08T13:50:23.283Z",
   "totals": {
     "surfaces": 13,
     "active": 13,
@@ -166,7 +166,7 @@
       },
       "recordCount": 112,
       "highRiskRecordCount": 112,
-      "reviewDateCount": 0,
+      "reviewDateCount": 83,
       "projectionCount": 3,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts"
@@ -328,7 +328,7 @@
       },
       "recordCount": 3,
       "highRiskRecordCount": 3,
-      "reviewDateCount": 0,
+      "reviewDateCount": 2,
       "projectionCount": 1,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts"

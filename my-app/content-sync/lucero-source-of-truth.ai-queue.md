@@ -1,44 +1,35 @@
 ---
-generated_at: 2026-03-08T12:25:51.594Z
+generated_at: 2026-03-08T13:50:23.283Z
 type: truthsync-ai-queue
-items: 42
+items: 34
 critical: 0
-high: 13
-medium: 29
+high: 2
+medium: 32
 ---
 
 # TruthSync AI Queue
 
 ## Summary
 
-- Queue items: 42
-- Priorities: critical=0 high=13 medium=29
+- Queue items: 34
+- Priorities: critical=0 high=2 medium=32
 - Purpose: deterministic TruthSync handles safe fact patches; this queue targets contextual narrative edits for AI agents.
 
 ## Sites
 
 | Site | Items | Critical | High | Medium |
 | --- | ---: | ---: | ---: | ---: |
-| expatsargentina | 42 | 0 | 13 | 29 |
+| expatsargentina | 34 | 0 | 2 | 32 |
 
 ## Top Queue
 
 | Site | Priority | Mode | Target | Reason | Runtime |
 | --- | --- | --- | --- | --- | --- |
-| expatsargentina | high | contextual-rewrite | complete-guide-digital-nomad-visa-argentina-2026 | [high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/blog.ts |
-| expatsargentina | high | contextual-rewrite | australia | [high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/nationalities.ts |
-| expatsargentina | high | contextual-rewrite | brazil | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | [high/official-mismatch] Citizenship eligibility timeline conflicts with current public guidance | lib/data/nationalities.ts |
-| expatsargentina | high | contextual-rewrite | denmark | [high/official-mismatch] Digital nomad duration conflicts with official guidance | lib/data/nationalities.ts |
-| expatsargentina | high | surface-sweep | nationalities | High-risk surface coverage is incomplete: reviewed=0/112, projected=3/112. | lib/data/nationalities.ts |
-| expatsargentina | high | contextual-rewrite | ireland | [high/official-mismatch] Digital nomad duration conflicts with official guidance | lib/data/nationalities.ts |
-| expatsargentina | high | contextual-rewrite | philippines | [high/official-mismatch] Digital nomad duration conflicts with official guidance | lib/data/nationalities.ts |
-| expatsargentina | high | contextual-rewrite | south-africa | [high/official-mismatch] Digital nomad duration conflicts with official guidance | lib/data/nationalities.ts |
-| expatsargentina | high | contextual-rewrite | course-creator | [high/official-mismatch] Digital nomad duration conflicts with official guidance | lib/data/professions.ts |
+| expatsargentina | high | surface-sweep | nationalities | High-risk surface coverage is incomplete: reviewed=83/112, projected=3/112. | lib/data/nationalities.ts |
 | expatsargentina | high | surface-sweep | professions | High-risk surface coverage is incomplete: reviewed=0/100, projected=1/100. | lib/data/professions.ts |
-| expatsargentina | high | contextual-rewrite | legal-consultant | [high/official-mismatch] Digital nomad duration conflicts with official guidance | lib/data/professions.ts |
-| expatsargentina | high | contextual-rewrite | digital-nomad-vs-work-visa | [high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/visa-comparisons.ts |
-| expatsargentina | high | contextual-rewrite | student-vs-digital-nomad | [high/official-mismatch] Digital nomad duration conflicts with official guidance | [high/official-mismatch] Public-university tuition claim conflicts with 2025 reform baseline | lib/data/visa-comparisons.ts |
+| expatsargentina | medium | contextual-rewrite | complete-guide-digital-nomad-visa-argentina-2026 | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/blog.ts |
 | expatsargentina | medium | surface-sweep | cityComparisons | High-risk surface coverage is incomplete: reviewed=0/7, projected=7/7. | lib/data/comparisons.ts |
+| expatsargentina | medium | contextual-rewrite | australia | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/nationalities.ts |
 | expatsargentina | medium | contextual-rewrite | bolivia | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/nationalities.ts |
 | expatsargentina | medium | contextual-rewrite | canada | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/nationalities.ts |
 | expatsargentina | medium | contextual-rewrite | china | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/nationalities.ts |
@@ -64,6 +55,7 @@ medium: 29
 | expatsargentina | medium | contextual-rewrite | united-kingdom | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/nationalities.ts |
 | expatsargentina | medium | contextual-rewrite | united-states | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/nationalities.ts |
 | expatsargentina | medium | contextual-rewrite | venezuela | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/nationalities.ts |
-| expatsargentina | medium | surface-sweep | visaComparisons | High-risk surface coverage is incomplete: reviewed=0/3, projected=1/3. | lib/data/visa-comparisons.ts |
+| expatsargentina | medium | contextual-rewrite | digital-nomad-vs-work-visa | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/visa-comparisons.ts |
+| expatsargentina | medium | surface-sweep | visaComparisons | High-risk surface coverage is incomplete: reviewed=2/3, projected=1/3. | lib/data/visa-comparisons.ts |
 | expatsargentina | medium | contextual-rewrite | digital-nomad | [medium/unverified-claim] Digital nomad residency pathway claim needs verification | lib/data/visa-types.ts |
 | expatsargentina | medium | surface-sweep | visaTypes | High-risk surface coverage is incomplete: reviewed=0/7, projected=1/7. | lib/data/visa-types.ts |

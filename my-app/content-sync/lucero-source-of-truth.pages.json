@@ -1,0 +1,769 @@
+{
+  "generatedAt": "2026-03-08T13:50:23.283Z",
+  "totals": {
+    "routeFiles": 74,
+    "boundRoutes": 0,
+    "missingBindings": 12,
+    "excludedRoutes": 62,
+    "pages": 0,
+    "activePages": 0,
+    "reviewNeededPages": 0,
+    "aiNeededPages": 0
+  },
+  "sites": [
+    {
+      "siteId": "expatsargentina",
+      "routeFiles": 74,
+      "boundRoutes": 0,
+      "missingBindings": 12,
+      "excludedRoutes": 62,
+      "pages": 0,
+      "activePages": 0,
+      "reviewNeededPages": 0,
+      "aiNeededPages": 0
+    }
+  ],
+  "routes": [
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/",
+      "pageFile": "app/page.tsx",
+      "dynamic": false,
+      "classification": "marketing",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/about",
+      "pageFile": "app/about/page.tsx",
+      "dynamic": false,
+      "classification": "marketing",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/banking",
+      "pageFile": "app/banking/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/blog",
+      "pageFile": "app/blog/page.tsx",
+      "dynamic": false,
+      "classification": "hub",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/blog/[slug]",
+      "pageFile": "app/blog/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/cities",
+      "pageFile": "app/cities/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/cities-services/[city]/[service]",
+      "pageFile": "app/cities-services/[city]/[service]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/cities/[slug]",
+      "pageFile": "app/cities/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/cities/compare",
+      "pageFile": "app/cities/compare/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/cities/compare/[slug]",
+      "pageFile": "app/cities/compare/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/contact",
+      "pageFile": "app/contact/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/cost-of-living",
+      "pageFile": "app/cost-of-living/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/culture",
+      "pageFile": "app/culture/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/expat-profiles",
+      "pageFile": "app/expat-profiles/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/first-30-days",
+      "pageFile": "app/first-30-days/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food",
+      "pageFile": "app/food/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/recipes",
+      "pageFile": "app/food/recipes/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/recipes/[slug]",
+      "pageFile": "app/food/recipes/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/restaurants",
+      "pageFile": "app/food/restaurants/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/restaurants/bariloche",
+      "pageFile": "app/food/restaurants/bariloche/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/restaurants/best-parrillas",
+      "pageFile": "app/food/restaurants/best-parrillas/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/restaurants/buenos-aires",
+      "pageFile": "app/food/restaurants/buenos-aires/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/restaurants/cordoba",
+      "pageFile": "app/food/restaurants/cordoba/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/restaurants/mendoza",
+      "pageFile": "app/food/restaurants/mendoza/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/restaurants/rosario",
+      "pageFile": "app/food/restaurants/rosario/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/food/restaurants/salta",
+      "pageFile": "app/food/restaurants/salta/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/guides/banking",
+      "pageFile": "app/guides/banking/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/guides/getting-dni",
+      "pageFile": "app/guides/getting-dni/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/guides/getting-started",
+      "pageFile": "app/guides/getting-started/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/guides/housing",
+      "pageFile": "app/guides/housing/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/guides/visas",
+      "pageFile": "app/guides/visas/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/guides/working-taxes",
+      "pageFile": "app/guides/working-taxes/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/healthcare",
+      "pageFile": "app/healthcare/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/housing",
+      "pageFile": "app/housing/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/icon-guide",
+      "pageFile": "app/icon-guide/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/investments",
+      "pageFile": "app/investments/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/investments/[slug]",
+      "pageFile": "app/investments/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/learn-spanish",
+      "pageFile": "app/learn-spanish/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/leaving",
+      "pageFile": "app/leaving/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/nationality",
+      "pageFile": "app/nationality/page.tsx",
+      "dynamic": false,
+      "classification": "hub",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/nationality/[slug]",
+      "pageFile": "app/nationality/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/neighborhoods",
+      "pageFile": "app/neighborhoods/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/neighborhoods/[slug]",
+      "pageFile": "app/neighborhoods/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/pet-importation",
+      "pageFile": "app/pet-importation/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/privacy",
+      "pageFile": "app/privacy/page.tsx",
+      "dynamic": false,
+      "classification": "legal",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/profession",
+      "pageFile": "app/profession/page.tsx",
+      "dynamic": false,
+      "classification": "hub",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/profession/[slug]",
+      "pageFile": "app/profession/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/provinces",
+      "pageFile": "app/provinces/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/provinces/[slug]",
+      "pageFile": "app/provinces/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/remote-work",
+      "pageFile": "app/remote-work/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/resources",
+      "pageFile": "app/resources/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/resources/checklist",
+      "pageFile": "app/resources/checklist/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/resources/directory",
+      "pageFile": "app/resources/directory/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/safety",
+      "pageFile": "app/safety/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/site-map",
+      "pageFile": "app/site-map/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/social-life",
+      "pageFile": "app/social-life/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/stories",
+      "pageFile": "app/stories/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/transportation",
+      "pageFile": "app/transportation/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas",
+      "pageFile": "app/visas/page.tsx",
+      "dynamic": false,
+      "classification": "hub",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas-matrix/[type]/[nationality]",
+      "pageFile": "app/visas-matrix/[type]/[nationality]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/citizenship",
+      "pageFile": "app/visas/citizenship/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/compare",
+      "pageFile": "app/visas/compare/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/compare/[slug]",
+      "pageFile": "app/visas/compare/[slug]/page.tsx",
+      "dynamic": true,
+      "classification": "content",
+      "status": "missing-binding",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/digital-nomad",
+      "pageFile": "app/visas/digital-nomad/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/investment",
+      "pageFile": "app/visas/investment/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/permanent",
+      "pageFile": "app/visas/permanent/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/quiz",
+      "pageFile": "app/visas/quiz/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/retirement",
+      "pageFile": "app/visas/retirement/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/student",
+      "pageFile": "app/visas/student/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/temporary",
+      "pageFile": "app/visas/temporary/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/tourist",
+      "pageFile": "app/visas/tourist/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/visas/work",
+      "pageFile": "app/visas/work/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/why-argentina",
+      "pageFile": "app/why-argentina/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    },
+    {
+      "siteId": "expatsargentina",
+      "routePattern": "/wine",
+      "pageFile": "app/wine/page.tsx",
+      "dynamic": false,
+      "classification": "utility",
+      "status": "excluded",
+      "sourceExports": [],
+      "generatedPages": 0
+    }
+  ],
+  "pages": []
+}
