@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-08T11:59:36.569Z",
+  "generatedAt": "2026-03-08T12:20:22.278Z",
   "workspaceRoot": "/Users/libertydesignstudio/dev",
-  "totalCandidates": 81,
-  "ingestedCandidates": 81,
+  "totalCandidates": 80,
+  "ingestedCandidates": 80,
   "uncoveredCandidates": 0,
   "candidates": [
     {
@@ -13,7 +13,9 @@
         "City",
         "Region",
         "regions",
+        "provincesBase",
         "provinces",
+        "citiesBase",
         "cities",
         "getProvinceBySlug",
         "getCityBySlug",
@@ -28,6 +30,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/blog.ts",
       "exports": [
         "BlogPost",
+        "blogPostsBase",
         "blogPosts",
         "getBlogPostBySlug",
         "getFeaturedPosts",
@@ -42,6 +45,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/city-services.ts",
       "exports": [
         "CityService",
+        "cityServicesBase",
         "cityServices",
         "getServiceBySlug",
         "getServicesByCategory",
@@ -54,6 +58,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/comparisons.ts",
       "exports": [
         "CityComparison",
+        "cityComparisonsBase",
         "cityComparisons",
         "getComparisonBySlug",
         "getAllComparisonSlugs",
@@ -66,6 +71,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/investments.ts",
       "exports": [
         "InvestmentSector",
+        "investmentSectorsBase",
         "investmentSectors",
         "getAllSectors",
         "getSectorBySlug",
@@ -79,6 +85,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
       "exports": [
         "Nationality",
+        "nationalitiesBase",
         "nationalities",
         "getNationalityBySlug",
         "getNationalitiesByRegion",
@@ -92,6 +99,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/neighborhoods.ts",
       "exports": [
         "Neighborhood",
+        "neighborhoodsBase",
         "neighborhoods",
         "getNeighborhoodBySlug",
         "getAllNeighborhoodSlugs",
@@ -107,6 +115,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/professions.ts",
       "exports": [
         "Profession",
+        "professionsBase",
         "professions",
         "getProfessionBySlug",
         "getProfessionsByCategory",
@@ -120,6 +129,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/recipes.ts",
       "exports": [
         "Recipe",
+        "recipesBase",
         "recipes",
         "getRecipeBySlug",
         "getAllRecipeSlugs",
@@ -133,6 +143,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/restaurants.ts",
       "exports": [
         "Restaurant",
+        "restaurantsBase",
         "restaurants",
         "getRestaurantBySlug",
         "getAllRestaurantSlugs",
@@ -150,6 +161,7 @@
       "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts",
       "exports": [
         "VisaComparison",
+        "visaComparisonsBase",
         "visaComparisons",
         "getVisaComparisonBySlug",
         "getAllVisaComparisonSlugs"

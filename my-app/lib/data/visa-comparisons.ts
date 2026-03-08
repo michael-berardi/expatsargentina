@@ -21,7 +21,7 @@ export interface VisaComparison {
   };
 }
 
-const visaComparisonsBase: VisaComparison[] = [
+export const visaComparisonsBase: VisaComparison[] = [
   // Comparison 1: Digital Nomad Visa vs Work Visa
   {
     slug: "digital-nomad-vs-work-visa",

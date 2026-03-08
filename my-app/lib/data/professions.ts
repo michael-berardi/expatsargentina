@@ -63,7 +63,7 @@ export interface Profession {
   image: string;
 }
 
-const professionsBase: Profession[] = [
+export const professionsBase: Profession[] = [
   {
     slug: "software-developer",
     name: "Software Developer",

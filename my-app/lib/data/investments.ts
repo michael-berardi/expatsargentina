@@ -27,7 +27,7 @@ export interface InvestmentSector {
   image: string;
 }
 
-const investmentSectorsBase: InvestmentSector[] = [
+export const investmentSectorsBase: InvestmentSector[] = [
   {
     slug: "real-estate",
     name: "Real Estate Investment",

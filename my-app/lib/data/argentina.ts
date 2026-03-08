@@ -69,7 +69,7 @@ export const regions: { name: Region; description: string; color: string }[] = [
 // PROVINCES (24 total: 23 provinces + CABA)
 // ============================================================================
 
-const provincesBase: Province[] = [
+export const provincesBase: Province[] = [
   {
     slug: "buenos-aires-city",
     name: "Buenos Aires (CABA)",
@@ -702,7 +702,7 @@ export const provinces = applyFactOverridesBySlug(provincesBase, provincesFactOv
 // CITIES (Top 15 expat-relevant cities)
 // ============================================================================
 
-const citiesBase: City[] = [
+export const citiesBase: City[] = [
   {
     slug: "buenos-aires",
     name: "Buenos Aires",

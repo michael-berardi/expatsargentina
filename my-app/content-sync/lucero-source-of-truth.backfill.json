@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-08T11:59:36.569Z",
+  "generatedAt": "2026-03-08T12:20:22.278Z",
   "siteId": "expatsargentina",
-  "findingCount": 270,
+  "findingCount": 271,
   "findings": [
     {
       "id": "official-mismatch:expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
@@ -3472,6 +3472,22 @@
       "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it."
     },
     {
+      "id": "unverified-claim:expatsargentina:visa-comparison:digital-nomad-vs-work-visa",
+      "severity": "medium",
+      "category": "unverified-claim",
+      "title": "Digital nomad residency pathway claim needs verification",
+      "detail": "The current official digital nomad page does not present the visa itself as a direct permanent residency or citizenship track.",
+      "siteId": "expatsargentina",
+      "recordId": "expatsargentina:visa-comparison:digital-nomad-vs-work-visa",
+      "canonicalKey": "visa-comparison:digital-nomad-vs-work-visa",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency."
+    },
+    {
       "id": "review-date-missing:expatsargentina:visa-comparison:retirement-vs-investment-visa",
       "severity": "low",
       "category": "review-date-missing",
@@ -3916,18 +3932,11 @@
         "relatedPosts": [
           "best-cities-remote-workers-argentina",
           "cost-living-buenos-aires-2025"
-        ],
-        "truthSync": {
-          "canonicalKey": "blog-post:complete-guide-digital-nomad-visa-argentina-2026",
-          "recordId": "expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
-          "reviewDate": "2026-01-15",
-          "sourceExport": "blogPosts",
-          "sourceUrls": []
-        }
+        ]
       },
       "reviewDate": "2026-01-15",
       "completenessScore": 1,
-      "digest": "f059bf441f0c008c5ea24dc376283efe75b330ddc71dc9643418cf086ee57f5a"
+      "digest": "829b92304693d7594f3db20c783af5b81140417f47f9dd408ae09ca6b2ebdb6d"
     },
     {
       "id": "expatsargentina:comparison:buenos-aires-vs-cordoba",
@@ -4080,17 +4089,10 @@
             "Outdoor lovers",
             "Those who prefer smaller cities"
           ]
-        },
-        "truthSync": {
-          "canonicalKey": "comparison:buenos-aires-vs-cordoba",
-          "recordId": "expatsargentina:comparison:buenos-aires-vs-cordoba",
-          "reviewDate": "unknown",
-          "sourceExport": "cityComparisons",
-          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "1f7dc6aa7ff83c61357d4acb7543fdb1a2b8f329f2933a7204e42337f3e73d49"
+      "digest": "ced9870dea7fb1d23d6c24cde40798fd8b1d059f1eebc8fa7bafe6e2ade6fd7c"
     },
     {
       "id": "expatsargentina:comparison:buenos-aires-vs-mendoza",
@@ -4245,17 +4247,10 @@
             "Retirees",
             "Those seeking tranquility"
           ]
-        },
-        "truthSync": {
-          "canonicalKey": "comparison:buenos-aires-vs-mendoza",
-          "recordId": "expatsargentina:comparison:buenos-aires-vs-mendoza",
-          "reviewDate": "unknown",
-          "sourceExport": "cityComparisons",
-          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "7600285c59f6e5f0ca1ea14c3b090022b97c4fcc511c4a196b18999ce58bf052"
+      "digest": "b6e4aa65fb542a8069f0fa0255a8697370a9a7c3bcd7b68516e2d7ee2a407951"
     },
     {
       "id": "expatsargentina:comparison:mar-del-plata-vs-buenos-aires",
@@ -4416,17 +4411,10 @@
             "Food adventurers",
             "Year-round city energy seekers"
           ]
-        },
-        "truthSync": {
-          "canonicalKey": "comparison:mar-del-plata-vs-buenos-aires",
-          "recordId": "expatsargentina:comparison:mar-del-plata-vs-buenos-aires",
-          "reviewDate": "unknown",
-          "sourceExport": "cityComparisons",
-          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "9e236e4a0dae58c176eeefbfd27034c6a14d8f588b9e24463f233a56ce0c9cbf"
+      "digest": "d7758419c93ab1df6b7ae64b28fa729faddde7c204ab269d2792e9b81bfce640"
     },
     {
       "id": "expatsargentina:comparison:mendoza-vs-bariloche",
@@ -4581,17 +4569,10 @@
             "Seasonal workers",
             "Those seeking dramatic scenery"
           ]
-        },
-        "truthSync": {
-          "canonicalKey": "comparison:mendoza-vs-bariloche",
-          "recordId": "expatsargentina:comparison:mendoza-vs-bariloche",
-          "reviewDate": "unknown",
-          "sourceExport": "cityComparisons",
-          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "2a013915f06467d96689283e58dfa37f7c4cbb75d1d26f7ef63ac186d52e526a"
+      "digest": "bff34f7e5e7d306278a8600c7dc5af4ad456f16b0a4809a8dba2cead40aa3c39"
     },
     {
       "id": "expatsargentina:comparison:rosario-vs-cordoba",
@@ -4748,17 +4729,10 @@
             "Outdoor enthusiasts",
             "Those wanting expat community"
           ]
-        },
-        "truthSync": {
-          "canonicalKey": "comparison:rosario-vs-cordoba",
-          "recordId": "expatsargentina:comparison:rosario-vs-cordoba",
-          "reviewDate": "unknown",
-          "sourceExport": "cityComparisons",
-          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "92b1c89c22a536b6cc14345a9e1334574082b7756376dec73f6a8dad0850c022"
+      "digest": "7613669624996e4635b00bda37eb8aa7bd7014175f34f1aa47e12745132f0c0d"
     },
     {
       "id": "expatsargentina:comparison:salta-vs-cordoba",
@@ -4913,17 +4887,10 @@
             "Those wanting expat community",
             "Tech workers"
           ]
-        },
-        "truthSync": {
-          "canonicalKey": "comparison:salta-vs-cordoba",
-          "recordId": "expatsargentina:comparison:salta-vs-cordoba",
-          "reviewDate": "unknown",
-          "sourceExport": "cityComparisons",
-          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "b6a75c8b0120766a1880e23304353e20b84be58f66fe4359b4eaf73d874e6dbb"
+      "digest": "7555dff619aaa78d3eb5ccb2fed17568f413f5736ed0c23ccc15c417aad7695a"
     },
     {
       "id": "expatsargentina:comparison:ushuaia-vs-bariloche",
@@ -5080,17 +5047,10 @@
             "Chocolate lovers",
             "Those wanting Patagonia with better infrastructure"
           ]
-        },
-        "truthSync": {
-          "canonicalKey": "comparison:ushuaia-vs-bariloche",
-          "recordId": "expatsargentina:comparison:ushuaia-vs-bariloche",
-          "reviewDate": "unknown",
-          "sourceExport": "cityComparisons",
-          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "4291e758eea09c0d4f17cd64f5d5089a561acf74f19660dfa908e5201577d49e"
+      "digest": "f1768d72c8b402ebcd825f5b138b7f04260bf146087e1978440ffddefac16c20"
     },
     {
       "id": "expatsargentina:country:albania",
@@ -10242,9 +10202,9 @@
         {
           "heading": "Tourist Entry",
           "paragraphs": [
-            "Duration: Up to 90 days if the July 2025 U.S.-visa facilitation fits; otherwise use the normal pre-travel route",
-            "Chinese citizens should not assume blanket visa-free entry. Since July 2025, some tourists with the qualifying valid U.S. visa may enter without an Argentine visa or AVE; otherwise confirm the normal pre-travel path for your case.",
-            "Fee: $0 under the facilitation; otherwise consular or AVE costs vary by route"
+            "Duration: 90 days",
+            "Chinese citizens require tourist visa before arrival",
+            "Fee: $150-200 USD"
           ]
         },
         {
@@ -10274,11 +10234,15 @@
           "heading": "Special Agreements",
           "paragraphs": [
             "No Special Agreement",
-            "No blanket tourism waiver. The main recent change is the July 2025 U.S.-visa facilitation for qualifying short-stay travelers."
+            "While China doesn't have a special immigration agreement with Argentina, Chinese citizens benefit from one of the most established Asian communities in Argentina, significant business networks, and growing cultural institutions."
           ],
           "bullets": [
-            "Some short-stay travelers can avoid the Argentine visa and AVE step if they hold the qualifying valid U.S. visa",
-            "Established Chinese community and business networks in Argentina"
+            "Established Chinese community with deep roots",
+            "Strong business networks in trade and import/export",
+            "Chinese supermarkets and restaurants throughout BA",
+            "Chinese-language media and services",
+            "Growing professional opportunities",
+            "Cultural associations and support"
           ]
         },
         {
@@ -10292,7 +10256,7 @@
             "Birth certificate apostille: yes"
           ],
           "bullets": [
-            "If using the 2025 facilitation, carry the qualifying valid U.S. visa and the official Argentine notice",
+            "Visa application (required before arrival)",
             "Proof of means of support",
             "Proof of address in Argentina",
             "For business: commercial documentation"
@@ -10376,10 +10340,10 @@
         "region": "asia",
         "visaRequirements": {
           "tourist": {
-            "duration": "Up to 90 days if the July 2025 U.S.-visa facilitation fits; otherwise use the normal pre-travel route",
-            "notes": "Chinese citizens should not assume blanket visa-free entry. Since July 2025, some tourists with the qualifying valid U.S. visa may enter without an Argentine visa or AVE; otherwise confirm the normal pre-travel path for your case.",
+            "duration": "90 days",
+            "notes": "Chinese citizens require tourist visa before arrival",
             "reciprocityFee": false,
-            "feeAmount": "$0 under the facilitation; otherwise consular or AVE costs vary by route"
+            "feeAmount": "$150-200 USD"
           },
           "digitalNomad": {
             "eligible": true,
@@ -10399,10 +10363,14 @@
         "specialAgreements": {
           "hasAgreement": false,
           "type": "No Special Agreement",
-          "description": "No blanket tourism waiver. The main recent change is the July 2025 U.S.-visa facilitation for qualifying short-stay travelers.",
+          "description": "While China doesn't have a special immigration agreement with Argentina, Chinese citizens benefit from one of the most established Asian communities in Argentina, significant business networks, and growing cultural institutions.",
           "benefits": [
-            "Some short-stay travelers can avoid the Argentine visa and AVE step if they hold the qualifying valid U.S. visa",
-            "Established Chinese community and business networks in Argentina"
+            "Established Chinese community with deep roots",
+            "Strong business networks in trade and import/export",
+            "Chinese supermarkets and restaurants throughout BA",
+            "Chinese-language media and services",
+            "Growing professional opportunities",
+            "Cultural associations and support"
           ]
         },
         "documents": {
@@ -10417,7 +10385,7 @@
             "apostille": true
           },
           "additionalDocs": [
-            "If using the 2025 facilitation, carry the qualifying valid U.S. visa and the official Argentine notice",
+            "Visa application (required before arrival)",
             "Proof of means of support",
             "Proof of address in Argentina",
             "For business: commercial documentation"
@@ -10511,7 +10479,7 @@
         "image": "/images/nationalities/default.webp"
       },
       "completenessScore": 0.9,
-      "digest": "37b80f75bc4c759e4a40d804964333518553e95b15d4220cb414e9d8c5d39c67"
+      "digest": "5499f1bca625c8884945aab0c24c2aba0d5f5d38d0a5e91f6d56606d8368b62f"
     },
     {
       "id": "expatsargentina:country:colombia",
@@ -12148,9 +12116,9 @@
         {
           "heading": "Tourist Entry",
           "paragraphs": [
-            "Duration: Up to 90 days only when the July 2025 U.S.-visa facilitation fits",
-            "Dominican citizens are not blanket visa-free for Argentina. Since July 2025, some tourists with the qualifying valid U.S. visa may enter without an Argentine visa or AVE; otherwise use the normal pre-travel route.",
-            "Fee: $0 under the facilitation; otherwise consular fees vary"
+            "Duration: 90 days (extendable to 180)",
+            "Dominicans enter visa-free with valid passport",
+            "Fee: $0"
           ]
         },
         {
@@ -12173,11 +12141,11 @@
           "heading": "Special Agreements",
           "paragraphs": [
             "No Special Agreement",
-            "No blanket tourism waiver. The main recent change is the July 2025 U.S.-visa facilitation for qualifying short-stay travelers."
+            "Standard immigration process applies"
           ],
           "bullets": [
-            "Qualifying short-stay travelers can avoid the Argentine visa and AVE step when the U.S.-visa facilitation fits",
-            "Shared Spanish still helps with longer-stay document prep and daily integration"
+            "Visa-free entry (90 days)",
+            "Digital nomad visa available"
           ]
         },
         {
@@ -12191,7 +12159,6 @@
             "Birth certificate apostille: yes"
           ],
           "bullets": [
-            "If using the 2025 facilitation, carry the qualifying valid U.S. visa and the official Argentine notice",
             "Proof of accommodation",
             "Health insurance",
             "Proof of income"
@@ -12255,10 +12222,10 @@
         "region": "latin-america",
         "visaRequirements": {
           "tourist": {
-            "duration": "Up to 90 days only when the July 2025 U.S.-visa facilitation fits",
-            "notes": "Dominican citizens are not blanket visa-free for Argentina. Since July 2025, some tourists with the qualifying valid U.S. visa may enter without an Argentine visa or AVE; otherwise use the normal pre-travel route.",
+            "duration": "90 days (extendable to 180)",
+            "notes": "Dominicans enter visa-free with valid passport",
             "reciprocityFee": false,
-            "feeAmount": "$0 under the facilitation; otherwise consular fees vary"
+            "feeAmount": "$0"
           },
           "digitalNomad": {
             "eligible": true,
@@ -12274,10 +12241,10 @@
         "specialAgreements": {
           "hasAgreement": false,
           "type": "No Special Agreement",
-          "description": "No blanket tourism waiver. The main recent change is the July 2025 U.S.-visa facilitation for qualifying short-stay travelers.",
+          "description": "Standard immigration process applies",
           "benefits": [
-            "Qualifying short-stay travelers can avoid the Argentine visa and AVE step when the U.S.-visa facilitation fits",
-            "Shared Spanish still helps with longer-stay document prep and daily integration"
+            "Visa-free entry (90 days)",
+            "Digital nomad visa available"
           ]
         },
         "documents": {
@@ -12292,7 +12259,6 @@
             "apostille": true
           },
           "additionalDocs": [
-            "If using the 2025 facilitation, carry the qualifying valid U.S. visa and the official Argentine notice",
             "Proof of accommodation",
             "Health insurance",
             "Proof of income"
@@ -12343,7 +12309,7 @@
         "image": "/images/nationalities/default.webp"
       },
       "completenessScore": 0.9,
-      "digest": "b001345d02911c3b1dbfe17fd75f63404fd78e02fda4402a126fc4a463c60ddd"
+      "digest": "f41bf04e93a1e6ac220a360abcdd42df96533c6e7b55b6b9ed29e6f435975fe4"
     },
     {
       "id": "expatsargentina:country:ecuador",
@@ -32756,7 +32722,7 @@
           "heading": "Practical Info",
           "paragraphs": [
             "USD is king in Argentina. Bring cash for blue rate exchanges (significantly better than official rate). Use Western Union or cuevas for transfers.",
-            "Open accounts with residency. Many Americans use Wise, Revolut, or US cards initially. The January 14, 2026 Green Card notice is mainly relevant for U.S. permanent residents traveling on another passport, not for U.S. citizens themselves.",
+            "Open accounts with residency. Many Americans use Wise, Revolut, or US cards initially. Some open Argentine accounts after establishing residency.",
             "US-Argentina have tax agreements, but US citizens must still file US taxes (foreign earned income exclusion applies). Consult accountant.",
             "Dual citizenship allowed: yes"
           ]
@@ -32883,7 +32849,7 @@
         },
         "practicalInfo": {
           "currencyExchange": "USD is king in Argentina. Bring cash for blue rate exchanges (significantly better than official rate). Use Western Union or cuevas for transfers.",
-          "banking": "Open accounts with residency. Many Americans use Wise, Revolut, or US cards initially. The January 14, 2026 Green Card notice is mainly relevant for U.S. permanent residents traveling on another passport, not for U.S. citizens themselves.",
+          "banking": "Open accounts with residency. Many Americans use Wise, Revolut, or US cards initially. Some open Argentine accounts after establishing residency.",
           "taxTreaty": true,
           "taxTreatyDetails": "US-Argentina have tax agreements, but US citizens must still file US taxes (foreign earned income exclusion applies). Consult accountant.",
           "dualCitizenshipAllowed": true
@@ -32969,7 +32935,7 @@
         "image": "/images/nationalities/default.webp"
       },
       "completenessScore": 0.9,
-      "digest": "25cdd5dfcb130557415c5b11e80caffe2d084b49352d6f31877d2bb4f5127fdc"
+      "digest": "fc9b3711ce90413d49714465005199944b88c2c2cc2a69162f5cf17bad0cb258"
     },
     {
       "id": "expatsargentina:country:uruguay",
@@ -54276,7 +54242,7 @@
       "kind": "profession",
       "slug": "software-developer",
       "title": "Software Developer Immigration Guide for Argentina",
-      "summary": "Argentina remains a strong base for software developers, but the current digital nomad route should be read as a short transitory residence for foreign remote work rather than as an automatic DNI or long-term residency solution.",
+      "summary": "Argentina's growing tech ecosystem offers excellent opportunities for software developers. From Buenos Aires' startup scene to provincial tech hubs, discover your pathway to living and working as a developer in Argentina.",
       "locales": [
         "en"
       ],
@@ -54307,15 +54273,15 @@
         {
           "heading": "Overview",
           "paragraphs": [
-            "Argentina still works well for developers who earn abroad, want lower burn, and need a sophisticated urban base. The legal distinction that matters in 2026 is that remote developers are usually comparing a short transitory digital nomad route against a real residency category, not comparing two interchangeable long-stay visas."
+            "Argentina has emerged as Latin America's leading tech hub, with Buenos Aires ranking among the top startup ecosystems globally. Software developers are in high demand, with companies actively recruiting international talent. The country offers excellent infrastructure for remote workers, an established tech community, and competitive salaries when earning in foreign currency. Whether you want to work remotely for a US/EU company, join a local startup, or freelance, Argentina provides an ideal base for tech professionals."
           ]
         },
         {
           "heading": "Visa Options",
           "paragraphs": [
-            "Digital Nomad Visa — Best as a short bridge for remote developers working for foreign companies. The current official route is a transitory residence of up to 180 days with a separate extension flow if approved. — Easy — 15-30 days when the file is clean",
-            "Work Visa (Sponsorship) — For developers hired by Argentine companies. This remains the correct route for local employment and longer-term continuity. — Moderate — 1-3 months",
-            "Freelancer/Mercosur Visa — Relevant only for profiles that actually fit those residence bases. Do not use it as a generic substitute for the short digital nomad route. — Moderate — 1-2 months"
+            "Digital Nomad Visa — Perfect for remote developers working for foreign companies. No local employment restrictions. — Easy — 2-4 weeks",
+            "Work Visa (Sponsorship) — For developers hired by Argentine companies. Requires employer sponsorship. — Moderate — 1-3 months",
+            "Freelancer/Mercosur Visa — For independent developers with international clients. Available to Mercosur citizens. — Moderate — 1-2 months"
           ]
         },
         {
@@ -54430,26 +54396,26 @@
         "name": "Software Developer",
         "title": "Software Developer Immigration Guide for Argentina",
         "subtitle": "Visa pathways, remote work options, and tech community connections for developers",
-        "description": "Argentina remains a strong base for software developers, but the current digital nomad route should be read as a short transitory residence for foreign remote work rather than as an automatic DNI or long-term residency solution.",
+        "description": "Argentina's growing tech ecosystem offers excellent opportunities for software developers. From Buenos Aires' startup scene to provincial tech hubs, discover your pathway to living and working as a developer in Argentina.",
         "icon": "Code",
         "category": "tech",
-        "overview": "Argentina still works well for developers who earn abroad, want lower burn, and need a sophisticated urban base. The legal distinction that matters in 2026 is that remote developers are usually comparing a short transitory digital nomad route against a real residency category, not comparing two interchangeable long-stay visas.",
+        "overview": "Argentina has emerged as Latin America's leading tech hub, with Buenos Aires ranking among the top startup ecosystems globally. Software developers are in high demand, with companies actively recruiting international talent. The country offers excellent infrastructure for remote workers, an established tech community, and competitive salaries when earning in foreign currency. Whether you want to work remotely for a US/EU company, join a local startup, or freelance, Argentina provides an ideal base for tech professionals.",
         "visaOptions": [
           {
             "name": "Digital Nomad Visa",
-            "description": "Best as a short bridge for remote developers working for foreign companies. The current official route is a transitory residence of up to 180 days with a separate extension flow if approved.",
+            "description": "Perfect for remote developers working for foreign companies. No local employment restrictions.",
             "difficulty": "Easy",
-            "timeline": "15-30 days when the file is clean"
+            "timeline": "2-4 weeks"
           },
           {
             "name": "Work Visa (Sponsorship)",
-            "description": "For developers hired by Argentine companies. This remains the correct route for local employment and longer-term continuity.",
+            "description": "For developers hired by Argentine companies. Requires employer sponsorship.",
             "difficulty": "Moderate",
             "timeline": "1-3 months"
           },
           {
             "name": "Freelancer/Mercosur Visa",
-            "description": "Relevant only for profiles that actually fit those residence bases. Do not use it as a generic substitute for the short digital nomad route.",
+            "description": "For independent developers with international clients. Available to Mercosur citizens.",
             "difficulty": "Moderate",
             "timeline": "1-2 months"
           }
@@ -54568,7 +54534,7 @@
         "image": "/images/professions/software-developer.webp"
       },
       "completenessScore": 0.9,
-      "digest": "a0de59978935b795fac760c15b5a14d11a72b358ab0b687ec426ee146a2086cc"
+      "digest": "5b121e61213a626ced720c6614aaeec7be1386c1069867a0016f8c8f36dff3fd"
     },
     {
       "id": "expatsargentina:profession:sound-designer",
@@ -58676,7 +58642,7 @@
       "kind": "visa-comparison",
       "slug": "digital-nomad-vs-work-visa",
       "title": "Digital Nomad Visa vs Work Visa",
-      "summary": "Two paths to working in or from Argentina with a sharper legal distinction than many old summaries use. The current digital nomad route is a short transitory residence for foreign remote work, while the Work Visa remains the proper route for local Argentine employment and longer…",
+      "summary": "Two paths to working legally in Argentina with very different requirements. Compare the Digital Nomad Visa for remote workers with the traditional Work Visa for local employment.",
       "locales": [
         "en"
       ],
@@ -58704,8 +58670,8 @@
         {
           "heading": "Description",
           "paragraphs": [
-            "Two paths to working in or from Argentina with a sharper legal distinction than many old summaries use. The current digital nomad route is a short transitory residence for foreign remote work, while the Work Visa remains the proper route for local Argentine employment and longer residence continuity.",
-            "The Digital Nomad route wins only when the plan is foreign remote work plus a short, structured stay and the applicant already fits the tourist-visa-exempt entry rule. The Work Visa remains the correct answer for Argentine employment and for people who need a genuine residency track rather than a short transitory status."
+            "Two paths to working legally in Argentina with very different requirements. Compare the Digital Nomad Visa for remote workers with the traditional Work Visa for local employment.",
+            "The Digital Nomad Visa is the clear winner for remote workers who want a fast, flexible path to living in Argentina without needing a local employer. The Work Visa is essential if you plan to work for an Argentine company and want a direct path to permanent residency. Choose based on whether your income is foreign-sourced or locally employed."
           ]
         },
         {
@@ -58749,7 +58715,7 @@
           "slug": "work"
         },
         "title": "Digital Nomad Visa vs Work Visa",
-        "description": "Two paths to working in or from Argentina with a sharper legal distinction than many old summaries use. The current digital nomad route is a short transitory residence for foreign remote work, while the Work Visa remains the proper route for local Argentine employment and longer residence continuity.",
+        "description": "Two paths to working legally in Argentina with very different requirements. Compare the Digital Nomad Visa for remote workers with the traditional Work Visa for local employment.",
         "seoKeywords": [
           "Argentina digital nomad vs work visa",
           "Argentina work permit comparison",
@@ -58757,7 +58723,7 @@
           "Argentina work visa requirements",
           "best visa for working in Argentina"
         ],
-        "verdict": "The Digital Nomad route wins only when the plan is foreign remote work plus a short, structured stay and the applicant already fits the tourist-visa-exempt entry rule. The Work Visa remains the correct answer for Argentine employment and for people who need a genuine residency track rather than a short transitory status.",
+        "verdict": "The Digital Nomad Visa is the clear winner for remote workers who want a fast, flexible path to living in Argentina without needing a local employer. The Work Visa is essential if you plan to work for an Argentine company and want a direct path to permanent residency. Choose based on whether your income is foreign-sourced or locally employed.",
         "categories": [
           {
             "name": "Processing Time",
@@ -58826,7 +58792,7 @@
         }
       },
       "completenessScore": 0.9,
-      "digest": "f96a65772e8a921c5ac0a0fb15be6d9399115fb4dcae8da6acd7d8ddb87aadf2"
+      "digest": "aa965270cf6427f3b1ba0298055b66fa1d9df7e7726e95750d4c73b46a31e706"
     },
     {
       "id": "expatsargentina:visa-comparison:retirement-vs-investment-visa",
@@ -59150,7 +59116,7 @@
       "kind": "visa-type",
       "slug": "digital-nomad",
       "title": "Digital Nomad Visa (Visa Nómada Digital)",
-      "summary": "Argentina's current digital nomad route is published as a transitory residence for remote workers with foreign activity. It works well for a structured short stay, but it is not the same thing as ordinary temporary residency with DNI by default.",
+      "summary": "Argentina's Digital Nomad Visa allows remote workers employed by foreign companies to live in Argentina legally while working remotely. This is one of the most popular visa options for location-independent professionals.",
       "locales": [
         "en"
       ],
@@ -59171,7 +59137,7 @@
         {
           "heading": "Description",
           "paragraphs": [
-            "Argentina's current digital nomad route is published as a transitory residence for remote workers with foreign activity. It works well for a structured short stay, but it is not the same thing as ordinary temporary residency with DNI by default."
+            "Argentina's Digital Nomad Visa allows remote workers employed by foreign companies to live in Argentina legally while working remotely. This is one of the most popular visa options for location-independent professionals."
           ]
         },
         {
@@ -59188,24 +59154,23 @@
         {
           "heading": "Requirements",
           "paragraphs": [
-            "Income: Proof of foreign income sufficient for the stay. The official service focuses on solvency and remote activity rather than a single published statutory amount.",
+            "Income: Proof of minimum $2,500 USD monthly income",
             "Employment: Contract or proof of remote employment with foreign company"
           ],
           "bullets": [
-            "Applicant must already be in Argentina when filing",
-            "Passport from a country that does not require a tourist visa to enter Argentina",
-            "Proof of remote employment or foreign professional activity",
-            "Foreign documents apostilled or consular-legalized and translated into Spanish when required",
-            "Proof of domicile in Argentina"
+            "Valid passport (6+ months)",
+            "Health insurance with Argentina coverage",
+            "Clean criminal record (apostilled)",
+            "Proof of accommodation in Argentina"
           ]
         },
         {
           "heading": "Timing",
           "paragraphs": [
-            "Processing time: Officially framed as a short-stay transitory residence; real timing depends on appointments and document review",
-            "Duration: Up to 180 days, with a separate prorroga path for another period if approved",
-            "Renewability: Separate in-country prorroga request available while the status is still valid",
-            "Path to citizenship: Not a direct citizenship track by itself. People planning permanent residency usually compare a different residence category before this status expires."
+            "Processing time: 30-45 days",
+            "Duration: 180 days (renewable for additional 180 days)",
+            "Renewability: Renewable once for an additional 180 days",
+            "Path to citizenship: Can transition to temporary residency → permanent residency → citizenship after 2 years"
           ]
         },
         {
@@ -59255,9 +59220,9 @@
         {
           "heading": "FAQs",
           "paragraphs": [
-            "Can I work for an Argentine company with this status? — No. The published digital nomad route is built around foreign remote work, not local Argentine employment.",
-            "Does this automatically put me on a DNI or citizenship path? — No. It is a transitory residence product for a limited stay. If you want a long-term residence strategy, compare the next category before the nomad status expires.",
-            "Do I need to be in Argentina to apply? — Yes. The official service is structured as an in-country filing flow."
+            "Can I work for an Argentine company with this visa? — No, the Digital Nomad Visa is specifically for remote work for foreign companies. To work for an Argentine employer, you would need a different visa type.",
+            "What happens if I lose my remote job while on this visa? — You would need to either find new remote employment quickly or switch to another visa type. It's important to maintain the conditions of your visa.",
+            "Can I bring my family? — Family reunification is possible but requires separate applications for spouse and children."
           ]
         }
       ],
@@ -59265,7 +59230,7 @@
         "slug": "digital-nomad",
         "name": "Digital Nomad Visa (Visa Nómada Digital)",
         "shortName": "Digital Nomad",
-        "description": "Argentina's current digital nomad route is published as a transitory residence for remote workers with foreign activity. It works well for a structured short stay, but it is not the same thing as ordinary temporary residency with DNI by default.",
+        "description": "Argentina's Digital Nomad Visa allows remote workers employed by foreign companies to live in Argentina legally while working remotely. This is one of the most popular visa options for location-independent professionals.",
         "whoIsItFor": [
           "Remote workers employed by foreign companies",
           "Freelancers with international clients",
@@ -59274,20 +59239,19 @@
           "Software developers, designers, marketers working remotely"
         ],
         "requirements": {
-          "income": "Proof of foreign income sufficient for the stay. The official service focuses on solvency and remote activity rather than a single published statutory amount.",
+          "income": "Proof of minimum $2,500 USD monthly income",
           "employment": "Contract or proof of remote employment with foreign company",
           "other": [
-            "Applicant must already be in Argentina when filing",
-            "Passport from a country that does not require a tourist visa to enter Argentina",
-            "Proof of remote employment or foreign professional activity",
-            "Foreign documents apostilled or consular-legalized and translated into Spanish when required",
-            "Proof of domicile in Argentina"
+            "Valid passport (6+ months)",
+            "Health insurance with Argentina coverage",
+            "Clean criminal record (apostilled)",
+            "Proof of accommodation in Argentina"
           ]
         },
-        "processingTime": "Officially framed as a short-stay transitory residence; real timing depends on appointments and document review",
-        "duration": "Up to 180 days, with a separate prorroga path for another period if approved",
-        "renewability": "Separate in-country prorroga request available while the status is still valid",
-        "pathToCitizenship": "Not a direct citizenship track by itself. People planning permanent residency usually compare a different residence category before this status expires.",
+        "processingTime": "30-45 days",
+        "duration": "180 days (renewable for additional 180 days)",
+        "renewability": "Renewable once for an additional 180 days",
+        "pathToCitizenship": "Can transition to temporary residency → permanent residency → citizenship after 2 years",
         "documents": [
           "Valid passport",
           "Proof of remote employment/income",
@@ -59319,21 +59283,21 @@
         ],
         "faqs": [
           {
-            "q": "Can I work for an Argentine company with this status?",
-            "a": "No. The published digital nomad route is built around foreign remote work, not local Argentine employment."
+            "q": "Can I work for an Argentine company with this visa?",
+            "a": "No, the Digital Nomad Visa is specifically for remote work for foreign companies. To work for an Argentine employer, you would need a different visa type."
           },
           {
-            "q": "Does this automatically put me on a DNI or citizenship path?",
-            "a": "No. It is a transitory residence product for a limited stay. If you want a long-term residence strategy, compare the next category before the nomad status expires."
+            "q": "What happens if I lose my remote job while on this visa?",
+            "a": "You would need to either find new remote employment quickly or switch to another visa type. It's important to maintain the conditions of your visa."
           },
           {
-            "q": "Do I need to be in Argentina to apply?",
-            "a": "Yes. The official service is structured as an in-country filing flow."
+            "q": "Can I bring my family?",
+            "a": "Family reunification is possible but requires separate applications for spouse and children."
           }
         ]
       },
       "completenessScore": 0.9,
-      "digest": "135a78e2ca516ae2d7eaa92a22031a09acd1e41ce2defe47d0e4c1299068bf00"
+      "digest": "6018bda9ca09b1ebfa5ff486f8a78a7d2fe8a2a27ed27a1eee812e1f58d02245"
     },
     {
       "id": "expatsargentina:visa-type:investment",

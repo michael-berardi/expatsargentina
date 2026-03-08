@@ -31,7 +31,7 @@ export interface Recipe {
   fat?: number;
 }
 
-const recipesBase: Recipe[] = [
+export const recipesBase: Recipe[] = [
   {
     slug: "empanadas",
     name: "Argentine Empanadas",

@@ -26,7 +26,7 @@ export interface BlogPost {
   relatedPosts?: string[];
 }
 
-const blogPostsBase: BlogPost[] = [
+export const blogPostsBase: BlogPost[] = [
   {
     slug: "complete-guide-digital-nomad-visa-argentina-2026",
     title: "The Complete Guide to Argentina's Digital Nomad Visa in 2026",

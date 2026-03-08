@@ -37,7 +37,7 @@ export interface Neighborhood {
   keyFacts: { label: string; value: string }[];
 }
 
-const neighborhoodsBase: Neighborhood[] = [
+export const neighborhoodsBase: Neighborhood[] = [
   {
     slug: "palermo-soho",
     name: "Palermo Soho",

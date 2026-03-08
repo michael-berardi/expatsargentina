@@ -110,7 +110,7 @@ export interface Nationality {
   image: string;
 }
 
-const nationalitiesBase: Nationality[] = [
+export const nationalitiesBase: Nationality[] = [
   // URUGUAY - Full Featured Entry (Template Quality)
   {
     slug: "uruguay",

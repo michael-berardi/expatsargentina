@@ -23,7 +23,7 @@ export interface CityComparison {
   };
 }
 
-const cityComparisonsBase: CityComparison[] = [
+export const cityComparisonsBase: CityComparison[] = [
   // Comparison 1: Buenos Aires vs Mendoza
   {
     slug: "buenos-aires-vs-mendoza",

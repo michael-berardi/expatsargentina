@@ -19,7 +19,7 @@ export interface CityService {
   faqs: { q: string; a: string }[];
 }
 
-const cityServicesBase: CityService[] = [
+export const cityServicesBase: CityService[] = [
   // IMMIGRATION SERVICES
   {
     slug: "immigration-offices",

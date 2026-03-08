@@ -32,7 +32,7 @@ export interface VisaType {
   faqs: { q: string; a: string }[];
 }
 
-const visaTypesBase: VisaType[] = [
+export const visaTypesBase: VisaType[] = [
   {
     slug: "digital-nomad",
     name: "Digital Nomad Visa (Visa Nómada Digital)",

@@ -34,7 +34,7 @@ export interface Restaurant {
   };
 }
 
-const restaurantsBase: Restaurant[] = [
+export const restaurantsBase: Restaurant[] = [
   // Top Parrillas (Steakhouses)
   {
     slug: "don-julio",
