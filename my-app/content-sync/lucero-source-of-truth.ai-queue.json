@@ -1,0 +1,1258 @@
+{
+  "generatedAt": "2026-03-08T12:25:51.594Z",
+  "totals": {
+    "items": 42,
+    "critical": 0,
+    "high": 13,
+    "medium": 29
+  },
+  "sites": [
+    {
+      "siteId": "expatsargentina",
+      "items": 42,
+      "critical": 0,
+      "high": 13,
+      "medium": 29
+    }
+  ],
+  "items": [
+    {
+      "id": "record:expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "blogPosts",
+      "title": "The Complete Guide to Argentina's Digital Nomad Visa in 2026",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it. Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/blog.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/blog.ts",
+      "recordId": "expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
+      "canonicalKey": "blog-post:complete-guide-digital-nomad-visa-argentina-2026",
+      "slug": "complete-guide-digital-nomad-visa-argentina-2026",
+      "reviewDate": "2026-01-15",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Everything you need to know about Argentina's digital nomad visa: requirements, application process, costs, and insider tips from successful applicants.",
+        "The Complete Guide to Argentina's Digital Nomad Visa in 2026",
+        "Argentina has emerged as one of the most attractive destinations for digital nomads in South America, and the Digital Nomad Visa introduced in recent years has made it easier than ever to live and work remotely from this dynamic country.",
+        "What is the Digital Nomad Visa?",
+        "The Digital Nomad Visa allows remote workers employed by companies outside Argentina, or self-employed freelancers with international clients, to legally reside in Argentina for up to 12 months (renewable for another 12 months).",
+        "Key Requirements"
+      ],
+      "prompt": "Update the expatsargentina blogPosts record \"The Complete Guide to Argentina's Digital Nomad Visa in 2026\" contextually without changing tone or layout. Work in lib/data/blog.ts and target slug complete-guide-digital-nomad-visa-argentina-2026. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Everything you need to know about Argentina's digital nomad visa: requirements, application process, costs, and insider tips from successful applicants. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it. Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 2
+    },
+    {
+      "id": "record:expatsargentina:country:australia",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Australia",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it. Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:australia",
+      "canonicalKey": "country:australia",
+      "slug": "australia",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Australians enjoy working holiday agreements and a growing digital nomad community. Favorable exchange rates make Argentina attractive for those with AUD income.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Australians enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Australia\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug australia. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Australians enjoy working holiday agreements and a growing digital nomad community. Favorable exchange rates make Argentina attractive for those with AUD income. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it. Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 2
+    },
+    {
+      "id": "record:expatsargentina:country:brazil",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Brazil",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification | [high/official-mismatch] Citizenship eligibility timeline conflicts with current public guidance",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency. Rewrite citizenship timing around the current Migraciones filing baseline and remove permanent-first or four-year formulas unless a newer official source clearly supersedes them.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:brazil",
+      "canonicalKey": "country:brazil",
+      "slug": "brazil",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/noticias/ahora-el-tramite-de-ciudadania-argentina-se-podra-hacer-de-forma-digital-en-migraciones",
+        "https://www.argentina.gob.ar/servicio/obtener-la-ciudadania-argentina"
+      ],
+      "evidence": [
+        "Brazilians enjoy easiest immigration as founding Mercosur members. 2-year temporary residency, which can be converted to permanent residency after the 2-year period, and the largest foreign community.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Brazilians enter visa-free with passport or national ID",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Brazil\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug brazil. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Brazilians enjoy easiest immigration as founding Mercosur members. 2-year temporary residency, which can be converted to permanent residency after the 2-year period, and the largest foreign community. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification | [high/official-mismatch] Citizenship eligibility timeline conflicts with current public guidance Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency. Rewrite citizenship timing around the current Migraciones filing baseline and remove permanent-first or four-year formulas unless a newer official source clearly supersedes them.",
+      "findingCount": 2
+    },
+    {
+      "id": "record:expatsargentina:country:denmark",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Denmark",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:denmark",
+      "canonicalKey": "country:denmark",
+      "slug": "denmark",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Danes bring design sensibility and sustainability focus to Argentina. Visa-free entry and affordable living with a community in Buenos Aires for professionals.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Danes enter visa-free with valid passport.",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Denmark\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug denmark. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Danes bring design sensibility and sustainability focus to Argentina. Visa-free entry and affordable living with a community in Buenos Aires for professionals. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "findingCount": 1
+    },
+    {
+      "id": "surface:expatsargentina:nationalities",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "surface-sweep",
+      "sourceExport": "nationalities",
+      "title": "expatsargentina.nationalities",
+      "reason": "High-risk surface coverage is incomplete: reviewed=0/112, projected=3/112.",
+      "recommendedAction": "Have an AI agent sweep this surface route-by-route, verify claims against primary sources, and draft contextual micro-edits where deterministic fact patches stop.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "officialSourceUrls": [],
+      "evidence": [
+        "albania",
+        "andorra",
+        "argentina",
+        "armenia",
+        "australia"
+      ],
+      "prompt": "Sweep the expatsargentina nationalities surface contextually without changing site tone. Work in lib/data/nationalities.ts and review sample slugs albania, andorra, argentina, armenia, australia. The deterministic TruthSync layer already handles safe fact patches. Use AI judgment only for contextual narrative updates and claim cleanup. High-risk surface coverage is incomplete: reviewed=0/112, projected=3/112.",
+      "findingCount": 0,
+      "recordCount": 112,
+      "reviewedCount": 0,
+      "projectedCount": 3,
+      "sampleSlugs": [
+        "albania",
+        "andorra",
+        "argentina",
+        "armenia",
+        "australia"
+      ]
+    },
+    {
+      "id": "record:expatsargentina:country:ireland",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Ireland",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:ireland",
+      "canonicalKey": "country:ireland",
+      "slug": "ireland",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Irish citizens enjoy working holiday agreements and visa-free travel. Deep historical ties with Argentina, home to the fifth-largest Irish diaspora globally.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Irish citizens enter visa-free. Extensions available at migraciones.",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Ireland\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug ireland. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Irish citizens enjoy working holiday agreements and visa-free travel. Deep historical ties with Argentina, home to the fifth-largest Irish diaspora globally. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:philippines",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Philippines",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:philippines",
+      "canonicalKey": "country:philippines",
+      "slug": "philippines",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "The Filipino community in Argentina is small but growing, particularly in healthcare, services, and domestic work. Filipinos are valued for their English proficiency, strong work ethic, and cultural adaptability.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Filipinos need a tourist visa before travel. Apply at Argentine embassy.",
+        "Fee: $150-200 USD"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Philippines\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug philippines. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: The Filipino community in Argentina is small but growing, particularly in healthcare, services, and domestic work. Filipinos are valued for their English proficiency, strong work ethic, and cultural adaptability. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:south-africa",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "South Africa",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:south-africa",
+      "canonicalKey": "country:south-africa",
+      "slug": "south-africa",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "South Africans enjoy working holiday agreements for up to a year. Growing community of retirees and professionals in Buenos Aires and coastal areas of Argentina.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "South Africans enter visa-free. Extensions available at migraciones.",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"South Africa\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug south-africa. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: South Africans enjoy working holiday agreements for up to a year. Growing community of retirees and professionals in Buenos Aires and coastal areas of Argentina. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:profession:course-creator",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "professions",
+      "title": "Course Creator Guide for Argentina",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "runtimeModule": "lib/data/professions.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/professions.ts",
+      "recordId": "expatsargentina:profession:course-creator",
+      "canonicalKey": "profession:course-creator",
+      "slug": "course-creator",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Online education is booming. Learn how course creators can build passive income businesses while living in Argentina.",
+        "Subtitle",
+        "Build and sell online courses from Argentina",
+        "Overview",
+        "Course creation has become a popular path to location independence. Creators package their expertise into online courses sold on platforms like Udemy, Teachable, or their own sites. While building a successful course business takes time, it can generate significant passive income. Argentine creators benefit from lower living costs while building their businesses. Popular course topics include language learning, professional skills, tech, and creative arts. The business model involves upfront work creating the course, then ongoing marketing and updates. Successful creators earn $2,000-10,000+/month from course sales. This path suits experts who enjoy teaching and can commit to the upfront content creation work.",
+        "Visa Options"
+      ],
+      "prompt": "Update the expatsargentina professions record \"Course Creator Guide for Argentina\" contextually without changing tone or layout. Work in lib/data/professions.ts and target slug course-creator. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Online education is booming. Learn how course creators can build passive income businesses while living in Argentina. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "findingCount": 1
+    },
+    {
+      "id": "surface:expatsargentina:professions",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "surface-sweep",
+      "sourceExport": "professions",
+      "title": "expatsargentina.professions",
+      "reason": "High-risk surface coverage is incomplete: reviewed=0/100, projected=1/100.",
+      "recommendedAction": "Have an AI agent sweep this surface route-by-route, verify claims against primary sources, and draft contextual micro-edits where deterministic fact patches stop.",
+      "runtimeModule": "lib/data/professions.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/professions.ts",
+      "officialSourceUrls": [],
+      "evidence": [
+        "3d-artist",
+        "account-executive",
+        "accountant-bookkeeper",
+        "ai-researcher",
+        "animator"
+      ],
+      "prompt": "Sweep the expatsargentina professions surface contextually without changing site tone. Work in lib/data/professions.ts and review sample slugs 3d-artist, account-executive, accountant-bookkeeper, ai-researcher, animator. The deterministic TruthSync layer already handles safe fact patches. Use AI judgment only for contextual narrative updates and claim cleanup. High-risk surface coverage is incomplete: reviewed=0/100, projected=1/100.",
+      "findingCount": 0,
+      "recordCount": 100,
+      "reviewedCount": 0,
+      "projectedCount": 1,
+      "sampleSlugs": [
+        "3d-artist",
+        "account-executive",
+        "accountant-bookkeeper",
+        "ai-researcher",
+        "animator"
+      ]
+    },
+    {
+      "id": "record:expatsargentina:profession:legal-consultant",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "professions",
+      "title": "Legal Consultant Guide for Argentina",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "runtimeModule": "lib/data/professions.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/professions.ts",
+      "recordId": "expatsargentina:profession:legal-consultant",
+      "canonicalKey": "profession:legal-consultant",
+      "slug": "legal-consultant",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Foreign attorneys and legal consultants find unique opportunities in Argentina, from serving international clients remotely to advising on cross-border transactions. Learn about visa pathways and regulatory requirements.",
+        "Subtitle",
+        "Practice international law while experiencing Argentina's culture",
+        "Overview",
+        "Legal consulting from Argentina offers intriguing possibilities for foreign attorneys. While practicing Argentine law requires local bar admission, many foreign lawyers serve international clients remotely, advise on cross-border transactions, or specialize in areas like immigration law, international business, or tax planning. Argentina's complex regulatory environment actually creates demand for legal expertise. US and European attorneys can serve their home-country clients remotely while enjoying Argentina's lifestyle and cost advantages. For those seeking to practice locally, Argentina offers a pathway through degree validation and bar examination. The Investment Visa is particularly relevant for attorneys establishing local practices.",
+        "Visa Options"
+      ],
+      "prompt": "Update the expatsargentina professions record \"Legal Consultant Guide for Argentina\" contextually without changing tone or layout. Work in lib/data/professions.ts and target slug legal-consultant. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Foreign attorneys and legal consultants find unique opportunities in Argentina, from serving international clients remotely to advising on cross-border transactions. Learn about visa pathways and regulatory requirements. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:visa-comparison:digital-nomad-vs-work-visa",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "visaComparisons",
+      "title": "Digital Nomad Visa vs Work Visa",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it. Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/visa-comparisons.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts",
+      "recordId": "expatsargentina:visa-comparison:digital-nomad-vs-work-visa",
+      "canonicalKey": "visa-comparison:digital-nomad-vs-work-visa",
+      "slug": "digital-nomad-vs-work-visa",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Two paths to working legally in Argentina with very different requirements. Compare the Digital Nomad Visa for remote workers with the traditional Work Visa for local employment.",
+        "Description",
+        "The Digital Nomad Visa is the clear winner for remote workers who want a fast, flexible path to living in Argentina without needing a local employer. The Work Visa is essential if you plan to work for an Argentine company and want a direct path to permanent residency. Choose based on whether your income is foreign-sourced or locally employed.",
+        "Comparison Matrix",
+        "Processing Time — Fast. Typically 2-4 weeks from application to approval. Fully online application process through the Migraciones portal. Minimal bureaucracy compared to other visa types. | Slow. Usually 2-6 months due to employer sponsorship requirements, labor market tests, and multiple government agency approvals. Your employer handles most of the paperwork. | Winner: visa1",
+        "Cost — Moderate. Application fee around $200-300 USD. No employer overhead costs. You cover all expenses yourself, which keeps things straightforward. | Higher total cost. Government fees plus employer-side costs for sponsorship, legal processing, and compliance. Often $500-1,500+ when factoring in employer legal fees. | Winner: visa1"
+      ],
+      "prompt": "Update the expatsargentina visaComparisons record \"Digital Nomad Visa vs Work Visa\" contextually without changing tone or layout. Work in lib/data/visa-comparisons.ts and target slug digital-nomad-vs-work-visa. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Two paths to working legally in Argentina with very different requirements. Compare the Digital Nomad Visa for remote workers with the traditional Work Visa for local employment. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance | [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it. Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 2
+    },
+    {
+      "id": "record:expatsargentina:visa-comparison:student-vs-digital-nomad",
+      "siteId": "expatsargentina",
+      "priority": "high",
+      "mode": "contextual-rewrite",
+      "sourceExport": "visaComparisons",
+      "title": "Student Visa vs Digital Nomad Visa",
+      "reason": "[high/official-mismatch] Digital nomad duration conflicts with official guidance | [high/official-mismatch] Public-university tuition claim conflicts with 2025 reform baseline",
+      "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it. Reframe higher-education language around the current institution-by-status baseline instead of assuming universal free tuition.",
+      "runtimeModule": "lib/data/visa-comparisons.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts",
+      "recordId": "expatsargentina:visa-comparison:student-vs-digital-nomad",
+      "canonicalKey": "visa-comparison:student-vs-digital-nomad",
+      "slug": "student-vs-digital-nomad",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/noticias/el-gobierno-nacional-puso-en-marcha-una-profunda-reforma-del-regimen-migratorio",
+        "https://www.argentina.gob.ar/migraciones/preguntas-frecuentes-residencias",
+        "https://www.argentina.gob.ar/migraciones/comision-nacional-para-los-refugiados/preguntas-frecuentes-conare"
+      ],
+      "evidence": [
+        "Two popular options for younger expats. Compare the Student Visa for university enrollment with the Digital Nomad Visa for remote workers exploring Argentina.",
+        "Description",
+        "The Student Visa is best for those genuinely pursuing education in Argentina, offering longer stays and a path to integration through university life. The Digital Nomad Visa is better for remote workers who want flexibility and do not need university access. Students get deeper cultural immersion; digital nomads get more freedom.",
+        "Comparison Matrix",
+        "Requirements — Must be enrolled in a recognized Argentine university or educational institution. Requires acceptance letter, proof of financial means, health insurance, and background check. | Must prove remote employment or freelance income from foreign sources. Requires proof of minimum $1,500 USD/month income, health insurance, and a clean background. | Winner: tie",
+        "Duration — 1-2 years, aligned with your academic program. Renewable for the duration of your studies. Can extend to cover full degree programs (4-6 years). | 6 months, renewable once for a total of 12 months maximum. After that, you must leave or switch visa categories. | Winner: visa1"
+      ],
+      "prompt": "Update the expatsargentina visaComparisons record \"Student Visa vs Digital Nomad Visa\" contextually without changing tone or layout. Work in lib/data/visa-comparisons.ts and target slug student-vs-digital-nomad. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Two popular options for younger expats. Compare the Student Visa for university enrollment with the Digital Nomad Visa for remote workers exploring Argentina. Findings: [high/official-mismatch] Digital nomad duration conflicts with official guidance | [high/official-mismatch] Public-university tuition claim conflicts with 2025 reform baseline Recommended action: Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it. Reframe higher-education language around the current institution-by-status baseline instead of assuming universal free tuition.",
+      "findingCount": 2
+    },
+    {
+      "id": "surface:expatsargentina:cityComparisons",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "surface-sweep",
+      "sourceExport": "cityComparisons",
+      "title": "expatsargentina.cityComparisons",
+      "reason": "High-risk surface coverage is incomplete: reviewed=0/7, projected=7/7.",
+      "recommendedAction": "Have an AI agent sweep this surface route-by-route, verify claims against primary sources, and draft contextual micro-edits where deterministic fact patches stop.",
+      "runtimeModule": "lib/data/comparisons.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/comparisons.ts",
+      "officialSourceUrls": [],
+      "evidence": [
+        "buenos-aires-vs-cordoba",
+        "buenos-aires-vs-mendoza",
+        "mar-del-plata-vs-buenos-aires",
+        "mendoza-vs-bariloche",
+        "rosario-vs-cordoba"
+      ],
+      "prompt": "Sweep the expatsargentina cityComparisons surface contextually without changing site tone. Work in lib/data/comparisons.ts and review sample slugs buenos-aires-vs-cordoba, buenos-aires-vs-mendoza, mar-del-plata-vs-buenos-aires, mendoza-vs-bariloche, rosario-vs-cordoba. The deterministic TruthSync layer already handles safe fact patches. Use AI judgment only for contextual narrative updates and claim cleanup. High-risk surface coverage is incomplete: reviewed=0/7, projected=7/7.",
+      "findingCount": 0,
+      "recordCount": 7,
+      "reviewedCount": 0,
+      "projectedCount": 7,
+      "sampleSlugs": [
+        "buenos-aires-vs-cordoba",
+        "buenos-aires-vs-mendoza",
+        "mar-del-plata-vs-buenos-aires",
+        "mendoza-vs-bariloche",
+        "rosario-vs-cordoba"
+      ]
+    },
+    {
+      "id": "record:expatsargentina:country:bolivia",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Bolivia",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:bolivia",
+      "canonicalKey": "country:bolivia",
+      "slug": "bolivia",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Bolivians enjoy unrestricted access to live and work as full Mercosur members. Deep historical connections and a large community provide strong support networks.",
+        "Description",
+        "Tourist Entry",
+        "Duration: Unlimited (Mercosur freedom of movement)",
+        "Bolivians can enter with ID card or passport under Mercosur agreements",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Bolivia\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug bolivia. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Bolivians enjoy unrestricted access to live and work as full Mercosur members. Deep historical connections and a large community provide strong support networks. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:canada",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Canada",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:canada",
+      "canonicalKey": "country:canada",
+      "slug": "canada",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Canadians find Argentina attractive for affordable living and adventure. Digital nomad visa offers a pathway for remote workers with favorable exchange rates.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Canadians enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Canada\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug canada. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Canadians find Argentina attractive for affordable living and adventure. Digital nomad visa offers a pathway for remote workers with favorable exchange rates. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:china",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "China",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:china",
+      "canonicalKey": "country:china",
+      "slug": "china",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/noticias/turistas-de-china-y-republica-dominicana-podran-ingresar-la-argentina-solo-con-visado",
+        "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-316-2025-415345/texto"
+      ],
+      "evidence": [
+        "The Chinese community is one of Argentina's most established Asian communities. Opportunities in trade, gastronomy, and professional sectors welcome expats.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Chinese citizens require tourist visa before arrival",
+        "Fee: $150-200 USD"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"China\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug china. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: The Chinese community is one of Argentina's most established Asian communities. Opportunities in trade, gastronomy, and professional sectors welcome expats. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:colombia",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Colombia",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:colombia",
+      "canonicalKey": "country:colombia",
+      "slug": "colombia",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Colombians enjoy preferential immigration access as Mercosur associates since 2012. Rapidly growing community with a visible cultural presence and good opportunities.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Colombians enter visa-free with passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Colombia\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug colombia. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Colombians enjoy preferential immigration access as Mercosur associates since 2012. Rapidly growing community with a visible cultural presence and good opportunities. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:czech-republic",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Czech Republic",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:czech-republic",
+      "canonicalKey": "country:czech-republic",
+      "slug": "czech-republic",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "The Czech Republic and Argentina maintain strong diplomatic relations. Czech citizens enjoy visa-free entry, making Argentina an accessible destination for Czech professionals, students, and retirees seeking new opportunities in South America.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Czech citizens enter visa-free with valid passport for up to 90 days",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Czech Republic\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug czech-republic. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: The Czech Republic and Argentina maintain strong diplomatic relations. Czech citizens enjoy visa-free entry, making Argentina an accessible destination for Czech professionals, students, and retirees seeking new opportunities in South America. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:ecuador",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Ecuador",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:ecuador",
+      "canonicalKey": "country:ecuador",
+      "slug": "ecuador",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Ecuadorians enjoy preferential immigration access as Mercosur associates. 2-year renewable residency with work authorization and opportunities across sectors.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Ecuadorians enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Ecuador\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug ecuador. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Ecuadorians enjoy preferential immigration access as Mercosur associates. 2-year renewable residency with work authorization and opportunities across sectors. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:france",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "France",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:france",
+      "canonicalKey": "country:france",
+      "slug": "france",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Argentina has strong historical ties with France, including one of the largest French communities in Latin America. French citizens enjoy visa-free entry and multiple residency pathways including a bilateral Working Holiday agreement.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Can be extended for additional 90 days",
+        "Digital Nomad"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"France\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug france. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Argentina has strong historical ties with France, including one of the largest French communities in Latin America. French citizens enjoy visa-free entry and multiple residency pathways including a bilateral Working Holiday agreement. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:germany",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Germany",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:germany",
+      "canonicalKey": "country:germany",
+      "slug": "germany",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "German interest has grown significantly, driven by remote work opportunities and lower living costs. Expanding professional networks support Germans in Argentina.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "German citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Germany\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug germany. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: German interest has grown significantly, driven by remote work opportunities and lower living costs. Expanding professional networks support Germans in Argentina. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:greece",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Greece",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:greece",
+      "canonicalKey": "country:greece",
+      "slug": "greece",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Greece and Argentina share historical ties through Greek immigration waves. Greek citizens enjoy visa-free entry and find a welcoming community with cultural connections.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Greek citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Greece\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug greece. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Greece and Argentina share historical ties through Greek immigration waves. Greek citizens enjoy visa-free entry and find a welcoming community with cultural connections. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:hungary",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Hungary",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:hungary",
+      "canonicalKey": "country:hungary",
+      "slug": "hungary",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Hungary and Argentina share friendly diplomatic relations. Hungarian citizens enjoy visa-free entry and multiple residency pathways. A small Hungarian community in Buenos Aires provides cultural connections for new arrivals.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Hungarians enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Hungary\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug hungary. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Hungary and Argentina share friendly diplomatic relations. Hungarian citizens enjoy visa-free entry and multiple residency pathways. A small Hungarian community in Buenos Aires provides cultural connections for new arrivals. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:israel",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Israel",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:israel",
+      "canonicalKey": "country:israel",
+      "slug": "israel",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Argentina has the largest Jewish community in Latin America and strong historical ties with Israel. Israeli citizens enjoy visa-free entry and find familiar cultural connections, kosher food availability, and an established support network.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Israelis enter visa-free. Passport stamped on arrival.",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Israel\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug israel. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Argentina has the largest Jewish community in Latin America and strong historical ties with Israel. Israeli citizens enjoy visa-free entry and find familiar cultural connections, kosher food availability, and an established support network. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:italy",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Italy",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:italy",
+      "canonicalKey": "country:italy",
+      "slug": "italy",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Italian citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Italy\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug italy. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:japan",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Japan",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:japan",
+      "canonicalKey": "country:japan",
+      "slug": "japan",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Japan and Argentina share longstanding cultural and economic relations. Japanese citizens find opportunities in technology sectors with a community in Buenos Aires.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Japanese citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Japan\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug japan. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Japan and Argentina share longstanding cultural and economic relations. Japanese citizens find opportunities in technology sectors with a community in Buenos Aires. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:mexico",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Mexico",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:mexico",
+      "canonicalKey": "country:mexico",
+      "slug": "mexico",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "The Mexican community has grown, drawn by educational opportunities. Expanding networks in major cities provide support for Mexican expats in Argentina.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Mexicans enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Mexico\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug mexico. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: The Mexican community has grown, drawn by educational opportunities. Expanding networks in major cities provide support for Mexican expats in Argentina. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:netherlands",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Netherlands",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:netherlands",
+      "canonicalKey": "country:netherlands",
+      "slug": "netherlands",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Dutch citizens are drawn to Argentina for agricultural business and lower cost of living. Agricultural and trade relationships between the Netherlands and Argentina.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Dutch citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Netherlands\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug netherlands. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Dutch citizens are drawn to Argentina for agricultural business and lower cost of living. Agricultural and trade relationships between the Netherlands and Argentina. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:new-zealand",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "New Zealand",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:new-zealand",
+      "canonicalKey": "country:new-zealand",
+      "slug": "new-zealand",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "New Zealanders find Argentina attractive for adventure and lower cost of living. Digital nomad visa offers a pathway for remote workers seeking cultural experiences.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "New Zealanders enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"New Zealand\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug new-zealand. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: New Zealanders find Argentina attractive for adventure and lower cost of living. Digital nomad visa offers a pathway for remote workers seeking cultural experiences. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:portugal",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Portugal",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:portugal",
+      "canonicalKey": "country:portugal",
+      "slug": "portugal",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Portuguese citizens find Argentina attractive for lower cost of living and European lifestyle. Ties through language and Latin heritage support the community.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Portuguese citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Portugal\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug portugal. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Portuguese citizens find Argentina attractive for lower cost of living and European lifestyle. Ties through language and Latin heritage support the community. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:romania",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Romania",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:romania",
+      "canonicalKey": "country:romania",
+      "slug": "romania",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Romania and Argentina maintain positive diplomatic relations dating back decades. Romanian citizens enjoy visa-free entry, making Argentina an accessible destination for work, study, and residence. A growing Romanian community in Buenos Aires provides support for new arrivals.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Romanians enter visa-free with valid passport for up to 90 days",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Romania\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug romania. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Romania and Argentina maintain positive diplomatic relations dating back decades. Romanian citizens enjoy visa-free entry, making Argentina an accessible destination for work, study, and residence. A growing Romanian community in Buenos Aires provides support for new arrivals. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:south-korea",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "South Korea",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:south-korea",
+      "canonicalKey": "country:south-korea",
+      "slug": "south-korea",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "The South Korean community has grown with presence in technology sectors. Opportunities and cultural appreciation welcome Korean expats to Argentina.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "South Koreans enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"South Korea\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug south-korea. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: The South Korean community has grown with presence in technology sectors. Opportunities and cultural appreciation welcome Korean expats to Argentina. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:spain",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Spain",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:spain",
+      "canonicalKey": "country:spain",
+      "slug": "spain",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Spanish citizens benefit from bilateral agreements that simplify residency and offer special pension arrangements. Deep historical bonds between Spain and Argentina.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Spanish citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Spain\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug spain. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Spanish citizens benefit from bilateral agreements that simplify residency and offer special pension arrangements. Deep historical bonds between Spain and Argentina. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:turkey",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Turkey",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:turkey",
+      "canonicalKey": "country:turkey",
+      "slug": "turkey",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Turkey and Argentina maintain strong diplomatic and trade relations. Turkish citizens benefit from streamlined processes and a growing business community in Argentina.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Turkish citizens can enter visa-free for 90 days",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Turkey\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug turkey. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Turkey and Argentina maintain strong diplomatic and trade relations. Turkish citizens benefit from streamlined processes and a growing business community in Argentina. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:ukraine",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Ukraine",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:ukraine",
+      "canonicalKey": "country:ukraine",
+      "slug": "ukraine",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Argentina has implemented special humanitarian provisions for Ukrainian citizens fleeing conflict. With a growing community and supportive policies, Ukraine nationals find Argentina offers safety, opportunity, and a welcoming environment.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days",
+        "Ukrainians can enter visa-free for 90 days. Special humanitarian provisions available.",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Ukraine\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug ukraine. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Argentina has implemented special humanitarian provisions for Ukrainian citizens fleeing conflict. With a growing community and supportive policies, Ukraine nationals find Argentina offers safety, opportunity, and a welcoming environment. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:united-kingdom",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "United Kingdom",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:united-kingdom",
+      "canonicalKey": "country:united-kingdom",
+      "slug": "united-kingdom",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Britons explore Argentina for affordability post-Brexit. Digital nomad visa provides a pathway for UK remote workers with historical Anglo-Argentine connections.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "UK citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"United Kingdom\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug united-kingdom. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Britons explore Argentina for affordability post-Brexit. Digital nomad visa provides a pathway for UK remote workers with historical Anglo-Argentine connections. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:united-states",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "United States",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:united-states",
+      "canonicalKey": "country:united-states",
+      "slug": "united-states",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/noticias/migraciones-extiende-los-requisitos-de-admision-para-residentes-permanentes-de-estados"
+      ],
+      "evidence": [
+        "Complete guide for Americans moving to Argentina. Digital nomad visa, tourist entry, residency pathways, and practical advice for US citizens.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "US citizens enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"United States\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug united-states. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Complete guide for Americans moving to Argentina. Digital nomad visa, tourist entry, residency pathways, and practical advice for US citizens. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "record:expatsargentina:country:venezuela",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "nationalities",
+      "title": "Venezuela",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/nationalities.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "recordId": "expatsargentina:country:venezuela",
+      "canonicalKey": "country:venezuela",
+      "slug": "venezuela",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Venezuelans have pathways to residency through the DNE agreement and humanitarian provisions. One of Argentina's largest communities with work authorization support.",
+        "Description",
+        "Tourist Entry",
+        "Duration: 90 days (extendable to 180)",
+        "Venezuelans enter visa-free with valid passport",
+        "Fee: $0"
+      ],
+      "prompt": "Update the expatsargentina nationalities record \"Venezuela\" contextually without changing tone or layout. Work in lib/data/nationalities.ts and target slug venezuela. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Venezuelans have pathways to residency through the DNE agreement and humanitarian provisions. One of Argentina's largest communities with work authorization support. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "surface:expatsargentina:visaComparisons",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "surface-sweep",
+      "sourceExport": "visaComparisons",
+      "title": "expatsargentina.visaComparisons",
+      "reason": "High-risk surface coverage is incomplete: reviewed=0/3, projected=1/3.",
+      "recommendedAction": "Have an AI agent sweep this surface route-by-route, verify claims against primary sources, and draft contextual micro-edits where deterministic fact patches stop.",
+      "runtimeModule": "lib/data/visa-comparisons.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts",
+      "officialSourceUrls": [],
+      "evidence": [
+        "digital-nomad-vs-work-visa",
+        "retirement-vs-investment-visa",
+        "student-vs-digital-nomad"
+      ],
+      "prompt": "Sweep the expatsargentina visaComparisons surface contextually without changing site tone. Work in lib/data/visa-comparisons.ts and review sample slugs digital-nomad-vs-work-visa, retirement-vs-investment-visa, student-vs-digital-nomad. The deterministic TruthSync layer already handles safe fact patches. Use AI judgment only for contextual narrative updates and claim cleanup. High-risk surface coverage is incomplete: reviewed=0/3, projected=1/3.",
+      "findingCount": 0,
+      "recordCount": 3,
+      "reviewedCount": 0,
+      "projectedCount": 1,
+      "sampleSlugs": [
+        "digital-nomad-vs-work-visa",
+        "retirement-vs-investment-visa",
+        "student-vs-digital-nomad"
+      ]
+    },
+    {
+      "id": "record:expatsargentina:visa-type:digital-nomad",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "contextual-rewrite",
+      "sourceExport": "visaTypes",
+      "title": "Digital Nomad Visa (Visa Nómada Digital)",
+      "reason": "[medium/unverified-claim] Digital nomad residency pathway claim needs verification",
+      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "runtimeModule": "lib/data/visa-types.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-types.ts",
+      "recordId": "expatsargentina:visa-type:digital-nomad",
+      "canonicalKey": "visa-type:digital-nomad",
+      "slug": "digital-nomad",
+      "officialSourceUrls": [
+        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      ],
+      "evidence": [
+        "Argentina's Digital Nomad Visa allows remote workers employed by foreign companies to live in Argentina legally while working remotely. This is one of the most popular visa options for location-independent professionals.",
+        "Description",
+        "Who Is It For",
+        "Remote workers employed by foreign companies",
+        "Freelancers with international clients",
+        "Digital entrepreneurs with online businesses"
+      ],
+      "prompt": "Update the expatsargentina visaTypes record \"Digital Nomad Visa (Visa Nómada Digital)\" contextually without changing tone or layout. Work in lib/data/visa-types.ts and target slug digital-nomad. Preserve surrounding copy, but correct the flagged factual claims using the canonical baseline and official sources. Canonical summary: Argentina's Digital Nomad Visa allows remote workers employed by foreign companies to live in Argentina legally while working remotely. This is one of the most popular visa options for location-independent professionals. Findings: [medium/unverified-claim] Digital nomad residency pathway claim needs verification Recommended action: Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency.",
+      "findingCount": 1
+    },
+    {
+      "id": "surface:expatsargentina:visaTypes",
+      "siteId": "expatsargentina",
+      "priority": "medium",
+      "mode": "surface-sweep",
+      "sourceExport": "visaTypes",
+      "title": "expatsargentina.visaTypes",
+      "reason": "High-risk surface coverage is incomplete: reviewed=0/7, projected=1/7.",
+      "recommendedAction": "Have an AI agent sweep this surface route-by-route, verify claims against primary sources, and draft contextual micro-edits where deterministic fact patches stop.",
+      "runtimeModule": "lib/data/visa-types.ts",
+      "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-types.ts",
+      "officialSourceUrls": [],
+      "evidence": [
+        "digital-nomad",
+        "investment",
+        "mercosur",
+        "pensionado",
+        "rentista"
+      ],
+      "prompt": "Sweep the expatsargentina visaTypes surface contextually without changing site tone. Work in lib/data/visa-types.ts and review sample slugs digital-nomad, investment, mercosur, pensionado, rentista. The deterministic TruthSync layer already handles safe fact patches. Use AI judgment only for contextual narrative updates and claim cleanup. High-risk surface coverage is incomplete: reviewed=0/7, projected=1/7.",
+      "findingCount": 0,
+      "recordCount": 7,
+      "reviewedCount": 0,
+      "projectedCount": 1,
+      "sampleSlugs": [
+        "digital-nomad",
+        "investment",
+        "mercosur",
+        "pensionado",
+        "rentista"
+      ]
+    }
+  ]
+}
