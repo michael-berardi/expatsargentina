@@ -20,64 +20,14 @@ interface CityServicePageProps {
   }>;
 }
 
-// Define which city + service combinations to generate
-// This creates our PSEO matrix for local services
-// EXPANDED: All 20 cities with comprehensive service coverage = 150+ pages
-const MATRIX_COMBINATIONS = [
-  // Buenos Aires - all 10 services (expat hub)
-  { city: "buenos-aires", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools", "coworking", "accountants", "grocery-stores", "gym-fitness"] },
-  // Mendoza - 9 services (wine/expat hub)
-  { city: "mendoza", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools", "coworking", "accountants", "gym-fitness"] },
-  // Córdoba - 9 services (major city)
-  { city: "cordoba", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools", "coworking", "accountants", "gym-fitness"] },
-  // Rosario - 8 services
-  { city: "rosario", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools", "coworking", "accountants"] },
-  // Mar del Plata - 7 services (coastal)
-  { city: "mar-del-plata", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools", "gym-fitness"] },
-  // Bariloche - 8 services (Patagonia/tourism)
-  { city: "bariloche", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools", "coworking", "accountants"] },
-  // Salta - 7 services (northwest)
-  { city: "salta", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools", "accountants"] },
-  // Ushuaia - 6 services (southernmost)
-  { city: "ushuaia", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools"] },
-  // La Plata - 7 services
-  { city: "la-plata", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools", "accountants"] },
-  // San Miguel de Tucumán - 6 services
-  { city: "tucuman", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools"] },
-  // Puerto Iguazú - 6 services (tourist hub)
-  { city: "puerto-iguazu", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools"] },
-  // El Calafate - 6 services (Patagonia)
-  { city: "el-calafate", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools"] },
-  // San Juan - 6 services (wine region)
-  { city: "san-juan", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools"] },
-  // Neuquén - 6 services (Patagonia gateway)
-  { city: "neuquen", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools"] },
-  // San Carlos de Bariloche (already covered above)
-  // Jujuy - 5 services
-  { city: "jujuy", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community"] },
-  // Santa Fe - 6 services
-  { city: "santa-fe", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community", "language-schools"] },
-  // Resistencia - 5 services (Chaco)
-  { city: "resistencia", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community"] },
-  // Corrientes - 5 services
-  { city: "corrientes", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community"] },
-  // Posadas - 5 services (Misiones)
-  { city: "posadas", services: ["immigration-offices", "banking", "healthcare", "housing", "expat-community"] },
-];
-
 export async function generateStaticParams() {
-  const params: { city: string; service: string }[] = [];
-  
-  for (const combo of MATRIX_COMBINATIONS) {
-    for (const service of combo.services) {
-      params.push({
-        city: combo.city,
-        service: service,
-      });
-    }
-  }
-  
-  return params;
+  // Keep static generation aligned with the sitemap: every published city/service pair must build.
+  return cities.flatMap((city) =>
+    cityServices.map((service) => ({
+      city: city.slug,
+      service: service.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({ params }: CityServicePageProps): Promise<Metadata> {
