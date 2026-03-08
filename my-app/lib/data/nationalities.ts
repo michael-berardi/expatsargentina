@@ -11,6 +11,8 @@ import { nationalitiesBatch5 } from "./nationalities-batch5";
 import { nationalitiesBatch6 } from "./nationalities-batch6";
 import { nationalitiesBatch7 } from "./nationalities-batch7";
 import { nationalitiesBatch8 } from "./nationalities-batch8";
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { nationalitiesFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
 
 export interface Nationality {
   slug: string;
@@ -108,7 +110,7 @@ export interface Nationality {
   image: string;
 }
 
-export const nationalities: Nationality[] = [
+const nationalitiesBase: Nationality[] = [
   // URUGUAY - Full Featured Entry (Template Quality)
   {
     slug: "uruguay",
@@ -9963,6 +9965,8 @@ export const nationalities: Nationality[] = [
   ...nationalitiesBatch7,
   ...nationalitiesBatch8,
 ];
+
+export const nationalities = applyFactOverridesBySlug(nationalitiesBase, nationalitiesFactOverrides);
 
 // Helper functions
 export function getNationalityBySlug(slug: string): Nationality | undefined {

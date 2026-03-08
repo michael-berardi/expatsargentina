@@ -1,3 +1,6 @@
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { visaTypesFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 // ============================================================================
 // PSEO Data: Visa Types for Visa × Nationality Matrix
 // ============================================================================
@@ -29,7 +32,7 @@ export interface VisaType {
   faqs: { q: string; a: string }[];
 }
 
-export const visaTypes: VisaType[] = [
+const visaTypesBase: VisaType[] = [
   {
     slug: "digital-nomad",
     name: "Digital Nomad Visa (Visa Nómada Digital)",
@@ -496,6 +499,8 @@ export const visaTypes: VisaType[] = [
     ]
   }
 ];
+
+export const visaTypes = applyFactOverridesBySlug(visaTypesBase, visaTypesFactOverrides);
 
 // Helper functions
 export function getVisaTypeBySlug(slug: string): VisaType | undefined {
