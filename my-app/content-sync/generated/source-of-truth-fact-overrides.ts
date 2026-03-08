@@ -8,42 +8,42 @@ export type FactOverride<T = unknown> = {
 
 export const blogPostsFactOverrides = {
   "argentinian-culture-shock-what-to-expect": {
-    "reviewDate": "2025-12-28",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "From mate rituals to late dinners, learn about the cultural quirks that surprise expats most when moving to Argentina.",
       "truthSync": {
         "canonicalKey": "blog-post:argentinian-culture-shock-what-to-expect",
         "recordId": "expatsargentina:blog-post:argentinian-culture-shock-what-to-expect",
-        "reviewDate": "2025-12-28",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
     }
   },
   "best-cities-remote-workers-argentina": {
-    "reviewDate": "2025-12-05",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "Beyond Buenos Aires: discover the best Argentine cities for digital nomads and remote workers, from mountain towns to wine country.",
       "truthSync": {
         "canonicalKey": "blog-post:best-cities-remote-workers-argentina",
         "recordId": "expatsargentina:blog-post:best-cities-remote-workers-argentina",
-        "reviewDate": "2025-12-05",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
     }
   },
   "best-neighborhoods-expats-buenos-aires": {
-    "reviewDate": "2026-01-10",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "From trendy Palermo to historic San Telmo, discover which BA neighborhoods offer the best mix of expat community, safety, and authentic Argentine culture.",
       "truthSync": {
         "canonicalKey": "blog-post:best-neighborhoods-expats-buenos-aires",
         "recordId": "expatsargentina:blog-post:best-neighborhoods-expats-buenos-aires",
-        "reviewDate": "2026-01-10",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
@@ -64,56 +64,56 @@ export const blogPostsFactOverrides = {
     }
   },
   "cost-living-buenos-aires-2025": {
-    "reviewDate": "2026-01-05",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "Real numbers for what it costs to live in Buenos Aires as an expat, from rent and food to healthcare and entertainment. Updated for 2026.",
       "truthSync": {
         "canonicalKey": "blog-post:cost-living-buenos-aires-2025",
         "recordId": "expatsargentina:blog-post:cost-living-buenos-aires-2025",
-        "reviewDate": "2026-01-05",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
     }
   },
   "healthcare-argentina-expat-guide": {
-    "reviewDate": "2025-12-10",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "How Argentina's healthcare system works: public vs private, insurance options, finding English-speaking doctors, and what to do in emergencies.",
       "truthSync": {
         "canonicalKey": "blog-post:healthcare-argentina-expat-guide",
         "recordId": "expatsargentina:blog-post:healthcare-argentina-expat-guide",
-        "reviewDate": "2025-12-10",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
     }
   },
   "opening-bank-account-argentina-expat": {
-    "reviewDate": "2025-12-20",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "Step-by-step guide to opening a bank account in Argentina. Documents needed, best banks for expats, and tips for navigating the system.",
       "truthSync": {
         "canonicalKey": "blog-post:opening-bank-account-argentina-expat",
         "recordId": "expatsargentina:blog-post:opening-bank-account-argentina-expat",
-        "reviewDate": "2025-12-20",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
     }
   },
   "renting-apartment-argentina-guide": {
-    "reviewDate": "2025-12-15",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "Everything you need to know about finding and renting an apartment in Argentina: contracts, deposits, guarantees, and avoiding scams.",
       "truthSync": {
         "canonicalKey": "blog-post:renting-apartment-argentina-guide",
         "recordId": "expatsargentina:blog-post:renting-apartment-argentina-guide",
-        "reviewDate": "2025-12-15",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
@@ -123,7 +123,7 @@ export const blogPostsFactOverrides = {
 
 export const citiesFactOverrides = {
   "bariloche": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The 'Switzerland of South America.' Crystal-clear lakes, snow-capped peaks, artisan chocolate, and premier skiing in the heart of Patagonia's Lake District.",
@@ -133,14 +133,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:bariloche",
         "recordId": "expatsargentina:city:bariloche",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "buenos-aires": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The Paris of South America. Argentina's pulsating capital offers first-rate culture, dining, and nightlife with the largest expat community in the country.",
@@ -150,14 +150,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:buenos-aires",
         "recordId": "expatsargentina:city:buenos-aires",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "cordoba": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's university city and emerging tech hub. Young energy, affordable living, and stunning sierras make it the best-value big city in the country.",
@@ -167,14 +167,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:cordoba",
         "recordId": "expatsargentina:city:cordoba",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "el-calafate": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Gateway to the Perito Moreno glacier and Los Glaciares National Park. A Patagonian frontier town on Lago Argentino where bus-sized ice chunks calve daily into milky blue waters.",
@@ -184,14 +184,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:el-calafate",
         "recordId": "expatsargentina:city:el-calafate",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "la-plata": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's 'planned city' — a perfectly geometric university town just 60 km from Buenos Aires with stunning architecture, student energy, and half the cost of the capital.",
@@ -201,14 +201,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:la-plata",
         "recordId": "expatsargentina:city:la-plata",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "mar-del-plata": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's Atlantic beach city — surfing, seafood, and a year-round urban beach lifestyle just 4 hours from Buenos Aires. The 'Happy City' lives up to its name.",
@@ -218,14 +218,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:mar-del-plata",
         "recordId": "expatsargentina:city:mar-del-plata",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "mendoza": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Wine country paradise at the foot of the Andes. Renowned Malbec, outdoor adventures, and 300 days of sunshine make this South America's answer to Napa Valley.",
@@ -235,14 +235,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:mendoza",
         "recordId": "expatsargentina:city:mendoza",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "neuquen": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Patagonia's energy boomtown — a modern, high-income city at the Limay-Neuquén confluence with Vaca Muerta wealth, nearby wineries, dinosaur museums, and quick Andean access.",
@@ -252,14 +252,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:neuquen",
         "recordId": "expatsargentina:city:neuquen",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "parana": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A riverfront gem perched on dramatic bluffs above the Paraná River — Argentina's former national capital with thermal springs, pre-delta wetlands, and a pace of life built for well-being.",
@@ -269,14 +269,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:parana",
         "recordId": "expatsargentina:city:parana",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "posadas": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Gateway to Iguazú Falls — a subtropical riverside capital on the Paraguay border where wild mangoes, red earth roads, and all-day mate rituals define a warm, cross-border lifestyle.",
@@ -286,14 +286,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:posadas",
         "recordId": "expatsargentina:city:posadas",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "puerto-madryn": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Whale watching capital of Argentina. The gateway to Península Valdés where southern right whales, orcas, penguins, and elephant seals congregate in stunning numbers.",
@@ -303,14 +303,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:puerto-madryn",
         "recordId": "expatsargentina:city:puerto-madryn",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "rosario": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's third city — birthplace of the flag, Che Guevara, and Messi. A river city with a growing cosmopolitan scene, great food, and BA vibes at half the price.",
@@ -320,14 +320,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:rosario",
         "recordId": "expatsargentina:city:rosario",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "salta": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Salta la Linda — colonial charm, desert landscapes, world-famous empanadas, and the most affordable city living in Argentina. The Northwest's crown jewel.",
@@ -337,14 +337,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:salta",
         "recordId": "expatsargentina:city:salta",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "san-juan": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's sun capital — 300+ cloudless days, superb Syrah and Malbec rivaling Mendoza at half the price, and gateway to the surreal Ischigualasto moonscape and Barreal stargazing.",
@@ -354,14 +354,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:san-juan",
         "recordId": "expatsargentina:city:san-juan",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "san-martin-de-los-andes": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The quieter Bariloche — a charming Patagonian village on Lago Lácar offering Chapelco skiing, renowned fly fishing, and Ruta de los Siete Lagos access without the tourist crowds.",
@@ -371,14 +371,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:san-martin-de-los-andes",
         "recordId": "expatsargentina:city:san-martin-de-los-andes",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "san-salvador-de-jujuy": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Gateway to the Quebrada de Humahuaca — where living Quechua and Aymara traditions meet colonial charm at the foot of Argentina's rainbow mountains and vast salt flats.",
@@ -388,14 +388,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:san-salvador-de-jujuy",
         "recordId": "expatsargentina:city:san-salvador-de-jujuy",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "santa-fe": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's constitutional capital — an energetic university city on a river island where 1853 colonial heritage meets student nightlife, legendary river fish, and famous alfajores.",
@@ -405,14 +405,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:santa-fe",
         "recordId": "expatsargentina:city:santa-fe",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "tucuman": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The Garden of the Republic — where Argentine independence was born. Lush, historic, and ultra-affordable with strong university culture and authentic Northwest flavors.",
@@ -422,14 +422,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:tucuman",
         "recordId": "expatsargentina:city:tucuman",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "ushuaia": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The End of the World. The planet's southernmost city, gateway to Antarctica, with dramatic mountains, glaciers, and a frontier spirit that defines Patagonia.",
@@ -439,14 +439,14 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:ushuaia",
         "recordId": "expatsargentina:city:ushuaia",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
     }
   },
   "villa-carlos-paz": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's summer theater capital — a lakeside resort on Lago San Roque in the Sierras de Córdoba with 30+ live stages, water sports, hiking trails, and Córdoba city just 36 km away.",
@@ -456,7 +456,7 @@ export const citiesFactOverrides = {
       "truthSync": {
         "canonicalKey": "city:villa-carlos-paz",
         "recordId": "expatsargentina:city:villa-carlos-paz",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cities",
         "sourceUrls": []
       }
@@ -466,7 +466,7 @@ export const citiesFactOverrides = {
 
 export const cityComparisonsFactOverrides = {
   "buenos-aires-vs-cordoba": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Mega-city sophistication vs university-town energy. Compare Argentina's capital with its second city for cost, culture, tech scene, and expat lifestyle.",
@@ -474,14 +474,14 @@ export const cityComparisonsFactOverrides = {
       "truthSync": {
         "canonicalKey": "comparison:buenos-aires-vs-cordoba",
         "recordId": "expatsargentina:comparison:buenos-aires-vs-cordoba",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityComparisons",
         "sourceUrls": []
       }
     }
   },
   "buenos-aires-vs-mendoza": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Capital city energy vs wine country tranquility. Compare Argentina's biggest metropolis with its premier wine region for expat life, cost of living, safety, and lifestyle.",
@@ -489,14 +489,14 @@ export const cityComparisonsFactOverrides = {
       "truthSync": {
         "canonicalKey": "comparison:buenos-aires-vs-mendoza",
         "recordId": "expatsargentina:comparison:buenos-aires-vs-mendoza",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityComparisons",
         "sourceUrls": []
       }
     }
   },
   "mar-del-plata-vs-buenos-aires": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Beach city escape vs capital city energy. Compare Argentina's summer capital with its actual capital for year-round expat living.",
@@ -504,14 +504,14 @@ export const cityComparisonsFactOverrides = {
       "truthSync": {
         "canonicalKey": "comparison:mar-del-plata-vs-buenos-aires",
         "recordId": "expatsargentina:comparison:mar-del-plata-vs-buenos-aires",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityComparisons",
         "sourceUrls": []
       }
     }
   },
   "mendoza-vs-bariloche": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Wine country vs lake district. Two of Argentina's most stunning regions compared for expat life, outdoor access, cost, and year-round livability.",
@@ -519,14 +519,14 @@ export const cityComparisonsFactOverrides = {
       "truthSync": {
         "canonicalKey": "comparison:mendoza-vs-bariloche",
         "recordId": "expatsargentina:comparison:mendoza-vs-bariloche",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityComparisons",
         "sourceUrls": []
       }
     }
   },
   "rosario-vs-cordoba": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's second and third cities compared. Industrial port city vs university hub — both affordable, both with strong identities.",
@@ -534,14 +534,14 @@ export const cityComparisonsFactOverrides = {
       "truthSync": {
         "canonicalKey": "comparison:rosario-vs-cordoba",
         "recordId": "expatsargentina:comparison:rosario-vs-cordoba",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityComparisons",
         "sourceUrls": []
       }
     }
   },
   "salta-vs-cordoba": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Colonial Northwest charm vs central university energy. Compare two affordable Argentine cities for budget expats seeking authentic culture and community.",
@@ -549,14 +549,14 @@ export const cityComparisonsFactOverrides = {
       "truthSync": {
         "canonicalKey": "comparison:salta-vs-cordoba",
         "recordId": "expatsargentina:comparison:salta-vs-cordoba",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityComparisons",
         "sourceUrls": []
       }
     }
   },
   "ushuaia-vs-bariloche": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "End of the world vs lake district paradise. Compare Argentina's two iconic Patagonian destinations for extreme nature and unique expat experiences.",
@@ -564,7 +564,7 @@ export const cityComparisonsFactOverrides = {
       "truthSync": {
         "canonicalKey": "comparison:ushuaia-vs-bariloche",
         "recordId": "expatsargentina:comparison:ushuaia-vs-bariloche",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityComparisons",
         "sourceUrls": []
       }
@@ -574,7 +574,7 @@ export const cityComparisonsFactOverrides = {
 
 export const cityServicesFactOverrides = {
   "accountants": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "English-speaking accountants for expat tax planning and compliance.",
@@ -583,14 +583,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:accountants",
         "recordId": "expatsargentina:service-directory:accountants",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "banking": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Opening bank accounts, accessing financial services, and managing money as an expat in Argentina.",
@@ -599,14 +599,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:banking",
         "recordId": "expatsargentina:service-directory:banking",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "coworking": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Shared offices, coworking spaces, and business centers for remote workers.",
@@ -615,14 +615,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:coworking",
         "recordId": "expatsargentina:service-directory:coworking",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "expat-community": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Facebook groups, meetups, clubs, and community organizations for expats.",
@@ -631,14 +631,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:expat-community",
         "recordId": "expatsargentina:service-directory:expat-community",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "grocery-stores": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Supermarkets, international food stores, and specialty shops for expats.",
@@ -647,14 +647,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:grocery-stores",
         "recordId": "expatsargentina:service-directory:grocery-stores",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "gym-fitness": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Gyms, fitness centers, and sports clubs for expats.",
@@ -663,14 +663,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:gym-fitness",
         "recordId": "expatsargentina:service-directory:gym-fitness",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "healthcare": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Hospitals, clinics, doctors, and health insurance options for expats.",
@@ -679,14 +679,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:healthcare",
         "recordId": "expatsargentina:service-directory:healthcare",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "housing": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Finding apartments, rental agencies, and real estate services for expats.",
@@ -695,14 +695,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:housing",
         "recordId": "expatsargentina:service-directory:housing",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "immigration-offices": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": " Dirección Nacional de Migraciones (DNM) offices where expats process visa applications, residency permits, and other immigration paperwork.",
@@ -711,14 +711,14 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:immigration-offices",
         "recordId": "expatsargentina:service-directory:immigration-offices",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
     }
   },
   "language-schools": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Language schools, tutors, and immersion programs for learning Spanish.",
@@ -727,7 +727,7 @@ export const cityServicesFactOverrides = {
       "truthSync": {
         "canonicalKey": "service-directory:language-schools",
         "recordId": "expatsargentina:service-directory:language-schools",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "cityServices",
         "sourceUrls": []
       }
@@ -737,7 +737,7 @@ export const cityServicesFactOverrides = {
 
 export const investmentSectorsFactOverrides = {
   "agriculture": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina is the world's 3rd largest soybean exporter, 2nd largest corn exporter, and a major beef producer — with agtech innovation creating new investment verticals in precision farming and sustainable agriculture.",
@@ -754,14 +754,14 @@ export const investmentSectorsFactOverrides = {
       "truthSync": {
         "canonicalKey": "investment-sector:agriculture",
         "recordId": "expatsargentina:investment-sector:agriculture",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "investmentSectors",
         "sourceUrls": []
       }
     }
   },
   "energy": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "From Vaca Muerta — the world's second-largest shale formation — to exceptional wind resources in Patagonia, Argentina's energy sector is undergoing transformation with major investment opportunities.",
@@ -778,14 +778,14 @@ export const investmentSectorsFactOverrides = {
       "truthSync": {
         "canonicalKey": "investment-sector:energy",
         "recordId": "expatsargentina:investment-sector:energy",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "investmentSectors",
         "sourceUrls": []
       }
     }
   },
   "mining": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina holds the world's 3rd largest lithium reserves, significant copper deposits, and untapped gold and silver resources — making it a strategic destination for critical minerals investment.",
@@ -802,14 +802,14 @@ export const investmentSectorsFactOverrides = {
       "truthSync": {
         "canonicalKey": "investment-sector:mining",
         "recordId": "expatsargentina:investment-sector:mining",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "investmentSectors",
         "sourceUrls": []
       }
     }
   },
   "real-estate": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "From Buenos Aires luxury apartments to Mendoza vineyards and Patagonia eco-lodges — Argentine real estate offers dollar-denominated opportunities at fractions of comparable global markets.",
@@ -826,14 +826,14 @@ export const investmentSectorsFactOverrides = {
       "truthSync": {
         "canonicalKey": "investment-sector:real-estate",
         "recordId": "expatsargentina:investment-sector:real-estate",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "investmentSectors",
         "sourceUrls": []
       }
     }
   },
   "technology": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Buenos Aires is Latin America's 3rd largest startup ecosystem, with strengths in fintech, SaaS, and AI — offering venture capital and angel investment opportunities at valuations below US/EU markets.",
@@ -850,14 +850,14 @@ export const investmentSectorsFactOverrides = {
       "truthSync": {
         "canonicalKey": "investment-sector:technology",
         "recordId": "expatsargentina:investment-sector:technology",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "investmentSectors",
         "sourceUrls": []
       }
     }
   },
   "tourism": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "From wine tourism in Mendoza to eco-lodges in Patagonia and urban experiences in Buenos Aires — Argentina's tourism sector offers lifestyle investments with income potential in a post-pandemic recovery.",
@@ -874,7 +874,7 @@ export const investmentSectorsFactOverrides = {
       "truthSync": {
         "canonicalKey": "investment-sector:tourism",
         "recordId": "expatsargentina:investment-sector:tourism",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "investmentSectors",
         "sourceUrls": []
       }
@@ -883,6 +883,294 @@ export const investmentSectorsFactOverrides = {
 } as const;
 
 export const nationalitiesFactOverrides = {
+  "albania": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Albanian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:albania",
+        "recordId": "expatsargentina:country:albania",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "andorra": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Andorran citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:andorra",
+        "recordId": "expatsargentina:country:andorra",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "argentina": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://cancilleria.gob.ar"
+    ],
+    "patch": {
+      "description": "Argentine citizens returning home find welcoming repatriation benefits. Guide covers citizenship by descent and pathways for those with foreign-born children.",
+      "truthSync": {
+        "canonicalKey": "country:argentina",
+        "recordId": "expatsargentina:country:argentina",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://cancilleria.gob.ar"
+        ]
+      }
+    }
+  },
+  "armenia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Armenian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:armenia",
+        "recordId": "expatsargentina:country:armenia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "australia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Australians enjoy working holiday agreements and a growing digital nomad community. Favorable exchange rates make Argentina attractive for those with AUD income.",
+      "truthSync": {
+        "canonicalKey": "country:australia",
+        "recordId": "expatsargentina:country:australia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "austria": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Austria and Argentina share cultural connections, particularly in music and arts. Austrian citizens enjoy visa-free entry and multiple residency pathways.",
+      "truthSync": {
+        "canonicalKey": "country:austria",
+        "recordId": "expatsargentina:country:austria",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "azerbaijan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Azerbaijani citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:azerbaijan",
+        "recordId": "expatsargentina:country:azerbaijan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "bahamas": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Bahamian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:bahamas",
+        "recordId": "expatsargentina:country:bahamas",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "bangladesh": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Bangladeshi citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:bangladesh",
+        "recordId": "expatsargentina:country:bangladesh",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "barbados": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Barbadian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:barbados",
+        "recordId": "expatsargentina:country:barbados",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "belarus": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Belarusian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:belarus",
+        "recordId": "expatsargentina:country:belarus",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "belgium": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://belgianchamber.com.ar"
+    ],
+    "patch": {
+      "description": "Belgians find Argentina attractive for European-style culture and business opportunities. Welcoming environment for professionals with EU connections in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:belgium",
+        "recordId": "expatsargentina:country:belgium",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://belgianchamber.com.ar"
+        ]
+      }
+    }
+  },
+  "bolivia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Bolivians enjoy unrestricted access to live and work as full Mercosur members. Deep historical connections and a large community provide strong support networks.",
+      "truthSync": {
+        "canonicalKey": "country:bolivia",
+        "recordId": "expatsargentina:country:bolivia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "bosnia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Bosnian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:bosnia",
+        "recordId": "expatsargentina:country:bosnia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "brazil": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Brazilians enjoy easiest immigration as founding Mercosur members. 2-year temporary residency, which can be converted to permanent residency after the 2-year period, and the largest foreign community.",
+      "truthSync": {
+        "canonicalKey": "country:brazil",
+        "recordId": "expatsargentina:country:brazil",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "brunei": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Bruneian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:brunei",
+        "recordId": "expatsargentina:country:brunei",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "bulgaria": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Bulgarian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:bulgaria",
+        "recordId": "expatsargentina:country:bulgaria",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "cambodia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Cambodian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:cambodia",
+        "recordId": "expatsargentina:country:cambodia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "canada": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Canadians find Argentina attractive for affordable living and adventure. Digital nomad visa offers a pathway for remote workers with favorable exchange rates.",
+      "truthSync": {
+        "canonicalKey": "country:canada",
+        "recordId": "expatsargentina:country:canada",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "chile": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Chileans enjoy simplified immigration to Argentina as Mercosur associates. Close cultural connections and lower cost of living make integration easy for Chilean expats.",
+      "truthSync": {
+        "canonicalKey": "country:chile",
+        "recordId": "expatsargentina:country:chile",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
   "china": {
     "reviewDate": "2026-03-08",
     "sourceUrls": [
@@ -890,6 +1178,14 @@ export const nationalitiesFactOverrides = {
       "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-316-2025-415345/texto"
     ],
     "patch": {
+      "description": "The Chinese community is one of Argentina's most established Asian communities. Opportunities in trade, gastronomy, and professional sectors welcome expats.",
+      "truthSync": {
+        "canonicalKey": "country:china",
+        "recordId": "expatsargentina:country:china",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      },
       "visaRequirements": {
         "tourist": {
           "duration": "Up to 90 days if the July 2025 U.S.-visa facilitation fits; otherwise use the normal pre-travel route",
@@ -914,6 +1210,94 @@ export const nationalitiesFactOverrides = {
       }
     }
   },
+  "colombia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Colombians enjoy preferential immigration access as Mercosur associates since 2012. Rapidly growing community with a visible cultural presence and good opportunities.",
+      "truthSync": {
+        "canonicalKey": "country:colombia",
+        "recordId": "expatsargentina:country:colombia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "croatia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Croatian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:croatia",
+        "recordId": "expatsargentina:country:croatia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "cuba": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Cuban citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:cuba",
+        "recordId": "expatsargentina:country:cuba",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "cyprus": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Cypriot citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:cyprus",
+        "recordId": "expatsargentina:country:cyprus",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "czech-republic": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The Czech Republic and Argentina maintain strong diplomatic relations. Czech citizens enjoy visa-free entry, making Argentina an accessible destination for Czech professionals, students, and retirees seeking new opportunities in South America.",
+      "truthSync": {
+        "canonicalKey": "country:czech-republic",
+        "recordId": "expatsargentina:country:czech-republic",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "denmark": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://danskbuenosaires.com"
+    ],
+    "patch": {
+      "description": "Danes bring design sensibility and sustainability focus to Argentina. Visa-free entry and affordable living with a community in Buenos Aires for professionals.",
+      "truthSync": {
+        "canonicalKey": "country:denmark",
+        "recordId": "expatsargentina:country:denmark",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://danskbuenosaires.com"
+        ]
+      }
+    }
+  },
   "dominican-republic": {
     "reviewDate": "2026-03-08",
     "sourceUrls": [
@@ -921,6 +1305,14 @@ export const nationalitiesFactOverrides = {
       "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-316-2025-415345/texto"
     ],
     "patch": {
+      "description": "Complete guide for Dominican citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:dominican-republic",
+        "recordId": "expatsargentina:country:dominican-republic",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      },
       "visaRequirements": {
         "tourist": {
           "duration": "Up to 90 days only when the July 2025 U.S.-visa facilitation fits",
@@ -945,14 +1337,1226 @@ export const nationalitiesFactOverrides = {
       }
     }
   },
+  "ecuador": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Ecuadorians enjoy preferential immigration access as Mercosur associates. 2-year renewable residency with work authorization and opportunities across sectors.",
+      "truthSync": {
+        "canonicalKey": "country:ecuador",
+        "recordId": "expatsargentina:country:ecuador",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "egypt": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Egypt and Argentina have maintained diplomatic relations since 1947. Egyptian citizens can access various Argentine immigration pathways including student visas, work permits, and the digital nomad program.",
+      "truthSync": {
+        "canonicalKey": "country:egypt",
+        "recordId": "expatsargentina:country:egypt",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "el-salvador": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Salvadoran citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:el-salvador",
+        "recordId": "expatsargentina:country:el-salvador",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "estonia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Estonian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:estonia",
+        "recordId": "expatsargentina:country:estonia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "fiji": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Fijian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:fiji",
+        "recordId": "expatsargentina:country:fiji",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "finland": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://finlandiaargentina.com"
+    ],
+    "patch": {
+      "description": "Finns find Argentina's landscapes a perfect match for love of nature. Opportunities in tech and education with a small community in Buenos Aires.",
+      "truthSync": {
+        "canonicalKey": "country:finland",
+        "recordId": "expatsargentina:country:finland",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://finlandiaargentina.com"
+        ]
+      }
+    }
+  },
+  "france": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.alianzafrancesa.org.ar"
+    ],
+    "patch": {
+      "description": "Argentina has strong historical ties with France, including one of the largest French communities in Latin America. French citizens enjoy visa-free entry and multiple residency pathways including a bilateral Working Holiday agreement.",
+      "truthSync": {
+        "canonicalKey": "country:france",
+        "recordId": "expatsargentina:country:france",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://www.alianzafrancesa.org.ar"
+        ]
+      }
+    }
+  },
+  "georgia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Georgian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:georgia",
+        "recordId": "expatsargentina:country:georgia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "germany": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "German interest has grown significantly, driven by remote work opportunities and lower living costs. Expanding professional networks support Germans in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:germany",
+        "recordId": "expatsargentina:country:germany",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "greece": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Greece and Argentina share historical ties through Greek immigration waves. Greek citizens enjoy visa-free entry and find a welcoming community with cultural connections.",
+      "truthSync": {
+        "canonicalKey": "country:greece",
+        "recordId": "expatsargentina:country:greece",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "guatemala": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Guatemalan citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:guatemala",
+        "recordId": "expatsargentina:country:guatemala",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "haiti": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Haitian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:haiti",
+        "recordId": "expatsargentina:country:haiti",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "honduras": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Honduran citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:honduras",
+        "recordId": "expatsargentina:country:honduras",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "hungary": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Hungary and Argentina share friendly diplomatic relations. Hungarian citizens enjoy visa-free entry and multiple residency pathways. A small Hungarian community in Buenos Aires provides cultural connections for new arrivals.",
+      "truthSync": {
+        "canonicalKey": "country:hungary",
+        "recordId": "expatsargentina:country:hungary",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "iceland": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Icelandic citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:iceland",
+        "recordId": "expatsargentina:country:iceland",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "india": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's Indian community is growing rapidly, driven by IT professionals, business owners, and students. While no special agreements exist, the Digital Nomad Visa and temporary residency pathways offer viable routes for Indians seeking to live in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:india",
+        "recordId": "expatsargentina:country:india",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "indonesia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Indonesia and Argentina established diplomatic relations in 1954. Indonesian citizens can access Argentine residency through student visas, employment permits, and the digital nomad program.",
+      "truthSync": {
+        "canonicalKey": "country:indonesia",
+        "recordId": "expatsargentina:country:indonesia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "iran": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Iranian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:iran",
+        "recordId": "expatsargentina:country:iran",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "iraq": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Iraqi citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:iraq",
+        "recordId": "expatsargentina:country:iraq",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "ireland": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://facebook.com/irishargentine",
+      "https://www.dfa.ie/irish-embassy/argentina"
+    ],
+    "patch": {
+      "description": "Irish citizens enjoy working holiday agreements and visa-free travel. Deep historical ties with Argentina, home to the fifth-largest Irish diaspora globally.",
+      "truthSync": {
+        "canonicalKey": "country:ireland",
+        "recordId": "expatsargentina:country:ireland",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://facebook.com/irishargentine",
+          "https://www.dfa.ie/irish-embassy/argentina"
+        ]
+      }
+    }
+  },
+  "israel": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.amia.org.ar"
+    ],
+    "patch": {
+      "description": "Argentina has the largest Jewish community in Latin America and strong historical ties with Israel. Israeli citizens enjoy visa-free entry and find familiar cultural connections, kosher food availability, and an established support network.",
+      "truthSync": {
+        "canonicalKey": "country:israel",
+        "recordId": "expatsargentina:country:israel",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://www.amia.org.ar"
+        ]
+      }
+    }
+  },
+  "italy": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage.",
+      "truthSync": {
+        "canonicalKey": "country:italy",
+        "recordId": "expatsargentina:country:italy",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "jamaica": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Jamaican citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:jamaica",
+        "recordId": "expatsargentina:country:jamaica",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "japan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Japan and Argentina share longstanding cultural and economic relations. Japanese citizens find opportunities in technology sectors with a community in Buenos Aires.",
+      "truthSync": {
+        "canonicalKey": "country:japan",
+        "recordId": "expatsargentina:country:japan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "jordan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Jordanian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:jordan",
+        "recordId": "expatsargentina:country:jordan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "kazakhstan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Kazakh citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:kazakhstan",
+        "recordId": "expatsargentina:country:kazakhstan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "kenya": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Kenya and Argentina established diplomatic ties in the 1970s. Kenyan citizens can pursue multiple immigration pathways to Argentina, including student visas, employment sponsorship, and the digital nomad visa.",
+      "truthSync": {
+        "canonicalKey": "country:kenya",
+        "recordId": "expatsargentina:country:kenya",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "kuwait": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Kuwaiti citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:kuwait",
+        "recordId": "expatsargentina:country:kuwait",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "kyrgyzstan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Kyrgyz citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:kyrgyzstan",
+        "recordId": "expatsargentina:country:kyrgyzstan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "laos": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Lao citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:laos",
+        "recordId": "expatsargentina:country:laos",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "latvia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Latvian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:latvia",
+        "recordId": "expatsargentina:country:latvia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "lebanon": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Lebanese citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:lebanon",
+        "recordId": "expatsargentina:country:lebanon",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "lithuania": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Lithuanian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:lithuania",
+        "recordId": "expatsargentina:country:lithuania",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "luxembourg": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Luxembourger citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:luxembourg",
+        "recordId": "expatsargentina:country:luxembourg",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "malaysia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Malaysia and Argentina have maintained diplomatic ties since 1967. Malaysian citizens enjoy visa-free entry and straightforward pathways for business investment and long-term residency.",
+      "truthSync": {
+        "canonicalKey": "country:malaysia",
+        "recordId": "expatsargentina:country:malaysia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "maldives": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Maldivian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:maldives",
+        "recordId": "expatsargentina:country:maldives",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "malta": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Maltese citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:malta",
+        "recordId": "expatsargentina:country:malta",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "mexico": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The Mexican community has grown, drawn by educational opportunities. Expanding networks in major cities provide support for Mexican expats in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:mexico",
+        "recordId": "expatsargentina:country:mexico",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "moldova": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Moldovan citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:moldova",
+        "recordId": "expatsargentina:country:moldova",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "mongolia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Mongolian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:mongolia",
+        "recordId": "expatsargentina:country:mongolia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "montenegro": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Montenegrin citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:montenegro",
+        "recordId": "expatsargentina:country:montenegro",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "myanmar": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Burmese citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:myanmar",
+        "recordId": "expatsargentina:country:myanmar",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "nepal": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Nepali citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:nepal",
+        "recordId": "expatsargentina:country:nepal",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "netherlands": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Dutch citizens are drawn to Argentina for agricultural business and lower cost of living. Agricultural and trade relationships between the Netherlands and Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:netherlands",
+        "recordId": "expatsargentina:country:netherlands",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "new-zealand": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "New Zealanders find Argentina attractive for adventure and lower cost of living. Digital nomad visa offers a pathway for remote workers seeking cultural experiences.",
+      "truthSync": {
+        "canonicalKey": "country:new-zealand",
+        "recordId": "expatsargentina:country:new-zealand",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "nicaragua": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Nicaraguan citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:nicaragua",
+        "recordId": "expatsargentina:country:nicaragua",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "nigeria": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's Nigerian community is small but growing, particularly in business and education sectors. While no special agreements exist, the Digital Nomad Visa and student pathways offer viable routes for Nigerians seeking to live in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:nigeria",
+        "recordId": "expatsargentina:country:nigeria",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "north-macedonia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Macedonian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:north-macedonia",
+        "recordId": "expatsargentina:country:north-macedonia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "norway": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://nahk.com.ar"
+    ],
+    "patch": {
+      "description": "Norwegians find Argentina's diverse landscapes reminiscent of home. Growing business ties in aquaculture and renewable energy with a community in Buenos Aires.",
+      "truthSync": {
+        "canonicalKey": "country:norway",
+        "recordId": "expatsargentina:country:norway",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://nahk.com.ar"
+        ]
+      }
+    }
+  },
+  "pakistan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Pakistani citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:pakistan",
+        "recordId": "expatsargentina:country:pakistan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "papua-new-guinea": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Papua New Guinean citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:papua-new-guinea",
+        "recordId": "expatsargentina:country:papua-new-guinea",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "paraguay": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Paraguayans enjoy unrestricted freedom of movement as Mercosur founding members. Deep cultural links and a large community welcome expats from Paraguay.",
+      "truthSync": {
+        "canonicalKey": "country:paraguay",
+        "recordId": "expatsargentina:country:paraguay",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "peru": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Peruvians enjoy streamlined immigration as Mercosur associates since 2003. One of the largest immigrant communities with established cultural and economic connections.",
+      "truthSync": {
+        "canonicalKey": "country:peru",
+        "recordId": "expatsargentina:country:peru",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "philippines": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The Filipino community in Argentina is small but growing, particularly in healthcare, services, and domestic work. Filipinos are valued for their English proficiency, strong work ethic, and cultural adaptability.",
+      "truthSync": {
+        "canonicalKey": "country:philippines",
+        "recordId": "expatsargentina:country:philippines",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "poland": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://poloniaargentina.org",
+      "https://buenosaires.msz.gov.pl"
+    ],
+    "patch": {
+      "description": "Poland and Argentina share deep historical ties. Polish citizens find visa-free entry and a welcoming community dating back generations in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:poland",
+        "recordId": "expatsargentina:country:poland",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://poloniaargentina.org",
+          "https://buenosaires.msz.gov.pl"
+        ]
+      }
+    }
+  },
+  "portugal": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Portuguese citizens find Argentina attractive for lower cost of living and European lifestyle. Ties through language and Latin heritage support the community.",
+      "truthSync": {
+        "canonicalKey": "country:portugal",
+        "recordId": "expatsargentina:country:portugal",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "puerto-rico": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Puerto Rican citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:puerto-rico",
+        "recordId": "expatsargentina:country:puerto-rico",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "qatar": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Qatari citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:qatar",
+        "recordId": "expatsargentina:country:qatar",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "romania": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Romania and Argentina maintain positive diplomatic relations dating back decades. Romanian citizens enjoy visa-free entry, making Argentina an accessible destination for work, study, and residence. A growing Romanian community in Buenos Aires provides support for new arrivals.",
+      "truthSync": {
+        "canonicalKey": "country:romania",
+        "recordId": "expatsargentina:country:romania",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "russia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina has become a significant destination for Russian citizens seeking relocation options. With no visa requirements for 90 days and a streamlined residency process, Argentina offers an accessible pathway for Russians looking to establish residency abroad.",
+      "truthSync": {
+        "canonicalKey": "country:russia",
+        "recordId": "expatsargentina:country:russia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "samoa": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Samoan citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:samoa",
+        "recordId": "expatsargentina:country:samoa",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "serbia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Serbian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:serbia",
+        "recordId": "expatsargentina:country:serbia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "singapore": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Singapore and Argentina maintain strong trade relations. Singaporean citizens enjoy visa-free entry and find opportunities in investment and business sectors.",
+      "truthSync": {
+        "canonicalKey": "country:singapore",
+        "recordId": "expatsargentina:country:singapore",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "slovakia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Slovak citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:slovakia",
+        "recordId": "expatsargentina:country:slovakia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "slovenia": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Slovene citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:slovenia",
+        "recordId": "expatsargentina:country:slovenia",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "south-africa": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://facebook.com/groups/southafricansargentina"
+    ],
+    "patch": {
+      "description": "South Africans enjoy working holiday agreements for up to a year. Growing community of retirees and professionals in Buenos Aires and coastal areas of Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:south-africa",
+        "recordId": "expatsargentina:country:south-africa",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://facebook.com/groups/southafricansargentina"
+        ]
+      }
+    }
+  },
+  "south-korea": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The South Korean community has grown with presence in technology sectors. Opportunities and cultural appreciation welcome Korean expats to Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:south-korea",
+        "recordId": "expatsargentina:country:south-korea",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "spain": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Spanish citizens benefit from bilateral agreements that simplify residency and offer special pension arrangements. Deep historical bonds between Spain and Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:spain",
+        "recordId": "expatsargentina:country:spain",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "sri-lanka": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Sri Lankan citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:sri-lanka",
+        "recordId": "expatsargentina:country:sri-lanka",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "sweden": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://swedishclub.com.ar"
+    ],
+    "patch": {
+      "description": "Swedes are drawn to Argentina's dynamic culture and growing tech scene. Opportunities in sustainability and design with an active community in Buenos Aires.",
+      "truthSync": {
+        "canonicalKey": "country:sweden",
+        "recordId": "expatsargentina:country:sweden",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://swedishclub.com.ar"
+        ]
+      }
+    }
+  },
+  "switzerland": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://casuizargentina.com",
+      "https://swissclubba.org"
+    ],
+    "patch": {
+      "description": "Switzerland and Argentina share deep historical ties. Swiss immigrants helped build infrastructure and dairy industry. Professionals find opportunities in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:switzerland",
+        "recordId": "expatsargentina:country:switzerland",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": [
+          "https://casuizargentina.com",
+          "https://swissclubba.org"
+        ]
+      }
+    }
+  },
+  "tajikistan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Tajik citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:tajikistan",
+        "recordId": "expatsargentina:country:tajikistan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "thailand": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Thailand and Argentina have enjoyed diplomatic ties since 1952. Thai citizens benefit from visa-free entry and can pursue longer-term residency through various visa categories.",
+      "truthSync": {
+        "canonicalKey": "country:thailand",
+        "recordId": "expatsargentina:country:thailand",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "trinidad-and-tobago": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Trinidadian citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:trinidad-and-tobago",
+        "recordId": "expatsargentina:country:trinidad-and-tobago",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "turkey": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Turkey and Argentina maintain strong diplomatic and trade relations. Turkish citizens benefit from streamlined processes and a growing business community in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:turkey",
+        "recordId": "expatsargentina:country:turkey",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "turkmenistan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Turkmen citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:turkmenistan",
+        "recordId": "expatsargentina:country:turkmenistan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "ukraine": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina has implemented special humanitarian provisions for Ukrainian citizens fleeing conflict. With a growing community and supportive policies, Ukraine nationals find Argentina offers safety, opportunity, and a welcoming environment.",
+      "truthSync": {
+        "canonicalKey": "country:ukraine",
+        "recordId": "expatsargentina:country:ukraine",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "united-arab-emirates": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The UAE and Argentina maintain strong diplomatic and investment relations. Emirati citizens enjoy visa-free entry and find Argentina an attractive destination for investment and lifestyle.",
+      "truthSync": {
+        "canonicalKey": "country:united-arab-emirates",
+        "recordId": "expatsargentina:country:united-arab-emirates",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "united-kingdom": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Britons explore Argentina for affordability post-Brexit. Digital nomad visa provides a pathway for UK remote workers with historical Anglo-Argentine connections.",
+      "truthSync": {
+        "canonicalKey": "country:united-kingdom",
+        "recordId": "expatsargentina:country:united-kingdom",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
   "united-states": {
     "reviewDate": "2026-03-08",
     "sourceUrls": [
       "https://www.argentina.gob.ar/noticias/migraciones-extiende-los-requisitos-de-admision-para-residentes-permanentes-de-estados"
     ],
     "patch": {
+      "description": "Complete guide for Americans moving to Argentina. Digital nomad visa, tourist entry, residency pathways, and practical advice for US citizens.",
+      "truthSync": {
+        "canonicalKey": "country:united-states",
+        "recordId": "expatsargentina:country:united-states",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      },
       "practicalInfo": {
         "banking": "Open accounts with residency. Many Americans use Wise, Revolut, or US cards initially. The January 14, 2026 Green Card notice is mainly relevant for U.S. permanent residents traveling on another passport, not for U.S. citizens themselves."
+      }
+    }
+  },
+  "uruguay": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Uruguayans enjoy the easiest immigration as Mercosur members. No visas, no fees, and full work rights from day one. Guide to residency and cross-border living.",
+      "truthSync": {
+        "canonicalKey": "country:uruguay",
+        "recordId": "expatsargentina:country:uruguay",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "uzbekistan": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Complete guide for Uzbek citizens looking to live, work, or study in Argentina.",
+      "truthSync": {
+        "canonicalKey": "country:uzbekistan",
+        "recordId": "expatsargentina:country:uzbekistan",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "venezuela": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Venezuelans have pathways to residency through the DNE agreement and humanitarian provisions. One of Argentina's largest communities with work authorization support.",
+      "truthSync": {
+        "canonicalKey": "country:venezuela",
+        "recordId": "expatsargentina:country:venezuela",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  },
+  "vietnam": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Vietnam and Argentina established diplomatic relations in 1973. Vietnamese citizens can pursue Argentine residency through student visas, employment sponsorship, business investment, and the digital nomad pathway.",
+      "truthSync": {
+        "canonicalKey": "country:vietnam",
+        "recordId": "expatsargentina:country:vietnam",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "nationalities",
+        "sourceUrls": []
       }
     }
   }
@@ -960,7 +2564,7 @@ export const nationalitiesFactOverrides = {
 
 export const neighborhoodsFactOverrides = {
   "almagro": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The authentic Buenos Aires experience at budget prices. Almagro is where porteños actually live — traditional pizzerias, tango clubs, and a real neighborhood feel far from the tourist circuit.",
@@ -970,14 +2574,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:almagro",
         "recordId": "expatsargentina:neighborhood:almagro",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "barrio-norte": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A central, well-connected area straddling the border of Recoleta and Retiro. Classic Buenos Aires apartments, excellent transport, and a convenient location for everything.",
@@ -987,14 +2591,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:barrio-norte",
         "recordId": "expatsargentina:neighborhood:barrio-norte",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "belgrano": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The quiet, family-friendly neighborhood where long-term expats settle. Tree-lined streets, good schools, the city's Chinatown, and a residential calm that's hard to find elsewhere in BA.",
@@ -1004,14 +2608,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:belgrano",
         "recordId": "expatsargentina:neighborhood:belgrano",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "caballito": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The geographic center of Buenos Aires and a solidly middle-class neighborhood. Great transport, affordable rents, and a genuine Argentine family feel. The unsexy but practical choice.",
@@ -1021,14 +2625,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:caballito",
         "recordId": "expatsargentina:neighborhood:caballito",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "cerro-de-las-rosas": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Córdoba's upscale residential neighborhood — tree-lined streets, excellent restaurants, and a quiet, family-friendly atmosphere. The Recoleta of the interior, with a fraction of the price tag.",
@@ -1038,14 +2642,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:cerro-de-las-rosas",
         "recordId": "expatsargentina:neighborhood:cerro-de-las-rosas",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "chacarita": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The fastest-gentrifying neighborhood in Buenos Aires. Former working-class barrio now home to BA's hottest new restaurants, natural wine bars, and creative studios. The 'next Palermo' is happening right now.",
@@ -1055,14 +2659,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:chacarita",
         "recordId": "expatsargentina:neighborhood:chacarita",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "chacras-de-coria": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A charming wine country village 20 minutes from downtown Mendoza — tree-lined streets, bodegas within walking distance, and the largest concentration of expats in the region. The 'Palermo' of Mendoza.",
@@ -1072,14 +2676,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:chacras-de-coria",
         "recordId": "expatsargentina:neighborhood:chacras-de-coria",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "colegiales": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Palermo's quieter, more residential neighbor. A hidden gem with tree-lined streets, a growing cafe scene, and the feel of a small town within the city. Perfect for expats who want proximity without the noise.",
@@ -1089,14 +2693,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:colegiales",
         "recordId": "expatsargentina:neighborhood:colegiales",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "cordoba-centro": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The historic core of Argentina's second-largest city — home to the Jesuit Block (UNESCO), the cathedral, and a dense commercial center. Affordable, well-connected, and steeped in 400 years of history.",
@@ -1106,14 +2710,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:cordoba-centro",
         "recordId": "expatsargentina:neighborhood:cordoba-centro",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "godoy-cruz": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Mendoza's lively adjacent suburb — a favorite among young professionals for its nightlife strip on Arístides Villanueva, craft beer scene, and lower rents just minutes from downtown.",
@@ -1123,14 +2727,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:godoy-cruz",
         "recordId": "expatsargentina:neighborhood:godoy-cruz",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "guaymallen": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Mendoza's most affordable residential zone — a sprawling suburb east of downtown with growing commercial areas, good value apartments, and a genuine local feel far from the tourist trail.",
@@ -1140,14 +2744,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:guaymallen",
         "recordId": "expatsargentina:neighborhood:guaymallen",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "guemes": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Córdoba's hipster barrio — craft markets, vintage shops, design studios, and a young creative crowd. The Palermo Soho of the interior, with its own distinct character and far lower prices.",
@@ -1157,14 +2761,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:guemes",
         "recordId": "expatsargentina:neighborhood:guemes",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "la-boca": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The colorful birthplace of tango and home of Boca Juniors. Iconic for tourists but a complex choice for residents — rich culture with significant safety considerations.",
@@ -1174,14 +2778,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:la-boca",
         "recordId": "expatsargentina:neighborhood:la-boca",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "mendoza-centro": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The commercial heart of Argentina's wine capital — a walkable grid of plazas, sidewalk cafes, and affordable living. A compact, sunny city center where everything is within reach on foot.",
@@ -1191,14 +2795,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:mendoza-centro",
         "recordId": "expatsargentina:neighborhood:mendoza-centro",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "nueva-cordoba": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's ultimate student quarter — a dense, walkable neighborhood packed with bars, cafes, and young energy. The most energetic barrio outside Buenos Aires, with nightlife that rivals the capital.",
@@ -1208,14 +2812,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:nueva-cordoba",
         "recordId": "expatsargentina:neighborhood:nueva-cordoba",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "nunez": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A hidden gem at the northern tip of Buenos Aires — quiet, safe, and affordable by northern BA standards. Home to River Plate stadium and a growing expat community seeking space and tranquility.",
@@ -1225,14 +2829,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:nunez",
         "recordId": "expatsargentina:neighborhood:nunez",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "palermo-botanico": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The quietest corner of Palermo — centered around the Botanical Garden and Japanese Garden. All the benefits of the Palermo location with a fraction of the noise.",
@@ -1242,14 +2846,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:palermo-botanico",
         "recordId": "expatsargentina:neighborhood:palermo-botanico",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "palermo-hollywood": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The nightlife and entertainment hub of Buenos Aires, packed with bars, clubs, and TV production studios. More lively and edgy than Soho, with slightly lower rents and a younger crowd.",
@@ -1259,14 +2863,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:palermo-hollywood",
         "recordId": "expatsargentina:neighborhood:palermo-hollywood",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "palermo-soho": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The undisputed expat capital of Buenos Aires — cobblestone streets lined with designer boutiques, artisan coffee shops, and some of the city's best restaurants. If you want to be in the center of expat life, this is ground zero.",
@@ -1276,14 +2880,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:palermo-soho",
         "recordId": "expatsargentina:neighborhood:palermo-soho",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "puerto-madero": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Buenos Aires' newest and most luxurious neighborhood — modern skyscrapers, waterfront promenades, and the highest safety in the city. A bubble of modernity that feels like a different country.",
@@ -1293,14 +2897,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:puerto-madero",
         "recordId": "expatsargentina:neighborhood:puerto-madero",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "recoleta": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Buenos Aires' most elegant neighborhood — French architecture, embassy-lined streets, and the safest area in the city. The choice for families, retirees, and anyone seeking upscale living with European sophistication.",
@@ -1310,14 +2914,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:recoleta",
         "recordId": "expatsargentina:neighborhood:recoleta",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "san-telmo": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The soul of old Buenos Aires — cobblestone streets, tango bars, antique shops, and the legendary Sunday market. Authentic, bohemian, and more affordable than northern neighborhoods.",
@@ -1327,14 +2931,14 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:san-telmo",
         "recordId": "expatsargentina:neighborhood:san-telmo",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
     }
   },
   "villa-crespo": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The smart money move — Palermo vibes at 40% lower rent. An up-and-coming neighborhood with an excellent food scene, outlet shopping, and genuine Argentine character.",
@@ -1344,7 +2948,7 @@ export const neighborhoodsFactOverrides = {
       "truthSync": {
         "canonicalKey": "neighborhood:villa-crespo",
         "recordId": "expatsargentina:neighborhood:villa-crespo",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "neighborhoods",
         "sourceUrls": []
       }
@@ -1353,14 +2957,1206 @@ export const neighborhoodsFactOverrides = {
 } as const;
 
 export const professionsFactOverrides = {
+  "3d-artist": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "3D art is used in games, film, and visualization. Learn how 3D artists can work remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:3d-artist",
+        "recordId": "expatsargentina:profession:3d-artist",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "account-executive": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Account executives handle high-value B2B sales. Learn how AEs can work remotely for US companies.",
+      "truthSync": {
+        "canonicalKey": "profession:account-executive",
+        "recordId": "expatsargentina:profession:account-executive",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "accountant-bookkeeper": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.aicpa-cima.com"
+    ],
+    "patch": {
+      "description": "Argentina's complex currency controls and tax system create unique opportunities for accountants and bookkeepers serving international clients. Learn about visa pathways and building your practice.",
+      "truthSync": {
+        "canonicalKey": "profession:accountant-bookkeeper",
+        "recordId": "expatsargentina:profession:accountant-bookkeeper",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://www.aicpa-cima.com"
+        ]
+      }
+    }
+  },
+  "ai-researcher": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "AI research is inherently location-independent -- compute lives in the cloud, collaboration happens through papers and conferences. Argentina's growing AI community is a draw.",
+      "truthSync": {
+        "canonicalKey": "profession:ai-researcher",
+        "recordId": "expatsargentina:profession:ai-researcher",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "animator": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Animators are building careers from Argentina, working with studios and clients across the globe. Here's the full picture.",
+      "truthSync": {
+        "canonicalKey": "profession:animator",
+        "recordId": "expatsargentina:profession:animator",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "api-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "API development is a specialized technical skill. Learn how API developers can work remotely for companies worldwide.",
+      "truthSync": {
+        "canonicalKey": "profession:api-developer",
+        "recordId": "expatsargentina:profession:api-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "ar-vr-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "AR/VR is a fast-growing field, and the development side is fully remote. Argentina's tech talent and cost advantages make it a smart base.",
+      "truthSync": {
+        "canonicalKey": "profession:ar-vr-developer",
+        "recordId": "expatsargentina:profession:ar-vr-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "attorney": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Legal professionals have unique opportunities in Argentina. Learn how attorneys can work remotely or establish practice.",
+      "truthSync": {
+        "canonicalKey": "profession:attorney",
+        "recordId": "expatsargentina:profession:attorney",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "backend-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Backend developers power the systems behind web and mobile apps. Learn about remote opportunities for backend specialists in Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:backend-developer",
+        "recordId": "expatsargentina:profession:backend-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "biotech-researcher": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Computational biology, bioinformatics, and data analysis can all be done remotely. Argentina's growing biotech sector adds local opportunities too.",
+      "truthSync": {
+        "canonicalKey": "profession:biotech-researcher",
+        "recordId": "expatsargentina:profession:biotech-researcher",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "blockchain-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Blockchain development is one of tech's fastest-growing fields. Learn about opportunities for crypto developers working remotely from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:blockchain-developer",
+        "recordId": "expatsargentina:profession:blockchain-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "business-analyst": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Business analysts bridge data and decision-making. This guide covers what it takes to do that remotely from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:business-analyst",
+        "recordId": "expatsargentina:profession:business-analyst",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "business-consultant": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's unique economic environment creates high demand for experienced business consultants. Learn about visa pathways, client acquisition, and building your consulting practice.",
+      "truthSync": {
+        "canonicalKey": "profession:business-consultant",
+        "recordId": "expatsargentina:profession:business-consultant",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "career-coach": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Career coaching runs on video calls and shared documents. It's fully remote by nature, and Argentina is a comfortable place to build the practice.",
+      "truthSync": {
+        "canonicalKey": "profession:career-coach",
+        "recordId": "expatsargentina:profession:career-coach",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "cloud-architect": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Cloud architecture is one of the highest-paying tech specializations. Learn about visa pathways for AWS, Azure, and GCP architects working remotely from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:cloud-architect",
+        "recordId": "expatsargentina:profession:cloud-architect",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "community-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Community managers work where their communities live: online. Argentina's low cost of living and strong internet make it an easy choice.",
+      "truthSync": {
+        "canonicalKey": "profession:community-manager",
+        "recordId": "expatsargentina:profession:community-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "content-creator": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina offers endless content opportunities—from Buenos Aires' rich culture to Patagonia's dramatic landscapes. A guide to building your creator career here.",
+      "truthSync": {
+        "canonicalKey": "profession:content-creator",
+        "recordId": "expatsargentina:profession:content-creator",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "content-writer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's rich culture and affordable living make it ideal for content writers. Learn about visa options, client acquisition, and building your portfolio.",
+      "truthSync": {
+        "canonicalKey": "profession:content-writer",
+        "recordId": "expatsargentina:profession:content-writer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "copywriter": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Copywriting is a perfect remote profession. Learn how Argentine copywriters serve international clients while enjoying the country's creative atmosphere.",
+      "truthSync": {
+        "canonicalKey": "profession:copywriter",
+        "recordId": "expatsargentina:profession:copywriter",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "course-creator": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Online education is booming. Learn how course creators can build passive income businesses while living in Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:course-creator",
+        "recordId": "expatsargentina:profession:course-creator",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "customer-success-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Customer Success is a fast-growing remote profession. Learn how Argentine CSMs serve international tech companies while enjoying the country's lifestyle.",
+      "truthSync": {
+        "canonicalKey": "profession:customer-success-manager",
+        "recordId": "expatsargentina:profession:customer-success-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "cybersecurity-analyst": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's cybersecurity sector is expanding rapidly. Learn how security professionals can build their careers while enjoying Argentina's lifestyle advantages.",
+      "truthSync": {
+        "canonicalKey": "profession:cybersecurity-analyst",
+        "recordId": "expatsargentina:profession:cybersecurity-analyst",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "data-analyst": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's growing fintech and e-commerce sectors need data professionals. Discover visa pathways, salary expectations, and the local data community.",
+      "truthSync": {
+        "canonicalKey": "profession:data-analyst",
+        "recordId": "expatsargentina:profession:data-analyst",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "data-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Data engineering pays well and works remotely. Argentina has the infrastructure and talent pool to back it up.",
+      "truthSync": {
+        "canonicalKey": "profession:data-engineer",
+        "recordId": "expatsargentina:profession:data-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "data-scientist": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's data science community is growing fast. Here's what data scientists need to know about building careers while enjoying Argentina's exceptional lifestyle.",
+      "truthSync": {
+        "canonicalKey": "profession:data-scientist",
+        "recordId": "expatsargentina:profession:data-scientist",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "database-administrator": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "DBAs keep data available, secure, and fast. Most of that work happens through a terminal -- which means it works from Argentina too.",
+      "truthSync": {
+        "canonicalKey": "profession:database-administrator",
+        "recordId": "expatsargentina:profession:database-administrator",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "devops-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's cloud infrastructure market is growing rapidly. Learn how DevOps engineers can thrive in Argentina's tech ecosystem with remote opportunities and local demand.",
+      "truthSync": {
+        "canonicalKey": "profession:devops-engineer",
+        "recordId": "expatsargentina:profession:devops-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "digital-marketing-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's digital marketing scene is booming with fintech, e-commerce, and SaaS companies seeking experienced marketing leaders. Discover visa pathways and salary expectations.",
+      "truthSync": {
+        "canonicalKey": "profession:digital-marketing-manager",
+        "recordId": "expatsargentina:profession:digital-marketing-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "ecommerce-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "E-commerce continues to grow rapidly. Learn how e-commerce managers can build remote careers serving international brands.",
+      "truthSync": {
+        "canonicalKey": "profession:ecommerce-manager",
+        "recordId": "expatsargentina:profession:ecommerce-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "education-consultant": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Education consultants guide students through admissions, test prep, and academic planning. All of it works over video -- and Argentina is a great base.",
+      "truthSync": {
+        "canonicalKey": "profession:education-consultant",
+        "recordId": "expatsargentina:profession:education-consultant",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "embedded-systems-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Embedded systems programming is specialized, well-paid, and increasingly remote-friendly. A guide for engineers thinking about Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:embedded-systems-engineer",
+        "recordId": "expatsargentina:profession:embedded-systems-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "english-teacher": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina has strong demand for English teachers in schools, language institutes, and corporate settings. Learn how to build your teaching career in this education-focused country.",
+      "truthSync": {
+        "canonicalKey": "profession:english-teacher",
+        "recordId": "expatsargentina:profession:english-teacher",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "entrepreneur": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina presents unique opportunities for entrepreneurs despite economic challenges. Learn about business formation, visa options, and navigating the local ecosystem.",
+      "truthSync": {
+        "canonicalKey": "profession:entrepreneur",
+        "recordId": "expatsargentina:profession:entrepreneur",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "event-planner": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Can you plan events from Argentina? Many planners are doing exactly that -- especially for virtual and hybrid events.",
+      "truthSync": {
+        "canonicalKey": "profession:event-planner",
+        "recordId": "expatsargentina:profession:event-planner",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "executive-assistant": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.iaap-hq.org"
+    ],
+    "patch": {
+      "description": "Argentina's pool of bilingual executive assistants attracts international executives and companies seeking high-level administrative support. Learn about visa pathways and building your EA career from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:executive-assistant",
+        "recordId": "expatsargentina:profession:executive-assistant",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://www.iaap-hq.org"
+        ]
+      }
+    }
+  },
+  "executive-coach": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Executive coaching serves C-suite and senior leaders. Learn how coaches can work with top executives remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:executive-coach",
+        "recordId": "expatsargentina:profession:executive-coach",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "financial-advisor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.cnv.gov.ar"
+    ],
+    "patch": {
+      "description": "Argentina's unique economic environment creates demand for experienced financial advisors. Learn about regulatory requirements, visa pathways, and building your advisory practice.",
+      "truthSync": {
+        "canonicalKey": "profession:financial-advisor",
+        "recordId": "expatsargentina:profession:financial-advisor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://www.cnv.gov.ar"
+        ]
+      }
+    }
+  },
+  "financial-analyst": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Spreadsheets, models, and reports don't care about your zip code. Financial analysts are finding Argentina an appealing remote base.",
+      "truthSync": {
+        "canonicalKey": "profession:financial-analyst",
+        "recordId": "expatsargentina:profession:financial-analyst",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "financial-controller": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Financial controllers oversee accounting and financial operations. Learn how controllers can work remotely for international companies.",
+      "truthSync": {
+        "canonicalKey": "profession:financial-controller",
+        "recordId": "expatsargentina:profession:financial-controller",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "frontend-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Frontend developers create the visual and interactive parts of web applications. Learn about remote opportunities in this high-demand field.",
+      "truthSync": {
+        "canonicalKey": "profession:frontend-developer",
+        "recordId": "expatsargentina:profession:frontend-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "full-stack-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Full stack developers are among the most in-demand tech professionals. Learn about opportunities for full stack devs working remotely from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:full-stack-developer",
+        "recordId": "expatsargentina:profession:full-stack-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "game-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina has a growing game development scene, with several successful studios and a strong indie community. A practical guide for game devs considering the move.",
+      "truthSync": {
+        "canonicalKey": "profession:game-developer",
+        "recordId": "expatsargentina:profession:game-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "graphic-designer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.aiga.org"
+    ],
+    "patch": {
+      "description": "Argentina has a rich design tradition and strong creative community. Learn about visa pathways for graphic designers serving international clients.",
+      "truthSync": {
+        "canonicalKey": "profession:graphic-designer",
+        "recordId": "expatsargentina:profession:graphic-designer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://www.aiga.org"
+        ]
+      }
+    }
+  },
+  "growth-hacker": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Growth hacking blends marketing, product, and data -- and startups don't care where you sit. Argentina's startup-friendly ecosystem makes it a natural fit.",
+      "truthSync": {
+        "canonicalKey": "profession:growth-hacker",
+        "recordId": "expatsargentina:profession:growth-hacker",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "hr-specialist": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.shrm.org"
+    ],
+    "patch": {
+      "description": "HR professionals are increasingly working remotely. Learn how Argentine-based HR specialists serve global companies while enjoying Argentina's lifestyle.",
+      "truthSync": {
+        "canonicalKey": "profession:hr-specialist",
+        "recordId": "expatsargentina:profession:hr-specialist",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://www.shrm.org"
+        ]
+      }
+    }
+  },
+  "illustrator": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "A practical guide for illustrators considering Argentina as a home base. Visas, rates, community, and what to expect.",
+      "truthSync": {
+        "canonicalKey": "profession:illustrator",
+        "recordId": "expatsargentina:profession:illustrator",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "insurance-broker": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Insurance brokerage has gone digital. Licensed brokers can serve US clients from Argentina while earning commissions and renewals.",
+      "truthSync": {
+        "canonicalKey": "profession:insurance-broker",
+        "recordId": "expatsargentina:profession:insurance-broker",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "investment-advisor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Investment advisors with the right licensing can manage portfolios from anywhere. Argentina's cost of living and lifestyle make it worth considering.",
+      "truthSync": {
+        "canonicalKey": "profession:investment-advisor",
+        "recordId": "expatsargentina:profession:investment-advisor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "iot-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "IoT development combines hardware and software. Learn how IoT developers can work remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:iot-developer",
+        "recordId": "expatsargentina:profession:iot-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "language-tutor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Language tutoring is booming online. Whether you teach English or Spanish, Argentina offers the lifestyle and time zone to build a real business.",
+      "truthSync": {
+        "canonicalKey": "profession:language-tutor",
+        "recordId": "expatsargentina:profession:language-tutor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "legal-consultant": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.ibanet.org"
+    ],
+    "patch": {
+      "description": "Foreign attorneys and legal consultants find unique opportunities in Argentina, from serving international clients remotely to advising on cross-border transactions. Learn about visa pathways and regulatory requirements.",
+      "truthSync": {
+        "canonicalKey": "profession:legal-consultant",
+        "recordId": "expatsargentina:profession:legal-consultant",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://www.ibanet.org"
+        ]
+      }
+    }
+  },
+  "life-coach": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Life coaching helps people achieve personal and professional goals. Learn how coaches can work remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:life-coach",
+        "recordId": "expatsargentina:profession:life-coach",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "machine-learning-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "ML engineering is one of tech's highest-paying fields -- and it works from anywhere. Here's what you need to know about doing it from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:machine-learning-engineer",
+        "recordId": "expatsargentina:profession:machine-learning-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "management-consultant": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Management consulting offers high-level advisory work. Learn how consultants can work remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:management-consultant",
+        "recordId": "expatsargentina:profession:management-consultant",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "marketing-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "More marketing managers are leading campaigns from abroad. Argentina is an increasingly popular base -- here's why, and how to make it work.",
+      "truthSync": {
+        "canonicalKey": "profession:marketing-manager",
+        "recordId": "expatsargentina:profession:marketing-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "mental-health-therapist": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Demand for online therapy has surged. Therapists with the right licenses can serve clients from Argentina -- here's how.",
+      "truthSync": {
+        "canonicalKey": "profession:mental-health-therapist",
+        "recordId": "expatsargentina:profession:mental-health-therapist",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "mobile-app-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's mobile development talent is globally recognized, with developers contributing to apps used worldwide. Learn about visa pathways for iOS, Android, and cross-platform developers.",
+      "truthSync": {
+        "canonicalKey": "profession:mobile-app-developer",
+        "recordId": "expatsargentina:profession:mobile-app-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "mortgage-broker": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Mortgage brokerage is going remote for certain niches. Here's what licensed brokers need to know about operating from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:mortgage-broker",
+        "recordId": "expatsargentina:profession:mortgage-broker",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "motion-designer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Motion design sits at the intersection of graphic design and animation. It's fully digital, fully remote, and Argentina is a solid base for it.",
+      "truthSync": {
+        "canonicalKey": "profession:motion-designer",
+        "recordId": "expatsargentina:profession:motion-designer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "music-producer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Modern music production is entirely digital -- DAWs, virtual instruments, online collaboration. Argentina's music culture and low costs are a bonus.",
+      "truthSync": {
+        "canonicalKey": "profession:music-producer",
+        "recordId": "expatsargentina:profession:music-producer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "network-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Cloud networking and SD-WAN have made network engineering more remote-friendly than ever. Here's what that looks like from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:network-engineer",
+        "recordId": "expatsargentina:profession:network-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "nutritionist": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Online nutrition coaching is growing. Learn how nutritionists can work remotely with clients worldwide.",
+      "truthSync": {
+        "canonicalKey": "profession:nutritionist",
+        "recordId": "expatsargentina:profession:nutritionist",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "online-teacher": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Online teaching offers flexible remote work. Learn how educators can teach international students while living in Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:online-teacher",
+        "recordId": "expatsargentina:profession:online-teacher",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "operations-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Operations managers keep businesses running smoothly -- and more of them are doing it remotely from Argentina. Here's the practical breakdown.",
+      "truthSync": {
+        "canonicalKey": "profession:operations-manager",
+        "recordId": "expatsargentina:profession:operations-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "personal-trainer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Online personal training is growing. Learn how trainers can build remote businesses.",
+      "truthSync": {
+        "canonicalKey": "profession:personal-trainer",
+        "recordId": "expatsargentina:profession:personal-trainer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "photographer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Photography offers creative entrepreneurship opportunities. Learn how photographers can work internationally while based in Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:photographer",
+        "recordId": "expatsargentina:profession:photographer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "podcast-editor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Podcasting is booming, and audio editors are cashing in. Argentina is a great base for serving podcasters worldwide.",
+      "truthSync": {
+        "canonicalKey": "profession:podcast-editor",
+        "recordId": "expatsargentina:profession:podcast-editor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "podcast-producer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Podcast production is a growing field. Learn how producers can serve clients remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:podcast-producer",
+        "recordId": "expatsargentina:profession:podcast-producer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "pr-specialist": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "PR has gone remote, and Argentina is a solid base for serving international clients. Visa options, rates, and tips inside.",
+      "truthSync": {
+        "canonicalKey": "profession:pr-specialist",
+        "recordId": "expatsargentina:profession:pr-specialist",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "product-designer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Product design combines UX, UI, and research. Learn how product designers can work remotely for international companies.",
+      "truthSync": {
+        "canonicalKey": "profession:product-designer",
+        "recordId": "expatsargentina:profession:product-designer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "product-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's booming startup scene needs experienced product managers. Learn about visa options, salary expectations, and the local product community.",
+      "truthSync": {
+        "canonicalKey": "profession:product-manager",
+        "recordId": "expatsargentina:profession:product-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "project-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.pmi.org",
+      "https://www.scrumalliance.org"
+    ],
+    "patch": {
+      "description": "Argentina's growing tech sector and international business presence create excellent opportunities for project managers. Learn about visa pathways and building your PM career remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:project-manager",
+        "recordId": "expatsargentina:profession:project-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://www.pmi.org",
+          "https://www.scrumalliance.org"
+        ]
+      }
+    }
+  },
+  "qa-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Quality Assurance is critical for software teams. Learn how QA engineers build remote careers testing applications from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:qa-engineer",
+        "recordId": "expatsargentina:profession:qa-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "real-estate-agent": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.nar.realtor"
+    ],
+    "patch": {
+      "description": "Argentina's real estate market offers opportunities for foreign agents, from serving international buyers to investing in local property. Learn about visa pathways including the Investment Visa.",
+      "truthSync": {
+        "canonicalKey": "profession:real-estate-agent",
+        "recordId": "expatsargentina:profession:real-estate-agent",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://www.nar.realtor"
+        ]
+      }
+    }
+  },
+  "recruiter": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Recruiting is increasingly remote. Learn how talent acquisition professionals can work for international companies while living in Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:recruiter",
+        "recordId": "expatsargentina:profession:recruiter",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "robotics-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "While hardware needs hands-on work, robotics software, simulation, and algorithm development are fully remote. A guide for robotics engineers eyeing Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:robotics-engineer",
+        "recordId": "expatsargentina:profession:robotics-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "sales-representative": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Remote sales is a growing field. Learn how sales professionals can build lucrative careers serving international markets while living in Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:sales-representative",
+        "recordId": "expatsargentina:profession:sales-representative",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "scrum-master": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Agile teams need Scrum Masters regardless of where they sit. Argentina's time zone and cost advantages make it an attractive option.",
+      "truthSync": {
+        "canonicalKey": "profession:scrum-master",
+        "recordId": "expatsargentina:profession:scrum-master",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "security-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Cybersecurity is critical and well-paying. Learn how security engineers can work remotely for international companies.",
+      "truthSync": {
+        "canonicalKey": "profession:security-engineer",
+        "recordId": "expatsargentina:profession:security-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "seo-specialist": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's SEO community is rapidly expanding. A guide to making the most of your search marketing skills while enjoying Argentina's lifestyle and cost advantages.",
+      "truthSync": {
+        "canonicalKey": "profession:seo-specialist",
+        "recordId": "expatsargentina:profession:seo-specialist",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "site-reliability-engineer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "SRE is one of tech's most in-demand specializations, and it's built for remote work. Everything you need to know about doing it from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:site-reliability-engineer",
+        "recordId": "expatsargentina:profession:site-reliability-engineer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "social-media-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Social media management is a booming remote profession. Learn how Argentine-based SMMs serve international clients while enjoying the country's lifestyle and cost advantages.",
+      "truthSync": {
+        "canonicalKey": "profession:social-media-manager",
+        "recordId": "expatsargentina:profession:social-media-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
   "software-developer": {
     "reviewDate": "2026-03-08",
     "sourceUrls": [
       "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
-      "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital",
+      "https://cessi.org.ar"
     ],
     "patch": {
       "description": "Argentina remains a strong base for software developers, but the current digital nomad route should be read as a short transitory residence for foreign remote work rather than as an automatic DNI or long-term residency solution.",
+      "truthSync": {
+        "canonicalKey": "profession:software-developer",
+        "recordId": "expatsargentina:profession:software-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": [
+          "https://cessi.org.ar"
+        ]
+      },
       "overview": "Argentina still works well for developers who earn abroad, want lower burn, and need a sophisticated urban base. The legal distinction that matters in 2026 is that remote developers are usually comparing a short transitory digital nomad route against a real residency category, not comparing two interchangeable long-stay visas.",
       "visaOptions": [
         {
@@ -1383,12 +4179,250 @@ export const professionsFactOverrides = {
         }
       ]
     }
+  },
+  "sound-designer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Sound design is essential for media production. Learn how sound designers can work remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:sound-designer",
+        "recordId": "expatsargentina:profession:sound-designer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "strategy-consultant": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Strategy consultants advise on the biggest business decisions. The shift to remote consulting means Argentina is now a viable home base.",
+      "truthSync": {
+        "canonicalKey": "profession:strategy-consultant",
+        "recordId": "expatsargentina:profession:strategy-consultant",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "tax-advisor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "International tax situations get complicated fast -- which is exactly why tax advisors who understand cross-border issues are in demand from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:tax-advisor",
+        "recordId": "expatsargentina:profession:tax-advisor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "technical-writer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Technical writers are in demand at tech companies worldwide, and the job is inherently remote. Here's how to do it from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:technical-writer",
+        "recordId": "expatsargentina:profession:technical-writer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "telehealth-coordinator": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Telehealth is transforming healthcare. Learn how telehealth coordinators can work remotely in this growing field.",
+      "truthSync": {
+        "canonicalKey": "profession:telehealth-coordinator",
+        "recordId": "expatsargentina:profession:telehealth-coordinator",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "telemedicine-doctor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Telemedicine lets physicians consult patients from anywhere with a stable connection. Argentina works -- but licensing is the real question.",
+      "truthSync": {
+        "canonicalKey": "profession:telemedicine-doctor",
+        "recordId": "expatsargentina:profession:telemedicine-doctor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "translator": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's international business connections create steady demand for translation and interpretation services. Learn how to establish yourself as a language professional.",
+      "truthSync": {
+        "canonicalKey": "profession:translator",
+        "recordId": "expatsargentina:profession:translator",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "unity-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Unity powers over half of mobile games. Developers using it work remotely by default -- and Argentina has a strong game dev community to plug into.",
+      "truthSync": {
+        "canonicalKey": "profession:unity-developer",
+        "recordId": "expatsargentina:profession:unity-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "unreal-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Unreal Engine powers AAA games and high-end experiences. Learn how developers can work remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:unreal-developer",
+        "recordId": "expatsargentina:profession:unreal-developer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "ux-designer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's design scene is growing fast, with strong demand for UX/UI talent in the growing tech sector. Discover how to build your design career in one of Latin America's most creative cities.",
+      "truthSync": {
+        "canonicalKey": "profession:ux-designer",
+        "recordId": "expatsargentina:profession:ux-designer",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "ux-researcher": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "UX researchers run interviews, usability tests, and surveys -- all remotely. Here's what it takes to do that from Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:ux-researcher",
+        "recordId": "expatsargentina:profession:ux-researcher",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "video-editor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Video content is in explosive demand. Learn how video editors can build remote careers serving international clients while living in Argentina.",
+      "truthSync": {
+        "canonicalKey": "profession:video-editor",
+        "recordId": "expatsargentina:profession:video-editor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "virtual-assistant": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina's growing pool of bilingual virtual assistants makes it an ideal base for VA professionals. Learn about visa pathways, client acquisition, and building a successful remote practice.",
+      "truthSync": {
+        "canonicalKey": "profession:virtual-assistant",
+        "recordId": "expatsargentina:profession:virtual-assistant",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "voice-actor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "With a home studio and a decent mic, voice actors can record from anywhere. Argentina's affordable living stretches those per-project rates further.",
+      "truthSync": {
+        "canonicalKey": "profession:voice-actor",
+        "recordId": "expatsargentina:profession:voice-actor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "wealth-manager": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Wealth management serves affluent clients. Learn how managers can work remotely.",
+      "truthSync": {
+        "canonicalKey": "profession:wealth-manager",
+        "recordId": "expatsargentina:profession:wealth-manager",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "wellness-coach": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Wellness coaching is growing fast, and the entire practice can run over video. Argentina offers a great lifestyle while you build your client base.",
+      "truthSync": {
+        "canonicalKey": "profession:wellness-coach",
+        "recordId": "expatsargentina:profession:wellness-coach",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
+  },
+  "yoga-instructor": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Online yoga instruction is popular worldwide. Learn how instructors can build remote practices.",
+      "truthSync": {
+        "canonicalKey": "profession:yoga-instructor",
+        "recordId": "expatsargentina:profession:yoga-instructor",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "professions",
+        "sourceUrls": []
+      }
+    }
   }
 } as const;
 
 export const provincesFactOverrides = {
   "buenos-aires-city": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's electric capital — the Paris of South America. A cosmopolitan megacity with outstanding dining, nightlife, and culture that draws the largest expat community in the country.",
@@ -1398,14 +4432,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:buenos-aires-city",
         "recordId": "expatsargentina:province:buenos-aires-city",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "buenos-aires-province": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's most populous province surrounds the capital city. From the Atlantic beaches of Mar del Plata to the vast pampas grasslands, it offers affordable alternatives to CABA living.",
@@ -1415,14 +4449,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:buenos-aires-province",
         "recordId": "expatsargentina:province:buenos-aires-province",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "catamarca": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Hidden gems of the Northwest — volcanic landscapes, ancient ruins, and the highest vineyard in the world. One of Argentina's least-visited provinces holds some of its greatest secrets.",
@@ -1432,14 +4466,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:catamarca",
         "recordId": "expatsargentina:province:catamarca",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "chaco": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The 'City of Sculptures' (Resistencia) and the vast Chaco forest. Argentina's indigenous heartland with Qom, Wichí, and Mocoví communities maintaining ancient traditions.",
@@ -1449,14 +4483,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:chaco",
         "recordId": "expatsargentina:province:chaco",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "chubut": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Welsh colonies, whale watching, and Patagonian steppe. Puerto Madryn is the gateway to Península Valdés — one of the best wildlife viewing destinations on Earth.",
@@ -1466,14 +4500,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:chubut",
         "recordId": "expatsargentina:province:chubut",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "cordoba": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's second-largest city is a university powerhouse with 200,000+ students, a thriving tech scene, and stunning sierras just outside town. The best value big-city living in the country.",
@@ -1483,14 +4517,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:cordoba",
         "recordId": "expatsargentina:province:cordoba",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "corrientes": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The Iberá Wetlands — South America's second-largest wetland system. A birdwatcher's paradise with gaucho culture, chamamé music, and a relaxed riverside lifestyle.",
@@ -1500,14 +4534,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:corrientes",
         "recordId": "expatsargentina:province:corrientes",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "entre-rios": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The 'Land Between Rivers' — thermal hot springs, riverside towns, and the famous Carnival of Gualeguaychú. A peaceful, affordable province between the Paraná and Uruguay rivers.",
@@ -1517,14 +4551,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:entre-rios",
         "recordId": "expatsargentina:province:entre-rios",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "formosa": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's tropical frontier — Bañado La Estrella wetlands, indigenous communities, and the most subtropical climate in the country. True frontier territory for the adventurous.",
@@ -1534,14 +4568,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:formosa",
         "recordId": "expatsargentina:province:formosa",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "jujuy": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The Quebrada de Humahuaca (UNESCO) paints the landscape in rainbow colors. Argentina's most indigenous province offers ancient cultures, high-altitude salt flats, and otherworldly beauty.",
@@ -1551,14 +4585,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:jujuy",
         "recordId": "expatsargentina:province:jujuy",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "la-pampa": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The heart of the Argentine pampas — endless grasslands, gaucho traditions, and the most authentic rural Argentine experience. Not for everyone, but deeply rewarding for those who embrace it.",
@@ -1568,14 +4602,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:la-pampa",
         "recordId": "expatsargentina:province:la-pampa",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "la-rioja": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Talampaya National Park's red canyon walls and the surreal Ischigualasto-Talampaya UNESCO complex. Wine at altitude and dinosaur fossils in a desert landscape.",
@@ -1585,14 +4619,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:la-rioja",
         "recordId": "expatsargentina:province:la-rioja",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "mendoza": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The wine capital of South America, set against the Andes. Exceptional Malbec, mountain adventures, and a sun-drenched lifestyle that attracts retirees, foodies, and outdoor enthusiasts.",
@@ -1602,14 +4636,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:mendoza",
         "recordId": "expatsargentina:province:mendoza",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "misiones": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Home to Iguazú Falls — one of the natural wonders of the world. Subtropical forests, red earth, and the unique blend of Argentine, Brazilian, and Paraguayan cultures at the Triple Frontier.",
@@ -1619,14 +4653,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:misiones",
         "recordId": "expatsargentina:province:misiones",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "neuquen": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Patagonia's energy capital combines oil wealth with stunning Lake District scenery. San Martín de los Andes offers a quieter alternative to Bariloche, and Villa La Angostura is pure alpine magic.",
@@ -1636,14 +4670,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:neuquen",
         "recordId": "expatsargentina:province:neuquen",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "rio-negro": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Home to Bariloche and Argentina's Lake District — a Patagonian paradise of snow-capped peaks, crystal lakes, and chocolate shops that draws outdoor enthusiasts from around the world.",
@@ -1653,14 +4687,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:rio-negro",
         "recordId": "expatsargentina:province:rio-negro",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "salta": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Known as 'Salta la Linda' (Salta the Beautiful), this northwestern gem offers colonial architecture, dramatic desert landscapes, indigenous culture, and some of the lowest costs in Argentina.",
@@ -1670,14 +4704,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:salta",
         "recordId": "expatsargentina:province:salta",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "san-juan": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Desert landscapes, wine valleys, and the stunning Ischigualasto (Valley of the Moon). San Juan offers Cuyo wine country at even lower prices than Mendoza.",
@@ -1687,14 +4721,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:san-juan",
         "recordId": "expatsargentina:province:san-juan",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "san-luis": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The 'Gateway to Cuyo' offers surprising digital infrastructure, tax incentives for tech companies, and beautiful sierras. Argentina's quiet achiever for remote workers.",
@@ -1704,14 +4738,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:san-luis",
         "recordId": "expatsargentina:province:san-luis",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "santa-cruz": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Home to Los Glaciares National Park and the legendary Perito Moreno glacier. El Calafate and El Chaltén offer some of the best trekking and glacier experiences in deep Patagonia.",
@@ -1721,14 +4755,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:santa-cruz",
         "recordId": "expatsargentina:province:santa-cruz",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "santa-fe": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Home to Rosario — Argentina's third-largest city and birthplace of the Argentine flag, Che Guevara, and Lionel Messi. A river city with a growing cosmopolitan scene and strong university culture.",
@@ -1738,14 +4772,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:santa-fe",
         "recordId": "expatsargentina:province:santa-fe",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "santiago-del-estero": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The 'Mother of Cities' — Argentina's oldest city (founded 1553). Termas de Río Hondo hot springs, chacarera music, and deep-rooted traditions in the country's cultural cradle.",
@@ -1755,14 +4789,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:santiago-del-estero",
         "recordId": "expatsargentina:province:santiago-del-estero",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "tierra-del-fuego": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The End of the World. Ushuaia is the southernmost city on Earth — a gateway to Antarctica with dramatic mountains, glaciers, and a frontier spirit that attracts adventurers and dreamers.",
@@ -1772,14 +4806,14 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:tierra-del-fuego",
         "recordId": "expatsargentina:province:tierra-del-fuego",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
     }
   },
   "tucuman": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's smallest mainland province packs a punch — the Garden of the Republic, where Argentine independence was declared. Lush landscapes, affordable living, and genuine Argentine culture.",
@@ -1789,7 +4823,7 @@ export const provincesFactOverrides = {
       "truthSync": {
         "canonicalKey": "province:tucuman",
         "recordId": "expatsargentina:province:tucuman",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "provinces",
         "sourceUrls": []
       }
@@ -1799,7 +4833,7 @@ export const provincesFactOverrides = {
 
 export const recipesFactOverrides = {
   "alfajores": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Delicate cornstarch sandwich cookies filled with thick dulce de leche and rolled in coconut. The ultimate Argentine sweet treat.",
@@ -1808,14 +4842,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:alfajores",
         "recordId": "expatsargentina:recipe:alfajores",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "asado": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The sacred ritual of Argentine grilling. A social event as much as a meal, asado involves slow-cooking various cuts of beef over wood coals for hours, resulting in meltingly tender meat infused with smoke.",
@@ -1824,14 +4858,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:asado",
         "recordId": "expatsargentina:recipe:asado",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "bondiola": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A slow-roasted pork shoulder sandwich that's one of Buenos Aires' best street foods. The bondiola is roasted for hours until falling-apart tender, then piled into crusty bread with chimichurri and salsa criolla.",
@@ -1840,14 +4874,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:bondiola",
         "recordId": "expatsargentina:recipe:bondiola",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "budin-de-pan": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's beloved bread pudding — a custardy, caramel-topped dessert that transforms stale bread into pure comfort. Every Argentine grandmother has her own version, and it's the ultimate waste-nothing recipe.",
@@ -1856,14 +4890,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:budin-de-pan",
         "recordId": "expatsargentina:recipe:budin-de-pan",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "carbonada": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A hearty Argentine stew of beef, corn, squash, potatoes, and dried fruits — traditionally served in a hollowed-out pumpkin. A warming dish from the interior provinces that's perfect for winter.",
@@ -1872,14 +4906,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:carbonada",
         "recordId": "expatsargentina:recipe:carbonada",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "chimichurri": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The essential Argentine sauce for asado. A bright, herby condiment made with parsley, oregano, garlic, vinegar, and oil that transforms any grilled meat into a feast.",
@@ -1888,14 +4922,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:chimichurri",
         "recordId": "expatsargentina:recipe:chimichurri",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "chocotorta": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's most popular no-bake cake — layers of chocolate cookies soaked in coffee and sandwiched with a rich dulce de leche and cream cheese filling. Every Argentine has made this at least once, and it requires zero baking skills.",
@@ -1904,14 +4938,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:chocotorta",
         "recordId": "expatsargentina:recipe:chocotorta",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "choripan": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's iconic street food — a grilled chorizo sausage split and served in crusty bread with chimichurri. Found at every asado, football match, and street corner. Simple, messy, and absolutely essential.",
@@ -1920,14 +4954,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:choripan",
         "recordId": "expatsargentina:recipe:choripan",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "dulce-de-leche": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's national confection — slow-cooked caramelized milk that's used in everything from alfajores to ice cream to eating straight from the jar with a spoon. Making it from scratch takes patience but the result is incomparably better than store-bought.",
@@ -1935,14 +4969,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:dulce-de-leche",
         "recordId": "expatsargentina:recipe:dulce-de-leche",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "empanadas": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The iconic Argentine hand pie, baked to golden perfection with a savory beef filling spiced with cumin, paprika, and green olives. The Salteñas style from northern Argentina is the most beloved variation nationwide.",
@@ -1951,14 +4985,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:empanadas",
         "recordId": "expatsargentina:recipe:empanadas",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "faina": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A thin, crispy chickpea flour flatbread that's the classic companion to Buenos Aires pizza. Served as a slab placed directly on top of a pizza slice — a combination that every porteño knows and loves.",
@@ -1967,14 +5001,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:faina",
         "recordId": "expatsargentina:recipe:faina",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "fernet-con-coca": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's unofficial national cocktail — bitter Fernet Branca mixed with Coca-Cola, served in a large glass and often shared among friends. An acquired taste that becomes an obsession.",
@@ -1983,14 +5017,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:fernet-con-coca",
         "recordId": "expatsargentina:recipe:fernet-con-coca",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "flan-casero": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's most popular dessert — a silky, caramel-topped custard served with a generous spoonful of dulce de leche and whipped cream. Found on every restaurant menu in the country.",
@@ -1999,14 +5033,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:flan-casero",
         "recordId": "expatsargentina:recipe:flan-casero",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "fugazzeta": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A thick double-crust Argentine pizza stuffed with oozing mozzarella cheese and topped with sweet caramelized onions. Born in the pizzerías of Buenos Aires, fugazzeta is the ultimate expression of Italian-Argentine pizza culture.",
@@ -2015,14 +5049,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:fugazzeta",
         "recordId": "expatsargentina:recipe:fugazzeta",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "humita": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Fresh corn tamales wrapped in corn husks—a traditional dish from the Northwest. Sweet, savory, and deeply comforting.",
@@ -2031,14 +5065,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:humita",
         "recordId": "expatsargentina:recipe:humita",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "locro": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A hearty indigenous stew of corn, beans, pumpkin, and meats that's Argentina's national patriotic dish. Traditionally eaten on May 25th (Revolution Day) and July 9th (Independence Day), but beloved year-round.",
@@ -2047,14 +5081,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:locro",
         "recordId": "expatsargentina:recipe:locro",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "matambre-a-la-pizza": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A thin beef flank topped with tomato sauce, melted mozzarella, and olives — essentially pizza made on a steak instead of dough. A uniquely Argentine creation that's a staple of every parrilla.",
@@ -2063,14 +5097,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:matambre-a-la-pizza",
         "recordId": "expatsargentina:recipe:matambre-a-la-pizza",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "matambre-arrollado": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A spectacular Argentine party dish — thin flank steak rolled around a colorful filling of hard-boiled eggs, roasted peppers, olives, and herbs, then braised until tender. Served cold in beautiful pinwheel slices.",
@@ -2079,14 +5113,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:matambre-arrollado",
         "recordId": "expatsargentina:recipe:matambre-arrollado",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "medialunas": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's beloved breakfast pastry — a buttery, slightly sweet crescent that's smaller and sweeter than a French croissant. Enjoyed with café con leche at every corner cafe in Buenos Aires.",
@@ -2094,14 +5128,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:medialunas",
         "recordId": "expatsargentina:recipe:medialunas",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "milanesa": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's ultimate comfort food—a breaded beef cutlet topped with ham, tomato sauce, and melted mozzarella. A perfect hybrid of Italian and Argentine cuisine that appears on every neighborhood menu.",
@@ -2110,14 +5144,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:milanesa",
         "recordId": "expatsargentina:recipe:milanesa",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "milanesa-napolitana": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's answer to chicken parm — a breaded cutlet topped with tomato sauce, ham, and melted mozzarella. Despite the name, it has nothing to do with Naples. Pure Argentine comfort food.",
@@ -2126,14 +5160,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:milanesa-napolitana",
         "recordId": "expatsargentina:recipe:milanesa-napolitana",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "pastelitos": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Flaky fried pastries filled with quince paste (membrillo) or sweet potato paste (batata), traditionally eaten on May 25th and other national holidays. Crunchy, sweet, and deeply nostalgic.",
@@ -2142,14 +5176,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:pastelitos",
         "recordId": "expatsargentina:recipe:pastelitos",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "pizza-argentina": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Buenos Aires-style pizza is nothing like its Italian ancestor — thick, bready crust piled high with an obscene amount of mozzarella cheese, with tomato sauce drizzled on top. Eaten standing at the counter with a slice of fainá on top.",
@@ -2158,14 +5192,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:pizza-argentina",
         "recordId": "expatsargentina:recipe:pizza-argentina",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "provoleta": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Grilled provolone cheese with oregano and olive oil—the ultimate asado starter. Gooey, crispy, and absolutely addictive.",
@@ -2174,14 +5208,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:provoleta",
         "recordId": "expatsargentina:recipe:provoleta",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "revuelto-gramajo": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's classic late-night scramble — thin shoestring fries, diced ham, and peas tossed with scrambled eggs. A beloved bar and restaurant dish that's the Argentine answer to 2 AM hunger.",
@@ -2190,14 +5224,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:revuelto-gramajo",
         "recordId": "expatsargentina:recipe:revuelto-gramajo",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "submarino": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's charming take on hot chocolate — a bar of dark chocolate 'submarined' into a cup of steaming hot milk, where it slowly melts as you stir. A café ritual loved by kids and adults alike.",
@@ -2206,14 +5240,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:submarino",
         "recordId": "expatsargentina:recipe:submarino",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "tamales-nortenos": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Northern Argentine tamales made with corn dough stuffed with spiced beef, wrapped in dried corn husks and steamed. A labor-intensive dish traditionally made in large batches by the whole family.",
@@ -2222,14 +5256,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:tamales-nortenos",
         "recordId": "expatsargentina:recipe:tamales-nortenos",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "tarta-de-jamon-y-queso": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Argentina's go-to savory pie — two layers of flaky pastry filled with ham, cheese, and a creamy egg custard. Found in every bakery, eaten at every picnic, and baked in every home kitchen. The ultimate everyday Argentine food.",
@@ -2238,14 +5272,14 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:tarta-de-jamon-y-queso",
         "recordId": "expatsargentina:recipe:tarta-de-jamon-y-queso",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
     }
   },
   "tortilla-papa": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A thick potato and egg omelet that's a staple of Argentine home cooking. Served at room temperature, it's perfect for picnics, lunch, or a light dinner.",
@@ -2254,7 +5288,7 @@ export const recipesFactOverrides = {
       "truthSync": {
         "canonicalKey": "recipe:tortilla-papa",
         "recordId": "expatsargentina:recipe:tortilla-papa",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "recipes",
         "sourceUrls": []
       }
@@ -2264,7 +5298,7 @@ export const recipesFactOverrides = {
 
 export const restaurantsFactOverrides = {
   "1884-restaurant": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Francis Mallmann's flagship restaurant in an old winery. The godfather of Argentine grilling serves his famous fire-cooked dishes in a historic setting.",
@@ -2275,14 +5309,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:1884-restaurant",
         "recordId": "expatsargentina:restaurant:1884-restaurant",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "alinea-cordoba": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Córdoba's most innovative restaurant. Chef Pedro Ramirez creates tasting menus that blend Cordobese traditions with modern techniques.",
@@ -2293,14 +5327,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:alinea-cordoba",
         "recordId": "expatsargentina:restaurant:alinea-cordoba",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "aramburu": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [
       "https://arambururesto.com.ar"
     ],
@@ -2313,7 +5347,7 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:aramburu",
         "recordId": "expatsargentina:restaurant:aramburu",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": [
           "https://arambururesto.com.ar"
@@ -2322,7 +5356,7 @@ export const restaurantsFactOverrides = {
     }
   },
   "artemisia": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Cozy garden restaurant with seasonal vegetarian menu. Weekend brunch is excellent—think avocado toast with an Argentine twist, fresh juices, and great coffee. The tarta de verduras (vegetable tart) is legendary.",
@@ -2333,14 +5367,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:artemisia",
         "recordId": "expatsargentina:restaurant:artemisia",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "azafran-mendoza": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "One of Mendoza's best restaurants,combining local ingredients with international techniques. Excellent wine list showcasing the region's best bottles.",
@@ -2351,14 +5385,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:azafran-mendoza",
         "recordId": "expatsargentina:restaurant:azafran-mendoza",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "cafe-registrado": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Third-wave coffee shop in a work-friendly space. Good WiFi,plenty of outlets,serious baristas who know their beans. The flat white is excellent.",
@@ -2369,14 +5403,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:cafe-registrado",
         "recordId": "expatsargentina:restaurant:cafe-registrado-2",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "cafe-tortoni": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [
       "https://cafetortoni.com.ar"
     ],
@@ -2389,7 +5423,7 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:cafe-tortoni",
         "recordId": "expatsargentina:restaurant:cafe-tortoni",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": [
           "https://cafetortoni.com.ar"
@@ -2398,7 +5432,7 @@ export const restaurantsFactOverrides = {
     }
   },
   "cald-n-del-soho": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [
       "https://caldendelsoho.com"
     ],
@@ -2411,7 +5445,7 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:cald-n-del-soho",
         "recordId": "expatsargentina:restaurant:caldén-del-soho",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": [
           "https://caldendelsoho.com"
@@ -2420,7 +5454,7 @@ export const restaurantsFactOverrides = {
     }
   },
   "cassis-bariloche": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Modern Patagonian cuisine with lake views. Chef Jesús Araujo creates dishes that celebrate regional ingredients like trout, lamb, and wild mushrooms.",
@@ -2431,14 +5465,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:cassis-bariloche",
         "recordId": "expatsargentina:restaurant:cassis-bariloche",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "corte-comedor": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Modern parrilla with creative preparations and an excellent wine list. The name means 'Cut Dining Room'—and they take their meat seriously. Contemporary atmosphere with traditional roots.",
@@ -2449,14 +5483,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:corte-comedor",
         "recordId": "expatsargentina:restaurant:corte-comedor",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "crizia": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Newly starred in 2025. Chef Gabriel Oggero's ode to fire and Argentine ingredients. Everything is cooked over open flames in an industrial-chic space centered around a massive wood-fired grill.",
@@ -2467,14 +5501,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:crizia",
         "recordId": "expatsargentina:restaurant:crizia",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "desnivel": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Classic San Telmo institution since 1988. Unpretentious, huge portions, authentic neighborhood vibe. The milanesa napolitana here is legendary—larger than your face and crispy perfection. No reservations, communal tables, old-school Buenos Aires charm.",
@@ -2485,14 +5519,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:desnivel",
         "recordId": "expatsargentina:restaurant:desnivel",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "don-julio": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [
       "https://donjulio.com.ar"
     ],
@@ -2505,7 +5539,7 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:don-julio",
         "recordId": "expatsargentina:restaurant:don-julio",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": [
           "https://donjulio.com.ar"
@@ -2514,7 +5548,7 @@ export const restaurantsFactOverrides = {
     }
   },
   "duhau-restaurante": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The Park Hyatt's signature restaurant offering refined Argentine cuisine. Beautiful garden setting and one of the most impressive wine cellars in the city.",
@@ -2525,14 +5559,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:duhau-restaurante",
         "recordId": "expatsargentina:restaurant:duhau-restaurante",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "el-boliche-de-dario": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Locals' favorite parrilla that tourists haven't completely discovered yet. No frills, no pretension—just consistently excellent meat at fair prices. The entraña (skirt steak) here is considered by many porteños to be the best in the city. Cash only, loud atmosphere, futbol on TV.",
@@ -2543,14 +5577,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:el-boliche-de-dario",
         "recordId": "expatsargentina:restaurant:el-boliche-de-dario",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "el-boliche-de-dario-bariloche": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The Bariloche outpost of the famous Buenos Aires parrilla. Same quality meat,patagonian atmosphere. A local favorite for serious steak.",
@@ -2561,14 +5595,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:el-boliche-de-dario-bariloche",
         "recordId": "expatsargentina:restaurant:el-boliche-de-dario-bariloche",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "el-cuartito": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Football-themed pizzeria serving thick-crust Argentine pizza since 1934. Walls covered in futbol memorabilia. The napolitana (tomato, garlic, cheese) is the classic order. Another Corrientes institution with fast service and generous portions.",
@@ -2579,14 +5613,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:el-cuartito",
         "recordId": "expatsargentina:restaurant:el-cuartito",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "el-pobre-luis": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Belgrano neighborhood gem famous for their house-made chorizo and futbol memorabilia covering every wall. A local institution since 1986, this is where Belgrano residents go for their Sunday asado. The morcilla (blood sausage) and chorizo are made in-house.",
@@ -2597,14 +5631,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:el-pobre-luis",
         "recordId": "expatsargentina:restaurant:el-pobre-luis",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "el-preferido": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Historic bodegón (traditional tavern) dating back to 1952, revived by the Tegui team. Classic Argentine comfort food done right—milanesas, pastas, seafood. The atmosphere is old Buenos Aires with a light renovation. Counter seating offers the best experience.",
@@ -2615,14 +5649,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:el-preferido",
         "recordId": "expatsargentina:restaurant:el-preferido",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "el-sanjuanino": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Best empanadas salteñas in Buenos Aires,hands down. Tiny storefront,always packed. The carne picante (spicy meat) empanada is the move—juicy,flavorful,with the perfect crust.",
@@ -2633,14 +5667,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:el-sanjuanino",
         "recordId": "expatsargentina:restaurant:el-sanjuanino-2",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "elena-four-seasons": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "The Four Seasons' flagship restaurant led by Chef Martín Vidal. Elegant,contemporary Argentine cuisine in a beautiful setting. One of the best hotel restaurants in the city.",
@@ -2651,14 +5685,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:elena-four-seasons",
         "recordId": "expatsargentina:restaurant:elena-four-seasons",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "fogon-asado": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Asado tasting menu experience with counter seating around the open fire. Watch the asador work while enjoying multiple courses of Argentine beef. A unique dining experience that educates while it feeds you.",
@@ -2667,14 +5701,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:fogon-asado",
         "recordId": "expatsargentina:restaurant:fogon-asado",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "gran-dabbang": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Indian-Argentine fusion that's creative,flavorful,and always packed. Chef Mariano Ramón brings Indian spices to Argentine ingredients with delicious results.",
@@ -2685,14 +5719,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:gran-dabbang",
         "recordId": "expatsargentina:restaurant:gran-dabbang-2",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "hierro-parrilla": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Premium parrilla with some of the best meat in Buenos Aires. The Hierro bife de chorizo is exceptional. More upscale than traditional parrillas, with excellent service and a great wine list.",
@@ -2701,14 +5735,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:hierro-parrilla",
         "recordId": "expatsargentina:restaurant:hierro-parrilla",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "la-americana": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "24-hour empanada factory that's been operating since 1955. Order by the dozen,any style. The jamón y queso is legendary—cheesy,salty,perfect comfort food.",
@@ -2719,14 +5753,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:la-americana",
         "recordId": "expatsargentina:restaurant:la-americana-2",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "la-birreria": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Lively craft beer bar and restaurant with an extensive selection of Argentine and international brews. The menu features elevated pub food—burgers, pizzas, and sharing plates. Great atmosphere for groups and beer enthusiasts.",
@@ -2736,14 +5770,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:la-birreria",
         "recordId": "expatsargentina:restaurant:la-birreria",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "la-cabrera": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [
       "https://lacabrera.com.ar"
     ],
@@ -2756,7 +5790,7 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:la-cabrera",
         "recordId": "expatsargentina:restaurant:la-cabrera",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": [
           "https://lacabrera.com.ar"
@@ -2765,7 +5799,7 @@ export const restaurantsFactOverrides = {
     }
   },
   "la-casona-de-belgrano": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Historic mansion turned restaurant serving classic Argentine cuisine. The atmosphere is old-world elegance with white tablecloths and professional service. A favorite for generations of porteños.",
@@ -2776,14 +5810,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:la-casona-de-belgrano",
         "recordId": "expatsargentina:restaurant:la-casona-de-belgrano",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "la-mamma-cordoba": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "A Córdoba institution since 1953. Classic Italian-Argentine cuisine in a historic setting. Famous for their pastas and traditional service.",
@@ -2794,14 +5828,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:la-mamma-cordoba",
         "recordId": "expatsargentina:restaurant:la-mamma-cordoba",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "la-parolaccia": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Beloved neighborhood trattoria serving rustic Italian-Argentine cuisine. Fresh pastas, wood-fired pizzas, and an excellent wine list. The atmosphere is warm and familial—like being invited to an Italian grandmother's home.",
@@ -2811,14 +5845,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:la-parolaccia",
         "recordId": "expatsargentina:restaurant:la-parolaccia",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "las-cuartetas": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Iconic pizzeria since 1932 on Corrientes,Buenos Aires' theater district. The fugazzeta (onion and cheese pizza) is legendary—thick,cheesy,and utterly satisfying.",
@@ -2829,14 +5863,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:las-cuartetas",
         "recordId": "expatsargentina:restaurant:las-cuartetas-2",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "roux": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Elegant French-Argentine fusion in a beautiful Belgrano townhouse. Classic techniques meet Argentine ingredients. Known for their impeccable service and wine list.",
@@ -2847,14 +5881,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:roux",
         "recordId": "expatsargentina:restaurant:roux",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "sacrifice": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Upscale vegetarian restaurant with creative dishes that even meat-lovers enjoy. Beautiful space, thoughtful wine list, and dishes that don't try to imitate meat—they celebrate vegetables. The cauliflower steak and homemade pastas are standouts.",
@@ -2865,14 +5899,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:sacrifice",
         "recordId": "expatsargentina:restaurant:sacrifice",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "sarkis": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Armenian restaurant with legendary status in Buenos Aires. Massive portions,incredible value,no reservations. The kebbe,falafel,and hummus are the best in the city.",
@@ -2883,14 +5917,14 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:sarkis",
         "recordId": "expatsargentina:restaurant:sarkis-2",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
     }
   },
   "tegui": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [
       "https://tegui.com.ar"
     ],
@@ -2903,7 +5937,7 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:tegui",
         "recordId": "expatsargentina:restaurant:tegui",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": [
           "https://tegui.com.ar"
@@ -2912,7 +5946,7 @@ export const restaurantsFactOverrides = {
     }
   },
   "trescha": {
-    "reviewDate": "unknown",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "description": "Innovative tasting menus in an intimate setting near Palermo. Chef Martín Molteni's creative playground where Argentine ingredients meet global techniques. One Michelin star.",
@@ -2923,7 +5957,7 @@ export const restaurantsFactOverrides = {
       "truthSync": {
         "canonicalKey": "restaurant:trescha",
         "recordId": "expatsargentina:restaurant:trescha",
-        "reviewDate": "unknown",
+        "reviewDate": "2026-03-08",
         "sourceExport": "restaurants",
         "sourceUrls": []
       }
@@ -2940,7 +5974,44 @@ export const visaComparisonsFactOverrides = {
     ],
     "patch": {
       "description": "Two paths to working in or from Argentina with a sharper legal distinction than many old summaries use. The current digital nomad route is a short transitory residence for foreign remote work, while the Work Visa remains the proper route for local Argentine employment and longer residence continuity.",
-      "verdict": "The Digital Nomad route wins only when the plan is foreign remote work plus a short, structured stay and the applicant already fits the tourist-visa-exempt entry rule. The Work Visa remains the correct answer for Argentine employment and for people who need a genuine residency track rather than a short transitory status."
+      "verdict": "The Digital Nomad route wins only when the plan is foreign remote work plus a short, structured stay and the applicant already fits the tourist-visa-exempt entry rule. The Work Visa remains the correct answer for Argentine employment and for people who need a genuine residency track rather than a short transitory status.",
+      "truthSync": {
+        "canonicalKey": "visa-comparison:digital-nomad-vs-work-visa",
+        "recordId": "expatsargentina:visa-comparison:digital-nomad-vs-work-visa",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaComparisons",
+        "sourceUrls": []
+      }
+    }
+  },
+  "retirement-vs-investment-visa": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Two residency options for those who do not need local employment. Compare Argentina's Retirement Visa for pension holders with the Investment Visa for entrepreneurs and investors.",
+      "verdict": "The Retirement Visa is ideal for retirees with a steady pension who want a simple, low-cost path to Argentine residency. The Investment Visa suits entrepreneurs and investors who want to actively participate in the economy and have capital to deploy. The Retirement Visa is simpler but more restrictive; the Investment Visa requires more capital but offers greater freedom.",
+      "truthSync": {
+        "canonicalKey": "visa-comparison:retirement-vs-investment-visa",
+        "recordId": "expatsargentina:visa-comparison:retirement-vs-investment-visa",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaComparisons",
+        "sourceUrls": []
+      }
+    }
+  },
+  "student-vs-digital-nomad": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Two popular options for younger expats. Compare the Student Visa for university enrollment with the Digital Nomad Visa for remote workers exploring Argentina.",
+      "verdict": "The Student Visa is best for those genuinely pursuing education in Argentina, offering longer stays and a path to integration through university life. The Digital Nomad Visa is better for remote workers who want flexibility and do not need university access. Students get deeper cultural immersion; digital nomads get more freedom.",
+      "truthSync": {
+        "canonicalKey": "visa-comparison:student-vs-digital-nomad",
+        "recordId": "expatsargentina:visa-comparison:student-vs-digital-nomad",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaComparisons",
+        "sourceUrls": []
+      }
     }
   }
 } as const;
@@ -2956,6 +6027,7 @@ export const visaTypesFactOverrides = {
       "description": "Argentina's current digital nomad route is published as a transitory residence for remote workers with foreign activity. It works well for a structured short stay, but it is not the same thing as ordinary temporary residency with DNI by default.",
       "requirements": {
         "income": "Proof of foreign income sufficient for the stay. The official service focuses on solvency and remote activity rather than a single published statutory amount.",
+        "employment": "Contract or proof of remote employment with foreign company",
         "other": [
           "Applicant must already be in Argentina when filing",
           "Passport from a country that does not require a tourist visa to enter Argentina",
@@ -2964,10 +6036,17 @@ export const visaTypesFactOverrides = {
           "Proof of domicile in Argentina"
         ]
       },
+      "pathToCitizenship": "Not a direct citizenship track by itself. People planning permanent residency usually compare a different residence category before this status expires.",
+      "truthSync": {
+        "canonicalKey": "visa-type:digital-nomad",
+        "recordId": "expatsargentina:visa-type:digital-nomad",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaTypes",
+        "sourceUrls": []
+      },
       "processingTime": "Officially framed as a short-stay transitory residence; real timing depends on appointments and document review",
       "duration": "Up to 180 days, with a separate prorroga path for another period if approved",
       "renewability": "Separate in-country prorroga request available while the status is still valid",
-      "pathToCitizenship": "Not a direct citizenship track by itself. People planning permanent residency usually compare a different residence category before this status expires.",
       "faqs": [
         {
           "q": "Can I work for an Argentine company with this status?",
@@ -2982,6 +6061,156 @@ export const visaTypesFactOverrides = {
           "a": "Yes. The official service is structured as an in-country filing flow."
         }
       ]
+    }
+  },
+  "investment": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The Investment Visa is for individuals making significant investments in Argentina, such as business formation, real estate, or other economic activities that benefit the country.",
+      "requirements": {
+        "investment": "Minimum investment of $150,000 USD in productive economic activity",
+        "other": [
+          "Business plan or investment proposal",
+          "Proof of funds origin",
+          "Valid passport",
+          "Clean criminal record (apostilled)",
+          "Proof of address in Argentina"
+        ]
+      },
+      "pathToCitizenship": "After 2 years, eligible for permanent residency → citizenship",
+      "truthSync": {
+        "canonicalKey": "visa-type:investment",
+        "recordId": "expatsargentina:visa-type:investment",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaTypes",
+        "sourceUrls": []
+      }
+    }
+  },
+  "mercosur": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Mercosur Residency is available to citizens of Mercosur member and associate countries. This is the most advantageous residency option for qualifying nationals, offering streamlined processing and full work rights.",
+      "requirements": {
+        "other": [
+          "Citizenship of qualifying country",
+          "Valid passport or national ID",
+          "Clean criminal record (requirements vary by nationality)",
+          "Proof of address in Argentina",
+          "Proof of means of support (flexible requirements)"
+        ]
+      },
+      "pathToCitizenship": "After 2 years, can apply for citizenship",
+      "truthSync": {
+        "canonicalKey": "visa-type:mercosur",
+        "recordId": "expatsargentina:visa-type:mercosur",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaTypes",
+        "sourceUrls": []
+      }
+    }
+  },
+  "pensionado": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The Pensionado Visa is specifically designed for retirees receiving pension income from their home country. This is a subset of the Rentista category but specifically optimized for retirees.",
+      "requirements": {
+        "income": "Proof of minimum $1,000-1,500 USD monthly pension income",
+        "other": [
+          "Official pension documentation",
+          "Pension must be stable and ongoing",
+          "Valid passport",
+          "Clean criminal record (apostilled)",
+          "Proof of address in Argentina"
+        ]
+      },
+      "pathToCitizenship": "After 2 years, eligible for permanent residency → citizenship",
+      "truthSync": {
+        "canonicalKey": "visa-type:pensionado",
+        "recordId": "expatsargentina:visa-type:pensionado",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaTypes",
+        "sourceUrls": []
+      }
+    }
+  },
+  "rentista": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The Rentista Visa is for individuals with stable passive income from sources outside Argentina. This includes rental income, dividends, pension income, investment returns, or other passive revenue streams.",
+      "requirements": {
+        "income": "Proof of minimum $2,000+ USD monthly passive income",
+        "other": [
+          "Income must be from passive sources (not employment)",
+          "Income must be stable and documented",
+          "Valid passport (6+ months)",
+          "Clean criminal record (apostilled)",
+          "Proof of address in Argentina"
+        ]
+      },
+      "pathToCitizenship": "After 2 years of temporary residency, can apply for permanent residency → citizenship",
+      "truthSync": {
+        "canonicalKey": "visa-type:rentista",
+        "recordId": "expatsargentina:visa-type:rentista",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaTypes",
+        "sourceUrls": []
+      }
+    }
+  },
+  "student": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The Student Visa is for individuals enrolled in accredited Argentine educational institutions, including universities, language schools, and technical programs.",
+      "requirements": {
+        "other": [
+          "Acceptance letter from accredited institution",
+          "Proof of financial means to support yourself",
+          "Valid passport",
+          "Clean criminal record (may be required)",
+          "Health insurance",
+          "Proof of accommodation"
+        ]
+      },
+      "pathToCitizenship": "Can transition to work visa after graduation, then to permanent residency",
+      "truthSync": {
+        "canonicalKey": "visa-type:student",
+        "recordId": "expatsargentina:visa-type:student",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaTypes",
+        "sourceUrls": []
+      }
+    }
+  },
+  "work": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "The standard Work Visa requires sponsorship from an Argentine employer. This is the traditional employment-based immigration pathway for those seeking to work for Argentine companies.",
+      "requirements": {
+        "employment": "Valid job offer and sponsorship from registered Argentine employer",
+        "other": [
+          "Employment contract",
+          "Employer must be registered and in good standing",
+          "Position must be legitimate",
+          "Valid passport",
+          "Clean criminal record (apostilled)",
+          "Proof of qualifications/education"
+        ]
+      },
+      "pathToCitizenship": "After 2 years, can apply for permanent residency → citizenship",
+      "truthSync": {
+        "canonicalKey": "visa-type:work",
+        "recordId": "expatsargentina:visa-type:work",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "visaTypes",
+        "sourceUrls": []
+      }
     }
   }
 } as const;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T15:55:24.456Z",
+  "generatedAt": "2026-03-08T16:16:18.563Z",
   "totals": {
     "surfaces": 13,
     "active": 13,
@@ -58,7 +58,7 @@
       },
       "recordCount": 20,
       "highRiskRecordCount": 0,
-      "reviewDateCount": 0,
+      "reviewDateCount": 20,
       "projectionCount": 20,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/argentina.ts"
@@ -85,7 +85,7 @@
       },
       "recordCount": 7,
       "highRiskRecordCount": 7,
-      "reviewDateCount": 0,
+      "reviewDateCount": 7,
       "projectionCount": 7,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/comparisons.ts"
@@ -112,7 +112,7 @@
       },
       "recordCount": 10,
       "highRiskRecordCount": 0,
-      "reviewDateCount": 0,
+      "reviewDateCount": 10,
       "projectionCount": 10,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/city-services.ts"
@@ -139,7 +139,7 @@
       },
       "recordCount": 6,
       "highRiskRecordCount": 0,
-      "reviewDateCount": 0,
+      "reviewDateCount": 6,
       "projectionCount": 6,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/investments.ts"
@@ -166,8 +166,8 @@
       },
       "recordCount": 112,
       "highRiskRecordCount": 112,
-      "reviewDateCount": 90,
-      "projectionCount": 3,
+      "reviewDateCount": 112,
+      "projectionCount": 112,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts"
       ],
@@ -193,7 +193,7 @@
       },
       "recordCount": 23,
       "highRiskRecordCount": 0,
-      "reviewDateCount": 0,
+      "reviewDateCount": 23,
       "projectionCount": 23,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/neighborhoods.ts"
@@ -220,8 +220,8 @@
       },
       "recordCount": 100,
       "highRiskRecordCount": 100,
-      "reviewDateCount": 0,
-      "projectionCount": 1,
+      "reviewDateCount": 100,
+      "projectionCount": 100,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/professions.ts"
       ],
@@ -247,7 +247,7 @@
       },
       "recordCount": 24,
       "highRiskRecordCount": 0,
-      "reviewDateCount": 0,
+      "reviewDateCount": 24,
       "projectionCount": 24,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/argentina.ts"
@@ -274,7 +274,7 @@
       },
       "recordCount": 29,
       "highRiskRecordCount": 0,
-      "reviewDateCount": 0,
+      "reviewDateCount": 29,
       "projectionCount": 29,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/recipes.ts"
@@ -301,7 +301,7 @@
       },
       "recordCount": 42,
       "highRiskRecordCount": 0,
-      "reviewDateCount": 0,
+      "reviewDateCount": 42,
       "projectionCount": 36,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/restaurants.ts"
@@ -328,8 +328,8 @@
       },
       "recordCount": 3,
       "highRiskRecordCount": 3,
-      "reviewDateCount": 2,
-      "projectionCount": 1,
+      "reviewDateCount": 3,
+      "projectionCount": 3,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts"
       ],
@@ -353,8 +353,8 @@
       },
       "recordCount": 7,
       "highRiskRecordCount": 7,
-      "reviewDateCount": 3,
-      "projectionCount": 1,
+      "reviewDateCount": 7,
+      "projectionCount": 7,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-types.ts"
       ],
