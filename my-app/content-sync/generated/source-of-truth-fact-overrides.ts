@@ -94,7 +94,39 @@ export const nationalitiesFactOverrides = {
 
 export const neighborhoodsFactOverrides = {} as const;
 
-export const professionsFactOverrides = {} as const;
+export const professionsFactOverrides = {
+  "software-developer": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+      "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+    ],
+    "patch": {
+      "description": "Argentina remains a strong base for software developers, but the current digital nomad route should be read as a short transitory residence for foreign remote work rather than as an automatic DNI or long-term residency solution.",
+      "overview": "Argentina still works well for developers who earn abroad, want lower burn, and need a sophisticated urban base. The legal distinction that matters in 2026 is that remote developers are usually comparing a short transitory digital nomad route against a real residency category, not comparing two interchangeable long-stay visas.",
+      "visaOptions": [
+        {
+          "name": "Digital Nomad Visa",
+          "description": "Best as a short bridge for remote developers working for foreign companies. The current official route is a transitory residence of up to 180 days with a separate extension flow if approved.",
+          "difficulty": "Easy",
+          "timeline": "15-30 days when the file is clean"
+        },
+        {
+          "name": "Work Visa (Sponsorship)",
+          "description": "For developers hired by Argentine companies. This remains the correct route for local employment and longer-term continuity.",
+          "difficulty": "Moderate",
+          "timeline": "1-3 months"
+        },
+        {
+          "name": "Freelancer/Mercosur Visa",
+          "description": "Relevant only for profiles that actually fit those residence bases. Do not use it as a generic substitute for the short digital nomad route.",
+          "difficulty": "Moderate",
+          "timeline": "1-2 months"
+        }
+      ]
+    }
+  }
+} as const;
 
 export const provincesFactOverrides = {} as const;
 
@@ -102,7 +134,19 @@ export const recipesFactOverrides = {} as const;
 
 export const restaurantsFactOverrides = {} as const;
 
-export const visaComparisonsFactOverrides = {} as const;
+export const visaComparisonsFactOverrides = {
+  "digital-nomad-vs-work-visa": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+      "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+    ],
+    "patch": {
+      "description": "Two paths to working in or from Argentina with a sharper legal distinction than many old summaries use. The current digital nomad route is a short transitory residence for foreign remote work, while the Work Visa remains the proper route for local Argentine employment and longer residence continuity.",
+      "verdict": "The Digital Nomad route wins only when the plan is foreign remote work plus a short, structured stay and the applicant already fits the tourist-visa-exempt entry rule. The Work Visa remains the correct answer for Argentine employment and for people who need a genuine residency track rather than a short transitory status."
+    }
+  }
+} as const;
 
 export const visaTypesFactOverrides = {
   "digital-nomad": {

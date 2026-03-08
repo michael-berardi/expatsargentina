@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:29:07.033Z",
+  "generatedAt": "2026-03-08T02:58:04.728Z",
   "siteId": "expatsargentina",
   "findingCount": 370,
   "findings": [
@@ -4956,20 +4956,19 @@
       "recommendedAction": "Rewrite duration and renewal language to 180 days plus one 180-day extension unless a newer official resolution supersedes it."
     },
     {
-      "id": "unverified-claim:expatsargentina:visa-comparison:digital-nomad-vs-work-visa",
-      "severity": "medium",
-      "category": "unverified-claim",
-      "title": "Digital nomad residency pathway claim needs verification",
-      "detail": "The current official digital nomad page does not present the visa itself as a direct permanent residency or citizenship track.",
+      "id": "official-mismatch:expatsargentina:visa-comparison:digital-nomad-vs-work-visa",
+      "severity": "high",
+      "category": "official-mismatch",
+      "title": "Tourist stay duration conflicts with official guidance",
+      "detail": "Official tourist guidance states a 90-day stay that may be extended once for another 90 days, not a standard 180-day initial stay.",
       "siteId": "expatsargentina",
       "recordId": "expatsargentina:visa-comparison:digital-nomad-vs-work-visa",
       "canonicalKey": "visa-comparison:digital-nomad-vs-work-visa",
       "sourcePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts",
       "officialSourceUrls": [
-        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
-        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+        "https://www.argentina.gob.ar/interior/migraciones/turistas"
       ],
-      "recommendedAction": "Reframe this as a visa-switch strategy unless you can cite a current official source confirming direct countability toward permanent residency."
+      "recommendedAction": "Change tourist-entry copy to 90 days plus one 90-day extension where applicable."
     },
     {
       "id": "review-date-missing:expatsargentina:visa-comparison:retirement-vs-investment-visa",
@@ -55718,7 +55717,7 @@
       "kind": "profession",
       "slug": "software-developer",
       "title": "Software Developer Immigration Guide for Argentina",
-      "summary": "Argentina's growing tech ecosystem offers excellent opportunities for software developers. From Buenos Aires' startup scene to provincial tech hubs, discover your pathway to living and working as a developer in Argentina.",
+      "summary": "Argentina remains a strong base for software developers, but the current digital nomad route should be read as a short transitory residence for foreign remote work rather than as an automatic DNI or long-term residency solution.",
       "locales": [
         "en"
       ],
@@ -55749,15 +55748,15 @@
         {
           "heading": "Overview",
           "paragraphs": [
-            "Argentina has emerged as Latin America's leading tech hub, with Buenos Aires ranking among the top startup ecosystems globally. Software developers are in high demand, with companies actively recruiting international talent. The country offers excellent infrastructure for remote workers, an established tech community, and competitive salaries when earning in foreign currency. Whether you want to work remotely for a US/EU company, join a local startup, or freelance, Argentina provides an ideal base for tech professionals."
+            "Argentina still works well for developers who earn abroad, want lower burn, and need a sophisticated urban base. The legal distinction that matters in 2026 is that remote developers are usually comparing a short transitory digital nomad route against a real residency category, not comparing two interchangeable long-stay visas."
           ]
         },
         {
           "heading": "Visa Options",
           "paragraphs": [
-            "Digital Nomad Visa — Perfect for remote developers working for foreign companies. No local employment restrictions. — Easy — 2-4 weeks",
-            "Work Visa (Sponsorship) — For developers hired by Argentine companies. Requires employer sponsorship. — Moderate — 1-3 months",
-            "Freelancer/Mercosur Visa — For independent developers with international clients. Available to Mercosur citizens. — Moderate — 1-2 months"
+            "Digital Nomad Visa — Best as a short bridge for remote developers working for foreign companies. The current official route is a transitory residence of up to 180 days with a separate extension flow if approved. — Easy — 15-30 days when the file is clean",
+            "Work Visa (Sponsorship) — For developers hired by Argentine companies. This remains the correct route for local employment and longer-term continuity. — Moderate — 1-3 months",
+            "Freelancer/Mercosur Visa — Relevant only for profiles that actually fit those residence bases. Do not use it as a generic substitute for the short digital nomad route. — Moderate — 1-2 months"
           ]
         },
         {
@@ -55872,26 +55871,26 @@
         "name": "Software Developer",
         "title": "Software Developer Immigration Guide for Argentina",
         "subtitle": "Visa pathways, remote work options, and tech community connections for developers",
-        "description": "Argentina's growing tech ecosystem offers excellent opportunities for software developers. From Buenos Aires' startup scene to provincial tech hubs, discover your pathway to living and working as a developer in Argentina.",
+        "description": "Argentina remains a strong base for software developers, but the current digital nomad route should be read as a short transitory residence for foreign remote work rather than as an automatic DNI or long-term residency solution.",
         "icon": "Code",
         "category": "tech",
-        "overview": "Argentina has emerged as Latin America's leading tech hub, with Buenos Aires ranking among the top startup ecosystems globally. Software developers are in high demand, with companies actively recruiting international talent. The country offers excellent infrastructure for remote workers, an established tech community, and competitive salaries when earning in foreign currency. Whether you want to work remotely for a US/EU company, join a local startup, or freelance, Argentina provides an ideal base for tech professionals.",
+        "overview": "Argentina still works well for developers who earn abroad, want lower burn, and need a sophisticated urban base. The legal distinction that matters in 2026 is that remote developers are usually comparing a short transitory digital nomad route against a real residency category, not comparing two interchangeable long-stay visas.",
         "visaOptions": [
           {
             "name": "Digital Nomad Visa",
-            "description": "Perfect for remote developers working for foreign companies. No local employment restrictions.",
+            "description": "Best as a short bridge for remote developers working for foreign companies. The current official route is a transitory residence of up to 180 days with a separate extension flow if approved.",
             "difficulty": "Easy",
-            "timeline": "2-4 weeks"
+            "timeline": "15-30 days when the file is clean"
           },
           {
             "name": "Work Visa (Sponsorship)",
-            "description": "For developers hired by Argentine companies. Requires employer sponsorship.",
+            "description": "For developers hired by Argentine companies. This remains the correct route for local employment and longer-term continuity.",
             "difficulty": "Moderate",
             "timeline": "1-3 months"
           },
           {
             "name": "Freelancer/Mercosur Visa",
-            "description": "For independent developers with international clients. Available to Mercosur citizens.",
+            "description": "Relevant only for profiles that actually fit those residence bases. Do not use it as a generic substitute for the short digital nomad route.",
             "difficulty": "Moderate",
             "timeline": "1-2 months"
           }
@@ -56010,7 +56009,7 @@
         "image": "/images/professions/software-developer.webp"
       },
       "completenessScore": 0.9,
-      "digest": "5b121e61213a626ced720c6614aaeec7be1386c1069867a0016f8c8f36dff3fd"
+      "digest": "a0de59978935b795fac760c15b5a14d11a72b358ab0b687ec426ee146a2086cc"
     },
     {
       "id": "expatsargentina:profession:sound-designer",
@@ -60118,7 +60117,7 @@
       "kind": "visa-comparison",
       "slug": "digital-nomad-vs-work-visa",
       "title": "Digital Nomad Visa vs Work Visa",
-      "summary": "Two paths to working legally in Argentina with very different requirements. Compare the Digital Nomad Visa for remote workers with the traditional Work Visa for local employment.",
+      "summary": "Two paths to working in or from Argentina with a sharper legal distinction than many old summaries use. The current digital nomad route is a short transitory residence for foreign remote work, while the Work Visa remains the proper route for local Argentine employment and longer…",
       "locales": [
         "en"
       ],
@@ -60146,8 +60145,8 @@
         {
           "heading": "Description",
           "paragraphs": [
-            "Two paths to working legally in Argentina with very different requirements. Compare the Digital Nomad Visa for remote workers with the traditional Work Visa for local employment.",
-            "The Digital Nomad Visa is the clear winner for remote workers who want a fast, flexible path to living in Argentina without needing a local employer. The Work Visa is essential if you plan to work for an Argentine company and want a direct path to permanent residency. Choose based on whether your income is foreign-sourced or locally employed."
+            "Two paths to working in or from Argentina with a sharper legal distinction than many old summaries use. The current digital nomad route is a short transitory residence for foreign remote work, while the Work Visa remains the proper route for local Argentine employment and longer residence continuity.",
+            "The Digital Nomad route wins only when the plan is foreign remote work plus a short, structured stay and the applicant already fits the tourist-visa-exempt entry rule. The Work Visa remains the correct answer for Argentine employment and for people who need a genuine residency track rather than a short transitory status."
           ]
         },
         {
@@ -60191,7 +60190,7 @@
           "slug": "work"
         },
         "title": "Digital Nomad Visa vs Work Visa",
-        "description": "Two paths to working legally in Argentina with very different requirements. Compare the Digital Nomad Visa for remote workers with the traditional Work Visa for local employment.",
+        "description": "Two paths to working in or from Argentina with a sharper legal distinction than many old summaries use. The current digital nomad route is a short transitory residence for foreign remote work, while the Work Visa remains the proper route for local Argentine employment and longer residence continuity.",
         "seoKeywords": [
           "Argentina digital nomad vs work visa",
           "Argentina work permit comparison",
@@ -60199,7 +60198,7 @@
           "Argentina work visa requirements",
           "best visa for working in Argentina"
         ],
-        "verdict": "The Digital Nomad Visa is the clear winner for remote workers who want a fast, flexible path to living in Argentina without needing a local employer. The Work Visa is essential if you plan to work for an Argentine company and want a direct path to permanent residency. Choose based on whether your income is foreign-sourced or locally employed.",
+        "verdict": "The Digital Nomad route wins only when the plan is foreign remote work plus a short, structured stay and the applicant already fits the tourist-visa-exempt entry rule. The Work Visa remains the correct answer for Argentine employment and for people who need a genuine residency track rather than a short transitory status.",
         "categories": [
           {
             "name": "Processing Time",
@@ -60268,7 +60267,7 @@
         }
       },
       "completenessScore": 0.9,
-      "digest": "aa965270cf6427f3b1ba0298055b66fa1d9df7e7726e95750d4c73b46a31e706"
+      "digest": "f96a65772e8a921c5ac0a0fb15be6d9399115fb4dcae8da6acd7d8ddb87aadf2"
     },
     {
       "id": "expatsargentina:visa-comparison:retirement-vs-investment-visa",

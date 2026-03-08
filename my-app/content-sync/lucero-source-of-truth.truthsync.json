@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-08T02:29:07.033Z",
+  "generatedAt": "2026-03-08T02:58:04.728Z",
   "totals": {
     "surfaces": 13,
-    "active": 2,
-    "ready": 11,
+    "active": 4,
+    "ready": 9,
     "unwired": 0,
     "highRiskUnwired": 0
   },
@@ -11,8 +11,8 @@
     {
       "siteId": "expatsargentina",
       "surfaces": 13,
-      "active": 2,
-      "ready": 11,
+      "active": 4,
+      "ready": 9,
       "unwired": 0
     }
   ],
@@ -209,7 +209,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "professions",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "professions",
@@ -221,7 +221,7 @@
       "recordCount": 100,
       "highRiskRecordCount": 100,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 1,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/professions.ts"
       ],
@@ -317,7 +317,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "visaComparisons",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "visaComparisons",
@@ -329,7 +329,7 @@
       "recordCount": 3,
       "highRiskRecordCount": 3,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 1,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts"
       ],
