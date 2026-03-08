@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:58:04.728Z",
+  "generatedAt": "2026-03-08T11:27:05.999Z",
   "siteId": "expatsargentina",
   "findingCount": 370,
   "findings": [
@@ -5413,11 +5413,18 @@
         "relatedPosts": [
           "best-cities-remote-workers-argentina",
           "cost-living-buenos-aires-2025"
-        ]
+        ],
+        "truthSync": {
+          "canonicalKey": "blog-post:complete-guide-digital-nomad-visa-argentina-2026",
+          "recordId": "expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
+          "reviewDate": "2026-01-15",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
       },
       "reviewDate": "2026-01-15",
       "completenessScore": 1,
-      "digest": "829b92304693d7594f3db20c783af5b81140417f47f9dd408ae09ca6b2ebdb6d"
+      "digest": "f059bf441f0c008c5ea24dc376283efe75b330ddc71dc9643418cf086ee57f5a"
     },
     {
       "id": "expatsargentina:comparison:buenos-aires-vs-cordoba",
@@ -5570,10 +5577,17 @@
             "Outdoor lovers",
             "Those who prefer smaller cities"
           ]
+        },
+        "truthSync": {
+          "canonicalKey": "comparison:buenos-aires-vs-cordoba",
+          "recordId": "expatsargentina:comparison:buenos-aires-vs-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "ced9870dea7fb1d23d6c24cde40798fd8b1d059f1eebc8fa7bafe6e2ade6fd7c"
+      "digest": "1f7dc6aa7ff83c61357d4acb7543fdb1a2b8f329f2933a7204e42337f3e73d49"
     },
     {
       "id": "expatsargentina:comparison:buenos-aires-vs-mendoza",
@@ -5728,10 +5742,17 @@
             "Retirees",
             "Those seeking tranquility"
           ]
+        },
+        "truthSync": {
+          "canonicalKey": "comparison:buenos-aires-vs-mendoza",
+          "recordId": "expatsargentina:comparison:buenos-aires-vs-mendoza",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "b6e4aa65fb542a8069f0fa0255a8697370a9a7c3bcd7b68516e2d7ee2a407951"
+      "digest": "7600285c59f6e5f0ca1ea14c3b090022b97c4fcc511c4a196b18999ce58bf052"
     },
     {
       "id": "expatsargentina:comparison:mar-del-plata-vs-buenos-aires",
@@ -5892,10 +5913,17 @@
             "Food adventurers",
             "Year-round city energy seekers"
           ]
+        },
+        "truthSync": {
+          "canonicalKey": "comparison:mar-del-plata-vs-buenos-aires",
+          "recordId": "expatsargentina:comparison:mar-del-plata-vs-buenos-aires",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "d7758419c93ab1df6b7ae64b28fa729faddde7c204ab269d2792e9b81bfce640"
+      "digest": "9e236e4a0dae58c176eeefbfd27034c6a14d8f588b9e24463f233a56ce0c9cbf"
     },
     {
       "id": "expatsargentina:comparison:mendoza-vs-bariloche",
@@ -6050,10 +6078,17 @@
             "Seasonal workers",
             "Those seeking dramatic scenery"
           ]
+        },
+        "truthSync": {
+          "canonicalKey": "comparison:mendoza-vs-bariloche",
+          "recordId": "expatsargentina:comparison:mendoza-vs-bariloche",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "bff34f7e5e7d306278a8600c7dc5af4ad456f16b0a4809a8dba2cead40aa3c39"
+      "digest": "2a013915f06467d96689283e58dfa37f7c4cbb75d1d26f7ef63ac186d52e526a"
     },
     {
       "id": "expatsargentina:comparison:rosario-vs-cordoba",
@@ -6210,10 +6245,17 @@
             "Outdoor enthusiasts",
             "Those wanting expat community"
           ]
+        },
+        "truthSync": {
+          "canonicalKey": "comparison:rosario-vs-cordoba",
+          "recordId": "expatsargentina:comparison:rosario-vs-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "7613669624996e4635b00bda37eb8aa7bd7014175f34f1aa47e12745132f0c0d"
+      "digest": "92b1c89c22a536b6cc14345a9e1334574082b7756376dec73f6a8dad0850c022"
     },
     {
       "id": "expatsargentina:comparison:salta-vs-cordoba",
@@ -6368,10 +6410,17 @@
             "Those wanting expat community",
             "Tech workers"
           ]
+        },
+        "truthSync": {
+          "canonicalKey": "comparison:salta-vs-cordoba",
+          "recordId": "expatsargentina:comparison:salta-vs-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "7555dff619aaa78d3eb5ccb2fed17568f413f5736ed0c23ccc15c417aad7695a"
+      "digest": "b6a75c8b0120766a1880e23304353e20b84be58f66fe4359b4eaf73d874e6dbb"
     },
     {
       "id": "expatsargentina:comparison:ushuaia-vs-bariloche",
@@ -6528,10 +6577,17 @@
             "Chocolate lovers",
             "Those wanting Patagonia with better infrastructure"
           ]
+        },
+        "truthSync": {
+          "canonicalKey": "comparison:ushuaia-vs-bariloche",
+          "recordId": "expatsargentina:comparison:ushuaia-vs-bariloche",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
         }
       },
       "completenessScore": 0.9,
-      "digest": "f1768d72c8b402ebcd825f5b138b7f04260bf146087e1978440ffddefac16c20"
+      "digest": "4291e758eea09c0d4f17cd64f5d5089a561acf74f19660dfa908e5201577d49e"
     },
     {
       "id": "expatsargentina:country:albania",

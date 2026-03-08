@@ -159,5 +159,2811 @@
         ]
       }
     }
+  },
+  "blogPosts": {
+    "argentinian-culture-shock-what-to-expect": {
+      "reviewDate": "2025-12-28",
+      "sourceUrls": [],
+      "patch": {
+        "excerpt": "From mate rituals to late dinners, learn about the cultural quirks that surprise expats most when moving to Argentina.",
+        "truthSync": {
+          "canonicalKey": "blog-post:argentinian-culture-shock-what-to-expect",
+          "recordId": "expatsargentina:blog-post:argentinian-culture-shock-what-to-expect",
+          "reviewDate": "2025-12-28",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
+      }
+    },
+    "best-cities-remote-workers-argentina": {
+      "reviewDate": "2025-12-05",
+      "sourceUrls": [],
+      "patch": {
+        "excerpt": "Beyond Buenos Aires: discover the best Argentine cities for digital nomads and remote workers, from mountain towns to wine country.",
+        "truthSync": {
+          "canonicalKey": "blog-post:best-cities-remote-workers-argentina",
+          "recordId": "expatsargentina:blog-post:best-cities-remote-workers-argentina",
+          "reviewDate": "2025-12-05",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
+      }
+    },
+    "best-neighborhoods-expats-buenos-aires": {
+      "reviewDate": "2026-01-10",
+      "sourceUrls": [],
+      "patch": {
+        "excerpt": "From trendy Palermo to historic San Telmo, discover which BA neighborhoods offer the best mix of expat community, safety, and authentic Argentine culture.",
+        "truthSync": {
+          "canonicalKey": "blog-post:best-neighborhoods-expats-buenos-aires",
+          "recordId": "expatsargentina:blog-post:best-neighborhoods-expats-buenos-aires",
+          "reviewDate": "2026-01-10",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
+      }
+    },
+    "complete-guide-digital-nomad-visa-argentina-2026": {
+      "reviewDate": "2026-01-15",
+      "sourceUrls": [],
+      "patch": {
+        "excerpt": "Everything you need to know about Argentina's digital nomad visa: requirements, application process, costs, and insider tips from successful applicants.",
+        "truthSync": {
+          "canonicalKey": "blog-post:complete-guide-digital-nomad-visa-argentina-2026",
+          "recordId": "expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
+          "reviewDate": "2026-01-15",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
+      }
+    },
+    "cost-living-buenos-aires-2025": {
+      "reviewDate": "2026-01-05",
+      "sourceUrls": [],
+      "patch": {
+        "excerpt": "Real numbers for what it costs to live in Buenos Aires as an expat, from rent and food to healthcare and entertainment. Updated for 2026.",
+        "truthSync": {
+          "canonicalKey": "blog-post:cost-living-buenos-aires-2025",
+          "recordId": "expatsargentina:blog-post:cost-living-buenos-aires-2025",
+          "reviewDate": "2026-01-05",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
+      }
+    },
+    "healthcare-argentina-expat-guide": {
+      "reviewDate": "2025-12-10",
+      "sourceUrls": [],
+      "patch": {
+        "excerpt": "How Argentina's healthcare system works: public vs private, insurance options, finding English-speaking doctors, and what to do in emergencies.",
+        "truthSync": {
+          "canonicalKey": "blog-post:healthcare-argentina-expat-guide",
+          "recordId": "expatsargentina:blog-post:healthcare-argentina-expat-guide",
+          "reviewDate": "2025-12-10",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
+      }
+    },
+    "opening-bank-account-argentina-expat": {
+      "reviewDate": "2025-12-20",
+      "sourceUrls": [],
+      "patch": {
+        "excerpt": "Step-by-step guide to opening a bank account in Argentina. Documents needed, best banks for expats, and tips for navigating the system.",
+        "truthSync": {
+          "canonicalKey": "blog-post:opening-bank-account-argentina-expat",
+          "recordId": "expatsargentina:blog-post:opening-bank-account-argentina-expat",
+          "reviewDate": "2025-12-20",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
+      }
+    },
+    "renting-apartment-argentina-guide": {
+      "reviewDate": "2025-12-15",
+      "sourceUrls": [],
+      "patch": {
+        "excerpt": "Everything you need to know about finding and renting an apartment in Argentina: contracts, deposits, guarantees, and avoiding scams.",
+        "truthSync": {
+          "canonicalKey": "blog-post:renting-apartment-argentina-guide",
+          "recordId": "expatsargentina:blog-post:renting-apartment-argentina-guide",
+          "reviewDate": "2025-12-15",
+          "sourceExport": "blogPosts",
+          "sourceUrls": []
+        }
+      }
+    }
+  },
+  "cities": {
+    "bariloche": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The 'Switzerland of South America.' Crystal-clear lakes, snow-capped peaks, artisan chocolate, and premier skiing in the heart of Patagonia's Lake District.",
+        "expatAppeal": "Mountain lovers, skiers, and outdoor enthusiasts seeking a Patagonian alpine lifestyle with tourism-driven economy.",
+        "internetSpeed": "30-100 Mbps",
+        "safetyRating": "Very safe — low crime, small-town feel",
+        "truthSync": {
+          "canonicalKey": "city:bariloche",
+          "recordId": "expatsargentina:city:bariloche",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "buenos-aires": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The Paris of South America. Argentina's pulsating capital offers first-rate culture, dining, and nightlife with the largest expat community in the country.",
+        "expatAppeal": "The obvious first choice for most expats. Best infrastructure, most English-friendly services, biggest international community.",
+        "internetSpeed": "50-300 Mbps fiber",
+        "safetyRating": "Moderate — safe in expat areas, standard precautions needed",
+        "truthSync": {
+          "canonicalKey": "city:buenos-aires",
+          "recordId": "expatsargentina:city:buenos-aires",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "cordoba": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's university city and emerging tech hub. Young energy, affordable living, and stunning sierras make it the best-value big city in the country.",
+        "expatAppeal": "Digital nomads, tech workers, and young expats who want big-city amenities at small-city prices with mountain escapes.",
+        "internetSpeed": "50-200 Mbps fiber",
+        "safetyRating": "Moderate — safe in center and north, standard precautions elsewhere",
+        "truthSync": {
+          "canonicalKey": "city:cordoba",
+          "recordId": "expatsargentina:city:cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "el-calafate": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Gateway to the Perito Moreno glacier and Los Glaciares National Park. A Patagonian frontier town on Lago Argentino where bus-sized ice chunks calve daily into milky blue waters.",
+        "expatAppeal": "Seasonal tourism workers and glacier enthusiasts. Very small community, seasonal economy, stunning natural setting.",
+        "internetSpeed": "10-30 Mbps",
+        "safetyRating": "Very safe — small town, tourist-oriented",
+        "truthSync": {
+          "canonicalKey": "city:el-calafate",
+          "recordId": "expatsargentina:city:el-calafate",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-plata": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's 'planned city' — a perfectly geometric university town just 60 km from Buenos Aires with stunning architecture, student energy, and half the cost of the capital.",
+        "expatAppeal": "Students, academics, and budget expats who want university-town charm with easy access to Buenos Aires at much lower prices.",
+        "internetSpeed": "30-100 Mbps",
+        "safetyRating": "Moderate — safe in center and university areas",
+        "truthSync": {
+          "canonicalKey": "city:la-plata",
+          "recordId": "expatsargentina:city:la-plata",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "mar-del-plata": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's Atlantic beach city — surfing, seafood, and a year-round urban beach lifestyle just 4 hours from Buenos Aires. The 'Happy City' lives up to its name.",
+        "expatAppeal": "Beach lovers and surfers who want year-round coastal living with big-city amenities at small-city prices.",
+        "internetSpeed": "30-100 Mbps",
+        "safetyRating": "Moderate — safe in tourist/residential areas, standard precautions",
+        "truthSync": {
+          "canonicalKey": "city:mar-del-plata",
+          "recordId": "expatsargentina:city:mar-del-plata",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "mendoza": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Wine country paradise at the foot of the Andes. Renowned Malbec, outdoor adventures, and 300 days of sunshine make this South America's answer to Napa Valley.",
+        "expatAppeal": "Wine lovers, outdoor enthusiasts, and retirees seeking European-quality wine country living at a fraction of the price.",
+        "internetSpeed": "30-100 Mbps",
+        "safetyRating": "Safe — lower crime than Buenos Aires",
+        "truthSync": {
+          "canonicalKey": "city:mendoza",
+          "recordId": "expatsargentina:city:mendoza",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "neuquen": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Patagonia's energy boomtown — a modern, high-income city at the Limay-Neuquén confluence with Vaca Muerta wealth, nearby wineries, dinosaur museums, and quick Andean access.",
+        "expatAppeal": "Professionals seeking Patagonian lifestyle with big-city amenities and strong employment opportunities in the energy sector.",
+        "internetSpeed": "30-80 Mbps",
+        "safetyRating": "Moderate to Good — safe in most residential areas",
+        "truthSync": {
+          "canonicalKey": "city:neuquen",
+          "recordId": "expatsargentina:city:neuquen",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "parana": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A riverfront gem perched on dramatic bluffs above the Paraná River — Argentina's former national capital with thermal springs, pre-delta wetlands, and a pace of life built for well-being.",
+        "expatAppeal": "Those seeking authentic provincial Argentine life with river views, thermal springs, genuine community, and none of the big-city stress.",
+        "internetSpeed": "20-50 Mbps",
+        "safetyRating": "Good — safe mid-size city with low crime",
+        "truthSync": {
+          "canonicalKey": "city:parana",
+          "recordId": "expatsargentina:city:parana",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "posadas": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Gateway to Iguazú Falls — a subtropical riverside capital on the Paraguay border where wild mangoes, red earth roads, and all-day mate rituals define a warm, cross-border lifestyle.",
+        "expatAppeal": "Budget-focused adventurers wanting subtropical living, easy cross-border access, and proximity to one of the world's natural wonders.",
+        "internetSpeed": "15-40 Mbps",
+        "safetyRating": "Moderate — safe in city center and residential areas",
+        "truthSync": {
+          "canonicalKey": "city:posadas",
+          "recordId": "expatsargentina:city:posadas",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "puerto-madryn": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Whale watching capital of Argentina. The gateway to Península Valdés where southern right whales, orcas, penguins, and elephant seals congregate in stunning numbers.",
+        "expatAppeal": "Wildlife enthusiasts and marine biologists drawn to one of Earth's great wildlife destinations with year-round coastal living.",
+        "internetSpeed": "20-50 Mbps",
+        "safetyRating": "Very safe — small, friendly community",
+        "truthSync": {
+          "canonicalKey": "city:puerto-madryn",
+          "recordId": "expatsargentina:city:puerto-madryn",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "rosario": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's third city — birthplace of the flag, Che Guevara, and Messi. A river city with a growing cosmopolitan scene, great food, and BA vibes at half the price.",
+        "expatAppeal": "Expats who love Buenos Aires energy but want lower costs, less tourism, and a genuine river-city lifestyle.",
+        "internetSpeed": "30-100 Mbps",
+        "safetyRating": "Mixed — safe in center/south, higher crime in some areas. Be aware.",
+        "truthSync": {
+          "canonicalKey": "city:rosario",
+          "recordId": "expatsargentina:city:rosario",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "salta": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Salta la Linda — colonial charm, desert landscapes, world-famous empanadas, and the most affordable city living in Argentina. The Northwest's crown jewel.",
+        "expatAppeal": "Culture-seeking expats who want authentic Argentina, warm weather, incredible food, and the lowest big-city costs in the country.",
+        "internetSpeed": "20-50 Mbps",
+        "safetyRating": "Safe — friendly, low crime rates",
+        "truthSync": {
+          "canonicalKey": "city:salta",
+          "recordId": "expatsargentina:city:salta",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "san-juan": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's sun capital — 300+ cloudless days, superb Syrah and Malbec rivaling Mendoza at half the price, and gateway to the surreal Ischigualasto moonscape and Barreal stargazing.",
+        "expatAppeal": "Wine enthusiasts and sun-seekers wanting authentic Cuyo living at significantly lower costs than Mendoza.",
+        "internetSpeed": "20-50 Mbps",
+        "safetyRating": "Good — generally safe, quiet city",
+        "truthSync": {
+          "canonicalKey": "city:san-juan",
+          "recordId": "expatsargentina:city:san-juan",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "san-martin-de-los-andes": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The quieter Bariloche — a charming Patagonian village on Lago Lácar offering Chapelco skiing, renowned fly fishing, and Ruta de los Siete Lagos access without the tourist crowds.",
+        "expatAppeal": "Mountain enthusiasts who want Patagonian alpine living without tourist crowds. Smaller, more intimate community.",
+        "internetSpeed": "20-50 Mbps",
+        "safetyRating": "Very safe — extremely low crime, tight-knit community",
+        "truthSync": {
+          "canonicalKey": "city:san-martin-de-los-andes",
+          "recordId": "expatsargentina:city:san-martin-de-los-andes",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "san-salvador-de-jujuy": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Gateway to the Quebrada de Humahuaca — where living Quechua and Aymara traditions meet colonial charm at the foot of Argentina's rainbow mountains and vast salt flats.",
+        "expatAppeal": "Culture-seekers and budget expats wanting deep Andean immersion with stunning landscapes and Argentina's most affordable urban living.",
+        "internetSpeed": "15-40 Mbps",
+        "safetyRating": "Good — small-city safety, welcoming locals",
+        "truthSync": {
+          "canonicalKey": "city:san-salvador-de-jujuy",
+          "recordId": "expatsargentina:city:san-salvador-de-jujuy",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "santa-fe": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's constitutional capital — an energetic university city on a river island where 1853 colonial heritage meets student nightlife, legendary river fish, and famous alfajores.",
+        "expatAppeal": "Intellectuals, history buffs, and budget expats wanting a cultured provincial capital with strong university energy and riverside living.",
+        "internetSpeed": "25-60 Mbps",
+        "safetyRating": "Moderate — safe in center and university areas, avoid flood zones",
+        "truthSync": {
+          "canonicalKey": "city:santa-fe",
+          "recordId": "expatsargentina:city:santa-fe",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "tucuman": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The Garden of the Republic — where Argentine independence was born. Lush, historic, and ultra-affordable with strong university culture and authentic Northwest flavors.",
+        "expatAppeal": "Budget-conscious expats seeking a genuine Argentine city experience with rich history, great food, and the lowest urban costs in the country.",
+        "internetSpeed": "20-50 Mbps",
+        "safetyRating": "Moderate — safe in center and university areas",
+        "truthSync": {
+          "canonicalKey": "city:tucuman",
+          "recordId": "expatsargentina:city:tucuman",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "ushuaia": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The End of the World. The planet's southernmost city, gateway to Antarctica, with dramatic mountains, glaciers, and a frontier spirit that defines Patagonia.",
+        "expatAppeal": "Adventurers and frontier spirits drawn to living at Earth's edge with Antarctic expeditions and extreme Patagonian nature.",
+        "internetSpeed": "20-50 Mbps",
+        "safetyRating": "Very safe — small-town feel, low crime",
+        "truthSync": {
+          "canonicalKey": "city:ushuaia",
+          "recordId": "expatsargentina:city:ushuaia",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    },
+    "villa-carlos-paz": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's summer theater capital — a lakeside resort on Lago San Roque in the Sierras de Córdoba with 30+ live stages, water sports, hiking trails, and Córdoba city just 36 km away.",
+        "expatAppeal": "Lifestyle expats wanting mountain-lake living with cultural entertainment, outdoor activities, and easy access to a major city.",
+        "internetSpeed": "20-50 Mbps",
+        "safetyRating": "Good — safe resort town atmosphere",
+        "truthSync": {
+          "canonicalKey": "city:villa-carlos-paz",
+          "recordId": "expatsargentina:city:villa-carlos-paz",
+          "reviewDate": "unknown",
+          "sourceExport": "cities",
+          "sourceUrls": []
+        }
+      }
+    }
+  },
+  "cityComparisons": {
+    "buenos-aires-vs-cordoba": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Mega-city sophistication vs university-town energy. Compare Argentina's capital with its second city for cost, culture, tech scene, and expat lifestyle.",
+        "verdict": "Buenos Aires is unbeatable for culture and career. Cordoba offers a younger, more affordable vibe with a growing tech scene. For budget-conscious digital nomads, Cordoba is increasingly the smarter choice.",
+        "truthSync": {
+          "canonicalKey": "comparison:buenos-aires-vs-cordoba",
+          "recordId": "expatsargentina:comparison:buenos-aires-vs-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
+        }
+      }
+    },
+    "buenos-aires-vs-mendoza": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Capital city energy vs wine country tranquility. Compare Argentina's biggest metropolis with its premier wine region for expat life, cost of living, safety, and lifestyle.",
+        "verdict": "Buenos Aires wins for career opportunities, nightlife, and cultural depth. Mendoza wins for quality of life, outdoor activities, and wine culture. Budget-conscious expats may prefer Mendoza's lower costs.",
+        "truthSync": {
+          "canonicalKey": "comparison:buenos-aires-vs-mendoza",
+          "recordId": "expatsargentina:comparison:buenos-aires-vs-mendoza",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
+        }
+      }
+    },
+    "mar-del-plata-vs-buenos-aires": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Beach city escape vs capital city energy. Compare Argentina's summer capital with its actual capital for year-round expat living.",
+        "verdict": "Buenos Aires wins for career opportunities, nightlife, and a massive expat community. Mar del Plata wins for beach access, lower costs, and a more relaxed pace of life. The key question is whether you prioritize lifestyle or opportunity.",
+        "truthSync": {
+          "canonicalKey": "comparison:mar-del-plata-vs-buenos-aires",
+          "recordId": "expatsargentina:comparison:mar-del-plata-vs-buenos-aires",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
+        }
+      }
+    },
+    "mendoza-vs-bariloche": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Wine country vs lake district. Two of Argentina's most stunning regions compared for expat life, outdoor access, cost, and year-round livability.",
+        "verdict": "Mendoza offers year-round sunshine, wine culture, and better infrastructure. Bariloche is unmatched for dramatic scenery and outdoor extremes but has harsh winters and seasonal economics.",
+        "truthSync": {
+          "canonicalKey": "comparison:mendoza-vs-bariloche",
+          "recordId": "expatsargentina:comparison:mendoza-vs-bariloche",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
+        }
+      }
+    },
+    "rosario-vs-cordoba": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's second and third cities compared. Industrial port city vs university hub — both affordable, both with strong identities.",
+        "verdict": "Rosario offers river lifestyle, cultural pride, and a slightly cheaper cost of living. Córdoba counters with university energy, mountain access, and a more established tech and expat scene. Both are excellent affordable alternatives to Buenos Aires.",
+        "truthSync": {
+          "canonicalKey": "comparison:rosario-vs-cordoba",
+          "recordId": "expatsargentina:comparison:rosario-vs-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
+        }
+      }
+    },
+    "salta-vs-cordoba": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Colonial Northwest charm vs central university energy. Compare two affordable Argentine cities for budget expats seeking authentic culture and community.",
+        "verdict": "Salta wins for cultural immersion, stunning landscapes, and ultra-low costs. Cordoba wins for modern amenities, tech opportunities, and a larger expat-friendly infrastructure.",
+        "truthSync": {
+          "canonicalKey": "comparison:salta-vs-cordoba",
+          "recordId": "expatsargentina:comparison:salta-vs-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
+        }
+      }
+    },
+    "ushuaia-vs-bariloche": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "End of the world vs lake district paradise. Compare Argentina's two iconic Patagonian destinations for extreme nature and unique expat experiences.",
+        "verdict": "Bariloche wins for year-round livability, better infrastructure, and a larger community. Ushuaia wins for sheer uniqueness, tax benefits, and being the ultimate end-of-the-world adventure. Both demand cold tolerance and self-reliance.",
+        "truthSync": {
+          "canonicalKey": "comparison:ushuaia-vs-bariloche",
+          "recordId": "expatsargentina:comparison:ushuaia-vs-bariloche",
+          "reviewDate": "unknown",
+          "sourceExport": "cityComparisons",
+          "sourceUrls": []
+        }
+      }
+    }
+  },
+  "investmentSectors": {
+    "agriculture": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina is the world's 3rd largest soybean exporter, 2nd largest corn exporter, and a major beef producer — with agtech innovation creating new investment verticals in precision farming and sustainable agriculture.",
+        "marketSize": "$40+ billion annual exports",
+        "growthRate": "3-5% steady; agtech segment 15-20%",
+        "minInvestment": "$150,000 USD (land lease); $500,000+ (farm operations)",
+        "timeToReturn": "3-7 years for land appreciation; annual income from operations",
+        "recentDevelopments": [
+          "2024: Record soybean and corn harvests despite drought challenges",
+          "2024: Foreign investment interest in Pampas farmland increasing",
+          "2025: New agtech incubator launched in Córdoba",
+          "Ongoing: Export tax fluctuations affecting profit margins"
+        ],
+        "truthSync": {
+          "canonicalKey": "investment-sector:agriculture",
+          "recordId": "expatsargentina:investment-sector:agriculture",
+          "reviewDate": "unknown",
+          "sourceExport": "investmentSectors",
+          "sourceUrls": []
+        }
+      }
+    },
+    "energy": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "From Vaca Muerta — the world's second-largest shale formation — to exceptional wind resources in Patagonia, Argentina's energy sector is undergoing transformation with major investment opportunities.",
+        "marketSize": "$15+ billion annually",
+        "growthRate": "8-12% (Vaca Muerta); 20%+ (renewables)",
+        "minInvestment": "$50,000 (small solar); $500+ million (upstream oil & gas)",
+        "timeToReturn": "5-10 years (infrastructure); 2-5 years (renewables)",
+        "recentDevelopments": [
+          "2024: Vaca Muerta production exceeded 300,000 barrels/day oil",
+          "2024: Major LNG export project approved for Buenos Aires coast",
+          "2025: New renewable energy auctions announced",
+          "2025: Green hydrogen pilot projects launched in Patagonia"
+        ],
+        "truthSync": {
+          "canonicalKey": "investment-sector:energy",
+          "recordId": "expatsargentina:investment-sector:energy",
+          "reviewDate": "unknown",
+          "sourceExport": "investmentSectors",
+          "sourceUrls": []
+        }
+      }
+    },
+    "mining": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina holds the world's 3rd largest lithium reserves, significant copper deposits, and untapped gold and silver resources — making it a strategic destination for critical minerals investment.",
+        "marketSize": "$6+ billion (rapidly expanding)",
+        "growthRate": "15-25% annually (lithium-driven)",
+        "minInvestment": "$5+ million (exploration); $200+ million (production)",
+        "timeToReturn": "7-12 years (mine development cycle)",
+        "recentDevelopments": [
+          "2024: Multiple lithium projects reached production milestones",
+          "2024: Rio Tinto acquired Arcadium Lithium (major Argentine assets)",
+          "2025: New copper discoveries announced in San Juan",
+          "2025: Government streamlining mining permitting process"
+        ],
+        "truthSync": {
+          "canonicalKey": "investment-sector:mining",
+          "recordId": "expatsargentina:investment-sector:mining",
+          "reviewDate": "unknown",
+          "sourceExport": "investmentSectors",
+          "sourceUrls": []
+        }
+      }
+    },
+    "real-estate": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "From Buenos Aires luxury apartments to Mendoza vineyards and Patagonia eco-lodges — Argentine real estate offers dollar-denominated opportunities at fractions of comparable global markets.",
+        "marketSize": "$12+ billion annual transactions",
+        "growthRate": "Variable by segment (8-15% in tourism real estate)",
+        "minInvestment": "$80,000 USD (residential); $200,000+ (commercial)",
+        "timeToReturn": "5-10 years for capital appreciation; immediate rental yields",
+        "recentDevelopments": [
+          "December 2023: Foreign land ownership restrictions revoked by Milei decree",
+          "2024: Increased foreign buyer interest in Buenos Aires luxury segment",
+          "2024: Mendoza vineyard prices up 20% year-over-year",
+          "2025: Short-term rental regulations tightening in Buenos Aires"
+        ],
+        "truthSync": {
+          "canonicalKey": "investment-sector:real-estate",
+          "recordId": "expatsargentina:investment-sector:real-estate",
+          "reviewDate": "unknown",
+          "sourceExport": "investmentSectors",
+          "sourceUrls": []
+        }
+      }
+    },
+    "technology": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Buenos Aires is Latin America's 3rd largest startup ecosystem, with strengths in fintech, SaaS, and AI — offering venture capital and angel investment opportunities at valuations below US/EU markets.",
+        "marketSize": "$2+ billion annual VC investment",
+        "growthRate": "20-30% annually",
+        "minInvestment": "$10,000 (angel); $100,000+ (seed/VC)",
+        "timeToReturn": "5-10 years (typical VC cycle)",
+        "recentDevelopments": [
+          "2024: Record year for Argentine startup funding",
+          "2024: Multiple unicorns (Ualá, Nubank) with Argentine founders",
+          "2025: New VC funds launched focusing on Argentina",
+          "2025: Government proposing tech zone incentives in Buenos Aires"
+        ],
+        "truthSync": {
+          "canonicalKey": "investment-sector:technology",
+          "recordId": "expatsargentina:investment-sector:technology",
+          "reviewDate": "unknown",
+          "sourceExport": "investmentSectors",
+          "sourceUrls": []
+        }
+      }
+    },
+    "tourism": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "From wine tourism in Mendoza to eco-lodges in Patagonia and urban experiences in Buenos Aires — Argentina's tourism sector offers lifestyle investments with income potential in a post-pandemic recovery.",
+        "marketSize": "$8+ billion annually",
+        "growthRate": "12-18% post-pandemic recovery",
+        "minInvestment": "$100,000 (small B&B); $500,000+ (boutique hotel)",
+        "timeToReturn": "5-8 years for established operations",
+        "recentDevelopments": [
+          "2024: International tourism arrivals approaching pre-pandemic levels",
+          "2024: Mendoza wine tourism seeing 25% growth",
+          "2025: New luxury hotel openings in Buenos Aires and Patagonia",
+          "2025: Government launching tourism promotion campaign"
+        ],
+        "truthSync": {
+          "canonicalKey": "investment-sector:tourism",
+          "recordId": "expatsargentina:investment-sector:tourism",
+          "reviewDate": "unknown",
+          "sourceExport": "investmentSectors",
+          "sourceUrls": []
+        }
+      }
+    }
+  },
+  "neighborhoods": {
+    "almagro": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The authentic Buenos Aires experience at budget prices. Almagro is where porteños actually live — traditional pizzerias, tango clubs, and a real neighborhood feel far from the tourist circuit.",
+        "rentRange": "$500–$850",
+        "avgMonthlyBudget": "$900–$1,500",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:almagro",
+          "recordId": "expatsargentina:neighborhood:almagro",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "barrio-norte": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A central, well-connected area straddling the border of Recoleta and Retiro. Classic Buenos Aires apartments, excellent transport, and a convenient location for everything.",
+        "rentRange": "$800–$1,400",
+        "avgMonthlyBudget": "$1,400–$2,200",
+        "safety": "Very Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:barrio-norte",
+          "recordId": "expatsargentina:neighborhood:barrio-norte",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "belgrano": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The quiet, family-friendly neighborhood where long-term expats settle. Tree-lined streets, good schools, the city's Chinatown, and a residential calm that's hard to find elsewhere in BA.",
+        "rentRange": "$900–$1,500",
+        "avgMonthlyBudget": "$1,500–$2,500",
+        "safety": "Very Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:belgrano",
+          "recordId": "expatsargentina:neighborhood:belgrano",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "caballito": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The geographic center of Buenos Aires and a solidly middle-class neighborhood. Great transport, affordable rents, and a genuine Argentine family feel. The unsexy but practical choice.",
+        "rentRange": "$500–$900",
+        "avgMonthlyBudget": "$900–$1,400",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:caballito",
+          "recordId": "expatsargentina:neighborhood:caballito",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "cerro-de-las-rosas": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Córdoba's upscale residential neighborhood — tree-lined streets, excellent restaurants, and a quiet, family-friendly atmosphere. The Recoleta of the interior, with a fraction of the price tag.",
+        "rentRange": "$450–$800",
+        "avgMonthlyBudget": "$800–$1,300",
+        "safety": "Very Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:cerro-de-las-rosas",
+          "recordId": "expatsargentina:neighborhood:cerro-de-las-rosas",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "chacarita": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The fastest-gentrifying neighborhood in Buenos Aires. Former working-class barrio now home to BA's hottest new restaurants, natural wine bars, and creative studios. The 'next Palermo' is happening right now.",
+        "rentRange": "$600–$1,100",
+        "avgMonthlyBudget": "$1,100–$1,800",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:chacarita",
+          "recordId": "expatsargentina:neighborhood:chacarita",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "chacras-de-coria": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A charming wine country village 20 minutes from downtown Mendoza — tree-lined streets, bodegas within walking distance, and the largest concentration of expats in the region. The 'Palermo' of Mendoza.",
+        "rentRange": "$500–$900",
+        "avgMonthlyBudget": "$1,000–$1,600",
+        "safety": "Very Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:chacras-de-coria",
+          "recordId": "expatsargentina:neighborhood:chacras-de-coria",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "colegiales": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Palermo's quieter, more residential neighbor. A hidden gem with tree-lined streets, a growing cafe scene, and the feel of a small town within the city. Perfect for expats who want proximity without the noise.",
+        "rentRange": "$800–$1,300",
+        "avgMonthlyBudget": "$1,300–$2,200",
+        "safety": "Very Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:colegiales",
+          "recordId": "expatsargentina:neighborhood:colegiales",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "cordoba-centro": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The historic core of Argentina's second-largest city — home to the Jesuit Block (UNESCO), the cathedral, and a dense commercial center. Affordable, well-connected, and steeped in 400 years of history.",
+        "rentRange": "$300–$500",
+        "avgMonthlyBudget": "$550–$850",
+        "safety": "Moderate",
+        "truthSync": {
+          "canonicalKey": "neighborhood:cordoba-centro",
+          "recordId": "expatsargentina:neighborhood:cordoba-centro",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "godoy-cruz": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Mendoza's lively adjacent suburb — a favorite among young professionals for its nightlife strip on Arístides Villanueva, craft beer scene, and lower rents just minutes from downtown.",
+        "rentRange": "$350–$600",
+        "avgMonthlyBudget": "$700–$1,100",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:godoy-cruz",
+          "recordId": "expatsargentina:neighborhood:godoy-cruz",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "guaymallen": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Mendoza's most affordable residential zone — a sprawling suburb east of downtown with growing commercial areas, good value apartments, and a genuine local feel far from the tourist trail.",
+        "rentRange": "$250–$450",
+        "avgMonthlyBudget": "$600–$900",
+        "safety": "Moderate",
+        "truthSync": {
+          "canonicalKey": "neighborhood:guaymallen",
+          "recordId": "expatsargentina:neighborhood:guaymallen",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "guemes": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Córdoba's hipster barrio — craft markets, vintage shops, design studios, and a young creative crowd. The Palermo Soho of the interior, with its own distinct character and far lower prices.",
+        "rentRange": "$300–$550",
+        "avgMonthlyBudget": "$600–$900",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:guemes",
+          "recordId": "expatsargentina:neighborhood:guemes",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-boca": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The colorful birthplace of tango and home of Boca Juniors. Iconic for tourists but a complex choice for residents — rich culture with significant safety considerations.",
+        "rentRange": "$400–$700",
+        "avgMonthlyBudget": "$700–$1,200",
+        "safety": "Caution",
+        "truthSync": {
+          "canonicalKey": "neighborhood:la-boca",
+          "recordId": "expatsargentina:neighborhood:la-boca",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "mendoza-centro": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The commercial heart of Argentina's wine capital — a walkable grid of plazas, sidewalk cafes, and affordable living. A compact, sunny city center where everything is within reach on foot.",
+        "rentRange": "$400–$700",
+        "avgMonthlyBudget": "$800–$1,300",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:mendoza-centro",
+          "recordId": "expatsargentina:neighborhood:mendoza-centro",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "nueva-cordoba": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's ultimate student quarter — a dense, walkable neighborhood packed with bars, cafes, and young energy. The most energetic barrio outside Buenos Aires, with nightlife that rivals the capital.",
+        "rentRange": "$350–$650",
+        "avgMonthlyBudget": "$650–$1,000",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:nueva-cordoba",
+          "recordId": "expatsargentina:neighborhood:nueva-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "nunez": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A hidden gem at the northern tip of Buenos Aires — quiet, safe, and affordable by northern BA standards. Home to River Plate stadium and a growing expat community seeking space and tranquility.",
+        "rentRange": "$700–$1,200",
+        "avgMonthlyBudget": "$1,200–$2,000",
+        "safety": "Very Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:nunez",
+          "recordId": "expatsargentina:neighborhood:nunez",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "palermo-botanico": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The quietest corner of Palermo — centered around the Botanical Garden and Japanese Garden. All the benefits of the Palermo location with a fraction of the noise.",
+        "rentRange": "$1,200–$2,000",
+        "avgMonthlyBudget": "$1,800–$3,000",
+        "safety": "Very Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:palermo-botanico",
+          "recordId": "expatsargentina:neighborhood:palermo-botanico",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "palermo-hollywood": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The nightlife and entertainment hub of Buenos Aires, packed with bars, clubs, and TV production studios. More lively and edgy than Soho, with slightly lower rents and a younger crowd.",
+        "rentRange": "$1,200–$2,000",
+        "avgMonthlyBudget": "$1,800–$3,000",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:palermo-hollywood",
+          "recordId": "expatsargentina:neighborhood:palermo-hollywood",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "palermo-soho": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The undisputed expat capital of Buenos Aires — cobblestone streets lined with designer boutiques, artisan coffee shops, and some of the city's best restaurants. If you want to be in the center of expat life, this is ground zero.",
+        "rentRange": "$1,400–$2,400",
+        "avgMonthlyBudget": "$2,000–$3,500",
+        "safety": "Very Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:palermo-soho",
+          "recordId": "expatsargentina:neighborhood:palermo-soho",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "puerto-madero": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Buenos Aires' newest and most luxurious neighborhood — modern skyscrapers, waterfront promenades, and the highest safety in the city. A bubble of modernity that feels like a different country.",
+        "rentRange": "$2,500–$4,500",
+        "avgMonthlyBudget": "$3,500–$6,000",
+        "safety": "Excellent",
+        "truthSync": {
+          "canonicalKey": "neighborhood:puerto-madero",
+          "recordId": "expatsargentina:neighborhood:puerto-madero",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "recoleta": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Buenos Aires' most elegant neighborhood — French architecture, embassy-lined streets, and the safest area in the city. The choice for families, retirees, and anyone seeking upscale living with European sophistication.",
+        "rentRange": "$1,200–$2,200",
+        "avgMonthlyBudget": "$2,200–$3,800",
+        "safety": "Excellent",
+        "truthSync": {
+          "canonicalKey": "neighborhood:recoleta",
+          "recordId": "expatsargentina:neighborhood:recoleta",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "san-telmo": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The soul of old Buenos Aires — cobblestone streets, tango bars, antique shops, and the legendary Sunday market. Authentic, bohemian, and more affordable than northern neighborhoods.",
+        "rentRange": "$700–$1,100",
+        "avgMonthlyBudget": "$1,200–$2,000",
+        "safety": "Moderate",
+        "truthSync": {
+          "canonicalKey": "neighborhood:san-telmo",
+          "recordId": "expatsargentina:neighborhood:san-telmo",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    },
+    "villa-crespo": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The smart money move — Palermo vibes at 40% lower rent. An up-and-coming neighborhood with an excellent food scene, outlet shopping, and genuine Argentine character.",
+        "rentRange": "$600–$1,000",
+        "avgMonthlyBudget": "$1,200–$2,000",
+        "safety": "Good",
+        "truthSync": {
+          "canonicalKey": "neighborhood:villa-crespo",
+          "recordId": "expatsargentina:neighborhood:villa-crespo",
+          "reviewDate": "unknown",
+          "sourceExport": "neighborhoods",
+          "sourceUrls": []
+        }
+      }
+    }
+  },
+  "provinces": {
+    "buenos-aires-city": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's electric capital — the Paris of South America. A cosmopolitan megacity with outstanding dining, nightlife, and culture that draws the largest expat community in the country.",
+        "costRange": "$1,200–$2,500/month",
+        "internet": "50-300 Mbps fiber available in most neighborhoods. Fibertel and Movistar are the main providers.",
+        "safety": "Generally safe in tourist/expat areas. Standard big-city awareness needed. Avoid flashing electronics.",
+        "truthSync": {
+          "canonicalKey": "province:buenos-aires-city",
+          "recordId": "expatsargentina:province:buenos-aires-city",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "buenos-aires-province": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's most populous province surrounds the capital city. From the Atlantic beaches of Mar del Plata to the vast pampas grasslands, it offers affordable alternatives to CABA living.",
+        "costRange": "$600–$1,500/month",
+        "internet": "Good in major cities (50-100 Mbps). Rural areas can be limited.",
+        "safety": "Varies by area. La Plata and northern suburbs are generally safe. Exercise caution in Greater Buenos Aires outskirts.",
+        "truthSync": {
+          "canonicalKey": "province:buenos-aires-province",
+          "recordId": "expatsargentina:province:buenos-aires-province",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "catamarca": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Hidden gems of the Northwest — volcanic landscapes, ancient ruins, and the highest vineyard in the world. One of Argentina's least-visited provinces holds some of its greatest secrets.",
+        "costRange": "$300–$700/month",
+        "internet": "Basic — 10-20 Mbps DSL in the capital via Telecom. No fiber optic yet; mobile 4G often more reliable.",
+        "safety": "Very safe. The capital and Belén are calm and welcoming. Remote Puna areas require a guide more for navigation than safety.",
+        "truthSync": {
+          "canonicalKey": "province:catamarca",
+          "recordId": "expatsargentina:province:catamarca",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "chaco": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The 'City of Sculptures' (Resistencia) and the vast Chaco forest. Argentina's indigenous heartland with Qom, Wichí, and Mocoví communities maintaining ancient traditions.",
+        "costRange": "$300–$650/month",
+        "internet": "Basic — 10-20 Mbps via Telecom in Resistencia. No public coworking; mobile 4G best option outside the capital.",
+        "safety": "Generally safe. Resistencia's centro and sculpture district are fine. Rural Impenetrable areas need a local guide for logistics, not crime.",
+        "truthSync": {
+          "canonicalKey": "province:chaco",
+          "recordId": "expatsargentina:province:chaco",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "chubut": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Welsh colonies, whale watching, and Patagonian steppe. Puerto Madryn is the gateway to Península Valdés — one of the best wildlife viewing destinations on Earth.",
+        "costRange": "$700–$1,400/month",
+        "internet": "Moderate in Puerto Madryn (20-50 Mbps). Limited elsewhere.",
+        "safety": "Very safe. Puerto Madryn is small and tourist-friendly with minimal crime. Wildlife tours are well-regulated and safe.",
+        "truthSync": {
+          "canonicalKey": "province:chubut",
+          "recordId": "expatsargentina:province:chubut",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "cordoba": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's second-largest city is a university powerhouse with 200,000+ students, a thriving tech scene, and stunning sierras just outside town. The best value big-city living in the country.",
+        "costRange": "$600–$1,200/month",
+        "internet": "Good — 50-200 Mbps fiber available in the city. Multiple coworking spaces.",
+        "safety": "Generally safe. Nueva Córdoba and Cerro de las Rosas are the best areas. Avoid poorly lit streets in peripheral barrios at night.",
+        "truthSync": {
+          "canonicalKey": "province:cordoba",
+          "recordId": "expatsargentina:province:cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "corrientes": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The Iberá Wetlands — South America's second-largest wetland system. A birdwatcher's paradise with gaucho culture, chamamé music, and a relaxed riverside lifestyle.",
+        "costRange": "$350–$750/month",
+        "internet": "Basic — 10-20 Mbps in the capital. Very limited in rural areas.",
+        "safety": "Very safe. Corrientes city is calm and walkable. Iberá wetlands towns like Mercedes are among the safest places in Argentina.",
+        "truthSync": {
+          "canonicalKey": "province:corrientes",
+          "recordId": "expatsargentina:province:corrientes",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "entre-rios": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The 'Land Between Rivers' — thermal hot springs, riverside towns, and the famous Carnival of Gualeguaychú. A peaceful, affordable province between the Paraná and Uruguay rivers.",
+        "costRange": "$400–$800/month",
+        "internet": "Basic to moderate — 10-30 Mbps in main cities.",
+        "safety": "Very safe. Thermal resort towns like Colón and Federación are especially calm. Paraná's riverfront areas are well-patrolled.",
+        "truthSync": {
+          "canonicalKey": "province:entre-rios",
+          "recordId": "expatsargentina:province:entre-rios",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "formosa": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's tropical frontier — Bañado La Estrella wetlands, indigenous communities, and the most subtropical climate in the country. True frontier territory for the adventurous.",
+        "costRange": "$250–$600/month",
+        "internet": "Very basic — 5-15 Mbps DSL in the capital. Fiber unavailable; 4G mobile hotspot is the most reliable option for remote work.",
+        "safety": "Generally safe. Formosa city center is calm. The Clorinda border crossing can be hectic; use established crossing points during daylight hours.",
+        "truthSync": {
+          "canonicalKey": "province:formosa",
+          "recordId": "expatsargentina:province:formosa",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "jujuy": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The Quebrada de Humahuaca (UNESCO) paints the landscape in rainbow colors. Argentina's most indigenous province offers ancient cultures, high-altitude salt flats, and otherworldly beauty.",
+        "costRange": "$350–$800/month",
+        "internet": "Basic — 10-30 Mbps in San Salvador. Very limited in highlands.",
+        "safety": "Generally safe. San Salvador is friendly and walkable. Avoid unlit areas near the bus terminal at night; highland towns are very secure.",
+        "truthSync": {
+          "canonicalKey": "province:jujuy",
+          "recordId": "expatsargentina:province:jujuy",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-pampa": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The heart of the Argentine pampas — endless grasslands, gaucho traditions, and the most authentic rural Argentine experience. Not for everyone, but deeply rewarding for those who embrace it.",
+        "costRange": "$350–$700/month",
+        "internet": "Basic — 10-20 Mbps in Santa Rosa. Very limited rurally.",
+        "safety": "Extremely safe. One of Argentina's lowest crime rates. Rural estancias and Santa Rosa both feel like stepping back in time.",
+        "truthSync": {
+          "canonicalKey": "province:la-pampa",
+          "recordId": "expatsargentina:province:la-pampa",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-rioja": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Talampaya National Park's red canyon walls and the surreal Ischigualasto-Talampaya UNESCO complex. Wine at altitude and dinosaur fossils in a desert landscape.",
+        "costRange": "$350–$750/month",
+        "internet": "Basic — 10-20 Mbps DSL via Telecom in La Rioja city. Fiber rollout minimal; Chilecito has even less coverage.",
+        "safety": "Very safe. La Rioja city is small and calm. Summer heat (45°C+) is a bigger concern than crime — stay hydrated and avoid midday sun.",
+        "truthSync": {
+          "canonicalKey": "province:la-rioja",
+          "recordId": "expatsargentina:province:la-rioja",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "mendoza": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The wine capital of South America, set against the Andes. Exceptional Malbec, mountain adventures, and a sun-drenched lifestyle that attracts retirees, foodies, and outdoor enthusiasts.",
+        "costRange": "$700–$1,400/month",
+        "internet": "Good in the city (50-100 Mbps). Rural wine country areas may have limited options.",
+        "safety": "Very safe. Bodega districts and city center are excellent. Petty theft rare outside the bus terminal area at night.",
+        "truthSync": {
+          "canonicalKey": "province:mendoza",
+          "recordId": "expatsargentina:province:mendoza",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "misiones": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Home to Iguazú Falls — one of the natural wonders of the world. Subtropical forests, red earth, and the unique blend of Argentine, Brazilian, and Paraguayan cultures at the Triple Frontier.",
+        "costRange": "$400–$800/month",
+        "internet": "Basic — 10-50 Mbps in Posadas. Limited in rural areas.",
+        "safety": "Generally safe. Posadas centro and Puerto Iguazú tourist zones are fine. Exercise awareness near the triple-border area at night.",
+        "truthSync": {
+          "canonicalKey": "province:misiones",
+          "recordId": "expatsargentina:province:misiones",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "neuquen": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Patagonia's energy capital combines oil wealth with stunning Lake District scenery. San Martín de los Andes offers a quieter alternative to Bariloche, and Villa La Angostura is pure alpine magic.",
+        "costRange": "$800–$1,500/month",
+        "internet": "Good in the capital and San Martín (30-100 Mbps). Variable in smaller towns.",
+        "safety": "Very safe. San Martín de los Andes and Villa La Angostura have near-zero crime. The capital is safe in residential zones.",
+        "truthSync": {
+          "canonicalKey": "province:neuquen",
+          "recordId": "expatsargentina:province:neuquen",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "rio-negro": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Home to Bariloche and Argentina's Lake District — a Patagonian paradise of snow-capped peaks, crystal lakes, and chocolate shops that draws outdoor enthusiasts from around the world.",
+        "costRange": "$800–$1,600/month",
+        "internet": "Good in Bariloche (30-100 Mbps). Limited in remote areas.",
+        "safety": "Very safe. Bariloche's centro and lakeside areas are excellent. Standard precautions near the bus terminal at night.",
+        "truthSync": {
+          "canonicalKey": "province:rio-negro",
+          "recordId": "expatsargentina:province:rio-negro",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "salta": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Known as 'Salta la Linda' (Salta the Beautiful), this northwestern gem offers colonial architecture, dramatic desert landscapes, indigenous culture, and some of the lowest costs in Argentina.",
+        "costRange": "$500–$1,000/month",
+        "internet": "Moderate — 20-50 Mbps in the city. Can be limited in rural areas.",
+        "safety": "Very safe. Centro histórico and Tres Cerritos are excellent. Use normal awareness near the bus terminal and markets after dark.",
+        "truthSync": {
+          "canonicalKey": "province:salta",
+          "recordId": "expatsargentina:province:salta",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "san-juan": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Desert landscapes, wine valleys, and the stunning Ischigualasto (Valley of the Moon). San Juan offers Cuyo wine country at even lower prices than Mendoza.",
+        "costRange": "$400–$900/month",
+        "internet": "Basic — 10-30 Mbps in the city via Telecom and Claro. Limited fiber; university zone cafes offer reliable Wi-Fi for remote work.",
+        "safety": "Very safe. The city center is quiet and walkable day and night. Earthquake preparedness is more relevant than crime concerns.",
+        "truthSync": {
+          "canonicalKey": "province:san-juan",
+          "recordId": "expatsargentina:province:san-juan",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "san-luis": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The 'Gateway to Cuyo' offers surprising digital infrastructure, tax incentives for tech companies, and beautiful sierras. Argentina's quiet achiever for remote workers.",
+        "costRange": "$400–$850/month",
+        "internet": "Good for the region — 20-50 Mbps with provincial Wi-Fi networks in public spaces.",
+        "safety": "Very safe. San Luis capital is clean and orderly. Merlo and mountain towns have near-zero crime and strong community watch culture.",
+        "truthSync": {
+          "canonicalKey": "province:san-luis",
+          "recordId": "expatsargentina:province:san-luis",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "santa-cruz": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Home to Los Glaciares National Park and the legendary Perito Moreno glacier. El Calafate and El Chaltén offer some of the best trekking and glacier experiences in deep Patagonia.",
+        "costRange": "$800–$1,600/month",
+        "internet": "Basic — 10-30 Mbps in El Calafate and Río Gallegos. Limited in El Chaltén.",
+        "safety": "Very safe. El Calafate and El Chaltén are tiny, tight-knit towns with near-zero crime. Main hazard is Patagonian wind, not people.",
+        "truthSync": {
+          "canonicalKey": "province:santa-cruz",
+          "recordId": "expatsargentina:province:santa-cruz",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "santa-fe": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Home to Rosario — Argentina's third-largest city and birthplace of the Argentine flag, Che Guevara, and Lionel Messi. A river city with a growing cosmopolitan scene and strong university culture.",
+        "costRange": "$600–$1,200/month",
+        "internet": "Good in Rosario and Santa Fe city (30-100 Mbps).",
+        "safety": "Mixed — Rosario has higher crime rates than other major cities. Stick to well-known neighborhoods.",
+        "truthSync": {
+          "canonicalKey": "province:santa-fe",
+          "recordId": "expatsargentina:province:santa-fe",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "santiago-del-estero": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The 'Mother of Cities' — Argentina's oldest city (founded 1553). Termas de Río Hondo hot springs, chacarera music, and deep-rooted traditions in the country's cultural cradle.",
+        "costRange": "$300–$650/month",
+        "internet": "Basic — 10-20 Mbps via Telecom in the capital. Termas de Río Hondo hotels have Wi-Fi; residential areas rely on DSL or 4G.",
+        "safety": "Generally safe. The city center and Termas de Río Hondo tourist zone are calm. Extreme summer heat is more of a concern than crime.",
+        "truthSync": {
+          "canonicalKey": "province:santiago-del-estero",
+          "recordId": "expatsargentina:province:santiago-del-estero",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "tierra-del-fuego": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The End of the World. Ushuaia is the southernmost city on Earth — a gateway to Antarctica with dramatic mountains, glaciers, and a frontier spirit that attracts adventurers and dreamers.",
+        "costRange": "$900–$1,800/month",
+        "internet": "Moderate — 20-50 Mbps. Can be unreliable in storms.",
+        "safety": "Very safe. Ushuaia has a small-town feel with very low crime. Strong winds and icy sidewalks in winter are more hazardous than crime.",
+        "truthSync": {
+          "canonicalKey": "province:tierra-del-fuego",
+          "recordId": "expatsargentina:province:tierra-del-fuego",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    },
+    "tucuman": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's smallest mainland province packs a punch — the Garden of the Republic, where Argentine independence was declared. Lush landscapes, affordable living, and genuine Argentine culture.",
+        "costRange": "$400–$900/month",
+        "internet": "Moderate — 20-50 Mbps via Telecom and Claro in the city. A few coworking spaces near the university area.",
+        "safety": "Generally safe. Yerba Buena and the city center are the best areas. Avoid walking alone at night in peripheral neighborhoods.",
+        "truthSync": {
+          "canonicalKey": "province:tucuman",
+          "recordId": "expatsargentina:province:tucuman",
+          "reviewDate": "unknown",
+          "sourceExport": "provinces",
+          "sourceUrls": []
+        }
+      }
+    }
+  },
+  "recipes": {
+    "alfajores": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Delicate cornstarch sandwich cookies filled with thick dulce de leche and rolled in coconut. The ultimate Argentine sweet treat.",
+        "history": "Alfajores descended from the Arab al-qaq, brought to Spain during the Moorish occupation. Spanish colonists brought them to the Americas, where they evolved into the cornstarch-based version we know today. The Argentine alfajor de maicena is distinctively soft and crumbly, filled with dulce de leche (itself an Argentine invention). Today, alfajores are a national obsession, with brands like Havanna and Cachafaz achieving cult status.",
+        "winePairing": "Malbec or coffee",
+        "truthSync": {
+          "canonicalKey": "recipe:alfajores",
+          "recordId": "expatsargentina:recipe:alfajores",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "asado": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The sacred ritual of Argentine grilling. A social event as much as a meal, asado involves slow-cooking various cuts of beef over wood coals for hours, resulting in meltingly tender meat infused with smoke.",
+        "history": "Asado is Argentina's national dish and cultural institution. It originated with the gauchos (cowboys) of the Pampas plains, who would gather around open fires to cook fresh beef. Today, Sunday asado is a weekly ritual for Argentine families—a multi-hour affair of slow cooking, conversation, and wine. The asador (grill master) commands respect and typically doesn't pay for the meat, as their skill is considered payment enough.",
+        "winePairing": "Full-bodied Malbec or Cabernet Sauvignon",
+        "truthSync": {
+          "canonicalKey": "recipe:asado",
+          "recordId": "expatsargentina:recipe:asado",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "bondiola": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A slow-roasted pork shoulder sandwich that's one of Buenos Aires' best street foods. The bondiola is roasted for hours until falling-apart tender, then piled into crusty bread with chimichurri and salsa criolla.",
+        "history": "Bondiola (pork shoulder or neck) became a street food star in Buenos Aires in the 2000s, as food truck and market culture grew. Vendors would slow-roast whole bondiolas over charcoal for hours, then carve them to order into crusty rolls. The trend exploded at events like Buenos Aires Market and Masticar food festival. Today, bondiola al pan stands are fixtures at outdoor markets, festivals, and the Costanera Sur waterfront.",
+        "winePairing": "Malbec from Mendoza or a cold craft beer",
+        "truthSync": {
+          "canonicalKey": "recipe:bondiola",
+          "recordId": "expatsargentina:recipe:bondiola",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "budin-de-pan": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's beloved bread pudding — a custardy, caramel-topped dessert that transforms stale bread into pure comfort. Every Argentine grandmother has her own version, and it's the ultimate waste-nothing recipe.",
+        "history": "Budín de pan is the quintessential Argentine thrift dessert, born from the tradition of never wasting food. Every household accumulated stale bread, and resourceful cooks turned it into this rich custard dessert. Italian and Spanish immigrants both had similar traditions, and the Argentine version merged them, adding the ever-present dulce de leche as a topping. It remains a staple of Sunday family lunches and neighborhood bakeries.",
+        "winePairing": "Late-harvest Torrontés or a glass of sweet Moscatel",
+        "truthSync": {
+          "canonicalKey": "recipe:budin-de-pan",
+          "recordId": "expatsargentina:recipe:budin-de-pan",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "carbonada": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A hearty Argentine stew of beef, corn, squash, potatoes, and dried fruits — traditionally served in a hollowed-out pumpkin. A warming dish from the interior provinces that's perfect for winter.",
+        "history": "Carbonada is a criollo dish that dates back to colonial Argentina, blending Indigenous and Spanish cooking traditions. The combination of savory meat with sweet fruits (peaches, dried apricots) reflects the Moorish influence that came through Spain. It's traditionally served in a hollowed-out zapallo (pumpkin), which acts as both cooking vessel and serving bowl. The pumpkin flesh is scooped out and eaten with the stew.",
+        "winePairing": "Malbec from Mendoza or Cabernet Sauvignon from San Juan",
+        "truthSync": {
+          "canonicalKey": "recipe:carbonada",
+          "recordId": "expatsargentina:recipe:carbonada",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "chimichurri": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The essential Argentine sauce for asado. A bright, herby condiment made with parsley, oregano, garlic, vinegar, and oil that transforms any grilled meat into a feast.",
+        "history": "Every Argentine asador (grill master) has their own chimichurri recipe, passed down through generations. The sauce's origins are debated—some say it came with Basque immigrants, others claim it's from the gauchos of the Pampas. What everyone agrees on: no two families make it exactly the same way. The name may come from 'Jimmy McCurry,' an Irishman who supposedly invented it, or from Basque 'tximitxurri' meaning 'a mixture of several things in no particular order.'",
+        "winePairing": "Any Argentine red, especially Malbec",
+        "truthSync": {
+          "canonicalKey": "recipe:chimichurri",
+          "recordId": "expatsargentina:recipe:chimichurri",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "chocotorta": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's most popular no-bake cake — layers of chocolate cookies soaked in coffee and sandwiched with a rich dulce de leche and cream cheese filling. Every Argentine has made this at least once, and it requires zero baking skills.",
+        "history": "Chocotorta was invented in the 1982 by a creative team at an Argentine ad agency as a recipe to promote Chocolinas brand cookies. The recipe appeared on the back of the Chocolinas box and spread like wildfire through Argentine households. It became so iconic that Chocolinas cookies are now sold primarily for making chocotorta. It's the default birthday cake for anyone who can't (or won't) bake.",
+        "winePairing": "Coffee, or a late-harvest Malbec",
+        "truthSync": {
+          "canonicalKey": "recipe:chocotorta",
+          "recordId": "expatsargentina:recipe:chocotorta",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "choripan": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's iconic street food — a grilled chorizo sausage split and served in crusty bread with chimichurri. Found at every asado, football match, and street corner. Simple, messy, and absolutely essential.",
+        "history": "Choripán is a portmanteau of 'chorizo' and 'pan' (bread). It originated as gaucho food on the pampas, where ranch workers would grill chorizos over open fires and eat them in bread. Today it's Argentina's most beloved street food, sold at every event from Boca Juniors matches to protests in Plaza de Mayo. The choripán vendor (choripanero) is a cultural institution.",
+        "winePairing": "Malbec from Mendoza or a cold Quilmes lager",
+        "truthSync": {
+          "canonicalKey": "recipe:choripan",
+          "recordId": "expatsargentina:recipe:choripan",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "dulce-de-leche": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's national confection — slow-cooked caramelized milk that's used in everything from alfajores to ice cream to eating straight from the jar with a spoon. Making it from scratch takes patience but the result is incomparably better than store-bought.",
+        "history": "Dulce de leche's origin is disputed between Argentina and Uruguay, but both countries claim it as their own. The most popular origin story involves a maid who accidentally left a pot of milk and sugar on the fire in 1829 while making lechada for General Rosas. When she returned, the mixture had caramelized into dulce de leche. Argentines consume over 3 kg per person per year — it's in alfajores, pancakes, ice cream, cakes, and eaten by the spoonful.",
+        "truthSync": {
+          "canonicalKey": "recipe:dulce-de-leche",
+          "recordId": "expatsargentina:recipe:dulce-de-leche",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "empanadas": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The iconic Argentine hand pie, baked to golden perfection with a savory beef filling spiced with cumin, paprika, and green olives. The Salteñas style from northern Argentina is the most beloved variation nationwide.",
+        "history": "Empanadas arrived in Argentina with Spanish colonists but evolved into a distinctly Argentine tradition. The Salteñas variety, named after the city of Salta, are known for their distinctive crimped edge (repulgue) and slightly spicy meat filling. Each Argentine province claims its own style—Tucumanas are juicier, Cordobesas are sweeter with raisins, and Salteñas strike the perfect balance.",
+        "winePairing": "Torrontés from Salta or a young Malbec",
+        "truthSync": {
+          "canonicalKey": "recipe:empanadas",
+          "recordId": "expatsargentina:recipe:empanadas",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "faina": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A thin, crispy chickpea flour flatbread that's the classic companion to Buenos Aires pizza. Served as a slab placed directly on top of a pizza slice — a combination that every porteño knows and loves.",
+        "history": "Fainá comes from the Genovese farinata, a chickpea flatbread that Italian immigrants brought to Argentina in the late 1800s. In Genoa it was poor people's food; in Buenos Aires it became a beloved companion to pizza. The tradition of placing a slice of fainá on top of a slice of pizza is uniquely Argentine — you'll see it in every pizzería in the city. It's always ordered by the slice, standing at the counter.",
+        "winePairing": "Cold beer or house wine (vino de la casa)",
+        "truthSync": {
+          "canonicalKey": "recipe:faina",
+          "recordId": "expatsargentina:recipe:faina",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "fernet-con-coca": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's unofficial national cocktail — bitter Fernet Branca mixed with Coca-Cola, served in a large glass and often shared among friends. An acquired taste that becomes an obsession.",
+        "history": "Fernet Branca is an Italian herbal bitter, but Argentina consumes more of it than Italy and the rest of the world combined. The tradition of mixing it with Coca-Cola started in Córdoba in the 1980s and spread nationwide. Today, Argentina consumes over 25 million liters of Fernet annually. In Córdoba, it's served in large shared glasses at parties (previas), and the person who mixes it holds a position of social responsibility — the ratio must be perfect.",
+        "winePairing": "This IS the drink — serve alongside asado, pizza, or during a previa (pre-party)",
+        "truthSync": {
+          "canonicalKey": "recipe:fernet-con-coca",
+          "recordId": "expatsargentina:recipe:fernet-con-coca",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "flan-casero": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's most popular dessert — a silky, caramel-topped custard served with a generous spoonful of dulce de leche and whipped cream. Found on every restaurant menu in the country.",
+        "history": "Flan came to Argentina from Spain, but Argentines made it their own by pairing it with their beloved dulce de leche. In restaurants, you'll always be asked the critical question: '¿Mixto?' — meaning 'do you want it with both dulce de leche AND whipped cream?' The correct answer is always yes. Flan casero (homemade) is a point of pride for Argentine home cooks, and every family claims their recipe is the best.",
+        "winePairing": "Late harvest Torrontés or a Muscatel from Mendoza",
+        "truthSync": {
+          "canonicalKey": "recipe:flan-casero",
+          "recordId": "expatsargentina:recipe:flan-casero",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "fugazzeta": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A thick double-crust Argentine pizza stuffed with oozing mozzarella cheese and topped with sweet caramelized onions. Born in the pizzerías of Buenos Aires, fugazzeta is the ultimate expression of Italian-Argentine pizza culture.",
+        "history": "Fugazzeta evolved from the Italian fugazza (focaccia with onions), brought to Buenos Aires by Genovese immigrants in the late 1800s. Porteño pizzerias added a second layer of dough and stuffed it with mozzarella, creating something entirely new. The iconic Pizzería Güerrín on Corrientes Avenue has served fugazzeta since 1932 and remains one of the best places to try it.",
+        "winePairing": "Young Bonarda or a cold Quilmes lager",
+        "truthSync": {
+          "canonicalKey": "recipe:fugazzeta",
+          "recordId": "expatsargentina:recipe:fugazzeta",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "humita": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Fresh corn tamales wrapped in corn husks—a traditional dish from the Northwest. Sweet, savory, and deeply comforting.",
+        "history": "Humitas are an ancient Andean dish predating the Inca Empire. Indigenous peoples wrapped ground corn in corn husks and cooked them in clay pots. The name comes from the Quechua 'humint'a.' Each northwestern province has its variation: Salteñas are savory with onion and spices, Tucumanas add cheese, and some versions include pumpkin. They're traditionally eaten in summer when fresh corn is abundant.",
+        "winePairing": "Torrontés from Salta",
+        "truthSync": {
+          "canonicalKey": "recipe:humita",
+          "recordId": "expatsargentina:recipe:humita",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "locro": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A hearty indigenous stew of corn, beans, pumpkin, and meats that's Argentina's national patriotic dish. Traditionally eaten on May 25th (Revolution Day) and July 9th (Independence Day), but beloved year-round.",
+        "history": "Locro predates the Spanish conquest, originating with indigenous peoples of the Andes who cultivated corn, beans, and squash—the 'three sisters' of agriculture. The Spanish added pork and beef, creating the hybrid dish known today. It's the official food of Argentine national holidays, with families gathering for massive pots that simmer all morning. The stew represents Argentina's indigenous and European heritage combined.",
+        "winePairing": "High-altitude Torrontés from Salta or Malbec",
+        "truthSync": {
+          "canonicalKey": "recipe:locro",
+          "recordId": "expatsargentina:recipe:locro",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "matambre-a-la-pizza": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A thin beef flank topped with tomato sauce, melted mozzarella, and olives — essentially pizza made on a steak instead of dough. A uniquely Argentine creation that's a staple of every parrilla.",
+        "history": "Matambre a la pizza combines two Argentine obsessions: beef and pizza. The dish likely originated in the parrillas of Buenos Aires in the mid-20th century, where creative grill masters began topping the thin matambre cut with pizza ingredients. The name 'matambre' means 'hunger killer' (mata-hambre), referring to the thin layer of meat between the cow's hide and ribs. Topping it 'a la pizza' turned a simple cut into a restaurant favorite.",
+        "winePairing": "Medium-bodied Malbec",
+        "truthSync": {
+          "canonicalKey": "recipe:matambre-a-la-pizza",
+          "recordId": "expatsargentina:recipe:matambre-a-la-pizza",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "matambre-arrollado": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A spectacular Argentine party dish — thin flank steak rolled around a colorful filling of hard-boiled eggs, roasted peppers, olives, and herbs, then braised until tender. Served cold in beautiful pinwheel slices.",
+        "history": "Matambre literally means 'mata hambre' — 'hunger killer.' It's the thin cut of meat between the hide and the ribs of the cow. In Argentina, matambre arrollado is a traditional cold appetizer served at celebrations, holidays, and family gatherings. The dish showcases the Argentine tradition of turning simple ingredients into something spectacular through patience and skill. Every family has their own filling combination.",
+        "winePairing": "Bonarda from San Juan or a light Pinot Noir",
+        "truthSync": {
+          "canonicalKey": "recipe:matambre-arrollado",
+          "recordId": "expatsargentina:recipe:matambre-arrollado",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "medialunas": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's beloved breakfast pastry — a buttery, slightly sweet crescent that's smaller and sweeter than a French croissant. Enjoyed with café con leche at every corner cafe in Buenos Aires.",
+        "history": "Medialunas (literally 'half moons') arrived in Argentina with Italian and French immigrants in the late 19th century. They evolved into something distinctly Argentine — smaller, sweeter, and glossier than French croissants, with a signature sugar syrup glaze. There are two types: 'de manteca' (butter, the premium version) and 'de grasa' (lard, more traditional). Every corner panadería makes them fresh daily, and no Argentine breakfast is complete without them alongside café con leche.",
+        "truthSync": {
+          "canonicalKey": "recipe:medialunas",
+          "recordId": "expatsargentina:recipe:medialunas",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "milanesa": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's ultimate comfort food—a breaded beef cutlet topped with ham, tomato sauce, and melted mozzarella. A perfect hybrid of Italian and Argentine cuisine that appears on every neighborhood menu.",
+        "history": "Milanesa arrived with Italian immigrants in the late 19th century, evolving from the Italian cotoletta alla milanese. The 'napolitana' variation—topped with tomato sauce, ham, and cheese—is distinctly Argentine and has no equivalent in Naples. It became popular in Buenos Aires' Italian neighborhoods and spread nationwide. Today, every Argentine family has their milanesa recipe, and it's the unofficial national comfort food.",
+        "winePairing": "Light Malbec or Bonarda",
+        "truthSync": {
+          "canonicalKey": "recipe:milanesa",
+          "recordId": "expatsargentina:recipe:milanesa",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "milanesa-napolitana": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's answer to chicken parm — a breaded cutlet topped with tomato sauce, ham, and melted mozzarella. Despite the name, it has nothing to do with Naples. Pure Argentine comfort food.",
+        "history": "Despite the Italian-sounding name, milanesa a la napolitana was invented in Buenos Aires in the 1940s by chef José Napoli at the restaurant Nápoli on Avenida Corrientes. He topped a breaded cutlet with ham, cheese, and tomato sauce — and a porteño classic was born. The name honors the restaurant, not the Italian city. It remains one of the most ordered dishes in Argentine restaurants today.",
+        "winePairing": "Young Malbec or Bonarda",
+        "truthSync": {
+          "canonicalKey": "recipe:milanesa-napolitana",
+          "recordId": "expatsargentina:recipe:milanesa-napolitana",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "pastelitos": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Flaky fried pastries filled with quince paste (membrillo) or sweet potato paste (batata), traditionally eaten on May 25th and other national holidays. Crunchy, sweet, and deeply nostalgic.",
+        "history": "Pastelitos are one of Argentina's most traditional sweets, dating back to the colonial era. They've been sold in the streets since the May Revolution of 1810 — legend says vendors sold them in the Plaza de Mayo during the revolution itself. Today, eating pastelitos on May 25th (Revolution Day) is as important as eating locro. Vendors fry them fresh on street corners during national holidays, and the smell of hot oil and sugar syrup is synonymous with Argentine patriotism.",
+        "winePairing": "Mate cocido (sweet tea) or café con leche",
+        "truthSync": {
+          "canonicalKey": "recipe:pastelitos",
+          "recordId": "expatsargentina:recipe:pastelitos",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "pizza-argentina": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Buenos Aires-style pizza is nothing like its Italian ancestor — thick, bready crust piled high with an obscene amount of mozzarella cheese, with tomato sauce drizzled on top. Eaten standing at the counter with a slice of fainá on top.",
+        "history": "Argentine pizza descended from the Neapolitan style brought by Italian immigrants, but evolved into something unrecognizable to Italians. The crust grew thicker and breadier, the cheese was piled on in massive quantities (always muzzarella, the Argentine spelling), and — heresy in Italy — the tomato sauce was often spooned on top of the cheese. The first porteño pizzerias opened in La Boca in the early 1900s, and the style quickly defined Buenos Aires street food culture.",
+        "winePairing": "House red wine (vino tinto de la casa) or a cold beer",
+        "truthSync": {
+          "canonicalKey": "recipe:pizza-argentina",
+          "recordId": "expatsargentina:recipe:pizza-argentina",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "provoleta": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Grilled provolone cheese with oregano and olive oil—the ultimate asado starter. Gooey, crispy, and absolutely addictive.",
+        "history": "Provoleta was invented in the 1940s by Italian immigrant Natalio Alba in Buenos Aires. He developed a special provolone cheese that wouldn't melt and drip through the grill grates when heated. It quickly became the standard starter for any asado. Today, provoleta is so popular that Argentine dairies produce specific rounds designed just for grilling.",
+        "winePairing": "Sparkling wine or light red like Pinot Noir",
+        "truthSync": {
+          "canonicalKey": "recipe:provoleta",
+          "recordId": "expatsargentina:recipe:provoleta",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "revuelto-gramajo": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's classic late-night scramble — thin shoestring fries, diced ham, and peas tossed with scrambled eggs. A beloved bar and restaurant dish that's the Argentine answer to 2 AM hunger.",
+        "history": "Revuelto Gramajo is named after Colonel Artemio Gramajo, an aide-de-camp to President Julio Roca in the 1880s. Legend says Gramajo invented the dish at a Buenos Aires social club when he asked the kitchen to scramble whatever they had on hand — potatoes, ham, and eggs. Whether the story is true or not, the dish became a fixture of Argentine restaurant culture, particularly as a late-night dish after theater or nightlife.",
+        "winePairing": "A cold Quilmes lager or crisp white wine",
+        "truthSync": {
+          "canonicalKey": "recipe:revuelto-gramajo",
+          "recordId": "expatsargentina:recipe:revuelto-gramajo",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "submarino": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's charming take on hot chocolate — a bar of dark chocolate 'submarined' into a cup of steaming hot milk, where it slowly melts as you stir. A café ritual loved by kids and adults alike.",
+        "history": "The submarino (literally 'submarine') is a beloved Argentine café tradition. Rather than pre-mixing cocoa powder into milk, cafés serve a cup of steaming hot milk with a bar of chocolate on the side. You plunge the chocolate into the milk — like a submarine diving — and stir as it melts. The ritual of watching the chocolate dissolve is half the pleasure. It's a winter staple in every confitería (café) in Argentina, and a rite of childhood.",
+        "winePairing": "Pairs with medialunas (croissants) for a classic merienda",
+        "truthSync": {
+          "canonicalKey": "recipe:submarino",
+          "recordId": "expatsargentina:recipe:submarino",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "tamales-nortenos": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Northern Argentine tamales made with corn dough stuffed with spiced beef, wrapped in dried corn husks and steamed. A labor-intensive dish traditionally made in large batches by the whole family.",
+        "history": "Tamales have been made in the Argentine northwest for centuries, predating Spanish colonization. The Diaguita and other indigenous peoples wrapped corn paste around wild game and cooked it in embers. Spanish colonists added beef and pork, and the tamaleada — a communal tamal-making gathering — became a social tradition. In Salta and Jujuy, families still make hundreds of tamales in a single session, with everyone assigned a role: mixing, filling, wrapping, or tying.",
+        "winePairing": "Torrontés from the Calchaquí Valley",
+        "truthSync": {
+          "canonicalKey": "recipe:tamales-nortenos",
+          "recordId": "expatsargentina:recipe:tamales-nortenos",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "tarta-de-jamon-y-queso": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Argentina's go-to savory pie — two layers of flaky pastry filled with ham, cheese, and a creamy egg custard. Found in every bakery, eaten at every picnic, and baked in every home kitchen. The ultimate everyday Argentine food.",
+        "history": "The tarta (savory pie) is one of Argentina's most practical and beloved everyday foods. It descends from European quiches and savory pies brought by French, Italian, and Spanish immigrants. Argentine home cooks simplified the concept into an easy, forgiving recipe that uses pre-made tapas (pastry rounds) — available in every supermarket. Ham and cheese (jamón y queso) is the most classic filling, but variations with spinach, corn, tuna, or roasted vegetables are equally popular.",
+        "winePairing": "Light Chardonnay from Mendoza or a young Malbec rosé",
+        "truthSync": {
+          "canonicalKey": "recipe:tarta-de-jamon-y-queso",
+          "recordId": "expatsargentina:recipe:tarta-de-jamon-y-queso",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    },
+    "tortilla-papa": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A thick potato and egg omelet that's a staple of Argentine home cooking. Served at room temperature, it's perfect for picnics, lunch, or a light dinner.",
+        "history": "Brought to Argentina by Spanish immigrants, particularly Galicians and Basques, the tortilla de papas became a home-cooking staple. Unlike the more famous empanadas and asado, tortilla is everyday food—what Argentine mothers make for a quick lunch or pack for picnics. It's valued for being inexpensive, filling, and delicious at any temperature. Every family has their preferred ratio of potato to egg and their technique for the perfect flip.",
+        "winePairing": "Young red or crisp white",
+        "truthSync": {
+          "canonicalKey": "recipe:tortilla-papa",
+          "recordId": "expatsargentina:recipe:tortilla-papa",
+          "reviewDate": "unknown",
+          "sourceExport": "recipes",
+          "sourceUrls": []
+        }
+      }
+    }
+  },
+  "restaurants": {
+    "1884-restaurant": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Francis Mallmann's flagship restaurant in an old winery. The godfather of Argentine grilling serves his famous fire-cooked dishes in a historic setting.",
+        "hours": "Tue-Sun 12pm-3:30pm, 8pm-12am, Closed Mon",
+        "reservationTip": "Essential to book ahead,especially for dinner. Ask for a table in the garden.",
+        "localTip": "Francis Mallmann's flagship. Come for the experience as much as the food. Book well ahead.",
+        "whyWeLoveIt": "Mallmann's temple of fire cooking. The historic setting makes it a Mendoza must-visit.",
+        "truthSync": {
+          "canonicalKey": "restaurant:1884-restaurant",
+          "recordId": "expatsargentina:restaurant:1884-restaurant",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "alinea-cordoba": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Córdoba's most innovative restaurant. Chef Pedro Ramirez creates tasting menus that blend Cordobese traditions with modern techniques.",
+        "hours": "Tue-Sat 8:30pm-12am, Closed Sun-Mon",
+        "reservationTip": "Book ahead. The tasting menu is the way to go.",
+        "localTip": "Córdoba's answer to modern Argentine dining. The tasting menu showcases local ingredients beautifully.",
+        "whyWeLoveIt": "Finally, Córdoba has a top-tier contemporary restaurant. Worth the trip from BA.",
+        "truthSync": {
+          "canonicalKey": "restaurant:alinea-cordoba",
+          "recordId": "expatsargentina:restaurant:alinea-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "aramburu": {
+      "reviewDate": "unknown",
+      "sourceUrls": [
+        "https://arambururesto.com.ar"
+      ],
+      "patch": {
+        "description": "Argentina's only two-Michelin-starred restaurant. Chef Gonzalo Aramburu creates artistic,boundary-pushing cuisine that reimagines Argentine ingredients through a contemporary lens. An intimate 18-seat dining room adds to the exclusivity.",
+        "hours": "Tue-Sat 8pm-12am, Closed Sun-Mon",
+        "reservationTip": "Book online 30-60 days ahead. Only tasting menu served. Allow 3 hours for the experience.",
+        "localTip": "This is a splurge—expect to spend $200+ USD per person with wine pairing. Worth it for the experience. The 24-course journey is theatrical and memorable.",
+        "whyWeLoveIt": "The pinnacle of Argentine fine dining. Aramburu's artistic vision transforms local ingredients into edible art.",
+        "truthSync": {
+          "canonicalKey": "restaurant:aramburu",
+          "recordId": "expatsargentina:restaurant:aramburu",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": [
+            "https://arambururesto.com.ar"
+          ]
+        }
+      }
+    },
+    "artemisia": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Cozy garden restaurant with seasonal vegetarian menu. Weekend brunch is excellent—think avocado toast with an Argentine twist, fresh juices, and great coffee. The tarta de verduras (vegetable tart) is legendary.",
+        "hours": "Tue-Sun 9am-12am, Closed Monday",
+        "reservationTip": "Book ahead for weekend brunch. Weekday lunch is easier to get.",
+        "localTip": "Weekend brunch books up fast. The garden seating is magical on sunny days.",
+        "whyWeLoveIt": "The garden setting makes you forget you're in the city. Perfect for lazy weekend brunch.",
+        "truthSync": {
+          "canonicalKey": "restaurant:artemisia",
+          "recordId": "expatsargentina:restaurant:artemisia",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "azafran-mendoza": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "One of Mendoza's best restaurants,combining local ingredients with international techniques. Excellent wine list showcasing the region's best bottles.",
+        "hours": "Mon-Sat 8pm-12am, Closed Sun",
+        "reservationTip": "Book ahead,especially during harvest season (Feb-Apr).",
+        "localTip": "A Mendoza institution. Perfect for your first dinner in wine country.",
+        "whyWeLoveIt": "Consistently excellent and showcases the best of Mendoza's food and wine.",
+        "truthSync": {
+          "canonicalKey": "restaurant:azafran-mendoza",
+          "recordId": "expatsargentina:restaurant:azafran-mendoza",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "cafe-registrado": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Third-wave coffee shop in a work-friendly space. Good WiFi,plenty of outlets,serious baristas who know their beans. The flat white is excellent.",
+        "hours": "Mon-Fri 8am-8pm, Sat-Sun 9am-8pm",
+        "reservationTip": "No reservations. Arrive before 10am for prime laptop spots.",
+        "localTip": "Best coffee in Palermo for working. Get there early for the good tables with outlets.",
+        "whyWeLoveIt": "Finally,serious coffee in Buenos Aires. The flat white rivals anything from Melbourne.",
+        "truthSync": {
+          "canonicalKey": "restaurant:cafe-registrado",
+          "recordId": "expatsargentina:restaurant:cafe-registrado-2",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "cafe-tortoni": {
+      "reviewDate": "unknown",
+      "sourceUrls": [
+        "https://cafetortoni.com.ar"
+      ],
+      "patch": {
+        "description": "Historic 1858 café, touristy but beautiful. Come for the atmosphere and history, not the coffee (which is mediocre). The stained glass, marble tables, and tango shows in the back room make it worth a visit. A Buenos Aires landmark.",
+        "hours": "Daily 8am-12am",
+        "reservationTip": "No reservations. Expect lines on weekends. Tango shows in the back room require separate tickets.",
+        "localTip": "Skip the coffee and get the chocolate con churros. It's the traditional order.",
+        "whyWeLoveIt": "Pure history. Worth the tourist factor to sit where Borges and Gardel sat.",
+        "truthSync": {
+          "canonicalKey": "restaurant:cafe-tortoni",
+          "recordId": "expatsargentina:restaurant:cafe-tortoni",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": [
+            "https://cafetortoni.com.ar"
+          ]
+        }
+      }
+    },
+    "cald-n-del-soho": {
+      "reviewDate": "unknown",
+      "sourceUrls": [
+        "https://caldendelsoho.com"
+      ],
+      "patch": {
+        "description": "Modern parrilla that respects tradition while refining technique. The open-fire kitchen is visible from the dining room, showcasing masterful grilling. Excellent selection of Argentine craft beers alongside traditional wines. The bife ancho (ribeye) is a standout.",
+        "hours": "Mon-Sat 8pm-1am, Sun 12pm-4pm, 8pm-1am",
+        "reservationTip": "Book online. Popular with both locals and tourists—plan ahead.",
+        "localTip": "Try one of their Argentine craft beers—rare for a traditional parrilla.",
+        "whyWeLoveIt": "Modern without being pretentious. The open kitchen lets you watch the masters at work.",
+        "truthSync": {
+          "canonicalKey": "restaurant:cald-n-del-soho",
+          "recordId": "expatsargentina:restaurant:caldén-del-soho",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": [
+            "https://caldendelsoho.com"
+          ]
+        }
+      }
+    },
+    "cassis-bariloche": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Modern Patagonian cuisine with lake views. Chef Jesús Araujo creates dishes that celebrate regional ingredients like trout, lamb, and wild mushrooms.",
+        "hours": "Wed-Mon 8pm-12am, Closed Tue",
+        "reservationTip": "Request a table with lake views. Book ahead in summer season.",
+        "localTip": "The best fine dining in Bariloche. The lake views and Patagonian ingredients make it special.",
+        "whyWeLoveIt": "Patagonian cuisine done right—local ingredients,skilled execution,beautiful setting.",
+        "truthSync": {
+          "canonicalKey": "restaurant:cassis-bariloche",
+          "recordId": "expatsargentina:restaurant:cassis-bariloche",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "corte-comedor": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Modern parrilla with creative preparations and an excellent wine list. The name means 'Cut Dining Room'—and they take their meat seriously. Contemporary atmosphere with traditional roots.",
+        "hours": "Tue-Sun 8pm-12am, Closed Mon",
+        "reservationTip": "Popular with locals. Book ahead for weekend dinner.",
+        "localTip": "The tomahawk is impressive and shareable. Great spot for a special dinner without Don Julio's wait.",
+        "whyWeLoveIt": "Modern parrilla done right—creative without losing sight of what matters: great meat.",
+        "truthSync": {
+          "canonicalKey": "restaurant:corte-comedor",
+          "recordId": "expatsargentina:restaurant:corte-comedor",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "crizia": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Newly starred in 2025. Chef Gabriel Oggero's ode to fire and Argentine ingredients. Everything is cooked over open flames in an industrial-chic space centered around a massive wood-fired grill.",
+        "hours": "Tue-Sat 8pm-12am, Closed Sun-Mon",
+        "reservationTip": "Book online. The restaurant is popular with both locals and tourists.",
+        "localTip": "A celebration of fire and flavor. The burnt cheesecake has already become legendary.",
+        "whyWeLoveIt": "The industrial-chic space and commitment to fire cooking creates a unique atmosphere.",
+        "truthSync": {
+          "canonicalKey": "restaurant:crizia",
+          "recordId": "expatsargentina:restaurant:crizia",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "desnivel": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Classic San Telmo institution since 1988. Unpretentious, huge portions, authentic neighborhood vibe. The milanesa napolitana here is legendary—larger than your face and crispy perfection. No reservations, communal tables, old-school Buenos Aires charm.",
+        "hours": "Daily 12pm-4pm, 8pm-12am",
+        "reservationTip": "No reservations. Arrive early (12pm lunch, 8pm dinner) or expect a wait. Solo diners can often squeeze in at the bar.",
+        "localTip": "Come after exploring the San Telmo Sunday market. The milanesa feeds 2-3 people easily. Cash is preferred.",
+        "whyWeLoveIt": "Old-school Buenos Aires. Nothing has changed in 30 years, and that's exactly how it should be.",
+        "truthSync": {
+          "canonicalKey": "restaurant:desnivel",
+          "recordId": "expatsargentina:restaurant:desnivel",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "don-julio": {
+      "reviewDate": "unknown",
+      "sourceUrls": [
+        "https://donjulio.com.ar"
+      ],
+      "patch": {
+        "description": "The most famous parrilla in Argentina and officially the world's best steak restaurant. Don Julio has earned the #1 spot on the World's 101 Best Steak Restaurants list for three consecutive years. The bife de chorizo here is legendary, aged in-house and cooked to perfection over wood coals. The wine cellar is extraordinary, and the service matches the reputation.",
+        "hours": "Daily 12:30pm-12am (kitchen closes 11:30pm)",
+        "reservationTip": "Book online 30-60 days ahead for dinner. Walk-ins possible at opening (12:30pm lunch, 7pm dinner) with a wait. Solo diners have better luck at the bar.",
+        "localTip": "If you can't get a table, go at 7pm sharp and put your name on the list. Have a drink at the bar while you wait—it's part of the experience.",
+        "whyWeLoveIt": "It's not just hype. The consistency, the sourcing, the wine list, the atmosphere—everything just works. Worth every peso.",
+        "truthSync": {
+          "canonicalKey": "restaurant:don-julio",
+          "recordId": "expatsargentina:restaurant:don-julio",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": [
+            "https://donjulio.com.ar"
+          ]
+        }
+      }
+    },
+    "duhau-restaurante": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The Park Hyatt's signature restaurant offering refined Argentine cuisine. Beautiful garden setting and one of the most impressive wine cellars in the city.",
+        "hours": "Daily 12pm-3pm, 7pm-12am",
+        "reservationTip": "Request a table on the garden terrace. Ask for a wine cellar tour.",
+        "localTip": "The wine cellar is one of BA's best—ask for a tour. The garden terrace is perfect for a romantic evening.",
+        "whyWeLoveIt": "The garden setting is unmatched in Buenos Aires. A tranquil oasis in the heart of Recoleta.",
+        "truthSync": {
+          "canonicalKey": "restaurant:duhau-restaurante",
+          "recordId": "expatsargentina:restaurant:duhau-restaurante",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "el-boliche-de-dario": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Locals' favorite parrilla that tourists haven't completely discovered yet. No frills, no pretension—just consistently excellent meat at fair prices. The entraña (skirt steak) here is considered by many porteños to be the best in the city. Cash only, loud atmosphere, futbol on TV.",
+        "hours": "Mon-Sat 8pm-1am, Sun 12pm-4pm, 8pm-1am",
+        "reservationTip": "No reservations accepted. Arrive at 8pm sharp or after 11pm to avoid waits. Expect 30-45 min wait at peak times.",
+        "localTip": "Bring cash—lots of it. The entraña is the move. Don't fill up on bread.",
+        "whyWeLoveIt": "This is where porteños take their friends. No Instagram aesthetic, just incredible meat at honest prices.",
+        "truthSync": {
+          "canonicalKey": "restaurant:el-boliche-de-dario",
+          "recordId": "expatsargentina:restaurant:el-boliche-de-dario",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "el-boliche-de-dario-bariloche": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The Bariloche outpost of the famous Buenos Aires parrilla. Same quality meat,patagonian atmosphere. A local favorite for serious steak.",
+        "hours": "Daily 12pm-4pm, 8pm-12am",
+        "reservationTip": "No reservations. Arrive at 8pm sharp or expect a wait.",
+        "localTip": "The same legendary entraña as the BA location,with Patagonian atmosphere. Cash preferred.",
+        "whyWeLoveIt": "Authentic parrilla quality without the Buenos Aires hype. A local institution.",
+        "truthSync": {
+          "canonicalKey": "restaurant:el-boliche-de-dario-bariloche",
+          "recordId": "expatsargentina:restaurant:el-boliche-de-dario-bariloche",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "el-cuartito": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Football-themed pizzeria serving thick-crust Argentine pizza since 1934. Walls covered in futbol memorabilia. The napolitana (tomato, garlic, cheese) is the classic order. Another Corrientes institution with fast service and generous portions.",
+        "hours": "Daily 12pm-12am",
+        "reservationTip": "No reservations. Counter or table service available.",
+        "localTip": "Try the napolitana with a slice of fainá on top—it's how locals eat it.",
+        "whyWeLoveIt": "Fútbol + pizza = Argentina. The memorabilia alone is worth the visit.",
+        "truthSync": {
+          "canonicalKey": "restaurant:el-cuartito",
+          "recordId": "expatsargentina:restaurant:el-cuartito",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "el-pobre-luis": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Belgrano neighborhood gem famous for their house-made chorizo and futbol memorabilia covering every wall. A local institution since 1986, this is where Belgrano residents go for their Sunday asado. The morcilla (blood sausage) and chorizo are made in-house.",
+        "hours": "Tue-Sun 12pm-4pm, 8pm-12am, Closed Monday",
+        "reservationTip": "Reservations recommended for dinner. Walk-in possible for lunch. Arrive early for weekend dinner.",
+        "localTip": "The chorizo and morcilla are house-made and exceptional. Don't skip dessert—the tiramisu is famous.",
+        "whyWeLoveIt": "Belgrano's best-kept secret. The house-made sausages alone are worth the trip.",
+        "truthSync": {
+          "canonicalKey": "restaurant:el-pobre-luis",
+          "recordId": "expatsargentina:restaurant:el-pobre-luis",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "el-preferido": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Historic bodegón (traditional tavern) dating back to 1952, revived by the Tegui team. Classic Argentine comfort food done right—milanesas, pastas, seafood. The atmosphere is old Buenos Aires with a light renovation. Counter seating offers the best experience.",
+        "hours": "Tue-Sun 12pm-4pm, 8pm-12am, Closed Monday",
+        "reservationTip": "Reservations recommended, especially for dinner. Walk-ins welcome at the bar counter.",
+        "localTip": "Sit at the counter for the best experience. The rabas are among the best in BA.",
+        "whyWeLoveIt": "Old-school Buenos Aires charm, updated just enough to be comfortable. A taste of history.",
+        "truthSync": {
+          "canonicalKey": "restaurant:el-preferido",
+          "recordId": "expatsargentina:restaurant:el-preferido",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "el-sanjuanino": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Best empanadas salteñas in Buenos Aires,hands down. Tiny storefront,always packed. The carne picante (spicy meat) empanada is the move—juicy,flavorful,with the perfect crust.",
+        "hours": "Daily 11am-11pm",
+        "reservationTip": "No reservations. Expect a short wait at peak times. Takeaway available.",
+        "localTip": "Order a mix of carne picante and humita. Get them to go and eat in nearby Plaza Francia.",
+        "whyWeLoveIt": "The best empanadas in Buenos Aires. Full stop. The lines prove it.",
+        "truthSync": {
+          "canonicalKey": "restaurant:el-sanjuanino",
+          "recordId": "expatsargentina:restaurant:el-sanjuanino-2",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "elena-four-seasons": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "The Four Seasons' flagship restaurant led by Chef Martín Vidal. Elegant,contemporary Argentine cuisine in a beautiful setting. One of the best hotel restaurants in the city.",
+        "hours": "Daily 7am-12am",
+        "reservationTip": "Sunday brunch is particularly popular. Book the terrace in good weather.",
+        "localTip": "Excellent Sunday brunch with live music. The terrace is a hidden gem in the city center.",
+        "whyWeLoveIt": "Hotel dining at its best—elegant without being stuffy, with consistently excellent execution.",
+        "truthSync": {
+          "canonicalKey": "restaurant:elena-four-seasons",
+          "recordId": "expatsargentina:restaurant:elena-four-seasons",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "fogon-asado": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Asado tasting menu experience with counter seating around the open fire. Watch the asador work while enjoying multiple courses of Argentine beef. A unique dining experience that educates while it feeds you.",
+        "hours": "Daily 8pm-12am",
+        "reservationTip": "Book online well ahead. Limited counter seating. Allow 3 hours.",
+        "truthSync": {
+          "canonicalKey": "restaurant:fogon-asado",
+          "recordId": "expatsargentina:restaurant:fogon-asado",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "gran-dabbang": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Indian-Argentine fusion that's creative,flavorful,and always packed. Chef Mariano Ramón brings Indian spices to Argentine ingredients with delicious results.",
+        "hours": "Tue-Sun 8pm-12am, Sat-Sun 12pm-4pm, Closed Mon",
+        "reservationTip": "Book online well ahead. Walk-ins possible at bar but expect a wait.",
+        "localTip": "The curry changes daily—ask your server for recommendations. Don't skip the chutneys.",
+        "whyWeLoveIt": "Finally,real spice in Buenos Aires. The fusion approach works brilliantly.",
+        "truthSync": {
+          "canonicalKey": "restaurant:gran-dabbang",
+          "recordId": "expatsargentina:restaurant:gran-dabbang-2",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "hierro-parrilla": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Premium parrilla with some of the best meat in Buenos Aires. The Hierro bife de chorizo is exceptional. More upscale than traditional parrillas, with excellent service and a great wine list.",
+        "hours": "Daily 12pm-12am",
+        "reservationTip": "Book online. Popular with business diners and tourists.",
+        "truthSync": {
+          "canonicalKey": "restaurant:hierro-parrilla",
+          "recordId": "expatsargentina:restaurant:hierro-parrilla",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-americana": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "24-hour empanada factory that's been operating since 1955. Order by the dozen,any style. The jamón y queso is legendary—cheesy,salty,perfect comfort food.",
+        "hours": "24 hours",
+        "reservationTip": "No reservations. Call ahead for large orders. Delivery available.",
+        "localTip": "Order a dozen jamón y queso. They reheat beautifully in the oven the next day.",
+        "whyWeLoveIt": "24-hour empanadas. Need we say more? The ultimate late-night salvation.",
+        "truthSync": {
+          "canonicalKey": "restaurant:la-americana",
+          "recordId": "expatsargentina:restaurant:la-americana-2",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-birreria": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Lively craft beer bar and restaurant with an extensive selection of Argentine and international brews. The menu features elevated pub food—burgers, pizzas, and sharing plates. Great atmosphere for groups and beer enthusiasts.",
+        "hours": "Mon-Sun 6pm-2am",
+        "localTip": "Happy hour runs most of the evening—excellent value on beer. Come with a group and share plates.",
+        "whyWeLoveIt": "The best craft beer selection in Palermo with solid pub food. Always a fun, lively atmosphere.",
+        "truthSync": {
+          "canonicalKey": "restaurant:la-birreria",
+          "recordId": "expatsargentina:restaurant:la-birreria",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-cabrera": {
+      "reviewDate": "unknown",
+      "sourceUrls": [
+        "https://lacabrera.com.ar"
+      ],
+      "patch": {
+        "description": "Upscale parrilla famous for generous portions and their legendary parade of 20+ free side dishes. Yes, it's touristy. Yes, it's genuinely good. The happy hour (40% off from 7-8pm) makes it a relative bargain for the quality. The ojo de bife is exceptional, and the service is polished.",
+        "hours": "Daily 12pm-12am",
+        "reservationTip": "Book online or call ahead. For happy hour, arrive by 6:45pm to get seated before 7pm. Share one portion—it's huge.",
+        "localTip": "The happy hour is legit—40% off everything from 7-8pm. One steak easily feeds two people. Ask for the side dish refills.",
+        "whyWeLoveIt": "Despite the tourist reputation, the meat is genuinely excellent and the happy hour value is unbeatable.",
+        "truthSync": {
+          "canonicalKey": "restaurant:la-cabrera",
+          "recordId": "expatsargentina:restaurant:la-cabrera",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": [
+            "https://lacabrera.com.ar"
+          ]
+        }
+      }
+    },
+    "la-casona-de-belgrano": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Historic mansion turned restaurant serving classic Argentine cuisine. The atmosphere is old-world elegance with white tablecloths and professional service. A favorite for generations of porteños.",
+        "hours": "Tue-Sun 12pm-4pm, 8pm-12am, Closed Mon",
+        "reservationTip": "Book ahead for weekend lunch—the garden fills up with local families.",
+        "localTip": "A Belgrano institution. Weekend lunch in the garden is a local tradition. Very family-friendly.",
+        "whyWeLoveIt": "Timeless elegance and consistency. This is where generations of porteños celebrate milestones.",
+        "truthSync": {
+          "canonicalKey": "restaurant:la-casona-de-belgrano",
+          "recordId": "expatsargentina:restaurant:la-casona-de-belgrano",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-mamma-cordoba": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "A Córdoba institution since 1953. Classic Italian-Argentine cuisine in a historic setting. Famous for their pastas and traditional service.",
+        "hours": "Tue-Sun 12pm-4pm, 8pm-12am, Closed Mon",
+        "reservationTip": "Essential for Sunday lunch—the local tradition.",
+        "localTip": "Sunday lunch here is a Córdoba tradition. Make reservations well ahead.",
+        "whyWeLoveIt": "A Córdoba time capsule. The Sunday lunch experience is pure Argentine tradition.",
+        "truthSync": {
+          "canonicalKey": "restaurant:la-mamma-cordoba",
+          "recordId": "expatsargentina:restaurant:la-mamma-cordoba",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "la-parolaccia": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Beloved neighborhood trattoria serving rustic Italian-Argentine cuisine. Fresh pastas, wood-fired pizzas, and an excellent wine list. The atmosphere is warm and familial—like being invited to an Italian grandmother's home.",
+        "hours": "Tue-Sun 12pm-3:30pm, 8pm-12am, Closed Monday",
+        "localTip": "The pasta is made fresh daily. Try whatever special they're running—it's always excellent.",
+        "whyWeLoveIt": "Authentic neighborhood Italian that feels like home. The pasta alone is worth the trip.",
+        "truthSync": {
+          "canonicalKey": "restaurant:la-parolaccia",
+          "recordId": "expatsargentina:restaurant:la-parolaccia",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "las-cuartetas": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Iconic pizzeria since 1932 on Corrientes,Buenos Aires' theater district. The fugazzeta (onion and cheese pizza) is legendary—thick,cheesy,and utterly satisfying.",
+        "hours": "Daily 12pm-12am",
+        "reservationTip": "No reservations. Counter service is fastest. Expect lines before theater shows.",
+        "localTip": "Order at the counter,eat standing up. Get the fugazzeta and a slice of fainá on top—classic BA style.",
+        "whyWeLoveIt": "The best fugazzeta in the city,served in a time capsule of 1930s Buenos Aires.",
+        "truthSync": {
+          "canonicalKey": "restaurant:las-cuartetas",
+          "recordId": "expatsargentina:restaurant:las-cuartetas-2",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "roux": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Elegant French-Argentine fusion in a beautiful Belgrano townhouse. Classic techniques meet Argentine ingredients. Known for their impeccable service and wine list.",
+        "hours": "Tue-Sat 8pm-12am, Sun 12pm-4pm, Closed Mon",
+        "reservationTip": "Book ahead for weekends. Request a table on the garden terrace when weather permits.",
+        "localTip": "One of Belgrano's most elegant restaurants. The garden terrace is magical on summer evenings.",
+        "whyWeLoveIt": "Classic French technique with Argentine soul. An oasis of refinement in Belgrano.",
+        "truthSync": {
+          "canonicalKey": "restaurant:roux",
+          "recordId": "expatsargentina:restaurant:roux",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "sacrifice": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Upscale vegetarian restaurant with creative dishes that even meat-lovers enjoy. Beautiful space, thoughtful wine list, and dishes that don't try to imitate meat—they celebrate vegetables. The cauliflower steak and homemade pastas are standouts.",
+        "hours": "Tue-Sun 8pm-12am, Sat-Sun 12pm-4pm, Closed Monday",
+        "reservationTip": "Book online or call ahead. Popular with vegetarians and non-vegetarians alike.",
+        "localTip": "Even meat-eaters love this place. The cauliflower steak is genuinely craveable.",
+        "whyWeLoveIt": "Proves that Argentine dining isn't just about meat. Creative, beautiful, delicious.",
+        "truthSync": {
+          "canonicalKey": "restaurant:sacrifice",
+          "recordId": "expatsargentina:restaurant:sacrifice",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "sarkis": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Armenian restaurant with legendary status in Buenos Aires. Massive portions,incredible value,no reservations. The kebbe,falafel,and hummus are the best in the city.",
+        "hours": "Tue-Sun 12pm-12am, Closed Mon",
+        "reservationTip": "No reservations. Arrive at 12pm or 8pm sharp,or expect 30-60 min wait. No waiting list—just hover.",
+        "localTip": "Order 1-2 fewer dishes than you think you need. Everything is huge. The kebbe is legendary.",
+        "whyWeLoveIt": "The best Middle Eastern food in BA at prices that seem like a mistake. Worth any wait.",
+        "truthSync": {
+          "canonicalKey": "restaurant:sarkis",
+          "recordId": "expatsargentina:restaurant:sarkis-2",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    },
+    "tegui": {
+      "reviewDate": "unknown",
+      "sourceUrls": [
+        "https://tegui.com.ar"
+      ],
+      "patch": {
+        "description": "Chef Germán Martitegui's flagship restaurant—consistently ranked among Latin America's 50 Best. A tasting menu journey through modern Argentine cuisine. Creative, technically brilliant, and worth the splurge for food enthusiasts. The only Argentine restaurant to consistently rank in Latin America's top 10.",
+        "hours": "Tue-Sat 8pm-12am, Closed Sun-Mon",
+        "reservationTip": "Book online 30+ days ahead. Only tasting menu served. Allow 3 hours for the experience.",
+        "localTip": "This is a splurge—expect to spend $150+ USD per person with wine pairing. Worth it for the experience.",
+        "whyWeLoveIt": "The pinnacle of Argentine fine dining. Martitegui is a genius, and this is his masterpiece.",
+        "truthSync": {
+          "canonicalKey": "restaurant:tegui",
+          "recordId": "expatsargentina:restaurant:tegui",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": [
+            "https://tegui.com.ar"
+          ]
+        }
+      }
+    },
+    "trescha": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Innovative tasting menus in an intimate setting near Palermo. Chef Martín Molteni's creative playground where Argentine ingredients meet global techniques. One Michelin star.",
+        "hours": "Tue-Sat 8pm-12am, Closed Sun-Mon",
+        "reservationTip": "Book online well ahead. The open kitchen creates a personal connection with the culinary team.",
+        "localTip": "A hidden gem that serious food lovers seek out. The open kitchen lets you watch the creative process.",
+        "whyWeLoveIt": "Creative,technically brilliant,and consistently surprising. A chef's passion project done right.",
+        "truthSync": {
+          "canonicalKey": "restaurant:trescha",
+          "recordId": "expatsargentina:restaurant:trescha",
+          "reviewDate": "unknown",
+          "sourceExport": "restaurants",
+          "sourceUrls": []
+        }
+      }
+    }
+  },
+  "cityServices": {
+    "accountants": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "English-speaking accountants for expat tax planning and compliance.",
+        "whatToExpect": "Important for navigating Argentine tax system, especially for remote workers and business owners. Many specialize in expat situations.",
+        "costs": "Initial consultation: $50-100 | Monthly services: $50-200 | Annual tax filing: $200-500",
+        "truthSync": {
+          "canonicalKey": "service-directory:accountants",
+          "recordId": "expatsargentina:service-directory:accountants",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "banking": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Opening bank accounts, accessing financial services, and managing money as an expat in Argentina.",
+        "whatToExpect": "Traditional banks require DNI and proof of address. Fintech options available with just passport. Banking hours typically 10am-3pm weekdays.",
+        "costs": "Most accounts free; some have monthly fees $2-10 USD",
+        "truthSync": {
+          "canonicalKey": "service-directory:banking",
+          "recordId": "expatsargentina:service-directory:banking",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "coworking": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Shared offices, coworking spaces, and business centers for remote workers.",
+        "whatToExpect": "Buenos Aires has excellent coworking infrastructure. Monthly memberships, day passes, and dedicated desks available. Good internet and networking opportunities.",
+        "costs": "Day pass: $10-20 | Monthly hot desk: $100-200 | Dedicated desk: $200-350",
+        "truthSync": {
+          "canonicalKey": "service-directory:coworking",
+          "recordId": "expatsargentina:service-directory:coworking",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "expat-community": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Facebook groups, meetups, clubs, and community organizations for expats.",
+        "whatToExpect": "Active expat communities in Buenos Aires, smaller but present in other cities. Facebook groups are the main hub for connections and advice.",
+        "costs": "Most groups free; InterNations events $10-20 USD",
+        "truthSync": {
+          "canonicalKey": "service-directory:expat-community",
+          "recordId": "expatsargentina:service-directory:expat-community",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "grocery-stores": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Supermarkets, international food stores, and specialty shops for expats.",
+        "whatToExpect": "Major chains have most essentials. Specialty stores for Asian, Middle Eastern, and other international foods. Barrio Chino (Chinatown) has diverse options.",
+        "costs": "Weekly groceries: $80-150 USD per person",
+        "truthSync": {
+          "canonicalKey": "service-directory:grocery-stores",
+          "recordId": "expatsargentina:service-directory:grocery-stores",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "gym-fitness": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Gyms, fitness centers, and sports clubs for expats.",
+        "whatToExpect": "Good gym infrastructure in major cities. Various options from budget to premium. Many offer classes and personal training.",
+        "costs": "Budget: $30-50/month | Mid-range: $60-100/month | Premium: $100-200/month",
+        "truthSync": {
+          "canonicalKey": "service-directory:gym-fitness",
+          "recordId": "expatsargentina:service-directory:gym-fitness",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "healthcare": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Hospitals, clinics, doctors, and health insurance options for expats.",
+        "whatToExpect": "Public healthcare is free but crowded. Private healthcare (prepaga) offers faster service. Many doctors speak English in expat areas.",
+        "costs": "Public: Free | Private insurance: $100-400 USD/month | Consultations: $30-100 USD",
+        "truthSync": {
+          "canonicalKey": "service-directory:healthcare",
+          "recordId": "expatsargentina:service-directory:healthcare",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "housing": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Finding apartments, rental agencies, and real estate services for expats.",
+        "whatToExpect": "Rental market operates in USD for long-term contracts. Short-term rentals in pesos. Guarantor (garantía) often required - expats use seguro de caución instead.",
+        "costs": "Studio: $400-700 USD | 1BR: $600-1,000 USD | 2BR: $800-1,500 USD (monthly)",
+        "truthSync": {
+          "canonicalKey": "service-directory:housing",
+          "recordId": "expatsargentina:service-directory:housing",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "immigration-offices": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": " Dirección Nacional de Migraciones (DNM) offices where expats process visa applications, residency permits, and other immigration paperwork.",
+        "whatToExpect": "Immigration offices can be busy with long wait times. Appointments are recommended for many services. Bring all required documentation and copies.",
+        "costs": "Government fees vary by service; legal assistance $50-200 USD",
+        "truthSync": {
+          "canonicalKey": "service-directory:immigration-offices",
+          "recordId": "expatsargentina:service-directory:immigration-offices",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    },
+    "language-schools": {
+      "reviewDate": "unknown",
+      "sourceUrls": [],
+      "patch": {
+        "description": "Language schools, tutors, and immersion programs for learning Spanish.",
+        "whatToExpect": "Group classes, private lessons, and immersion programs available. Prices significantly lower than US/Europe. Argentine Spanish (voseo) is distinct.",
+        "costs": "Group classes: $150-300 USD/week | Private: $15-25 USD/hour",
+        "truthSync": {
+          "canonicalKey": "service-directory:language-schools",
+          "recordId": "expatsargentina:service-directory:language-schools",
+          "reviewDate": "unknown",
+          "sourceExport": "cityServices",
+          "sourceUrls": []
+        }
+      }
+    }
   }
 }

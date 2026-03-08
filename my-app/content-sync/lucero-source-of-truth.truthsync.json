@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-08T02:58:04.728Z",
+  "generatedAt": "2026-03-08T11:26:28.964Z",
   "totals": {
     "surfaces": 13,
-    "active": 4,
-    "ready": 9,
+    "active": 13,
+    "ready": 0,
     "unwired": 0,
     "highRiskUnwired": 0
   },
@@ -11,8 +11,8 @@
     {
       "siteId": "expatsargentina",
       "surfaces": 13,
-      "active": 4,
-      "ready": 9,
+      "active": 13,
+      "ready": 0,
       "unwired": 0
     }
   ],
@@ -20,7 +20,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "blogPosts",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "blogPosts",
@@ -32,7 +32,7 @@
       "recordCount": 8,
       "highRiskRecordCount": 8,
       "reviewDateCount": 8,
-      "projectionCount": 0,
+      "projectionCount": 8,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/blog.ts"
       ],
@@ -47,7 +47,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "cities",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "cities",
@@ -59,7 +59,7 @@
       "recordCount": 20,
       "highRiskRecordCount": 0,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 20,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/argentina.ts"
       ],
@@ -74,7 +74,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "cityComparisons",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "cityComparisons",
@@ -86,7 +86,7 @@
       "recordCount": 7,
       "highRiskRecordCount": 7,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 7,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/comparisons.ts"
       ],
@@ -101,7 +101,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "cityServices",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "cityServices",
@@ -113,7 +113,7 @@
       "recordCount": 10,
       "highRiskRecordCount": 0,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 10,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/city-services.ts"
       ],
@@ -128,7 +128,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "investmentSectors",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "investmentSectors",
@@ -140,7 +140,7 @@
       "recordCount": 6,
       "highRiskRecordCount": 0,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 6,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/investments.ts"
       ],
@@ -182,7 +182,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "neighborhoods",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "neighborhoods",
@@ -194,7 +194,7 @@
       "recordCount": 23,
       "highRiskRecordCount": 0,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 23,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/neighborhoods.ts"
       ],
@@ -236,7 +236,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "provinces",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "provinces",
@@ -248,7 +248,7 @@
       "recordCount": 24,
       "highRiskRecordCount": 0,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 24,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/argentina.ts"
       ],
@@ -263,7 +263,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "recipes",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "recipes",
@@ -275,7 +275,7 @@
       "recordCount": 29,
       "highRiskRecordCount": 0,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 29,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/recipes.ts"
       ],
@@ -290,7 +290,7 @@
     {
       "siteId": "expatsargentina",
       "sourceExport": "restaurants",
-      "status": "ready",
+      "status": "active",
       "runtimeSurface": {
         "siteId": "expatsargentina",
         "sourceExport": "restaurants",
@@ -302,7 +302,7 @@
       "recordCount": 42,
       "highRiskRecordCount": 0,
       "reviewDateCount": 0,
-      "projectionCount": 0,
+      "projectionCount": 36,
       "sourcePaths": [
         "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/restaurants.ts"
       ],
