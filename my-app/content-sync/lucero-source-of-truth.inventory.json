@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-03-08T02:15:33.943Z",
+  "workspaceRoot": "/Users/libertydesignstudio/dev",
+  "totalCandidates": 81,
+  "ingestedCandidates": 81,
+  "uncoveredCandidates": 0,
+  "candidates": [
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/argentina.ts",
+      "exports": [
+        "Province",
+        "City",
+        "Region",
+        "regions",
+        "provinces",
+        "cities",
+        "getProvinceBySlug",
+        "getCityBySlug",
+        "getProvincesByRegion",
+        "getCitiesByProvince",
+        "getRegionColor"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/blog.ts",
+      "exports": [
+        "BlogPost",
+        "blogPosts",
+        "getBlogPostBySlug",
+        "getFeaturedPosts",
+        "getPostsByCategory",
+        "getRelatedPosts",
+        "getAllCategories"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/city-services.ts",
+      "exports": [
+        "CityService",
+        "cityServices",
+        "getServiceBySlug",
+        "getServicesByCategory",
+        "getAllServiceCategories"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/comparisons.ts",
+      "exports": [
+        "CityComparison",
+        "cityComparisons",
+        "getComparisonBySlug",
+        "getAllComparisonSlugs",
+        "getComparisonCities"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/investments.ts",
+      "exports": [
+        "InvestmentSector",
+        "investmentSectors",
+        "getAllSectors",
+        "getSectorBySlug",
+        "getSectorsByRegion",
+        "getRelatedSectors"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts",
+      "exports": [
+        "Nationality",
+        "nationalities",
+        "getNationalityBySlug",
+        "getNationalitiesByRegion",
+        "getAllRegions",
+        "getMercosurNationalities"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/neighborhoods.ts",
+      "exports": [
+        "Neighborhood",
+        "neighborhoods",
+        "getNeighborhoodBySlug",
+        "getAllNeighborhoodSlugs",
+        "getNeighborhoodsByZone",
+        "getNeighborhoodsByCity",
+        "getNeighborhoodCities",
+        "getNeighborhoodsBySafety"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/professions.ts",
+      "exports": [
+        "Profession",
+        "professions",
+        "getProfessionBySlug",
+        "getProfessionsByCategory",
+        "getAllCategories",
+        "getRelatedProfessions"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/recipes.ts",
+      "exports": [
+        "Recipe",
+        "recipes",
+        "getRecipeBySlug",
+        "getAllRecipeSlugs",
+        "getRecipesByCategory",
+        "getRecipesByDifficulty"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/restaurants.ts",
+      "exports": [
+        "Restaurant",
+        "restaurants",
+        "getRestaurantBySlug",
+        "getAllRestaurantSlugs",
+        "getRestaurantsByCity",
+        "getRestaurantsByCuisine",
+        "getRestaurantsByPriceRange",
+        "getParrillas",
+        "getTopRestaurants",
+        "getRestaurantsByNeighborhood"
+      ],
+      "status": "ingested"
+    },
+    {
+      "repoId": "expatsargentina",
+      "filePath": "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts",
+      "exports": [
+        "VisaComparison",
+        "visaComparisons",
+        "getVisaComparisonBySlug",
+        "getAllVisaComparisonSlugs"
+      ],
+      "status": "ingested"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2026-03-08T02:14:08.680Z",
+  "totals": {
+    "surfaces": 13,
+    "active": 2,
+    "ready": 11,
+    "unwired": 0,
+    "highRiskUnwired": 0
+  },
+  "sites": [
+    {
+      "siteId": "expatsargentina",
+      "surfaces": 13,
+      "active": 2,
+      "ready": 11,
+      "unwired": 0
+    }
+  ],
+  "surfaces": [
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "blogPosts",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "blogPosts",
+        "runtimeModule": "lib/data/blog.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina blog posts"
+      },
+      "recordCount": 8,
+      "highRiskRecordCount": 8,
+      "reviewDateCount": 8,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/blog.ts"
+      ],
+      "sampleSlugs": [
+        "argentinian-culture-shock-what-to-expect",
+        "best-cities-remote-workers-argentina",
+        "best-neighborhoods-expats-buenos-aires",
+        "complete-guide-digital-nomad-visa-argentina-2026",
+        "cost-living-buenos-aires-2025"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "cities",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "cities",
+        "runtimeModule": "lib/data/argentina.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina cities"
+      },
+      "recordCount": 20,
+      "highRiskRecordCount": 0,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/argentina.ts"
+      ],
+      "sampleSlugs": [
+        "bariloche",
+        "buenos-aires",
+        "cordoba",
+        "el-calafate",
+        "la-plata"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "cityComparisons",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "cityComparisons",
+        "runtimeModule": "lib/data/comparisons.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina city comparison pages"
+      },
+      "recordCount": 7,
+      "highRiskRecordCount": 7,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/comparisons.ts"
+      ],
+      "sampleSlugs": [
+        "buenos-aires-vs-cordoba",
+        "buenos-aires-vs-mendoza",
+        "mar-del-plata-vs-buenos-aires",
+        "mendoza-vs-bariloche",
+        "rosario-vs-cordoba"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "cityServices",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "cityServices",
+        "runtimeModule": "lib/data/city-services.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina city services"
+      },
+      "recordCount": 10,
+      "highRiskRecordCount": 0,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/city-services.ts"
+      ],
+      "sampleSlugs": [
+        "accountants",
+        "banking",
+        "coworking",
+        "expat-community",
+        "grocery-stores"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "investmentSectors",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "investmentSectors",
+        "runtimeModule": "lib/data/investments.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina investment sectors"
+      },
+      "recordCount": 6,
+      "highRiskRecordCount": 0,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/investments.ts"
+      ],
+      "sampleSlugs": [
+        "agriculture",
+        "energy",
+        "mining",
+        "real-estate",
+        "technology"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "nationalities",
+      "status": "active",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "nationalities",
+        "runtimeModule": "lib/data/nationalities.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina nationality profiles"
+      },
+      "recordCount": 112,
+      "highRiskRecordCount": 112,
+      "reviewDateCount": 0,
+      "projectionCount": 3,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/nationalities.ts"
+      ],
+      "sampleSlugs": [
+        "albania",
+        "andorra",
+        "argentina",
+        "armenia",
+        "australia"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "neighborhoods",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "neighborhoods",
+        "runtimeModule": "lib/data/neighborhoods.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina neighborhoods"
+      },
+      "recordCount": 23,
+      "highRiskRecordCount": 0,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/neighborhoods.ts"
+      ],
+      "sampleSlugs": [
+        "almagro",
+        "barrio-norte",
+        "belgrano",
+        "caballito",
+        "cerro-de-las-rosas"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "professions",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "professions",
+        "runtimeModule": "lib/data/professions.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina profession pages"
+      },
+      "recordCount": 100,
+      "highRiskRecordCount": 100,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/professions.ts"
+      ],
+      "sampleSlugs": [
+        "3d-artist",
+        "account-executive",
+        "accountant-bookkeeper",
+        "ai-researcher",
+        "animator"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "provinces",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "provinces",
+        "runtimeModule": "lib/data/argentina.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina provinces"
+      },
+      "recordCount": 24,
+      "highRiskRecordCount": 0,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/argentina.ts"
+      ],
+      "sampleSlugs": [
+        "buenos-aires-city",
+        "buenos-aires-province",
+        "catamarca",
+        "chaco",
+        "chubut"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "recipes",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "recipes",
+        "runtimeModule": "lib/data/recipes.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina recipes"
+      },
+      "recordCount": 29,
+      "highRiskRecordCount": 0,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/recipes.ts"
+      ],
+      "sampleSlugs": [
+        "alfajores",
+        "asado",
+        "bondiola",
+        "budin-de-pan",
+        "carbonada"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "restaurants",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "restaurants",
+        "runtimeModule": "lib/data/restaurants.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina restaurants"
+      },
+      "recordCount": 42,
+      "highRiskRecordCount": 0,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/restaurants.ts"
+      ],
+      "sampleSlugs": [
+        "1884-restaurant",
+        "alinea-cordoba",
+        "aramburu",
+        "artemisia",
+        "azafran-mendoza"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "visaComparisons",
+      "status": "ready",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "visaComparisons",
+        "runtimeModule": "lib/data/visa-comparisons.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina visa comparison pages"
+      },
+      "recordCount": 3,
+      "highRiskRecordCount": 3,
+      "reviewDateCount": 0,
+      "projectionCount": 0,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-comparisons.ts"
+      ],
+      "sampleSlugs": [
+        "digital-nomad-vs-work-visa",
+        "retirement-vs-investment-visa",
+        "student-vs-digital-nomad"
+      ]
+    },
+    {
+      "siteId": "expatsargentina",
+      "sourceExport": "visaTypes",
+      "status": "active",
+      "runtimeSurface": {
+        "siteId": "expatsargentina",
+        "sourceExport": "visaTypes",
+        "runtimeModule": "lib/data/visa-types.ts",
+        "mergeStrategy": "by-slug",
+        "keyField": "slug",
+        "description": "Expats Argentina visa types"
+      },
+      "recordCount": 7,
+      "highRiskRecordCount": 7,
+      "reviewDateCount": 0,
+      "projectionCount": 1,
+      "sourcePaths": [
+        "/Users/libertydesignstudio/dev/expatsargentina/my-app/lib/data/visa-types.ts"
+      ],
+      "sampleSlugs": [
+        "digital-nomad",
+        "investment",
+        "mercosur",
+        "pensionado",
+        "rentista"
+      ]
+    }
+  ]
+}

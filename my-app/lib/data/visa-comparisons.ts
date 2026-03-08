@@ -1,3 +1,6 @@
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { visaComparisonsFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface VisaComparison {
   slug: string;
   visa1: { name: string; slug: string };
@@ -18,7 +21,7 @@ export interface VisaComparison {
   };
 }
 
-export const visaComparisons: VisaComparison[] = [
+const visaComparisonsBase: VisaComparison[] = [
   // Comparison 1: Digital Nomad Visa vs Work Visa
   {
     slug: "digital-nomad-vs-work-visa",
@@ -322,6 +325,11 @@ export const visaComparisons: VisaComparison[] = [
     },
   },
 ];
+
+export const visaComparisons = applyFactOverridesBySlug(
+  visaComparisonsBase,
+  visaComparisonsFactOverrides
+);
 
 export function getVisaComparisonBySlug(
   slug: string

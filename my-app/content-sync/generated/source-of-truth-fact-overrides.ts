@@ -6,46 +6,15 @@ export type FactOverride<T = unknown> = {
   patch: T;
 };
 
-export const visaTypesFactOverrides = {
-  "digital-nomad": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [
-      "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
-      "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
-    ],
-    "patch": {
-      "description": "Argentina's current digital nomad route is published as a transitory residence for remote workers with foreign activity. It works well for a structured short stay, but it is not the same thing as ordinary temporary residency with DNI by default.",
-      "requirements": {
-        "income": "Proof of foreign income sufficient for the stay. The official service focuses on solvency and remote activity rather than a single published statutory amount.",
-        "other": [
-          "Applicant must already be in Argentina when filing",
-          "Passport from a country that does not require a tourist visa to enter Argentina",
-          "Proof of remote employment or foreign professional activity",
-          "Foreign documents apostilled or consular-legalized and translated into Spanish when required",
-          "Proof of domicile in Argentina"
-        ]
-      },
-      "processingTime": "Officially framed as a short-stay transitory residence; real timing depends on appointments and document review",
-      "duration": "Up to 180 days, with a separate prorroga path for another period if approved",
-      "renewability": "Separate in-country prorroga request available while the status is still valid",
-      "pathToCitizenship": "Not a direct citizenship track by itself. People planning permanent residency usually compare a different residence category before this status expires.",
-      "faqs": [
-        {
-          "q": "Can I work for an Argentine company with this status?",
-          "a": "No. The published digital nomad route is built around foreign remote work, not local Argentine employment."
-        },
-        {
-          "q": "Does this automatically put me on a DNI or citizenship path?",
-          "a": "No. It is a transitory residence product for a limited stay. If you want a long-term residence strategy, compare the next category before the nomad status expires."
-        },
-        {
-          "q": "Do I need to be in Argentina to apply?",
-          "a": "Yes. The official service is structured as an in-country filing flow."
-        }
-      ]
-    }
-  }
-} as const;
+export const blogPostsFactOverrides = {} as const;
+
+export const citiesFactOverrides = {} as const;
+
+export const cityComparisonsFactOverrides = {} as const;
+
+export const cityServicesFactOverrides = {} as const;
+
+export const investmentSectorsFactOverrides = {} as const;
 
 export const nationalitiesFactOverrides = {
   "china": {
@@ -119,6 +88,59 @@ export const nationalitiesFactOverrides = {
       "practicalInfo": {
         "banking": "Open accounts with residency. Many Americans use Wise, Revolut, or US cards initially. The January 14, 2026 Green Card notice is mainly relevant for U.S. permanent residents traveling on another passport, not for U.S. citizens themselves."
       }
+    }
+  }
+} as const;
+
+export const neighborhoodsFactOverrides = {} as const;
+
+export const professionsFactOverrides = {} as const;
+
+export const provincesFactOverrides = {} as const;
+
+export const recipesFactOverrides = {} as const;
+
+export const restaurantsFactOverrides = {} as const;
+
+export const visaComparisonsFactOverrides = {} as const;
+
+export const visaTypesFactOverrides = {
+  "digital-nomad": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
+      "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+    ],
+    "patch": {
+      "description": "Argentina's current digital nomad route is published as a transitory residence for remote workers with foreign activity. It works well for a structured short stay, but it is not the same thing as ordinary temporary residency with DNI by default.",
+      "requirements": {
+        "income": "Proof of foreign income sufficient for the stay. The official service focuses on solvency and remote activity rather than a single published statutory amount.",
+        "other": [
+          "Applicant must already be in Argentina when filing",
+          "Passport from a country that does not require a tourist visa to enter Argentina",
+          "Proof of remote employment or foreign professional activity",
+          "Foreign documents apostilled or consular-legalized and translated into Spanish when required",
+          "Proof of domicile in Argentina"
+        ]
+      },
+      "processingTime": "Officially framed as a short-stay transitory residence; real timing depends on appointments and document review",
+      "duration": "Up to 180 days, with a separate prorroga path for another period if approved",
+      "renewability": "Separate in-country prorroga request available while the status is still valid",
+      "pathToCitizenship": "Not a direct citizenship track by itself. People planning permanent residency usually compare a different residence category before this status expires.",
+      "faqs": [
+        {
+          "q": "Can I work for an Argentine company with this status?",
+          "a": "No. The published digital nomad route is built around foreign remote work, not local Argentine employment."
+        },
+        {
+          "q": "Does this automatically put me on a DNI or citizenship path?",
+          "a": "No. It is a transitory residence product for a limited stay. If you want a long-term residence strategy, compare the next category before the nomad status expires."
+        },
+        {
+          "q": "Do I need to be in Argentina to apply?",
+          "a": "Yes. The official service is structured as an in-country filing flow."
+        }
+      ]
     }
   }
 } as const;

@@ -3,6 +3,9 @@
 // Services available in each city for expats
 // ============================================================================
 
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { cityServicesFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface CityService {
   slug: string;
   name: string;
@@ -16,7 +19,7 @@ export interface CityService {
   faqs: { q: string; a: string }[];
 }
 
-export const cityServices: CityService[] = [
+const cityServicesBase: CityService[] = [
   // IMMIGRATION SERVICES
   {
     slug: "immigration-offices",
@@ -387,6 +390,8 @@ export const cityServices: CityService[] = [
     ]
   }
 ];
+
+export const cityServices = applyFactOverridesBySlug(cityServicesBase, cityServicesFactOverrides);
 
 // Helper functions
 export function getServiceBySlug(slug: string): CityService | undefined {

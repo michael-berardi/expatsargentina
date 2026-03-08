@@ -1,4 +1,6 @@
 import { cities, type City } from "./argentina";
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { cityComparisonsFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
 
 export interface CityComparison {
   slug: string; // e.g., "buenos-aires-vs-mendoza"
@@ -21,7 +23,7 @@ export interface CityComparison {
   };
 }
 
-export const cityComparisons: CityComparison[] = [
+const cityComparisonsBase: CityComparison[] = [
   // Comparison 1: Buenos Aires vs Mendoza
   {
     slug: "buenos-aires-vs-mendoza",
@@ -191,6 +193,11 @@ export const cityComparisons: CityComparison[] = [
     },
   },
 ];
+
+export const cityComparisons = applyFactOverridesBySlug(
+  cityComparisonsBase,
+  cityComparisonsFactOverrides
+);
 
 export function getComparisonBySlug(slug: string): CityComparison | undefined {
   return cityComparisons.find((c) => c.slug === slug);

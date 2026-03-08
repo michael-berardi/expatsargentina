@@ -1,3 +1,6 @@
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { restaurantsFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface Restaurant {
   slug: string;
   name: string;
@@ -31,7 +34,7 @@ export interface Restaurant {
   };
 }
 
-export const restaurants: Restaurant[] = [
+const restaurantsBase: Restaurant[] = [
   // Top Parrillas (Steakhouses)
   {
     slug: "don-julio",
@@ -1081,6 +1084,8 @@ export const restaurants: Restaurant[] = [
     whyWeLoveIt: "Finally,serious coffee in Buenos Aires. The flat white rivals anything from Melbourne.",
   },
 ];
+
+export const restaurants = applyFactOverridesBySlug(restaurantsBase, restaurantsFactOverrides);
 
 // Helper functions
 export function getRestaurantBySlug(slug: string): Restaurant | undefined {

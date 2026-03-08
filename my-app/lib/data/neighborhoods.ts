@@ -3,6 +3,9 @@
 // Comprehensive data for programmatic SEO pages for BA barrios
 // ============================================================================
 
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { neighborhoodsFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface Neighborhood {
   slug: string;
   name: string;
@@ -34,7 +37,7 @@ export interface Neighborhood {
   keyFacts: { label: string; value: string }[];
 }
 
-export const neighborhoods: Neighborhood[] = [
+const neighborhoodsBase: Neighborhood[] = [
   {
     slug: "palermo-soho",
     name: "Palermo Soho",
@@ -1126,6 +1129,11 @@ export const neighborhoods: Neighborhood[] = [
     ],
   },
 ];
+
+export const neighborhoods = applyFactOverridesBySlug(
+  neighborhoodsBase,
+  neighborhoodsFactOverrides
+);
 
 // Helper functions
 export function getNeighborhoodBySlug(slug: string): Neighborhood | undefined {

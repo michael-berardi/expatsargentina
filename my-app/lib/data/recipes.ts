@@ -1,3 +1,6 @@
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { recipesFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface Recipe {
   slug: string;
   name: string;
@@ -28,7 +31,7 @@ export interface Recipe {
   fat?: number;
 }
 
-export const recipes: Recipe[] = [
+const recipesBase: Recipe[] = [
   {
     slug: "empanadas",
     name: "Argentine Empanadas",
@@ -1977,6 +1980,8 @@ export const recipes: Recipe[] = [
     ]
   }
 ];
+
+export const recipes = applyFactOverridesBySlug(recipesBase, recipesFactOverrides);
 
 export function getRecipeBySlug(slug: string): Recipe | undefined {
   return recipes.find((recipe) => recipe.slug === slug);

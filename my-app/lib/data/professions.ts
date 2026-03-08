@@ -3,6 +3,9 @@
 // Career-specific immigration guidance for various professional backgrounds
 // ============================================================================
 
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { professionsFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface Profession {
   slug: string;
   name: string;
@@ -60,7 +63,7 @@ export interface Profession {
   image: string;
 }
 
-export const professions: Profession[] = [
+const professionsBase: Profession[] = [
   {
     slug: "software-developer",
     name: "Software Developer",
@@ -9241,6 +9244,8 @@ export const professions: Profession[] = [
     image: "/images/professions/biotech-researcher.webp"
   }
 ];
+
+export const professions = applyFactOverridesBySlug(professionsBase, professionsFactOverrides);
 
 // Helper functions
 export function getProfessionBySlug(slug: string): Profession | undefined {

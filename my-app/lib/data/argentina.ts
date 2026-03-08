@@ -3,6 +3,12 @@
 // Comprehensive data for programmatic SEO pages across all of Argentina
 // ============================================================================
 
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import {
+  citiesFactOverrides,
+  provincesFactOverrides,
+} from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface Province {
   slug: string;
   name: string;
@@ -63,7 +69,7 @@ export const regions: { name: Region; description: string; color: string }[] = [
 // PROVINCES (24 total: 23 provinces + CABA)
 // ============================================================================
 
-export const provinces: Province[] = [
+const provincesBase: Province[] = [
   {
     slug: "buenos-aires-city",
     name: "Buenos Aires (CABA)",
@@ -690,11 +696,13 @@ export const provinces: Province[] = [
   },
 ];
 
+export const provinces = applyFactOverridesBySlug(provincesBase, provincesFactOverrides);
+
 // ============================================================================
 // CITIES (Top 15 expat-relevant cities)
 // ============================================================================
 
-export const cities: City[] = [
+const citiesBase: City[] = [
   {
     slug: "buenos-aires",
     name: "Buenos Aires",
@@ -1465,6 +1473,8 @@ export const cities: City[] = [
     image: "/images/cities/villa-carlos-paz.webp",
   },
 ];
+
+export const cities = applyFactOverridesBySlug(citiesBase, citiesFactOverrides);
 
 // ============================================================================
 // HELPER FUNCTIONS

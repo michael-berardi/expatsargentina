@@ -3,6 +3,9 @@
 // Comprehensive data for programmatic SEO pages on investment sectors
 // ============================================================================
 
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { investmentSectorsFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface InvestmentSector {
   slug: string;
   name: string;
@@ -24,7 +27,7 @@ export interface InvestmentSector {
   image: string;
 }
 
-export const investmentSectors: InvestmentSector[] = [
+const investmentSectorsBase: InvestmentSector[] = [
   {
     slug: "real-estate",
     name: "Real Estate Investment",
@@ -431,6 +434,11 @@ export const investmentSectors: InvestmentSector[] = [
     image: "/images/investments/tourism.webp"
   }
 ];
+
+export const investmentSectors = applyFactOverridesBySlug(
+  investmentSectorsBase,
+  investmentSectorsFactOverrides
+);
 
 // ============================================================================
 // Helper Functions

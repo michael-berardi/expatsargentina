@@ -3,6 +3,9 @@
 // Comprehensive blog content for expats moving to Argentina
 // ============================================================================
 
+import { applyFactOverridesBySlug } from "../source-of-truth-sync";
+import { blogPostsFactOverrides } from "../../content-sync/generated/source-of-truth-fact-overrides";
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -23,7 +26,7 @@ export interface BlogPost {
   relatedPosts?: string[];
 }
 
-export const blogPosts: BlogPost[] = [
+const blogPostsBase: BlogPost[] = [
   {
     slug: "complete-guide-digital-nomad-visa-argentina-2026",
     title: "The Complete Guide to Argentina's Digital Nomad Visa in 2026",
@@ -2083,6 +2086,8 @@ Wherever you choose, Argentina welcomes remote workers with open arms.
     relatedPosts: ["complete-guide-digital-nomad-visa-argentina-2026", "cost-living-buenos-aires-2025"]
   }
 ];
+
+export const blogPosts = applyFactOverridesBySlug(blogPostsBase, blogPostsFactOverrides);
 
 // Helper functions
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
