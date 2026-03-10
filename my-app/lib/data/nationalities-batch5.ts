@@ -45,7 +45,7 @@ export const nationalitiesBatch5: Nationality[] = [
         "Expedited residency processing",
         "Humanitarian visa provisions",
         "Work authorization during application",
-        "Access to public healthcare and education",
+        "Access to education; emergency healthcare free for all, routine public healthcare requires permanent residency or private insurance (Decreto 366/2025)",
         "Family reunification programs",
         "Community support networks"
       ]
@@ -92,7 +92,7 @@ export const nationalitiesBatch5: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Humanitarian Visa or Temporary Residency",
-      timeline: "30-60 days for humanitarian cases. Citizenship in 2 years.",
+      timeline: "30-60 days for humanitarian cases. Citizenship planning usually starts after 2 years of continuous legal residence.",
       steps: [
         "Enter Argentina (90 days visa-free)",
         "Apply for humanitarian visa or temporary residency",
@@ -100,7 +100,7 @@ export const nationalitiesBatch5: Nationality[] = [
         "Receive precaria (work authorization during processing)",
         "Complete biometric data collection",
         "Receive residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years of continuous legal residence, evaluate the judicial citizenship route if you want to naturalize"
       ],
       tips: [
         "Contact Ukrainian community organizations for support",
@@ -130,7 +130,7 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       {
         question: "Is Argentine citizenship available?",
-        answer: "Yes, after 2 years of legal residency, Ukrainians can apply for citizenship. Ukraine allows dual citizenship."
+        answer: "After 2 years of continuous legal residence, you can generally evaluate Argentine citizenship through the courts. Because Ukrainian nationality rules can be complex, confirm the dual-nationality consequences with qualified counsel before filing."
       }
     ],
     relatedResources: [
@@ -229,7 +229,7 @@ export const nationalitiesBatch5: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad Visa or Temporary Residency",
-      timeline: "30-45 days processing. Citizenship eligibility after 2 years of residency.",
+      timeline: "30-45 days processing. Citizenship planning usually starts after 2 years of continuous legal residence.",
       steps: [
         "Enter Argentina with Romanian passport (90 days visa-free)",
         "Gather required documents including apostilled criminal record",
@@ -237,7 +237,7 @@ export const nationalitiesBatch5: Nationality[] = [
         "Submit birth certificate (apostilled) and proof of address",
         "Receive precaria (temporary authorization) while processing",
         "Collect residency card (DNI extranjero) within 30-45 days",
-        "Apply for citizenship after 2 years of legal residency"
+        "After 2 years of continuous legal residence, evaluate the judicial citizenship route if you want to naturalize"
       ],
       tips: [
         "Get criminal record certificate apostilled in Romania before departure",
@@ -263,7 +263,7 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       {
         question: "How long until I can get citizenship?",
-        answer: "After 2 years of legal residency, you can apply for Argentine citizenship. Romania allows dual citizenship, so you can keep your Romanian passport."
+        answer: "After 2 years of continuous legal residence, you can generally evaluate Argentine citizenship through the courts. Romania allows dual citizenship, but you should still confirm your personal situation before filing."
       },
       {
         question: "What documents need apostille?",
@@ -376,7 +376,7 @@ export const nationalitiesBatch5: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad Visa or Temporary Residency",
-      timeline: "30-45 days processing. Eligible for citizenship after 2 years of residency.",
+      timeline: "30-45 days processing. Citizenship planning usually starts after 2 years of continuous legal residence.",
       steps: [
         "Enter Argentina with Czech passport (90 days visa-free)",
         "Gather required documents including apostilled criminal record",
@@ -384,7 +384,7 @@ export const nationalitiesBatch5: Nationality[] = [
         "Submit apostilled birth certificate and proof of address",
         "Receive precaria (temporary authorization) allowing legal stay",
         "Collect residency card within 30-45 days",
-        "After 2 years, apply for citizenship if desired"
+        "After 2 years of continuous legal residence, evaluate the judicial citizenship route if desired"
       ],
       tips: [
         "Get criminal record certificate apostilled before leaving Czech Republic",
@@ -522,7 +522,7 @@ export const nationalitiesBatch5: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad Visa or Temporary Residency",
-      timeline: "30-45 days processing. Citizenship eligibility after 2 years.",
+      timeline: "30-45 days processing. Citizenship planning usually starts after 2 years of continuous legal residence.",
       steps: [
         "Enter Argentina with Hungarian passport (90 days visa-free)",
         "Gather documents including apostilled criminal record",
@@ -530,7 +530,7 @@ export const nationalitiesBatch5: Nationality[] = [
         "Submit birth certificate (apostilled) and proof of address",
         "Receive precaria (temporary authorization)",
         "Collect residency card within 30-45 days",
-        "Apply for citizenship after 2 years of residency"
+        "After 2 years of continuous legal residence, evaluate the judicial citizenship route if you want to naturalize"
       ],
       tips: [
         "Get criminal record certificate apostilled before departure from Hungary",
@@ -556,7 +556,7 @@ export const nationalitiesBatch5: Nationality[] = [
       },
       {
         question: "When can I apply for citizenship?",
-        answer: "After 2 years of legal residency, you can apply for Argentine citizenship. Hungary allows dual citizenship."
+        answer: "After 2 years of continuous legal residence, you can generally evaluate Argentine citizenship through the courts. Hungary allows dual citizenship, but you should still confirm your personal situation before filing."
       },
       {
         question: "What documents need apostille?",

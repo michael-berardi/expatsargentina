@@ -80,7 +80,7 @@ export const nationalitiesBatch6: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Student Visa or Digital Nomad (for remote workers)",
-      timeline: "60-90 days for residency. Citizenship in 2 years.",
+      timeline: "60-90 days for residency. Citizenship planning usually starts after 2 years of continuous legal residence.",
       steps: [
         "Apply for tourist visa at Argentine embassy in Abuja",
         "Enter Argentina",
@@ -390,14 +390,14 @@ export const nationalitiesBatch6: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Temporary Residency (after 90-day entry) or Digital Nomad",
-      timeline: "60-90 days for residency. Citizenship in 2 years.",
+      timeline: "60-90 days for residency. Citizenship planning usually starts after 2 years of continuous legal residence.",
       steps: [
         "Enter Argentina visa-free (90 days)",
         "Apply for residency within 90 days",
         "Submit apostilled criminal record and birth certificate",
         "Receive precaria",
         "Pick up residency card within 60-90 days",
-        "Apply for citizenship after 2 years if desired"
+        "After 2 years of continuous legal residence, evaluate the judicial citizenship route if desired"
       ],
       tips: [
         "Get criminal record apostilled in Turkey before traveling",
