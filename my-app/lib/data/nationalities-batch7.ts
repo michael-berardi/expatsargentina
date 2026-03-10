@@ -201,23 +201,22 @@ export const nationalitiesBatch7: Nationality[] = [
     flag: "🇮🇩",
     title: "Indonesian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Visa pathways for Indonesian citizens moving to Argentina",
-    description: "Indonesia and Argentina established diplomatic relations in 1954. Indonesian citizens can access Argentine residency through student visas, employment permits, and the digital nomad program.",
+    description: "Indonesia and Argentina established diplomatic relations in 1954. Indonesians can still relocate successfully, but most long-stay cases rely on student residence, employer sponsorship, family ties, or another standard residency category rather than a shortcut program.",
     region: "asia",
     visaRequirements: {
       tourist: {
         duration: "90 days",
-        notes: "Indonesians need tourist visa before travel",
-        reciprocityFee: true,
-        feeAmount: "$200-300 USD"
+        notes: "Indonesian passport holders generally need a tourist visa before travel through the Argentine consular network.",
+        reciprocityFee: false
       },
       digitalNomad: {
-        eligible: true,
-        notes: "Available for Indonesian remote workers",
-        incomeRequirement: "$1,000-1,500 USD/month"
+        eligible: false,
+        notes: "Argentina's digital nomad authorization is aimed at nationals who already enter visa-free as tourists, so Indonesians usually need another residence pathway.",
+        incomeRequirement: "Not available on an Indonesian passport that requires prior tourist authorization"
       },
       work: {
         eligible: true,
-        notes: "Employer sponsorship required",
+        notes: "Employer sponsorship is the clearest work-based route. University, hospitality, trade, and company-transfer cases are more realistic than purely freelance relocation.",
         sponsorshipRequired: true
       },
       mercosur: {
@@ -227,7 +226,13 @@ export const nationalitiesBatch7: Nationality[] = [
     },
     specialAgreements: {
       hasAgreement: false,
-      type: "None"
+      type: "None",
+      description: "There is no Mercosur or bilateral immigration shortcut for Indonesian passport holders. Standard tourist-visa and residence rules apply, so careful document preparation is essential.",
+      benefits: [
+        "Standard student, work, and family-based residence categories are open",
+        "Embassy and student-community support is available in Buenos Aires",
+        "Strong English skills can help during the first months while Spanish improves"
+      ]
     },
     documents: {
       passportValidity: "6 months beyond stay",
@@ -250,30 +255,57 @@ export const nationalitiesBatch7: Nationality[] = [
     },
     communityInfo: {
       populationInArgentina: "2,000-3,000",
-      mainLocations: ["Buenos Aires"],
-      associations: [],
-      facebookGroups: ["Indonesians in Argentina"]
+      mainLocations: ["Buenos Aires", "La Plata", "Córdoba"],
+      associations: [
+        { name: "Embassy of Indonesia in Buenos Aires", url: "https://kemlu.go.id/buenosaires" },
+        { name: "Indonesian Students Association in Argentina (PPI Argentina)" }
+      ],
+      facebookGroups: ["Indonesians in Argentina", "PPI Argentina"]
     },
     residencyPath: {
-      easiestRoute: "Student Visa or Digital Nomad",
-      timeline: "60-90 days",
+      easiestRoute: "Student residence, employer-sponsored residence, or family reunification",
+      timeline: "Plan for several months between consular visa processing, apostilles, translations, and the Argentine residence review.",
       steps: [
-        "Apply for tourist visa",
-        "Enter Argentina",
-        "Choose residency pathway",
-        "Submit documents",
-        "Receive precaria",
-        "Collect card"
+        "Apply for the correct tourist or entry visa through the Argentine consular channel before departure",
+        "Collect your passport, birth certificate, and SKCK with the required apostilles or legalizations",
+        "Secure the residence basis that fits your case, such as university enrollment, a sponsoring employer, or a family tie",
+        "Travel to Argentina and arrange certified Spanish translations for foreign-language documents",
+        "Submit the residence file to Migraciones once your qualifying category is complete",
+        "Receive your precaria while the file is being reviewed",
+        "Finish DNI issuance after the residence approval is granted"
       ],
       tips: [
         "Get SKCK before travel",
-        "English proficiency helpful"
+        "Confirm legalization and translation rules with the Argentine consular post because requirements can change by document type",
+        "If you are moving for study, ask your university whether it already helps foreign students with Migraciones paperwork",
+        "Join Indonesian community groups early so you have local help for housing and first-week logistics",
+        "Budget extra time for Spanish translations and local appointments after you land"
       ]
     },
     faqs: [
       {
         question: "Do Indonesians need a visa?",
-        answer: "Yes, tourist visa required before travel."
+        answer: "Yes. Indonesian passport holders generally need a tourist visa before departure, so you should not assume you can board first and fix the paperwork later."
+      },
+      {
+        question: "Can Indonesians use Argentina's digital nomad visa?",
+        answer: "Usually no. Argentina's current digital nomad authorization is designed for travelers who already qualify for visa-free tourist entry, so Indonesians normally need another long-stay category."
+      },
+      {
+        question: "What is the most practical path for long-term stay?",
+        answer: "Student residence, employer sponsorship, and family-based residence are typically the most realistic pathways. Which one is best depends on whether you already have an employer, university admission, or family tie in Argentina."
+      },
+      {
+        question: "Is there an Indonesian community in Argentina?",
+        answer: "Yes, though it is small. The largest concentration is in Greater Buenos Aires, with students and professionals also appearing around La Plata and Córdoba. Embassy and student-community channels are useful first points of contact."
+      },
+      {
+        question: "Do I need Spanish before moving?",
+        answer: "You do not need perfect Spanish to start, but it matters quickly. Residency appointments, rentals, banking, and day-to-day problem-solving all become easier once you can handle basic administrative Spanish."
+      },
+      {
+        question: "Can Indonesians keep dual citizenship after naturalizing?",
+        answer: "Indonesia does not generally permit dual citizenship for adults, so naturalization questions require careful legal advice before you make any irreversible moves."
       }
     ],
     relatedResources: [
@@ -281,6 +313,16 @@ export const nationalitiesBatch7: Nationality[] = [
         title: "Student Visa",
         url: "/visas/student",
         description: "For Indonesian students"
+      },
+      {
+        title: "Work Visa Guide",
+        url: "/visas/work",
+        description: "Employer-sponsored options"
+      },
+      {
+        title: "Cost of Living",
+        url: "/blog/cost-living-buenos-aires-2025",
+        description: "Budget planning before the move"
       }
     ],
     image: "/images/nationalities/indonesia.webp"

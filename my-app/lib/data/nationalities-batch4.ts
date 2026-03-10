@@ -410,14 +410,14 @@ export const nationalitiesBatch4: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Temporary Residency (after 90-day entry) or Digital Nomad",
-      timeline: "60-90 days for residency card. Citizenship in 2 years.",
+      timeline: "60-90 days for residency card. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina visa-free (90 days)",
         "Apply for residency within 90 days",
         "Submit apostilled criminal record and birth certificate",
         "Receive precaria (temporary authorization)",
         "Pick up residency card within 60-90 days",
-        "Apply for citizenship after 2 years if desired"
+        "After 2 years on an eligible temporary residence visa, apply for permanent residency, then citizenship if desired"
       ],
       tips: [
         "Get certificate of good conduct apostilled before leaving Israel",
@@ -495,18 +495,17 @@ export const nationalitiesBatch4: Nationality[] = [
     visaRequirements: {
       tourist: {
         duration: "90 days",
-        notes: "Filipinos need a tourist visa before travel. Apply at Argentine embassy.",
-        reciprocityFee: true,
-        feeAmount: "$150-200 USD"
+        notes: "Most Filipino citizens need a tourist visa before travel. Travelers who already hold a qualifying valid U.S. visa may be able to use Argentina's AVE authorization instead of a full consular tourist visa.",
+        reciprocityFee: false
       },
       digitalNomad: {
-        eligible: true,
-        notes: "Good option for Filipino remote workers and freelancers",
-        incomeRequirement: "$1,000-1,500 USD/month"
+        eligible: false,
+        notes: "Argentina's current digital nomad authorization is built for passports that can already enter visa-free as tourists, so Filipino applicants usually need another residence strategy.",
+        incomeRequirement: "Not available on a Philippine passport that requires prior tourist authorization"
       },
       work: {
         eligible: true,
-        notes: "Employer sponsorship required. Opportunities in healthcare and services.",
+        notes: "Employer sponsorship through Migraciones is the clearest long-stay path. Healthcare, caregiving, maritime, hospitality, and service roles are the most common openings.",
         sponsorshipRequired: true
       },
       mercosur: {
@@ -517,11 +516,12 @@ export const nationalitiesBatch4: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "None",
-      description: "No special agreements, but diplomatic relations are positive",
+      description: "There is no Mercosur or bilateral immigration shortcut for Philippine passport holders. Standard consular visa and residency rules apply, with AVE only available in narrow cases approved through the Argentine consular system.",
       benefits: [
         "English proficiency valued in Argentina",
         "Growing demand for healthcare workers",
         "Filipino work ethic highly regarded",
+        "Strong reputation in caregiving, hospitality, and maritime roles",
         "Cultural adaptability"
       ]
     },
@@ -559,7 +559,7 @@ export const nationalitiesBatch4: Nationality[] = [
       ],
       associations: [
         { name: "Filipino Community Argentina" },
-        { name: "Philippine Embassy Buenos Aires" }
+        { name: "Philippine Embassy Buenos Aires", url: "https://buenosairespe.dfa.gov.ph/" }
       ],
       facebookGroups: [
         "Filipinos in Buenos Aires",
@@ -568,39 +568,44 @@ export const nationalitiesBatch4: Nationality[] = [
       ]
     },
     residencyPath: {
-      easiestRoute: "Work-sponsored visa or Digital Nomad (for remote workers)",
-      timeline: "90 days for Digital Nomad. Work visa varies.",
+      easiestRoute: "Employer-sponsored residence, student residence, or family reunification",
+      timeline: "Expect several months from document gathering to approval, especially if you need apostilles and a tourist visa or AVE before travel.",
       steps: [
-        "Apply for tourist visa at Argentine embassy in Manila",
-        "Enter Argentina",
-        "For remote workers: Apply for Digital Nomad Visa",
-        "For employment: Secure job offer and employer sponsorship",
-        "Submit residency application with apostilled documents",
-        "Receive precaria",
-        "Pick up residency card within 60-90 days"
+        "Confirm whether you need a full tourist visa or qualify for the AVE pre-travel authorization",
+        "Collect your passport, PSA civil documents, and NBI clearance with the required apostilles",
+        "Secure the residence basis that matches your case, such as employer sponsorship, school enrollment, or family reunification",
+        "Travel to Argentina with the correct entry authorization and prepare certified Spanish translations",
+        "Submit your residence file through Migraciones once your qualifying category is ready",
+        "Receive your precaria while the residence is under review",
+        "Complete DNI issuance after the residence approval is granted"
       ],
       tips: [
         "Get NBI Clearance apostilled by DFA before travel",
+        "If you may qualify for AVE, confirm it with the Argentine consular post before booking flights",
         "Healthcare sector actively hires Filipino nurses and caregivers",
         "English is a major advantage - many Argentine families seek English-speaking caregivers",
         "Join Filipino community groups for support",
         "Filipino food products available at specialty stores in Belgrano",
-        "Consider caregiving or nursing credentials recognition process",
+        "Start any caregiving or nursing credential recognition process early if you want regulated work",
         "Spanish essential for daily life - start learning early"
       ]
     },
     faqs: [
       {
         question: "Do Filipinos need a visa for Argentina?",
-        answer: "Yes, Filipino citizens need a tourist visa before travel. Apply at the Argentine embassy in Manila. The visa allows 90 days stay. For longer stays, apply for residency after arrival."
+        answer: "Usually yes. Most Filipino passport holders need prior tourist authorization before boarding. In some cases, people who already hold a qualifying valid U.S. visa can use Argentina's AVE system instead of a full tourist visa, but you should confirm that with the Argentine consular post before traveling."
+      },
+      {
+        question: "Can Filipinos use the digital nomad visa?",
+        answer: "Not as a straightforward route. Argentina's current digital nomad authorization is designed for travelers who already enter as visa-free tourists, so Filipino remote workers usually need to look at work, study, family, or other residence categories instead."
       },
       {
         question: "Is there a Filipino community?",
-        answer: "Yes, small but growing - 5,000-8,000 Filipinos in Argentina, mainly in Buenos Aires. Concentrated in healthcare, domestic work, and services. Active Facebook groups provide community support."
+        answer: "Yes. The community is still relatively small compared with other migrant groups, but it is visible in Buenos Aires and a few provincial cities, especially in healthcare, caregiving, hospitality, and maritime-related circles."
       },
       {
         question: "What jobs do Filipinos do?",
-        answer: "Many work as nurses, caregivers, domestic helpers, and in services. English-speaking Filipinos are in high demand for childcare and eldercare. Some work in hospitality and offices."
+        answer: "Many Filipinos in Argentina work in nursing, caregiving, hospitality, shipping, and service roles. English-speaking childcare and eldercare work can be a practical bridge, but long-term stability usually comes from getting the right residence and local paperwork in place."
       },
       {
         question: "Is English enough to get by?",
@@ -616,7 +621,7 @@ export const nationalitiesBatch4: Nationality[] = [
       },
       {
         question: "Will I lose my Philippine citizenship?",
-        answer: "No, Philippines allows dual citizenship. You can become Argentine while keeping your Philippine passport. Many Filipinos maintain both."
+        answer: "Natural-born Filipinos can usually retain or reacquire Philippine citizenship under the Philippine dual-citizenship regime, but you should check the latest Philippine consular rules before making any naturalization plans."
       },
       {
         question: "Is Filipino food available?",
@@ -625,14 +630,14 @@ export const nationalitiesBatch4: Nationality[] = [
     ],
     relatedResources: [
       {
-        title: "Digital Nomad Visa",
-        url: "/visas/digital-nomad",
-        description: "For remote workers"
-      },
-      {
         title: "Work Visa Guide",
         url: "/visas/work",
         description: "Employer-sponsored options"
+      },
+      {
+        title: "Student Visa",
+        url: "/visas/student",
+        description: "Alternative route for study-based residence"
       },
       {
         title: "Cost of Living",

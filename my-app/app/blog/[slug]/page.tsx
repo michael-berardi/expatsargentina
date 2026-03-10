@@ -71,47 +71,190 @@ function generateTOC(content: string) {
   return headings.map((heading) => {
     const level = heading.match(/^#+/)?.[0].length || 2;
     const text = heading.replace(/^#+ /, "");
-    const id = text.toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
+    const id = createHeadingId(text);
     return { level, text, id };
   });
 }
 
-// Convert markdown to HTML (basic implementation)
-function markdownToHtml(content: string): string {
+function escapeHtml(content: string): string {
   return content
-    // Headers
-    .replace(/^#### (.+)$/gm, "<h4 id=\"$1\">$1</h4>")
-    .replace(/^### (.+)$/gm, (_, text) => {
-      const id = text.toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
-      return `<h3 id="${id}">${text}</h3>`;
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function createHeadingId(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/&(?:[a-z0-9]+|#\d+|#x[a-f0-9]+);/gi, "")
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-");
+}
+
+function formatDisplayDate(dateString: string): string {
+  const dateOnlyMatch = dateString.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+
+  if (dateOnlyMatch) {
+    const [, year, month, day] = dateOnlyMatch;
+    return new Intl.DateTimeFormat("en-US", {
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+      timeZone: "UTC",
+    }).format(new Date(Date.UTC(Number(year), Number(month) - 1, Number(day))));
+  }
+
+  return new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  }).format(new Date(dateString));
+}
+
+function sanitizeHref(href: string): string {
+  const normalized = href.trim().replace(/&amp;/g, "&");
+
+  if (normalized.startsWith("/") || normalized.startsWith("#")) {
+    return normalized;
+  }
+
+  try {
+    const parsed = new URL(normalized);
+    return ["http:", "https:", "mailto:"].includes(parsed.protocol) ? parsed.toString() : "#";
+  } catch {
+    return "#";
+  }
+}
+
+function renderInlineMarkdown(content: string): string {
+  return escapeHtml(content)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, text, href) => {
+      const safeHref = sanitizeHref(href);
+      const externalTarget =
+        safeHref.startsWith("http://") || safeHref.startsWith("https://")
+          ? ' target="_blank" rel="noopener noreferrer"'
+          : "";
+      return `<a href="${safeHref}"${externalTarget}>${text}</a>`;
     })
-    .replace(/^## (.+)$/gm, (_, text) => {
-      const id = text.toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
-      return `<h2 id="${id}">${text}</h2>`;
-    })
-    .replace(/^# (.+)$/gm, "<h1>$1</h1>")
-    // Bold and italic
     .replace(/\*\*\*(.+?)\*\*\*/g, "<strong><em>$1</em></strong>")
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(.+?)\*/g, "<em>$1</em>")
-    // Links
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
-    // Code
-    .replace(/`([^`]+)`/g, "<code>$1</code>")
-    // Lists
-    .replace(/^\* (.+)$/gm, "<li>$1</li>")
-    .replace(/(<li>.*<\/li>\n)+/g, "<ul>$&</ul>")
-    // Line breaks
-    .replace(/\n\n/g, "</p><p>")
-    .replace(/^(.+)$/gm, "<p>$1</p>")
-    // Clean up empty paragraphs
-    .replace(/<p><\/p>/g, "")
-    // Tables (simplified)
-    .replace(/\|(.+)\|/g, (match) => {
-      if (match.includes("---")) return "";
-      const cells = match.split("|").filter(c => c.trim());
-      return `<tr>${cells.map(c => `<td>${c.trim()}</td>`).join("")}</tr>`;
-    });
+    .replace(/`([^`]+)`/g, "<code>$1</code>");
+}
+
+function renderTableRow(line: string, cellTag: "th" | "td") {
+  const cells = line
+    .trim()
+    .slice(1, -1)
+    .split("|")
+    .map((cell) => cell.trim());
+
+  return `<tr>${cells.map((cell) => `<${cellTag}>${renderInlineMarkdown(cell)}</${cellTag}>`).join("")}</tr>`;
+}
+
+function renderTable(lines: string[]) {
+  const [header, , ...rows] = lines;
+  return `
+    <div class="overflow-x-auto">
+      <table>
+        <thead>${renderTableRow(header, "th")}</thead>
+        <tbody>${rows.map((row) => renderTableRow(row, "td")).join("")}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+// Convert markdown to HTML with basic block support for headings, lists, and tables.
+function markdownToHtml(content: string): string {
+  const lines = content.split("\n");
+  const html: string[] = [];
+  let paragraph: string[] = [];
+  let listItems: string[] = [];
+  let listType: "ul" | "ol" | null = null;
+
+  const flushParagraph = () => {
+    if (paragraph.length === 0) return;
+    html.push(`<p>${renderInlineMarkdown(paragraph.join(" "))}</p>`);
+    paragraph = [];
+  };
+
+  const flushList = () => {
+    if (listItems.length === 0 || !listType) return;
+    html.push(`<${listType}>${listItems.map((item) => `<li>${renderInlineMarkdown(item)}</li>`).join("")}</${listType}>`);
+    listItems = [];
+    listType = null;
+  };
+
+  for (let i = 0; i < lines.length; i += 1) {
+    const rawLine = lines[i];
+    const trimmed = rawLine.trim();
+
+    if (!trimmed) {
+      flushParagraph();
+      flushList();
+      continue;
+    }
+
+    if (
+      trimmed.startsWith("|") &&
+      trimmed.endsWith("|") &&
+      i + 1 < lines.length &&
+      /^\|?[\s:-|]+\|?$/.test(lines[i + 1].trim())
+    ) {
+      flushParagraph();
+      flushList();
+      const tableLines = [trimmed, lines[i + 1].trim()];
+      i += 2;
+      while (i < lines.length) {
+        const tableLine = lines[i].trim();
+        if (!tableLine.startsWith("|") || !tableLine.endsWith("|")) {
+          i -= 1;
+          break;
+        }
+        tableLines.push(tableLine);
+        i += 1;
+      }
+      html.push(renderTable(tableLines));
+      continue;
+    }
+
+    const headingMatch = trimmed.match(/^(#{2,4})\s+(.+)$/);
+    if (headingMatch) {
+      flushParagraph();
+      flushList();
+      const level = headingMatch[1].length;
+      const text = headingMatch[2];
+      const id = createHeadingId(text);
+      html.push(`<h${level} id="${id}">${renderInlineMarkdown(text)}</h${level}>`);
+      continue;
+    }
+
+    if (/^#\s+/.test(trimmed)) {
+      // The page hero already renders the article title.
+      continue;
+    }
+
+    if (/^[-*]\s+/.test(trimmed) || /^\d+\.\s+/.test(trimmed)) {
+      flushParagraph();
+      const nextListType = /^\d+\.\s+/.test(trimmed) ? "ol" : "ul";
+      if (listType && listType !== nextListType) {
+        flushList();
+      }
+      listType = nextListType;
+      listItems.push(trimmed.replace(/^([-*]|\d+\.)\s+/, ""));
+      continue;
+    }
+
+    flushList();
+    paragraph.push(trimmed);
+  }
+
+  flushParagraph();
+  flushList();
+
+  return html.join("\n");
 }
 
 // Article JSON-LD structured data
@@ -226,8 +369,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </span>
             </nav>
 
-            <div className="grid lg:grid-cols-[1fr_300px] gap-8 lg:gap-12">
-              {/* Main Content */}
+            <div className="space-y-8">
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-4">
                   <Badge className="capitalize">
@@ -256,11 +398,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <div className="flex items-center gap-1">
                     <Calendar className="h-4 w-4" />
                     <time dateTime={post.publishedAt}>
-                      {new Date(post.publishedAt).toLocaleDateString("en-US", {
-                        month: "long",
-                        day: "numeric",
-                        year: "numeric",
-                      })}
+                      {formatDisplayDate(post.publishedAt)}
                     </time>
                   </div>
                   <span className="hidden sm:inline">•</span>
@@ -272,57 +410,26 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
                 {post.updatedAt && (
                   <p className="text-sm text-muted-foreground mt-2">
-                    Updated: {new Date(post.updatedAt).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "numeric",
-                      year: "numeric",
-                    })}
+                    Updated: {formatDisplayDate(post.updatedAt)}
                   </p>
                 )}
               </div>
 
-              {/* Table of Contents */}
-              {toc.length > 0 && (
-                <aside className="hidden lg:block">
-                  <Card className="sticky top-24">
-                    <CardContent className="p-6">
-                      <h2 className="font-semibold mb-4">Table of Contents</h2>
-                      <nav className="space-y-2">
-                        {toc.map((item, index) => (
-                          <a
-                            key={index}
-                            href={`#${item.id}`}
-                            className={`block text-sm hover:text-primary transition-colors ${
-                              item.level === 3 ? "pl-4 text-muted-foreground" : "text-foreground"
-                            }`}
-                          >
-                            {item.text}
-                          </a>
-                        ))}
-                      </nav>
-                    </CardContent>
-                  </Card>
-                </aside>
-              )}
+              <div className="relative aspect-[2/1] md:aspect-[3/1] max-h-[500px] rounded-xl overflow-hidden">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </header>
 
-        {/* Featured Image */}
-        <div className="container px-4 md:px-6 -mt-4">
-          <div className="relative aspect-[2/1] md:aspect-[3/1] max-h-[500px] rounded-xl overflow-hidden">
-            <Image
-              src={post.image}
-              alt={post.title}
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        </div>
-
         {/* Article Content */}
-        <div className="container px-4 md:px-6 py-12">
+        <div className="container px-4 md:px-6 pt-12 pb-12">
           <div className="grid lg:grid-cols-[1fr_300px] gap-8 lg:gap-12">
             <div className="max-w-none">
               <div 
@@ -356,6 +463,27 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
             {/* Sidebar */}
             <aside className="space-y-6">
+              {toc.length > 0 && (
+                <Card className="sticky top-24">
+                  <CardContent className="p-6">
+                    <h2 className="font-semibold mb-4">Table of Contents</h2>
+                    <nav className="space-y-2">
+                      {toc.map((item, index) => (
+                        <a
+                          key={index}
+                          href={`#${item.id}`}
+                          className={`block text-sm hover:text-primary transition-colors ${
+                            item.level === 3 ? "pl-4 text-muted-foreground" : "text-foreground"
+                          }`}
+                        >
+                          {item.text}
+                        </a>
+                      ))}
+                    </nav>
+                  </CardContent>
+                </Card>
+              )}
+
               {/* Author Card */}
               <Card>
                 <CardContent className="p-6">

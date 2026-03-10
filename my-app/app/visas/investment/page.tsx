@@ -18,12 +18,12 @@ import {
 } from "@/components/ui/icon";
 
 export const metadata: Metadata = {
-  title: "Argentina Investment Visa - Residency by Investment Guide 2026",
-  description: "Complete guide to Argentina's investment visa. Requirements, investment options, application process, costs, and benefits of obtaining residency through business investment in Argentina.",
+  title: "Argentina Investor Residency Guide 2026",
+  description: "How Argentina's investor residency works in practice: productive-investment requirements, business setup expectations, document prep, and where official rules remain case-specific.",
   keywords: ["Argentina investment visa", "residency by investment Argentina", "invest in Argentina", "Argentina business visa", "Argentina investor residency"],
   openGraph: {
-    title: "Argentina Investment Visa - Residency by Investment Guide 2026",
-    description: "Obtain Argentine residency through business investment. Complete guide to investment options, requirements, and application process.",
+    title: "Argentina Investor Residency Guide 2026",
+    description: "Understand Argentina's investor residency path, what counts as productive investment, and where you need professional guidance before acting.",
   },
   alternates: {
     canonical: "https://expatsargentina.com/visas/investment",
@@ -34,7 +34,7 @@ const requirements = [
   {
     icon: DollarSignIcon,
     title: "Qualifying Investment",
-    description: "A verifiable investment in an Argentine business, real estate development, or productive venture. The minimum investment amount is $150,000 USD to demonstrate seriousness and viability.",
+    description: "A verifiable productive investment in Argentina. Official guidance is case-specific, so focus on proving real economic activity, lawful source of funds, and a credible project rather than relying on a fixed internet dollar figure.",
   },
   {
     icon: BriefcaseIcon,
@@ -101,7 +101,7 @@ const applicationSteps = [
   {
     step: 6,
     title: "Review, Approval, and DNI",
-    description: "Migraciones will review your application, which may include requests for additional documentation or clarification about your investment. Processing typically takes 3-6 months. Once approved, you will receive temporary residency and can apply for your DNI at RENAPER, giving you full access to banking, contracts, and daily life in Argentina.",
+    description: "Migraciones will review your application, and investor files often trigger extra requests for business and source-of-funds documentation. Processing can stretch for several months. If temporary residency is approved, you can then move on to the DNI process through RENAPER.",
   },
 ];
 
@@ -120,7 +120,7 @@ const benefitsOfInvesting = [
   },
   {
     title: "Path to Permanent Residency and Citizenship",
-    description: "Investment residency leads to the same path as other temporary residency categories: after two to three years, you can apply for permanent residency, and Argentine citizenship is available after two additional years. An Argentine passport provides visa-free access to much of the world.",
+    description: "If your investor residence is approved and maintained lawfully, it can feed into the normal long-stay immigration path. Permanent residency and citizenship are not automatic benefits of wiring money into Argentina, and citizenship remains a separate judicial process.",
   },
   {
     title: "Tax Treaty Benefits",
@@ -135,7 +135,7 @@ const benefitsOfInvesting = [
 const faqs = [
   {
     question: "Is there a fixed minimum investment amount?",
-    answer: "The minimum investment amount for the investor visa is $150,000 USD. This threshold demonstrates a serious and viable business commitment. The key factors are the legitimacy, viability, and economic contribution of your investment. A compelling business plan and demonstrable economic activity are also important considerations alongside meeting the minimum investment threshold.",
+    answer: "Treat fixed dollar figures with caution. Argentina's official investor-residency guidance is more about the legitimacy, productive nature, and documentation of the investment than about a single marketing-style threshold. Before moving money, verify the current rule set with Migraciones and a lawyer who handles investor files.",
   },
   {
     question: "Does buying property qualify for the investment visa?",
@@ -194,66 +194,105 @@ export default function InvestmentVisaPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
+      <section className="overflow-hidden py-14 md:py-20 bg-[linear-gradient(180deg,rgba(15,118,110,0.08),rgba(255,255,255,1))] dark:bg-[linear-gradient(180deg,rgba(15,118,110,0.16),rgba(10,15,23,1))]">
         <div className="container mx-auto px-5">
-          <div className="max-w-3xl mx-auto text-center">
-            <Badge className="mb-4" variant="secondary">
-              <BriefcaseIcon size="sm" className="mr-1" />
-              Investor Residency
-            </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Argentina Investment Visa
-            </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              Obtain Argentine residency by investing in the country&apos;s economy.
-              Whether you are starting a business, acquiring an existing company, or investing
-              in a development project, the investment visa provides a pathway to residency
-              for entrepreneurs and investors ready to contribute to Argentina&apos;s growth.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <div className="flex items-center gap-2">
-                <ClockIcon size="sm" className="text-primary" />
-                <span>1-3 year residency</span>
+          <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
+            <div className="max-w-3xl">
+              <Badge className="mb-4" variant="secondary">
+                <BriefcaseIcon size="sm" className="mr-1" />
+                Investor Residency
+              </Badge>
+              <h1 className="text-4xl md:text-5xl font-bold text-balance mb-5">
+                Argentina Investor Residency
+              </h1>
+              <p className="text-xl text-muted-foreground text-pretty max-w-2xl mb-8">
+                This route is for people building a real Argentine business or productive investment
+                project, not for someone hoping a simple property purchase will behave like a
+                European golden visa. Expect a document-heavy, case-specific file from day one.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Button asChild size="lg" className="h-14 px-6 shadow-sm">
+                  <Link href="#requirements">
+                    Review Requirements
+                    <ArrowRightIcon size="sm" className="ml-2" />
+                  </Link>
+                </Button>
+                <Button asChild size="lg" variant="outline" className="h-14 px-6">
+                  <Link href="/visas#comparison">
+                    Compare Visa Types
+                    <GlobeIcon size="sm" className="ml-2" />
+                  </Link>
+                </Button>
               </div>
-              <div className="flex items-center gap-2">
-                <DollarSignIcon size="sm" className="text-primary" />
-                <span>$150,000 investment</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircleIcon size="sm" className="text-primary" />
-                <span>3-6 month processing</span>
+              <div className="mt-6 grid gap-3 sm:grid-cols-3">
+                <Card className="bg-background/90 shadow-sm">
+                  <CardContent className="p-4">
+                    <div className="flex items-center gap-2 text-primary mb-2">
+                      <ClockIcon size="sm" />
+                      <span className="text-sm font-medium">Timeline</span>
+                    </div>
+                    <p className="text-lg font-semibold">1-3 year stay</p>
+                    <p className="text-sm text-muted-foreground">Temporary residence first, with heavy review on the front end.</p>
+                  </CardContent>
+                </Card>
+                <Card className="bg-background/90 shadow-sm">
+                  <CardContent className="p-4">
+                    <div className="flex items-center gap-2 text-primary mb-2">
+                      <DollarSignIcon size="sm" />
+                      <span className="text-sm font-medium">Capital Test</span>
+                    </div>
+                    <p className="text-lg font-semibold">Case-specific</p>
+                    <p className="text-sm text-muted-foreground">Migraciones cares more about productive activity and proof than a meme threshold.</p>
+                  </CardContent>
+                </Card>
+                <Card className="bg-background/90 shadow-sm">
+                  <CardContent className="p-4">
+                    <div className="flex items-center gap-2 text-primary mb-2">
+                      <CheckCircleIcon size="sm" />
+                      <span className="text-sm font-medium">Best Outcome</span>
+                    </div>
+                    <p className="text-lg font-semibold">Long-stay path</p>
+                    <p className="text-sm text-muted-foreground">Potential bridge into the normal residency ladder if the file is genuine and maintained.</p>
+                  </CardContent>
+                </Card>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Quick Stats */}
-      <section className="py-12 border-b">
-        <div className="container mx-auto px-5">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">$150K</div>
-              <div className="text-sm text-muted-foreground">Minimum Investment</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">1-3</div>
-              <div className="text-sm text-muted-foreground">Years Residency</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">3-6</div>
-              <div className="text-sm text-muted-foreground">Months Processing</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">Renewable</div>
-              <div className="text-sm text-muted-foreground">Path to Citizenship</div>
-            </div>
+            <Card className="border-primary/10 bg-background/95 shadow-sm">
+              <CardHeader className="pb-4">
+                <CardTitle className="text-xl">Good Fit If...</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="rounded-xl border border-green-200 bg-green-50/70 p-4">
+                  <p className="font-medium text-green-900 mb-2">Strong investor-residency cases usually look like this:</p>
+                  <ul className="space-y-2 text-sm text-green-800">
+                    <li>Launching or acquiring an operating business in Argentina</li>
+                    <li>Keeping a clean source-of-funds trail and formal corporate records</li>
+                    <li>Working with legal and accounting support before filing</li>
+                  </ul>
+                </div>
+                <div className="rounded-xl border border-amber-200 bg-amber-50/70 p-4">
+                  <p className="font-medium text-amber-900 mb-2">Weak-fit signals to catch early:</p>
+                  <ul className="space-y-2 text-sm text-amber-800">
+                    <li>Buying a home for personal use and expecting that alone to qualify</li>
+                    <li>Treating investor residence like fast-track citizenship</li>
+                    <li>Underestimating bureaucracy, labor rules, or tax setup</li>
+                  </ul>
+                </div>
+                <Button asChild variant="ghost" className="w-full justify-between px-4">
+                  <Link href="#timeline">
+                    See the expected process
+                    <ArrowRightIcon size="sm" />
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
       {/* Overview */}
-      <section className="py-16">
+      <section id="overview" className="py-16">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center">Overview</h2>
@@ -275,13 +314,11 @@ export default function InvestmentVisaPage() {
                 than in comparable markets.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                The investment visa grants temporary residency for one to three years, renewable upon
-                demonstrating ongoing business activity. Like all temporary residency categories in
-                Argentina, it leads to permanent residency and eventually citizenship. The entire
-                pathway from initial investment to Argentine passport can be completed in approximately
-                five years, and Argentina permits dual citizenship with most countries. This makes it
-                an attractive option for investors seeking not only business opportunities but also
-                a second passport and global mobility.
+                The investor route should be separated from the 2025 headlines about a new
+                citizenship-by-investment framework. They are not the same process. Investor residency
+                still revolves around Migraciones, productive economic activity, and documentary proof.
+                If your real objective is citizenship, treat that as a separate legal question and verify the
+                current regime before assuming a timeline from blog posts or YouTube videos.
               </p>
             </div>
           </div>
@@ -310,7 +347,7 @@ export default function InvestmentVisaPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-16">
+      <section id="requirements" className="py-16">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Requirements</h2>
@@ -334,7 +371,7 @@ export default function InvestmentVisaPage() {
       </section>
 
       {/* Application Process */}
-      <section className="py-16 bg-muted/30">
+      <section id="timeline" className="py-16 bg-muted/30">
         <div className="container mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Step-by-Step Process</h2>
@@ -429,7 +466,7 @@ export default function InvestmentVisaPage() {
                   <CalendarIcon size="md" className="text-primary flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold">Months 4-9: Processing and Approval</h3>
-                    <p className="text-muted-foreground text-sm">Migraciones reviews your application. Investment visa processing tends to take longer than other categories due to the additional business documentation review. Expect 3-6 months. You may receive requests for additional information. Once approved, proceed to obtain your DNI.</p>
+                    <p className="text-muted-foreground text-sm">Migraciones reviews your application. Investor files often take longer than standard categories because the business and source-of-funds review is heavier. Expect follow-up requests and timeline swings rather than a perfectly predictable approval date. Once approved, proceed to obtain your DNI.</p>
                   </div>
                 </div>
               </Card>
@@ -547,13 +584,13 @@ export default function InvestmentVisaPage() {
           <div className="max-w-3xl mx-auto">
             <p className="text-xs text-muted-foreground text-center">
               This guide is for informational purposes only and does not constitute legal or
-              investment advice. Visa requirements, fees, investment thresholds, and processing
+              investment advice. Visa requirements, filing channels, investment thresholds, and processing
               times change frequently. Always verify current requirements on the official{" "}
               <Link href="https://www.migraciones.gov.ar" className="underline" target="_blank" rel="noopener noreferrer">
                 Argentine Immigration website
               </Link>{" "}
               and consult with qualified immigration and business attorneys before making any
-              investment decisions. Last updated: 2026.
+              investment decisions. Last updated: March 2026.
             </p>
           </div>
         </div>

@@ -257,7 +257,7 @@ export const recipesBase: Recipe[] = [
     slug: "milanesa",
     name: "Milanesa Napolitana",
     spanishName: "Milanesa a la Napolitana",
-    description: "Argentina's ultimate comfort food—a breaded beef cutlet topped with ham, tomato sauce, and melted mozzarella. A perfect hybrid of Italian and Argentine cuisine that appears on every neighborhood menu.",
+    description: "Argentina's ultimate comfort food: a breaded beef cutlet topped with ham, tomato sauce, and melted mozzarella. It is the most iconic Italian-Argentine diner plate and still shows up on neighborhood lunch menus across the country.",
     seoKeywords: ["milanesa napolitana recipe", "argentine milanesa", "authentic milanesa", "breaded beef cutlet", "milanesa argentina"],
     category: "main",
     region: "Nationwide (Italian-Argentine)",
@@ -271,9 +271,10 @@ export const recipesBase: Recipe[] = [
     protein: 42,
     carbs: 35,
     fat: 34,
-    history: "Milanesa arrived with Italian immigrants in the late 19th century, evolving from the Italian cotoletta alla milanese. The 'napolitana' variation—topped with tomato sauce, ham, and cheese—is distinctly Argentine and has no equivalent in Naples. It became popular in Buenos Aires' Italian neighborhoods and spread nationwide. Today, every Argentine family has their milanesa recipe, and it's the unofficial national comfort food.",
+    history: "Milanesa arrived with Italian immigrants in the late 19th century, evolving from the Italian cotoletta alla milanese. The 'napolitana' variation—topped with tomato sauce, ham, and cheese—is distinctly Argentine and has no equivalent in Naples. The most repeated origin story places it at the old Nápoli restaurant in Buenos Aires, where a customer was served a rescued cutlet covered with sauce and cheese after the first one overcooked. Whether or not that story is perfectly true, the dish spread from Buenos Aires to the rest of the country and became one of Argentina's default comfort meals at home, in bodegones, and on school lunch menus.",
     whereToFind: [
       "Desnivel (Defensa 855, San Telmo) - Classic neighborhood milanesa",
+      "El Preferido de Palermo - Upscale version that still respects the classic format",
       "Any Argentine 'restorán' or 'comedor' will serve it",
       "Best value: menú del día at neighborhood restaurants"
     ],
@@ -324,7 +325,8 @@ export const recipesBase: Recipe[] = [
       "For milanesa a caballo (on horseback), top with a fried egg along with the napolitana toppings.",
       "Make sure your oil is hot enough—if it's too cool, the breading will absorb oil and get greasy.",
       "The tomato sauce should be simple—just good canned tomatoes, garlic, and salt. Don't use heavy marinara.",
-      "Some Argentines add a slice of roasted red pepper under the cheese—delicious variation."
+      "Some Argentines add a slice of roasted red pepper under the cheese—delicious variation.",
+      "If you want the classic diner plate, serve it with fries, a squeeze of lemon, and just enough salad to keep the meal from feeling absurd."
     ]
   },
   {

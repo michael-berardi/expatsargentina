@@ -92,7 +92,7 @@ export default function SafetyPage() {
       {/* Hero */}
       <section className="bg-foreground text-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 text-sm text-muted-foreground/70 mb-4">
+          <div className="flex items-center gap-2 text-sm text-white/60 mb-4">
             <Link href="/" className="hover:text-white transition-colors">
               Home
             </Link>
@@ -102,7 +102,7 @@ export default function SafetyPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Safety in Buenos Aires (2026)
           </h1>
-          <p className="text-xl text-muted-foreground/50 leading-relaxed max-w-2xl">
+          <p className="text-xl text-white/75 leading-relaxed max-w-2xl">
             The honest truth: Palermo, Recoleta & Belgrano are very safe. Petty theft (phone snatching) 
             is the main risk—not violent crime. No fear-mongering, just practical advice.
           </p>
@@ -302,7 +302,8 @@ export default function SafetyPage() {
                     León or Manuel Tienda León are reputable. Fixed price, no hassle. <strong>Second 
                     best:</strong> Use Uber or Cabify. <strong>If taking a taxi:</strong> Go to the 
                     official taxi stand outside customs. Insist on the meter. A ride to Palermo/Recoleta 
-                    should cost 25,000-35,000 pesos (as of 2024, check current rates).
+                    will usually land in the tens of thousands of pesos, but the exact rate moves too
+                    often to trust a static blog number. Compare it with a live app quote before you get in.
                   </p>
                 </div>
               </div>

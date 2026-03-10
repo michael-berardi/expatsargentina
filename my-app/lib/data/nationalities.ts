@@ -152,8 +152,8 @@ export const nationalitiesBase: Nationality[] = [
         "No visa or entry fees ever",
         "Immediate right to reside and work",
         "2-year renewable temporary residency",
-        "Path to citizenship in 2 years",
-        "Access to healthcare and education",
+        "Path to permanent residency after 2 years of legal continuous residence on an eligible visa",
+        "Access to education; emergency healthcare free for all, routine public healthcare requires permanent residency or private insurance (Decreto 366/2025)",
         "Cross-border living flexibility"
       ]
     },
@@ -201,14 +201,14 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Mercosur Residency (immediate, upon arrival)",
-      timeline: "Same day to 30 days for residency card. Citizenship in 2 years.",
+      timeline: "Same day to 30 days for residency card. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina with cédula or passport (no prior paperwork needed)",
         "Find accommodation and gather basic documents",
         "Visit migraciones office to apply for 'Residencia Mercosur'",
         "Receive precaria (temporary receipt) same day - you're now legal",
         "Pick up residency card (DNI for foreigners) within 30 days",
-        "After 2 years, apply for citizenship if desired"
+        "After 2 years on an eligible temporary residence visa, apply for permanent residency, then citizenship if desired"
       ],
       tips: [
         "You can start working immediately upon applying for residency",
@@ -246,7 +246,7 @@ export const nationalitiesBase: Nationality[] = [
       },
       {
         question: "Is healthcare available?",
-        answer: "Yes. With Mercosur residency, you can access the public healthcare system (free) or purchase private health insurance (prepaga) just like Argentine citizens."
+        answer: "Emergency care at public hospitals is free for everyone. However, under Decreto 366/2025, non-permanent residents must maintain private health insurance for routine care. With permanent residency, you can access the full public healthcare system or purchase private insurance (prepaga)."
       },
       {
         question: "What's the difference between living in Montevideo vs Buenos Aires?",
@@ -319,7 +319,7 @@ export const nationalitiesBase: Nationality[] = [
         "Full work authorization",
         "No visa fees",
         "Land border entry with ID card",
-        "Path to citizenship in 2 years",
+        "Path to permanent residency after 2 years of legal continuous residence on an eligible visa",
         "Can enter as tourist while processing residency"
       ]
     },
@@ -365,14 +365,14 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Mercosur Residency (for associates)",
-      timeline: "30-60 days for residency. Citizenship in 2 years.",
+      timeline: "30-60 days for residency. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina (90 days visa-free as tourist)",
         "Gather documents including apostilled criminal record",
         "Apply for 'Residencia Mercosur para Asociados' at migraciones",
         "Receive precaria (temporary authorization)",
         "Pick up residency card within 30-60 days",
-        "After 2 years, apply for citizenship if desired"
+        "After 2 years on an eligible temporary residence visa, apply for permanent residency, then citizenship if desired"
       ],
       tips: [
         "Get your Chilean criminal record apostilled before traveling",
@@ -516,13 +516,13 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Mercosur Residency (immediate)",
-      timeline: "Same day precaria. Card in 2-4 weeks. Citizenship in 2 years.",
+      timeline: "Same day precaria. Card in 2-4 weeks. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina with cédula or passport",
         "Apply for Mercosur residency at migraciones",
         "Receive precaria same day",
         "Pick up residency card within 2-4 weeks",
-        "After 2 years, apply for citizenship"
+        "After 2 years on an eligible temporary residence visa, apply for permanent residency, then citizenship"
       ],
       tips: [
         "The process is straightforward - no lawyer needed",
@@ -608,7 +608,7 @@ export const nationalitiesBase: Nationality[] = [
         "2-year renewable residency",
         "Full work rights",
         "Access to public services",
-        "Citizenship in 2 years"
+        "Permanent residency after 2 years on an eligible visa category (not DN visa), then citizenship"
       ]
     },
     documents: {
@@ -652,13 +652,13 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Mercosur Residency",
-      timeline: "Same day precaria. Card in 2-4 weeks. Citizenship in 2 years.",
+      timeline: "Same day precaria. Card in 2-4 weeks. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter with cédula or passport",
         "Apply for Mercosur residency",
         "Receive precaria same day",
         "Pick up card in 2-4 weeks",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Large Bolivian community provides support",
@@ -731,7 +731,7 @@ export const nationalitiesBase: Nationality[] = [
         "2-year renewable residency",
         "Full work authorization",
         "No visa fees for entry",
-        "Path to citizenship in 2 years",
+        "Path to permanent residency after 2 years of legal continuous residence on an eligible visa",
         "Land border entry with ID",
         "Can work while processing residency"
       ]
@@ -780,14 +780,14 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Mercosur Associate Residency",
-      timeline: "30-60 days for card. Citizenship in 2 years.",
+      timeline: "30-60 days for card. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina (90 days visa-free as tourist)",
         "Gather apostilled documents in Peru (criminal record, birth certificate)",
         "Apply for 'Residencia Mercosur para Asociados' at migraciones",
         "Receive precaria (temporary authorization) - can work immediately",
         "Pick up residency card within 30-60 days",
-        "After 2 years, apply for citizenship if desired"
+        "After 2 years on an eligible temporary residence visa, apply for permanent residency, then citizenship if desired"
       ],
       tips: [
         "Get criminal record and birth certificate apostilled in Lima before traveling",
@@ -889,7 +889,7 @@ export const nationalitiesBase: Nationality[] = [
         "2-year renewable residency",
         "Full work authorization",
         "No entry visa required",
-        "Path to citizenship in 2 years",
+        "Path to permanent residency after 2 years of legal continuous residence on an eligible visa",
         "Can work immediately upon application",
         "Family reunification available"
       ]
@@ -937,14 +937,14 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Mercosur Associate Residency",
-      timeline: "30-60 days for card. Citizenship in 2 years.",
+      timeline: "30-60 days for card. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina (90 days visa-free)",
         "Gather apostilled documents from Colombia",
         "Apply for Mercosur associate residency",
         "Receive precaria (can work immediately)",
         "Pick up card in 30-60 days",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Get documents apostilled in Colombia before traveling",
@@ -1083,7 +1083,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Mercosur Temporary Residency (convertible to permanent)",
-      timeline: "2-year temporary residency, then convert to permanent. Citizenship in 2 years after permanent.",
+      timeline: "2-year temporary residency, then convert to permanent. Citizenship available after obtaining permanent residency.",
       steps: [
         "Enter Argentina (90 days visa-free with RG or passport)",
         "Gather documents (including apostilled criminal record)",
@@ -1091,7 +1091,7 @@ export const nationalitiesBase: Nationality[] = [
         "Receive precaria immediately (can work right away)",
         "Pick up 2-year temporary residency card in 30-45 days",
         "After 2 years, convert temporary to permanent residency",
-        "Apply for citizenship after 2 years of permanent residency"
+        "After obtaining permanent residency, apply for citizenship"
       ],
       tips: [
         "You can use your Brazilian RG instead of passport for entry",
@@ -1180,7 +1180,7 @@ export const nationalitiesBase: Nationality[] = [
         "Expedited residency processing",
         "Humanitarian visa provisions",
         "Work authorization during application",
-        "Access to public healthcare",
+        "Emergency public healthcare (routine care requires permanent residency or private insurance under Decreto 366/2025)",
         "Children's access to education",
         "Family reunification programs",
         "Temporary protection status available"
@@ -1231,7 +1231,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "DNE Residency or Humanitarian Program",
-      timeline: "60-90 days for residency. Citizenship in 2 years.",
+      timeline: "60-90 days for residency. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina (90 days visa-free)",
         "Gather required documents from Venezuela",
@@ -1239,7 +1239,7 @@ export const nationalitiesBase: Nationality[] = [
         "Receive precaria (work authorization during processing)",
         "Complete biometric data collection",
         "Receive residency card in 60-90 days",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "The DNE agreement is your best path - research it thoroughly",
@@ -1378,7 +1378,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad Visa",
-      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Decide on pathway: digital nomad, work visa, or investment",
@@ -1386,7 +1386,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows work/stay during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "The digital nomad visa is your best bet if you work remotely",
@@ -1476,7 +1476,7 @@ export const nationalitiesBase: Nationality[] = [
         "Social security/pension reciprocity",
         "Recognition of professional qualifications",
         "Spanish citizens can use DNI-E (electronic ID) for some processes",
-        "Access to public healthcare with residency",
+        "Emergency healthcare free for all; routine public healthcare access with permanent residency or private insurance (Decreto 366/2025)",
         "Cultural integration programs"
       ]
     },
@@ -1525,7 +1525,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Bilateral Agreement Residency",
-      timeline: "45-60 days. Citizenship in 2 years.",
+      timeline: "45-60 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina (90 days visa-free with passport or DNI)",
         "Gather documents from Spain (certificado de antecedentes, birth certificate)",
@@ -1533,7 +1533,7 @@ export const nationalitiesBase: Nationality[] = [
         "Receive precaria (work authorization during processing)",
         "Complete biometric data collection",
         "Receive residency card in 45-60 days",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Mention bilateral agreements in your application - it speeds processing",
@@ -1589,42 +1589,41 @@ export const nationalitiesBase: Nationality[] = [
     demonym: "Italian",
     flag: "🇮🇹",
     title: "Italian in Argentina | Complete Guide",
-    subtitle: "Strongest European ties, simplified processes, and the heart of Argentine culture",
-    description: "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage.",
+    subtitle: "Visa-free entry, deep cultural ties, and a large Italian community already on the ground",
+    description: "Italian citizens have one of the easiest soft landings in Argentina thanks to visa-free entry, a massive Italian-Argentine community, and strong bilateral nationality and social-security ties. Residency still depends on the standard category that matches your case.",
     region: "europe",
     visaRequirements: {
       tourist: {
         duration: "90 days (extendable to 180)",
-        notes: "Italian citizens enter visa-free with valid passport",
+        notes: "Italian citizens enter visa-free with a valid passport for up to 90 days, with extension options handled under the normal tourist framework.",
         reciprocityFee: false,
         feeAmount: "$0"
       },
       digitalNomad: {
         eligible: true,
-        notes: "Available for remote workers",
-        incomeRequirement: "$1,000-1,500/month equivalent"
+        notes: "Available to Italians because the passport already qualifies for visa-free tourist entry",
+        incomeRequirement: "Check the current official income documentation rules before applying"
       },
       work: {
         eligible: true,
-        notes: "Simplified work authorization, qualifications recognized",
-        sponsorshipRequired: false
+        notes: "Standard work residence still requires an Argentine employer or another qualifying residence basis. Italian credentials are respected, but sponsorship rules still apply.",
+        sponsorshipRequired: true
       },
       mercosur: {
         eligible: false,
-        notes: "Italy is not a Mercosur member but has special status"
+        notes: "Italy is not a Mercosur member"
       }
     },
     specialAgreements: {
       hasAgreement: true,
-      type: "Bilateral Agreements & Cultural Recognition",
-      description: "Italy and Argentina share unique bonds including bilateral agreements on social security, professional qualification recognition, and special provisions acknowledging the massive Italian-Argentine population and ongoing cultural exchange.",
+      type: "Nationality, Social Security, and Cultural Agreements",
+      description: "Italy and Argentina maintain strong bilateral links around nationality, pensions, and social-security coordination. Those ties help with long-term planning, but they do not replace the standard Argentine residence categories used by workers, students, pensioners, and family members.",
       benefits: [
-        "Simplified residency process",
-        "Social security/pension reciprocity",
-        "Recognition of Italian professional qualifications",
-        "Italian citizens eligible for Italian-Argentine cultural programs",
-        "Access to Italian consular services throughout Argentina",
-        "Special provisions for jure sanguinis descendants"
+        "Visa-free tourist entry for exploratory trips and setup",
+        "Social security and pension coordination in qualifying cases",
+        "Large Italian community and strong consular presence in Argentina",
+        "Cultural and language overlap that makes integration easier",
+        "Helpful paper trail for people managing family or nationality matters across both countries"
       ]
     },
     documents: {
@@ -1671,19 +1670,20 @@ export const nationalitiesBase: Nationality[] = [
       ]
     },
     residencyPath: {
-      easiestRoute: "Bilateral Agreement Residency",
-      timeline: "45-60 days. Citizenship in 2 years.",
+      easiestRoute: "Visa-free entry followed by the residence category that matches your case: work, pensioner, rentista, student, family, or another qualifying path",
+      timeline: "Residence timing depends on the category you use. Temporary residence cases commonly take 60-90+ days after submission, then permanent residency and citizenship follow the normal long-stay path.",
       steps: [
         "Enter Argentina (90 days visa-free)",
         "Gather documents from Italy (Casellario Giudiziale, birth certificate)",
-        "Apply for residency citing bilateral agreements",
+        "Choose the residence category that fits your case instead of assuming there is a generic Italian shortcut",
         "Receive precaria (work authorization during processing)",
         "Complete biometric data collection",
-        "Receive residency card in 45-60 days",
-        "Apply for citizenship after 2 years"
+        "Receive residency card once Migraciones approves the file",
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Argentina has the largest Italian population outside Italy - you'll feel at home",
+        "Do not assume work sponsorship is waived just because of cultural proximity - standard employment rules still apply",
         "Italian restaurants, cafes, and businesses are everywhere in Buenos Aires",
         "Italian language is widely understood and appreciated",
         "Italian professionals (chefs, designers, engineers) are highly sought after",
@@ -1695,7 +1695,11 @@ export const nationalitiesBase: Nationality[] = [
     faqs: [
       {
         question: "Do Italian citizens need a visa for Argentina?",
-        answer: "No visa required for 90 days. Italian citizens can enter with passport and apply for residency under bilateral agreements."
+        answer: "No. Italian passport holders can enter Argentina visa-free for short stays and use that time to scout neighborhoods, meet advisors, or prepare a later residence application."
+      },
+      {
+        question: "Do Italians get a special residency shortcut?",
+        answer: "Not in the Mercosur sense. Italy and Argentina have strong bilateral nationality and social-security ties, but Italian citizens still usually apply through the standard residence category that matches their real situation, such as work, pensioner, rentista, family, or study."
       },
       {
         question: "How Italian is Argentina really?",
@@ -1707,7 +1711,7 @@ export const nationalitiesBase: Nationality[] = [
       },
       {
         question: "Are Italian professional qualifications recognized?",
-        answer: "Generally yes, especially for culinary arts, design, fashion, and engineering. Some professions may require validation depending on regulatory requirements."
+        answer: "Many Italian qualifications are well understood and respected, especially in culinary, design, architecture, fashion, and engineering circles. Regulated professions still need local validation or licensing where Argentine law requires it."
       },
       {
         question: "Is there an Italian business community?",
@@ -1817,7 +1821,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad or Work Visa",
-      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Choose pathway: digital nomad (if remote worker) or work visa",
@@ -1825,7 +1829,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows stay/work during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "The digital nomad visa is excellent if you work remotely for Mexican/international companies",
@@ -1963,7 +1967,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad Visa",
-      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Decide on pathway: digital nomad, work visa, or investment",
@@ -1971,7 +1975,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows work/stay during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "The digital nomad visa is perfect for Canadian remote workers",
@@ -2110,7 +2114,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad Visa",
-      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Decide on pathway: digital nomad, work visa, or investment",
@@ -2118,7 +2122,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows work/stay during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "The digital nomad visa is excellent for UK remote workers",
@@ -2256,7 +2260,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad or Work Visa",
-      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Choose pathway: digital nomad, work visa, or investment",
@@ -2264,7 +2268,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows stay/work during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Goethe-Institut offers excellent Spanish courses",
@@ -2388,7 +2392,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Working Holiday or Digital Nomad Visa",
-      timeline: "Working Holiday: Immediate. Digital nomad: 30-45 days. Citizenship in 2 years.",
+      timeline: "Working Holiday: Immediate. Digital nomad: 30-45 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Apply for Working Holiday Visa (if 18-30) OR enter on tourist visa",
         "For Working Holiday: apply before arrival, receive visa",
@@ -2396,7 +2400,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for digital nomad or work visa",
         "Receive precaria (allows stay/work during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Working Holiday Visa is a huge advantage - use it if eligible",
@@ -2531,7 +2535,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad Visa",
-      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Choose pathway: digital nomad (if remote worker) or work visa",
@@ -2539,7 +2543,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows stay/work during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Digital nomad visa is excellent for remote workers",
@@ -2672,7 +2676,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Business/Investment or Work Visa",
-      timeline: "Business visa: 60-90 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Business visa: 60-90 days. Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Apply for tourist visa at Argentine consulate in China",
         "Enter Argentina (90 days)",
@@ -2681,7 +2685,7 @@ export const nationalitiesBase: Nationality[] = [
         "Gather documents (police certificate, birth certificate)",
         "Receive precaria (allows stay during processing)",
         "Pick up residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Apply for tourist visa well in advance",
@@ -2816,7 +2820,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Work Visa or Digital Nomad",
-      timeline: "Work visa: 60-90 days. Digital nomad: 30-45 days. Citizenship in 2 years.",
+      timeline: "Work visa: 60-90 days. Digital nomad: 30-45 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Choose pathway: work visa with sponsorship or digital nomad",
@@ -2824,7 +2828,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows stay during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Japanese automotive companies (Toyota, Honda) have plants in Argentina",
@@ -2909,7 +2913,7 @@ export const nationalitiesBase: Nationality[] = [
         "2-year renewable residency",
         "Full work authorization",
         "No entry visa required",
-        "Path to citizenship in 2 years",
+        "Path to permanent residency after 2 years of legal continuous residence on an eligible visa",
         "Can work immediately upon application",
         "Family reunification available"
       ]
@@ -2954,14 +2958,14 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Mercosur Associate Residency",
-      timeline: "30-60 days for card. Citizenship in 2 years.",
+      timeline: "30-60 days for card. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina (90 days visa-free)",
         "Gather apostilled documents from Ecuador",
         "Apply for Mercosur associate residency",
         "Receive precaria (can work immediately)",
         "Pick up card in 30-60 days",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Get documents apostilled in Ecuador before traveling",
@@ -3079,7 +3083,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad or Work Visa",
-      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Digital nomad: 30-45 days. Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Choose pathway: digital nomad or work visa",
@@ -3087,7 +3091,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows stay during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Portuguese is understood due to Brazilian TV and culture",
@@ -3200,7 +3204,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Work Visa or Business Visa",
-      timeline: "Work visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Work visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Find employment or establish business",
@@ -3208,7 +3212,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for work or business visa",
         "Receive precaria (allows stay during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Korean automotive and electronics companies have presence",
@@ -3326,7 +3330,7 @@ export const nationalitiesBase: Nationality[] = [
     },
     residencyPath: {
       easiestRoute: "Digital Nomad or Business Visa",
-      timeline: "Digital nomad: 30-45 days. Business visa: 60-90 days. Citizenship in 2 years.",
+      timeline: "Digital nomad: 30-45 days. Business visa: 60-90 days. Permanent residency after 2 years on an eligible visa, then citizenship.",
       steps: [
         "Enter Argentina on 90-day tourist visa",
         "Choose pathway: digital nomad, work visa, or business/investment",
@@ -3334,7 +3338,7 @@ export const nationalitiesBase: Nationality[] = [
         "Apply for chosen visa type",
         "Receive precaria (allows stay during processing)",
         "Pick up visa/residency card",
-        "Apply for citizenship after 2 years"
+        "After 2 years on an eligible temporary residence visa (not DN), apply for permanent residency, then citizenship"
       ],
       tips: [
         "Dutch agricultural expertise highly valued in Argentina",

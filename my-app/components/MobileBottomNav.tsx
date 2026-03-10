@@ -15,14 +15,6 @@ const navItems = [
 
 export function MobileBottomNav() {
   const pathname = usePathname();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  // Don't render until mounted to avoid hydration mismatch
-  if (!mounted) return null;
 
   // Don't show on homepage (it has its own navigation)
   if (pathname === "/") return null;
@@ -108,6 +100,20 @@ function MobileMenuItem({ href, label }: { href: string; label: string }) {
 
 // Floating action button for mobile (appears on scroll)
 export function MobileScrollToTop() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const updateVisibility = () => {
+      setVisible(window.scrollY > 600);
+    };
+
+    window.addEventListener("scroll", updateVisibility, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", updateVisibility);
+    };
+  }, []);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -115,7 +121,11 @@ export function MobileScrollToTop() {
   return (
     <button
       onClick={scrollToTop}
-      className="lg:hidden fixed bottom-20 right-4 z-40 p-3 bg-primary text-primary-foreground rounded-full shadow-lg hover:bg-primary/90 transition-colors"
+      className={`lg:hidden fixed right-3 z-40 rounded-full bg-primary text-primary-foreground shadow-lg transition-all hover:bg-primary/90 ${
+        visible
+          ? "pointer-events-auto translate-y-0 opacity-100"
+          : "pointer-events-none translate-y-3 opacity-0"
+      } bottom-[calc(env(safe-area-inset-bottom)+5.5rem)] p-2.5`}
       aria-label="Back to top"
     >
       <svg

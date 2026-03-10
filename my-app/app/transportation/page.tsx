@@ -28,7 +28,7 @@ import {
 export const metadata: Metadata = {
   title: "Getting Around Buenos Aires | Transportation Guide",
   description:
-    "Complete transportation guide for Buenos Aires. SUBE card, subway, buses, taxis, Uber, biking, and airport transfers. Updated 2026 prices and practical tips.",
+    "Complete transportation guide for Buenos Aires. SUBE card, subway, buses, taxis, ride-hailing, biking, and airport transfers with March 2026 practical guidance.",
   alternates: { canonical: "https://expatsargentina.com/transportation" },
 };
 
@@ -66,7 +66,7 @@ const appLinks = {
 const faqs = [
   {
     question: "How do I get a SUBE card?",
-    answer: "You can buy a SUBE card at any subway station ticket counter, kioscos (convenience stores) with the SUBE sticker, or airport tourist desks at EZE and AEP. The card costs approximately $880 ARS. You only need your passport—no DNI required. Important: register your SUBE through the BA Mi Movil app to get 50% off fares. Unregistered cards pay double the fare.",
+    answer: "You can buy a SUBE card at subway stations, many kioscos with the SUBE sticker, and Centro SUBE service points. The official card price is ARS 1,500 as of March 2026. Buying the plastic card does not require an Argentine DNI, but nominalizing the card is still useful because the standard Subte fare and card-recovery options depend on it.",
   },
   {
     question: "Is Uber available in Argentina?",
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     question: "How much does a taxi cost in Buenos Aires?",
-    answer: "Taxi fares start at approximately $2,304 ARS with a per-kilometer rate of about $1,152 ARS. A short trip (2-3km) costs around $5,500 ARS, while a cross-city ride (8-10km) costs approximately $11,000 ARS. There's a 20% night surcharge from 10 PM to 6 AM. Always insist on the meter being used, and use radio taxis or ride-sharing apps for more predictable pricing.",
+    answer: "Taxi tariffs are updated periodically, so exact peso numbers go stale fast. Treat metered taxis as a variable-price option, insist on the meter, and compare the fare with a live Cabify or Uber quote before you get in. For most visitors, app-based rides are the easier way to avoid airport and tourist-zone overcharging.",
   },
   {
     question: "How do I get from EZE airport to the city?",
@@ -160,47 +160,47 @@ export default function TransportationPage() {
             <div className="grid md:grid-cols-3 gap-4">
               <div className="space-y-2">
                 <h4 className="font-semibold text-sm text-muted-foreground uppercase">
-                  SUBE Fares
+                  SUBE Essentials
                 </h4>
                 <ul className="space-y-1 text-sm">
                   <li className="flex justify-between">
-                    <span>Subway (trips 1-20)</span>
-                    <span className="font-semibold">$1,157 ARS</span>
+                    <span>Physical card price</span>
+                    <span className="font-semibold">$1,500 ARS</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Subway (trips 21-30)</span>
-                    <span className="font-semibold">$926 ARS</span>
+                    <span>Subte with nominalized card</span>
+                    <span className="font-semibold">$963 ARS</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Bus (registered SUBE)</span>
-                    <span className="font-semibold">$569 ARS</span>
+                    <span>Subte without nominalization</span>
+                    <span className="font-semibold">$1,531 ARS</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Bus (unregistered)</span>
-                    <span className="font-semibold">$1,323 ARS</span>
+                    <span>Best practice</span>
+                    <span className="font-semibold">Nominalize it</span>
                   </li>
                 </ul>
               </div>
               <div className="space-y-2">
                 <h4 className="font-semibold text-sm text-muted-foreground uppercase">
-                  Taxi Estimates
+                  Daily Moves
                 </h4>
                 <ul className="space-y-1 text-sm">
                   <li className="flex justify-between">
-                    <span>Base fare</span>
-                    <span className="font-semibold">$2,304 ARS</span>
+                    <span>Subte payment</span>
+                    <span className="font-semibold">SUBE or contactless</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Per km</span>
-                    <span className="font-semibold">$1,152 ARS</span>
+                    <span>Buses</span>
+                    <span className="font-semibold">SUBE only</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Short trip (2-3km)</span>
-                    <span className="font-semibold">~$5,500 ARS</span>
+                    <span>Late-night default</span>
+                    <span className="font-semibold">Cabify or Uber</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Cross-city (8-10km)</span>
-                    <span className="font-semibold">~$11,000 ARS</span>
+                    <span>Route planning</span>
+                    <span className="font-semibold">Moovit + BA tools</span>
                   </li>
                 </ul>
               </div>
@@ -219,14 +219,36 @@ export default function TransportationPage() {
                   </li>
                   <li className="flex justify-between">
                     <span>Public Bus 8</span>
-                    <span className="font-semibold">~$600 ARS</span>
+                    <span className="font-semibold">Cheapest, but slow</span>
                   </li>
                   <li className="flex justify-between">
                     <span>Uber/Cabify</span>
-                    <span className="font-semibold">$25-35 USD</span>
+                    <span className="font-semibold">Compare live quote</span>
                   </li>
                 </ul>
               </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="bg-muted/30">
+          <CardContent className="pt-6">
+            <div className="flex flex-wrap gap-2">
+              {[
+                ["SUBE", "#sube"],
+                ["Subte", "#subte"],
+                ["Buses", "#buses"],
+                ["Taxis", "#taxis"],
+                ["Ride-Hailing", "#rideshare"],
+                ["Walking", "#walking"],
+                ["Biking", "#biking"],
+                ["Trains", "#trains"],
+                ["Airport", "#airport"],
+              ].map(([label, href]) => (
+                <Button key={href} asChild variant="outline" size="sm">
+                  <a href={href}>{label}</a>
+                </Button>
+              ))}
             </div>
           </CardContent>
         </Card>
@@ -256,7 +278,7 @@ export default function TransportationPage() {
                   <li className="flex items-start gap-2">
                     <MapPin className="h-4 w-4 text-blue-500 mt-0.5 shrink-0" />
                     <span>
-                      <strong>Subway stations:</strong> Any ticket counter. Cost: ~$880 ARS
+                      <strong>Subway stations:</strong> Any ticket counter. Official card price: ARS 1,500
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
@@ -280,8 +302,8 @@ export default function TransportationPage() {
                   </li>
                 </ul>
                 <div className="bg-amber-50 border border-amber-200 rounded-lg p-3 text-sm">
-                  <strong>What you need:</strong> Just your passport. No DNI required for tourists.
-                  Fill out a short form with your name and passport number.
+                  <strong>What you need:</strong> You do not need an Argentine DNI to buy the plastic card.
+                  Nominalizing the card later is still worth it because the standard fare and recovery options depend on it.
                 </div>
               </CardContent>
             </Card>
@@ -308,7 +330,7 @@ export default function TransportationPage() {
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-green-500 mt-0.5 shrink-0" />
                     <span>
-                      <strong>Online:</strong> Through BA Mi Movil app (Argentine card needed)
+                      <strong>Online:</strong> Through official SUBE-compatible channels when your phone/card setup supports it
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
@@ -319,7 +341,7 @@ export default function TransportationPage() {
                   </li>
                 </ul>
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 text-sm">
-                  <strong>Pro tip:</strong> Always keep at least $3,000 ARS loaded. Running out
+                  <strong>Pro tip:</strong> Always keep at least a couple of rides loaded. Running out
                   mid-journey means finding a kiosco before you can continue.
                 </div>
               </CardContent>
@@ -330,21 +352,21 @@ export default function TransportationPage() {
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-2">
                 <Smartphone className="h-5 w-5" />
-                BA Mi Movil App
+                Helpful Transit Apps
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-3">
                   <p className="text-sm text-muted-foreground">
-                    The official Buenos Aires transit app. Essential for managing your SUBE card.
+                    Use a mix of apps rather than relying on just one. BA Mi Movil is useful for city transit information, while Moovit and Cuando Llega are often better for real-time routing and bus arrivals.
                   </p>
                   <ul className="space-y-2 text-sm">
-                    <li>• Check your balance in real-time</li>
-                    <li>• View transaction history</li>
-                    <li>• Load credit (Argentine cards only)</li>
-                    <li>• Register your SUBE for discounts</li>
-                    <li>• Find nearby charging points</li>
+                    <li>• BA Mi Movil: city transit info and planning</li>
+                    <li>• Moovit: multimodal routing across the city</li>
+                    <li>• Cuando Llega: practical bus arrival estimates</li>
+                    <li>• Cabify/Uber: best fallback when service thins out at night</li>
+                    <li>• Always verify station hours and last trains separately</li>
                   </ul>
                 </div>
                 <div className="flex flex-col gap-3">
@@ -376,12 +398,12 @@ export default function TransportationPage() {
           <div className="mt-6 bg-red-50 border border-red-200 rounded-lg p-4">
             <h4 className="font-semibold text-red-800 flex items-center gap-2 mb-2">
               <AlertTriangle className="h-5 w-5" />
-              Important: Register Your SUBE
+              Important: Nominalize Your SUBE If You Can
             </h4>
             <p className="text-sm text-red-700">
-              Unregistered SUBE cards pay <strong>2x the fare</strong>. Registration is free and
-              instant through the BA Mi Movil app. You&apos;ll need a local phone number for SMS
-              verification, or ask your Airbnb host to help.
+              On the Subte, a nominalized card pays the regular fare while an unregistered card pays
+              the higher tariff. Nominalization also helps if the card is lost and can be required
+              for some discount programs. If you cannot complete it immediately, at least buy the card first and fix the setup later.
             </p>
           </div>
         </section>
@@ -436,7 +458,7 @@ export default function TransportationPage() {
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex items-center gap-2 text-sm">
-                  <Sun className="h-4 w-4 text-white/850" />
+                  <Sun className="h-4 w-4 text-amber-500" />
                   <span className="font-medium">Morning:</span> 7:30 - 9:30 AM
                 </div>
                 <div className="flex items-center gap-2 text-sm">
@@ -1441,7 +1463,7 @@ export default function TransportationPage() {
 
         {/* Last Updated */}
         <div className="text-center text-sm text-muted-foreground pt-8 border-t">
-          <p>Last updated: 2026</p>
+          <p>Last updated: March 2026</p>
           <p className="mt-1">
             Prices and information are subject to change. Always verify current rates with
             official sources.

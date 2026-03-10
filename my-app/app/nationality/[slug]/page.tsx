@@ -100,6 +100,24 @@ function BreadcrumbStructuredData({ nationality }: { nationality: typeof nationa
   );
 }
 
+function getTouristEntryBadge(nationality: typeof nationalities[0]) {
+  const touristNotes = nationality.visaRequirements.tourist.notes.toLowerCase();
+
+  if (nationality.visaRequirements.mercosur?.eligible) {
+    return "Mercosur-friendly entry";
+  }
+
+  if (touristNotes.includes("visa-free") || touristNotes.includes("no visa")) {
+    return "Visa-free entry";
+  }
+
+  if (touristNotes.includes("ave")) {
+    return "Tourist visa or AVE";
+  }
+
+  return "Tourist visa required";
+}
+
 export default async function NationalityPage({ params }: NationalityPageProps) {
   const { slug } = await params;
   const nationality = getNationalityBySlug(slug);
@@ -178,6 +196,29 @@ export default async function NationalityPage({ params }: NationalityPageProps) 
                 </section>
               )}
 
+              {!nationality.specialAgreements.hasAgreement && (
+                <section className="bg-muted/40 rounded-xl p-6 border">
+                  <div className="flex items-center gap-2 mb-4">
+                    <Globe className="h-5 w-5 text-primary" />
+                    <h2 className="text-xl font-bold">Standard Immigration Framework</h2>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    {nationality.specialAgreements.description ||
+                      "Argentina applies the standard tourist-entry and residency rules to this nationality, so document prep and the right residence category matter more than bilateral shortcuts."}
+                  </p>
+                  {nationality.specialAgreements.benefits && nationality.specialAgreements.benefits.length > 0 && (
+                    <ul className="space-y-2">
+                      {nationality.specialAgreements.benefits.map((benefit, index) => (
+                        <li key={index} className="flex items-start gap-2 text-sm">
+                          <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                          <span>{benefit}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </section>
+              )}
+
               {/* Visa Options */}
               <section>
                 <h2 className="text-2xl font-bold mb-6">Visa Options</h2>
@@ -187,7 +228,7 @@ export default async function NationalityPage({ params }: NationalityPageProps) 
                     <CardContent className="p-6">
                       <div className="flex items-center justify-between mb-2">
                         <h3 className="text-lg font-semibold">Tourist Entry</h3>
-                        <Badge variant="outline">No visa required</Badge>
+                        <Badge variant="outline">{getTouristEntryBadge(nationality)}</Badge>
                       </div>
                       <p className="text-sm text-muted-foreground mb-2">{nationality.visaRequirements.tourist.notes}</p>
                       <div className="flex items-center gap-2 text-sm">

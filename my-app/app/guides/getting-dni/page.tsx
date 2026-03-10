@@ -94,11 +94,11 @@ export default function GettingDNIPage() {
         <div className="container mx-auto px-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto text-center">
             <div>
-              <div className="text-2xl font-bold text-primary">2-4 weeks</div>
+              <div className="text-2xl font-bold text-primary">10-15 days</div>
               <div className="text-sm text-muted-foreground">Typical Timeline</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-primary">~$5 USD</div>
+              <div className="text-2xl font-bold text-primary">ARS 14,000</div>
               <div className="text-sm text-muted-foreground">Application Fee</div>
             </div>
             <div>
@@ -226,7 +226,7 @@ export default function GettingDNIPage() {
                   </div>
                   <p className="text-sm text-amber-800 dark:text-amber-200">
                     Tourists and Digital Nomad Visa holders do NOT receive a DNI.
-                    The Digital Nomad Visa is a special authorization, not a
+                    The Digital Nomad Visa is a special transitory authorization, not a
                     residency permit. To get a DNI, you need to go through the
                     formal residency process via Migraciones (immigration
                     authority).
@@ -317,7 +317,7 @@ export default function GettingDNIPage() {
                 <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-4">
                   <li>
                     <strong>RENAPER Central Office:</strong> Located in the city
-                    center. This is the largest office and typically has the most
+                    center, with the broadest appointment inventory. This is the largest office and typically has the most
                     appointment availability, though it can be crowded.
                   </li>
                   <li>
@@ -415,7 +415,7 @@ export default function GettingDNIPage() {
                   Costs
                 </h2>
                 <p className="text-muted-foreground mb-4">
-                  The DNI application fee is very affordable:
+                  RENAPER updated DNI tariffs in late 2025. For foreign residents, the standard first-copy DNI fee is:
                 </p>
                 <div className="grid sm:grid-cols-2 gap-4 mb-4">
                   <div className="bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-800 rounded-lg p-4">
@@ -423,10 +423,10 @@ export default function GettingDNIPage() {
                       Standard Processing
                     </h3>
                     <p className="text-2xl font-bold text-emerald-700 dark:text-emerald-300">
-                      ~$5 USD
+                      ARS 14,000
                     </p>
                     <p className="text-sm text-emerald-600 dark:text-emerald-400">
-                      10-15 business days delivery
+                      About 10-15 business days
                     </p>
                   </div>
                   <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
@@ -434,19 +434,15 @@ export default function GettingDNIPage() {
                       Express Processing
                     </h3>
                     <p className="text-2xl font-bold text-blue-700 dark:text-blue-300">
-                      ~$15 USD
+                      ARS 56,000
                     </p>
                     <p className="text-sm text-blue-600 dark:text-blue-400">
-                      3-5 business days delivery
+                      Fast-track option when available
                     </p>
                   </div>
                 </div>
                 <p className="text-muted-foreground">
-                  Fees are paid in Argentine pesos and are subject to change.
-                  Payment can be made online (via the RENAPER website), through
-                  the Mi Argentina app, or in person at the office. Some offices
-                  accept only certain payment methods, so bring cash as a
-                  backup.
+                  Fees are paid in Argentine pesos and can change again, so verify the current tariff before your appointment. Payment methods vary by office and appointment flow, so do not assume every branch will accept the same card or cash options on the day.
                 </p>
               </section>
 

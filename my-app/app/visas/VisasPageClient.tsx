@@ -7,8 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
-import { Input } from "@/components/ui/input";
-import { Icon, FeatureIcon } from "@/components/ui/icon";
+import { Icon, FeatureIcon, type IconName } from "@/components/ui/icon";
 import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 // Quiz Types
@@ -310,7 +309,7 @@ function VisaFinderQuiz() {
               onClick={() => handleAnswer(option.value)}
               className="flex items-center gap-4 p-4 rounded-lg border text-left hover:border-primary hover:bg-primary/5 transition-colors"
             >
-              <FeatureIcon name={option.icon as any} variant="muted" />
+              <FeatureIcon name={option.icon as IconName} variant="muted" />
               <span className="font-medium">{option.label}</span>
               <Icon name="arrow-right" size="sm" className="ml-auto text-muted-foreground" />
             </button>
@@ -359,7 +358,7 @@ function CostCalculator() {
           <Icon name="calculator" size="md" />
           Visa Cost Estimator
         </CardTitle>
-        <CardDescription>Calculate the total cost for your visa application</CardDescription>
+        <CardDescription>Budget planning estimate only. Official government fees vary by route and can change.</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="space-y-3">
@@ -369,11 +368,11 @@ function CostCalculator() {
             onChange={(e) => setVisaType(e.target.value)}
             className="w-full p-2 rounded-md border"
           >
-            <option value="digital-nomad">Digital Nomad Visa ($150)</option>
-            <option value="work">Work Visa ($300)</option>
-            <option value="retirement">Retirement Visa ($250)</option>
-            <option value="student">Student Visa ($200)</option>
-            <option value="investment">Investment Visa ($600)</option>
+            <option value="digital-nomad">Digital Nomad / Short Remote Stay</option>
+            <option value="work">Work Residence</option>
+            <option value="retirement">Retirement / Pensioner</option>
+            <option value="student">Student Residence</option>
+            <option value="investment">Investor Residence</option>
           </select>
         </div>
 
@@ -499,11 +498,11 @@ function TimelineCalculator() {
             onChange={(e) => setVisaType(e.target.value)}
             className="w-full p-2 rounded-md border"
           >
-            <option value="digital-nomad">Digital Nomad (6-10 weeks)</option>
+            <option value="digital-nomad">Digital Nomad (4-8+ weeks)</option>
             <option value="work">Work Visa (10-16 weeks)</option>
             <option value="retirement">Retirement Visa (8-14 weeks)</option>
             <option value="student">Student Visa (4-8 weeks)</option>
-            <option value="investment">Investment Visa (12-20 weeks)</option>
+            <option value="investment">Investor Residence (case-by-case)</option>
           </select>
         </div>
 
@@ -535,8 +534,8 @@ function TimelineCalculator() {
           <label className="text-base md:text-sm font-medium">Application Method</label>
           <div className="grid grid-cols-2 gap-2">
             {[
-              { value: "online", label: "Online (RADEX)", note: "Faster" },
-              { value: "in-person", label: "In-Person", note: "+2 weeks" },
+              { value: "online", label: "Online / platform-guided", note: "Usually faster" },
+              { value: "in-person", label: "In-person / consular", note: "May add time" },
             ].map((opt) => (
               <button
                 key={opt.value}
@@ -576,12 +575,13 @@ function DocumentChecklist() {
 
   const documents: Record<string, Array<{ id: string; label: string; required: boolean; note?: string }>> = {
     "digital-nomad": [
+      { id: "eligibility", label: "Passport eligible for visa-free tourist entry", required: true, note: "If your passport normally needs a tourist visa, this route is usually the wrong fit" },
       { id: "passport", label: "Valid passport (6+ months)", required: true },
       { id: "photos", label: "Passport photos (4x4cm)", required: true, note: "White background, no glasses" },
       { id: "income", label: "Proof of remote income", required: true, note: "Bank statements, contracts" },
       { id: "insurance", label: "Health insurance", required: true, note: "Valid in Argentina" },
       { id: "address", label: "Proof of accommodation", required: true },
-      { id: "criminal", label: "Criminal background check", required: true, note: "Apostilled within 90 days" },
+      { id: "criminal", label: "Criminal background check", required: false, note: "Prepare it if your channel or consular post asks for it" },
       { id: "cv", label: "CV/Resume", required: false },
     ],
     "work": [
@@ -738,13 +738,13 @@ function DocumentChecklist() {
 const visaData = {
   "digital-nomad": {
     name: "Digital Nomad Visa",
-    duration: "180 days (6 months)",
-    cost: "$100-150",
-    processing: "6-10 weeks",
+    duration: "180 days (transitory stay)",
+    cost: "Fees vary by channel",
+    processing: "4-8+ weeks",
     workAllowed: "Remote work for foreign companies only",
-    residencyPath: "No direct path",
-    renewable: "No - must reapply",
-    family: "Possible but complicated",
+    residencyPath: "No DNI or direct permanent-residency path",
+    renewable: "Not a standard renewable residency",
+    family: "Case-by-case",
     whoFor: [
       { profile: "Software developers working remotely", fit: "perfect" },
       { profile: "Freelance designers/writers", fit: "perfect" },
@@ -753,31 +753,31 @@ const visaData = {
       { profile: "People wanting to work for Argentine companies", fit: "not-suitable" },
     ],
     requirements: [
-      "Valid passport with 6+ months validity",
-      "Proof of remote work (employment contract or client agreements)",
-      "Minimum income proof (~$2,500/month recommended)",
+      "Passport from a nationality that can enter Argentina visa-free as a tourist",
+      "Proof of remote work for non-Argentine employers or clients",
+      "Recent income and bank documentation",
       "Health insurance valid in Argentina",
-      "Criminal background check (apostilled)",
-      "Proof of accommodation in Argentina",
+      "Any criminal-record or consular documents requested by the platform or post handling your case",
+      "Proof of accommodation and a coherent short-stay plan in Argentina",
     ],
     steps: [
-      { step: 1, title: "Gather documents", time: "2-4 weeks", details: "Get background check, translate documents, secure accommodation proof" },
-      { step: 2, title: "Create RADEX account", time: "Same day", details: "Register on the Migraciones online system" },
-      { step: 3, title: "Submit application", time: "1-2 hours", details: "Upload all documents and pay fee online" },
-      { step: 4, title: "Wait for review", time: "4-8 weeks", details: "Migraciones reviews your application" },
-      { step: 5, title: "Receive approval", time: "1 week", details: "Download your visa approval letter" },
-      { step: 6, title: "Enter Argentina", time: "Within 90 days", details: "You have 90 days to enter after approval" },
+      { step: 1, title: "Confirm nationality eligibility", time: "1-2 days", details: "This route is built for passports that already qualify for visa-free tourist entry." },
+      { step: 2, title: "Gather remote-work evidence", time: "1-3 weeks", details: "Prepare contracts, client letters, bank statements, insurance, and accommodation proof." },
+      { step: 3, title: "Apply through the current official channel", time: "Same day", details: "Use the consular or online process currently listed for digital nomads instead of assuming RADEX applies." },
+      { step: 4, title: "Upload and pay", time: "1-2 hours", details: "Submit the requested files and pay the current fee in the platform you were instructed to use." },
+      { step: 5, title: "Wait for review", time: "4-8+ weeks", details: "Expect follow-up requests if your remote-work profile or documents are unclear." },
+      { step: 6, title: "Travel or regularize as instructed", time: "Varies", details: "Follow the exact entry or issuance instructions on your approval. Do not assume this creates a DNI-based residence." },
     ],
     rejections: [
-      { reason: "Insufficient income proof", solution: "Provide 6 months of bank statements showing consistent income" },
-      { reason: "Background check issues", solution: "Ensure your background check is apostilled and less than 90 days old" },
-      { reason: "Incomplete documentation", solution: "Double-check all required documents before submitting" },
-      { reason: "Previous visa overstays", solution: "If you overstayed before, consult a lawyer first" },
+      { reason: "Passport nationality not eligible", solution: "Confirm you actually qualify for visa-free tourist entry before spending time on the file." },
+      { reason: "Unclear foreign income", solution: "Show a clean paper trail tying your income to clients or employers outside Argentina." },
+      { reason: "Incomplete supporting documents", solution: "Match the current checklist exactly and avoid uploading vague screenshots instead of proper statements." },
+      { reason: "Applicant expects standard residency rights", solution: "This is a transitory authorization, not a substitute for work, family, or longer-term residence categories." },
     ],
     costs: {
       official: [
-        { item: "Visa application fee", cost: "$100-150" },
-        { item: "Entry fee (reciprocity)", cost: "$0-160 (varies by nationality)" },
+        { item: "Government fee", cost: "Varies by channel" },
+        { item: "Consular or platform charge", cost: "Verify before applying" },
       ],
       hidden: [
         { item: "Document apostille", cost: "$50-150" },
@@ -788,8 +788,8 @@ const visaData = {
       ],
     },
     stories: [
-      { name: "Marcus, 34, Developer", story: "Got approved in 7 weeks. Key was having 6 months of consistent freelance income documented. The background check took longest - start that first.", tip: "Use the RADEX system, not in-person. Much faster." },
-      { name: "Sofia, 29, Designer", story: "Rejected first time due to 'insufficient ties to home country.' Added a letter from my landlord and utility bills, then approved in 5 weeks.", tip: "Show you have a life to return to - leases, subscriptions, etc." },
+      { name: "Typical remote employee case", story: "Approvals tend to go more smoothly when the applicant's employer, salary deposits, insurance, and trip plan all line up cleanly in the paperwork.", tip: "Organize your foreign-income proof before you start the application." },
+      { name: "Typical freelancer case", story: "Freelancers usually succeed when they can show recurring clients, recent bank statements, and a coherent explanation of why Argentina fits a short remote stay.", tip: "Treat this as a well-documented short-stay file, not a back door to full residency." },
     ],
   },
   "work": {
@@ -963,48 +963,50 @@ const visaData = {
     ],
   },
   "investment": {
-    name: "Investment Visa",
-    duration: "1-3 years",
-    cost: "$500-1,000+",
-    processing: "12-20 weeks",
-    workAllowed: "Yes - own business",
-    residencyPath: "Yes - permanent available",
-    renewable: "Yes",
-    family: "Yes",
+    name: "Investor Residence",
+    duration: "Case-dependent temporary residency",
+    cost: "Professional + filing fees vary",
+    processing: "Case-by-case",
+    workAllowed: "Manage the approved Argentine venture",
+    residencyPath: "Possible if the temporary residence is approved and maintained",
+    renewable: "Case-by-case",
+    family: "Usually yes",
     whoFor: [
-      { profile: "Real estate investors", fit: "perfect" },
+      { profile: "Founders building an operating Argentine business", fit: "perfect" },
+      { profile: "Investors funding a productive local project", fit: "perfect" },
       { profile: "Business owners/entrepreneurs", fit: "perfect" },
       { profile: "Startup founders", fit: "good" },
-      { profile: "Agricultural investors", fit: "good" },
+      { profile: "Agricultural or industrial operators", fit: "good" },
       { profile: "Passive stock investors", fit: "not-suitable" },
+      { profile: "People only buying a home for personal use", fit: "not-suitable" },
     ],
     requirements: [
       "Valid passport with 6+ months validity",
-      "Proof of investment (property deed, business registration, etc.)",
-      "Minimum investment varies (typically $50,000+ USD)",
-      "Business plan (for new businesses)",
+      "Proof of productive investment or economic activity in Argentina",
+      "Business plan or operating plan that explains the local venture",
       "Source of funds documentation",
       "Criminal background check (apostilled)",
       "Health insurance",
+      "Corporate, tax, and registry documents that match the structure you are using",
     ],
     steps: [
-      { step: 1, title: "Make investment", time: "Varies", details: "Purchase property or establish business before applying" },
-      { step: 2, title: "Gather investment proof", time: "2-4 weeks", details: "Property deeds, business registration, bank transfers" },
-      { step: 3, title: "Prepare business documentation", time: "2-4 weeks", details: "Business plan, financial projections, source of funds" },
-      { step: 4, title: "Submit application", time: "2-3 hours", details: "Extensive documentation required - consider lawyer" },
-      { step: 5, title: "Wait for review", time: "10-16 weeks", details: "Migraciones may request additional documentation" },
-      { step: 6, title: "Interview (possible)", time: "1 hour", details: "Some applicants are called for interview" },
+      { step: 1, title: "Structure the venture", time: "Varies", details: "Define whether you are funding a new company, acquiring a stake, or launching a productive project." },
+      { step: 2, title: "Document the money trail", time: "2-6 weeks", details: "Prepare source-of-funds proof, transfer records, and any tax or sale documentation that explains the capital." },
+      { step: 3, title: "Build the Argentine file", time: "2-6 weeks", details: "Gather company-registration, lease, tax, and business-plan materials that prove real activity." },
+      { step: 4, title: "Submit the residence application", time: "1-2 days", details: "Investor files are heavy and usually benefit from legal review before submission." },
+      { step: 5, title: "Answer follow-up requests", time: "Varies", details: "Migraciones may request clarifications, additional proofs, or updates while the file is open." },
+      { step: 6, title: "Move to DNI after approval", time: "Varies", details: "If temporary residency is approved, finish the DNI process separately with RENAPER." },
     ],
     rejections: [
-      { reason: "Investment insufficient", solution: "Real estate typically needs $50k+; businesses need viable plan + capital" },
+      { reason: "Investment is passive or too thin", solution: "A simple personal-use property purchase is not the same thing as a productive investor-residency file." },
       { reason: "Source of funds unclear", solution: "Document where investment money came from - tax returns, sales, etc." },
       { reason: "Business not viable", solution: "Business plan must show economic benefit to Argentina" },
-      { reason: "Property issues", solution: "Real estate must have clear title; agricultural land has restrictions" },
+      { reason: "Corporate or tax file is incomplete", solution: "Make sure the Argentine legal structure, CUIT, and supporting records are coherent before filing." },
     ],
     costs: {
       official: [
-        { item: "Visa application fee", cost: "$500-1,000" },
-        { item: "Residency processing", cost: "$400-600" },
+        { item: "Government filing fees", cost: "Varies" },
+        { item: "Residence processing costs", cost: "Verify before filing" },
       ],
       hidden: [
         { item: "Lawyer fees (highly recommended)", cost: "$1,500-5,000" },
@@ -1015,8 +1017,8 @@ const visaData = {
       ],
     },
     stories: [
-      { name: "David, 45, Tech Entrepreneur", story: "Started a software company with $80k investment. Took 18 weeks total. Had one request for additional documents. Lawyer was essential.", tip: "Don't skimp on the lawyer. Investment visas are complex." },
-      { name: "Maria, 52, Property Investor", story: "Bought an apartment in Palermo for $120k. Visa took 14 weeks. Had to show the full money trail from US account to Argentine notary.", tip: "Keep every receipt and bank record. They check everything." },
+      { name: "Typical founder case", story: "The strongest files usually combine a real local company setup, a credible business plan, and a clean source-of-funds trail.", tip: "Assume investor residence is a legal-and-accounting project, not just an immigration form." },
+      { name: "Typical project-investor case", story: "Applicants run into trouble when they treat a property transfer alone as enough evidence. The file needs to show productive activity and why Argentina benefits from it.", tip: "Keep every transfer record and corporate document from day one." },
     ],
   },
 };
@@ -1037,61 +1039,105 @@ export default function VisasPageClient() {
       </div>
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-white dark:from-primary/10 dark:to-background">
+      <section className="overflow-hidden py-14 md:py-20 bg-[linear-gradient(180deg,rgba(15,118,110,0.1),rgba(255,255,255,0.98))] dark:bg-[linear-gradient(180deg,rgba(15,118,110,0.18),rgba(10,15,23,1))]">
         <div className="container mx-auto px-5">
-          <div className="max-w-3xl mx-auto text-center">
-            <Badge className="mb-4" variant="secondary">
-              <Icon name="file-text" size="sm" />
-              Complete Guide 2026
-            </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Argentina Visa Guide & Decision Tool
-            </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              Find the right visa, calculate costs, estimate timelines, and learn from 
-              people who&apos;ve actually gone through the process.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg">
-                <Link href="#quiz">
-                  <Icon name="zap" size="sm" />
-                  Find Your Visa
-                </Link>
-              </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href="#comparison">
-                  <Icon name="scale" size="sm" />
-                  Compare All Visas
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 2026 Visa Reality Alert */}
-      <section className="py-8 bg-amber-50 dark:bg-amber-950/20 border-y border-amber-200 dark:border-amber-800">
-        <div className="container mx-auto px-5">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-start gap-4">
-              <Icon name="alert-circle" size="lg" className="text-amber-600 flex-shrink-0 mt-1" />
-              <div>
-                <h2 className="text-xl font-bold text-amber-900 dark:text-amber-100 mb-2">
-                  2026 Visa Reality: Delays & Processing Updates
-                </h2>
-                <ul className="text-amber-800 dark:text-amber-200 space-y-3 text-sm">
-                  <li><strong>DNI Delays:</strong> National ID processing is taking 6+ months due to system backlogs. Without DNI, banking and renting are extremely difficult.</li>
-                  <li><strong>2-Year Citizenship Rule:</strong> Citizenship requires 2 years of <em>permanent</em> residency (not temporary). Total timeline: 4-5 years minimum.</li>
-                  <li><strong>Digital Nomad Visa:</strong> Only 180 days with no direct residency path. Many regret choosing this over other visa types.</li>
-                </ul>
+          <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
+            <div className="max-w-3xl">
+              <Badge className="mb-4" variant="secondary">
+                <Icon name="file-text" size="sm" />
+                Complete Guide 2026
+              </Badge>
+              <h1 className="text-4xl md:text-5xl font-bold text-balance mb-5">
+                Argentina Visa Guide & Decision Tool
+              </h1>
+              <p className="text-xl text-muted-foreground text-pretty max-w-2xl mb-8">
+                Find the right visa, sanity-check common internet myths, and plan your next steps
+                with tools built around how Argentina&apos;s routes actually work in 2026.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Button asChild size="lg" className="h-14 px-6 shadow-sm">
+                  <Link href="#quiz">
+                    <Icon name="zap" size="sm" />
+                    Find Your Visa
+                  </Link>
+                </Button>
+                <Button asChild size="lg" variant="outline" className="h-14 px-6">
+                  <Link href="#comparison">
+                    <Icon name="scale" size="sm" />
+                    Compare All Visas
+                  </Link>
+                </Button>
+              </div>
+              <div className="mt-6 flex flex-wrap gap-2 text-sm text-muted-foreground">
+                <span className="inline-flex items-center gap-2 rounded-full border bg-background/90 px-3 py-1.5">
+                  <Icon name="check-circle" size="sm" className="text-primary" />
+                  4 planning tools
+                </span>
+                <span className="inline-flex items-center gap-2 rounded-full border bg-background/90 px-3 py-1.5">
+                  <Icon name="clock" size="sm" className="text-primary" />
+                  Timelines updated for 2026
+                </span>
+                <span className="inline-flex items-center gap-2 rounded-full border bg-background/90 px-3 py-1.5">
+                  <Icon name="shield" size="sm" className="text-primary" />
+                  Case-specific warnings baked in
+                </span>
+              </div>
+              <div className="mt-6 rounded-2xl border border-amber-200/80 bg-amber-50/70 p-4 shadow-sm">
+                <div className="flex items-start gap-3">
+                  <Icon name="alert-circle" size="md" className="text-amber-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <p className="font-semibold text-amber-900 mb-2">2026 reality check</p>
+                    <ul className="space-y-2 text-sm text-amber-800">
+                      <li><strong>DNI timing:</strong> do not plan banking or leases around same-week card delivery.</li>
+                      <li><strong>Digital nomad:</strong> useful for short remote stays, not a substitute for a normal DNI-based residence.</li>
+                      <li><strong>Citizenship claims:</strong> treat simple social-media timelines skeptically and verify your actual path.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
+
+            <Card className="border-primary/10 bg-background/95 shadow-sm">
+              <CardHeader className="pb-4">
+                <CardTitle className="text-xl">Use This Page To Decide Faster</CardTitle>
+                <CardDescription>
+                  Start with the tool or section that matches your question instead of reading the full guide linearly.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                {[
+                  {
+                    title: "Not sure which route fits?",
+                    body: "Jump into the visa finder quiz and narrow the field before you gather documents.",
+                  },
+                  {
+                    title: "Comparing work, retirement, nomad, or investor?",
+                    body: "Use the comparison section to see which tradeoffs matter before you commit.",
+                  },
+                  {
+                    title: "Trying to price the admin burden?",
+                    body: "Use the cost, timeline, and checklist tools to see what the process really asks from you.",
+                  },
+                ].map((item) => (
+                  <div key={item.title} className="rounded-xl border bg-muted/40 p-4">
+                    <p className="font-medium mb-1">{item.title}</p>
+                    <p className="text-sm text-muted-foreground">{item.body}</p>
+                  </div>
+                ))}
+                <Button asChild variant="ghost" className="w-full justify-between px-4">
+                  <Link href="#quiz">
+                    Start with the tools
+                    <Icon name="arrow-right" size="sm" />
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
       {/* Interactive Tools Section */}
-      <section id="quiz" className="py-16">
+      <section id="quiz" className="pt-12 pb-16">
         <div className="container mx-auto px-5">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
@@ -1209,19 +1255,19 @@ export default function VisasPageClient() {
                     </tr>
                     <tr className="border-b">
                       <td className="py-3 px-3 font-medium">Cost</td>
-                      <td className="py-3 px-3 text-muted-foreground">$100-150</td>
+                      <td className="py-3 px-3 text-muted-foreground">Varies</td>
                       <td className="py-3 px-3 text-muted-foreground">$200-400</td>
                       <td className="py-3 px-3 text-muted-foreground">$200-400</td>
                       <td className="py-3 px-3 text-muted-foreground">$150-300</td>
-                      <td className="py-3 px-3 text-muted-foreground">$500-1,000+</td>
+                      <td className="py-3 px-3 text-muted-foreground">Varies widely</td>
                     </tr>
                     <tr className="border-b">
                       <td className="py-3 px-3 font-medium">Processing Time</td>
-                      <td className="py-3 px-3 text-muted-foreground">6-10 weeks</td>
+                      <td className="py-3 px-3 text-muted-foreground">4-8+ weeks</td>
                       <td className="py-3 px-3 text-muted-foreground">10-16 weeks</td>
                       <td className="py-3 px-3 text-muted-foreground">8-14 weeks</td>
                       <td className="py-3 px-3 text-muted-foreground">4-8 weeks</td>
-                      <td className="py-3 px-3 text-muted-foreground">12-20 weeks</td>
+                      <td className="py-3 px-3 text-muted-foreground">Case-by-case</td>
                     </tr>
                     <tr className="border-b">
                       <td className="py-3 px-3 font-medium">Work Allowed</td>
@@ -1237,31 +1283,31 @@ export default function VisasPageClient() {
                       <td className="py-3 px-3 text-green-600">Yes (2 years)</td>
                       <td className="py-3 px-3 text-green-600">Yes (2 years)</td>
                       <td className="py-3 px-3 text-amber-600">Possible</td>
-                      <td className="py-3 px-3 text-green-600">Yes</td>
+                      <td className="py-3 px-3 text-green-600">Possible</td>
                     </tr>
                     <tr className="border-b">
                       <td className="py-3 px-3 font-medium">Renewable</td>
-                      <td className="py-3 px-3 text-red-500">No (reapply)</td>
+                      <td className="py-3 px-3 text-red-500">Not standard</td>
                       <td className="py-3 px-3 text-green-600">Yes</td>
                       <td className="py-3 px-3 text-green-600">Yes (annual)</td>
                       <td className="py-3 px-3 text-green-600">Yes</td>
-                      <td className="py-3 px-3 text-green-600">Yes</td>
+                      <td className="py-3 px-3 text-green-600">Case-by-case</td>
                     </tr>
                     <tr className="border-b">
                       <td className="py-3 px-3 font-medium">Bring Family</td>
-                      <td className="py-3 px-3 text-amber-600">Complicated</td>
+                      <td className="py-3 px-3 text-amber-600">Case-by-case</td>
                       <td className="py-3 px-3 text-green-600">Yes</td>
                       <td className="py-3 px-3 text-green-600">Yes</td>
                       <td className="py-3 px-3 text-amber-600">Possible</td>
-                      <td className="py-3 px-3 text-green-600">Yes</td>
+                      <td className="py-3 px-3 text-green-600">Usually yes</td>
                     </tr>
                     <tr>
                       <td className="py-3 px-3 font-medium">Income Requirement</td>
-                      <td className="py-3 px-3 text-muted-foreground">~$2,500/mo</td>
+                      <td className="py-3 px-3 text-muted-foreground">Foreign remote income</td>
                       <td className="py-3 px-3 text-muted-foreground">Job offer</td>
                       <td className="py-3 px-3 text-muted-foreground">~$1,000/mo pension</td>
                       <td className="py-3 px-3 text-muted-foreground">Proof of funds</td>
-                      <td className="py-3 px-3 text-muted-foreground">~$50,000+ investment</td>
+                      <td className="py-3 px-3 text-muted-foreground">Productive project + source of funds</td>
                     </tr>
                   </tbody>
                 </table>
@@ -1619,9 +1665,10 @@ export default function VisasPageClient() {
                 <AccordionContent className="pb-6">
                   <div className="space-y-6">
                     <div>
-                      <h3 className="font-semibold text-base mb-3">RADEX Online System (Recommended)</h3>
+                      <h3 className="font-semibold text-base mb-3">RADEX Online System (for many standard residence categories)</h3>
                       <p className="text-muted-foreground mb-3">
-                        Most applications now go through RADEX, the online immigration system. 
+                        Many standard residence applications now go through RADEX, the online immigration system. 
+                        Digital nomad files may use a different official channel, so always verify the current instructions for your exact category before creating accounts. 
                         Create an account at <Link href="https://www.migraciones.gov.ar" className="text-primary underline">migraciones.gov.ar</Link>.
                       </p>
                       <ol className="space-y-2 list-decimal list-inside text-muted-foreground">
@@ -1693,8 +1740,8 @@ export default function VisasPageClient() {
                       <h3 className="font-semibold text-base mb-3">Getting Your DNI (National ID) — 2026 Delays</h3>
                       <div className="p-4 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 rounded-lg mb-4">
                         <p className="text-amber-800 dark:text-amber-200 text-sm">
-                          <strong>⚠️ 2026 Reality:</strong> DNI processing is taking 6+ months in many cases due to 
-                          system backlogs. Plan accordingly—banking, renting, and many services are difficult without DNI.
+                          <strong>⚠️ 2026 Reality:</strong> DNI timing still varies heavily by office and workload.
+                          Plan for delays instead of assuming the card will be in your hands immediately after approval.
                         </p>
                       </div>
                       <p className="text-muted-foreground mb-3">
@@ -1702,7 +1749,7 @@ export default function VisasPageClient() {
                         You need it for:
                       </p>
                       <ul className="space-y-1 text-muted-foreground list-disc list-inside">
-                        <li>Opening bank accounts (without DNI, you're limited to MercadoPago)</li>
+                        <li>Opening bank accounts (without DNI, you&apos;re limited to MercadoPago)</li>
                         <li>Signing rental contracts (most landlords require it)</li>
                         <li>Getting a local phone plan</li>
                         <li>Utilities in your name</li>
@@ -1710,8 +1757,8 @@ export default function VisasPageClient() {
                       </ul>
                       <p className="text-muted-foreground mt-3">
                         Apply at RENAPER offices (separate from Migraciones). Bring your passport, 
-                        visa approval, proof of address, and birth certificate. <strong>Processing now takes 4-8 weeks minimum, often 6+ months.</strong> 
-                        You may get a temporary paper DNI, but the physical card is taking much longer in 2026.
+                        visa approval, proof of address, and the supporting documents requested for your category.
+                        Digital nomad authorization is different: it is generally not the route that produces a foreign DNI, so do not plan around a DNI if that is your only status.
                       </p>
                     </div>
 
@@ -1776,8 +1823,8 @@ export default function VisasPageClient() {
                             <h5 className="font-semibold text-red-900">Emergency: Already Overstayed?</h5>
                             <p className="text-red-800 text-base md:text-sm mt-1">
                               Go to Migraciones immediately to regularize your situation. 
-                              You&apos;ll pay a fine (approximately ARS $150,000-300,000 depending on length) 
-                              but it&apos;s much better than getting caught at the border. 
+                              You&apos;ll usually face a fine or regularization cost, but that amount can change,
+                              so do not rely on stale blog numbers. It&apos;s still much better than getting caught at the border. 
                               Consider hiring a lawyer for this process.
                             </p>
                           </div>

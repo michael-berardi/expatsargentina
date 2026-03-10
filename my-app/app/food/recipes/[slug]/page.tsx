@@ -7,8 +7,6 @@ import {
   Users, 
   ChefHat, 
   ArrowLeft,
-  Printer,
-  Share2,
   Clock3,
   Flame,
   MapPin,
@@ -291,7 +289,7 @@ export default async function RecipePage({
                   <ul className="space-y-2">
                     {recipe.whereToFind.map((place, idx) => (
                       <li key={idx} className="text-sm text-muted-foreground flex items-start gap-2">
-                        <span className="text-white/850 mt-1">•</span>
+                        <span className="text-accent mt-1">•</span>
                         {place}
                       </li>
                     ))}
