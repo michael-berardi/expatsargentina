@@ -183,17 +183,20 @@ export default function NationalitiesPage() {
         <section className="py-12 md:py-16 bg-primary/5">
           <div className="container px-4 md:px-6">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-2xl font-bold mb-4">Don't See Your Country?</h2>
+              <h2 className="text-2xl font-bold mb-4">Don&apos;t See Your Country?</h2>
               <p className="text-muted-foreground mb-6">
-                Immigration rules apply broadly by region. Contact us for personalized 
-                guidance specific to your nationality and situation.
+                Immigration rules apply broadly by region. If your passport, entry path, or long-stay plan needs a second opinion, Lucero Legal is the lawyer we usually point readers to.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link href="/visas">
                   <Button size="lg">Explore All Visas</Button>
                 </Link>
-                <Link href="/contact">
-                  <Button variant="outline" size="lg">Get Personalized Advice</Button>
+                <Link
+                  href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=nationality-index-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="lg">Ask Lucero Legal</Button>
                 </Link>
               </div>
             </div>

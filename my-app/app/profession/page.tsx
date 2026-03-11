@@ -163,17 +163,20 @@ export default function ProfessionsPage() {
         <section className="py-12 md:py-16 bg-primary/5">
           <div className="container px-4 md:px-6">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-2xl font-bold mb-4">Don't See Your Profession?</h2>
+              <h2 className="text-2xl font-bold mb-4">Don&apos;t See Your Profession?</h2>
               <p className="text-muted-foreground mb-6">
-                Every profession has a pathway to Argentina. Contact us for personalized 
-                guidance tailored to your specific career and situation.
+                Every profession has a pathway to Argentina. If you need a lawyer to map the cleanest route for your career, Lucero Legal is usually the best next call.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link href="/visas">
                   <Button size="lg">Explore All Visas</Button>
                 </Link>
-                <Link href="/contact">
-                  <Button variant="outline" size="lg">Get Personalized Advice</Button>
+                <Link
+                  href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=profession-index-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="lg">Ask Lucero Legal</Button>
                 </Link>
               </div>
             </div>

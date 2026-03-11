@@ -20,6 +20,7 @@ import {
   type Region,
 } from "@/lib/data/argentina";
 import { FactBox } from "@/components/FactBox";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 export function generateStaticParams() {
   return provinces.map((province) => ({ slug: province.slug }));
@@ -352,6 +353,14 @@ export default async function ProvinceDetailPage({
               Learn more about life in Argentina with our visa guides, cost of
               living breakdowns, and city-by-city comparisons.
             </p>
+            <div className="mx-auto mb-8 max-w-2xl">
+              <LuceroLegalCTA
+                variant="full"
+                utmMedium="province-guide-cta"
+                title="When your move to this province depends on getting the paperwork right,"
+                description="Lucero Legal is the lawyer we usually suggest for visa strategy, residency filings, and document-heavy cases."
+              />
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" variant="secondary">
                 <Link href="/provinces">
@@ -366,6 +375,20 @@ export default async function ProvinceDetailPage({
                 className="border-primary-foreground/20 hover:bg-primary-foreground/10"
               >
                 <Link href="/visas">Visa Guide</Link>
+              </Button>
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="border-primary-foreground/20 hover:bg-primary-foreground/10"
+              >
+                <Link
+                  href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=province-guide-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Talk to Lucero Legal
+                </Link>
               </Button>
             </div>
           </div>

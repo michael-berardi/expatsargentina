@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Clock, Calendar, ArrowLeft, ArrowRight, Share2, User } from "lucide-react";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 interface BlogPostPageProps {
   params: Promise<{
@@ -502,6 +503,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   </p>
                 </CardContent>
               </Card>
+
+              <LuceroLegalCTA
+                variant="card"
+                utmMedium="blog-article-card"
+                title="If this article turns into an immigration decision, talk to Lucero Legal"
+                description="Readers usually reach out when they need someone to review documents, confirm the safest filing order, or sanity-check a move before paying for translations, apostilles, or flights."
+                ctaLabel="Talk to Lucero Legal"
+              />
 
               {/* Related Articles */}
               {relatedPosts.length > 0 && (

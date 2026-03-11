@@ -2,12 +2,9 @@
 
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
-import { useI18n } from "@/lib/i18n";
 import { footerNav, type NavItem } from "@/lib/data/navigation";
 
 export function Footer() {
-  const { locale } = useI18n();
-
   const sections: { title: string; items: NavItem[] }[] = [
     { title: "Provinces", items: footerNav.provinces },
     { title: "Cities", items: footerNav.cities },
@@ -30,6 +27,18 @@ export function Footer() {
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
               Your guide to expat life in Argentina. Visa guides, cost of living, and expert advice for all 24 provinces.
+            </p>
+            <p className="mt-3 text-sm text-muted-foreground max-w-xs">
+              When readers need an immigration lawyer, we usually point them to{" "}
+              <a
+                href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=footer-recommendation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground transition-colors hover:text-primary"
+              >
+                Lucero Legal
+              </a>
+              .
             </p>
             <p className="text-sm text-muted-foreground mt-2">
               <a href="mailto:hello@expatsargentina.com" className="hover:text-foreground transition-colors">

@@ -449,9 +449,13 @@ export default async function VisaComparisonPage({
                 </Link>
               </Button>
               <Button variant="outline" asChild>
-                <Link href="/contact">
+                <Link
+                  href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=visa-compare-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FileTextIcon size="sm" className="mr-2" />
-                  Get in Touch
+                  Ask Lucero Legal
                 </Link>
               </Button>
             </div>

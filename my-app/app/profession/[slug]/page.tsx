@@ -518,19 +518,23 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                     <MessageCircle className="h-8 w-8 text-white" />
                   </div>
                   
-                  <h3 className="font-bold text-xl mb-3 text-white">Need Personalized Visa Advice?</h3>
+                  <h3 className="font-bold text-xl mb-3 text-white">Need a lawyer to review the move?</h3>
                   
                   <p className="text-sm text-white/90 mb-6 leading-relaxed">
-                    Get a free consultation with Lucero Legal. Expert guidance tailored for {profession.name.toLowerCase()}s.
+                    When readers in {profession.name.toLowerCase()} need case-specific immigration help, Lucero Legal is usually the firm we recommend.
                   </p>
                   
                   <div className="space-y-4">
-                    <Link href="/contact">
+                    <Link
+                      href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=profession-guide-cta"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button 
                         size="lg"
                         className="w-full bg-white text-primary hover:bg-white/90 font-bold shadow-lg hover:shadow-xl transition-all duration-300 text-base"
                       >
-                        Get Free Consultation
+                        Talk to Lucero Legal
                       </Button>
                     </Link>
                     

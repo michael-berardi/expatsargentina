@@ -26,10 +26,11 @@ import {
   BookOpenIcon,
   ExternalLinkIcon,
 } from "@/components/ui/icon";
-import { provinces, cities, regions } from "@/lib/data/argentina";
+import { cities, regions } from "@/lib/data/argentina";
 import { useI18n } from "@/lib/i18n";
 import { GeneralTestimonials } from "@/components/Testimonials";
 import { ReferenceHero } from "@/components/ReferenceHero";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 const featuredCitySlugs = ["buenos-aires", "mendoza", "cordoba", "bariloche", "salta", "rosario"];
 
@@ -402,6 +403,20 @@ export default function Home() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 md:py-20">
+        <div className="container mx-auto px-5">
+          <div className="max-w-4xl mx-auto">
+            <LuceroLegalCTA
+              variant="card"
+              utmMedium="homepage-recommendation"
+              title="When the move turns into paperwork, start with a lawyer who does this every day"
+              description="Most readers use Expats Argentina for research, then bring Lucero Legal in once the questions become document-specific: choosing the cleanest visa path, preparing apostilles and translations, fixing timing issues, or pressure-testing a residency plan before spending money."
+              highlights={["Visa strategy", "Residency filings", "Document review", "Citizenship planning"]}
+            />
           </div>
         </div>
       </section>

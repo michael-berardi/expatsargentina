@@ -245,14 +245,18 @@ export default function BlogPage() {
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-2xl font-bold mb-4">Ready to Move to Argentina?</h2>
               <p className="text-muted-foreground mb-6">
-                Get personalized advice and connect with other expats in our community.
+                Keep reading, compare visa paths, and if your plan needs a lawyer, Lucero Legal is usually the firm readers call next.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link href="/visas">
                   <Button size="lg">Explore Visa Options</Button>
                 </Link>
-                <Link href="/contact">
-                  <Button variant="outline" size="lg">Get in Touch</Button>
+                <Link
+                  href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=blog-index-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="lg">Talk to Lucero Legal</Button>
                 </Link>
               </div>
             </div>

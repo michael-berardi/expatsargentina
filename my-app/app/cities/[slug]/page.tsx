@@ -22,6 +22,7 @@ import {
 import { cities, getCityBySlug } from "@/lib/data/argentina";
 import { neighborhoods as allNeighborhoods } from "@/lib/data/neighborhoods";
 import { cityComparisons } from "@/lib/data/comparisons";
+import { LuceroLegalCTA } from "@/components/LuceroLegalCTA";
 
 export function generateStaticParams() {
   return cities.map((city) => ({ slug: city.slug }));
@@ -475,6 +476,14 @@ export default async function CityDetailPage({
               Get started with our visa guides and cost of living breakdowns to
               plan your move to {city.name}, Argentina.
             </p>
+            <div className="mb-8">
+              <LuceroLegalCTA
+                variant="full"
+                utmMedium="city-guide-cta"
+                title={`If ${city.name} is the city but residency is still the blocker,`}
+                description="Lucero Legal is the firm we usually recommend once readers need help turning the research into an actual filing plan."
+              />
+            </div>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild>
                 <Link href="/visas">
@@ -486,6 +495,15 @@ export default async function CityDetailPage({
                 <Link href="/cost-of-living">
                   <DollarSignIcon size="sm" className="mr-2" />
                   Cost of Living
+                </Link>
+              </Button>
+              <Button variant="outline" asChild>
+                <Link
+                  href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=city-guide-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Talk to Lucero Legal
                 </Link>
               </Button>
             </div>
