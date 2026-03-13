@@ -6,7 +6,7 @@
         {
           "type": "host",
           "value": {
-            "re": "^(?:www\\.expatsargentina\\.com|expatsargentina(?:-michael-berardis-projects|-michael-berardi-michael-berardis-projects)?\\.vercel\\.app)$"
+            "re": "^(?:www\\.expatsargentina\\.com|expatsargentina(?:-[^.]+)*\\.vercel\\.app)$"
           }
         }
       ],
