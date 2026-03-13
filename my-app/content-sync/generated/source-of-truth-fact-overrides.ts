@@ -50,14 +50,14 @@ export const blogPostsFactOverrides = {
     }
   },
   "complete-guide-digital-nomad-visa-argentina-2026": {
-    "reviewDate": "2026-03-10",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
       "excerpt": "A March 2026 reality check on Argentina's digital nomad route: who actually qualifies, how the official process works, what it does not give you, and when a different residency path makes more sense.",
       "truthSync": {
         "canonicalKey": "blog-post:complete-guide-digital-nomad-visa-argentina-2026",
         "recordId": "expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
-        "reviewDate": "2026-03-10",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
@@ -1571,15 +1571,19 @@ export const nationalitiesFactOverrides = {
   },
   "indonesia": {
     "reviewDate": "2026-03-08",
-    "sourceUrls": [],
+    "sourceUrls": [
+      "https://kemlu.go.id/buenosaires"
+    ],
     "patch": {
-      "description": "Indonesia and Argentina established diplomatic relations in 1954. Indonesian citizens can access Argentine residency through student visas, employment permits, and the digital nomad program.",
+      "description": "Indonesia and Argentina established diplomatic relations in 1954. Indonesians can still relocate successfully, but most long-stay cases rely on student residence, employer sponsorship, family ties, or another standard residency category rather than a shortcut program.",
       "truthSync": {
         "canonicalKey": "country:indonesia",
         "recordId": "expatsargentina:country:indonesia",
         "reviewDate": "2026-03-08",
         "sourceExport": "nationalities",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://kemlu.go.id/buenosaires"
+        ]
       }
     }
   },
@@ -1653,7 +1657,7 @@ export const nationalitiesFactOverrides = {
     "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
-      "description": "Italians enjoy simplified immigration to Argentina, home to the largest Italian population outside Italy. Cultural familiarity celebrates Italian heritage.",
+      "description": "Italian citizens have one of the easiest soft landings in Argentina thanks to visa-free entry, a massive Italian-Argentine community, and strong bilateral nationality and social-security ties. Residency still depends on the standard category that matches your case.",
       "truthSync": {
         "canonicalKey": "country:italy",
         "recordId": "expatsargentina:country:italy",
@@ -2103,7 +2107,9 @@ export const nationalitiesFactOverrides = {
   },
   "philippines": {
     "reviewDate": "2026-03-08",
-    "sourceUrls": [],
+    "sourceUrls": [
+      "https://buenosairespe.dfa.gov.ph/"
+    ],
     "patch": {
       "description": "The Filipino community in Argentina is small but growing, particularly in healthcare, services, and domestic work. Filipinos are valued for their English proficiency, strong work ethic, and cultural adaptability.",
       "truthSync": {
@@ -2111,7 +2117,9 @@ export const nationalitiesFactOverrides = {
         "recordId": "expatsargentina:country:philippines",
         "reviewDate": "2026-03-08",
         "sourceExport": "nationalities",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://buenosairespe.dfa.gov.ph/"
+        ]
       }
     }
   },
@@ -5138,8 +5146,8 @@ export const recipesFactOverrides = {
     "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
-      "description": "Argentina's ultimate comfort food—a breaded beef cutlet topped with ham, tomato sauce, and melted mozzarella. A perfect hybrid of Italian and Argentine cuisine that appears on every neighborhood menu.",
-      "history": "Milanesa arrived with Italian immigrants in the late 19th century, evolving from the Italian cotoletta alla milanese. The 'napolitana' variation—topped with tomato sauce, ham, and cheese—is distinctly Argentine and has no equivalent in Naples. It became popular in Buenos Aires' Italian neighborhoods and spread nationwide. Today, every Argentine family has their milanesa recipe, and it's the unofficial national comfort food.",
+      "description": "Argentina's ultimate comfort food: a breaded beef cutlet topped with ham, tomato sauce, and melted mozzarella. It is the most iconic Italian-Argentine diner plate and still shows up on neighborhood lunch menus across the country.",
+      "history": "Milanesa arrived with Italian immigrants in the late 19th century, evolving from the Italian cotoletta alla milanese. The 'napolitana' variation—topped with tomato sauce, ham, and cheese—is distinctly Argentine and has no equivalent in Naples. The most repeated origin story places it at the old Nápoli restaurant in Buenos Aires, where a customer was served a rescued cutlet covered with sauce and cheese after the first one overcooked. Whether or not that story is perfectly true, the dish spread from Buenos Aires to the rest of the country and became one of Argentina's default comfort meals at home, in bodegones, and on school lunch menus.",
       "winePairing": "Light Malbec or Bonarda",
       "truthSync": {
         "canonicalKey": "recipe:milanesa",
@@ -6214,3 +6222,4 @@ export const visaTypesFactOverrides = {
     }
   }
 } as const;
+
