@@ -1,0 +1,21 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "re": "^(?:www\\.expatsargentina\\.com|expatsargentina(?:-michael-berardis-projects|-michael-berardi-michael-berardis-projects)?\\.vercel\\.app)$"
+          }
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}
