@@ -444,7 +444,7 @@ export const visaTypesBase: VisaType[] = [
     slug: "mercosur",
     name: "Mercosur Residency",
     shortName: "Mercosur",
-    description: "Mercosur Residency is available to citizens of Mercosur member and associate countries. This is the most advantageous residency option for qualifying nationals, offering streamlined processing and full work rights.",
+    description: "Mercosur Residency is available to citizens of Mercosur member and associate countries. This is the most advantageous residency option for qualifying nationals, offering faster processing and full work rights.",
     whoIsItFor: [
       "Citizens of Mercosur full members (Brazil, Paraguay, Uruguay, Bolivia)",
       "Citizens of associate members (Chile, Peru, Colombia, Ecuador)",

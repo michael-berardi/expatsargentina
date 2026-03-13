@@ -129,7 +129,7 @@ export const provincesBase: Province[] = [
     region: "Central",
     population: "3.8 million",
     area: "165,321 km²",
-    description: "Argentina's second-largest city is a university powerhouse with 200,000+ students, a thriving tech scene, and stunning sierras just outside town. The best value big-city living in the country.",
+    description: "Argentina's second-largest city is a university powerhouse with 200,000+ students, a growing tech scene, and stunning sierras just outside town. The best value big-city living in the country.",
     longDescription: "Córdoba is Argentina's best-kept secret for expats who want big-city amenities without Buenos Aires prices. The capital city is home to the oldest university in Argentina (founded 1613) and has evolved into a genuine tech hub with a young, dynamic population. The Sierras de Córdoba provide a dramatic backdrop — weekend hikes, artisan villages, and mountain retreats are all within an hour's drive. The city itself offers a compact, walkable downtown, excellent food (including the iconic 'lomito cordobés'), and a cultural scene that punches well above its weight. The local accent ('tonada cordobesa') takes some getting used to, but the warmth of the people is immediate.",
     highlights: ["Argentina's tech hub", "University culture", "Sierras de Córdoba", "Affordable big-city living", "Young, dynamic population"],
     expatAppeal: "Perfect for digital nomads and remote workers who want affordability, good internet, a young social scene, and mountain escapes on weekends.",

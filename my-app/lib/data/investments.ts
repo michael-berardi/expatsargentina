@@ -219,7 +219,7 @@ export const investmentSectorsBase: InvestmentSector[] = [
       },
       {
         question: "How does RIGI apply to mining investments?",
-        answer: "Mining projects investing $200+ million can qualify for RIGI benefits: 25% corporate tax rate (vs. 35%), tax stability for 30 years, accelerated depreciation, and streamlined customs procedures. This makes Argentina increasingly competitive with Chile and Peru."
+        answer: "Mining projects investing $200+ million can qualify for RIGI benefits: 25% corporate tax rate (vs. 35%), tax stability for 30 years, accelerated depreciation, and simplified customs procedures. This makes Argentina increasingly competitive with Chile and Peru."
       },
       {
         question: "Can small investors participate in mining?",

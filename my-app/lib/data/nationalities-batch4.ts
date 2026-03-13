@@ -172,7 +172,7 @@ export const nationalitiesBatch4: Nationality[] = [
     flag: "🇷🇺",
     title: "Russian Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Visa pathways, Russian community, and opportunities amidst current geopolitical situation",
-    description: "Argentina has become a significant destination for Russian citizens seeking relocation options. With no visa requirements for 90 days and a streamlined residency process, Argentina offers an accessible pathway for Russians looking to establish residency abroad.",
+    description: "Argentina has become a significant destination for Russian citizens seeking relocation options. With no visa requirements for 90 days and a straightforward residency process, Argentina offers an accessible pathway for Russians looking to establish residency abroad.",
     region: "europe",
     visaRequirements: {
       tourist: {

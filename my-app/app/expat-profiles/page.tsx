@@ -47,7 +47,7 @@ const profiles = [
     city: "Buenos Aires",
     neighborhood: "Palermo Soho",
     quote:
-      "I traded my $3,200 San Francisco studio for a two-bedroom with a terrace in Palermo. My quality of life improved overnight, and the design community here is surprisingly vibrant.",
+      "I traded my $3,200 San Francisco studio for a two-bedroom with a terrace in Palermo. My quality of life improved overnight, and the design community here is surprisingly active.",
     background:
       "Emily left her role at a Bay Area startup in 2024, drawn by Buenos Aires' creative scene and the new digital nomad visa. She now freelances for US clients while building connections in Argentina's growing tech ecosystem.",
     tips: [

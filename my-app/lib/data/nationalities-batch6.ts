@@ -320,7 +320,7 @@ export const nationalitiesBatch6: Nationality[] = [
     flag: "🇹🇷",
     title: "Turkish Citizens in Argentina: Complete Immigration Guide",
     subtitle: "Growing Turkish community and immigration pathways",
-    description: "Turkey and Argentina maintain strong diplomatic and trade relations. Turkish citizens benefit from streamlined processes and a growing business community in Argentina.",
+    description: "Turkey and Argentina maintain strong diplomatic and trade relations. Turkish citizens benefit from straightforward processes and a growing business community in Argentina.",
     region: "europe",
     visaRequirements: {
       tourist: {

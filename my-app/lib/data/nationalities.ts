@@ -699,7 +699,7 @@ export const nationalitiesBase: Nationality[] = [
     flag: "🇵🇪",
     title: "Peruvian in Argentina | Complete Guide",
     subtitle: "Mercosur associate benefits, active community, and immigration pathways for Peruvians",
-    description: "Peruvians enjoy streamlined immigration as Mercosur associates since 2003. One of the largest immigrant communities with established cultural and economic connections.",
+    description: "Peruvians enjoy fast-tracked immigration as Mercosur associates since 2003. One of the largest immigrant communities with established cultural and economic connections.",
     region: "latin-america",
     visaRequirements: {
       tourist: {
@@ -802,7 +802,7 @@ export const nationalitiesBase: Nationality[] = [
     faqs: [
       {
         question: "Do Peruvians need a visa for Argentina?",
-        answer: "No visa needed for 90 days. For longer stays, Mercosur associate residency gives you 2 years with full work rights. The process is streamlined compared to non-Mercosur countries."
+        answer: "No visa needed for 90 days. For longer stays, Mercosur associate residency gives you 2 years with full work rights. The process is faster compared to non-Mercosur countries."
       },
       {
         question: "How big is the Peruvian community?",
@@ -884,7 +884,7 @@ export const nationalitiesBase: Nationality[] = [
     specialAgreements: {
       hasAgreement: true,
       type: "Mercosur Associate Membership",
-      description: "Colombia joined Mercosur as an associate member in 2012, granting Colombians residency and work rights in Argentina with streamlined processing.",
+      description: "Colombia joined Mercosur as an associate member in 2012, granting Colombians residency and work rights in Argentina with faster processing.",
       benefits: [
         "2-year renewable residency",
         "Full work authorization",
@@ -1392,7 +1392,7 @@ export const nationalitiesBase: Nationality[] = [
         "The digital nomad visa is your best bet if you work remotely",
         "Bring USD cash for blue rate exchanges - you'll get ~40-50% more",
         "Get your FBI background check before traveling (apostille required)",
-        "Buenos Aires has a thriving American expat scene",
+        "Buenos Aires has a large American expat community",
         "Healthcare is excellent and affordable compared to US",
         "Consider the 'rentista' visa if you have passive income",
         "Learning Spanish will transform your experience"
@@ -3763,7 +3763,7 @@ export const nationalitiesBase: Nationality[] = [
     specialAgreements: {
       hasAgreement: false,
       type: "EU Member Benefits",
-      description: "While no specific bilateral agreement exists, EU citizens enjoy streamlined processing and reliable diplomatic support from the Belgian Embassy in Buenos Aires.",
+      description: "While no specific bilateral agreement exists, EU citizens enjoy efficient processing and reliable diplomatic support from the Belgian Embassy in Buenos Aires.",
       benefits: [
         "Visa-free entry (90 days)",
         "Digital nomad visa available",

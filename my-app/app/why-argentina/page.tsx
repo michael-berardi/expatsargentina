@@ -69,7 +69,7 @@ const reasons = [
     icon: WifiIcon,
     title: "Growing Digital Nomad Community",
     description:
-      "Argentina launched its official Digital Nomad Visa in 2022, and the community has been growing rapidly since. Buenos Aires is packed with coworking spaces like WeWork, AreaTres, and dozens of independent spots. Cafes with fast Wi-Fi are everywhere, and many have become unofficial remote work hubs. Cities like Mendoza, Cordoba, and Bariloche also have thriving nomad scenes with the added bonus of smaller-city charm.",
+      "Argentina launched its official Digital Nomad Visa in 2022, and the community has been growing rapidly since. Buenos Aires is packed with coworking spaces like WeWork, AreaTres, and dozens of independent spots. Cafes with fast Wi-Fi are everywhere, and many have become unofficial remote work hubs. Cities like Mendoza, Cordoba, and Bariloche also have growing nomad scenes with the added bonus of smaller-city charm.",
   },
   {
     icon: ShieldIcon,

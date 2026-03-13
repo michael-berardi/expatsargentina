@@ -40,7 +40,7 @@ export const nationalitiesBatch5: Nationality[] = [
     specialAgreements: {
       hasAgreement: true,
       type: "Humanitarian Provisions",
-      description: "Argentina has implemented special humanitarian visa programs for Ukrainian citizens, including expedited processing, temporary protection status, and streamlined residency pathways.",
+      description: "Argentina has implemented special humanitarian visa programs for Ukrainian citizens, including expedited processing, temporary protection status, and simplified residency pathways.",
       benefits: [
         "Expedited residency processing",
         "Humanitarian visa provisions",
