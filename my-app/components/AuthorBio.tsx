@@ -124,13 +124,13 @@ export const siteAuthors = {
     initials: "EA",
   },
   immigration: {
-    name: "Lucero Legal Team",
+    name: "Lucero Legal",
     role: "Immigration Attorneys",
     bio: "Licensed Argentine immigration attorneys with 15+ years of experience helping expats navigate visas, residency, and citizenship.",
     initials: "LL",
   },
   housing: {
-    name: "BA Rentals Team",
+    name: "BA Rentals",
     role: "Housing Specialists",
     bio: "Local rental market experts who track neighborhood trends, pricing, and availability across Buenos Aires.",
     initials: "BR",
