@@ -166,7 +166,7 @@ function generateNationalitySpecificContent(visa: typeof visaTypes[0], nat: type
       specialNotes.push(`Social Security/pension income from ${nat.name} qualifies easily for this visa category.`);
     }
     if (nat.slug === "israel") {
-      specialNotes.push(`Many Israeli retirees choose Argentina for its vibrant Jewish community and kosher infrastructure.`);
+      specialNotes.push(`Many Israeli retirees choose Argentina for its established Jewish community and kosher infrastructure.`);
     }
     if (nat.practicalInfo.taxTreaty) {
       specialNotes.push(`The ${nat.name}-Argentina tax treaty helps prevent double taxation on your pension/investment income.`);

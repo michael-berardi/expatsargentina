@@ -97,7 +97,7 @@ const benefits = [
   },
   {
     title: "Rich Culture and Lifestyle",
-    description: "From the European-influenced architecture of Buenos Aires to the wine regions of Mendoza and the natural beauty of Patagonia, Argentina offers a high quality of life at a fraction of the cost of most Western countries. The country has a strong cafe culture, vibrant arts scene, and a pace of life that appeals to retirees.",
+    description: "From the European-influenced architecture of Buenos Aires to the wine regions of Mendoza and the natural beauty of Patagonia, Argentina offers a high quality of life at a fraction of the cost of most Western countries. The country has a strong cafe culture, world-class arts scene, and a pace of life that appeals to retirees.",
   },
   {
     title: "Path to Citizenship",
@@ -182,7 +182,7 @@ export default function RetirementVisaPage() {
               Argentina Retirement Visa
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Retire to one of South America&apos;s most vibrant countries on your existing pension.
+              Retire to one of South America&apos;s most dynamic countries on your existing pension.
               Argentina&apos;s Pensionado visa offers an accessible path to residency for retirees
               with a remarkably low income threshold and a straightforward application process.
             </p>

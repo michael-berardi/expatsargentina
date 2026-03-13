@@ -462,7 +462,7 @@ const week4Tasks = [
 - **Furnishings** - Ask for items you need
 - **Contract length** - Shorter terms if you're unsure
 
-**Leverage you have:**
+**Advantages you have:**
 - Paying several months upfront
 - Foreign income (stable in USD)
 - Long-term commitment
@@ -628,7 +628,7 @@ const wishIKnew = [
   },
   {
     title: "Cash is King",
-    content: "Even though cards are more accepted now, cash (especially USD) gives you leverage in negotiations and access to better exchange rates."
+    content: "Even though cards are more accepted now, cash (especially USD) gives you bargaining power and access to better exchange rates."
   },
   {
     title: "Time is Flexible",

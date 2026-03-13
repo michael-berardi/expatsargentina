@@ -61,7 +61,7 @@ const cityGuides = [
   {
     name: "Córdoba",
     slug: "cordoba",
-    description: "Argentina's second city offers excellent value and a vibrant university-town dining scene.",
+    description: "Argentina's second city offers excellent value and a lively university-town dining scene.",
     highlights: ["Historic center", "Student-friendly prices", "Sunday tradition"],
     icon: GraduationCap,
     color: "from-amber-600 to-accent",
@@ -70,7 +70,7 @@ const cityGuides = [
   {
     name: "Rosario",
     slug: "rosario",
-    description: "Argentina's third city delivers excellent parrillas, river fish, and a vibrant riverside dining scene.",
+    description: "Argentina's third city delivers excellent parrillas, river fish, and a lively riverside dining scene.",
     highlights: ["Riverside dining", "Historic parrillas", "Craft beer scene"],
     icon: Compass,
     color: "from-primary to-cyan-600",
