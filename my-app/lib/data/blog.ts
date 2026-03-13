@@ -194,7 +194,7 @@ If that describes you, the route can be a smart way to test Argentina without ov
 `,
     category: "visas",
     author: {
-      name: "Expats Argentina Team",
+      name: "Expats Argentina Editorial",
       role: "Immigration & Relocation Experts"
     },
     publishedAt: "2026-01-15",
@@ -458,7 +458,7 @@ There's no "perfect" neighborhood—only the one that fits your lifestyle and bu
 `,
     category: "neighborhoods",
     author: {
-      name: "Expats Argentina Team",
+      name: "Expats Argentina Editorial",
       role: "Local Real Estate & Neighborhood Experts"
     },
     publishedAt: "2026-01-10",
@@ -732,7 +732,7 @@ With $1,500-2,000 per month, you can live very comfortably in one of South Ameri
 `,
     category: "cost-of-living",
     author: {
-      name: "Expats Argentina Team",
+      name: "Expats Argentina Editorial",
       role: "Financial Planning & Budget Experts"
     },
     publishedAt: "2026-01-05",
@@ -922,7 +922,7 @@ Bienvenido a Argentina. It's going to be a wild ride.
 `,
     category: "culture",
     author: {
-      name: "Expats Argentina Team",
+      name: "Expats Argentina Editorial",
       role: "Cultural Integration Specialists"
     },
     publishedAt: "2025-12-28",
@@ -1193,7 +1193,7 @@ Once set up, banking in Argentina is functional. The mobile apps are surprisingl
 `,
     category: "practical",
     author: {
-      name: "Expats Argentina Team",
+      name: "Expats Argentina Editorial",
       role: "Financial Services Experts"
     },
     publishedAt: "2025-12-20",
@@ -1469,7 +1469,7 @@ Welcome home.
 `,
     category: "housing",
     author: {
-      name: "Expats Argentina Team",
+      name: "Expats Argentina Editorial",
       role: "Real Estate & Relocation Experts"
     },
     publishedAt: "2025-12-15",
@@ -1756,7 +1756,7 @@ Stay healthy!
 `,
     category: "practical",
     author: {
-      name: "Expats Argentina Team",
+      name: "Expats Argentina Editorial",
       role: "Healthcare & Insurance Experts"
     },
     publishedAt: "2025-12-10",
@@ -2079,7 +2079,7 @@ Wherever you choose, Argentina welcomes remote workers with open arms.
 `,
     category: "work",
     author: {
-      name: "Expats Argentina Team",
+      name: "Expats Argentina Editorial",
       role: "Remote Work & Location Specialists"
     },
     publishedAt: "2025-12-05",
