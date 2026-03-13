@@ -5914,7 +5914,7 @@ export const professionsBase: Profession[] = [
     description: "Wellness coaching is growing fast, and the entire practice can run over video. Argentina offers a great lifestyle while you build your client base.",
     icon: "GraduationCap",
     category: "healthcare",
-    overview: "Wellness Coaches help clients improve their health, habits, and wellbeing through coaching sessions. The work is entirely remote - coaching happens through video calls, with support via messaging and apps. Argentine wellness coaches can serve international clients, with US coaches earning $50-150+/hour. The profession requires certification, empathy, and coaching skills. It's a fulfilling career for those passionate about health and helping others. Coaches can specialize in areas like nutrition, fitness, stress management, or holistic wellness.",
+    overview: "Wellness Coaches help clients improve their health, habits, and wellbeing through coaching sessions. The work is entirely remote - coaching happens through video calls, with support via messaging and apps. Argentine wellness coaches can serve international clients, with US coaches earning $50-150+/hour. The profession requires certification, empathy, and coaching skills. It's a fulfilling career for those passionate about health and helping others. Coaches can specialize in areas like nutrition, fitness, stress management, or general wellness.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -6638,7 +6638,7 @@ export const professionsBase: Profession[] = [
     description: "Telemedicine lets physicians consult patients from anywhere with a stable connection. Argentina works -- but licensing is the real question.",
     icon: "Stethoscope",
     category: "healthcare",
-    overview: "Telemedicine Doctors provide remote medical consultations via video calls, diagnosing conditions, prescribing medications, and offering medical advice. While licensing requirements vary, some telemedicine platforms allow internationally-licensed physicians to serve global patients. US telemedicine platforms pay $100-250+/hour for experienced doctors. Argentine physicians with US or international licenses can serve patients remotely. This is a high-conversion profession for visa services due to complex licensing and legal requirements.",
+    overview: "Telemedicine Doctors provide remote medical consultations via video calls, diagnosing conditions, prescribing medications, and offering medical advice. While licensing requirements vary, some telemedicine platforms allow internationally-licensed physicians to serve global patients. US telemedicine platforms pay $100-250+/hour for experienced doctors. Argentine physicians with US or international licenses can serve patients remotely. Licensing and legal requirements are complex, so professional immigration guidance is especially valuable for this profession.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -6729,7 +6729,7 @@ export const professionsBase: Profession[] = [
     description: "Demand for online therapy has surged. Therapists with the right licenses can serve clients from Argentina -- here's how.",
     icon: "Heart",
     category: "healthcare",
-    overview: "Mental Health Therapists (Psychologists, Counselors, LCSWs) provide therapy and counseling services via video sessions. The demand for online therapy has surged dramatically. US platforms pay $50-150+/hour for licensed therapists. Argentine therapists with US or international licenses can serve English-speaking clients globally. This profession has strong visa conversion potential due to licensing complexity and the need for ongoing legal compliance.",
+    overview: "Mental Health Therapists (Psychologists, Counselors, LCSWs) provide therapy and counseling services via video sessions. The demand for online therapy has surged dramatically. US platforms pay $50-150+/hour for licensed therapists. Argentine therapists with US or international licenses can serve English-speaking clients globally. Licensing complexity and ongoing legal compliance make professional immigration guidance especially valuable here.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -6890,7 +6890,7 @@ export const professionsBase: Profession[] = [
     description: "Legal professionals have unique opportunities in Argentina. Learn how attorneys can work remotely or establish practice.",
     icon: "Scale",
     category: "business",
-    overview: "Attorneys can work remotely on international matters, consult for foreign companies, or establish practice in Argentina. US-qualified lawyers can advise on US law remotely. Some work with Argentine law firms on international matters. US law firms pay $75-300+/hour for experienced attorneys. This is a PRIME Lucero Legal lead profession due to complex cross-border legal needs, visa questions, and eventual permanent residency requirements.",
+    overview: "Attorneys can work remotely on international matters, consult for foreign companies, or establish practice in Argentina. US-qualified lawyers can advise on US law remotely. Some work with Argentine law firms on international matters. US law firms pay $75-300+/hour for experienced attorneys. Cross-border legal needs, visa questions, and eventual permanent residency requirements make professional immigration guidance especially important.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -6930,7 +6930,7 @@ export const professionsBase: Profession[] = [
       feasible: true,
       description: "International legal work can be done remotely. Research, document review, client calls, and advisory work don't require physical presence.",
       considerations: [
-        "PRIME Lucero Legal conversion profession",
+        "May need specialized immigration legal guidance",
         "Complex cross-border questions",
         "High earning potential",
         "Prestigious profession"
@@ -6987,7 +6987,7 @@ export const professionsBase: Profession[] = [
     description: "Spreadsheets, models, and reports don't care about your zip code. Financial analysts are finding Argentina an appealing remote base.",
     icon: "TrendingUp",
     category: "business",
-    overview: "Financial Analysts analyze financial data, create forecasts, evaluate investments, and support business decisions. They work in FP&A, investment analysis, and corporate finance. The work is entirely digital - spreadsheets, financial models, and reports. US companies pay $40-100+/hour for experienced analysts. Argentine financial analysts with strong Excel/modeling skills and English proficiency are competitive. Good conversion potential due to complex financial structuring needs.",
+    overview: "Financial Analysts analyze financial data, create forecasts, evaluate investments, and support business decisions. They work in FP&A, investment analysis, and corporate finance. The work is entirely digital - spreadsheets, financial models, and reports. US companies pay $40-100+/hour for experienced analysts. Argentine financial analysts with strong Excel/modeling skills and English proficiency are competitive. Complex financial structuring needs make professional immigration and tax guidance especially valuable.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -7070,7 +7070,7 @@ export const professionsBase: Profession[] = [
     description: "Investment advisors with the right licensing can manage portfolios from anywhere. Argentina's cost of living and lifestyle make it worth considering.",
     icon: "DollarSign",
     category: "business",
-    overview: "Investment Advisors manage client portfolios, provide investment recommendations, and help with wealth planning. While licensing is complex (Series 65/66 in US), some advisory roles are accessible remotely. US firms pay $50-150+/hour or AUM-based fees. This is a PRIME Lucero Legal profession due to complex regulatory requirements, tax implications, and high net worth clients needing sophisticated structuring.",
+    overview: "Investment Advisors manage client portfolios, provide investment recommendations, and help with wealth planning. While licensing is complex (Series 65/66 in US), some advisory roles are accessible remotely. US firms pay $50-150+/hour or AUM-based fees. Complex regulatory requirements, tax implications, and sophisticated structuring needs make professional immigration guidance especially important.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -7097,7 +7097,7 @@ export const professionsBase: Profession[] = [
       feasible: true,
       description: "Portfolio management and client advisory work well remotely. Research, analysis, and client calls are location-independent.",
       considerations: [
-        "PRIME Lucero Legal conversion profession",
+        "May need specialized immigration legal guidance",
         "Regulatory complexity",
         "High earning potential",
         "Prestigious clients"
@@ -8116,7 +8116,7 @@ export const professionsBase: Profession[] = [
     description: "Executive coaching serves C-suite and senior leaders. Learn how coaches can work with top executives remotely.",
     icon: "Crown",
     category: "business",
-    overview: "Executive Coaches work with C-suite executives, senior leaders, and high-potentials to enhance leadership effectiveness. Coaching engagements are intensive and high-value. Executive coaches earn $200-500+/hour. Argentine coaches with executive experience and strong credentials can serve global clients. This profession has excellent conversion potential for Lucero Legal due to complex business structures and high net worth individuals.",
+    overview: "Executive Coaches work with C-suite executives, senior leaders, and high-potentials to enhance leadership effectiveness. Coaching engagements are intensive and high-value. Executive coaches earn $200-500+/hour. Argentine coaches with executive experience and strong credentials can serve global clients. Complex business structures and high net worth situations make professional immigration guidance especially important.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -8277,7 +8277,7 @@ export const professionsBase: Profession[] = [
     description: "International tax situations get complicated fast -- which is exactly why tax advisors who understand cross-border issues are in demand from Argentina.",
     icon: "Receipt",
     category: "business",
-    overview: "Tax Advisors help individuals and businesses optimize their tax situations, ensure compliance, and plan for efficiency. They provide strategic tax planning beyond basic preparation. This is a PRIME Lucero Legal profession due to complex international tax situations, cross-border issues, and high net worth clients. US tax advisors earn $75-250+/hour. Argentine advisors with US tax expertise can serve expats and international clients.",
+    overview: "Tax Advisors help individuals and businesses optimize their tax situations, ensure compliance, and plan for efficiency. They provide strategic tax planning beyond basic preparation. Complex international tax situations, cross-border issues, and high net worth clients make professional immigration guidance critical. US tax advisors earn $75-250+/hour. Argentine advisors with US tax expertise can serve expats and international clients.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -8305,7 +8305,7 @@ export const professionsBase: Profession[] = [
       feasible: true,
       description: "Tax advisory works well remotely. Document sharing, video consultations, electronic filing. Peak season is tax season.",
       considerations: [
-        "PRIME Lucero Legal conversion profession",
+        "May need specialized immigration legal guidance",
         "Complex cross-border tax issues",
         "High net worth clients",
         "Recurring annual engagements"
@@ -8360,7 +8360,7 @@ export const professionsBase: Profession[] = [
     description: "Wealth management serves affluent clients. Learn how managers can work remotely.",
     icon: "Gem",
     category: "business",
-    overview: "Wealth Managers provide comprehensive financial services to high net worth individuals - investment management, estate planning, tax strategy, and financial planning. This is a PRIME Lucero Legal profession due to complex international structures, tax optimization needs, and sophisticated clients requiring ongoing legal and financial advice. Wealth managers earn through AUM fees, often 1% of assets or more. Top managers serve ultra-high-net-worth clients.",
+    overview: "Wealth Managers provide comprehensive financial services to high net worth individuals - investment management, estate planning, tax strategy, and financial planning. Complex international structures, tax optimization needs, and sophisticated financial planning make professional immigration guidance critical. Wealth managers earn through AUM fees, often 1% of assets or more. Top managers serve ultra-high-net-worth clients.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -8388,7 +8388,7 @@ export const professionsBase: Profession[] = [
       feasible: true,
       description: "Wealth management has shifted to hybrid/remote. Client meetings via video, portfolio management digital, estate planning collaborative.",
       considerations: [
-        "PRIME Lucero Legal conversion profession",
+        "May need specialized immigration legal guidance",
         "Ultra-high-net-worth clients",
         "Complex international structures",
         "Long-term client relationships"
@@ -8422,7 +8422,7 @@ export const professionsBase: Profession[] = [
     faqs: [
       {
         question: "Wealth manager vs financial advisor?",
-        answer: "Wealth managers typically serve HNW clients ($1M+ investable assets) with comprehensive services. Financial advisors serve broader market with focused services. Wealth management is more holistic and relationship-driven."
+        answer: "Wealth managers typically serve HNW clients ($1M+ investable assets) with comprehensive services. Financial advisors serve broader market with focused services. Wealth management is more comprehensive and relationship-driven."
       }
     ],
     relatedProfessions: ["investment-advisor", "financial-advisor", "tax-advisor"],
@@ -8443,7 +8443,7 @@ export const professionsBase: Profession[] = [
     description: "Insurance brokerage has gone digital. Licensed brokers can serve US clients from Argentina while earning commissions and renewals.",
     icon: "Shield",
     category: "business",
-    overview: "Insurance Brokers help clients find and purchase insurance - health, life, property, business. They work with multiple carriers to find best coverage. Remote insurance sales have grown significantly. Brokers earn commissions (typically 5-15% of premiums) and renewal income. US-licensed brokers can serve US clients remotely. This profession has good conversion potential for Lucero Legal due to complex international coverage needs and estate planning connections.",
+    overview: "Insurance Brokers help clients find and purchase insurance - health, life, property, business. They work with multiple carriers to find best coverage. Remote insurance sales have grown significantly. Brokers earn commissions (typically 5-15% of premiums) and renewal income. US-licensed brokers can serve US clients remotely. Complex international coverage needs and estate planning connections make professional immigration guidance especially valuable.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
