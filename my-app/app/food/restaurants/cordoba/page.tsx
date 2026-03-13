@@ -60,7 +60,7 @@ export default function CordobaRestaurantsPage() {
               <span className="text-amber-200">Córdoba</span>
             </h1>
             <p className="text-xl text-amber-100 max-w-2xl mb-8">
-              Argentina's second city blends colonial history with a vibrant youth culture. 
+              Argentina's second city blends colonial history with a lively youth culture. 
               The dining scene ranges from historic center classics to Nueva Córdoba's innovative restaurants.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -296,7 +296,7 @@ export default function CordobaRestaurantsPage() {
               </h2>
               <p className="text-amber-100 mb-6 max-w-xl mx-auto">
                 Check out our complete Córdoba guide for activities, neighborhoods, 
-                and travel tips for Argentina's vibrant second city.
+                and travel tips for Argentina's energetic second city.
               </p>
               <Button asChild variant="secondary" size="lg">
                 <Link href="/cities/cordoba">

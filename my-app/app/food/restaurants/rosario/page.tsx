@@ -275,7 +275,7 @@ export default function RosarioRestaurantsPage() {
             </h1>
             <p className="text-xl text-rose-100 max-w-2xl mb-8">
               Argentina's third-largest city sits on the banks of the Paraná river and is legendary
-              for its parrillas, river fish, and vibrant cafe culture. Home to Messi and some of the
+              for its parrillas, river fish, and lively cafe culture. Home to Messi and some of the
               country's best asado.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -516,7 +516,7 @@ export default function RosarioRestaurantsPage() {
               </h2>
               <p className="text-rose-100 mb-6 max-w-xl mx-auto">
                 Check out our complete Rosario guide for activities, neighborhoods,
-                and travel tips for Argentina's vibrant riverside city.
+                and travel tips for Argentina's riverside city.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Button asChild variant="secondary" size="lg">

@@ -96,7 +96,7 @@ const studentLifeHighlights = [
     description: "Student life in Buenos Aires is remarkably affordable compared to other major world cities. Shared apartments in student-friendly neighborhoods like Palermo, Almagro, or Caballito are available at a fraction of the cost of comparable cities. University cafeterias offer subsidized meals, and public transportation is inexpensive with a student SUBE card.",
   },
   {
-    title: "Vibrant Student Culture",
+    title: "Active Student Culture",
     description: "Argentine universities have a dynamic student culture with active student unions, cultural activities, sports, and social events. The country attracts students from across Latin America, creating a diverse and international environment. Buenos Aires in particular offers excellent nightlife, arts, and cultural experiences that enrich the student experience.",
   },
   {
@@ -242,7 +242,7 @@ export default function StudentVisaPage() {
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
                 Argentina attracts tens of thousands of international students annually, drawn not
-                only by free education but also by the low cost of living, the vibrant cultural
+                only by free education but also by the low cost of living, the rich cultural
                 scene, and the opportunity for complete Spanish language immersion. Buenos Aires
                 is consistently ranked among the best cities in the world for students, offering
                 a combination of strong academics and an unbeatable lifestyle that few other destinations can match.

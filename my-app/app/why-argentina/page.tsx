@@ -51,11 +51,11 @@ const reasons = [
     icon: UtensilsIcon,
     title: "Outstanding Food and Wine Culture",
     description:
-      "Argentina is a food lover's paradise. The asado (barbecue) culture is legendary, with weekend gatherings around the grill being a cornerstone of social life. Buenos Aires has more restaurants per capita than almost any city in the world, ranging from hidden-door speakeasies to classic corner parrillas. Mendoza produces world-renowned Malbec and the wine country offers tastings for a fraction of Napa Valley prices.",
+      "Argentina is a food lover's paradise. The asado (barbecue) culture is legendary, with weekend gatherings around the grill being a foundation of social life. Buenos Aires has more restaurants per capita than almost any city in the world, ranging from hidden-door speakeasies to classic corner parrillas. Mendoza produces world-renowned Malbec and the wine country offers tastings for a fraction of Napa Valley prices.",
   },
   {
     icon: GlobeIcon,
-    title: "Rich Culture and Vibrant Arts Scene",
+    title: "Rich Culture and World-Class Arts Scene",
     description:
       "Buenos Aires is often called the 'Paris of South America' for a reason. The city has over 300 theaters (more than London), top-tier museums like MALBA and Bellas Artes, and a street art scene that rivals Berlin. Tango isn't just for tourists; milongas (tango dance halls) fill every night of the week. The literary tradition runs deep: this is the city of Borges, and you'll find stunning bookstores like El Ateneo Grand Splendid everywhere.",
   },

@@ -179,7 +179,7 @@ export default function NeighborhoodsPage() {
       {getNeighborhoodCities().map((city) => {
         const cityNeighborhoods = getNeighborhoodsByCity(city);
         const cityDescriptions: Record<string, string> = {
-          "Buenos Aires": "Argentina's capital and the most popular expat destination. World-class dining, vibrant culture, and neighborhoods for every lifestyle and budget.",
+          "Buenos Aires": "Argentina's capital and the most popular expat destination. World-class dining, rich culture, and neighborhoods for every lifestyle and budget.",
           "Mendoza": "Argentina's wine capital at the foot of the Andes. Sun-drenched, affordable, and perfect for expats seeking a slower pace with world-class wine at their doorstep.",
           "Córdoba": "Argentina's second city and university hub. Young energy, rich history, and the most affordable urban living in the country.",
         };

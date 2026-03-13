@@ -185,7 +185,7 @@ export default function CitizenshipPage() {
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
               Becoming an Argentine citizen through naturalization grants you an Argentine passport,
-              full political rights, and membership in one of South America&apos;s most vibrant nations.
+              full political rights, and membership in one of South America&apos;s most dynamic nations.
               Dual citizenship is allowed, and you never have to give up your original nationality.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
