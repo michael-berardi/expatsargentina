@@ -162,6 +162,31 @@ export default function BankingPage() {
         </div>
       </section>
 
+      {/* Editorial Intro */}
+      <section className="py-12">
+        <div className="container mx-auto px-5">
+          <div className="max-w-3xl mx-auto prose prose-lg text-muted-foreground">
+            <p>
+              Argentina&apos;s financial system will surprise you. The country runs on a parallel economy
+              where cash is still king, multiple exchange rates coexist, and digital wallets have
+              replaced bank accounts for most everyday transactions. If you arrive expecting to swipe
+              your foreign credit card and figure it out later, you will lose a significant chunk of
+              your money to unfavorable exchange rates. Understanding how money works here before you
+              land is one of the single most impactful things you can do as a new expat.
+            </p>
+            <p>
+              The good news: once you learn the system, managing money in Argentina is straightforward.
+              Most expats settle into a routine of Western Union transfers or crypto for bringing money
+              in, MercadoPago for daily payments, and cash for rent. A traditional bank account is useful
+              but not essential — and since getting one requires a DNI that takes six months or more, the
+              workarounds described below will be your reality for a while. This guide covers all of it:
+              the dollar landscape, how to transfer money, how to get by without a bank account, and the
+              fintech tools that make daily life work.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* The Blue Dollar Explained */}
       <section className="py-16">
         <div className="container mx-auto px-5">

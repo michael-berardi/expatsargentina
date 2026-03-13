@@ -154,14 +154,38 @@ export default function HealthcarePage() {
             <h2 className="font-serif text-3xl font-bold mb-6">Healthcare System Overview</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="mb-4">
-                Argentina has a mixed healthcare system with both public and private options. 
-                As an expat, you'll primarily use the private system, which offers excellent 
-                quality care at a fraction of what you'd pay in the US or Europe.
+                Argentina has a mixed healthcare system with both public and private options.
+                As an expat, you&apos;ll primarily use the private system, which offers excellent
+                quality care at a fraction of what you&apos;d pay in the US or Europe. A specialist
+                consultation that costs $300 in the US runs $50-100 here, and the quality at top
+                Buenos Aires hospitals is genuinely world-class.
               </p>
               <p className="mb-4">
-                The private system is accessed through "prepaga" health insurance plans. 
-                These plans give you access to private hospitals, clinics, and specialists 
-                with minimal wait times and modern facilities.
+                The system works in three layers. Public hospitals are free for Argentine citizens and
+                were historically free for everyone, but recent policy changes mean foreigners now get
+                billed for non-emergency care. The obra social system is employer-based insurance tied
+                to formal employment — not relevant for most expats. The prepaga system is private health
+                insurance that you pay for directly, and this is what nearly every expat uses. Think of it
+                like HMO-style coverage: you pay a monthly premium, choose from a network of private
+                hospitals and doctors, and pay small or zero copays for covered services.
+              </p>
+              <p className="mb-4">
+                Choosing between prepaga providers comes down to budget and how much English-language
+                support matters to you. OSDE and Swiss Medical are the premium options — wider hospital
+                networks, more English-speaking staff, and faster appointment access. Galeno and Medicus
+                offer solid mid-range coverage that most expats find perfectly adequate. Sancor Salud is
+                the budget option, fine for young and healthy people who mostly need the insurance as a
+                safety net. All of them cover consultations, lab work, imaging, hospitalization, and
+                prescriptions. The signup process usually takes a few days and requires a passport, proof
+                of address, and payment information.
+              </p>
+              <p className="mb-4">
+                One thing that surprises most newcomers: pharmacies in Argentina are everywhere, pharmacists
+                are knowledgeable and empowered to recommend treatments for minor ailments, and many
+                medications that require prescriptions in the US or Europe are available over the counter
+                here. With prepaga insurance, prescription discounts of 40-70% are standard. Between
+                affordable prepaga plans and accessible pharmacy care, the day-to-day experience of
+                healthcare in Argentina is remarkably smooth once you get set up.
               </p>
             </div>
 
