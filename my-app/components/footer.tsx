@@ -41,8 +41,8 @@ export function Footer() {
               .
             </p>
             <p className="text-sm text-muted-foreground mt-2">
-              <a href="mailto:hello@expatsargentina.com" className="hover:text-foreground transition-colors">
-                hello@expatsargentina.com
+              <a href="/contact" className="hover:text-foreground transition-colors">
+                Contact Us
               </a>
             </p>
           </div>
