@@ -67,7 +67,7 @@ const MATRIX_COMBINATIONS = [
   // Student Visa - International students (expanded to 40+)
   { type: "student", nationalities: [
     "united-states", "canada", "united-kingdom", "germany", "france", "spain", "italy",
-    "portugal", "belgium", "switzerland", "netherlands", "sweden", "ireland",
+    "portugal", "belgium", "switzerland", "netherlands", "sweden", "ireland", "denmark",
     "mexico", "colombia", "peru", "chile", "brazil", "venezuela", "uruguay", "paraguay", "bolivia", "ecuador",
     "russia", "ukraine", "poland", "czech-republic", "hungary", "romania",
     "india", "south-africa", "israel", "china", "japan", "south-korea",
@@ -83,7 +83,7 @@ const MATRIX_COMBINATIONS = [
     "poland", "czech-republic"
   ]},
   // Mercosur - Associate and full members
-  { type: "mercosur", nationalities: ["brazil", "uruguay", "paraguay", "bolivia", "chile", "peru", "colombia", "ecuador"] },
+  { type: "mercosur", nationalities: ["brazil", "uruguay", "paraguay", "bolivia", "chile", "peru", "colombia", "ecuador", "venezuela"] },
 ];
 
 export async function generateStaticParams() {
