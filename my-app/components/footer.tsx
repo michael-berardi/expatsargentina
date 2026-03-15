@@ -15,21 +15,21 @@ export function Footer() {
 
   return (
     <footer className="border-t bg-gradient-to-b from-muted/50 to-background">
-      <div className="container mx-auto px-5 py-16 md:py-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
+      <div className="container mx-auto px-5 py-10 md:py-14">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-6">
           {/* Brand */}
-          <div className="col-span-1 sm:col-span-2 lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
+          <div className="col-span-2 sm:col-span-3 lg:col-span-1">
+            <Link href="/" className="flex items-center gap-2 mb-3">
+              <div className="flex h-7 w-7 items-center justify-center rounded-md bg-primary text-primary-foreground font-bold text-sm">
                 EA
               </div>
-              <span className="font-bold text-xl">Expats Argentina</span>
+              <span className="font-bold text-lg">Expats Argentina</span>
             </Link>
-            <p className="text-sm text-muted-foreground max-w-xs">
-              Your guide to expat life in Argentina. Visa guides, cost of living, and expert advice for all 24 provinces.
+            <p className="text-xs leading-relaxed text-muted-foreground max-w-[200px]">
+              Visa guides, cost of living, and expert advice for all 24 provinces.
             </p>
-            <p className="mt-3 text-sm text-muted-foreground max-w-xs">
-              When readers need an immigration lawyer, we usually point them to{" "}
+            <p className="mt-2 text-xs text-muted-foreground">
+              Immigration law:{" "}
               <a
                 href="https://lucerolegal.org?utm_source=expatsargentina&utm_medium=footer-recommendation"
                 target="_blank"
@@ -38,28 +38,22 @@ export function Footer() {
               >
                 Lucero Legal
               </a>
-              .
-            </p>
-            <p className="text-sm text-muted-foreground mt-2">
-              <a href="/contact" className="hover:text-foreground transition-colors">
-                Contact Us
-              </a>
             </p>
           </div>
 
           {/* Nav columns */}
           {sections.map((section) => (
             <div key={section.title}>
-              <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide text-primary">
+              <h3 className="text-xs font-semibold mb-2.5 uppercase tracking-wider text-primary">
                 {section.title}
               </h3>
-              <ul className="space-y-2">
+              <ul className="space-y-1.5">
                 {section.items.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
                       {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                      className="text-sm text-muted-foreground hover:text-foreground transition-colors inline-flex items-center min-h-[44px]"
+                      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -71,9 +65,9 @@ export function Footer() {
         </div>
 
         {/* Sister Sites */}
-        <div className="mt-10 pt-8 border-t border-border">
-          <h3 className="text-sm font-semibold mb-3 uppercase tracking-wide text-primary">Sister Sites</h3>
-          <ul className="flex flex-col sm:flex-row gap-3 sm:gap-6">
+        <div className="mt-8 pt-6 border-t border-border">
+          <h3 className="text-xs font-semibold mb-2 uppercase tracking-wider text-primary">Sister Sites</h3>
+          <ul className="flex flex-row gap-4">
             {footerNav.sisterSites.map((site) => (
               <li key={site.href}>
                 <Link
@@ -89,7 +83,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <Separator className="my-8" />
+        <Separator className="my-6" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
