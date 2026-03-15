@@ -1,3 +1,4 @@
+// Firewall deployment
 // Vercel framework: nextjs
 import type { NextConfig } from "next";
 
