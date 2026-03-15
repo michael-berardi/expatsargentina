@@ -123,16 +123,16 @@ export default function Home() {
           alt="Argentina landscape"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/75" />
 
         <div className="relative z-10 mx-auto max-w-3xl px-5 py-20 text-center">
-          <p className="mb-4 text-sm font-medium uppercase tracking-widest text-white/70">
+          <p className="mb-4 text-sm font-medium uppercase tracking-widest text-white/90 [text-shadow:_0_1px_3px_rgb(0_0_0_/_40%)]">
             Updated for 2026
           </p>
-          <h1 className="mb-6 font-serif text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
+          <h1 className="mb-6 font-serif text-4xl font-bold leading-tight text-white [text-shadow:_0_2px_8px_rgb(0_0_0_/_40%)] md:text-5xl lg:text-6xl">
             Your Complete Guide to Living in Argentina
           </h1>
-          <p className="mb-8 text-lg leading-relaxed text-white/80 md:text-xl">
+          <p className="mb-8 text-lg leading-relaxed text-white/90 [text-shadow:_0_1px_4px_rgb(0_0_0_/_40%)] md:text-xl">
             Honest, detailed guides for every province, city, and visa type.
             What it actually costs, how the system really works, and what
             nobody tells you before you arrive.
@@ -171,7 +171,7 @@ export default function Home() {
                 <div className="text-2xl font-bold text-white md:text-3xl">
                   {stat.value}
                 </div>
-                <div className="mt-1 text-xs font-medium text-white/70">
+                <div className="mt-1 text-xs font-medium text-white/90">
                   {stat.label}
                 </div>
               </div>
@@ -203,12 +203,12 @@ export default function Home() {
                     alt={img.label}
                     className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-4 [text-shadow:_0_1px_3px_rgb(0_0_0_/_50%)]">
                     <p className="text-sm font-semibold text-white">
                       {img.label}
                     </p>
-                    <p className="text-xs text-white/70">{img.sublabel}</p>
+                    <p className="text-xs text-white/90">{img.sublabel}</p>
                   </div>
                 </div>
               ))}
@@ -314,15 +314,15 @@ export default function Home() {
                           alt={city.name}
                           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-                        <div className="absolute bottom-0 left-0 right-0 p-4">
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-4 [text-shadow:_0_1px_3px_rgb(0_0_0_/_50%)]">
                           <h3 className="text-lg font-semibold text-white">
                             {city.name}
                           </h3>
-                          <p className="text-sm text-white/70">
+                          <p className="text-sm text-white/90">
                             {city.province}
                           </p>
-                          <p className="mt-1 line-clamp-1 text-xs text-white/60">
+                          <p className="mt-1 line-clamp-1 text-xs text-white/80">
                             {city.description}
                           </p>
                         </div>
@@ -373,8 +373,8 @@ export default function Home() {
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-5">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/10" />
+                  <div className="absolute bottom-0 left-0 right-0 p-5 [text-shadow:_0_1px_3px_rgb(0_0_0_/_50%)]">
                     <h3 className="mb-1 text-base font-semibold text-white">
                       {
                         t(
@@ -382,7 +382,7 @@ export default function Home() {
                         ) as string
                       }
                     </h3>
-                    <p className="line-clamp-3 text-sm leading-relaxed text-white/75">
+                    <p className="line-clamp-3 text-sm leading-relaxed text-white/90">
                       {
                         t(
                           `homepage.whyArgentina.${key}.description`
