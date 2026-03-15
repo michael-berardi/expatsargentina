@@ -203,7 +203,7 @@ If that describes you, the route can be a smart way to test Argentina without ov
     image: "/images/blog/digital-nomad-visa.webp",
     tags: ["digital nomad", "visa", "remote work", "application guide", "2026"],
     featured: true,
-    relatedPosts: ["best-cities-remote-workers-argentina", "cost-living-buenos-aires-2025"]
+    relatedPosts: ["best-cities-remote-workers-argentina", "cost-living-buenos-aires-2026"]
   },
   {
     slug: "best-neighborhoods-expats-buenos-aires",
@@ -466,10 +466,10 @@ There's no "perfect" neighborhood—only the one that fits your lifestyle and bu
     image: "/images/blog/buenos-aires-neighborhoods.webp",
     tags: ["buenos aires", "neighborhoods", "housing", "palermo", "recoleta"],
     featured: true,
-    relatedPosts: ["cost-living-buenos-aires-2025", "renting-apartment-argentina-guide"]
+    relatedPosts: ["cost-living-buenos-aires-2026", "renting-apartment-argentina-guide"]
   },
   {
-    slug: "cost-living-buenos-aires-2025",
+    slug: "cost-living-buenos-aires-2026",
     title: "Cost of Living in Buenos Aires: Complete 2026 Budget Guide",
     excerpt: "Real numbers for what it costs to live in Buenos Aires as an expat, from rent and food to healthcare and entertainment. Updated for 2026.",
     content: `# Cost of Living in Buenos Aires: Complete 2026 Budget Guide
@@ -481,11 +481,11 @@ Buenos Aires consistently ranks as one of the most affordable major cities for e
 Before diving into costs, you need to understand the exchange rate situation:
 
 - **Official Rate**: The government's rate (used for credit cards, official transactions)
-- **Blue Dollar**: The informal rate (30-50% better than official)
+- **Blue Dollar**: The informal parallel rate (gap has narrowed to under 10% under current government reforms)
 - **MEP/Bolsa**: Financial market rate (close to blue)
 - **CCL**: Another financial rate for larger amounts
 
-**Key Insight**: As an expat with foreign income, you'll access rates much better than the official one, effectively giving you 30-50% more purchasing power.
+**Key Insight**: As an expat with foreign income, you can access parallel market rates (MEP, crypto, Western Union) that may give you up to 10% more purchasing power than the official rate. This gap has narrowed dramatically since 2024 due to economic reforms and currency unification efforts — check current rates before budgeting.
 
 ## Monthly Budget Breakdown
 
@@ -668,7 +668,7 @@ Top providers: OSDE, Swiss Medical, Galeno, Medicus
 
 ## Money-Saving Tips
 
-1. **Use the Blue Rate**: Access 30-50% more pesos via Wise, WU, or crypto
+1. **Use Parallel Exchange Channels**: Access better rates via Wise, Western Union, or crypto (gap varies — check current spread)
 2. **Eat Like a Local**: Menu del día lunch specials ($5-8)
 3. **Shop at Markets**: Fresh and cheaper than supermarkets
 4. **Walk or Bike**: BA is very walkable; bike-share is cheap
@@ -1200,7 +1200,7 @@ Once set up, banking in Argentina is functional. The mobile apps are surprisingl
     readTime: 14,
     image: "/images/blog/argentina-banking.webp",
     tags: ["banking", "bank account", "finance", "mercadopago", "practical"],
-    relatedPosts: ["cost-living-buenos-aires-2025", "renting-apartment-argentina-guide"]
+    relatedPosts: ["cost-living-buenos-aires-2026", "renting-apartment-argentina-guide"]
   },
   {
     slug: "renting-apartment-argentina-guide",
@@ -1476,7 +1476,7 @@ Welcome home.
     readTime: 16,
     image: "/images/blog/argentina-renting.webp",
     tags: ["housing", "renting", "apartments", "real estate", "contracts"],
-    relatedPosts: ["best-neighborhoods-expats-buenos-aires", "cost-living-buenos-aires-2025"]
+    relatedPosts: ["best-neighborhoods-expats-buenos-aires", "cost-living-buenos-aires-2026"]
   },
   {
     slug: "healthcare-argentina-expat-guide",
@@ -2086,7 +2086,7 @@ Wherever you choose, Argentina welcomes remote workers with open arms.
     readTime: 12,
     image: "/images/blog/argentina-cities-remote-work.webp",
     tags: ["remote work", "digital nomad", "cities", "coworking", "provincial"],
-    relatedPosts: ["complete-guide-digital-nomad-visa-argentina-2026", "cost-living-buenos-aires-2025"]
+    relatedPosts: ["complete-guide-digital-nomad-visa-argentina-2026", "cost-living-buenos-aires-2026"]
   }
 ];
 

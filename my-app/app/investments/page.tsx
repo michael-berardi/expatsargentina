@@ -83,7 +83,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Investment Opportunities in Argentina",
     description:
-      "Comprehensive guide to investing in Argentina's key sectors: real estate, agriculture, mining, energy, technology, and tourism. Updated for 2026 economic reforms.",
+      "Guide to investing in Argentina's key sectors: real estate, agriculture, mining, energy, technology, and tourism. Updated for 2026 economic reforms.",
     images: [{ url: "/images/hero-argentina.webp", width: 1920, height: 550 }],
   },
   alternates: { canonical: "https://expatsargentina.com/investments" },

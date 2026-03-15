@@ -336,7 +336,7 @@ export const recipesBase: Recipe[] = [
     description: "A hearty indigenous stew of corn, beans, pumpkin, and meats that's Argentina's national patriotic dish. Traditionally eaten on May 25th (Revolution Day) and July 9th (Independence Day), but beloved year-round.",
     seoKeywords: ["locro recipe", "argentine locro", "traditional locro", "corn stew recipe", "locro argentino"],
     category: "stew",
-    region: "Northwest Argentina (Cuyo)",
+    region: "Northwest Argentina (NOA)",
     difficulty: "medium",
     prepTime: "30 min",
     cookTime: "3 hrs",
@@ -495,7 +495,7 @@ export const recipesBase: Recipe[] = [
     protein: 2,
     carbs: 26,
     fat: 8,
-    history: "Alfajores descended from the Arab al-qaq, brought to Spain during the Moorish occupation. Spanish colonists brought them to the Americas, where they evolved into the cornstarch-based version we know today. The Argentine alfajor de maicena is distinctively soft and crumbly, filled with dulce de leche (itself an Argentine invention). Today, alfajores are a national obsession, with brands like Havanna and Cachafaz achieving cult status.",
+    history: "Alfajores descended from the Arab al-qaq, brought to Spain during the Moorish occupation. Spanish colonists brought them to the Americas, where they evolved into the cornstarch-based version we know today. The Argentine alfajor de maicena is distinctively soft and crumbly, filled with dulce de leche (a preparation Argentines claim as their own, though Uruguay and other countries dispute the origin). Today, alfajores are a national obsession, with brands like Havanna and Cachafaz achieving cult status.",
     whereToFind: [
       "Havanna cafes (multiple locations) - The gold standard",
       "Cachafaz (supermarkets) - Premium supermarket brand",

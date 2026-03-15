@@ -123,6 +123,30 @@ const budgetData = [
     mealOut: "$8 – $14",
     transport: "$15 – $25",
   },
+  {
+    city: "Rosario",
+    budget: "$650 – $950",
+    rent1br: "$280 – $400",
+    rent3br: "$500 – $750",
+    mealOut: "$6 – $10",
+    transport: "$10 – $18",
+  },
+  {
+    city: "Salta",
+    budget: "$550 – $850",
+    rent1br: "$200 – $350",
+    rent3br: "$400 – $650",
+    mealOut: "$5 – $9",
+    transport: "$8 – $15",
+  },
+  {
+    city: "Mar del Plata",
+    budget: "$650 – $1,000",
+    rent1br: "$300 – $450",
+    rent3br: "$500 – $800",
+    mealOut: "$7 – $12",
+    transport: "$10 – $20",
+  },
 ];
 
 const budgetColumns = [
@@ -144,7 +168,7 @@ export default function CostOfLivingPage() {
         title="Cost of Living in Argentina"
         subtitle="A data-driven guide to monthly expenses across Argentina's major cities. Real numbers for rent, food, transport, and healthcare — updated monthly with USD and ARS pricing."
         stats={[
-          { value: "4", label: "Cities Covered" },
+          { value: "7", label: "Cities Covered" },
           { value: "6", label: "Expense Categories" },
           { value: "Monthly", label: "Updated" },
           { value: "USD + ARS", label: "Currencies" },
@@ -174,11 +198,15 @@ export default function CostOfLivingPage() {
                   Smaller cities drop that to $600–$900.
                 </p>
                 <p className="text-muted-foreground">
-                  The key is understanding the dual currency economy. Official
-                  exchange rates differ from the informal "blue dollar" rate by
-                  20–50%. Using services like Western Union or crypto exchanges
-                  that give you the blue rate effectively increases your purchasing
-                  power significantly.
+                  The key is understanding Argentina's exchange rate dynamics.
+                  Under the current government's economic reforms, the gap
+                  between the official and parallel ("blue dollar") rates has
+                  narrowed dramatically — under 10% as of early 2026,
+                  down from 30–50% in prior years. Services like Western Union,
+                  Wise, and crypto exchanges still offer better rates than the
+                  official rate, giving you additional purchasing power.
+                  Always check current rates before budgeting — the situation
+                  changes monthly.
                 </p>
               </section>
 
@@ -283,6 +311,26 @@ export default function CostOfLivingPage() {
                   (produce shops) offer fresher vegetables at lower prices than
                   chains.
                 </p>
+                <div className="bg-muted/30 rounded-lg p-4 mb-4">
+                  <h3 className="font-semibold mb-3">Sample Grocery Prices (2026)</h3>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-muted-foreground">
+                    <div>1 kg beef (lomo): $6–$10</div>
+                    <div>1 kg chicken breast: $3–$5</div>
+                    <div>1 dozen eggs: $1.50–$2.50</div>
+                    <div>1 liter milk: $0.80–$1.20</div>
+                    <div>1 kg rice: $0.80–$1.20</div>
+                    <div>1 kg bread: $1–$2</div>
+                    <div>1 kg tomatoes: $1–$2</div>
+                    <div>1 bottle wine (decent): $3–$8</div>
+                    <div>1 liter beer (store): $1.50–$2.50</div>
+                    <div>1 kg cheese: $4–$7</div>
+                    <div>1 coffee (cafe): $1.50–$3</div>
+                    <div>Pizza delivery: $4–$8</div>
+                  </div>
+                  <p className="text-xs text-muted-foreground mt-2">
+                    Prices in USD at parallel exchange rate. Supermarket prices are typically 20–30% lower than convenience stores.
+                  </p>
+                </div>
               </section>
 
               {/* Transport */}

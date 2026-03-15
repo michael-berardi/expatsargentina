@@ -53,6 +53,11 @@ export const mainNav: NavSection[] = [
       { label: "Food Guide", href: "/food", description: "Argentine food culture" },
       { label: "Wine Guide", href: "/wine", description: "Wine regions and tastings" },
       { label: "Transportation", href: "/transportation", description: "Getting around Argentina" },
+      { label: "Education & Schools", href: "/education", description: "Schools and university for expat families" },
+      { label: "Internet & Phone", href: "/internet-phone", description: "ISPs, mobile carriers, and utilities" },
+      { label: "Taxes", href: "/taxes", description: "Income tax, wealth tax, and filing" },
+      { label: "First 30 Days", href: "/first-30-days", description: "What to do when you arrive" },
+      { label: "All Guides", href: "/guides", description: "Step-by-step relocation guides" },
     ],
   },
   {
@@ -72,6 +77,7 @@ export const mainNav: NavSection[] = [
 export const topNav: NavItem[] = [
   { label: "Blog", href: "/blog" },
   { label: "Professions", href: "/profession" },
+  { label: "Nationalities", href: "/nationality" },
   { label: "About", href: "/about" },
 ];
 
@@ -100,15 +106,19 @@ export const footerNav = {
     { label: "Banking", href: "/banking" },
     { label: "Housing", href: "/housing" },
     { label: "Safety", href: "/safety" },
-    { label: "Learn Spanish", href: "/learn-spanish" },
-    { label: "Food Guide", href: "/food" },
+    { label: "Education", href: "/education" },
+    { label: "Taxes", href: "/taxes" },
+    { label: "Internet & Phone", href: "/internet-phone" },
     { label: "Transportation", href: "/transportation" },
+    { label: "All Guides", href: "/guides" },
   ],
   resources: [
     { label: "Blog", href: "/blog" },
     { label: "Expat Stories", href: "/stories" },
     { label: "Remote Work", href: "/remote-work" },
     { label: "Professions", href: "/profession" },
+    { label: "Nationalities", href: "/nationality" },
+    { label: "Guides", href: "/guides" },
     { label: "Wine Guide", href: "/wine" },
   ],
   company: [

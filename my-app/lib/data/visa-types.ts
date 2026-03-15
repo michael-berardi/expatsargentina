@@ -58,7 +58,7 @@ export const visaTypesBase: VisaType[] = [
     processingTime: "30-45 days",
     duration: "180 days (renewable for additional 180 days)",
     renewability: "Renewable once for an additional 180 days",
-    pathToCitizenship: "Can transition to temporary residency → permanent residency → citizenship after 2 years",
+    pathToCitizenship: "Does not directly count toward citizenship. Must separately apply for temporary residency, then permanent residency, then citizenship (2 years from temporary residency grant)",
     documents: [
       "Valid passport",
       "Proof of remote employment/income",

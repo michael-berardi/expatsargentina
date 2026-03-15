@@ -85,7 +85,7 @@ export const investmentSectorsBase: InvestmentSector[] = [
       },
       {
         question: "What is the 'blue dollar' and how does it affect real estate?",
-        answer: "The 'blue dollar' is the unofficial exchange rate for USD in Argentina, typically 10-20% higher than the official rate. Many property transactions are conducted at blue dollar rates, meaning foreign buyers bringing USD cash or wire transfers can effectively purchase properties at a discount when calculated in official rate terms."
+        answer: "The 'blue dollar' is the unofficial exchange rate for USD in Argentina, now under 10% above the official rate as of 2026. Many property transactions are conducted at blue dollar rates, meaning foreign buyers bringing USD cash or wire transfers can effectively purchase properties at a discount when calculated in official rate terms."
       },
       {
         question: "What are typical rental yields in Argentina?",
@@ -340,7 +340,7 @@ export const investmentSectorsBase: InvestmentSector[] = [
     ],
     recentDevelopments: [
       "2024: Record year for Argentine startup funding",
-      "2024: Multiple unicorns (Ualá, Nubank) with Argentine founders",
+      "2024: Argentine-founded unicorn Ualá reaches $2.5B valuation",
       "2025: New VC funds launched focusing on Argentina",
       "2025: Government proposing tech zone incentives in Buenos Aires"
     ],
