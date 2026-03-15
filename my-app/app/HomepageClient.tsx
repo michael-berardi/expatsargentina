@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import {
   MapPinIcon,
   DollarSignIcon,
@@ -11,13 +10,10 @@ import {
   HomeIcon,
   HeartIcon,
   ArrowRightIcon,
-  GlobeIcon,
   ShieldIcon,
   WifiIcon,
-  UtensilsIcon,
   WalletIcon,
   BusIcon,
-  UsersIcon,
 } from "@/components/ui/icon";
 import { cities } from "@/lib/data/argentina";
 import { useI18n } from "@/lib/i18n";
@@ -55,13 +51,61 @@ const secondaryGuides = [
   { label: "First 30 Days", href: "/first-30-days" },
 ];
 
-const whyArgentinaItems = [
-  { key: "costOfLiving", icon: DollarSignIcon },
-  { key: "visaOptions", icon: FileTextIcon },
-  { key: "naturalBeauty", icon: GlobeIcon },
-  { key: "foodAndWine", icon: UtensilsIcon },
-  { key: "culturalRichness", icon: MapPinIcon },
-  { key: "welcoming", icon: UsersIcon },
+const showcaseImages = [
+  {
+    src: "/images/provinces/buenos-aires-city.webp",
+    label: "Buenos Aires",
+    sublabel: "The Paris of South America",
+    className: "col-span-2 row-span-2",
+    aspect: "aspect-[4/3]",
+  },
+  {
+    src: "/images/recipes/asado.webp",
+    label: "Asado Culture",
+    sublabel: "Fire, beef, and friends around the grill",
+    className: "col-span-1",
+    aspect: "aspect-[4/3]",
+  },
+  {
+    src: "/images/provinces/mendoza.webp",
+    label: "Wine Country",
+    sublabel: "Malbec at the foot of the Andes",
+    className: "col-span-1",
+    aspect: "aspect-[4/3]",
+  },
+  {
+    src: "/images/provinces/rio-negro.webp",
+    label: "Patagonia",
+    sublabel: "Lakes, glaciers, endless sky",
+    className: "col-span-1",
+    aspect: "aspect-[4/3]",
+  },
+  {
+    src: "/images/recipes/empanadas.webp",
+    label: "The Food",
+    sublabel: "Empanadas, dulce de leche, mate",
+    className: "col-span-1",
+    aspect: "aspect-[4/3]",
+  },
+  {
+    src: "/images/provinces/misiones.webp",
+    label: "Iguazu Falls",
+    sublabel: "One of the natural wonders of the world",
+    className: "col-span-2",
+    aspect: "aspect-[21/9]",
+  },
+];
+
+const whyArgentinaImages = [
+  {
+    key: "costOfLiving",
+    image: "/images/blog/buenos-aires-cost-of-living.webp",
+  },
+  { key: "visaOptions", image: "/images/blog/digital-nomad-visa.webp" },
+  { key: "naturalBeauty", image: "/images/provinces/tierra-del-fuego.webp" },
+  { key: "foodAndWine", image: "/images/guides/food-bg.webp" },
+  { key: "culturalRichness", image: "/images/provinces/salta.webp" },
+  { key: "welcoming", image: "/images/cities/cordoba.webp" },
 ];
 
 export default function Home() {
@@ -72,52 +116,99 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Hero */}
-      <section className="bg-gradient-to-b from-primary/5 to-white py-16 md:py-24">
-        <div className="container mx-auto px-5">
-          <div className="mx-auto max-w-3xl text-center">
-            <Badge
-              className="mb-4 border-primary/20 bg-primary/10 text-primary"
-              variant="secondary"
+      {/* Hero — full-bleed image */}
+      <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden">
+        <img
+          src="/images/hero-argentina.webp"
+          alt="Argentina landscape"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+
+        <div className="relative z-10 mx-auto max-w-3xl px-5 py-20 text-center">
+          <p className="mb-4 text-sm font-medium uppercase tracking-widest text-white/70">
+            Updated for 2026
+          </p>
+          <h1 className="mb-6 font-serif text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
+            Your Complete Guide to Living in Argentina
+          </h1>
+          <p className="mb-8 text-lg leading-relaxed text-white/80 md:text-xl">
+            Honest, detailed guides for every province, city, and visa type.
+            What it actually costs, how the system really works, and what
+            nobody tells you before you arrive.
+          </p>
+          <div className="flex flex-col justify-center gap-4 sm:flex-row">
+            <Button
+              asChild
+              size="lg"
+              className="gap-2 bg-white text-black hover:bg-white/90"
             >
-              Updated for 2026
-            </Badge>
-            <h1 className="mb-6 font-serif text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
-              Your Complete Guide to Living in Argentina
-            </h1>
-            <p className="mb-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Research-backed guides covering all 24 provinces, 20+ cities, and
-              every visa pathway. Real data, real prices, no sugar-coating.
-            </p>
-            <div className="flex flex-col justify-center gap-4 sm:flex-row">
-              <Button asChild size="lg" className="gap-2">
-                <Link href="/provinces">
-                  Explore Provinces <ArrowRightIcon size="sm" />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg">
-                <Link href="/visas/quiz">Find Your Visa</Link>
-              </Button>
-            </div>
+              <Link href="/provinces">
+                Explore Provinces <ArrowRightIcon size="sm" />
+              </Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-black"
+            >
+              <Link href="/visas/quiz">Find Your Visa</Link>
+            </Button>
           </div>
 
-          <div className="mx-auto mt-12 max-w-3xl">
-            <div className="hidden grid-cols-4 gap-3 sm:grid">
-              {[
-                { value: "24", label: "Provinces" },
-                { value: "20+", label: "City Guides" },
-                { value: "9", label: "Visa Types" },
-                { value: "30+", label: "Living Guides" },
-              ].map((stat) => (
+          {/* Stats — hidden on mobile */}
+          <div className="mx-auto mt-10 hidden max-w-2xl grid-cols-4 gap-3 sm:grid">
+            {[
+              { value: "24", label: "Provinces" },
+              { value: "20+", label: "City Guides" },
+              { value: "9", label: "Visa Types" },
+              { value: "30+", label: "Living Guides" },
+            ].map((stat) => (
+              <div
+                key={stat.label}
+                className="rounded-xl border border-white/20 bg-white/10 p-3 text-center backdrop-blur-sm"
+              >
+                <div className="text-2xl font-bold text-white md:text-3xl">
+                  {stat.value}
+                </div>
+                <div className="mt-1 text-xs font-medium text-white/70">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Discover Argentina — visual showcase grid */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-5">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="mb-2 text-center font-serif text-3xl font-bold md:text-4xl">
+              Discover Argentina
+            </h2>
+            <p className="mb-8 text-center text-muted-foreground">
+              Six thousand kilometers of mountains, vineyards, glaciers,
+              and some of the best food on Earth.
+            </p>
+
+            <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+              {showcaseImages.map((img) => (
                 <div
-                  key={stat.label}
-                  className="rounded-xl border bg-white p-3 text-center shadow-sm"
+                  key={img.label}
+                  className={`group relative overflow-hidden rounded-xl ${img.className} ${img.aspect}`}
                 >
-                  <div className="text-2xl font-bold text-primary md:text-3xl">
-                    {stat.value}
-                  </div>
-                  <div className="mt-1 text-xs font-medium text-muted-foreground">
-                    {stat.label}
+                  <img
+                    src={img.src}
+                    alt={img.label}
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <p className="text-sm font-semibold text-white">
+                      {img.label}
+                    </p>
+                    <p className="text-xs text-white/70">{img.sublabel}</p>
                   </div>
                 </div>
               ))}
@@ -127,14 +218,15 @@ export default function Home() {
       </section>
 
       {/* Essential Guides */}
-      <section className="py-12 md:py-16">
+      <section className="bg-muted/30 py-12 md:py-16">
         <div className="container mx-auto px-5">
           <div className="mx-auto max-w-5xl">
             <h2 className="mb-2 text-center font-serif text-3xl font-bold md:text-4xl">
               Essential Guides
             </h2>
             <p className="mb-10 text-center text-muted-foreground">
-              Everything you need to plan your move, step by step.
+              The practical stuff — visas, money, housing, healthcare —
+              explained without the fluff.
             </p>
 
             <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
@@ -184,18 +276,17 @@ export default function Home() {
       </section>
 
       {/* Featured Cities */}
-      <section className="bg-muted/30 py-12 md:py-16">
+      <section className="py-12 md:py-16">
         <div className="container mx-auto px-5">
           <div className="mx-auto max-w-5xl">
             <div className="mb-8 flex items-end justify-between">
               <div>
-                <Badge variant="secondary" className="mb-3">
-                  <MapPinIcon size="sm" className="mr-1" />
-                  City Guides
-                </Badge>
                 <h2 className="font-serif text-3xl font-bold md:text-4xl">
                   Popular Destinations
                 </h2>
+                <p className="mt-1 text-muted-foreground">
+                  Where expats actually live — and why.
+                </p>
               </div>
               <Button
                 asChild
@@ -217,29 +308,25 @@ export default function Home() {
                       href={`/cities/${city.slug}`}
                       className="group"
                     >
-                      <Card className="h-full overflow-hidden transition-all hover:shadow-lg">
-                        <div className="relative aspect-[16/10] overflow-hidden">
-                          <img
-                            src={city.image}
-                            alt={city.name}
-                            className="h-full w-full object-cover transition-transform group-hover:scale-105"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-                          <div className="absolute bottom-3 left-4">
-                            <h3 className="text-lg font-semibold text-white">
-                              {city.name}
-                            </h3>
-                            <p className="text-sm text-white/80">
-                              {city.province}
-                            </p>
-                          </div>
-                        </div>
-                        <CardContent className="p-4">
-                          <p className="line-clamp-2 text-sm text-muted-foreground">
+                      <div className="relative aspect-[16/10] overflow-hidden rounded-xl">
+                        <img
+                          src={city.image}
+                          alt={city.name}
+                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-4">
+                          <h3 className="text-lg font-semibold text-white">
+                            {city.name}
+                          </h3>
+                          <p className="text-sm text-white/70">
+                            {city.province}
+                          </p>
+                          <p className="mt-1 line-clamp-1 text-xs text-white/60">
                             {city.description}
                           </p>
-                        </CardContent>
-                      </Card>
+                        </div>
+                      </div>
                     </Link>
                   )
               )}
@@ -257,35 +344,45 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Argentina */}
-      <section className="py-12 md:py-16">
+      {/* Why Argentina — image cards */}
+      <section className="bg-muted/30 py-12 md:py-16">
         <div className="container mx-auto px-5">
-          <div className="mx-auto max-w-4xl">
+          <div className="mx-auto max-w-5xl">
             <h2 className="mb-2 text-center font-serif text-3xl font-bold md:text-4xl">
               {t("homepage.whyArgentina.title") as string}
             </h2>
             <p className="mb-10 text-center text-muted-foreground">
-              What draws expats from around the world — and what to know before
-              you go.
+              What draws people here — and what to consider before making
+              the move.
             </p>
 
-            <div className="grid gap-x-12 gap-y-8 md:grid-cols-2">
-              {whyArgentinaItems.map(({ key, icon: Icon }) => (
-                <div key={key} className="flex gap-4">
-                  <div className="shrink-0 pt-0.5">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
-                      <Icon size="sm" className="text-primary" />
-                    </div>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {whyArgentinaImages.map(({ key, image }) => (
+                <div
+                  key={key}
+                  className="group relative overflow-hidden rounded-xl"
+                >
+                  <div className="aspect-[4/3]">
+                    <img
+                      src={image}
+                      alt={
+                        t(
+                          `homepage.whyArgentina.${key}.title`
+                        ) as string
+                      }
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
                   </div>
-                  <div>
-                    <h3 className="mb-1 font-semibold">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-5">
+                    <h3 className="mb-1 text-base font-semibold text-white">
                       {
                         t(
                           `homepage.whyArgentina.${key}.title`
                         ) as string
                       }
                     </h3>
-                    <p className="text-sm leading-relaxed text-muted-foreground">
+                    <p className="line-clamp-3 text-sm leading-relaxed text-white/75">
                       {
                         t(
                           `homepage.whyArgentina.${key}.description`
