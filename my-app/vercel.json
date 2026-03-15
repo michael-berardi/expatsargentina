@@ -32,5 +32,17 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/newsletter",
+      "destination": "/guides",
+      "permanent": true
+    },
+    {
+      "source": "/newsletter/",
+      "destination": "/guides",
+      "permanent": true
+    }
   ]
 }
