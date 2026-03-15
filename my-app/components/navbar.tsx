@@ -32,13 +32,10 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-5">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
+        <Link href="/" className="flex items-center" aria-label="Expats Argentina">
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
             EA
           </div>
-          <span className="hidden font-bold text-xl sm:inline-block">
-            Expats Argentina
-          </span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -107,7 +104,7 @@ export function Navbar() {
           <SheetContent side="right" className="w-[300px] sm:w-[400px]">
             <div className="flex flex-col gap-6 py-6">
               <div className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
                   EA
                 </div>
                 <span className="font-bold text-xl">Expats Argentina</span>

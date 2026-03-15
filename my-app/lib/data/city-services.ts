@@ -25,36 +25,47 @@ export const cityServicesBase: CityService[] = [
     slug: "immigration-offices",
     name: "Immigration Offices (Migraciones)",
     category: "immigration",
-    description: " Dirección Nacional de Migraciones (DNM) offices where expats process visa applications, residency permits, and other immigration paperwork.",
-    whatToExpect: "Immigration offices can be busy with long wait times. Appointments are recommended for many services. Bring all required documentation and copies.",
+    description: "Dirección Nacional de Migraciones (DNM) offices where expats process visa applications, residency permits, and other immigration paperwork. Updated for 2026 procedures including Decreto 366/2025 reforms.",
+    whatToExpect: "Immigration offices can be busy with long wait times. Appointments through the RADEX online system are strongly recommended. The 2025 immigration reforms (Decreto 366/2025) streamlined processing — citizenship now achievable in 2 years of continuous legal residence. Bring all required documentation, certified Spanish translations, and multiple copies.",
     topProviders: [
-      { name: "DNM Central Office", address: "Av. Antártida Argentina 1355, C1104ACA CABA", notes: "Main office for all immigration matters" },
-      { name: "RENAPER", address: "Various locations", notes: "For DNI processing after residency approval" }
+      { name: "DNM Central Office", address: "Av. Antártida Argentina 1355, C1104ACA CABA", notes: "Main office for all immigration matters — largest, busiest" },
+      { name: "DNM Retiro", address: "Near Retiro bus terminal", notes: "Satellite office, sometimes less crowded" },
+      { name: "RENAPER", address: "Multiple locations across BA", notes: "For DNI (national ID) processing after residency approval" },
+      { name: "Migraciones Online", address: "migraciones.gov.ar", notes: "Digital Nomad Visa and many applications now fully online" }
     ],
     tips: [
-      "Book appointments online in advance when possible",
-      "Arrive early even with an appointment",
-      "Bring multiple copies of all documents",
-      "Spanish proficiency helps significantly",
-      "Consider hiring a gestor for complex cases"
+      "Book appointments through RADEX system (radex.migraciones.gov.ar) — walk-ins accepted but expect 3-4 hour waits",
+      "Arrive 30 minutes early even with an appointment — security screening and queue",
+      "Bring original documents + 2 photocopies of everything",
+      "All foreign documents must be apostilled and translated by a Traductor Público (sworn translator)",
+      "Spanish proficiency helps significantly — bring a Spanish-speaking friend or hire a gestor ($50-200)",
+      "Digital Nomad Visa can be applied for entirely online through migraciones.gov.ar",
+      "The precaria (temporary authorization) you receive during processing is legally valid for work and travel within Argentina",
+      "Decreto 366/2025 reduced citizenship timeline to 2 years of continuous legal residence"
     ],
-    costs: "Government fees vary by service; legal assistance $50-200 USD",
+    costs: "DN Visa: $117 USD | Temporary Residency: $200-400 USD | Gestor/attorney: $50-200 per visit | Sworn translations: $30-80 per document",
     documentsNeeded: [
-      "Valid passport",
-      "Residency application forms",
-      "Supporting documents (varies by visa type)",
-      "Proof of address",
-      "Birth certificate (apostilled)",
-      "Criminal background check (apostilled)"
+      "Valid passport (6+ months remaining)",
+      "Residency application forms (downloaded from migraciones.gov.ar or filled on-site)",
+      "Birth certificate — apostilled with certified Spanish translation",
+      "Criminal background check — apostilled with certified Spanish translation (from country of origin + any country lived 1+ year)",
+      "Proof of address in Argentina (rental contract, utility bill, or accommodation booking)",
+      "Proof of financial means (bank statements, income documentation, or employment contract)",
+      "Health insurance valid in Argentina (private prepaga recommended: $50-300 USD/month)",
+      "2x passport photos (4x4 cm, white background)"
     ],
     faqs: [
       {
         q: "Do I need an appointment?",
-        a: "Many services require appointments booked through the RADEX system online. Walk-ins accepted for some services but expect long waits."
+        a: "Strongly recommended. Book through the RADEX system at radex.migraciones.gov.ar. Digital Nomad Visa applications are now fully online. Walk-ins are accepted for some services but expect 3-4 hour waits. Appointment availability varies — book 2-3 weeks in advance."
       },
       {
         q: "How long does the process take?",
-        a: "Processing times vary by visa type: Digital Nomad 30-45 days, Temporary Residency 60-90 days. You'll receive a 'precaria' allowing legal stay during processing."
+        a: "Digital Nomad Visa: 2-4 weeks (online application). Temporary Residency: 60-90 days. Permanent Residency: 90-120 days. You'll receive a 'precaria' (temporary authorization document) immediately upon filing, which allows you to stay and work legally while your application processes. Citizenship eligibility: 2 years of continuous legal residence (Decreto 366/2025)."
+      },
+      {
+        q: "What changed with the 2025 immigration reforms?",
+        a: "Decreto 366/2025 reduced the citizenship timeline from 3+ years to 2 years of continuous legal residence. It also streamlined digital processing for several visa categories and clarified the Digital Nomad Visa framework. Separately, Decreto 524/2025 introduced a Citizenship by Investment pathway ($500,000 USD) for qualifying investors."
       }
     ]
   },
@@ -64,36 +75,45 @@ export const cityServicesBase: CityService[] = [
     name: "Banking & Financial Services",
     category: "banking",
     description: "Opening bank accounts, accessing financial services, and managing money as an expat in Argentina.",
-    whatToExpect: "Traditional banks require DNI and proof of address. Fintech options available with just passport. Banking hours typically 10am-3pm weekdays.",
+    whatToExpect: "Traditional banks require DNI and proof of address. Fintech apps (Ualá, Mercado Pago, Brubank) available immediately with just a passport. Banking hours typically 10am-3pm weekdays. As of 2026, the blue dollar gap has converged to 5-10% of the official rate, simplifying currency exchange significantly.",
     topProviders: [
-      { name: "Banco Galicia", notes: "Large network, expat-friendly" },
-      { name: "Banco Santander Río", notes: "International connections" },
-      { name: "BBVA Argentina", notes: "Digital platform in Spanish" },
-      { name: "Ualá", notes: "Fintech - open with passport only" },
-      { name: "Mercado Pago", notes: "Popular digital wallet" },
-      { name: "Naranja X", notes: "Digital bank, easy signup" }
+      { name: "Banco Galicia", notes: "Large network, expat-friendly, English support available" },
+      { name: "Banco Santander Río", notes: "International connections, operates in 10+ countries" },
+      { name: "BBVA Argentina", notes: "Strong digital platform, international transfers" },
+      { name: "Ualá", notes: "Fintech — open with passport only, Mastercard debit, instant" },
+      { name: "Mercado Pago", notes: "Argentina's dominant digital wallet, QR payments everywhere" },
+      { name: "Brubank", notes: "Digital bank — free USD account, competitive exchange rates" },
+      { name: "Naranja X", notes: "Digital bank, easy signup, cashback rewards" },
+      { name: "Wise", notes: "International transfers — best rates for USD/EUR to ARS conversion" }
     ],
     tips: [
-      "Start with fintech (Ualá/Naranja X) while waiting for DNI",
-      "Bring utility bill for proof of address",
-      "Spanish-only service at most banks",
-      "Keep dollars for best exchange rates",
-      "Multiple accounts recommended for flexibility"
+      "Start with fintech apps (Ualá, Brubank, Mercado Pago) immediately — passport is enough",
+      "Wise is the best option for receiving international payments and converting to ARS",
+      "The blue dollar gap has converged to 5-10% (2026) — official channels are now reasonable",
+      "Crypto banking law (April 2026) enables regulated stablecoin (USDT/USDC) transactions",
+      "Open a Brubank account for a free USD sub-account within Argentina",
+      "Mercado Pago QR codes accepted at 90%+ of Buenos Aires businesses",
+      "Multiple accounts recommended — fintech for daily spending, traditional bank for large transactions"
     ],
-    costs: "Most accounts free; some have monthly fees $2-10 USD",
+    costs: "Most fintech accounts free; traditional banks $2-10 USD/month. Wise transfer fees ~0.5-1.5%",
     documentsNeeded: [
-      "DNI (for traditional banks) or Passport (for fintech)",
-      "Proof of address (utility bill, rental contract)",
-      "CUIT/CUIL number (can obtain at ANSES)"
+      "Passport (sufficient for fintech apps — Ualá, Brubank, Mercado Pago)",
+      "DNI (required for traditional banks — Galicia, Santander, BBVA)",
+      "Proof of address (utility bill or rental contract — for traditional banks)",
+      "CUIT/CUIL number (obtainable at ANSES or online — needed for formal employment)"
     ],
     faqs: [
       {
         q: "Can I open an account without DNI?",
-        a: "Yes, using fintech apps like Ualá, Mercado Pago, or Naranja X. Traditional banks require DNI."
+        a: "Yes — fintech apps like Ualá, Brubank, Mercado Pago, and Naranja X accept passport registration immediately upon arrival. You get a debit card and can make QR payments. Traditional banks (Galicia, Santander, BBVA) require DNI, which you receive after temporary residency approval."
       },
       {
-        q: "How do I exchange money?",
-        a: "Use Western Union for best rates, or 'cuevas' (exchange houses) for cash. Avoid official bank rates."
+        q: "How do I exchange money in 2026?",
+        a: "The blue dollar gap has converged to 5-10% of the official rate, making exchange much simpler than before. Best options: 1) Wise for international transfers (best rates, 0.5-1.5% fee), 2) Brubank for USD-ARS conversion within Argentina, 3) Western Union for cash pickup at favorable rates, 4) Crypto exchanges (Lemon Cash, Belo) for stablecoin conversion. The April 2026 crypto banking law enables regulated stablecoin transactions through traditional banks."
+      },
+      {
+        q: "What about receiving freelance payments?",
+        a: "For Digital Nomad Visa holders: Wise is the most popular option — clients pay to your Wise USD account, you convert to ARS at market rates. Payoneer and PayPal also work but with higher fees. Crypto (USDT/USDC via Lemon Cash or Belo) is increasingly common. For Argentine-registered freelancers (monotributo), you can receive payments through traditional bank accounts and must declare income to ARCA."
       }
     ]
   },
@@ -140,37 +160,45 @@ export const cityServicesBase: CityService[] = [
     slug: "housing",
     name: "Housing & Real Estate",
     category: "housing",
-    description: "Finding apartments, rental agencies, and real estate services for expats.",
-    whatToExpect: "Rental market operates in USD for long-term contracts. Short-term rentals in pesos. Guarantor (garantía) often required - expats use seguro de caución instead.",
+    description: "Finding apartments, rental agencies, and real estate services for expats in Argentina's evolving rental market.",
+    whatToExpect: "Argentina's rental market has changed significantly. The 2023 deregulation (DNU 70/2023) eliminated rent controls, allowing freely negotiated terms between landlord and tenant. Contracts can be in USD or pesos, with duration and adjustment frequency freely agreed. Guarantor (garantía) is often required — expats use seguro de caución instead. Buenos Aires has a large furnished temporary rental market popular with digital nomads.",
     topProviders: [
-      { name: "ZonaProp", notes: "Largest rental portal" },
-      { name: "Argenprop", notes: "Major real estate portal" },
-      { name: "Properati", notes: "Property search engine" },
-      { name: "Mercado Libre (Properties)", notes: "Classified listings" },
-      { name: "Airbnb", notes: "Short-term furnished rentals" }
+      { name: "ZonaProp", notes: "Largest rental portal — filter by 'alquiler temporal' for furnished short-term" },
+      { name: "Argenprop", notes: "Major real estate portal with English filters" },
+      { name: "Properati", notes: "Property search engine with map view" },
+      { name: "Mercado Libre (Inmuebles)", notes: "Classified listings, often owner-direct" },
+      { name: "Airbnb", notes: "Short-term furnished rentals — popular for first 1-3 months while searching" },
+      { name: "Compartamos BA", notes: "Shared housing / roommate platform" },
+      { name: "BA Flats / Oasis Collections", notes: "Furnished apartments for expats (premium)" }
     ],
     tips: [
-      "Use seguro de caución instead of garantía (guarantor)",
-      "Long-term contracts typically in USD",
-      "Short-term in pesos with monthly adjustments",
-      "Photos can be outdated - visit in person",
-      "Use reputable agencies for contracts"
+      "Use seguro de caución ($80-150/month) instead of garantía if you don't have a local guarantor",
+      "Since DNU 70/2023 deregulation, contract terms (duration, currency, adjustments) are freely negotiable",
+      "Start with Airbnb or furnished temporary rental for 1-2 months while you search for long-term",
+      "Budget apartments: $500-700 for 1BR in Almagro/Caballito. Premium: $800-1,200 for 1BR in Palermo/Recoleta",
+      "Always visit in person — photos are often outdated or misleading",
+      "Ask about expensas (building maintenance fees) — they can add $50-150/month on top of rent",
+      "Facebook group 'Expats Buenos Aires Housing' is active for direct-from-owner listings"
     ],
-    costs: "Studio: $400-700 USD | 1BR: $600-1,000 USD | 2BR: $800-1,500 USD (monthly)",
+    costs: "Studio: $400-700 | 1BR: $500-1,000 | 2BR: $700-1,500 (Palermo/Recoleta premium: add 20-40%)",
     documentsNeeded: [
-      "DNI (or passport for temporary)",
-      "Proof of income",
-      "Seguro de caución (surety bond) or garantía",
-      "Previous rental references (helpful)"
+      "DNI or passport (passport accepted for temporary/furnished rentals)",
+      "Proof of income (bank statements, employment letter, or freelance contracts)",
+      "Seguro de caución or garantía propietaria (for long-term unfurnished contracts)",
+      "First month rent + 1 month deposit (typical for furnished temporaries)"
     ],
     faqs: [
       {
-        q: "What is a garantía?",
-        a: "A property owner who guarantees your rent. Expats typically can't provide this. Instead, use 'seguro de caución' (surety insurance) costing 1-1.5 months rent annually."
+        q: "What is a garantía and how do expats handle it?",
+        a: "A garantía is a property owner in the same jurisdiction who guarantees your rent — similar to a co-signer. Expats rarely have this. Instead, use 'seguro de caución' (surety insurance) from companies like Finaer, Garantía Total, or Porto Seguros. It costs roughly 1-1.5 months' rent annually. Some landlords also accept a larger deposit (2-3 months) in lieu of garantía."
       },
       {
-        q: "Should I rent in USD or pesos?",
-        a: "Long-term contracts are typically in USD (more stable). Short-term can be in pesos but will adjust monthly for inflation."
+        q: "How did the 2023 rental deregulation change things?",
+        a: "DNU 70/2023 eliminated the previous Ley de Alquileres restrictions. Now: contract duration is freely negotiable (previously mandated 3 years), currency can be USD or pesos (previously only pesos), and adjustment frequency/index are freely agreed between parties. This has increased rental supply in Buenos Aires and given both landlords and tenants more flexibility. Most long-term contracts are now 1-2 years with quarterly or semi-annual adjustments."
+      },
+      {
+        q: "Should I rent furnished or unfurnished?",
+        a: "For stays under 12 months, furnished temporary rentals (alquiler temporal) are the easiest — no garantía needed, shorter commitments, all-inclusive pricing. For 12+ months, unfurnished long-term contracts offer better monthly rates but require garantía/seguro de caución and a more formal process. Many expats start furnished for 1-3 months and switch to long-term once they know their preferred neighborhood."
       }
     ]
   },

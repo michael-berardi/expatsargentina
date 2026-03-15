@@ -19,11 +19,10 @@ export function Footer() {
         <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-6">
           {/* Brand */}
           <div className="col-span-2 sm:col-span-3 lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-3">
-              <div className="flex h-7 w-7 items-center justify-center rounded-md bg-primary text-primary-foreground font-bold text-sm">
+            <Link href="/" className="flex items-center mb-3" aria-label="Expats Argentina">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-sm">
                 EA
               </div>
-              <span className="font-bold text-lg">Expats Argentina</span>
             </Link>
             <p className="text-xs leading-relaxed text-muted-foreground max-w-[200px]">
               Visa guides, cost of living, and expert advice for all 24 provinces.

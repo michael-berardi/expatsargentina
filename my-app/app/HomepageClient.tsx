@@ -56,6 +56,7 @@ const showcaseImages = [
     src: "/images/provinces/buenos-aires-city.webp",
     label: "Buenos Aires",
     sublabel: "The Paris of South America",
+    href: "/cities/buenos-aires",
     className: "col-span-2 row-span-2",
     aspect: "aspect-[4/3]",
   },
@@ -63,6 +64,7 @@ const showcaseImages = [
     src: "/images/recipes/asado.webp",
     label: "Asado Culture",
     sublabel: "Fire, beef, and friends around the grill",
+    href: "/food/recipes/asado",
     className: "col-span-1",
     aspect: "aspect-[4/3]",
   },
@@ -70,6 +72,7 @@ const showcaseImages = [
     src: "/images/provinces/mendoza.webp",
     label: "Wine Country",
     sublabel: "Malbec at the foot of the Andes",
+    href: "/wine",
     className: "col-span-1",
     aspect: "aspect-[4/3]",
   },
@@ -77,6 +80,7 @@ const showcaseImages = [
     src: "/images/provinces/rio-negro.webp",
     label: "Patagonia",
     sublabel: "Lakes, glaciers, endless sky",
+    href: "/provinces/rio-negro",
     className: "col-span-1",
     aspect: "aspect-[4/3]",
   },
@@ -84,6 +88,7 @@ const showcaseImages = [
     src: "/images/recipes/empanadas.webp",
     label: "The Food",
     sublabel: "Empanadas, dulce de leche, mate",
+    href: "/food",
     className: "col-span-1",
     aspect: "aspect-[4/3]",
   },
@@ -91,6 +96,7 @@ const showcaseImages = [
     src: "/images/provinces/misiones.webp",
     label: "Iguazu Falls",
     sublabel: "One of the natural wonders of the world",
+    href: "/provinces/misiones",
     className: "col-span-2",
     aspect: "aspect-[21/9]",
   },
@@ -100,12 +106,13 @@ const whyArgentinaImages = [
   {
     key: "costOfLiving",
     image: "/images/blog/buenos-aires-cost-of-living.webp",
+    href: "/cost-of-living",
   },
-  { key: "visaOptions", image: "/images/blog/digital-nomad-visa.webp" },
-  { key: "naturalBeauty", image: "/images/provinces/tierra-del-fuego.webp" },
-  { key: "foodAndWine", image: "/images/guides/food-bg.webp" },
-  { key: "culturalRichness", image: "/images/provinces/salta.webp" },
-  { key: "welcoming", image: "/images/cities/cordoba.webp" },
+  { key: "visaOptions", image: "/images/blog/digital-nomad-visa.webp", href: "/visas" },
+  { key: "naturalBeauty", image: "/images/provinces/tierra-del-fuego.webp", href: "/provinces" },
+  { key: "foodAndWine", image: "/images/guides/food-bg.webp", href: "/food" },
+  { key: "culturalRichness", image: "/images/provinces/salta.webp", href: "/culture" },
+  { key: "welcoming", image: "/images/cities/cordoba.webp", href: "/why-argentina" },
 ];
 
 export default function Home() {
@@ -194,8 +201,9 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
               {showcaseImages.map((img) => (
-                <div
+                <Link
                   key={img.label}
+                  href={img.href}
                   className={`group relative overflow-hidden rounded-xl ${img.className} ${img.aspect}`}
                 >
                   <img
@@ -210,7 +218,7 @@ export default function Home() {
                     </p>
                     <p className="text-xs text-white/90">{img.sublabel}</p>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -357,9 +365,10 @@ export default function Home() {
             </p>
 
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {whyArgentinaImages.map(({ key, image }) => (
-                <div
+              {whyArgentinaImages.map(({ key, image, href }) => (
+                <Link
                   key={key}
+                  href={href}
                   className="group relative overflow-hidden rounded-xl"
                 >
                   <div className="aspect-[4/3]">
@@ -390,8 +399,64 @@ export default function Home() {
                       }
                     </p>
                   </div>
-                </div>
+                </Link>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Find Your Path — links to personalized content */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-5">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="mb-2 text-center font-serif text-3xl font-bold md:text-4xl">
+              Find Your Path
+            </h2>
+            <p className="mb-8 text-center text-muted-foreground">
+              Guides tailored to your profession, nationality, and visa situation.
+            </p>
+
+            <div className="grid gap-4 sm:grid-cols-3">
+              <Link href="/profession" className="group">
+                <Card className="h-full transition-all hover:border-primary/30 hover:shadow-md">
+                  <CardContent className="p-6 text-center">
+                    <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
+                      <MapPinIcon size="md" className="text-primary" />
+                    </div>
+                    <h3 className="mb-1 font-semibold">By Profession</h3>
+                    <p className="text-sm text-muted-foreground">
+                      100 profession guides — visa options, salary data, and networking tips for your field.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/nationality" className="group">
+                <Card className="h-full transition-all hover:border-primary/30 hover:shadow-md">
+                  <CardContent className="p-6 text-center">
+                    <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
+                      <HeartIcon size="md" className="text-primary" />
+                    </div>
+                    <h3 className="mb-1 font-semibold">By Nationality</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Country-specific guides with visa requirements, community info, and bilateral agreements.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/visas/quiz" className="group">
+                <Card className="h-full transition-all hover:border-primary/30 hover:shadow-md">
+                  <CardContent className="p-6 text-center">
+                    <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
+                      <FileTextIcon size="md" className="text-primary" />
+                    </div>
+                    <h3 className="mb-1 font-semibold">Visa Finder Quiz</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Answer 5 questions and get a personalized visa recommendation in 60 seconds.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
             </div>
           </div>
         </div>

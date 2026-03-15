@@ -109,6 +109,24 @@ function BreadcrumbStructuredData({ profession }: { profession: typeof professio
   );
 }
 
+/** Render inline markdown: **bold** and *italic* */
+function InlineMarkdown({ text }: { text: string }) {
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
+  return (
+    <>
+      {parts.map((part, i) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+          return <strong key={i} className="font-semibold text-foreground">{part.slice(2, -2)}</strong>;
+        }
+        if (part.startsWith("*") && part.endsWith("*")) {
+          return <em key={i}>{part.slice(1, -1)}</em>;
+        }
+        return <span key={i}>{part}</span>;
+      })}
+    </>
+  );
+}
+
 export default async function ProfessionPage({ params }: ProfessionPageProps) {
   const { slug } = await params;
   const profession = getProfessionBySlug(slug);
@@ -127,7 +145,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
 
       <div className="min-h-screen">
         {/* Hero Section - Enhanced */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-primary/10 to-background py-16 md:py-20 lg:py-24">
+        <section className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-primary/10 to-background py-10 md:py-14 lg:py-16">
           {/* Subtle background pattern */}
           <div className="absolute inset-0 opacity-[0.03]" style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
@@ -144,30 +162,15 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
             </nav>
 
             <div className="max-w-4xl">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="p-4 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg border border-primary/10">
-                  <IconComponent className="h-10 w-10 text-primary" />
-                </div>
-                <Badge 
-                  variant="secondary" 
-                  className="capitalize text-sm px-4 py-1.5 font-medium bg-white/80 backdrop-blur-sm shadow-sm"
-                >
-                  {profession.category}
-                </Badge>
-              </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-tight">
                 {profession.title}
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-6 font-medium leading-relaxed">
+              <p className="text-lg md:text-xl text-muted-foreground mb-4 font-medium leading-relaxed">
                 {profession.subtitle}
               </p>
-              <div className="relative">
-                <div className="absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b from-primary/40 to-primary/10 rounded-full" />
-                <p className="text-base md:text-lg text-muted-foreground/90 leading-relaxed pl-6">
-                  {profession.overview}
-                </p>
-              </div>
+              <p className="text-sm md:text-base text-muted-foreground/80 leading-relaxed">
+                <InlineMarkdown text={profession.overview} />
+              </p>
             </div>
           </div>
         </section>
@@ -179,7 +182,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
             <div className="space-y-14">
               {/* Visa Options */}
               <section>
-                <div className="flex items-center gap-3 mb-8">
+                <div className="flex items-center gap-3 mb-5">
                   <div className="p-2 rounded-lg bg-primary/10">
                     <Plane className="h-5 w-5 text-primary" />
                   </div>
@@ -216,7 +219,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                                 {visa.difficulty}
                               </Badge>
                             </div>
-                            <p className="text-muted-foreground leading-relaxed">{visa.description}</p>
+                            <p className="text-sm text-muted-foreground leading-relaxed"><InlineMarkdown text={visa.description} /></p>
                           </div>
                           <div className="flex items-center gap-2 text-sm text-muted-foreground bg-muted/50 px-3 py-2 rounded-full">
                             <Clock className="h-4 w-4" />
@@ -231,7 +234,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
 
               {/* Work Permit Requirements */}
               <section>
-                <div className="flex items-center gap-3 mb-8">
+                <div className="flex items-center gap-3 mb-5">
                   <div className="p-2 rounded-lg bg-blue-500/10">
                     <CheckCircle className="h-5 w-5 text-blue-600 dark:text-blue-400" />
                   </div>
@@ -245,7 +248,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                           <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mt-0.5 group-hover:bg-blue-200 dark:group-hover:bg-blue-900/50 transition-colors">
                             <CheckCircle className="h-4 w-4 text-blue-600 dark:text-blue-400" />
                           </div>
-                          <span className="text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors">{req}</span>
+                          <span className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors"><InlineMarkdown text={req} /></span>
                         </li>
                       ))}
                     </ul>
@@ -255,7 +258,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
 
               {/* Income Requirements - Enhanced */}
               <section>
-                <div className="flex items-center gap-3 mb-8">
+                <div className="flex items-center gap-3 mb-5">
                   <div className="p-2 rounded-lg bg-green-500/10">
                     <DollarSign className="h-5 w-5 text-green-600 dark:text-green-400" />
                   </div>
@@ -272,15 +275,15 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground font-semibold uppercase tracking-wide">Minimum Income Required</p>
-                        <p className="text-4xl md:text-5xl font-bold text-green-700 dark:text-green-400 tracking-tight">{profession.incomeRequirements.amount}</p>
+                        <p className="text-2xl md:text-3xl font-bold text-green-700 dark:text-green-400 tracking-tight">{profession.incomeRequirements.amount}</p>
                       </div>
                     </div>
-                    <p className="text-muted-foreground text-lg leading-relaxed">{profession.incomeRequirements.description}</p>
+                    <p className="text-muted-foreground text-sm md:text-base leading-relaxed"><InlineMarkdown text={profession.incomeRequirements.description} /></p>
                     {profession.incomeRequirements.notes && (
                       <div className="mt-6 p-4 bg-white/70 dark:bg-green-900/30 rounded-xl border border-green-200/50">
                         <p className="text-green-800 dark:text-green-300 font-medium flex items-start gap-2">
                           <span className="text-xl">💡</span>
-                          <span>{profession.incomeRequirements.notes}</span>
+                          <span><InlineMarkdown text={profession.incomeRequirements.notes} /></span>
                         </p>
                       </div>
                     )}
@@ -290,7 +293,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
 
               {/* Remote Work - Enhanced */}
               <section>
-                <div className="flex items-center gap-3 mb-8">
+                <div className="flex items-center gap-3 mb-5">
                   <div className="p-2 rounded-lg bg-purple-500/10">
                     <Sparkles className="h-5 w-5 text-purple-600 dark:text-purple-400" />
                   </div>
@@ -308,7 +311,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                         <Badge variant="outline" className="px-3 py-1.5 text-base">Limited Remote Options</Badge>
                       )}
                     </div>
-                    <p className="text-lg text-muted-foreground mb-6 leading-relaxed">{profession.remoteWork.description}</p>
+                    <p className="text-sm md:text-base text-muted-foreground mb-6 leading-relaxed"><InlineMarkdown text={profession.remoteWork.description} /></p>
                     <div className="space-y-3">
                       <p className="font-semibold text-foreground">Key Considerations:</p>
                       <ul className="space-y-3">
@@ -326,7 +329,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
 
               {/* Local Job Market - Enhanced */}
               <section>
-                <div className="flex items-center gap-3 mb-8">
+                <div className="flex items-center gap-3 mb-5">
                   <div className="p-2 rounded-lg bg-accent/10">
                     <MapPin className="h-5 w-5 text-accent dark:text-accent" />
                   </div>
@@ -382,7 +385,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
 
               {/* Tax Considerations - Enhanced */}
               <section>
-                <div className="flex items-center gap-3 mb-8">
+                <div className="flex items-center gap-3 mb-5">
                   <div className="p-2 rounded-lg bg-amber-500/10">
                     <AlertCircle className="h-5 w-5 text-amber-600 dark:text-amber-400" />
                   </div>
@@ -396,7 +399,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                           <div className="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center group-hover:bg-amber-200 dark:group-hover:bg-amber-900/50 transition-colors">
                             <AlertCircle className="h-4 w-4 text-amber-600 dark:text-amber-400" />
                           </div>
-                          <span className="text-muted-foreground leading-relaxed pt-1">{tax}</span>
+                          <span className="text-sm text-muted-foreground leading-relaxed pt-1"><InlineMarkdown text={tax} /></span>
                         </li>
                       ))}
                     </ul>
@@ -406,7 +409,7 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
 
               {/* FAQs - Enhanced */}
               <section>
-                <div className="flex items-center gap-3 mb-8">
+                <div className="flex items-center gap-3 mb-5">
                   <div className="p-2 rounded-lg bg-indigo-500/10">
                     <MessageCircle className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
                   </div>
@@ -415,11 +418,11 @@ export default async function ProfessionPage({ params }: ProfessionPageProps) {
                 <div className="space-y-4">
                   {profession.faqs.map((faq, index) => (
                     <Card key={index} className="hover:shadow-md transition-all duration-300 border-l-4 border-l-indigo-300 dark:border-l-indigo-700 hover:border-l-indigo-500">
-                      <CardHeader className="pb-3">
-                        <h3 className="font-semibold text-lg text-foreground">{faq.question}</h3>
+                      <CardHeader className="pb-2">
+                        <h3 className="font-semibold text-base text-foreground">{faq.question}</h3>
                       </CardHeader>
                       <CardContent>
-                        <p className="text-muted-foreground leading-relaxed">{faq.answer}</p>
+                        <p className="text-sm text-muted-foreground leading-relaxed"><InlineMarkdown text={faq.answer} /></p>
                       </CardContent>
                     </Card>
                   ))}

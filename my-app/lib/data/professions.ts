@@ -382,103 +382,155 @@ export const professionsBase: Profession[] = [
     name: "English Teacher",
     title: "Teaching English in Argentina: Complete Guide",
     subtitle: "TEFL opportunities, visa pathways, and living as an educator in Argentina",
-    description: "Argentina has strong demand for English teachers in schools, language institutes, and corporate settings. Learn how to build your teaching career in this education-focused country.",
+    description: "Argentina has strong and growing demand for English teachers across language institutes, international schools, corporate training, and private tutoring. Teaching English is one of the most accessible ways for native speakers to live in Argentina long-term — no degree is strictly required at many institutes, and the lifestyle-to-income ratio is exceptional.",
     icon: "GraduationCap",
     category: "education",
-    overview: "English teaching is one of the most accessible ways for foreigners to live in Argentina. There's consistent demand across private language institutes, international schools, corporate training, and private tutoring. While salaries at local institutes are modest, many teachers supplement income with private classes or online teaching. The work-life balance is excellent, with plenty of time to explore the country.",
+    overview: "English teaching is the most accessible profession for foreigners wanting to live in Argentina. Demand is consistent year-round across private language institutes (Berlitz, Wall Street English, ICANA, Cultura Inglesa), international schools (Lincoln, St. Andrew's, Northlands), corporate in-company training, and a massive private tutoring market. In 2026, corporate English demand has surged as Argentine companies expand internationally and tech firms require English-fluent teams. While institute salaries are modest ($600-1,200 USD/month), most successful teachers earn $2,000-3,500 by combining institute hours with private classes ($15-40 USD/hour), corporate clients ($30-60 USD/hour), and online platforms. The work-life balance is genuinely excellent — most teachers work 20-30 hours weekly and have ample time to explore Argentina. TEFL certification (120+ hours) is strongly recommended and opens doors to better-paying positions. Cambridge CELTA, taken in Buenos Aires at institutions like the Buenos Aires English House, is the gold standard.",
     visaOptions: [
       {
         name: "Work Visa (Sponsorship)",
-        description: "Language schools can sponsor work visas, though not all offer this",
+        description: "Larger language institutes (Berlitz, ICANA, international schools) can sponsor work visas. Provides DNI and full legal employment.",
         difficulty: "Moderate",
         timeline: "2-4 months"
       },
       {
         name: "Student Visa",
-        description: "Take Spanish classes part-time while teaching",
+        description: "Enroll in Spanish classes or university courses while teaching privately. Most popular pathway — qualifies for part-time work (20 hrs/week).",
         difficulty: "Easy",
         timeline: "1-2 months"
       },
       {
-        name: "Digital Nomad + Online Teaching",
-        description: "Teach online for platforms like VIPKid, iTalki while living in Argentina",
+        name: "Digital Nomad Visa",
+        description: "For teachers working online for foreign platforms (Preply, iTalki, Cambly). $117 application fee. Must show $1,500+/month income.",
         difficulty: "Easy",
         timeline: "2-4 weeks"
+      },
+      {
+        name: "Working Holiday Visa",
+        description: "Available for citizens of France, Australia, NZ, Canada, and others. Ages 18-35. 12 months with full work rights.",
+        difficulty: "Easy",
+        timeline: "1-3 months"
       }
     ],
     workPermitRequirements: [
-      "TEFL/TESOL certification (preferred but not always required)",
-      "University degree (for better positions)",
-      "Native or near-native English proficiency",
-      "Criminal background check",
-      "Some institutes require teaching experience"
+      "TEFL/TESOL/CELTA certification (120+ hours strongly recommended; required by better institutes)",
+      "University degree (required by international schools; helpful but not essential for institutes)",
+      "Native or near-native English proficiency (C1+ level)",
+      "Criminal background check (apostilled from home country)",
+      "1+ years teaching experience (preferred by top institutes, not always required)",
+      "Valid passport with 6+ months remaining"
     ],
     incomeRequirements: {
-      description: "Teaching salaries vary widely by institution type",
-      amount: "$800 - $2,000 USD/month",
-      notes: "Supplement with private classes ($15-40/hour) for better income"
+      description: "Teaching income varies dramatically by how you structure your work",
+      amount: "$600 - $3,500 USD/month",
+      notes: "Institute-only: $600-1,200. Institute + private: $1,500-2,500. Online + corporate + private: $2,500-3,500+. Private classes $15-40/hr, corporate $30-60/hr."
     },
     remoteWork: {
       feasible: true,
-      description: "Online English teaching is extremely popular. Platforms like Preply, iTalki, and Cambly allow teachers to earn USD while living in Argentina.",
+      description: "Online English teaching lets you earn in USD/EUR while living in Argentina. Platforms like Preply, iTalki, Cambly, and Engoo provide steady student flows. Corporate online training for Latin American companies is a growing niche.",
       considerations: [
-        "Time zone differences may require early morning or late evening hours",
-        "Reliable internet is essential",
-        "Popular platforms: Preply, iTalki, Cambly, VIPKid",
-        "Rates typically $10-30/hour depending on experience",
-        "Build a student base for consistent income"
+        "Time zone advantage: Argentina (GMT-3) aligns well with European students (morning classes) and US students (afternoon/evening)",
+        "Reliable internet essential — Buenos Aires has 50-300 Mbps fiber in most neighborhoods",
+        "Top platforms: Preply ($15-40/hr), iTalki ($15-35/hr), Cambly ($10-12/hr), Engoo ($8-12/hr)",
+        "Build a private student base through referrals for $25-50/hr rates",
+        "Digital Nomad Visa specifically covers this scenario — $117 fee, no Argentine income tax on foreign earnings",
+        "Many teachers transition from platform teaching to their own website/brand over time"
       ]
     },
     localJobMarket: {
-      demand: "Medium",
-      averageSalary: "ARS $800,000-1,500,000/month ($600-1,200 USD) at institutes",
-      keyCities: ["Buenos Aires", "Cordoba", "Mendoza", "Rosario"],
-      industries: ["Language Institutes", "International Schools", "Corporate Training", "Private Tutoring"]
+      demand: "High",
+      averageSalary: "ARS $800,000-1,800,000/month ($600-1,400 USD) at institutes; corporate rates 2-3x higher",
+      keyCities: ["Buenos Aires", "Córdoba", "Mendoza", "Rosario", "Bariloche"],
+      industries: ["Language Institutes (Berlitz, Wall Street English, ICANA)", "International Schools (Lincoln, St. Andrew's, Northlands)", "Corporate In-Company Training", "Private Tutoring", "Online Platforms", "Exam Prep (IELTS, TOEFL, Cambridge)"]
     },
     professionalAssociations: [
       {
-        name: "Argentine Association of English Teachers (APIBA)",
-        description: "Professional association for English teachers"
+        name: "APIBA (Argentine Association of English Teachers)",
+        url: "https://www.apiba.org.ar",
+        description: "National professional association with conferences, workshops, and networking events"
+      },
+      {
+        name: "ARTESOL (Argentine Teachers of English to Speakers of Other Languages)",
+        description: "Academic association focused on TESOL research and professional development"
+      },
+      {
+        name: "Buenos Aires English House",
+        description: "Cambridge CELTA center and English teaching community hub"
       }
     ],
     credentialRecognition: {
       required: true,
-      description: "TEFL/TESOL certification is highly recommended. International schools require teaching credentials.",
-      process: "CELTA and TEFL certificates from accredited programs are recognized. Local institutes may have their own training programs."
+      description: "TEFL/TESOL/CELTA certification (120+ hours) is the standard credential. Cambridge CELTA is the gold standard — offered in Buenos Aires. International schools require a teaching degree and home-country teaching license.",
+      process: "CELTA courses available in Buenos Aires (4-week intensive, ~$1,500 USD). Online TEFL certifications from accredited programs (International TEFL Academy, TEFLPros) are widely accepted by institutes. For international schools, credentials must be authenticated by your home country's education authority."
     },
     taxConsiderations: [
-      "Local employment requires tax registration",
-      "Private tutoring income often goes unreported (common but not legal)",
-      "Online teaching platforms may handle tax withholding",
-      "Consider monotributo for freelance teaching"
+      "Digital Nomad Visa holders: No Argentine income tax on foreign online teaching earnings",
+      "Local institute employment: Employer handles tax withholding (impuesto a las ganancias) and retirement contributions",
+      "Private tutoring: Register as monotributo (simplified small business tax, ~$20-80/month) for legal freelance work",
+      "Online platform income: Report through monotributo if earning locally; DN visa exempts foreign-source income",
+      "International schools: Full formal employment with obra social (healthcare), retirement, and vacation benefits"
     ],
     networkingTips: [
-      "Join expat teacher Facebook groups",
-      "Connect with institutes directly (walk-ins work)",
-      "Offer conversation classes through Meetup",
-      "Network at international schools",
-      "Build a private student base through referrals"
+      "Join 'English Teachers in Buenos Aires' Facebook group (5,000+ members)",
+      "Attend APIBA annual conference and workshops for professional development and job leads",
+      "Walk into language institutes directly with your CV — this genuinely works in Argentina",
+      "Post on Craigslist Buenos Aires and MercadoLibre for private students",
+      "Offer conversation classes through Meetup.com groups — builds your student base",
+      "Network at international school events and British/American community gatherings",
+      "Join the 'Expat Teachers Argentina' WhatsApp group for job postings",
+      "Consider exam prep specialization (IELTS, TOEFL, Cambridge FCE/CAE) — pays 2-3x regular rates"
     ],
     faqs: [
       {
         question: "Do I need to speak Spanish to teach English?",
-        answer: "Not for the classroom (immersion method is preferred), but Spanish helps enormously for daily life and administrative tasks."
+        answer: "Not for the classroom — most institutes use the immersion/communicative method where classes are conducted entirely in English. However, basic Spanish is essential for daily life, dealing with institutes' administrative staff, and communicating with students' parents. You'll pick it up quickly through immersion."
       },
       {
         question: "Can I survive on just an English teacher salary?",
-        answer: "It's possible but tight. Most teachers combine institute work with private classes or online teaching. With the blue dollar rate, $1,500/month provides a comfortable lifestyle."
+        answer: "Tight but doable on institute-only salary ($600-1,200/month). Most successful teachers combine sources: morning institute classes + afternoon private students + evening online platform work = $2,000-3,000/month, which provides a very comfortable Buenos Aires lifestyle. The key is diversifying income streams."
       },
       {
         question: "When is the best time to apply for teaching jobs?",
-        answer: "February-March (start of school year) and July-August (mid-year intake). However, language institutes hire year-round."
+        answer: "Peak hiring: February-March (Argentine school year starts in March) and July-August (mid-year intake). However, language institutes hire year-round as they run continuous enrollment. International schools recruit December-February for the following year. Private tutoring demand peaks March-November."
+      },
+      {
+        question: "Is CELTA worth getting in Buenos Aires?",
+        answer: "Yes, if you plan to teach long-term. The 4-week intensive CELTA in Buenos Aires (~$1,500 USD) provides hands-on training with real students, immediate networking, and is the most respected qualification. It opens doors to better-paying positions and international school opportunities. Many teachers start with an online TEFL and upgrade to CELTA after arriving."
+      },
+      {
+        question: "What do corporate English classes pay?",
+        answer: "Corporate in-company training pays $30-60 USD/hour — the highest-paying teaching segment. Companies hire native speakers for executive English, business English, and presentation skills training. Build corporate clients through LinkedIn networking, word of mouth, and language consulting firms (Bridge Education, Linguaskill)."
+      },
+      {
+        question: "Can I teach without any certification?",
+        answer: "Some smaller institutes and private students accept native speakers without certification. However, TEFL certification (even a basic online 120-hour course, $200-500) dramatically improves your job prospects, teaching quality, and earning potential. Better institutes require it, and it's increasingly expected industry-wide."
+      },
+      {
+        question: "What visa do most English teachers use?",
+        answer: "Most use a combination: Student Visa (enroll in Spanish classes to stay legal while teaching part-time), Working Holiday Visa (if eligible, ages 18-35 from participating countries), or Digital Nomad Visa (for online teaching). Larger institutes can sponsor work visas but it takes 2-4 months."
       }
     ],
-    relatedProfessions: ["content-creator", "translator"],
+    relatedProfessions: ["content-creator", "translator", "online-teacher", "language-tutor"],
     resources: [
       {
         title: "Cost of Living Guide",
-        url: "/blog/cost-living-buenos-aires-2025",
+        url: "/cost-of-living",
         description: "Budget planning for teachers in Argentina"
+      },
+      {
+        title: "Student Visa Guide",
+        url: "/visas/student",
+        description: "Most common visa pathway for English teachers"
+      },
+      {
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "For online English teachers earning in foreign currency"
+      },
+      {
+        title: "Best Neighborhoods for Expats",
+        url: "/blog/best-neighborhoods-expats-buenos-aires",
+        description: "Where English teachers live in Buenos Aires"
       }
     ],
     image: "/images/professions/english-teacher.webp"
@@ -659,92 +711,142 @@ export const professionsBase: Profession[] = [
     description: "Argentina presents unique opportunities for entrepreneurs despite economic challenges. Learn about business formation, visa options, and navigating the local ecosystem.",
     icon: "Rocket",
     category: "business",
-    overview: "Argentina's entrepreneurial ecosystem has produced unicorns like MercadoLibre, OLX, and Globant. While economic volatility presents challenges, it also creates opportunities for innovative solutions. The country offers a large, educated market, competitive operating costs, and a culture that celebrates entrepreneurship.",
+    overview: "Argentina's entrepreneurial ecosystem has produced **11 unicorns** including MercadoLibre ($70B+), Globant, Auth0 (acquired by Okta for $6.5B), OLX, and Despegar. The 2026 *Ley de Emprendedores* modernization makes business formation faster than ever — a **Sociedad por Acciones Simplificada (SAS)** can be registered online in **24-48 hours** for under $500 USD through the Inspección General de Justicia (IGJ). *Decreto 524/2025* introduced a **Citizenship by Investment** pathway ($500,000 USD) for serious entrepreneurs. The country offers a large consumer market (46M people), the **best tech talent in Latin America**, competitive salaries ($1,500-3,500/month for senior engineers vs $8,000-15,000 in the US), and a culture that celebrates founders. Buenos Aires ranks as the **#1 startup ecosystem in Latin America** by Startup Genome.",
     visaOptions: [
       {
-        name: "Investment Visa",
-        description: "For entrepreneurs investing significantly in Argentine business",
+        name: "Investment Visa (Decreto 524/2025)",
+        description: "For entrepreneurs investing **$100,000+** in Argentine business. CBI pathway available at **$500,000+** for fast-track citizenship.",
         difficulty: "Complex",
         timeline: "3-6 months"
       },
       {
         name: "Digital Nomad Visa",
-        description: "For bootstrapped founders with existing income",
+        description: "For bootstrapped founders with existing foreign income (**$1,500+/month**). **No Argentine tax** on foreign earnings. Valid 180+180 days.",
         difficulty: "Easy",
         timeline: "2-4 weeks"
       },
       {
         name: "Mercosur Visa",
-        description: "Available to citizens of Mercosur countries for business activities",
+        description: "For citizens of Brazil, Uruguay, Paraguay, Chile, Bolivia, Colombia, Ecuador, Peru. Simplified residency with **2-year citizenship path**.",
         difficulty: "Easy",
         timeline: "1-2 months"
+      },
+      {
+        name: "Temporary Residency (Rentista/Investor)",
+        description: "For founders with passive income or investment capital. Allows full business activity.",
+        difficulty: "Moderate",
+        timeline: "2-4 months"
       }
     ],
     workPermitRequirements: [
-      "Business plan (for investment visa)",
-      "Proof of funds for business operations",
-      "Company registration with ARCA",
-      "Health insurance",
-      "Criminal background check"
+      "**Business plan** with financial projections (required for Investment Visa)",
+      "**Proof of funds** — bank statements showing capital availability",
+      "**SAS or SRL** company registration through IGJ (online, 24-48 hours for SAS)",
+      "**CUIT number** from ARCA (Argentine tax authority, formerly AFIP)",
+      "**Health insurance** — private prepaga ($50-300/month) or obra social through company",
+      "**Criminal background check** with apostille",
+      "For **CBI pathway**: $500,000 USD investment in qualifying sectors (tech, agriculture, energy, infrastructure)"
     ],
     incomeRequirements: {
-      description: "Investment visa requires significant capital",
-      amount: "$50,000+ USD investment for visa pathway",
-      notes: "Digital Nomad Visa only requires $1,500/month income"
+      description: "Varies by visa pathway and business structure",
+      amount: "$1,500/month (DN Visa) to $500,000 (CBI pathway)",
+      notes: "SAS formation costs **$300-500 USD**. Annual compliance costs **$2,000-5,000** including accounting, legal, and ARCA filings. Employer taxes add **~50%** on top of employee salaries (social security, ART insurance, union contributions)."
     },
     remoteWork: {
       feasible: true,
-      description: "Many entrepreneurs start remotely while building their Argentine operations.",
+      description: "Many entrepreneurs start remotely while building Argentine operations. The Digital Nomad Visa allows you to test the market for 6-12 months before committing to a local entity. Once ready, SAS formation is 100% online through the IGJ portal.",
       considerations: [
-        "Complex regulatory environment requires local expertise",
-        "High inflation requires careful financial planning",
-        "Strong talent pool at competitive salaries",
-        "Multiple currency environment creates complexity",
-        "Growing venture capital presence"
+        "SAS company formation now fully online — 24-48 hours, under $500 USD",
+        "Employer taxes add ~50% on top of salaries (social security, ART, union dues)",
+        "Senior developers cost $2,000-4,000/month vs $8,000-15,000+ in the US — 60-75% savings",
+        "Crypto and stablecoin infrastructure strong — USDT/USDC widely used for international payments",
+        "Blue dollar gap has converged to 5-10% of official rate (2026) — currency environment stabilizing",
+        "Growing VC/PE presence: Kaszek Ventures, NXTP Labs, Wayra, and international funds increasing Argentina focus"
       ]
     },
     localJobMarket: {
       demand: "High",
-      averageSalary: "N/A - Variable by business success",
-      keyCities: ["Buenos Aires", "Cordoba", "Mendoza"],
-      industries: ["Fintech", "Agtech", "Marketplaces", "SaaS"]
+      averageSalary: "N/A — Variable by business success. Funded startups typically raise $500K-5M seed rounds.",
+      keyCities: ["Buenos Aires", "Córdoba", "Mendoza", "Rosario"],
+      industries: ["Fintech", "Agtech", "SaaS", "E-commerce", "Biotech", "Climate Tech", "Edtech"]
     },
     professionalAssociations: [
       {
-        name: "ASEA (Argentine Entrepreneurs Association)",
-        description: "Support network for entrepreneurs"
+        name: "ASEA (Asociación de Emprendedores de Argentina)",
+        url: "https://asea.com.ar",
+        description: "Argentina's main entrepreneur association — networking, mentorship, policy advocacy"
       },
       {
         name: "Endeavor Argentina",
-        description: "High-impact entrepreneurship network"
+        url: "https://www.endeavor.org.ar",
+        description: "High-impact entrepreneurship network — mentorship from successful founders, access to investors"
+      },
+      {
+        name: "NXTP Labs / NXTP Ventures",
+        description: "Leading LATAM early-stage accelerator and VC fund (based in Buenos Aires)"
+      },
+      {
+        name: "Wayra Argentina (Telefónica)",
+        description: "Corporate accelerator with office space and funding programs"
+      },
+      {
+        name: "AmCham Argentina (American Chamber of Commerce)",
+        url: "https://www.amcham.com.ar",
+        description: "US-Argentina business networking, policy updates, events"
       }
     ],
     credentialRecognition: {
       required: false,
-      description: "Business experience matters more than formal credentials."
+      description: "Business experience and capital matter more than formal credentials. No degree required to start a business. ARCA registration (CUIT number) and IGJ company formation are the main requirements."
     },
     taxConsiderations: [
-      "Complex tax regime requires professional accounting",
-      "Multiple exchange rates affect business planning",
-      "High employer taxes (approximately 50% on top of salaries)",
-      "Export businesses have tax advantages",
-      "Consider hiring a gestor (administrative helper)"
+      "**IVA (VAT) at 21%** on domestic sales — collected and remitted monthly",
+      "**Impuesto a las Ganancias** (income tax) — *25% corporate rate* + 7% dividend withholding",
+      "**Employer social charges add ~50%** on top of gross salaries (jubilación, obra social, ART, sindicato)",
+      "**Monotributo** available for solo entrepreneurs under revenue thresholds (simplified single monthly payment)",
+      "Export services have **reduced IVA** and qualify for tax incentives under *Knowledge Economy Law* (Ley de Economía del Conocimiento)",
+      "**Digital Nomad Visa holders exempt** from Argentine tax on foreign earnings — test the market before incorporating locally",
+      "Hire a **contador público (CPA)** from day one — compliance is complex and penalties are steep",
+      "**Crypto banking law** (April 2026) opens regulated stablecoin settlement for international payments"
     ],
     networkingTips: [
-      "Attend BA Tech Week events",
-      "Join Endeavor or ASEA networks",
-      "Connect with accelerators like NXTP Labs",
-      "Engage with venture capital community",
-      "Participate in Startup Weekend events"
+      "Attend Buenos Aires Tech Week (BA Tech Week) — largest startup event in LATAM",
+      "Join ASEA and Endeavor for mentorship and investor introductions",
+      "Apply to NXTP Labs or Wayra accelerator programs",
+      "Cowork at WeWork, AreaTres, or Urban Station in Palermo — where founders meet",
+      "Attend Demo Day events at accelerators for deal flow and networking",
+      "Join 'Startups Argentina' and 'Founders BA' groups on Slack and WhatsApp",
+      "Connect with the American Chamber of Commerce for US-Argentina business opportunities",
+      "Participate in Startup Weekend Buenos Aires for rapid prototyping and team-building"
     ],
     faqs: [
       {
         question: "Is Argentina a good place to start a business?",
-        answer: "It depends on your sector. Tech and export-oriented businesses can thrive due to talent quality and costs. Domestic market businesses face inflation and regulatory challenges but access a large, educated consumer base."
+        answer: "For tech and export-oriented businesses, **Argentina is excellent**. You get Latin America's best tech talent at **60-75% less** than US salaries, a large consumer market (46M people), and an energetic startup ecosystem that has produced **11 unicorns**. The SAS company structure can be set up online in **24-48 hours**. Challenges include bureaucracy, employer taxes (~50% on top of salaries), and currency complexity — but for USD-earning businesses, the economics are compelling. The *Knowledge Economy Law* offers additional tax incentives for software, biotech, and creative industries."
       },
       {
-        question: "How much does it cost to incorporate?",
-        answer: "Company formation costs approximately $1,000-3,000 USD depending on structure. Ongoing compliance costs require budgeting for accounting and legal support."
+        question: "How do I form a company in Argentina?",
+        answer: "The fastest route is a **Sociedad por Acciones Simplificada (SAS)**, Argentina's modern startup entity. It can be registered **100% online** through the IGJ portal in **24-48 hours** for under $500 USD. You need: 1) A **CUIT number** from ARCA, 2) A registered **business address** (can use a coworking space), 3) At least one **director** (can be foreign with DNI), 4) Minimum capital of *2 salarios mínimos* (~$800 USD). For larger operations, consider an **SRL** (limited liability) or **SA** (corporation). A local *contador* and *abogado* are essential — budget $2,000-5,000/year for compliance."
+      },
+      {
+        question: "What about the Citizenship by Investment (CBI) pathway?",
+        answer: "*Decreto 524/2025* introduced a CBI pathway requiring **$500,000 USD** investment in qualifying sectors: technology, agriculture, energy, infrastructure, or real estate development. This provides **fast-track permanent residency** and an accelerated citizenship path. The investment must create jobs or demonstrate economic benefit. For entrepreneurs already investing at this level, CBI combined with Argentina's **dual-citizenship allowance** creates powerful global mobility — Argentine + your home country passport."
+      },
+      {
+        question: "What are the real costs of hiring employees in Argentina?",
+        answer: "Employer costs add approximately **50% on top of the gross salary**. A developer earning $2,500/month gross costs your company **~$3,750/month total**. Breakdown: *jubilación* (retirement) 18%, *obra social* (healthcare) 6%, ART (workers comp) 3-7%, union contributions 1-3%, plus the **aguinaldo** (13th month salary) paid in two installments (June and December). Many startups use **contractor arrangements** initially (*monotributo*) to reduce overhead, then transition to full employment as they scale. Platforms like **Deel** and **Remote.com** can handle Employer of Record (EOR) arrangements."
+      },
+      {
+        question: "Which accelerators and VCs are active in Argentina?",
+        answer: "Buenos Aires has Latin America's strongest startup investment ecosystem. Key players: **NXTP Labs/Ventures** (early-stage, based in BA), **Kaszek Ventures** (largest LATAM VC, Argentine-founded), **Wayra Argentina** (Telefónica's accelerator), **Endeavor Argentina** (high-impact mentorship), **500 Global** (active in LATAM), and increasing interest from US VCs like a16z and Sequoia's LATAM operations. Government programs like **Fonsoft** provide non-dilutive grants for software companies. **Y Combinator** has funded multiple Argentine startups (MercadoLibre, Auth0, Vercel)."
+      },
+      {
+        question: "Can I run my business on the Digital Nomad Visa?",
+        answer: "The Digital Nomad Visa is designed for people earning income from **foreign sources** — perfect for bootstrapped founders with revenue from outside Argentina. You can manage your international business, hire Argentine contractors, and **test the market for 6-12 months** before incorporating locally. However, if you're billing Argentine clients, employing Argentine staff directly, or generating local revenue, you'll need a **local entity (SAS/SRL)** and proper residency. Many founders use the DN Visa as a **trial period** before committing to full incorporation."
+      },
+      {
+        question: "How does Argentina's Knowledge Economy Law benefit tech startups?",
+        answer: "The *Ley de Economía del Conocimiento* (Knowledge Economy Law) provides significant tax incentives for software development, biotech, nanotech, and creative industries: **reduced employer social charges** (up to 70% reduction), **corporate income tax stability**, and a non-transferable **tax credit bond equal to 70%** of employer contributions. To qualify, companies must register with the *Knowledge Economy Registry* and meet criteria including R&D spending, quality certifications, and export revenue. This makes Argentina one of the **most tax-efficient locations in Latin America** for tech companies."
       }
     ],
     relatedProfessions: ["software-developer", "product-manager"],
@@ -770,75 +872,118 @@ export const professionsBase: Profession[] = [
     description: "Argentina's international business connections create steady demand for translation and interpretation services. Learn how to establish yourself as a language professional.",
     icon: "Languages",
     category: "creative",
-    overview: "Buenos Aires serves as a business hub for Latin America, creating consistent demand for English-Spanish translation and interpretation. Legal, medical, technical, and business translation are all viable specializations. The work can be done remotely for international clients or locally for businesses operating in Argentina.",
+    overview: "Buenos Aires is the translation capital of Latin America. The city produces more Traductor Público (sworn translator) graduates than any other in the region, and international demand for English-Spanish translation is growing with LATAM's tech and business expansion. There are two distinct career paths: Traductor Público (sworn/certified translator for legal documents — requires a 4-5 year university degree and CTPCBA registration) and freelance/commercial translator (no certification required). Legal, medical, technical, financial, and literary translation all offer viable specializations. The Traductor Público title carries legal authority — only sworn translators can certify translations for court documents, immigration paperwork, contracts, and apostilled records. For expats, the freelance commercial translation path is immediately accessible, while the sworn translator path requires significant study.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
-        description: "For translators with international client base",
+        description: "For translators with international client base. No Argentine tax on foreign translation income. 180+180 days.",
         difficulty: "Easy",
         timeline: "2-4 weeks"
       },
       {
-        name: "Digital Nomad Visa",
-        description: "For establishing local translation practice",
+        name: "Work Visa (Agency/Firm Sponsorship)",
+        description: "For translators hired by Argentine translation agencies, law firms, or international organizations.",
         difficulty: "Moderate",
-        timeline: "1-2 months"
+        timeline: "1-3 months"
+      },
+      {
+        name: "Temporary Residency (Freelance)",
+        description: "For establishing a local translation practice with monotributo registration.",
+        difficulty: "Moderate",
+        timeline: "2-4 months"
       }
     ],
     workPermitRequirements: [
-      "Translation credentials or demonstrated experience",
-      "Portfolio of translation work",
-      "Client contracts or employment proof",
-      "Health insurance",
-      "Background check"
+      "Translation credentials, university degree, or demonstrated professional experience",
+      "Portfolio of published translations or client testimonials",
+      "Client contracts, agency relationships, or employment proof",
+      "For sworn translation: Traductor Público degree from Argentine university + CTPCBA registration",
+      "Health insurance valid in Argentina (private prepaga $50-300/month)",
+      "Criminal background check with apostille"
     ],
     incomeRequirements: {
-      description: "Income varies by specialization and client type",
-      amount: "$1,200 - $2,500 USD/month",
-      notes: "Technical and legal translation commands higher rates"
+      description: "Income varies significantly by specialization and client type",
+      amount: "$1,200 - $4,000+ USD/month",
+      notes: "Sworn translation (legal docs): $30-80/page. Technical/medical: $0.12-0.20/word. Literary: $0.08-0.15/word. Interpretation: $200-600/day. US agencies pay 2-3x more than Argentine agencies."
     },
     remoteWork: {
       feasible: true,
-      description: "Translation is highly location-independent. Many translators work for agencies worldwide while living in Argentina.",
+      description: "Written translation is 100% location-independent. CAT tools (SDL Trados, MemoQ, Smartcat) and cloud platforms enable seamless remote work for clients worldwide. Interpretation (simultaneous/consecutive) increasingly remote via Zoom, KUDO, and Interprefy platforms.",
       considerations: [
-        "Time zones affect interpretation work more than translation",
-        "Specialized knowledge increases rates significantly",
-        "CAT tools work the same regardless of location",
-        "Consider certification for legal/medical translation"
+        "Written translation is fully remote — work from anywhere with internet",
+        "Remote interpretation platforms (KUDO, Interprefy, Zoom) growing rapidly since 2020",
+        "US agencies (TransPerfect, Lionbridge, SDL) actively recruit LATAM translators",
+        "Specialized knowledge (legal, medical, financial, tech) commands 2-3x higher rates",
+        "Machine translation post-editing (MTPE) is a growing field — don't resist AI, learn to work with it",
+        "Time zone overlap with US is a major advantage for interpretation scheduling"
       ]
     },
     localJobMarket: {
       demand: "Medium",
-      averageSalary: "ARS $1,000,000-2,000,000/month ($800-1,500 USD) locally",
-      keyCities: ["Buenos Aires"],
-      industries: ["Legal", "Medical", "Technical", "Business"]
+      averageSalary: "ARS $1,000,000-2,500,000/month ($800-2,000 USD) for local positions",
+      keyCities: ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+      industries: ["Legal", "Medical", "Technical", "Financial", "Literary", "Audiovisual (subtitling/dubbing)"]
     },
     professionalAssociations: [
       {
-        name: "CTPCBA (Colegio de Traductores)",
-        description: "Professional translators association for public translation certification"
+        name: "CTPCBA (Colegio de Traductores Públicos de la Ciudad de Buenos Aires)",
+        url: "https://www.traductores.org.ar",
+        description: "Official professional association for sworn translators in Buenos Aires — mandatory registration for legal translation work"
+      },
+      {
+        name: "AATI (Asociación Argentina de Traductores e Intérpretes)",
+        description: "Professional association for literary and technical translators and interpreters"
+      },
+      {
+        name: "FIT (International Federation of Translators)",
+        description: "Global translator federation — CTPCBA and AATI are member organizations"
       }
     ],
     credentialRecognition: {
       required: true,
-      description: "Certification is required for legal (sworn) translation. Other fields value credentials but experience matters most.",
-      process: "Public Translator certification requires examination through the CTPCBA for legal documents."
+      description: "For sworn/legal translation (Traductor Público): requires a 4-5 year university degree from an Argentine institution (UBA, USAL, UMSA, or others) and CTPCBA registration. Foreign translation degrees are NOT automatically recognized — degree validation through the Ministry of Education is required. For commercial/freelance translation: no certification required, but ATA (American Translators Association) or equivalent certification improves credibility.",
+      process: "Sworn translator path: 1) Validate foreign degree through Ministry of Education (4-6 months), 2) Complete any bridge courses required, 3) Register with CTPCBA ($200-400/year). Commercial path: build portfolio, get ATA certified if desired, register on platforms."
     },
     taxConsiderations: [
-      "Freelance translation typically registered under monotributo",
-      "International payments require proper documentation",
-      "Keep detailed records of all translations for tax purposes"
+      "Freelance translators typically register under monotributo (simplified tax regime) — single monthly payment covering income tax, VAT, and social security",
+      "Digital Nomad Visa holders exempt from Argentine income tax on foreign translation earnings",
+      "Sworn translators with local practice register as responsable inscripto if above monotributo thresholds",
+      "International payments through Wise, Payoneer, or PayPal — document all transactions for ARCA",
+      "Keep detailed records of all translations for tax and professional liability purposes"
     ],
     networkingTips: [
-      "Join translator associations",
-      "Connect with law firms and medical practices",
-      "Register with translation agencies",
-      "Build direct client relationships"
+      "Register with CTPCBA or AATI for professional networking and continuing education",
+      "Join ProZ.com and TranslatorsCafe.com — major platforms for finding translation work globally",
+      "Connect with Buenos Aires law firms (many need English-Spanish sworn translators regularly)",
+      "Build relationships with immigration attorneys (constant demand for certified document translations)",
+      "Register with major agencies: TransPerfect, Lionbridge, SDL, Translated.net",
+      "Attend CTPCBA continuing education workshops — held regularly in Buenos Aires",
+      "Join subtitling communities if interested in audiovisual translation (Netflix, Amazon demand is high)"
     ],
     faqs: [
       {
-        question: "Do I need certification to translate?",
-        answer: "Only for legal (sworn) translation. For other fields, demonstrated skill and specialization matter more."
+        question: "Do I need certification to translate in Argentina?",
+        answer: "It depends on the type of translation. For legal/sworn translation (court documents, immigration papers, contracts, apostilled records), you MUST be a registered Traductor Público through the CTPCBA — this requires a 4-5 year Argentine university degree. For commercial translation (websites, marketing, tech docs, medical, literary), no certification is required. Most expat translators work in the commercial space, where your portfolio and specialization matter more than credentials. ATA (American Translators Association) certification is respected but not legally required."
+      },
+      {
+        question: "What is a Traductor Público and how is it different from a regular translator?",
+        answer: "A Traductor Público is a sworn/certified translator with legal authority to certify translations for official use. Their signature and seal on a document gives it legal validity in Argentine courts and government agencies. Only Traductores Públicos registered with the CTPCBA can translate documents for immigration (Migraciones), court proceedings, apostille certification, and notarial acts. The title requires a 4-5 year university degree (UBA, USAL, UMSA, etc.) — it's a full profession, not just a certification. Regular translators work in commercial settings without legal certification authority."
+      },
+      {
+        question: "How much can I earn as a translator in Argentina?",
+        answer: "Earnings vary widely by specialization and client base. Sworn translation (legal documents): $30-80 per page, with immigration document demand providing steady work. Technical translation (medical, financial, IT): $0.12-0.20 per word. Literary translation: $0.08-0.15 per word. Conference interpretation: $200-600 per day. Working for US agencies or direct US clients pays 2-3x more than Argentine agencies. A full-time freelancer serving international clients typically earns $2,000-4,000+/month — very comfortable in Buenos Aires."
+      },
+      {
+        question: "Can I validate my foreign translation degree in Argentina?",
+        answer: "Yes, through the Ministry of Education's degree validation process (convalidación de título). Submit your degree, transcripts, and apostilled documents — the process takes 4-6 months. However, even with validation, you may need to complete bridge courses before qualifying for CTPCBA registration as a Traductor Público. If you're focused on commercial (non-legal) translation, degree validation isn't required — your skills, portfolio, and client relationships matter more."
+      },
+      {
+        question: "Is subtitling/audiovisual translation a good niche in Argentina?",
+        answer: "Excellent niche. Argentina has a long tradition of dubbing and subtitling for Latin American Spanish markets. Netflix, Amazon Prime, Disney+, and HBO Max all source Spanish subtitling and dubbing from Buenos Aires studios. Rates for audiovisual translation range from $3-8 per minute of content. The work is project-based and can be done remotely. Join communities like Subtle (subtitlers network) and connect with dubbing studios in Buenos Aires (Civisa Media, Polaco Audio)."
+      },
+      {
+        question: "What tools do professional translators use?",
+        answer: "Essential tools: SDL Trados Studio ($500-800/year, industry standard), MemoQ ($600/year, popular alternative), or Smartcat (free cloud-based option). Translation memory (TM) and terminology management are critical for consistency and speed. For subtitling: Subtitle Edit (free) or EZTitles (professional). For interpretation: KUDO or Interprefy platforms. Most agencies require you to use specific CAT tools, so familiarity with at least Trados and MemoQ is important. Machine translation post-editing (MTPE) using DeepL or Google Translate + human review is increasingly common."
       }
     ],
     relatedProfessions: ["english-teacher", "content-creator"],
@@ -1048,15 +1193,36 @@ export const professionsBase: Profession[] = [
     faqs: [
       {
         question: "Is Argentina good for SEO professionals?",
-        answer: "Yes. The growing tech ecosystem creates demand, and the favorable exchange rate makes USD earnings go very far. Plus, the work is fully remote-friendly."
+        answer: "Excellent. Buenos Aires has a growing SEO community with regular meetups, and the favorable exchange rate means USD client earnings go 3-5x further. A senior SEO consultant earning $4,000-6,000/month from US clients lives extremely well in Buenos Aires (rent, dining, private healthcare, entertainment all covered). The Digital Nomad Visa makes it easy — no Argentine tax on foreign earnings, 180+180 day validity."
+      },
+      {
+        question: "What SEO specializations pay best from Argentina?",
+        answer: "Technical SEO and enterprise SEO consulting command the highest rates ($100-200/hour for US clients). E-commerce SEO (Shopify, WooCommerce) offers steady agency work. SaaS SEO (content-led growth strategies) is in high demand from VC-backed startups. Spanish-language SEO for LATAM markets is a unique niche — US companies expanding into Latin America will pay premium rates for bilingual SEOs who understand both markets. Programmatic SEO and AI-assisted content optimization are emerging high-value skills."
+      },
+      {
+        question: "Can I work for Argentine companies as an SEO?",
+        answer: "Yes, Argentine companies are investing more in SEO as e-commerce grows. MercadoLibre, Despegar, Globant, and hundreds of startups hire SEO talent. Local salaries are lower ($1,200-2,300/month) but the work provides portfolio diversity and local networking. Many SEOs serve both international and local clients — international for income, local for connections and market understanding."
+      },
+      {
+        question: "What tools and platforms are standard for SEO work in Argentina?",
+        answer: "Same global toolset: Ahrefs or SEMrush for research ($99-199/month), Google Search Console and Analytics (free), Screaming Frog for technical audits ($259/year), Surfer SEO or Clearscope for content optimization. All cloud-based, all work identically from Argentina. Some agencies provide tool subscriptions. The Buenos Aires SEO community shares knowledge through local Slack groups and meetups — a good way to stay current on algorithm updates."
+      },
+      {
+        question: "Should I register as monotributo or use the Digital Nomad Visa?",
+        answer: "If all your clients are foreign, the Digital Nomad Visa is simpler — no Argentine tax obligations on foreign income, valid 180+180 days. If you want to invoice Argentine clients or stay long-term (2+ years toward citizenship), register under monotributo (simplified tax regime with fixed monthly payments based on revenue brackets). Many SEOs start with the DN Visa and transition to monotributo when they establish a local client base or decide to pursue permanent residency."
       }
     ],
     relatedProfessions: ["digital-marketing-manager", "content-writer"],
     resources: [
       {
-        title: "Remote Work Guide",
-        url: "/remote-work",
-        description: "Setting up for remote SEO work"
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote SEO work from Argentina"
+      },
+      {
+        title: "Cost of Living Guide",
+        url: "/cost-of-living",
+        description: "Budget planning for SEO professionals"
       }
     ],
     image: "/images/professions/seo-specialist.webp"
@@ -1130,16 +1296,33 @@ export const professionsBase: Profession[] = [
     ],
     faqs: [
       {
-        question: "Can I find writing work in Argentina?",
-        answer: "Most writers work remotely for US/EU clients. Local English-language opportunities exist but are limited. The Digital Nomad Visa is designed for this type of work."
+        question: "Can I find writing work while living in Argentina?",
+        answer: "Most English-language writing work comes from remote US/EU clients, not local Argentine employers. The Digital Nomad Visa is designed exactly for this — earn from foreign clients, pay no Argentine taxes. Best platforms to find work: Contently (premium assignments), ClearVoice, Upwork, and direct outreach to content agencies. Niche down (SaaS, finance, travel, health) for higher rates. Many writers in Buenos Aires earn $3,000-6,000+/month serving 3-5 regular clients. Local English-language publications (Buenos Aires Times, The Bubble) offer limited but real opportunities."
+      },
+      {
+        question: "What niches pay best for content writers?",
+        answer: "Highest-paying niches from Argentina: SaaS/tech content ($0.15-0.50/word), finance and fintech ($0.20-0.60/word), healthcare/medical ($0.15-0.40/word), and legal content ($0.15-0.35/word). Travel writing pays less per word ($0.05-0.15) but living in Argentina gives you unique content opportunities — you can pitch Argentina/South America stories to publications like Condé Nast Traveler, Lonely Planet, and Travel + Leisure. Content strategy and content marketing management (not just writing) pays $50-100/hour."
+      },
+      {
+        question: "Is AI replacing content writers?",
+        answer: "AI tools are changing the content landscape but haven't replaced skilled writers. Low-value SEO content and product descriptions are increasingly AI-generated, pushing rates down for commodity writing. However, thought leadership, brand journalism, technical explainers, case studies, and emotionally resonant storytelling still require human writers. The best-positioned writers in 2026 use AI for research and first drafts while focusing on strategy, voice, and subject matter expertise. Rates for skilled writers have actually increased as the market bifurcates between AI-generated commodity content and premium human-crafted content."
+      },
+      {
+        question: "What's the writing community like in Buenos Aires?",
+        answer: "Buenos Aires has a rich literary culture — it's the birthplace of Borges and Cortázar, and the city has more bookstores per capita than any other in the world. For English-speaking writers: Buenos Aires Writers Group (regular meetups), Alchemy Festival of the Written Word, and coworking spaces with writer communities (WeWork Palermo, AreaTres). Cafes are part of the writing culture — Palermo and San Telmo are full of cafe-writers. The cost of living allows you to write the novel/screenplay you've been putting off while maintaining income through freelance content work."
       }
     ],
-    relatedProfessions: ["content-creator", "seo-specialist"],
+    relatedProfessions: ["content-creator", "seo-specialist", "copywriter"],
     resources: [
       {
-        title: "Remote Work Guide",
-        url: "/remote-work",
-        description: "Resources for remote writers"
+        title: "Digital Nomad Visa Guide",
+        url: "/visas/digital-nomad",
+        description: "Visa for remote content writers"
+      },
+      {
+        title: "Cost of Living Guide",
+        url: "/cost-of-living",
+        description: "Budget planning for writers in Argentina"
       }
     ],
     image: "/images/professions/content-writer.webp"
@@ -3091,7 +3274,19 @@ export const professionsBase: Profession[] = [
     faqs: [
       {
         question: "Can I do HR for US companies from Argentina?",
-        answer: "Yes, many HR functions can be performed remotely including recruiting, onboarding, benefits administration, and employee relations. However, you should focus on advising rather than making legal decisions about US employment law without proper licensing."
+        answer: "Yes, and it's increasingly common. Recruiting (sourcing on LinkedIn, screening, interviewing via Zoom), onboarding coordination, benefits administration, HRIS management (BambooHR, Workday, Rippling), and employee engagement can all be done remotely. The 1-2 hour time zone difference with US East Coast is ideal. Many US companies with distributed teams specifically hire remote HR specialists in LATAM for the timezone overlap and bilingual advantage. Avoid making binding US employment law decisions without proper licensing — partner with employment attorneys for compliance questions."
+      },
+      {
+        question: "What HR specializations are most in demand?",
+        answer: "Tech recruiting is the highest-paying and most in-demand specialization — experienced tech recruiters earn $3,000-6,000/month plus placement bonuses. People Operations (people analytics, culture building, remote team management) is growing fast as companies go distributed. LATAM talent acquisition specialists are in high demand — US companies expanding into Latin America need HR professionals who understand both markets. Compensation and benefits for distributed teams is another hot niche."
+      },
+      {
+        question: "What's the difference between working for an EOR vs directly for a company?",
+        answer: "Employer of Record (EOR) platforms like Deel, Remote.com, and Oyster hire you as a local employee in Argentina while you work for a foreign company. This gives you full Argentine labor protections (obra social, vacation, aguinaldo) but typically lower total compensation. Working directly as a contractor via the Digital Nomad Visa gives you higher gross pay and more flexibility but no local benefits. Many HR professionals start as DN Visa contractors and transition to EOR arrangements when they want stability, or vice versa."
+      },
+      {
+        question: "Do I need to understand Argentine labor law?",
+        answer: "If serving US clients remotely, US/international HR knowledge is sufficient. But understanding Argentine labor law is valuable if: 1) Your company hires Argentine employees, 2) You consult on LATAM expansion, or 3) You want local employment. Argentine labor law is employee-protective — mandatory severance (1 month per year worked), 14 days minimum vacation, aguinaldo (13th month salary), strong union influence in many sectors. This complexity creates demand for HR specialists who can navigate both US and Argentine systems."
       }
     ],
     relatedProfessions: ["recruiter", "business-consultant", "virtual-assistant"],
@@ -3100,6 +3295,11 @@ export const professionsBase: Profession[] = [
         title: "Digital Nomad Visa Guide",
         url: "/visas/digital-nomad",
         description: "Visa for remote HR work"
+      },
+      {
+        title: "Work Visa Guide",
+        url: "/visas/work",
+        description: "For HR specialists sponsored by Argentine companies"
       }
     ],
     image: "/images/professions/hr-specialist.webp"
@@ -3174,8 +3374,20 @@ export const professionsBase: Profession[] = [
     ],
     faqs: [
       {
-        question: "What type of copywriting pays best?",
-        answer: "Direct response copywriting (sales pages, email sequences) typically pays most per project. Website copy and brand messaging offer steady work. Technical copywriting commands premium rates. Many successful copywriters specialize in a niche (SaaS, finance, health) to command higher fees."
+        question: "What type of copywriting pays best from Argentina?",
+        answer: "Direct response copywriting (sales pages, email sequences, VSLs) pays $2,000-10,000+ per project. SaaS website copy pays $3,000-8,000 per site. Technical copywriting (whitepapers, case studies) commands $0.30-1.00/word. UX writing for tech companies pays $60-120/hour. The highest-earning copywriters from Argentina specialize in a profitable niche (fintech, SaaS, health) and serve US clients — earning $5,000-15,000+/month is realistic for experienced specialists. Buenos Aires' lower cost of living means you can take on fewer projects and still live comfortably."
+      },
+      {
+        question: "How do I find copywriting clients while living in Argentina?",
+        answer: "Best channels: 1) Cold outreach to SaaS companies and agencies via LinkedIn (personalized, showing portfolio), 2) Upwork and Contently for building initial portfolio, 3) Referrals from existing clients (most reliable long-term), 4) Content marketing on LinkedIn/Twitter showing your expertise, 5) Buenos Aires coworking spaces and digital nomad meetups for local networking. The key is specialization — 'SaaS copywriter' gets more work than 'copywriter.' Most successful freelancers from Argentina land 2-3 retainer clients at $2,000-5,000/month each."
+      },
+      {
+        question: "Do I need to speak Spanish to copywrite from Argentina?",
+        answer: "Not for the work itself — most copywriting clients are English-speaking. However, Spanish proficiency dramatically improves your quality of life in Buenos Aires and opens up the growing LATAM Spanish-language market. Bilingual copywriters who can write in both English and Spanish command premium rates and access a market few native English speakers can compete in. For daily life, basic Spanish covers 80% of interactions."
+      },
+      {
+        question: "Is AI replacing copywriters?",
+        answer: "AI tools (ChatGPT, Claude, Jasper) are changing the field but not replacing skilled copywriters. Low-end content production (generic blog posts, product descriptions) is increasingly AI-assisted, pushing rates down. But strategic copywriting — brand voice development, conversion-focused sales pages, thought leadership, and high-stakes messaging — requires human insight, empathy, and business understanding that AI can't replicate. Successful copywriters in 2026 use AI as a tool for research and first drafts while focusing on strategy and human-centered messaging."
       }
     ],
     relatedProfessions: ["content-writer", "content-creator", "seo-specialist"],
@@ -3184,6 +3396,11 @@ export const professionsBase: Profession[] = [
         title: "Digital Nomad Visa Guide",
         url: "/visas/digital-nomad",
         description: "Visa for remote copywriting"
+      },
+      {
+        title: "Cost of Living Guide",
+        url: "/cost-of-living",
+        description: "Budget planning for copywriters in Argentina"
       }
     ],
     image: "/images/professions/copywriter.webp"
@@ -4549,8 +4766,20 @@ export const professionsBase: Profession[] = [
     ],
     faqs: [
       {
-        question: "What photography specialties work best remotely?",
-        answer: "Product photography for e-commerce (clients ship products), stock photography (passive income), photo editing services, and digital products (presets, courses) work entirely remotely. Portrait and event photography require local presence."
+        question: "What photography specialties work best remotely from Argentina?",
+        answer: "Product photography for e-commerce (clients ship products to your studio), photo editing/retouching services ($25-75/hour), stock photography on Shutterstock/Adobe Stock/Getty (passive income), and digital products (Lightroom presets, courses on Skillshare/Udemy) work entirely remotely. For in-person work, Argentina offers incredible opportunities: wedding photography in Buenos Aires (La Boca, Palermo, Recoleta — $2,000-5,000/wedding), travel photography across Patagonia and the Andes, and real estate photography for the booming expat property market."
+      },
+      {
+        question: "Is Buenos Aires good for photographers?",
+        answer: "Outstanding. Buenos Aires is one of the most photogenic cities in the world — street art in Palermo, tango in San Telmo, European architecture in Recoleta, colorful Caminito in La Boca, dramatic skies over the Río de la Plata. Beyond the city, Argentina offers Patagonia's glaciers, Iguazú Falls, Mendoza's vineyards, and the Atacama-adjacent northwest. Many travel photographers use Buenos Aires as a home base and travel for shoots. The cost of living allows you to invest in equipment — a studio apartment with good light in Palermo runs $500-800/month."
+      },
+      {
+        question: "How do I import photography equipment into Argentina?",
+        answer: "Tourist entry allows personal equipment (camera bodies, lenses, laptop) without duty. For professional-grade equipment beyond personal use, you may need to declare it at customs. Keep receipts and serial numbers documented. Buying equipment locally is expensive due to import taxes (cameras cost 40-80% more than in the US). Most photographers buy equipment in the US or Chile and bring it in. Used gear can be found on MercadoLibre (Argentina's eBay) at reasonable prices."
+      },
+      {
+        question: "Can I sell stock photography from Argentina?",
+        answer: "Yes — stock photography is a strong passive income stream. Submit to Shutterstock, Adobe Stock, Getty/iStock, and Alamy. Argentina's unique landscapes and cultural scenes (tango, gauchos, street markets) are underrepresented in stock libraries, giving you a competitive advantage. Earnings vary: a strong portfolio of 1,000+ images can generate $500-2,000/month passively. Focus on commercial-use lifestyle imagery and travel/destination content for highest returns."
       }
     ],
     relatedProfessions: ["graphic-designer", "video-editor", "content-creator"],
@@ -7928,8 +8157,16 @@ export const professionsBase: Profession[] = [
     ],
     faqs: [
       {
-        question: "Online vs in-person training?",
-        answer: "Online offers flexibility and scale (more clients, no travel). In-person allows hands-on form correction. Many trainers offer hybrid models. Online is location-independent."
+        question: "Can I train clients online from Argentina?",
+        answer: "Absolutely. Online personal training has exploded — Zoom/FaceTime for live sessions, Trainerize or TrueCoach for programming, and WhatsApp/Telegram for check-ins. Most trainers offer a hybrid model: live video sessions ($50-100/session) plus custom programming with form-check videos ($200-500/month per client). From Argentina, you can serve US clients in the morning (8am Buenos Aires = 7am EST) and have your afternoons free. A trainer with 15-20 online clients earning $200-400/month each makes $3,000-8,000/month — very comfortable in Buenos Aires."
+      },
+      {
+        question: "Can I train clients in person in Buenos Aires?",
+        answer: "Yes, Buenos Aires has a strong fitness culture. Porteños are health-conscious, and expat neighborhoods like Palermo, Belgrano, and Recoleta have gyms, parks (Bosques de Palermo, Parque Centenario), and outdoor training areas. In-person sessions for international clients run $30-60/session. Many trainers offer outdoor boot camps in parks (very popular). You can rent space at gyms (many offer hourly booth rental) or train clients in their building gyms. To work locally, consider monotributo registration for invoicing Argentine clients."
+      },
+      {
+        question: "What certifications are recognized in Argentina?",
+        answer: "International certifications (NASM, ACE, ISSA, NSCA) are respected but not legally required for private training in Argentina. For working at Argentine gyms, they typically want their own internal certification or a local degree (Profesor Nacional de Educación Física — a 4-year university degree). For online training of international clients, US certifications are all you need. CPR/AED certification is recommended regardless."
       }
     ],
     relatedProfessions: ["nutritionist", "wellness-coach", "yoga-instructor"],
@@ -7938,6 +8175,11 @@ export const professionsBase: Profession[] = [
         title: "Digital Nomad Visa Guide",
         url: "/visas/digital-nomad",
         description: "Visa for personal trainers"
+      },
+      {
+        title: "Best Neighborhoods Guide",
+        url: "/blog/best-neighborhoods-expats-buenos-aires",
+        description: "Find neighborhoods with good fitness infrastructure"
       }
     ],
     image: "/images/professions/personal-trainer.webp"
@@ -8011,8 +8253,16 @@ export const professionsBase: Profession[] = [
     ],
     faqs: [
       {
-        question: "Do I need RYT certification?",
-        answer: "Not legally required, but Yoga Alliance RYT-200 is the standard credential that students expect. Many studios and platforms require it."
+        question: "Do I need RYT certification to teach yoga in Argentina?",
+        answer: "For online teaching to international students, Yoga Alliance RYT-200 is the expected standard — most platforms and students require it. For teaching at Buenos Aires studios, RYT-200 or equivalent training is typically expected, though some studios accept experienced teachers without formal certification. RYT-500 or E-RYT credentials command higher rates. You can also complete teacher training in Argentina — Buenos Aires has excellent 200-hour programs ($2,000-3,500, often cheaper than US equivalents)."
+      },
+      {
+        question: "Is Buenos Aires good for yoga instructors?",
+        answer: "Excellent. Buenos Aires has a vibrant yoga community with studios in every neighborhood, particularly Palermo (highest density), Villa Crespo, and San Telmo. Outdoor classes in Bosques de Palermo and Parque Centenario are popular. The city attracts wellness-focused digital nomads who become students. Teaching rates at studios: ARS $5,000-15,000 per class ($4-12 USD — supplement with online teaching). Private sessions for expats: $30-60/hour. Many instructors combine studio teaching for community with online teaching for income."
+      },
+      {
+        question: "Can I do a yoga teacher training in Argentina?",
+        answer: "Yes, Buenos Aires has several Yoga Alliance-registered schools offering RYT-200 and RYT-500 programs. Costs are $2,000-3,500 for a full 200-hour training — significantly less than comparable programs in the US ($3,000-6,000) or Bali. Programs are available in English and Spanish. Some popular training centers include YogaClub Buenos Aires, Espacio Om, and Dharma Yoga. The immersive experience of studying yoga in Buenos Aires — with its cafe culture, tango, and creative energy — is unique."
       }
     ],
     relatedProfessions: ["personal-trainer", "wellness-coach", "meditation-teacher"],

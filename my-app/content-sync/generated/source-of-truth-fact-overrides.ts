@@ -50,14 +50,14 @@ export const blogPostsFactOverrides = {
     }
   },
   "complete-guide-digital-nomad-visa-argentina-2026": {
-    "reviewDate": "2026-03-10",
+    "reviewDate": "2026-03-08",
     "sourceUrls": [],
     "patch": {
-      "excerpt": "A March 2026 reality check on Argentina's digital nomad route: who actually qualifies, how the official process works, what it does not give you, and when a different residency path makes more sense.",
+      "excerpt": "Everything you need to know about Argentina's digital nomad visa: requirements, application process, costs, and insider tips from successful applicants.",
       "truthSync": {
         "canonicalKey": "blog-post:complete-guide-digital-nomad-visa-argentina-2026",
         "recordId": "expatsargentina:blog-post:complete-guide-digital-nomad-visa-argentina-2026",
-        "reviewDate": "2026-03-10",
+        "reviewDate": "2026-03-08",
         "sourceExport": "blogPosts",
         "sourceUrls": []
       }
@@ -566,316 +566,6 @@ export const cityComparisonsFactOverrides = {
         "recordId": "expatsargentina:comparison:ushuaia-vs-bariloche",
         "reviewDate": "2026-03-08",
         "sourceExport": "cityComparisons",
-        "sourceUrls": []
-      }
-    }
-  }
-} as const;
-
-export const cityServicesFactOverrides = {
-  "accountants": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "English-speaking accountants for expat tax planning and compliance.",
-      "whatToExpect": "Important for navigating Argentine tax system, especially for remote workers and business owners. Many specialize in expat situations.",
-      "costs": "Initial consultation: $50-100 | Monthly services: $50-200 | Annual tax filing: $200-500",
-      "truthSync": {
-        "canonicalKey": "service-directory:accountants",
-        "recordId": "expatsargentina:service-directory:accountants",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "banking": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Opening bank accounts, accessing financial services, and managing money as an expat in Argentina.",
-      "whatToExpect": "Traditional banks require DNI and proof of address. Fintech options available with just passport. Banking hours typically 10am-3pm weekdays.",
-      "costs": "Most accounts free; some have monthly fees $2-10 USD",
-      "truthSync": {
-        "canonicalKey": "service-directory:banking",
-        "recordId": "expatsargentina:service-directory:banking",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "coworking": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Shared offices, coworking spaces, and business centers for remote workers.",
-      "whatToExpect": "Buenos Aires has excellent coworking infrastructure. Monthly memberships, day passes, and dedicated desks available. Good internet and networking opportunities.",
-      "costs": "Day pass: $10-20 | Monthly hot desk: $100-200 | Dedicated desk: $200-350",
-      "truthSync": {
-        "canonicalKey": "service-directory:coworking",
-        "recordId": "expatsargentina:service-directory:coworking",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "expat-community": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Facebook groups, meetups, clubs, and community organizations for expats.",
-      "whatToExpect": "Active expat communities in Buenos Aires, smaller but present in other cities. Facebook groups are the main hub for connections and advice.",
-      "costs": "Most groups free; InterNations events $10-20 USD",
-      "truthSync": {
-        "canonicalKey": "service-directory:expat-community",
-        "recordId": "expatsargentina:service-directory:expat-community",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "grocery-stores": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Supermarkets, international food stores, and specialty shops for expats.",
-      "whatToExpect": "Major chains have most essentials. Specialty stores for Asian, Middle Eastern, and other international foods. Barrio Chino (Chinatown) has diverse options.",
-      "costs": "Weekly groceries: $80-150 USD per person",
-      "truthSync": {
-        "canonicalKey": "service-directory:grocery-stores",
-        "recordId": "expatsargentina:service-directory:grocery-stores",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "gym-fitness": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Gyms, fitness centers, and sports clubs for expats.",
-      "whatToExpect": "Good gym infrastructure in major cities. Various options from budget to premium. Many offer classes and personal training.",
-      "costs": "Budget: $30-50/month | Mid-range: $60-100/month | Premium: $100-200/month",
-      "truthSync": {
-        "canonicalKey": "service-directory:gym-fitness",
-        "recordId": "expatsargentina:service-directory:gym-fitness",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "healthcare": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Hospitals, clinics, doctors, and health insurance options for expats.",
-      "whatToExpect": "Public healthcare is free but crowded. Private healthcare (prepaga) offers faster service. Many doctors speak English in expat areas.",
-      "costs": "Public: Free | Private insurance: $100-400 USD/month | Consultations: $30-100 USD",
-      "truthSync": {
-        "canonicalKey": "service-directory:healthcare",
-        "recordId": "expatsargentina:service-directory:healthcare",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "housing": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Finding apartments, rental agencies, and real estate services for expats.",
-      "whatToExpect": "Rental market operates in USD for long-term contracts. Short-term rentals in pesos. Guarantor (garantía) often required - expats use seguro de caución instead.",
-      "costs": "Studio: $400-700 USD | 1BR: $600-1,000 USD | 2BR: $800-1,500 USD (monthly)",
-      "truthSync": {
-        "canonicalKey": "service-directory:housing",
-        "recordId": "expatsargentina:service-directory:housing",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "immigration-offices": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": " Dirección Nacional de Migraciones (DNM) offices where expats process visa applications, residency permits, and other immigration paperwork.",
-      "whatToExpect": "Immigration offices can be busy with long wait times. Appointments are recommended for many services. Bring all required documentation and copies.",
-      "costs": "Government fees vary by service; legal assistance $50-200 USD",
-      "truthSync": {
-        "canonicalKey": "service-directory:immigration-offices",
-        "recordId": "expatsargentina:service-directory:immigration-offices",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  },
-  "language-schools": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Language schools, tutors, and immersion programs for learning Spanish.",
-      "whatToExpect": "Group classes, private lessons, and immersion programs available. Prices significantly lower than US/Europe. Argentine Spanish (voseo) is distinct.",
-      "costs": "Group classes: $150-300 USD/week | Private: $15-25 USD/hour",
-      "truthSync": {
-        "canonicalKey": "service-directory:language-schools",
-        "recordId": "expatsargentina:service-directory:language-schools",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "cityServices",
-        "sourceUrls": []
-      }
-    }
-  }
-} as const;
-
-export const investmentSectorsFactOverrides = {
-  "agriculture": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Argentina is the world's 3rd largest soybean exporter, 2nd largest corn exporter, and a major beef producer — with agtech innovation creating new investment verticals in precision farming and sustainable agriculture.",
-      "marketSize": "$40+ billion annual exports",
-      "growthRate": "3-5% steady; agtech segment 15-20%",
-      "minInvestment": "$150,000 USD (land lease); $500,000+ (farm operations)",
-      "timeToReturn": "3-7 years for land appreciation; annual income from operations",
-      "recentDevelopments": [
-        "2024: Record soybean and corn harvests despite drought challenges",
-        "2024: Foreign investment interest in Pampas farmland increasing",
-        "2025: New agtech incubator launched in Córdoba",
-        "Ongoing: Export tax fluctuations affecting profit margins"
-      ],
-      "truthSync": {
-        "canonicalKey": "investment-sector:agriculture",
-        "recordId": "expatsargentina:investment-sector:agriculture",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "investmentSectors",
-        "sourceUrls": []
-      }
-    }
-  },
-  "energy": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "From Vaca Muerta — the world's second-largest shale formation — to exceptional wind resources in Patagonia, Argentina's energy sector is undergoing transformation with major investment opportunities.",
-      "marketSize": "$15+ billion annually",
-      "growthRate": "8-12% (Vaca Muerta); 20%+ (renewables)",
-      "minInvestment": "$50,000 (small solar); $500+ million (upstream oil & gas)",
-      "timeToReturn": "5-10 years (infrastructure); 2-5 years (renewables)",
-      "recentDevelopments": [
-        "2024: Vaca Muerta production exceeded 300,000 barrels/day oil",
-        "2024: Major LNG export project approved for Buenos Aires coast",
-        "2025: New renewable energy auctions announced",
-        "2025: Green hydrogen pilot projects launched in Patagonia"
-      ],
-      "truthSync": {
-        "canonicalKey": "investment-sector:energy",
-        "recordId": "expatsargentina:investment-sector:energy",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "investmentSectors",
-        "sourceUrls": []
-      }
-    }
-  },
-  "mining": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Argentina holds the world's 3rd largest lithium reserves, significant copper deposits, and untapped gold and silver resources — making it a strategic destination for critical minerals investment.",
-      "marketSize": "$6+ billion (rapidly expanding)",
-      "growthRate": "15-25% annually (lithium-driven)",
-      "minInvestment": "$5+ million (exploration); $200+ million (production)",
-      "timeToReturn": "7-12 years (mine development cycle)",
-      "recentDevelopments": [
-        "2024: Multiple lithium projects reached production milestones",
-        "2024: Rio Tinto acquired Arcadium Lithium (major Argentine assets)",
-        "2025: New copper discoveries announced in San Juan",
-        "2025: Government streamlining mining permitting process"
-      ],
-      "truthSync": {
-        "canonicalKey": "investment-sector:mining",
-        "recordId": "expatsargentina:investment-sector:mining",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "investmentSectors",
-        "sourceUrls": []
-      }
-    }
-  },
-  "real-estate": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "From Buenos Aires luxury apartments to Mendoza vineyards and Patagonia eco-lodges — Argentine real estate offers dollar-denominated opportunities at fractions of comparable global markets.",
-      "marketSize": "$12+ billion annual transactions",
-      "growthRate": "Variable by segment (8-15% in tourism real estate)",
-      "minInvestment": "$80,000 USD (residential); $200,000+ (commercial)",
-      "timeToReturn": "5-10 years for capital appreciation; immediate rental yields",
-      "recentDevelopments": [
-        "December 2023: Foreign land ownership restrictions revoked by Milei decree",
-        "2024: Increased foreign buyer interest in Buenos Aires luxury segment",
-        "2024: Mendoza vineyard prices up 20% year-over-year",
-        "2025: Short-term rental regulations tightening in Buenos Aires"
-      ],
-      "truthSync": {
-        "canonicalKey": "investment-sector:real-estate",
-        "recordId": "expatsargentina:investment-sector:real-estate",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "investmentSectors",
-        "sourceUrls": []
-      }
-    }
-  },
-  "technology": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "Buenos Aires is Latin America's 3rd largest startup ecosystem, with strengths in fintech, SaaS, and AI — offering venture capital and angel investment opportunities at valuations below US/EU markets.",
-      "marketSize": "$2+ billion annual VC investment",
-      "growthRate": "20-30% annually",
-      "minInvestment": "$10,000 (angel); $100,000+ (seed/VC)",
-      "timeToReturn": "5-10 years (typical VC cycle)",
-      "recentDevelopments": [
-        "2024: Record year for Argentine startup funding",
-        "2024: Multiple unicorns (Ualá, Nubank) with Argentine founders",
-        "2025: New VC funds launched focusing on Argentina",
-        "2025: Government proposing tech zone incentives in Buenos Aires"
-      ],
-      "truthSync": {
-        "canonicalKey": "investment-sector:technology",
-        "recordId": "expatsargentina:investment-sector:technology",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "investmentSectors",
-        "sourceUrls": []
-      }
-    }
-  },
-  "tourism": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
-    "patch": {
-      "description": "From wine tourism in Mendoza to eco-lodges in Patagonia and urban experiences in Buenos Aires — Argentina's tourism sector offers lifestyle investments with income potential in a post-pandemic recovery.",
-      "marketSize": "$8+ billion annually",
-      "growthRate": "12-18% post-pandemic recovery",
-      "minInvestment": "$100,000 (small B&B); $500,000+ (boutique hotel)",
-      "timeToReturn": "5-8 years for established operations",
-      "recentDevelopments": [
-        "2024: International tourism arrivals approaching pre-pandemic levels",
-        "2024: Mendoza wine tourism seeing 25% growth",
-        "2025: New luxury hotel openings in Buenos Aires and Patagonia",
-        "2025: Government launching tourism promotion campaign"
-      ],
-      "truthSync": {
-        "canonicalKey": "investment-sector:tourism",
-        "recordId": "expatsargentina:investment-sector:tourism",
-        "reviewDate": "2026-03-08",
-        "sourceExport": "investmentSectors",
         "sourceUrls": []
       }
     }
@@ -2556,6 +2246,153 @@ export const nationalitiesFactOverrides = {
         "recordId": "expatsargentina:country:vietnam",
         "reviewDate": "2026-03-08",
         "sourceExport": "nationalities",
+        "sourceUrls": []
+      }
+    }
+  }
+} as const;
+
+export const investmentSectorsFactOverrides = {
+  "agriculture": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina is the world's 3rd largest soybean exporter, 2nd largest corn exporter, and a major beef producer — with agtech innovation creating new investment verticals in precision farming and sustainable agriculture.",
+      "marketSize": "$40+ billion annual exports",
+      "growthRate": "3-5% steady; agtech segment 15-20%",
+      "minInvestment": "$150,000 USD (land lease); $500,000+ (farm operations)",
+      "timeToReturn": "3-7 years for land appreciation; annual income from operations",
+      "recentDevelopments": [
+        "2024: Record soybean and corn harvests despite drought challenges",
+        "2024: Foreign investment interest in Pampas farmland increasing",
+        "2025: New agtech incubator launched in Córdoba",
+        "Ongoing: Export tax fluctuations affecting profit margins"
+      ],
+      "truthSync": {
+        "canonicalKey": "investment-sector:agriculture",
+        "recordId": "expatsargentina:investment-sector:agriculture",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "investmentSectors",
+        "sourceUrls": []
+      }
+    }
+  },
+  "energy": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "From Vaca Muerta — the world's second-largest shale formation — to exceptional wind resources in Patagonia, Argentina's energy sector is undergoing transformation with major investment opportunities.",
+      "marketSize": "$15+ billion annually",
+      "growthRate": "8-12% (Vaca Muerta); 20%+ (renewables)",
+      "minInvestment": "$50,000 (small solar); $500+ million (upstream oil & gas)",
+      "timeToReturn": "5-10 years (infrastructure); 2-5 years (renewables)",
+      "recentDevelopments": [
+        "2024: Vaca Muerta production exceeded 300,000 barrels/day oil",
+        "2024: Major LNG export project approved for Buenos Aires coast",
+        "2025: New renewable energy auctions announced",
+        "2025: Green hydrogen pilot projects launched in Patagonia"
+      ],
+      "truthSync": {
+        "canonicalKey": "investment-sector:energy",
+        "recordId": "expatsargentina:investment-sector:energy",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "investmentSectors",
+        "sourceUrls": []
+      }
+    }
+  },
+  "mining": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Argentina holds the world's 3rd largest lithium reserves, significant copper deposits, and untapped gold and silver resources — making it a strategic destination for critical minerals investment.",
+      "marketSize": "$6+ billion (rapidly expanding)",
+      "growthRate": "15-25% annually (lithium-driven)",
+      "minInvestment": "$5+ million (exploration); $200+ million (production)",
+      "timeToReturn": "7-12 years (mine development cycle)",
+      "recentDevelopments": [
+        "2024: Multiple lithium projects reached production milestones",
+        "2024: Rio Tinto acquired Arcadium Lithium (major Argentine assets)",
+        "2025: New copper discoveries announced in San Juan",
+        "2025: Government streamlining mining permitting process"
+      ],
+      "truthSync": {
+        "canonicalKey": "investment-sector:mining",
+        "recordId": "expatsargentina:investment-sector:mining",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "investmentSectors",
+        "sourceUrls": []
+      }
+    }
+  },
+  "real-estate": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "From Buenos Aires luxury apartments to Mendoza vineyards and Patagonia eco-lodges — Argentine real estate offers dollar-denominated opportunities at fractions of comparable global markets.",
+      "marketSize": "$12+ billion annual transactions",
+      "growthRate": "Variable by segment (8-15% in tourism real estate)",
+      "minInvestment": "$80,000 USD (residential); $200,000+ (commercial)",
+      "timeToReturn": "5-10 years for capital appreciation; immediate rental yields",
+      "recentDevelopments": [
+        "December 2023: Foreign land ownership restrictions revoked by Milei decree",
+        "2024: Increased foreign buyer interest in Buenos Aires luxury segment",
+        "2024: Mendoza vineyard prices up 20% year-over-year",
+        "2025: Short-term rental regulations tightening in Buenos Aires"
+      ],
+      "truthSync": {
+        "canonicalKey": "investment-sector:real-estate",
+        "recordId": "expatsargentina:investment-sector:real-estate",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "investmentSectors",
+        "sourceUrls": []
+      }
+    }
+  },
+  "technology": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Buenos Aires is Latin America's 3rd largest startup ecosystem, with strengths in fintech, SaaS, and AI — offering venture capital and angel investment opportunities at valuations below US/EU markets.",
+      "marketSize": "$2+ billion annual VC investment",
+      "growthRate": "20-30% annually",
+      "minInvestment": "$10,000 (angel); $100,000+ (seed/VC)",
+      "timeToReturn": "5-10 years (typical VC cycle)",
+      "recentDevelopments": [
+        "2024: Record year for Argentine startup funding",
+        "2024: Multiple unicorns (Ualá, Nubank) with Argentine founders",
+        "2025: New VC funds launched focusing on Argentina",
+        "2025: Government proposing tech zone incentives in Buenos Aires"
+      ],
+      "truthSync": {
+        "canonicalKey": "investment-sector:technology",
+        "recordId": "expatsargentina:investment-sector:technology",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "investmentSectors",
+        "sourceUrls": []
+      }
+    }
+  },
+  "tourism": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "From wine tourism in Mendoza to eco-lodges in Patagonia and urban experiences in Buenos Aires — Argentina's tourism sector offers lifestyle investments with income potential in a post-pandemic recovery.",
+      "marketSize": "$8+ billion annually",
+      "growthRate": "12-18% post-pandemic recovery",
+      "minInvestment": "$100,000 (small B&B); $500,000+ (boutique hotel)",
+      "timeToReturn": "5-8 years for established operations",
+      "recentDevelopments": [
+        "2024: International tourism arrivals approaching pre-pandemic levels",
+        "2024: Mendoza wine tourism seeing 25% growth",
+        "2025: New luxury hotel openings in Buenos Aires and Patagonia",
+        "2025: Government launching tourism promotion campaign"
+      ],
+      "truthSync": {
+        "canonicalKey": "investment-sector:tourism",
+        "recordId": "expatsargentina:investment-sector:tourism",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "investmentSectors",
         "sourceUrls": []
       }
     }
@@ -5965,6 +5802,169 @@ export const restaurantsFactOverrides = {
   }
 } as const;
 
+export const cityServicesFactOverrides = {
+  "accountants": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "English-speaking accountants for expat tax planning and compliance.",
+      "whatToExpect": "Important for navigating Argentine tax system, especially for remote workers and business owners. Many specialize in expat situations.",
+      "costs": "Initial consultation: $50-100 | Monthly services: $50-200 | Annual tax filing: $200-500",
+      "truthSync": {
+        "canonicalKey": "service-directory:accountants",
+        "recordId": "expatsargentina:service-directory:accountants",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "banking": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Opening bank accounts, accessing financial services, and managing money as an expat in Argentina.",
+      "whatToExpect": "Traditional banks require DNI and proof of address. Fintech options available with just passport. Banking hours typically 10am-3pm weekdays.",
+      "costs": "Most accounts free; some have monthly fees $2-10 USD",
+      "truthSync": {
+        "canonicalKey": "service-directory:banking",
+        "recordId": "expatsargentina:service-directory:banking",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "coworking": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Shared offices, coworking spaces, and business centers for remote workers.",
+      "whatToExpect": "Buenos Aires has excellent coworking infrastructure. Monthly memberships, day passes, and dedicated desks available. Good internet and networking opportunities.",
+      "costs": "Day pass: $10-20 | Monthly hot desk: $100-200 | Dedicated desk: $200-350",
+      "truthSync": {
+        "canonicalKey": "service-directory:coworking",
+        "recordId": "expatsargentina:service-directory:coworking",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "expat-community": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Facebook groups, meetups, clubs, and community organizations for expats.",
+      "whatToExpect": "Active expat communities in Buenos Aires, smaller but present in other cities. Facebook groups are the main hub for connections and advice.",
+      "costs": "Most groups free; InterNations events $10-20 USD",
+      "truthSync": {
+        "canonicalKey": "service-directory:expat-community",
+        "recordId": "expatsargentina:service-directory:expat-community",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "grocery-stores": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Supermarkets, international food stores, and specialty shops for expats.",
+      "whatToExpect": "Major chains have most essentials. Specialty stores for Asian, Middle Eastern, and other international foods. Barrio Chino (Chinatown) has diverse options.",
+      "costs": "Weekly groceries: $80-150 USD per person",
+      "truthSync": {
+        "canonicalKey": "service-directory:grocery-stores",
+        "recordId": "expatsargentina:service-directory:grocery-stores",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "gym-fitness": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Gyms, fitness centers, and sports clubs for expats.",
+      "whatToExpect": "Good gym infrastructure in major cities. Various options from budget to premium. Many offer classes and personal training.",
+      "costs": "Budget: $30-50/month | Mid-range: $60-100/month | Premium: $100-200/month",
+      "truthSync": {
+        "canonicalKey": "service-directory:gym-fitness",
+        "recordId": "expatsargentina:service-directory:gym-fitness",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "healthcare": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Hospitals, clinics, doctors, and health insurance options for expats.",
+      "whatToExpect": "Public healthcare is free but crowded. Private healthcare (prepaga) offers faster service. Many doctors speak English in expat areas.",
+      "costs": "Public: Free | Private insurance: $100-400 USD/month | Consultations: $30-100 USD",
+      "truthSync": {
+        "canonicalKey": "service-directory:healthcare",
+        "recordId": "expatsargentina:service-directory:healthcare",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "housing": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Finding apartments, rental agencies, and real estate services for expats.",
+      "whatToExpect": "Rental market operates in USD for long-term contracts. Short-term rentals in pesos. Guarantor (garantía) often required - expats use seguro de caución instead.",
+      "costs": "Studio: $400-700 USD | 1BR: $600-1,000 USD | 2BR: $800-1,500 USD (monthly)",
+      "truthSync": {
+        "canonicalKey": "service-directory:housing",
+        "recordId": "expatsargentina:service-directory:housing",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "immigration-offices": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": " Dirección Nacional de Migraciones (DNM) offices where expats process visa applications, residency permits, and other immigration paperwork.",
+      "whatToExpect": "Immigration offices can be busy with long wait times. Appointments are recommended for many services. Bring all required documentation and copies.",
+      "costs": "Government fees vary by service; legal assistance $50-200 USD",
+      "truthSync": {
+        "canonicalKey": "service-directory:immigration-offices",
+        "recordId": "expatsargentina:service-directory:immigration-offices",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  },
+  "language-schools": {
+    "reviewDate": "2026-03-08",
+    "sourceUrls": [],
+    "patch": {
+      "description": "Language schools, tutors, and immersion programs for learning Spanish.",
+      "whatToExpect": "Group classes, private lessons, and immersion programs available. Prices significantly lower than US/Europe. Argentine Spanish (voseo) is distinct.",
+      "costs": "Group classes: $150-300 USD/week | Private: $15-25 USD/hour",
+      "truthSync": {
+        "canonicalKey": "service-directory:language-schools",
+        "recordId": "expatsargentina:service-directory:language-schools",
+        "reviewDate": "2026-03-08",
+        "sourceExport": "cityServices",
+        "sourceUrls": []
+      }
+    }
+  }
+} as const;
+
 export const visaComparisonsFactOverrides = {
   "digital-nomad-vs-work-visa": {
     "reviewDate": "2026-03-08",
@@ -6018,198 +6018,261 @@ export const visaComparisonsFactOverrides = {
 
 export const visaTypesFactOverrides = {
   "digital-nomad": {
-    "reviewDate": "2026-03-08",
+    "reviewDate": "2026-03-15",
     "sourceUrls": [
-      "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
-      "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
     ],
     "patch": {
-      "description": "Argentina's current digital nomad route is published as a transitory residence for remote workers with foreign activity. It works well for a structured short stay, but it is not the same thing as ordinary temporary residency with DNI by default.",
-      "requirements": {
-        "income": "Proof of foreign income sufficient for the stay. The official service focuses on solvency and remote activity rather than a single published statutory amount.",
-        "employment": "Contract or proof of remote employment with foreign company",
-        "other": [
-          "Applicant must already be in Argentina when filing",
-          "Passport from a country that does not require a tourist visa to enter Argentina",
-          "Proof of remote employment or foreign professional activity",
-          "Foreign documents apostilled or consular-legalized and translated into Spanish when required",
-          "Proof of domicile in Argentina"
-        ]
+      "costs": {
+        "applicationFee": "$117 USD (online payment)",
+        "renewalFee": "$117 USD",
+        "totalEstimate": "$117-250 USD including translations"
       },
-      "pathToCitizenship": "Not a direct citizenship track by itself. People planning permanent residency usually compare a different residence category before this status expires.",
+      "processingTime": "2-4 weeks online via TAD (Trámites a Distancia)",
+      "duration": "180 days, renewable once for an additional 180 days",
       "truthSync": {
         "canonicalKey": "visa-type:digital-nomad",
         "recordId": "expatsargentina:visa-type:digital-nomad",
-        "reviewDate": "2026-03-08",
+        "reviewDate": "2026-03-15",
         "sourceExport": "visaTypes",
-        "sourceUrls": []
-      },
-      "processingTime": "Officially framed as a short-stay transitory residence; real timing depends on appointments and document review",
-      "duration": "Up to 180 days, with a separate prorroga path for another period if approved",
-      "renewability": "Separate in-country prorroga request available while the status is still valid",
-      "faqs": [
-        {
-          "q": "Can I work for an Argentine company with this status?",
-          "a": "No. The published digital nomad route is built around foreign remote work, not local Argentine employment."
-        },
-        {
-          "q": "Does this automatically put me on a DNI or citizenship path?",
-          "a": "No. It is a transitory residence product for a limited stay. If you want a long-term residence strategy, compare the next category before the nomad status expires."
-        },
-        {
-          "q": "Do I need to be in Argentina to apply?",
-          "a": "Yes. The official service is structured as an in-country filing flow."
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "networkFacts": {
+          "applicationFee": "$117 USD",
+          "maxDuration": "360 days (180 + 180 renewal)",
+          "incomeRequirement": "$1,500+ USD/month recommended",
+          "eligibility": "Visa-free nationalities only",
+          "noDNI": "Digital Nomad Visa does not issue a DNI",
+          "noTax": "Foreign-source income exempt from Argentine income tax",
+          "framework": "Resolución 4430/2022, updated 2024"
         }
-      ]
+      }
     }
   },
   "investment": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
+    "reviewDate": "2026-03-15",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
+    ],
     "patch": {
-      "description": "The Investment Visa is for individuals making significant investments in Argentina, such as business formation, real estate, or other economic activities that benefit the country.",
-      "requirements": {
-        "investment": "Minimum investment of $150,000 USD in productive economic activity",
-        "other": [
-          "Business plan or investment proposal",
-          "Proof of funds origin",
-          "Valid passport",
-          "Clean criminal record (apostilled)",
-          "Proof of address in Argentina"
-        ]
+      "costs": {
+        "applicationFee": "$600-1,000 USD (varies by investment category)",
+        "investmentMinimum": "$500,000 USD for Citizenship by Investment pathway (Decreto 524/2025)",
+        "eligibleSectors": "Energy, agriculture, technology, tourism"
       },
-      "pathToCitizenship": "After 2 years, eligible for permanent residency → citizenship",
       "truthSync": {
         "canonicalKey": "visa-type:investment",
         "recordId": "expatsargentina:visa-type:investment",
-        "reviewDate": "2026-03-08",
+        "reviewDate": "2026-03-15",
         "sourceExport": "visaTypes",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "networkFacts": {
+          "CBIMinimum": "$500,000 USD (Decreto 524/2025)",
+          "CBISectors": "Energy, agriculture, technology, tourism",
+          "CBIProcessing": "Expedited residency processing",
+          "taxSeparation": "Tax residency separate from immigration status (2026 Labor Modernization Law)",
+          "traditionalMinimum": "No fixed minimum for traditional investment visa"
+        }
       }
     }
   },
   "mercosur": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
+    "reviewDate": "2026-03-15",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
+    ],
     "patch": {
-      "description": "Mercosur Residency is available to citizens of Mercosur member and associate countries. This is the most advantageous residency option for qualifying nationals, offering streamlined processing and full work rights.",
-      "requirements": {
-        "other": [
-          "Citizenship of qualifying country",
-          "Valid passport or national ID",
-          "Clean criminal record (requirements vary by nationality)",
-          "Proof of address in Argentina",
-          "Proof of means of support (flexible requirements)"
-        ]
-      },
-      "pathToCitizenship": "After 2 years, can apply for citizenship",
+      "pathToCitizenship": "2 years of continuous legal residency (Decreto 366/2025, reduced from previous norms)",
       "truthSync": {
         "canonicalKey": "visa-type:mercosur",
         "recordId": "expatsargentina:visa-type:mercosur",
-        "reviewDate": "2026-03-08",
+        "reviewDate": "2026-03-15",
         "sourceExport": "visaTypes",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "networkFacts": {
+          "citizenshipTimeline": "2 years (Decreto 366/2025)",
+          "fullMembers": "Brazil, Paraguay, Uruguay, Bolivia, Venezuela",
+          "associateMembers": "Chile, Peru, Colombia, Ecuador, Guyana, Suriname",
+          "precariaDuration": "90 days (renewable, allows legal work)",
+          "DNIIssuance": "DNI extranjero issued upon approval"
+        }
       }
     }
   },
   "pensionado": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
+    "reviewDate": "2026-03-15",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
+    ],
     "patch": {
-      "description": "The Pensionado Visa is specifically designed for retirees receiving pension income from their home country. This is a subset of the Rentista category but specifically optimized for retirees.",
-      "requirements": {
-        "income": "Proof of minimum $1,000-1,500 USD monthly pension income",
-        "other": [
-          "Official pension documentation",
-          "Pension must be stable and ongoing",
-          "Valid passport",
-          "Clean criminal record (apostilled)",
-          "Proof of address in Argentina"
-        ]
-      },
-      "pathToCitizenship": "After 2 years, eligible for permanent residency → citizenship",
       "truthSync": {
         "canonicalKey": "visa-type:pensionado",
         "recordId": "expatsargentina:visa-type:pensionado",
-        "reviewDate": "2026-03-08",
+        "reviewDate": "2026-03-15",
         "sourceExport": "visaTypes",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "networkFacts": {
+          "incomeThreshold": "$1,000-1,500 USD/month pension (lower than Rentista)",
+          "USSocialSecurity": "US Social Security qualifies",
+          "healthcareCost": "Private prepaga $50-300 USD/month",
+          "topRetireeCities": "Buenos Aires, Mendoza, Córdoba, Bariloche, Salta",
+          "DNIIssued": true
+        }
       }
     }
   },
   "rentista": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
+    "reviewDate": "2026-03-15",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
+    ],
     "patch": {
-      "description": "The Rentista Visa is for individuals with stable passive income from sources outside Argentina. This includes rental income, dividends, pension income, investment returns, or other passive revenue streams.",
-      "requirements": {
-        "income": "Proof of minimum $2,000+ USD monthly passive income",
-        "other": [
-          "Income must be from passive sources (not employment)",
-          "Income must be stable and documented",
-          "Valid passport (6+ months)",
-          "Clean criminal record (apostilled)",
-          "Proof of address in Argentina"
-        ]
-      },
-      "pathToCitizenship": "After 2 years of temporary residency, can apply for permanent residency → citizenship",
       "truthSync": {
         "canonicalKey": "visa-type:rentista",
         "recordId": "expatsargentina:visa-type:rentista",
-        "reviewDate": "2026-03-08",
+        "reviewDate": "2026-03-15",
         "sourceExport": "visaTypes",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "networkFacts": {
+          "incomeThreshold": "$2,000+ USD/month passive income (pensions, dividends, rental, royalties)",
+          "taxImplications": "Foreign-source income taxable at 9-35% after 12 months of tax residency",
+          "combinedSources": "Multiple income sources can be combined to meet threshold",
+          "renewalPeriod": "Annually renewable, must maintain income proof",
+          "DNIIssued": true
+        }
       }
     }
   },
   "student": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
+    "reviewDate": "2026-03-15",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
+    ],
     "patch": {
-      "description": "The Student Visa is for individuals enrolled in accredited Argentine educational institutions, including universities, language schools, and technical programs.",
-      "requirements": {
-        "other": [
-          "Acceptance letter from accredited institution",
-          "Proof of financial means to support yourself",
-          "Valid passport",
-          "Clean criminal record (may be required)",
-          "Health insurance",
-          "Proof of accommodation"
-        ]
-      },
-      "pathToCitizenship": "Can transition to work visa after graduation, then to permanent residency",
       "truthSync": {
         "canonicalKey": "visa-type:student",
         "recordId": "expatsargentina:visa-type:student",
-        "reviewDate": "2026-03-08",
+        "reviewDate": "2026-03-15",
         "sourceExport": "visaTypes",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "networkFacts": {
+          "freeUniversityPolicy": "Decreto 366/2025 allows institutions to charge non-resident foreign students",
+          "topUniversities": "UBA, UNC, UNCuyo, Austral, Di Tella",
+          "languageSchools": "Spanish language school enrollment qualifies for student visa",
+          "partTimeWork": "Student visa holders can work up to 20 hours/week",
+          "pathToCitizenship": "2 years continuous legal residency"
+        }
       }
     }
   },
   "work": {
-    "reviewDate": "2026-03-08",
-    "sourceUrls": [],
+    "reviewDate": "2026-03-15",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
+    ],
     "patch": {
-      "description": "The standard Work Visa requires sponsorship from an Argentine employer. This is the traditional employment-based immigration pathway for those seeking to work for Argentine companies.",
-      "requirements": {
-        "employment": "Valid job offer and sponsorship from registered Argentine employer",
-        "other": [
-          "Employment contract",
-          "Employer must be registered and in good standing",
-          "Position must be legitimate",
-          "Valid passport",
-          "Clean criminal record (apostilled)",
-          "Proof of qualifications/education"
-        ]
-      },
-      "pathToCitizenship": "After 2 years, can apply for permanent residency → citizenship",
       "truthSync": {
         "canonicalKey": "visa-type:work",
         "recordId": "expatsargentina:visa-type:work",
-        "reviewDate": "2026-03-08",
+        "reviewDate": "2026-03-15",
         "sourceExport": "visaTypes",
-        "sourceUrls": []
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "networkFacts": {
+          "obraSocial": "Employer-provided healthcare (obra social) mandatory",
+          "spouseWorkRights": "Spouse can work via reunificación familiar visa",
+          "regulatedProfessions": "Medicine, law, engineering, architecture require credential recognition",
+          "employerFees": "Most employers cover visa processing fees",
+          "processingTime": "1-3 months typical"
+        }
+      }
+    }
+  }
+} as const;
+
+export const networkFactsFactOverrides = {
+  "argentina-economy-2026": {
+    "reviewDate": "2026-03-15",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
+    ],
+    "patch": {
+      "truthSync": {
+        "canonicalKey": "network-fact:argentina-economy-2026",
+        "recordId": "expatsargentina:network-fact:argentina-economy-2026",
+        "reviewDate": "2026-03-15",
+        "sourceExport": "networkFacts",
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "facts": {
+          "blueDollarGap": "5-10% as of early 2026 (converged significantly from 100%+ in 2023)",
+          "cryptoBanking": "April 2026: Licensed crypto exchanges (Lemon Cash, Buenbit) can offer bank-like services",
+          "citizenshipTimeline": "2 years continuous legal residency (Decreto 366/2025)",
+          "CBIPathway": "$500,000 USD minimum in energy/agriculture/tech/tourism (Decreto 524/2025)",
+          "digitalNomadFee": "$117 USD application fee",
+          "healthcareRestriction": "Decreto 366/2025: Routine public healthcare requires permanent residency or private insurance; emergency care remains free for all",
+          "universityPolicy": "Decreto 366/2025: Public universities may charge non-resident foreign students",
+          "laborModernization": "2026 Labor Modernization Law separates tax residency from immigration status for CBI investors",
+          "inflationTrend": "Inflation declining under Milei administration stabilization program",
+          "prepapaRange": "Private healthcare (prepaga) costs $50-300 USD/month depending on coverage level"
+        }
+      }
+    }
+  },
+  "argentina-immigration-2026": {
+    "reviewDate": "2026-03-15",
+    "sourceUrls": [
+      "https://www.argentina.gob.ar/interior/migraciones",
+      "https://www.boletinoficial.gob.ar"
+    ],
+    "patch": {
+      "truthSync": {
+        "canonicalKey": "network-fact:argentina-immigration-2026",
+        "recordId": "expatsargentina:network-fact:argentina-immigration-2026",
+        "reviewDate": "2026-03-15",
+        "sourceExport": "networkFacts",
+        "sourceUrls": [
+          "https://www.argentina.gob.ar/interior/migraciones",
+          "https://www.boletinoficial.gob.ar"
+        ],
+        "facts": {
+          "decreto366_2025": "Establishes 2-year citizenship requirement, restricts routine public healthcare to permanent residents, allows universities to charge non-resident foreigners",
+          "decreto524_2025": "Creates Citizenship by Investment pathway: $500K minimum in energy, agriculture, tech, or tourism",
+          "laborModernizationLaw2026": "Separates CBI tax residency from immigration status — investors can be immigration residents without becoming tax residents",
+          "digitalNomadVisa": "180-day authorization (renewable once), $117 fee, visa-free nationals only, no DNI, no local income tax on foreign earnings",
+          "precariaRights": "Precaria document allows legal stay and work while residency application is being processed (90-day validity, renewable)",
+          "workingHoliday": "Bilateral agreements with France, Australia, New Zealand, Canada, and others (ages 18-35, 12-month visa)",
+          "humanitarianProvisions": "Special expedited processing available for nationals of conflict-affected countries"
+        }
       }
     }
   }

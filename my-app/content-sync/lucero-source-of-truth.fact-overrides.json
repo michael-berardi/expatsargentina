@@ -5999,198 +5999,260 @@
   },
   "visaTypes": {
     "digital-nomad": {
-      "reviewDate": "2026-03-08",
+      "reviewDate": "2026-03-15",
       "sourceUrls": [
-        "https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital",
-        "https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital"
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
       ],
       "patch": {
-        "description": "Argentina's current digital nomad route is published as a transitory residence for remote workers with foreign activity. It works well for a structured short stay, but it is not the same thing as ordinary temporary residency with DNI by default.",
-        "requirements": {
-          "income": "Proof of foreign income sufficient for the stay. The official service focuses on solvency and remote activity rather than a single published statutory amount.",
-          "employment": "Contract or proof of remote employment with foreign company",
-          "other": [
-            "Applicant must already be in Argentina when filing",
-            "Passport from a country that does not require a tourist visa to enter Argentina",
-            "Proof of remote employment or foreign professional activity",
-            "Foreign documents apostilled or consular-legalized and translated into Spanish when required",
-            "Proof of domicile in Argentina"
-          ]
+        "costs": {
+          "applicationFee": "$117 USD (online payment)",
+          "renewalFee": "$117 USD",
+          "totalEstimate": "$117-250 USD including translations"
         },
-        "pathToCitizenship": "Not a direct citizenship track by itself. People planning permanent residency usually compare a different residence category before this status expires.",
+        "processingTime": "2-4 weeks online via TAD (Trámites a Distancia)",
+        "duration": "180 days, renewable once for an additional 180 days",
         "truthSync": {
           "canonicalKey": "visa-type:digital-nomad",
           "recordId": "expatsargentina:visa-type:digital-nomad",
-          "reviewDate": "2026-03-08",
+          "reviewDate": "2026-03-15",
           "sourceExport": "visaTypes",
-          "sourceUrls": []
-        },
-        "processingTime": "Officially framed as a short-stay transitory residence; real timing depends on appointments and document review",
-        "duration": "Up to 180 days, with a separate prorroga path for another period if approved",
-        "renewability": "Separate in-country prorroga request available while the status is still valid",
-        "faqs": [
-          {
-            "q": "Can I work for an Argentine company with this status?",
-            "a": "No. The published digital nomad route is built around foreign remote work, not local Argentine employment."
-          },
-          {
-            "q": "Does this automatically put me on a DNI or citizenship path?",
-            "a": "No. It is a transitory residence product for a limited stay. If you want a long-term residence strategy, compare the next category before the nomad status expires."
-          },
-          {
-            "q": "Do I need to be in Argentina to apply?",
-            "a": "Yes. The official service is structured as an in-country filing flow."
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "networkFacts": {
+            "applicationFee": "$117 USD",
+            "maxDuration": "360 days (180 + 180 renewal)",
+            "incomeRequirement": "$1,500+ USD/month recommended",
+            "eligibility": "Visa-free nationalities only",
+            "noDNI": "Digital Nomad Visa does not issue a DNI",
+            "noTax": "Foreign-source income exempt from Argentine income tax",
+            "framework": "Resolución 4430/2022, updated 2024"
           }
-        ]
+        }
       }
     },
     "investment": {
-      "reviewDate": "2026-03-08",
-      "sourceUrls": [],
+      "reviewDate": "2026-03-15",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
+      ],
       "patch": {
-        "description": "The Investment Visa is for individuals making significant investments in Argentina, such as business formation, real estate, or other economic activities that benefit the country.",
-        "requirements": {
-          "investment": "Minimum investment of $150,000 USD in productive economic activity",
-          "other": [
-            "Business plan or investment proposal",
-            "Proof of funds origin",
-            "Valid passport",
-            "Clean criminal record (apostilled)",
-            "Proof of address in Argentina"
-          ]
+        "costs": {
+          "applicationFee": "$600-1,000 USD (varies by investment category)",
+          "investmentMinimum": "$500,000 USD for Citizenship by Investment pathway (Decreto 524/2025)",
+          "eligibleSectors": "Energy, agriculture, technology, tourism"
         },
-        "pathToCitizenship": "After 2 years, eligible for permanent residency → citizenship",
         "truthSync": {
           "canonicalKey": "visa-type:investment",
           "recordId": "expatsargentina:visa-type:investment",
-          "reviewDate": "2026-03-08",
+          "reviewDate": "2026-03-15",
           "sourceExport": "visaTypes",
-          "sourceUrls": []
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "networkFacts": {
+            "CBIMinimum": "$500,000 USD (Decreto 524/2025)",
+            "CBISectors": "Energy, agriculture, technology, tourism",
+            "CBIProcessing": "Expedited residency processing",
+            "taxSeparation": "Tax residency separate from immigration status (2026 Labor Modernization Law)",
+            "traditionalMinimum": "No fixed minimum for traditional investment visa"
+          }
         }
       }
     },
     "mercosur": {
-      "reviewDate": "2026-03-08",
-      "sourceUrls": [],
+      "reviewDate": "2026-03-15",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
+      ],
       "patch": {
-        "description": "Mercosur Residency is available to citizens of Mercosur member and associate countries. This is the most advantageous residency option for qualifying nationals, offering streamlined processing and full work rights.",
-        "requirements": {
-          "other": [
-            "Citizenship of qualifying country",
-            "Valid passport or national ID",
-            "Clean criminal record (requirements vary by nationality)",
-            "Proof of address in Argentina",
-            "Proof of means of support (flexible requirements)"
-          ]
-        },
-        "pathToCitizenship": "After 2 years, can apply for citizenship",
+        "pathToCitizenship": "2 years of continuous legal residency (Decreto 366/2025, reduced from previous norms)",
         "truthSync": {
           "canonicalKey": "visa-type:mercosur",
           "recordId": "expatsargentina:visa-type:mercosur",
-          "reviewDate": "2026-03-08",
+          "reviewDate": "2026-03-15",
           "sourceExport": "visaTypes",
-          "sourceUrls": []
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "networkFacts": {
+            "citizenshipTimeline": "2 years (Decreto 366/2025)",
+            "fullMembers": "Brazil, Paraguay, Uruguay, Bolivia, Venezuela",
+            "associateMembers": "Chile, Peru, Colombia, Ecuador, Guyana, Suriname",
+            "precariaDuration": "90 days (renewable, allows legal work)",
+            "DNIIssuance": "DNI extranjero issued upon approval"
+          }
         }
       }
     },
     "pensionado": {
-      "reviewDate": "2026-03-08",
-      "sourceUrls": [],
+      "reviewDate": "2026-03-15",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
+      ],
       "patch": {
-        "description": "The Pensionado Visa is specifically designed for retirees receiving pension income from their home country. This is a subset of the Rentista category but specifically optimized for retirees.",
-        "requirements": {
-          "income": "Proof of minimum $1,000-1,500 USD monthly pension income",
-          "other": [
-            "Official pension documentation",
-            "Pension must be stable and ongoing",
-            "Valid passport",
-            "Clean criminal record (apostilled)",
-            "Proof of address in Argentina"
-          ]
-        },
-        "pathToCitizenship": "After 2 years, eligible for permanent residency → citizenship",
         "truthSync": {
           "canonicalKey": "visa-type:pensionado",
           "recordId": "expatsargentina:visa-type:pensionado",
-          "reviewDate": "2026-03-08",
+          "reviewDate": "2026-03-15",
           "sourceExport": "visaTypes",
-          "sourceUrls": []
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "networkFacts": {
+            "incomeThreshold": "$1,000-1,500 USD/month pension (lower than Rentista)",
+            "USSocialSecurity": "US Social Security qualifies",
+            "healthcareCost": "Private prepaga $50-300 USD/month",
+            "topRetireeCities": "Buenos Aires, Mendoza, Córdoba, Bariloche, Salta",
+            "DNIIssued": true
+          }
         }
       }
     },
     "rentista": {
-      "reviewDate": "2026-03-08",
-      "sourceUrls": [],
+      "reviewDate": "2026-03-15",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
+      ],
       "patch": {
-        "description": "The Rentista Visa is for individuals with stable passive income from sources outside Argentina. This includes rental income, dividends, pension income, investment returns, or other passive revenue streams.",
-        "requirements": {
-          "income": "Proof of minimum $2,000+ USD monthly passive income",
-          "other": [
-            "Income must be from passive sources (not employment)",
-            "Income must be stable and documented",
-            "Valid passport (6+ months)",
-            "Clean criminal record (apostilled)",
-            "Proof of address in Argentina"
-          ]
-        },
-        "pathToCitizenship": "After 2 years of temporary residency, can apply for permanent residency → citizenship",
         "truthSync": {
           "canonicalKey": "visa-type:rentista",
           "recordId": "expatsargentina:visa-type:rentista",
-          "reviewDate": "2026-03-08",
+          "reviewDate": "2026-03-15",
           "sourceExport": "visaTypes",
-          "sourceUrls": []
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "networkFacts": {
+            "incomeThreshold": "$2,000+ USD/month passive income (pensions, dividends, rental, royalties)",
+            "taxImplications": "Foreign-source income taxable at 9-35% after 12 months of tax residency",
+            "combinedSources": "Multiple income sources can be combined to meet threshold",
+            "renewalPeriod": "Annually renewable, must maintain income proof",
+            "DNIIssued": true
+          }
         }
       }
     },
     "student": {
-      "reviewDate": "2026-03-08",
-      "sourceUrls": [],
+      "reviewDate": "2026-03-15",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
+      ],
       "patch": {
-        "description": "The Student Visa is for individuals enrolled in accredited Argentine educational institutions, including universities, language schools, and technical programs.",
-        "requirements": {
-          "other": [
-            "Acceptance letter from accredited institution",
-            "Proof of financial means to support yourself",
-            "Valid passport",
-            "Clean criminal record (may be required)",
-            "Health insurance",
-            "Proof of accommodation"
-          ]
-        },
-        "pathToCitizenship": "Can transition to work visa after graduation, then to permanent residency",
         "truthSync": {
           "canonicalKey": "visa-type:student",
           "recordId": "expatsargentina:visa-type:student",
-          "reviewDate": "2026-03-08",
+          "reviewDate": "2026-03-15",
           "sourceExport": "visaTypes",
-          "sourceUrls": []
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "networkFacts": {
+            "freeUniversityPolicy": "Decreto 366/2025 allows institutions to charge non-resident foreign students",
+            "topUniversities": "UBA, UNC, UNCuyo, Austral, Di Tella",
+            "languageSchools": "Spanish language school enrollment qualifies for student visa",
+            "partTimeWork": "Student visa holders can work up to 20 hours/week",
+            "pathToCitizenship": "2 years continuous legal residency"
+          }
         }
       }
     },
     "work": {
-      "reviewDate": "2026-03-08",
-      "sourceUrls": [],
+      "reviewDate": "2026-03-15",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
+      ],
       "patch": {
-        "description": "The standard Work Visa requires sponsorship from an Argentine employer. This is the traditional employment-based immigration pathway for those seeking to work for Argentine companies.",
-        "requirements": {
-          "employment": "Valid job offer and sponsorship from registered Argentine employer",
-          "other": [
-            "Employment contract",
-            "Employer must be registered and in good standing",
-            "Position must be legitimate",
-            "Valid passport",
-            "Clean criminal record (apostilled)",
-            "Proof of qualifications/education"
-          ]
-        },
-        "pathToCitizenship": "After 2 years, can apply for permanent residency → citizenship",
         "truthSync": {
           "canonicalKey": "visa-type:work",
           "recordId": "expatsargentina:visa-type:work",
-          "reviewDate": "2026-03-08",
+          "reviewDate": "2026-03-15",
           "sourceExport": "visaTypes",
-          "sourceUrls": []
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "networkFacts": {
+            "obraSocial": "Employer-provided healthcare (obra social) mandatory",
+            "spouseWorkRights": "Spouse can work via reunificación familiar visa",
+            "regulatedProfessions": "Medicine, law, engineering, architecture require credential recognition",
+            "employerFees": "Most employers cover visa processing fees",
+            "processingTime": "1-3 months typical"
+          }
+        }
+      }
+    }
+  },
+  "networkFacts": {
+    "argentina-economy-2026": {
+      "reviewDate": "2026-03-15",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
+      ],
+      "patch": {
+        "truthSync": {
+          "canonicalKey": "network-fact:argentina-economy-2026",
+          "recordId": "expatsargentina:network-fact:argentina-economy-2026",
+          "reviewDate": "2026-03-15",
+          "sourceExport": "networkFacts",
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "facts": {
+            "blueDollarGap": "5-10% as of early 2026 (converged significantly from 100%+ in 2023)",
+            "cryptoBanking": "April 2026: Licensed crypto exchanges (Lemon Cash, Buenbit) can offer bank-like services",
+            "citizenshipTimeline": "2 years continuous legal residency (Decreto 366/2025)",
+            "CBIPathway": "$500,000 USD minimum in energy/agriculture/tech/tourism (Decreto 524/2025)",
+            "digitalNomadFee": "$117 USD application fee",
+            "healthcareRestriction": "Decreto 366/2025: Routine public healthcare requires permanent residency or private insurance; emergency care remains free for all",
+            "universityPolicy": "Decreto 366/2025: Public universities may charge non-resident foreign students",
+            "laborModernization": "2026 Labor Modernization Law separates tax residency from immigration status for CBI investors",
+            "inflationTrend": "Inflation declining under Milei administration stabilization program",
+            "prepapaRange": "Private healthcare (prepaga) costs $50-300 USD/month depending on coverage level"
+          }
+        }
+      }
+    },
+    "argentina-immigration-2026": {
+      "reviewDate": "2026-03-15",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/interior/migraciones",
+        "https://www.boletinoficial.gob.ar"
+      ],
+      "patch": {
+        "truthSync": {
+          "canonicalKey": "network-fact:argentina-immigration-2026",
+          "recordId": "expatsargentina:network-fact:argentina-immigration-2026",
+          "reviewDate": "2026-03-15",
+          "sourceExport": "networkFacts",
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/interior/migraciones",
+            "https://www.boletinoficial.gob.ar"
+          ],
+          "facts": {
+            "decreto366_2025": "Establishes 2-year citizenship requirement, restricts routine public healthcare to permanent residents, allows universities to charge non-resident foreigners",
+            "decreto524_2025": "Creates Citizenship by Investment pathway: $500K minimum in energy, agriculture, tech, or tourism",
+            "laborModernizationLaw2026": "Separates CBI tax residency from immigration status — investors can be immigration residents without becoming tax residents",
+            "digitalNomadVisa": "180-day authorization (renewable once), $117 fee, visa-free nationals only, no DNI, no local income tax on foreign earnings",
+            "precariaRights": "Precaria document allows legal stay and work while residency application is being processed (90-day validity, renewable)",
+            "workingHoliday": "Bilateral agreements with France, Australia, New Zealand, Canada, and others (ages 18-35, 12-month visa)",
+            "humanitarianProvisions": "Special expedited processing available for nationals of conflict-affected countries"
+          }
         }
       }
     }
