@@ -51,23 +51,36 @@ type SecurityBlobEvent = {
 };
 
 const ALLOWED_BOT_PATTERNS = [
+  // Search engines
   /Googlebot/i,
   /GoogleOther/i,
   /Google-InspectionTool/i,
   /AdsBot-Google/i,
   /bingbot/i,
+  /Applebot/i,
+  /DuckDuckBot/i,
+  /YandexBot/i,
+  /Baiduspider/i,
+  /Sogou/i,
+  // AI search (SEO beneficial — drives referral traffic)
+  /Claude-SearchBot/i,
+  /OAI-SearchBot/i,
+  /PerplexityBot/i,
+  // Social previews
   /LinkedInBot/i,
   /Slackbot/i,
   /Discordbot/i,
   /TelegramBot/i,
   /Twitterbot/i,
   /facebookexternalhit/i,
+  /meta-webindexer/i,
   /WhatsApp/i,
-  /Applebot/i,
-  /DuckDuckBot/i,
+  // Monitoring & infrastructure
   /UptimeRobot/i,
   /Better Uptime/i,
   /Pingdom/i,
+  /vercel-screenshot/i,
+  /OverseerAgentSiteFetch/i,
 ];
 
 const BLOCKED_AUTOMATION_PATTERNS = [
@@ -88,12 +101,13 @@ const BLOCKED_AUTOMATION_PATTERNS = [
   /axios/i,
   /node-fetch/i,
   /undici/i,
+  /^node$/i,
+  /okhttp/i,
+  /Apache-HttpClient/i,
+  // AI training scrapers (NOT search — block these)
   /GPTBot/i,
-  /OAI-SearchBot/i,
   /ClaudeBot/i,
-  /Claude-SearchBot/i,
   /CCBot/i,
-  /PerplexityBot/i,
   /Bytespider/i,
   /Amazonbot/i,
   /Diffbot/i,
@@ -102,11 +116,13 @@ const BLOCKED_AUTOMATION_PATTERNS = [
 ];
 
 const BLOCKED_PATH_PATTERNS = [
-  /^\/(?:wp-admin|wp-login\.php|xmlrpc\.php)(?:\/|$)/i,
-  /^\/(?:phpmyadmin|pma|adminer)(?:\/|$)/i,
-  /^\/(?:\.env|\.git|\.hg|\.svn)(?:\/|$)/i,
+  /^\/(?:wp-admin|wp-login\.php|wp-includes|wp-content|xmlrpc\.php|wordpress)(?:\/|$)/i,
+  /^\/(?:phpmyadmin|pma|adminer|administrator)(?:\/|$)/i,
+  /^\/(?:\.env|\.git|\.hg|\.svn|\.DS_Store|\.htaccess|\.htpasswd)(?:\/|$)/i,
   /^\/(?:vendor\/phpunit|cgi-bin|server-status|boaform|HNAP1|actuator)(?:\/|$)/i,
-  /^\/(?:aws|_profiler|debug)(?:\/|$)/i,
+  /^\/(?:aws|_profiler|debug|console|shell|cmd|eval)(?:\/|$)/i,
+  /^\/(?:config\.php|configuration\.php|web\.config|database\.yml)(?:\/|$)/i,
+  /^\/(?:backup|bak|old|dump|sql)(?:\/|$)/i,
 ];
 
 const HTML_METHODS = new Set(["GET", "HEAD"]);
