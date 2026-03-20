@@ -3726,7 +3726,7 @@ export const professionsBase: Profession[] = [
     description: "E-commerce continues to grow rapidly. Learn how e-commerce managers can build remote careers serving international brands.",
     icon: "Rocket",
     category: "business",
-    overview: "E-commerce management has become highly remote-friendly as platforms like Shopify, WooCommerce, and Amazon enable managing stores from anywhere. E-commerce managers oversee online store operations, marketing, inventory, and customer experience. Argentine professionals bring strong digital marketing skills, analytical capabilities, and cultural awareness of consumer behavior. The role offers excellent remote opportunities with US and international brands. E-commerce is growing rapidly in Latin America, creating both remote and local opportunities. The profession requires platform expertise, marketing knowledge, and data analysis skills.",
+    overview: "E-commerce management has become one of the most portable careers in tech, and Argentina is an increasingly popular base for managers running Shopify, WooCommerce, and Amazon operations for international brands. Buenos Aires in particular offers a strong talent ecosystem — Mercado Libre (Latin America's largest e-commerce platform, headquartered in BA) has spawned an entire generation of e-commerce professionals, many of whom now freelance for global brands. Remote e-commerce managers serving US clients typically earn $4,000-$8,000/month while paying Buenos Aires living costs that are a fraction of major US cities. The time zone alignment (UTC-3) means you can handle US business hours comfortably. Argentina's own e-commerce market is booming — online retail grew 35% in 2025 — which creates local opportunities too. If you want to diversify, platforms like Tienda Nube (the local Shopify equivalent) and Mercado Libre's seller tools offer consulting opportunities with Argentine SMBs. For infrastructure, Buenos Aires has reliable 100-300 Mbps fiber internet and plenty of coworking options. The Digital Nomad Visa is the standard pathway for e-commerce managers serving foreign clients.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -6307,7 +6307,7 @@ export const professionsBase: Profession[] = [
     description: "Argentina has a growing game development scene, with several successful studios and a strong indie community. A practical guide for game devs considering the move.",
     icon: "Code",
     category: "tech",
-    overview: "Game Developers create video games using engines like Unity or Unreal. Argentina has a growing game development scene with several successful studios. Remote work is common in the game industry, with developers collaborating digitally. US and international studios pay $40-90+/hour for experienced game developers. The work combines programming, creativity, and problem-solving. Game developers can work on mobile, PC, or console games across various genres.",
+    overview: "Game Developers create video games using engines like Unity or Unreal, and Argentina has become one of Latin America's strongest game development hubs. Studios like Etermax (creators of Trivia Crack, with 200+ million downloads), Nimble Giant Entertainment, and Globant's gaming division have put Buenos Aires on the map. The indie scene is vibrant — events like EVA (Exposición de Videojuegos Argentina) attract hundreds of developers annually, and the BA game dev meetup community is one of the most active in South America. Remote game developers working for US or European studios earn $40-90+/hour while paying Buenos Aires living costs that are 50-65% lower than San Francisco or London. The time zone (UTC-3) aligns well with US studios for standups and sprint reviews. Neighborhoods like Palermo Soho and Villa Crespo are popular with game devs, offering fiber internet (100-300 Mbps widely available), affordable apartments, and proximity to coworking spaces. Argentina also has strong university CS programs (UBA, ITBA) producing a steady pipeline of junior talent, making it viable to eventually build a small local team if you transition from remote contractor to studio founder.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -8366,7 +8366,7 @@ export const professionsBase: Profession[] = [
     description: "Executive coaching serves C-suite and senior leaders. Learn how coaches can work with top executives remotely.",
     icon: "Crown",
     category: "business",
-    overview: "Executive Coaches work with C-suite executives, senior leaders, and high-potentials to enhance leadership effectiveness. Coaching engagements are intensive and high-value. Executive coaches earn $200-500+/hour. Argentine coaches with executive experience and strong credentials can serve global clients. Complex business structures and high net worth situations make professional immigration guidance especially important.",
+    overview: "Executive Coaches work with C-suite executives, senior leaders, and high-potentials to enhance leadership effectiveness. Coaching engagements are intensive and high-value, with rates ranging from $200 to $500+ per hour depending on client seniority and coach credentials. Argentina offers a compelling base for executive coaches: Buenos Aires sits in a time zone that overlaps comfortably with both US East Coast and European business hours, making it possible to serve clients across two major markets from a single location. The cost of living in neighborhoods like Palermo or Belgrano runs roughly 40-60% lower than New York or London, meaning coaches can maintain premium rates while significantly reducing personal expenses. The city's strong café culture and coworking scene — places like WeWork Retiro or Area Tres — provide professional environments for the occasional in-person session with Latin American executives. Argentina's growing tech and startup ecosystem also creates local demand for leadership coaching, though the real value proposition is serving international clients remotely. Coaches considering the move should plan around the Digital Nomad Visa, which was designed for exactly this kind of high-value remote professional work.",
     visaOptions: [
       {
         name: "Digital Nomad Visa",
@@ -8429,6 +8429,18 @@ export const professionsBase: Profession[] = [
       {
         question: "How do I break into executive coaching?",
         answer: "Typically requires senior executive experience OR extensive coaching experience with strong results. Start with middle managers, build track record, gradually move upmarket. ICF certification essential."
+      },
+      {
+        question: "Can I coach US executives from Buenos Aires?",
+        answer: "Yes — Buenos Aires is UTC-3, which means a 9am session in New York is noon in BA. Most coaches find they can cover the full US business day (9am-6pm ET) comfortably between noon and 9pm local time. Many coaches keep US-facing hours and enjoy Argentine evenings and weekends on a local schedule."
+      },
+      {
+        question: "Do I need to register my coaching business in Argentina?",
+        answer: "Under the Digital Nomad Visa, you can work for foreign clients without establishing a local entity. If you start taking Argentine clients, you will need a CUIT (tax ID) and may want to register as a monotributista for simplified tax treatment. Consult a local accountant — rates for professional tax setup run $100-200/month."
+      },
+      {
+        question: "What is the executive coaching market like in Argentina?",
+        answer: "The local market is small but growing, especially in Buenos Aires. Multinationals with offices in Argentina (like Mercado Libre, Globant, and Ualá) sometimes contract external coaches. Rates are lower locally — $50-150/hour in pesos — so most foreign coaches focus on international clients and treat local work as relationship-building."
       }
     ],
     relatedProfessions: ["life-coach", "management-consultant", "leadership-trainer"],
