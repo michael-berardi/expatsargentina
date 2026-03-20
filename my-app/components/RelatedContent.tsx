@@ -128,29 +128,95 @@ export function RelatedForVisa({ visaType }: { visaType: string }) {
 }
 
 export function RelatedForCity({ citySlug }: { citySlug: string }) {
-  return (
-    <RelatedContent
-      title="Explore more"
-      items={[
-        { title: "Cost of Living Guide", href: "/cost-of-living", description: "Compare costs across cities" },
-        { title: "Food & Dining", href: "/food", description: "Where and what to eat" },
-        { title: "Neighborhood Guides", href: "/neighborhoods", description: "Find the right area for you" },
-        { title: "Visa Requirements", href: "/visas", description: "Immigration options" },
-      ]}
-    />
-  );
+  const cityRelated: Record<string, RelatedItem[]> = {
+    "buenos-aires": [
+      { title: "Palermo Guide", href: "/neighborhoods/palermo", description: "The expat-friendly heart of BA" },
+      { title: "San Telmo Guide", href: "/neighborhoods/san-telmo", description: "Historic charm and culture" },
+      { title: "Recoleta Guide", href: "/neighborhoods/recoleta", description: "Elegant living in BA" },
+    ],
+    "mendoza": [
+      { title: "Wine Country Living", href: "/food", description: "Food and wine scene" },
+      { title: "Cordoba — Another Option", href: "/cities/cordoba", description: "Compare with Argentina's second city" },
+    ],
+    "cordoba": [
+      { title: "Mendoza — Wine Country", href: "/cities/mendoza", description: "Compare with Mendoza" },
+      { title: "Buenos Aires Living", href: "/cities/buenos-aires", description: "The capital experience" },
+    ],
+    "bariloche": [
+      { title: "Mendoza", href: "/cities/mendoza", description: "Another Patagonian gateway" },
+      { title: "El Calafate", href: "/cities/el-calafate", description: "Glaciers and southern Patagonia" },
+    ],
+  };
+
+  const specificLinks = cityRelated[citySlug] || [];
+  const items: RelatedItem[] = [
+    ...specificLinks,
+    { title: "Cost of Living Guide", href: "/cost-of-living", description: "Compare costs across cities" },
+    { title: "Neighborhood Guides", href: "/neighborhoods", description: "Find the right area for you" },
+    { title: "Visa Requirements", href: "/visas", description: "Immigration options for your move" },
+  ];
+
+  return <RelatedContent title="Explore more" items={items.slice(0, 5)} />;
 }
 
-export function RelatedForNationality({ nationality }: { nationality: string }) {
-  return (
-    <RelatedContent
-      title="Helpful resources"
-      items={[
-        { title: "Digital Nomad Visa", href: "/visas/digital-nomad", description: "Work remotely from Argentina" },
-        { title: "Cost of Living Guide", href: "/cost-of-living", description: "Budget planning for your move" },
-        { title: "Finding Accommodation", href: "/housing", description: "Renting apartments in Argentina" },
-        { title: "Community Forums", href: "/resources", description: "Connect with other expats" },
-      ]}
-    />
-  );
+export function RelatedForNationality({ nationality, region, hasMercosur, hasDigitalNomad }: { nationality: string; region?: string; hasMercosur?: boolean; hasDigitalNomad?: boolean }) {
+  const items: RelatedItem[] = [];
+
+  // Dynamic: link to same-region nationalities
+  const regionPeers: Record<string, RelatedItem[]> = {
+    "north-america": [
+      { title: "Americans in Argentina", href: "/nationality/united-states", description: "Visa paths and community resources" },
+      { title: "Canadians in Argentina", href: "/nationality/canada", description: "Immigration and tax considerations" },
+    ],
+    "europe": [
+      { title: "British Expats in Argentina", href: "/nationality/united-kingdom", description: "Post-Brexit visa rules" },
+      { title: "Spanish Citizens Moving Here", href: "/nationality/spain", description: "Historical ties and easy pathways" },
+      { title: "Italian Citizenship by Descent", href: "/nationality/italy", description: "Dual citizenship opportunities" },
+    ],
+    "latin-america": [
+      { title: "Mercosur Residency Pathway", href: "/visas/mercosur", description: "Fast-track for Latin American citizens" },
+      { title: "Brazilians in Argentina", href: "/nationality/brazil", description: "Southern neighbor community" },
+    ],
+    "asia": [
+      { title: "Community Networks", href: "/resources", description: "Connect with other Asian expats in Buenos Aires" },
+      { title: "Cultural Adjustment Guide", href: "/culture", description: "Bridging the cultural gap" },
+    ],
+    "oceania": [
+      { title: "Working Holiday Visa", href: "/visas/working-holiday", description: "Available for Australians and New Zealanders" },
+      { title: "Remote Work from Argentina", href: "/remote-work", description: "Working across time zones" },
+    ],
+    "africa": [
+      { title: "Cost of Living Comparison", href: "/cost-of-living", description: "Purchasing power and living standards" },
+      { title: "Community Resources", href: "/resources", description: "Support networks for African expats" },
+    ],
+  };
+
+  // Add region-specific peers (but not the current nationality)
+  const peers = regionPeers[region || ""] || [];
+  for (const peer of peers) {
+    if (!peer.href.includes(nationality)) {
+      items.push(peer);
+    }
+    if (items.length >= 2) break;
+  }
+
+  // Dynamic: relevant visa type based on nationality's eligibility
+  if (hasMercosur) {
+    items.push({ title: "Mercosur Residency", href: "/visas/mercosur", description: "Your fastest path to legal residency" });
+  } else if (hasDigitalNomad) {
+    items.push({ title: "Digital Nomad Visa", href: "/visas/digital-nomad", description: "Work remotely with legal status" });
+  } else {
+    items.push({ title: "Compare All Visa Types", href: "/visas", description: "Find the right visa for your situation" });
+  }
+
+  // Always include practical links
+  items.push({ title: "Cost of Living Guide", href: "/cost-of-living", description: "Budget planning for your move" });
+  items.push({ title: "Best Neighborhoods", href: "/neighborhoods", description: "Where to live in Buenos Aires" });
+
+  // Cross-link to cities if relevant
+  if (region === "europe" || region === "north-america") {
+    items.push({ title: "Cities Beyond Buenos Aires", href: "/cities/mendoza", description: "Mendoza, Cordoba, Bariloche and more" });
+  }
+
+  return <RelatedContent title={`Resources for ${nationality} expats`} items={items.slice(0, 5)} />;
 }

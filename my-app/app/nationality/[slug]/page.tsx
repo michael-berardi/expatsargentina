@@ -408,7 +408,12 @@ export default async function NationalityPage({ params }: NationalityPageProps) 
               </section>
 
               {/* Related Content */}
-              <RelatedForNationality nationality={nationality.slug} />
+              <RelatedForNationality
+                nationality={nationality.slug}
+                region={nationality.region}
+                hasMercosur={nationality.visaRequirements.mercosur?.eligible}
+                hasDigitalNomad={nationality.visaRequirements.digitalNomad.eligible}
+              />
             </div>
 
             {/* Right Sidebar */}
