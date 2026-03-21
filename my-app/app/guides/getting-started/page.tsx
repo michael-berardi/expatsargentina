@@ -416,17 +416,27 @@ export default function GettingStartedPage() {
                   Public Healthcare
                 </h3>
                 <p className="text-muted-foreground">
-                  Public hospitals are free for everyone, including foreigners
-                  with no documentation. Wait times can be long and facilities
-                  vary, but the care is competent and the system is a legitimate
-                  safety net. For emergencies, public hospitals like Hospital
-                  Italiano (which also has a private wing) and Hospital Aleman
-                  provide excellent care. Read our detailed{" "}
+                  Public hospitals still matter as a real emergency safety net,
+                  but if you are arriving in 2026 you should not plan around
+                  free routine care as a foreigner. After the 2025 migration
+                  changes, the safer assumption is that emergency treatment
+                  remains available while non-emergency care may require
+                  insurance or prepayment depending on the facility. For
+                  emergencies, public hospitals like Hospital Italiano (which
+                  also has a private wing) and Hospital Aleman can provide
+                  excellent care. Read our detailed{" "}
                   <Link
                     href="/healthcare"
                     className="text-primary hover:underline"
                   >
                     healthcare guide
+                  </Link>
+                  {" "}and the focused{" "}
+                  <Link
+                    href="/blog/argentina-entry-rules-2026-health-insurance"
+                    className="text-primary hover:underline"
+                  >
+                    2026 entry-rules update
                   </Link>
                   .
                 </p>

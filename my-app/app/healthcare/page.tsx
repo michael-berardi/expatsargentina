@@ -19,8 +19,8 @@ import { SourceAttribution } from "@/components/SourceAttribution";
 
 export const metadata: Metadata = {
   title: "Healthcare in Argentina 2026 - Mandatory Insurance, New Rules",
-  description: "Updated 2026 healthcare guide: mandatory travel insurance for entry, public hospitals now charge foreigners. Prepaga options, costs, and requirements.",
-  keywords: ["healthcare Argentina 2026", "mandatory travel insurance Argentina", "prepaga health insurance", "Argentina public hospital charges foreigners"],
+  description: "Updated 2026 healthcare guide: DNU 366/2025 changed the planning baseline for foreigners. Entry insurance, emergency vs routine public care, prepaga options, costs, and requirements.",
+  keywords: ["healthcare Argentina 2026", "mandatory travel insurance Argentina", "prepaga health insurance", "Argentina public hospital foreigners"],
   alternates: { canonical: "https://expatsargentina.com/healthcare" },
 };
 
@@ -42,7 +42,7 @@ const topHospitals = [
 const faqs = [
   {
     question: "How does healthcare work in Argentina for foreigners?",
-    answer: "Argentina has a mixed system of public and private healthcare. As of 2025, foreigners must show proof of health insurance to enter the country. Public hospitals now charge non-residents for non-emergency care, so private 'prepaga' insurance is essential for expats. Prepaga plans give you access to private hospitals, specialists, and clinics with minimal wait times and modern facilities.",
+    answer: "Argentina has a mixed system of public and private healthcare. After DNU 366/2025, the safe planning baseline for foreigners is: arrive with health insurance, expect emergency care to remain available, and do not assume routine public treatment will be free. In practice, many expats rely on private prepaga plans for day-to-day care because they offer better hospital access, shorter waits, and clearer billing.",
   },
   {
     question: "What is a 'prepaga' (private health plan)?",
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     question: "Can I use public hospitals as a foreigner?",
-    answer: "Emergency care at public hospitals is still provided to everyone regardless of nationality. However, as of 2025, public hospitals now charge foreigners for non-emergency care. The 'free healthcare for everyone' era has ended. Public hospital quality varies significantly—some like Hospital de Clínicas are excellent, while others are overcrowded. For reliable, consistent care, private prepaga is strongly recommended.",
+    answer: "Emergency care remains the baseline, so do not delay urgent treatment. But in 2026 you should no longer plan around the assumption that routine public care is universally free for non-residents. DNU 366/2025 changed that legal baseline, especially for habitual care in national-state facilities, and local practice can vary. For reliable specialist access and routine care, private prepaga is still the cleaner option.",
   },
   {
     question: "How much does private health insurance cost?",
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: "Do I need health insurance to enter Argentina?",
-    answer: "Yes, as of July 2025, all tourists and temporary residents must show proof of travel health insurance at immigration. This is actively checked. Your policy must cover medical expenses in Argentina. International travel insurance (like World Nomads or SafetyWing) satisfies this requirement. For long-term stays, transition to a local prepaga plan for better day-to-day coverage.",
+    answer: "The current legal baseline after DNU 366/2025 is that foreigners seeking admission under Argentina's migration categories submit a sworn declaration stating they have health insurance for their medical needs. Practical enforcement can vary by port of entry, but the right move is to arrive insured and keep proof with you. International travel insurance is usually the best bridge product until you can move to a local prepaga plan.",
   },
   {
     question: "Are prescriptions expensive in Argentina?",
@@ -137,10 +137,17 @@ export default function HealthcarePage() {
                   2026 Critical Update: New Healthcare Rules
                 </h2>
                 <ul className="text-red-800 dark:text-red-200 space-y-2">
-                  <li><strong>Mandatory Travel Insurance:</strong> Effective July 2025, all visitors must show proof of health insurance at immigration.</li>
-                  <li><strong>Public Hospitals Charge Foreigners:</strong> The "free healthcare for all" era has ended. Non-residents now receive bills for non-emergency care.</li>
+                  <li><strong>Carry Health Insurance:</strong> After DNU 366/2025, foreigners should expect health coverage to be part of normal entry and relocation planning.</li>
+                  <li><strong>Do Not Plan Around Free Routine Public Care:</strong> Emergency treatment remains the baseline, but non-emergency habitual care may require insurance or prepayment.</li>
                   <li><strong>Higher Insurance Costs:</strong> Prepaga prices have increased 50-75% since 2023 due to inflation and expat demand.</li>
                 </ul>
+                <p className="mt-4 text-sm text-red-800 dark:text-red-200">
+                  Need the practical version first? Read our{" "}
+                  <Link href="/blog/argentina-entry-rules-2026-health-insurance" className="font-medium underline underline-offset-4">
+                    2026 entry-rules update for expats
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>
@@ -155,11 +162,11 @@ export default function HealthcarePage() {
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="mb-4">
                 Argentina has a mixed healthcare system with both public and private options. 
-                As an expat, you'll primarily use the private system, which offers excellent 
-                quality care at a fraction of what you'd pay in the US or Europe.
+                As an expat, you&apos;ll primarily use the private system, which offers excellent
+                quality care at a fraction of what you&apos;d pay in the US or Europe.
               </p>
               <p className="mb-4">
-                The private system is accessed through "prepaga" health insurance plans. 
+                The private system is accessed through &quot;prepaga&quot; health insurance plans.
                 These plans give you access to private hospitals, clinics, and specialists 
                 with minimal wait times and modern facilities.
               </p>
@@ -199,14 +206,14 @@ export default function HealthcarePage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <ShieldIcon size="md" className="text-primary" />
-                    Public Healthcare (2026 Changes)
+                    Public Healthcare (2026 Baseline)
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <AlertCircleIcon size="sm" className="text-red-500 flex-shrink-0 mt-0.5" />
-                      <span><strong>Now charges foreigners</strong> (2025 policy change)</span>
+                      <span><strong>Routine care may require insurance or prepayment</strong></span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircleIcon size="sm" className="text-green-500 flex-shrink-0 mt-0.5" />
@@ -218,7 +225,7 @@ export default function HealthcarePage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <AlertCircleIcon size="sm" className="text-amber-500 flex-shrink-0 mt-0.5" />
-                      <span>Variable quality</span>
+                      <span>Variable quality and local implementation</span>
                     </li>
                   </ul>
                 </CardContent>

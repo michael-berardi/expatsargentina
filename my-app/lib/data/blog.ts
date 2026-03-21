@@ -28,6 +28,145 @@ export interface BlogPost {
 
 export const blogPostsBase: BlogPost[] = [
   {
+    slug: "argentina-entry-rules-2026-health-insurance",
+    title: "Argentina Entry Rules in 2026: Health Insurance, Public Hospitals, and What Expats Should Expect",
+    excerpt: "A practical March 2026 update on what DNU 366/2025 changed for expats, tourists, and digital nomads: entry insurance, emergency care, and why you should stop planning around free routine public treatment.",
+    content: `# Argentina Entry Rules in 2026: Health Insurance, Public Hospitals, and What Expats Should Expect
+
+As of March 21, 2026, one of the easiest ways to get misled by stale Argentina advice is healthcare. A lot of older English-language content still assumes two things are universally true: that you can arrive without any real health coverage, and that the public system will absorb your routine care for free as a foreigner.
+
+That is no longer a safe planning assumption.
+
+The legal baseline changed with [the official text of DNU 366/2025](https://www.argentina.gob.ar/normativa/nacional/decreto-366-2025-413297/texto). For expats, tourists, and digital nomads, the practical takeaway is simple: arrive with real health insurance, keep proof handy, and do not build your plan around free routine treatment.
+
+If you want the broader system overview after reading this, continue with our full [healthcare guide](/healthcare) and [insurance guide](/insurance).
+
+## What actually changed after DNU 366/2025
+
+The decree matters because it touched two points that affect almost every foreign arrival:
+
+1. It says foreigners seeking admission under Argentina's migration categories must present a sworn declaration stating the purpose of entry and that they have health insurance for their medical needs.
+2. Outside emergencies and permanent-resident access, habitual or routine care in establishments administered by the national state can require either health insurance or prior payment.
+
+That second point is where a lot of stale content now goes wrong. The old blanket line that public healthcare is simply free for every foreigner in every situation is no longer a reliable rule to plan around.
+
+There is still real-world variation in how different institutions behave. Provincial and municipal systems do not always operate identically, and front-desk enforcement can feel inconsistent. But that is exactly why the smart move is to arrive prepared rather than try to game the ambiguity.
+
+## Do you need health insurance to enter Argentina?
+
+In 2026, the prudent answer is yes.
+
+If you are arriving as a tourist, short-stay remote worker, or digital nomad, you should assume that health coverage is part of a normal, compliant entry file. Even if a specific officer does not ask to see your documents on a specific day, there is no upside to traveling uninsured.
+
+At minimum, carry:
+
+- A policy that clearly covers medical treatment in Argentina
+- Your policy number and emergency contact details
+- A digital copy on your phone and offline email
+- A printed copy in your carry-on
+
+If you are relying on a credit-card travel benefit, verify the actual coverage document before you fly. A vague app screen or card-member marketing page is not the same thing as a usable policy certificate.
+
+If you are using Argentina's [digital nomad route](/blog/complete-guide-digital-nomad-visa-argentina-2026), treat insurance as part of the core file, not an optional extra.
+
+## What emergency care still means
+
+The 2025 migration changes did **not** create a sensible planning rule that people in urgent need should be turned away.
+
+If you have an accident, acute illness, chest pain, serious infection, breathing trouble, or another true emergency, seek care immediately. In Buenos Aires, common emergency numbers include 107 for medical emergencies and 911 for general emergency response.
+
+The safer interpretation for expats is:
+
+- Emergency care remains the baseline protection
+- Routine follow-up, specialist visits, and planned treatment are where insurance and payment questions become much more relevant
+- You should not delay urgent care because you are worried about paperwork first
+
+In other words, do not confuse "routine care may now be billable" with "avoid the hospital if something serious happens." Those are not the same thing.
+
+## What routine care may now cost you
+
+This is where newcomers get surprised.
+
+If your issue is non-urgent, such as:
+
+- A specialist consultation
+- Ongoing prescription management
+- Lab work
+- Imaging
+- Follow-up care for a chronic condition
+- A planned check-up shortly after arrival
+
+you should be ready for a provider to ask for proof of coverage or payment arrangements.
+
+That does not automatically make Argentina a bad healthcare option. In fact, many expats still find Argentine private care remarkably affordable compared with the US, Canada, or parts of Europe. It just means the planning model changed.
+
+If you know you are likely to need non-emergency care soon after arrival, the cleaner strategy is to organize coverage before you board and to use the private system when possible. Our main [healthcare guide](/healthcare) explains the broader system, and our [insurance guide](/insurance) walks through the tradeoffs between travel coverage and local prepaga plans.
+
+## Best insurance setup by length of stay
+
+| Your situation | Best starting setup | Why |
+|---|---|---|
+| Tourist trip or scouting visit | International travel medical policy | Gives you compliant entry backup and emergency protection from day one |
+| Digital nomad stay up to 180 days | Strong travel policy for the full stay | The digital nomad route does not automatically solve DNI or local-plan enrollment |
+| Temporary resident waiting on DNI | Travel policy first, then switch to local prepaga when eligible | Many local plans become easier once your resident paperwork is in order |
+| Permanent resident long term | Local prepaga, plus travel add-on if you move around often | Best for normal specialist access, prescriptions, and day-to-day care |
+
+One important detail: many expats overestimate how quickly they can jump into a local private plan. Some prepaga options are much easier once you have a DNI or firmer local paperwork. That is why short-stay travel coverage is not just for tourists. It is often the bridge product for longer-term movers too.
+
+## What to keep in your carry-on
+
+Do not bury the important health paperwork in checked luggage.
+
+Your carry-on should include:
+
+- Passport
+- Insurance certificate
+- Policy number and emergency contact channel
+- A short medication list with generic names
+- At least a few weeks of essential medication in original packaging
+- Your first address in Argentina
+- A payment card with enough room for a deposit or outpatient bill if needed
+
+After landing, pair this with the practical steps in our [getting started guide](/guides/getting-started) and [first 30 days checklist](/first-30-days).
+
+## Common mistakes expats make
+
+### Assuming "public" means "free in every case"
+
+That used to be the lazy one-line explanation. In 2026 it is too blunt to trust.
+
+### Buying the cheapest nomad policy without reading exclusions
+
+Some low-cost plans are fine for catastrophic emergencies but weak for follow-up, prescriptions, or pre-existing conditions. If you have a known health issue, read the exclusions slowly.
+
+### Treating digital nomad status like full residency
+
+Short-stay immigration options do not automatically give you the same paperwork footing as a resident with a DNI. That affects banking, housing, and sometimes healthcare setup too.
+
+### Waiting until you are sick to compare coverage
+
+Insurance decisions feel abstract until you need a doctor on a Sunday. Make the decision before the problem exists.
+
+## Bottom line
+
+In 2026, the smart Argentina move is not to debate edge cases at the airport or assume a front desk will sort everything out in your favor.
+
+Carry health insurance. Keep proof easy to show. Assume emergency care is the baseline, but routine care may require coverage or payment. That is the planning framework that best fits the current legal and practical environment.
+
+For the next step, read our [healthcare guide](/healthcare), compare options in our [insurance guide](/insurance), and, if your stay depends on remote-work status, review the [digital nomad visa guide](/blog/complete-guide-digital-nomad-visa-argentina-2026) before you book flights.
+`,
+    category: "practical",
+    author: {
+      name: "Expats Argentina Editorial",
+      role: "Relocation & Healthcare Research Team"
+    },
+    publishedAt: "2026-03-21",
+    readTime: 11,
+    image: "/images/blog/argentina-entry-rules-2026.webp",
+    tags: ["argentina entry rules", "health insurance", "travel insurance", "public healthcare", "2026"],
+    relatedPosts: ["healthcare-argentina-expat-guide", "complete-guide-digital-nomad-visa-argentina-2026", "opening-bank-account-argentina-expat"]
+  },
+  {
     slug: "complete-guide-digital-nomad-visa-argentina-2026",
     title: "The Complete Guide to Argentina's Digital Nomad Visa in 2026",
     excerpt: "A March 2026 reality check on Argentina's digital nomad route: who actually qualifies, how the official process works, what it does not give you, and when a different residency path makes more sense.",
@@ -1486,14 +1625,17 @@ Welcome home.
 
 Argentina's healthcare system is a mix of public, private, and social security options. Understanding your choices is crucial for peace of mind during your stay.
 
+If you are reading this in 2026, start with one correction to a lot of older expat advice: do **not** assume routine public care is still universally free for non-residents. After DNU 366/2025, the safer planning baseline is that emergency care remains available, but routine care can involve health-insurance or payment requirements depending on the facility. For a focused breakdown, read our [2026 entry rules update](/blog/argentina-entry-rules-2026-health-insurance).
+
 ## Healthcare System Overview
 
 ### Public Healthcare (Sistema Público)
-- **Free for everyone** including tourists and expats
+- Emergency care remains the baseline protection
+- Routine non-emergency care may require insurance or prepayment
 - Available at public hospitals (hospitales públicos)
 - Variable quality depending on location
 - Can have long wait times
-- Good for emergencies and basic care
+- Best treated as an emergency and safety-net option, not your default routine-care plan
 
 ### Private Healthcare (Medicina Prepaga)
 - Monthly insurance plans
@@ -1511,12 +1653,12 @@ Argentina's healthcare system is a mix of public, private, and social security o
 ## Public Healthcare: What to Expect
 
 ### Pros
-- Completely free
 - Available everywhere
 - Qualified doctors
 - Good for emergencies
 
 ### Cons
+- Routine non-emergency care may require insurance or payment
 - Long wait times (hours to weeks)
 - Overcrowded facilities
 - Variable cleanliness
@@ -1525,9 +1667,9 @@ Argentina's healthcare system is a mix of public, private, and social security o
 
 ### When to Use Public
 - Emergency situations
-- Routine check-ups with patience
-- When between insurance plans
-- Prescription refills
+- Urgent stabilizing care
+- When you can confirm the local coverage or payment rules in advance
+- As a safety net rather than your primary long-term plan
 
 ## Private Healthcare: The Best Option for Expats
 
@@ -1716,7 +1858,7 @@ Argentina is popular for dental tourism due to quality and cost.
 
 ## Health Insurance for Visas
 
-Most visas require proof of health insurance:
+Most visas require proof of health insurance, and after DNU 366/2025 you should treat insurance as part of normal entry planning as well:
 - Must cover Argentina
 - Minimum coverage amounts vary by visa type
 - Usually $50,000-100,000 minimum
@@ -1760,10 +1902,11 @@ Stay healthy!
       role: "Healthcare & Insurance Experts"
     },
     publishedAt: "2025-12-10",
+    updatedAt: "2026-03-21",
     readTime: 13,
     image: "/images/blog/argentina-healthcare.webp",
     tags: ["healthcare", "insurance", "hospitals", "doctors", "health"],
-    relatedPosts: ["opening-bank-account-argentina-expat", "argentinian-culture-shock-what-to-expect"]
+    relatedPosts: ["argentina-entry-rules-2026-health-insurance", "opening-bank-account-argentina-expat", "argentinian-culture-shock-what-to-expect"]
   },
   {
     slug: "best-cities-remote-workers-argentina",
